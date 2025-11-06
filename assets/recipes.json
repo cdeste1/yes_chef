@@ -1,0 +1,1206 @@
+[
+  {
+    "recipe": {
+      "name": "Don Angie's Pinwheel Lasagna",
+      "source": "https://cherrybombe.com/blogs/recipes/don-angies-pinwheel-lasagna",
+      "imageUrl": "https://cherrybombe.com/cdn/shop/articles/Don_2BAngie_2BPinwheel_2BLasagna_2B-_2Bcredit_2BChristopher_2BTestani_9afcdcb9-ab4a-4141-a0f3-9dbe288155c4.jpg?v=1711555857&width=1200",
+      "chef": "Angie Rito & Scott Tachinelli",
+      "yield": "16 pinwheels (serves 8-10)",
+      "description": "A rolled lasagna pinwheel filled with sausage bolognese, besciamella, mozzarella, and Parmigiano-Reggiano, baked in tomato sauce and finished with robiolina.",
+      "category": "main",
+      "keywords": "pasta, lasagna, dinner, italian",
+      "ingredients": [
+        { "item": "Kosher salt", "note": "for the pasta water (see Note)" },
+        { "item": "Northern-Style Egg Yolk Pasta", "quantity": "8 sheets", "note": "12 × 7 inches, see sub-recipe; or use store-bought fresh pasta sheets" },
+        { "item": "Besciamella", "quantity": "1 cup + 3 tablespoons", "note": "see sub-recipe" },
+        { "item": "Whole-milk mozzarella cheese", "quantity": "4 cups", "note": "shredded" },
+        { "item": "Parmigiano-Reggiano cheese", "quantity": "1 cup", "note": "finely grated" },
+        { "item": "Italian Sausage Bolognese", "quantity": "4 cups", "note": "see sub-recipe" },
+        { "item": "10-Minute San Marzano Tomato Sauce", "quantity": "2 cups", "note": "see sub-recipe" },
+        { "item": "Robiolina cheese or whipped cream cheese", "quantity": "½ cup" },
+        { "item": "Parsley", "quantity": "2 tablespoons", "note": "roughly chopped" },
+        { "item": "Extra-virgin olive oil", "quantity": "3 tablespoons", "note": "for finishing" }
+      ],
+      "steps": [
+        { "number": 1, "instruction": "In a large pot, bring 4 quarts water and 1 cup kosher salt to a boil over high heat. Meanwhile, set up an ice bath and line a sheet pan with parchment.","note": "The water should smell like the ocean" },
+        { "number": 2, "instruction": "Blanch each pasta sheet for 15 seconds, chill in the ice bath for 15 seconds, then dry on parchment. Layer sheets separated by parchment." },
+        { "number": 3, "instruction": "Lay one sheet portrait-style. Spread ¼ cup besciamella, sprinkle 1 cup mozzarella and ¼ cup parmesan evenly." },
+        { "number": 4, "instruction": "Add another pasta sheet. Spread 1 cup Bolognese evenly, leaving 2-inch border. Add 2 tsp besciamella on top edge to seal." },
+        { "number": 5, "instruction": "Roll up from bottom into a log. Chill seam-side down for 1–2 hours to firm." },
+        { "number": 6, "instruction": "Repeat to form 4 rolls total. Wrap tightly if storing (2 days refrigerated or 3 months frozen)." },
+        { "number": 7, "instruction": "Preheat oven to 400°F. Slice each roll into 4 pinwheels (1¾ inches thick)." },
+        { "number": 8, "instruction": "Spread tomato sauce in 9×13-inch baking dish. Arrange 16 pinwheels cut-side down, slightly staggered." },
+        { "number": 9, "instruction": "Bake 20–25 minutes until golden. Add dollops of robiolina, bake 2–3 minutes more. Top with parsley and olive oil." },
+        { "number": 10, "instruction": "Serve immediately. Refrigerate leftovers up to 4 days." }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Lasagna Sheet",
+          "yield": "8 sheets",
+          "ingredients": [
+            { "item": "All-purpose or '00' flour", "quantity": "4 cups"},
+            { "item": "Large Egg Yolk", "quantity": "16"},
+            { "item": "Large Egg", "quantity": "2"}
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Place all ingredients in a bowl and mix until it forms a bowl.", "note": "Use a food processor, mixer, or clean hands" },
+            { "number": 2, "instruction": "Wrap in plastic wrap and rest for at least 30 minutes." },
+            { "number": 3, "instruction": "Use a lasagana roller to make the sheets.", "note": "Keep the sheets square.  The end result should be a very thing sheet" }
+          ]
+        },
+        {
+          "name": "Besciamella",
+          "yield": "2½ cups",
+          "ingredients": [
+            { "item": "Unsalted butter", "quantity": "½ cup (1 stick)", "note": "cubed" },
+            { "item": "Garlic", "quantity": "1 head", "note": "halved horizontally" },
+            { "item": "Shallots", "quantity": "⅓ cup", "note": "thinly sliced (about 1 medium)" },
+            { "item": "Bay leaf", "quantity": "1" },
+            { "item": "Thyme sprig", "quantity": "1" },
+            { "item": "Black peppercorns", "quantity": "¼ teaspoon" },
+            { "item": "Kosher salt", "quantity": "1 teaspoon" },
+            { "item": "All-purpose or '00' flour", "quantity": "½ cup" },
+            { "item": "Cold whole milk", "quantity": "2 cups" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Melt butter; add garlic, shallots, bay leaf, thyme, peppercorns, and salt. Cook 2 minutes until shallots are translucent." },
+            { "number": 2, "instruction": "Add flour, cook until golden, about 5 minutes. Stir in milk and cook 5 minutes until thickened. Strain." },
+            { "number": 3, "instruction": "Refrigerate until cool. Keeps 3 days refrigerated or 3 months frozen." }
+          ]
+        },
+        {
+          "name": "Italian Sausage Bolognese",
+          "ingredients": [
+            { "item": "Yellow onions", "quantity": "2", "note": "coarsely chopped" },
+            { "item": "Garlic cloves", "quantity": "4", "note": "peeled" },
+            { "item": "Celery ribs", "quantity": "5", "note": "coarsely chopped" },
+            { "item": "Carrots", "quantity": "2", "note": "coarsely chopped" },
+            { "item": "Pancetta", "quantity": "4 ounces", "note": "cut into 1-inch cubes" },
+            { "item": "Sweet Italian sausage", "quantity": "1 pound", "note": "casings removed" },
+            { "item": "Ground veal", "quantity": "1 pound", "note":"Ground beef can be used as a substitute" },
+            { "item": "Kosher salt", "quantity": "3 tablespoons" },
+            { "item": "Extra-virgin olive oil", "quantity": "2 tablespoons" },
+            { "item": "Tomato paste", "quantity": "½ cup" },
+            { "item": "White wine", "quantity": "1 cup" },
+            { "item": "Whole tomatoes (San Marzano DOP)", "quantity": "2 cans (28 oz each)" },
+            { "item": "Whole milk", "quantity": "2 cups" },
+            { "item": "Star anise", "quantity": "2 whole" },
+            { "item": "Colatura or fish sauce", "quantity": "2 teaspoons", "note": "Optional, but adds flavor.  Add more to taste" },
+            { "item": "Sugar", "quantity": "1 tablespoon" },
+            { "item": "Fresh lemon juice", "quantity": "2 tablespoons" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Process onions, garlic, celery, and carrots until finely chopped; set aside. Process pancetta until finely chopped." },
+            { "number": 2, "instruction": "Mix sausage and veal with salt." },
+            { "number": 3, "instruction": "Brown meat in olive oil 15 minutes. Remove and set aside. Drain excess fat but keep browned bits." },
+            { "number": 4, "instruction": "Cook pancetta until browned, 8–10 minutes. Add vegetables; cook 10–15 minutes until soft and darkened." },
+            { "number": 5, "instruction": "Add tomato paste; cook 5 minutes until caramelized. Stir in wine; reduce 5 minutes." },
+            { "number": 6, "instruction": "Crush tomatoes by hand. Return meat to pot with milk, star anise, and tomatoes. Simmer 2 hours, stirring occasionally." },
+            { "number": 7, "instruction": "Remove star anise. Stir in colatura, sugar, and lemon juice to re-emulsify. Store up to 1 week refrigerated or 3 months frozen." }
+          ]
+        },
+        {
+          "name": "10-Minute San Marzano Tomato Sauce",
+          "ingredients": [
+            { "item": "Whole San Marzano tomatoes (DOP)", "quantity": "2 cans (28 oz each)" },
+            { "item": "Extra-virgin olive oil", "quantity": "½ cup" },
+            { "item": "Garlic cloves", "quantity": "8", "note": "smashed" },
+            { "item": "Kosher salt", "quantity": "1 tablespoon + 1 teaspoon" },
+            { "item": "Crushed red pepper flakes", "quantity": "¼ teaspoon" },
+            { "item": "Sugar", "quantity": "1 tablespoon" },
+            { "item": "Basil sprigs", "quantity": "2" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Pulse tomatoes until broken but chunky." },
+            { "number": 2, "instruction": "Heat oil; add garlic and salt. Cook until golden, 2 minutes. Add pepper flakes and tomatoes. Bring to boil and remove from heat." },
+            { "number": 3, "instruction": "Add sugar and basil. Steep 5–30 minutes, then remove garlic and basil. Store up to 1 week refrigerated or 3 months frozen." }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "recipe": {
+      "name": "Aberdeen Angus rib-eye, mushroom purée and beef tea",
+      "source": "https://www.greatbritishchefs.com/recipes/beef-steak-recipe-mushroom-puree-beef-tea",
+      "imageUrl": "https://media-cdn2.greatbritishchefs.com/media/eshc3yus/img18037.whqc_900x600q90fpt485fpl634.webp",
+      "chef": "Kevin Mangeolles",
+      "yield": "6 plates",
+      "description": "An elegant course, pairing beef with mushroom purée and potatoes cooked with bacon.  This requires some long preparation.  Read the entire recipe first.",
+      "category": "main",
+      "keywords": "steak, rib-eye, dinner",
+      "ingredients": [
+        { "item": "Rib-eye steak", "quantity": "4 1/2 lb" },
+        { "item": "Butter", "quantity": "1 ounce" },
+        { "item": "Garlic cloves", "quantity": "2", "note": "peeled and sliced" },
+        { "item": "Thyme Leaves", "quantity": "1/4 ounce"},
+        { "item": "Extra-virgin olive oil", "quantity": "enough to rub the steak" },
+        { "item": "salt and pepper", "quantity": "to season the steak"},
+        { "item": "Mushroom Purée", "note": "see sub-recipe" },
+        { "item": "Beef Tea", "note": "see sub-recipe"},
+        { "item": "Baby Carrots", "quantity": "3-4", "note": "a handful works" },
+        { "item": "Little Gem Lettuce", "quantity": "1", "note": "substitute spinach or arugala" }
+      ],
+      "steps": [
+        { "number": 1, "instruction": "Prepare the Beef Tea and Marcarie Potatoes", "note":"see sub-recipe" },
+        { "number": 2, "instruction": "Prepare the Mushroom Purée", "note":"see sub-recipe" },
+        { "number": 3, "instruction": "Blanch the baby carrots in boiling water for 3-5 minutes.  Remove and put on ice to stop the cooking process","note": "the carrots should be bright orange" },
+        { "number": 4, "instruction": "Peel the skin off the carrots, add 3 1/2 ounces butter and 3 ounces water}" },
+        { "number": 5, "instruction": "Trim fat from the rib-eye."},
+        { "number": 6, "instruction": "Trim the meat surrounding the rib-eye and set aside.", "note":"The eye is surrounded by a thing fat layer" },
+        { "number": 7, "instruction": "Roll the trimmed meat in plastic wrap and cut into steaks." },
+        { "number": 8, "instruction": "Place the rolled steaks, garlic cloves, and thyme leaves into a plastic bag and seal.","note":"make sure all the air is out of the bag" },
+        { "number": 9, "instruction": "Cook in a water bath at 117°F for 4 hours." },
+        { "number": 10, "instruction": "Remote from the bath, scrape off garlic and thyme and cut the braised beef in half.  Store in the refrigerator." },
+        { "number": 11, "instruction": "Season the rib-eye with salt and pepper." },
+        { "number": 12, "instruction": "In a hot pan with olive oil, sear both side of the rib-eye","note": "about 2-3 minutes each side" },
+        { "number": 13, "instruction": "Cut the braised beef into 1 inch pieces and add into the pan with 1 ounce of butter ." },
+        { "number": 14, "instruction": "When cooked to your liking, remove from pan and rest" },
+        { "number": 15, "instruction": "Peel the skin off the carrots and warm over low hear with 3 1/2 ounces butter and 3 ounces water" },
+        { "number": 16, "instruction": "Cut the Little Gem Lettuce","note":"4-5 2 inch leafs" },
+        { "number": 17, "instruction": "Plating Layer 1: Place the Mushroom Purée on the plate.  Place the braised beef pieces on the purée. " },
+        { "number": 18, "instruction": "Plating Layer 2: Place the Marcaire Potatoes on the plate. Cut the rib-eye into long slices and place on the potatoes."},
+        { "number": 19, "instruction": "Plating Layer 3: Place the lettuce and carrots on the plate"}
+      ],
+      "sub_recipes": [
+        {
+          "name": "Mushroom Purée",
+          "ingredients": [
+            { "item": "Flat Mushrooms", "quantity": "1 1/8 lb"},
+            { "item": "Porcini Mushrooms", "quantity": "1 3/4 oz", "note": "soak in 1/2 cup of water for 30 minutes, then allow to dry"},
+            { "item": "Milk", "quantity": "dash"},
+            { "item": "Butter", "quantity": "3 1/2 ounces"},
+            { "item": "Garlic cloves", "quantity": "2"},
+            { "item": "Thyme", "quantity": "1/4 ounce"}
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Preheat oven to 300°F" },
+            { "number": 2, "instruction": "Place all ingredients into a pan, cover in foil and cook for 1 hour." },
+            { "number": 3, "instruction": "Purée and pass through a fine sieve.", "note": "an emersion blender works great here" },
+            { "number": 4, "instruction": "Add the dash of milk and reheat on low-medium heat" }
+          ]
+        },
+        {
+          "name": "Marcaire Potatoes",
+          "ingredients": [
+            { "item": "Potatoes", "quantity": "4", "note": "large" },
+            { "item": "Butter", "quantity": "2 tablespoons"},
+            { "item": "Spring Onion", "quantity": "2", "note": "finely sliced" },
+            { "item": "Bacon", "quantity": "3 1/2 ounces","note": "cooked, finely diced" },
+            { "item": "Extra-virgin olive oil", "quantity": "2 tablespoons" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Preheat oven to 400°F" },
+            { "number": 2, "instruction": "Bake the potatoes for about an hour, or until soft", "note": "pierce with a fork to test" },
+            { "number": 3, "instruction": "Scoop the potato flesh and mix with the cooked bacon and spring onion." },
+            { "number": 4, "instruction": "Place the mixture into a 2 inch diameter, 1 inch high ring", "note":"if rings are not available, you can mold by hand" },
+            { "number": 5, "instruction": "When ready to serve, pan fry the mixture in butter and oil until golden on both sides" }
+          ]
+        },
+        {
+          "name": "Beef Tea",
+          "ingredients": [
+            { "item": "Beef Stock", "quantity": "4 1/4 cups"},
+            { "item": "Thyme Leaves", "quantity": "1/3 ounce"},
+            { "item": "Porcini Mushrooms", "quantity": "2 2/3 ounces", "note": "soak in 1/2 cup of water for 30 minutes, then allow to dry" },
+            { "item": "Tomatoes", "quantity": "3" },
+            { "item": "Salt", "quantity": "1/3 ounces"},
+            { "item": "Egg Whites", "quantity": "3"}
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Mix all ingredients in a pan and bring to a boil" },
+            { "number": 2, "instruction": "Lower to a simmer and cook for 1 1/2 hours" },
+            { "number": 3, "instruction": "Pass through a muslin cloth and discard remnants", "note": "cheese cloth also works" }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "recipe": {
+      "name": "Baked camembert with roasted grapes, walnuts, rosemary and pink peppercorn crackers",
+      "source": "https://www.greatbritishchefs.com/recipes/baked-camembert-with-grapes-recipe",
+      "imageUrl": "https://media-cdn2.greatbritishchefs.com/media/gaoptq24/gbck-camembert-selects-4.whqc_900x600q90.webp",
+      "chef": "GBC Kitchen",
+      "yield": "4",
+      "description": "Gooey, melted camembert is pierced with aromatic rosemary sprigs and topped with toasted walnuts and roasted grapes in this festive baked cheese recipe. Works as an starter or a savory dessert",
+      "category": "starter, dessert",
+      "keywords": "cheese, grapes, appetizer, dessert",
+      "ingredients": [
+        { "item": "Plain White Flour", "quantity": "3 1/2 ounces" },
+        { "item": "Pink Peppercorns", "quantity": "2 teaspoons","note": "crushed" },
+        { "item": "Salt", "quantity": "pinch"},
+        { "item": "Extra-virgin olive oil", "quantity": "1 teaspoon"},
+        { "item": "Water", "quantity": "1 1/3 fluid ounces" },
+        { "item": "Flaky Sea Salt", "quantity": "pinch"},
+        { "item": "Camembert", "quantity": "1"},
+        { "item": "Rosemary", "quantity": "2 sprigs","note": "scut into 1 inch pieces"},
+        { "item": "Walnuts", "quantity": "handful"},
+        { "item": "Red Grapes", "quantity": "1 bunch", "note": "small grapes are preferred" },
+        { "item": "Vegetable Oil", "quantity": "for drizzling"}
+      ],
+      "steps": [
+        { "number": 1, "instruction": "Preheat oven to 350°F" },
+        { "number": 2, "instruction": "Place flour, half the pink peppercorns, and salt into a bowl." },
+        { "number": 3, "instruction": "Add the oil and water and stir together until a dough forms" },
+        { "number": 4, "instruction": "Knead the dough until smooth.  Cover and rest for 10 minutes" },
+        { "number": 5, "instruction": "Place the grapes on a tray and drizzle with vegetable oil."},
+        { "number": 6, "instruction": "Roast for 10 minutes or until skin splits and grapes are oozing." },
+        { "number": 7, "instruction": "Open the Camembert box and remove the paper wrapping from the cheese." },
+        { "number": 8, "instruction": "Place Camembert back into the box and place on an ovenproof tray " },
+        { "number": 9, "instruction": "Cut diagonal slashes into the top of the cheese." },
+        { "number": 10, "instruction": "Place the rosemary into the slashes and spring with walnuts." },
+        { "number": 11, "instruction": "Drizzle with some vegetable oil." },
+        { "number": 12, "instruction": "Roll out the dough so it is 2-3 mm (about 1 inch) thick" },
+        { "number": 13, "instruction": "Score the dough into triangle shapes.", "note": "the triangles do not need to be separated - it will automatically happen in the oven" },
+        { "number": 14, "instruction": "Transfer to a flat baking tray and brush with olive oil" },
+        { "number": 15, "instruction": "Sprinkle with sea salt and remaining pink peppercorns" },
+        { "number": 16, "instruction": "Bake for 5-8 minutes" },
+        { "number": 17, "instruction": "Once the grapes and crackers are done, put the Camembert into the oven" },
+        { "number": 18, "instruction": "Bake for 10-15 minutes"},
+        { "number": 19, "instruction": "Add the roasted graps on top and serve with crackers"}
+      ]
+     
+    }
+  },
+  {
+    "recipe": {
+      "name": "Death in Venice",
+      "source": "https://www.greatbritishchefs.com/recipes/death-venice-cocktail-recipe",
+      "imageUrl": "https://media-cdn2.greatbritishchefs.com/media/otlfs25s/img13012.whqc_768x512q90fpt437fpl494.jpg",
+      "chef": "Tony Conigliaro",
+      "yield": "1",
+      "description": "Cocktail that is refreshing and simply prepared",
+      "category": "cocktail",
+      "keywords": "alcohol, drink, prosecco, italian",
+      "ingredients": [
+        { "item": "Campari", "quantity": "1/2 ounces" },
+        { "item": "Grapefruit Bitters", "quantity": "4 drops","note": "Orange bitters can also be used" },
+        { "item": "Prosecco", "quantity": "to fill the glass"}
+      ],
+      "steps": [
+        { "number": 1, "instruction": "Add Campari and bitters to a champagne flute" },
+        { "number": 2, "instruction": "Top with Prosecco" },
+        { "number": 3, "instruction": "Stir lightly" }
+      ]
+     
+    }
+  },
+  {
+    "recipe": {
+      "name": "Agnolotti al Limone",
+      "source": "Yes Chef! Kitchen",
+      "imageUrl": "",
+      "chef": "Chris DeStefano",
+      "yield": "8 servings",
+      "description": "Silky agnolotti served in a lemon cream sauce.  The Limoncello makes it a little sweet to balance the savory ricotta",
+      "category": "starter, main",
+      "keywords": "pasta, ravioli, lemon, dinner, italian",
+      "ingredients": [
+        { "item": "All-purpose or '00' flour", "quantity": "4.5 grams" },
+        { "item": "Egg Yolk", "quantity": "3 sheets" },
+        { "item": "Egg", "quantity": "2" },
+        { "item": "Whole Milk Ricotta", "quantity": "8 ounces" },
+        { "item": "Salt", "quantity": "to taste" },
+        { "item": "Ground White Pepper", "quantity": "to taste" },
+        { "item": "Garlic Powder", "quantity": "2 cups" },
+        { "item": "Lemon Juice", "quantity": "1 teaspoon" },
+        { "item": "Limoncello Cream Sauce", "note": "see sub-recipe" }
+      ],
+      "steps": [
+        { "number": 1, "instruction": "In a large pot, bring 4 quarts water and 1 cup kosher salt to a boil over high heat. Meanwhile, set up an ice bath and line a sheet pan with parchment.","note": "The water should smell like the ocean" },
+        { "number": 2, "instruction": "Layer sheets separated by parchment." },
+        { "number": 3, "instruction": "Mix the ricotta, 1 egg, salt, white pepper, Garlic Powder, and lemon juce with a fork." },
+        { "number": 4, "instruction": "Spoon the ricotta mixture about 1/2 inch from the edge of the pasta sheet, about 2 inches apart." },
+        { "number": 5, "instruction": "Fold the pasta sheet to cover the mixture and pinch the long edge." },
+        { "number": 6, "instruction": "Press between each ricotta spoonful to make individual agnolotti" },
+        { "number": 7, "instruction": "Cut with a ravioli cutter", "note": "a knife could also be used if a straight edge is preferred." },
+        { "number": 8, "instruction": "Repeat for all pasta sheets" },
+        { "number": 9, "instruction": "Place in the boiling water for about 1 minute.", "note":"the agnolotti will float when done" },
+        { "number": 10, "instruction": "Ladle Limoncello Cream Sauce into each bowl." },
+        { "number": 11, "instruction": "Garnish with Parsley." }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Limoncello Cream Sauce",
+          "ingredients": [
+            { "item": "Butter", "quantity": "1 stick"},
+            { "item": "Garlic", "quantity": "1 clove","note": "minced"},
+            { "item": "Lemon Juice", "quantity": "1/4 cup"},
+            { "item": "Heavy Cream", "quantity": "1 cup"},
+            { "item": "Limoncello", "quantity": "1/2 cup"}
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Melt butter in a sauce pan over medium heat." },
+            { "number": 2, "instruction": "Add minced garlic to soften", "note": "Do not allow garlic to brown" },
+            { "number": 3, "instruction": "Whisk in lemon juice" },
+            { "number": 4, "instruction": "Slowly whisk in heavy cream" },
+            { "number": 5, "instruction": "Once combined remove from heat" },
+            { "number": 6, "instruction": "Add Limoncello and return to stove over low heat" },
+            { "number": 7, "instruction": "Cook until thickened", "note":"Do not boil" }
+          ]
+        }
+        
+      ]
+    }
+  },
+  {
+    "recipe": {
+      "name": "Inception",
+      "source": "Yes Chef! Kitchen",
+      "imageUrl": "",
+      "chef": "Chris DeStefano",
+      "yield": "1",
+      "description": "A drink inside a drink",
+      "category": "cocktail",
+      "keywords": "alcohol, drink, bourbon, cool",
+      "ingredients": [
+        { "item": "Boulevardier", "quantity": "2 ounces", "note": "see sub-recipe" },
+        { "item": "Old Fashioned", "quantity": "2 ounces", "note": "see sub-recipe"},
+        { "item": "Luxardo Maraschino Cherry", "quantity": "1-2, for garnish"}
+      ],
+      "steps": [
+        { "number": 1, "instruction": "Fill sphere ice mold with water", "note": "To get the perfect sphere put your finger over the air hole and turn the modld upside down.  If there is air, add more water." },
+        { "number": 2, "instruction": "Freeze for 1 1/2 hours." },
+        { "number": 3, "instruction": "Turn the mold upside down and freeze for 1 1/2 hours." },
+        { "number": 4, "instruction": "Remove from freezer." },
+        { "number": 5, "instruction": "Use a heated soldering iron, or a clean drill to pole a whole in the ice sphere." },
+        { "number": 6, "instruction": "Use a syringe to empty the water out of the ice sphere.  Alternatively turn the sphere over to pout out the water." },
+        { "number": 7, "instruction": "Freeze for another 2 hours or overnight." },
+        { "number": 8, "instruction": "Remove from freezer and pour the Old Fashioned into the ice cube." },
+        { "number": 9, "instruction": "Carefully place in a glass." },
+        { "number": 10, "instruction": "Pour in the Boulevardier." },
+        { "number": 11, "instruction": "Garnish with a Luxardo Maraschino Cherry and Orange Peel" }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Simple Syrup",
+          "ingredients": [
+            { "item": "Sugar", "quantity": "1 cup"},
+            { "item": "Water", "quantity": "1 cup"}
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Whisk together sugar and water." },
+            { "number": 2, "instruction": "Bring to a boil and then simmer until reduced by half." },
+            { "number": 3, "instruction": "Remove from heat and let cool.  It should thicken to a syrup consistency." },
+            { "number": 4, "instruction": "Store in the refrigerator." }
+          ]
+        },
+        {
+          "name": "Boulevardier",
+          "ingredients": [
+            { "item": "Campari", "quantity": "3/4 ounces"},
+            { "item": "Angel's Envy Bourbon", "quantity": "1 1/2 ounces"},
+            { "item": "Antica Torino Sweet Vermouth", "quantity": "3/4 ounces"}
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Combine all ingredients over ice and stir for 15-20 seconds" }
+          ]
+        },
+        {
+          "name": "Old Fashioned",
+          "ingredients": [
+            { "item": "Angel's Envy Bourbon", "quantity": "2 ounces"},
+            { "item": "Simple Syrup", "quantity": "1/4 ounce", "note": "see sub-recipe"},
+            { "item": "Angostura Bitters", "quantity": "3 dashes"}
+        
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Combine all ingredients over ice and stir for 15-20 seconds" }
+            ]
+        }
+      ]
+    }
+  },
+  {
+  "recipe": {
+    "name": "Agnolotti del Plin",
+    "source": "https://www.eataly.com/us_en/magazine/recipes/pasta/agnolotti-del-plin-recipe",
+    "imageUrl": "https://images.prismic.io/eataly-us/b11fa249-a2c6-4b22-a776-f0420f0dbbe6_Agnolotti-del-Plin.jpg?auto=compress,format",
+    "chef": "Eataly",
+    "yield": "Serves 6",
+    "description": "An iconic dish from Piemonte, agnolotti del plin gets its name from the regional dialect for 'pinch.' The pasta is filled with veal, pork, spinach, Parmigiano Reggiano, and eggs, then served in a sage butter sauce.",
+    "category": "main",
+    "keywords": "pasta, italian, piemontese, agnolotti, filled pasta",
+    "ingredients": [
+      { "item": "Salt", "quantity": "1 teaspoon", "note": "plus more for pasta water" },
+      { "item": "Butter", "quantity": "8–10 tablespoons" },
+      { "item": "Sage leaves", "quantity": "10" },
+      { "item": "Parmigiano Reggiano DOP", "quantity": "1 cup", "note": "grated" },
+      { "item": "Fresh white truffle", "quantity": "1", "note": "optional" }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Bring a large pot of salted water to a boil. Cook the agnolotti for 3–4 minutes, or until they float to the surface."
+      },
+      {
+        "number": 2,
+        "instruction": "Meanwhile, melt butter in a saucepan over medium heat. Add sage leaves and toast about 1 minute, then remove them."
+      },
+      {
+        "number": 3,
+        "instruction": "Add 1 cup of water to the butter, simmer for 2 minutes until reduced by half. Keep warm over low heat."
+      },
+      {
+        "number": 4,
+        "instruction": "Drain the agnolotti and toss them in the butter sauce. Cook 1 minute more over medium heat until the sauce bubbles. Remove from heat, add grated cheese, and serve immediately with shaved truffle if using."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Agnolotti Dough",
+        "yield": "",
+        "ingredients": [
+          { "item": "All-purpose flour", "quantity": "3 cups" },
+          { "item": "Large eggs", "quantity": "3 whole" },
+          { "item": "Egg yolks", "quantity": "3" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Sift and mound the flour on a work surface. Make a well in the center and add the eggs." },
+          { "number": 2, "instruction": "Using a fork, beat the eggs and gradually incorporate the flour from the inner rim of the well." },
+          { "number": 3, "instruction": "Knead the dough with your palms for about 15 minutes until cohesive and elastic, adding flour as needed." },
+          { "number": 4, "instruction": "Wrap in plastic wrap and rest for 30 minutes at room temperature." }
+        ]
+      },
+      {
+        "name": "Agnolotti Filling",
+        "yield": "",
+        "ingredients": [
+          { "item": "Butter", "quantity": "1 tablespoon" },
+          { "item": "Garlic clove", "quantity": "1", "note": "thinly sliced" },
+          { "item": "Fresh rosemary", "quantity": "1 sprig", "note": "leaves only" },
+          { "item": "Ground veal shoulder", "quantity": "1 pound" },
+          { "item": "Ground pork", "quantity": "1 pound" },
+          { "item": "Spinach", "quantity": "1½ pounds", "note": "washed, spun dry, roughly chopped" },
+          { "item": "Parmigiano Reggiano DOP", "quantity": "¾ cup", "note": "freshly grated" },
+          { "item": "Large eggs", "quantity": "3" },
+          { "item": "Nutmeg", "quantity": "", "note": "to taste, freshly grated" },
+          { "item": "Salt and black pepper", "quantity": "", "note": "to taste" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Bring 6 quarts of water to a boil and add 2 tablespoons salt." },
+          { "number": 2, "instruction": "In a saucepan, melt butter over high heat. Add garlic and rosemary; cook until garlic is light golden brown, about 5 minutes." },
+          { "number": 3, "instruction": "Add veal and pork; brown on all sides, stirring occasionally for 8–10 minutes. Season with salt and pepper." },
+          { "number": 4, "instruction": "Cook spinach in boiling water for 1 minute, drain well, and add to meat." },
+          { "number": 5, "instruction": "Stir in Parmigiano Reggiano, eggs, nutmeg, salt, and pepper. Mix until well combined." }
+        ]
+      },
+      {
+        "name": "Forming the Agnolotti",
+        "yield": "",
+        "ingredients": [],
+        "steps": [
+          { "number": 1, "instruction": "Cut the dough into 3 pieces. Roll each piece into a thin sheet about 1/8 inch thick." },
+          { "number": 2, "instruction": "Place spoonfuls of filling along the bottom half of the pasta sheet, spaced 1½ inches apart." },
+          { "number": 3, "instruction": "Fold the top edge of pasta over the filling to form one large pocket. Press gently to seal, removing air pockets." },
+          { "number": 4, "instruction": "Seal the sides and use your fingers to pinch between mounds of filling at 1-inch intervals to form individual agnolotti." },
+          { "number": 5, "instruction": "Cut along the bottom edge of dough and separate individual agnolotti with a pastry wheel. Place on a cornmeal-dusted tray." },
+          { "number": 6, "instruction": "Repeat with remaining dough and filling. Let rest for 20–30 minutes before cooking." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Burrata Sphere with Basil Oil & Tomato Water Snow",
+    "source": "https://www.eataly.com (Eataly Magazine or Chef Recipe – source not specified)",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSShDJ3kN8RNGmt4bxNVvBc1wWpK3vScQeSOw&s",
+    "chef": "",
+    "yield": "",
+    "description": "A modernist composed dish featuring a delicate burrata sphere paired with aromatic basil oil and refreshing tomato water snow, combining creamy, herbal, and acidic elements.",
+    "category": "appetizer",
+    "keywords": "burrata, basil oil, tomato water, molecular gastronomy, modernist, cold dish",
+    "ingredients": [],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Spoon a small pool of basil oil on the plate. Place the burrata sphere in the center."
+      },
+      {
+        "number": 2,
+        "instruction": "Scatter tomato water snow over and around the sphere right before serving."
+      },
+      {
+        "number": 3,
+        "instruction": "Garnish with micro basil leaves, cracked black pepper, or a drizzle of olive oil. Serve immediately."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Burrata Sphere",
+        "yield": "",
+        "ingredients": [
+          { "item": "Fresh burrata", "quantity": "200 g" },
+          { "item": "Heavy cream", "quantity": "50 g" },
+          { "item": "Salt", "quantity": "2 g" },
+          { "item": "Xanthan gum", "quantity": "1 g", "note": "for thickening/emulsifying" },
+          { "item": "Sodium alginate bath", "quantity": "500 mL", "note": "1 g sodium alginate per 500 mL water" },
+          { "item": "Calcium lactate bath", "quantity": "1 L", "note": "5 g calcium lactate per 1 L water" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Blend burrata, cream, salt, and xanthan gum until completely smooth." },
+          { "number": 2, "instruction": "Chill 30 minutes to remove bubbles." },
+          { "number": 3, "instruction": "Using a round spoon or mold, form small portions and drop into the calcium bath for about 2 minutes." },
+          { "number": 4, "instruction": "Rinse gently in cold water to remove any excess calcium." },
+          { "number": 5, "instruction": "Set aside in a little olive oil to prevent sticking." },
+          { "number": 6, "instruction": "Alternative: use hand-torn burrata for a simpler presentation with similar flavor." }
+        ]
+      },
+      {
+        "name": "Basil Oil",
+        "yield": "",
+        "ingredients": [
+          { "item": "Fresh basil leaves", "quantity": "1 large bunch" },
+          { "item": "Neutral oil (grapeseed or light olive oil)", "quantity": "200 mL" },
+          { "item": "Salt", "quantity": "pinch" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Blanch basil leaves in boiling water for 10 seconds, then shock in ice water." },
+          { "number": 2, "instruction": "Squeeze dry, then blend with oil and salt until bright green." },
+          { "number": 3, "instruction": "Strain through fine mesh or cheesecloth." },
+          { "number": 4, "instruction": "Store refrigerated up to 5 days." }
+        ]
+      },
+      {
+        "name": "Tomato Water Snow",
+        "yield": "",
+        "ingredients": [
+          { "item": "Ripe tomatoes", "quantity": "1 kg" },
+          { "item": "Salt", "quantity": "to taste", "note": "about 1%" },
+          { "item": "Sugar", "quantity": "pinch", "note": "optional, if tomatoes are acidic" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Blend tomatoes with salt and sugar." },
+          { "number": 2, "instruction": "Line a bowl with cheesecloth, pour the purée in, and let it drip overnight in the fridge to collect tomato water." },
+          { "number": 3, "instruction": "Freeze tomato water solid, then scrape with a fork or microplane before serving to create snow." },
+          { "number": 4, "instruction": "For finer texture, freeze with liquid nitrogen and crush finely." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Squid Ink Tagliolini with Sea Urchin and Bottarga",
+    "source": "",
+    "imageUrl": "",
+    "chef": "",
+    "yield": "Serves 2",
+    "description": "Fresh squid ink tagliolini served with a rich sea urchin sauce, finished with grated bottarga and a drizzle of olive oil. A luxurious, delicate seafood pasta with bright lemon zest and optional herbs.",
+    "category": "main",
+    "keywords": "squid ink pasta, tagliolini, sea urchin, uni, bottarga, seafood, italian, pasta",
+    "ingredients": [],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Cook pasta in heavily salted water for 2 minutes, until al dente. Transfer directly to the sea urchin sauce with a splash of pasta water."
+      },
+      {
+        "number": 2,
+        "instruction": "Toss gently until the pasta is glossy and coated. Adjust salt and acidity with lemon if needed."
+      },
+      {
+        "number": 3,
+        "instruction": "Plate immediately, topping with remaining sea urchin roe, grated bottarga, a drizzle of olive oil, and optional herbs."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Squid Ink Tagliolini (Fresh Pasta)",
+        "yield": "",
+        "ingredients": [
+          { "item": "\"00\" flour", "quantity": "200 g" },
+          { "item": "Semolina flour", "quantity": "80 g" },
+          { "item": "Large eggs", "quantity": "3" },
+          { "item": "Squid ink (cuttlefish ink)", "quantity": "10 g", "note": "about 2 tsp" },
+          { "item": "Olive oil", "quantity": "1 tsp" },
+          { "item": "Salt", "quantity": "pinch" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Mix flours and salt in a bowl or on a clean counter." },
+          { "number": 2, "instruction": "Make a well, add eggs, squid ink, and olive oil. Beat with a fork, gradually incorporating flour until a dough forms." },
+          { "number": 3, "instruction": "Knead 10 minutes until smooth and elastic. Wrap in plastic and rest 30 minutes." },
+          { "number": 4, "instruction": "Roll out to 1 mm thickness using a pasta machine. Cut into tagliolini (~2 mm wide). Dust lightly with semolina and set aside covered." }
+        ]
+      },
+      {
+        "name": "Sea Urchin Sauce",
+        "yield": "",
+        "ingredients": [
+          { "item": "Fresh sea urchin roe (uni)", "quantity": "100 g", "note": "about 8–10 tongues" },
+          { "item": "Garlic clove", "quantity": "1", "note": "finely minced" },
+          { "item": "Unsalted butter", "quantity": "2 tbsp" },
+          { "item": "Extra virgin olive oil", "quantity": "2 tbsp" },
+          { "item": "Dry white wine", "quantity": "2 tbsp" },
+          { "item": "Shallot", "quantity": "1 small", "note": "finely diced" },
+          { "item": "Lemon zest", "quantity": "½", "note": "from half a lemon" },
+          { "item": "Salt and black pepper", "quantity": "", "note": "to taste" },
+          { "item": "Heavy cream", "quantity": "1 tbsp", "note": "optional, for silkier sauce" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Gently sauté shallot and garlic in olive oil until translucent; do not brown." },
+          { "number": 2, "instruction": "Add white wine and reduce by half." },
+          { "number": 3, "instruction": "Lower heat, whisk in butter until emulsified." },
+          { "number": 4, "instruction": "Add half of the sea urchin roe and mash gently to form a creamy sauce. Season with salt, pepper, and lemon zest. Keep warm on low heat." }
+        ]
+      },
+      {
+        "name": "Bottarga & Finishing",
+        "yield": "",
+        "ingredients": [
+          { "item": "Bottarga (mullet or tuna)", "quantity": "20 g", "note": "finely grated or shaved" },
+          { "item": "Remaining sea urchin roe", "quantity": "", "note": "for garnish" },
+          { "item": "Extra virgin olive oil", "quantity": "" },
+          { "item": "Chives or micro basil", "quantity": "", "note": "optional, for garnish" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Plate the cooked pasta from the sea urchin sauce and top with remaining uni, grated bottarga, olive oil drizzle, and optional herbs." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Ballotine of Bresse Chicken with Black Truffle and Jus Gras",
+    "source": "",
+    "imageUrl": "",
+    "chef": "",
+    "yield": "Serves 4",
+    "description": "A luxurious Bresse chicken ballotine infused with black truffle, served with a rich jus gras made from roasted chicken bones, vegetables, and truffle. Elegant, earthy, and perfect for special occasions.",
+    "category": "main",
+    "keywords": "bresse chicken, ballotine, truffle, jus gras, gourmet, french",
+    "ingredients": [],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Slice the cooked ballotine into thick medallions."
+      },
+      {
+        "number": 2,
+        "instruction": "Spoon a generous amount of jus gras on the plate."
+      },
+      {
+        "number": 3,
+        "instruction": "Arrange chicken slices on top. Garnish with micro herbs, truffle slices, or edible flowers if desired. Serve immediately."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Bresse Chicken Ballotine",
+        "yield": "",
+        "ingredients": [
+          { "item": "Bresse chicken", "quantity": "1", "note": "about 3–4 lbs, skin on" },
+          { "item": "Black truffle", "quantity": "150 g", "note": "fresh or preserved in brine" },
+          { "item": "Unsalted butter", "quantity": "100 g", "note": "softened" },
+          { "item": "Fresh thyme leaves", "quantity": "1 tbsp" },
+          { "item": "Salt and white pepper", "quantity": "" },
+          { "item": "Kitchen twine or sausage netting", "quantity": "" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Debone the chicken, keeping the skin intact to form a flat piece of meat." },
+          { "number": 2, "instruction": "Prepare truffle butter: finely mince 50 g of truffle and mix with softened butter, thyme, salt, and pepper." },
+          { "number": 3, "instruction": "Spread truffle butter evenly over the flattened chicken. Place remaining truffle slices on top." },
+          { "number": 4, "instruction": "Roll chicken tightly and secure with kitchen twine or sausage netting." },
+          { "number": 5, "instruction": "Cook: either poach in a water bath at 70–75°C for 30–40 min, or roast in oven at 180°C for 35–45 min until internal temp reaches 65°C." },
+          { "number": 6, "instruction": "Remove from heat and rest 10 minutes before slicing carefully." }
+        ]
+      },
+      {
+        "name": "Jus Gras (Rich Chicken and Truffle Sauce)",
+        "yield": "",
+        "ingredients": [
+          { "item": "Chicken bones and wings", "quantity": "", "note": "reserved from deboning" },
+          { "item": "Carrot", "quantity": "1 small", "note": "chopped" },
+          { "item": "Onion", "quantity": "1 small", "note": "chopped" },
+          { "item": "Celery stalk", "quantity": "1", "note": "chopped" },
+          { "item": "Garlic cloves", "quantity": "2", "note": "smashed" },
+          { "item": "Dry white wine", "quantity": "200 mL" },
+          { "item": "Chicken stock", "quantity": "500 mL" },
+          { "item": "Butter", "quantity": "50 g", "note": "cold, cubed" },
+          { "item": "Black truffle", "quantity": "30 g", "note": "finely diced" },
+          { "item": "Salt and white pepper", "quantity": "" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Roast chicken bones, wings, and vegetables at 200°C until browned (20–25 min)." },
+          { "number": 2, "instruction": "Deglaze pan with white wine and reduce by half." },
+          { "number": 3, "instruction": "Add chicken stock, simmer 20–30 min. Strain and reduce to concentrate flavor." },
+          { "number": 4, "instruction": "Off heat, whisk in cold butter cubes to emulsify." },
+          { "number": 5, "instruction": "Stir in finely diced black truffle and season to taste." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Corn-Fed Hen with Morels and Vin Jaune Sauce",
+    "source": "",
+    "imageUrl": "https://www.matchingfoodandwine.com/files/blogattachments/top/chicken-with-morels-vin-jaune-alex-jackson-frontieres.-image-credit-charlotte-bland@2x.jpg",
+    "chef": "",
+    "yield": "Serves 4",
+    "description": "Roasted corn-fed hen served with tender morels and a rich, nutty Vin Jaune sauce. Elegant poultry dish with earthy mushrooms and flavorful sauce.",
+    "category": "main",
+    "keywords": "corn-fed hen, morels, Vin Jaune, poultry, mushrooms, french, gourmet",
+    "ingredients": [],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Arrange carved hen pieces on plates. Spoon morels around or on top. Drizzle Vin Jaune sauce generously and garnish with fresh herbs. Serve immediately."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Corn-Fed Hen",
+        "yield": "",
+        "ingredients": [
+          { "item": "Corn-fed hen", "quantity": "1", "note": "about 3 lbs, jointed or whole" },
+          { "item": "Salt and black pepper", "quantity": "" },
+          { "item": "Unsalted butter", "quantity": "2 tbsp" },
+          { "item": "Olive oil", "quantity": "2 tbsp" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Season the hen generously with salt and pepper." },
+          { "number": 2, "instruction": "Heat butter and oil in skillet or roasting pan." },
+          { "number": 3, "instruction": "Brown hen on all sides until golden." },
+          { "number": 4, "instruction": "Transfer to oven at 180°C and roast 30–40 min until internal temp reaches 70°C." },
+          { "number": 5, "instruction": "Rest hen 10 min, then carve." }
+        ]
+      },
+      {
+        "name": "Morels",
+        "yield": "",
+        "ingredients": [
+          { "item": "Fresh or rehydrated dried morels", "quantity": "150 g" },
+          { "item": "Shallot", "quantity": "1", "note": "finely diced" },
+          { "item": "Unsalted butter", "quantity": "1 tbsp" },
+          { "item": "Salt", "quantity": "pinch" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "If using dried morels, soak in warm water 30 min and rinse thoroughly." },
+          { "number": 2, "instruction": "Sauté shallots in butter until translucent." },
+          { "number": 3, "instruction": "Add morels and cook gently until tender and fragrant." },
+          { "number": 4, "instruction": "Season lightly with salt and keep warm." }
+        ]
+      },
+      {
+        "name": "Vin Jaune Sauce",
+        "yield": "",
+        "ingredients": [
+          { "item": "Pan drippings from roasted hen", "quantity": "" },
+          { "item": "Unsalted butter", "quantity": "50 g" },
+          { "item": "Shallot", "quantity": "1 small", "note": "minced" },
+          { "item": "Vin Jaune", "quantity": "100 mL", "note": "or dry white wine if unavailable" },
+          { "item": "Chicken stock", "quantity": "150 mL" },
+          { "item": "Heavy cream", "quantity": "50 mL" },
+          { "item": "Salt and pepper", "quantity": "" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Deglaze roasting pan with Vin Jaune, scraping up browned bits." },
+          { "number": 2, "instruction": "Add chicken stock and simmer 5–10 min." },
+          { "number": 3, "instruction": "Stir in cream and reduce slightly to a glossy sauce." },
+          { "number": 4, "instruction": "Adjust seasoning with salt and pepper." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Deconstructed Chocolate Chip Cookie Sphere (Liquid Center)",
+    "source": "",
+    "imageUrl": "",
+    "chef": "",
+    "yield": "Serves 4–6",
+    "description": "A deconstructed chocolate chip cookie in a crisp chocolate sphere with a molten or ganache liquid center. Served with optional cocoa, chocolate drizzle, or ice cream for a dramatic presentation.",
+    "category": "dessert",
+    "keywords": "chocolate, cookie, molten, dessert, sphere, advanced",
+    "ingredients": [],
+    "steps": [],
+    "sub_recipes": [
+      {
+        "name": "Chocolate Sphere Shell",
+        "yield": "",
+        "ingredients": [
+          { "item": "High-quality dark chocolate (60–65%)", "quantity": "200 g" },
+          { "item": "Silicone hemisphere molds", "quantity": "4" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Temper chocolate using your preferred method (seeding or microwave)." },
+          { "number": 2, "instruction": "Pour tempered chocolate into silicone molds, coating evenly." },
+          { "number": 3, "instruction": "Scrape excess chocolate, refrigerate 5–10 minutes, then repeat for a second layer for sturdiness." },
+          { "number": 4, "instruction": "Chill until firm, then carefully remove the chocolate hemispheres." }
+        ]
+      },
+      {
+        "name": "Cookie Dough Filling",
+        "yield": "",
+        "ingredients": [
+          { "item": "Unsalted butter", "quantity": "100 g", "note": "softened" },
+          { "item": "Brown sugar", "quantity": "80 g" },
+          { "item": "Granulated sugar", "quantity": "40 g" },
+          { "item": "Vanilla extract", "quantity": "1 tsp" },
+          { "item": "Egg yolk", "quantity": "1" },
+          { "item": "All-purpose flour", "quantity": "150 g" },
+          { "item": "Baking soda", "quantity": "½ tsp" },
+          { "item": "Salt", "quantity": "pinch" },
+          { "item": "Chocolate chips", "quantity": "100 g" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Cream butter and sugars until light and fluffy." },
+          { "number": 2, "instruction": "Mix in vanilla and egg yolk." },
+          { "number": 3, "instruction": "Sift in flour, baking soda, and salt; fold to combine." },
+          { "number": 4, "instruction": "Fold in chocolate chips." },
+          { "number": 5, "instruction": "Roll into small balls that fit inside the chocolate hemispheres." },
+          { "number": 6, "instruction": "Chill dough for at least 30 minutes to maintain shape during baking." }
+        ]
+      },
+      {
+        "name": "Liquid Center - Eggless Ganache Core",
+        "yield": "",
+        "ingredients": [
+          { "item": "White or milk chocolate", "quantity": "100 g" },
+          { "item": "Cream", "quantity": "50 mL" },
+          { "item": "Liqueur", "quantity": "1 tsp", "note": "optional, like Baileys or coffee liqueur" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Heat cream until just simmering, pour over chocolate, stir until smooth." },
+          { "number": 2, "instruction": "Chill slightly to thicken but remain pourable." }
+        ]
+      },
+      {
+        "name": "Liquid Center - Molten Cookie Option",
+        "yield": "",
+        "ingredients": [],
+        "steps": [
+          { "number": 1, "instruction": "Bake cookie dough balls for only 6–8 minutes at 180°C (355°F) so the centers remain gooey." }
+        ]
+      },
+      {
+        "name": "Assembly",
+        "yield": "",
+        "ingredients": [],
+        "steps": [
+          { "number": 1, "instruction": "Place a cookie dough ball or ganache inside a chocolate hemisphere." },
+          { "number": 2, "instruction": "Top with the matching hemisphere to form a complete sphere." },
+          { "number": 3, "instruction": "Chill briefly to set." },
+          { "number": 4, "instruction": "Plate: crack the sphere with a knife at the table for the deconstructed effect." },
+          { "number": 5, "instruction": "Optional plating: dust with cocoa powder, drizzle with chocolate sauce, or add a scoop of vanilla bean ice cream or caramel foam." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Duck Consommé with Soba and Shaved Truffle",
+    "source": "",
+    "imageUrl": "",
+    "chef": "",
+    "yield": "Serves 4",
+    "description": "A clear duck consommé served with soba noodles and garnished with freshly shaved black truffle. Slow-simmered for clarity and rich flavor.",
+    "category": "main",
+    "keywords": "duck, consommé, soba, truffle, soup, advanced",
+    "ingredients": [],
+    "steps": [],
+    "sub_recipes": [
+      {
+        "name": "Duck Consommé",
+        "yield": "",
+        "ingredients": [
+          { "item": "Whole duck", "quantity": "1 (3–4 lbs)", "note": "or duck carcasses from previous cooking" },
+          { "item": "Cold water", "quantity": "2 liters" },
+          { "item": "Egg whites", "quantity": "", "note": "for clarification" },
+          { "item": "Onion", "quantity": "1", "note": "chopped" },
+          { "item": "Carrot", "quantity": "1", "note": "chopped" },
+          { "item": "Celery stalk", "quantity": "1", "note": "chopped" },
+          { "item": "Bay leaf", "quantity": "1" },
+          { "item": "Thyme sprigs", "quantity": "2" },
+          { "item": "Salt and pepper", "quantity": "", "note": "to taste" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Roast or sauté the duck until golden (optional for extra depth)." },
+          { "number": 2, "instruction": "Combine duck bones/meat with cold water in a large stockpot. Slowly bring to a simmer, skimming off foam." },
+          { "number": 3, "instruction": "Strain stock after 1–2 hours, reserving liquid." },
+          { "number": 4, "instruction": "For clarification, whisk egg whites and mix with cold stock. Heat gently, stirring, until egg whites coagulate and trap impurities." },
+          { "number": 5, "instruction": "Strain through fine cheesecloth. Season with salt and pepper. Chill if needed." }
+        ]
+      },
+      {
+        "name": "Soba Noodles",
+        "yield": "",
+        "ingredients": [
+          { "item": "Soba noodles (buckwheat)", "quantity": "200 g" },
+          { "item": "Water", "quantity": "", "note": "for boiling" },
+          { "item": "Salt", "quantity": "pinch" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Cook soba noodles in salted boiling water until al dente, usually 4–5 minutes." },
+          { "number": 2, "instruction": "Drain and rinse under cold water to stop cooking." },
+          { "number": 3, "instruction": "Keep aside until plating." }
+        ]
+      },
+      {
+        "name": "Truffle Garnish",
+        "yield": "",
+        "ingredients": [
+          { "item": "Black truffle", "quantity": "10–15 g" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Carefully shave truffle thinly just before serving using a small truffle slicer or microplane." },
+          { "number": 2, "instruction": "Reserve for final garnish." }
+        ]
+      },
+      {
+        "name": "Assembly & Plating",
+        "yield": "",
+        "ingredients": [],
+        "steps": [
+          { "number": 1, "instruction": "Reheat consommé gently without boiling." },
+          { "number": 2, "instruction": "Place cooked soba noodles in the center of warmed soup bowls." },
+          { "number": 3, "instruction": "Pour consommé around noodles carefully to maintain clarity." },
+          { "number": 4, "instruction": "Top with shaved truffles. Optionally, drizzle a few drops of truffle oil for aroma." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Smoked Short Rib with Celeriac Purée and Truffle Dust",
+    "source": "",
+    "imageUrl": "",
+    "chef": "",
+    "yield": "Serves 4",
+    "description": "Tender smoked short ribs served with smooth celeriac purée and finished with a delicate truffle dust for aroma and presentation.",
+    "category": "main",
+    "keywords": "beef, smoked, short ribs, celeriac, truffle, advanced, main course",
+    "ingredients": [],
+    "steps": [],
+    "sub_recipes": [
+      {
+        "name": "Smoked Short Rib",
+        "yield": "",
+        "ingredients": [
+          { "item": "Beef short ribs", "quantity": "1.5–2 kg" },
+          { "item": "Olive oil", "quantity": "2 tbsp" },
+          { "item": "Salt", "quantity": "", "note": "to taste" },
+          { "item": "Freshly ground black pepper", "quantity": "", "note": "to taste" },
+          { "item": "Garlic", "quantity": "2 cloves", "note": "minced" },
+          { "item": "Fresh thyme", "quantity": "1 sprig" },
+          { "item": "Beef stock", "quantity": "500 mL" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Preheat smoker or oven to 110–120°C (230–250°F)." },
+          { "number": 2, "instruction": "Season short ribs generously with salt, pepper, and garlic." },
+          { "number": 3, "instruction": "Sear ribs in a hot pan with olive oil until browned on all sides." },
+          { "number": 4, "instruction": "Transfer ribs to smoker or low oven, add thyme and a splash of beef stock." },
+          { "number": 5, "instruction": "Cook slowly for 6–8 hours until meat is tender and pulls apart easily." },
+          { "number": 6, "instruction": "Rest ribs before slicing or plating." }
+        ]
+      },
+      {
+        "name": "Celeriac Purée",
+        "yield": "",
+        "ingredients": [
+          { "item": "Celeriac", "quantity": "500 g", "note": "peeled and diced" },
+          { "item": "Heavy cream", "quantity": "200 mL" },
+          { "item": "Unsalted butter", "quantity": "50 g" },
+          { "item": "Salt", "quantity": "", "note": "to taste" },
+          { "item": "White pepper", "quantity": "", "note": "to taste" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Boil celeriac in salted water until tender, about 20 minutes." },
+          { "number": 2, "instruction": "Drain and transfer to a blender or food processor." },
+          { "number": 3, "instruction": "Add cream and butter, blend until smooth and silky." },
+          { "number": 4, "instruction": "Season to taste and keep warm." }
+        ]
+      },
+      {
+        "name": "Truffle Dust",
+        "yield": "",
+        "ingredients": [
+          { "item": "Black truffle", "quantity": "5–10 g" },
+          { "item": "Freeze-dried truffle powder", "quantity": "1 tsp", "note": "optional, finely grated" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Finely grate or microplane truffle to a powder." },
+          { "number": 2, "instruction": "Dust over plated dish just before serving." }
+        ]
+      },
+      {
+        "name": "Assembly & Plating",
+        "yield": "",
+        "ingredients": [],
+        "steps": [
+          { "number": 1, "instruction": "Spoon celeriac purée onto plate as a base." },
+          { "number": 2, "instruction": "Place smoked short rib slices or chunks on top." },
+          { "number": 3, "instruction": "Lightly dust with truffle." },
+          { "number": 4, "instruction": "Optional: drizzle some reduced cooking jus around for extra flavor." },
+          { "number": 5, "instruction": "Garnish with micro herbs or chive tips for visual contrast." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Lobster Taco with Saffron Tortilla and Caviar",
+    "source": "",
+    "imageUrl": "",
+    "chef": "",
+    "yield": "Serves 4",
+    "description": "Delicate lobster tacos served on saffron-infused tortillas, topped with luxurious caviar and garnished with micro herbs or edible flowers.",
+    "category": "main",
+    "keywords": "lobster, taco, saffron, caviar, seafood, advanced",
+    "ingredients": [],
+    "steps": [],
+    "sub_recipes": [
+      {
+        "name": "Saffron Tortillas",
+        "yield": "",
+        "ingredients": [
+          { "item": "All-purpose flour", "quantity": "200 g" },
+          { "item": "Cornmeal", "quantity": "50 g", "note": "optional, for texture" },
+          { "item": "Sugar", "quantity": "2 tsp" },
+          { "item": "Salt", "quantity": "½ tsp" },
+          { "item": "Saffron threads", "quantity": "½ tsp", "note": "soaked in 2 tbsp warm water" },
+          { "item": "Warm water", "quantity": "120 mL" },
+          { "item": "Olive oil", "quantity": "1 tbsp" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Mix flour, cornmeal, sugar, and salt in a bowl." },
+          { "number": 2, "instruction": "Add saffron water, olive oil, and warm water gradually. Knead to form a soft dough." },
+          { "number": 3, "instruction": "Rest dough for 30 minutes." },
+          { "number": 4, "instruction": "Roll out small tortillas (~10 cm diameter)." },
+          { "number": 5, "instruction": "Cook on a hot, dry skillet for 1–2 minutes per side until lightly golden." }
+        ]
+      },
+      {
+        "name": "Lobster Filling",
+        "yield": "",
+        "ingredients": [
+          { "item": "Cooked lobster tails", "quantity": "2 (~300 g each)", "note": "shelled and chopped" },
+          { "item": "Butter", "quantity": "1 tbsp" },
+          { "item": "Shallot", "quantity": "1 small", "note": "minced" },
+          { "item": "Lemon juice", "quantity": "1 tsp" },
+          { "item": "Salt", "quantity": "", "note": "to taste" },
+          { "item": "White pepper", "quantity": "", "note": "to taste" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Sauté shallot in butter until translucent." },
+          { "number": 2, "instruction": "Add lobster meat, toss gently, and heat through 1–2 minutes." },
+          { "number": 3, "instruction": "Season lightly with salt, pepper, and lemon juice." }
+        ]
+      },
+      {
+        "name": "Assembly & Garnish",
+        "yield": "",
+        "ingredients": [
+          { "item": "Caviar", "quantity": "20–30 g", "note": "high-quality" },
+          { "item": "Micro herbs or edible flowers", "quantity": "", "note": "for garnish" },
+          { "item": "Crème fraîche or aioli", "quantity": "", "note": "optional" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Place warm saffron tortilla on plate." },
+          { "number": 2, "instruction": "Fill with lobster mixture." },
+          { "number": 3, "instruction": "Top with a small spoon of caviar." },
+          { "number": 4, "instruction": "Garnish with micro herbs or edible flowers." },
+          { "number": 5, "instruction": "Serve immediately to enjoy the contrast of warm tortilla, sweet lobster, and briny caviar." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Oxtail Barbacoa with Corn Espuma and Lime Gel",
+    "source": "",
+    "imageUrl": "",
+    "chef": "",
+    "yield": "Serves 4",
+    "description": "Slow-cooked oxtail barbacoa served with light corn espuma and bright lime gel for a modern, flavorful presentation.",
+    "category": "main",
+    "keywords": "oxtail, barbacoa, corn espuma, lime gel, slow-cooked, advanced, main course",
+    "ingredients": [],
+    "steps": [],
+    "sub_recipes": [
+      {
+        "name": "Oxtail Barbacoa",
+        "yield": "",
+        "ingredients": [
+          { "item": "Oxtail pieces", "quantity": "1.5–2 kg" },
+          { "item": "Vegetable oil", "quantity": "2 tbsp" },
+          { "item": "Onion", "quantity": "1", "note": "chopped" },
+          { "item": "Garlic", "quantity": "4 cloves", "note": "minced" },
+          { "item": "Dried chiles (guajillo or ancho)", "quantity": "2", "note": "soaked and pureed" },
+          { "item": "Ground cumin", "quantity": "1 tsp" },
+          { "item": "Smoked paprika", "quantity": "1 tsp" },
+          { "item": "Beef or chicken stock", "quantity": "500 mL" },
+          { "item": "Bay leaves", "quantity": "2" },
+          { "item": "Salt and black pepper", "quantity": "", "note": "to taste" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Preheat oven to 150°C (300°F) or prepare slow cooker." },
+          { "number": 2, "instruction": "Season oxtail with salt and pepper. Sear in oil until browned on all sides." },
+          { "number": 3, "instruction": "Remove meat, sauté onion and garlic in the same pan." },
+          { "number": 4, "instruction": "Add chile puree, cumin, and paprika; cook 1–2 minutes." },
+          { "number": 5, "instruction": "Return oxtail to pan, add stock and bay leaves." },
+          { "number": 6, "instruction": "Cover and slow-cook in oven or slow cooker 6–8 hours until meat is tender and falls off the bone." },
+          { "number": 7, "instruction": "Shred meat gently and keep warm." }
+        ]
+      },
+      {
+        "name": "Corn Espuma",
+        "yield": "",
+        "ingredients": [
+          { "item": "Corn kernels", "quantity": "200 g", "note": "fresh or frozen" },
+          { "item": "Milk", "quantity": "100 mL" },
+          { "item": "Cream", "quantity": "50 mL" },
+          { "item": "Sugar", "quantity": "1 tsp", "note": "optional" },
+          { "item": "Salt", "quantity": "", "note": "to taste" },
+          { "item": "Gelatin or soy lecithin", "quantity": "1 sheet or 1 g", "note": "for stabilization" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Blend corn, milk, cream, sugar, and salt until smooth." },
+          { "number": 2, "instruction": "Strain through fine mesh." },
+          { "number": 3, "instruction": "Heat gently and add gelatin (if using) to stabilize." },
+          { "number": 4, "instruction": "Transfer to a siphon and charge with N₂O to create espuma." }
+        ]
+      },
+      {
+        "name": "Lime Gel",
+        "yield": "",
+        "ingredients": [
+          { "item": "Lime juice", "quantity": "100 mL" },
+          { "item": "Water", "quantity": "50 mL" },
+          { "item": "Sugar", "quantity": "20 g" },
+          { "item": "Agar-agar or gelatin", "quantity": "2 g or 1 sheet" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Mix lime juice, water, sugar, and agar-agar." },
+          { "number": 2, "instruction": "Bring to a gentle boil for 1–2 minutes, stirring constantly." },
+          { "number": 3, "instruction": "Pour onto a tray and chill until set." },
+          { "number": 4, "instruction": "Blend to a smooth gel or cut into small cubes for plating." }
+        ]
+      },
+      {
+        "name": "Assembly & Plating",
+        "yield": "",
+        "ingredients": [],
+        "steps": [
+          { "number": 1, "instruction": "Place shredded oxtail in the center of the plate." },
+          { "number": 2, "instruction": "Pipe or spoon corn espuma around or over the meat." },
+          { "number": 3, "instruction": "Add dots or small quenelles of lime gel for brightness." },
+          { "number": 4, "instruction": "Optional: garnish with micro cilantro or toasted corn kernels." }
+        ]
+      }
+    ]
+  }
+}
+
+
+
+]

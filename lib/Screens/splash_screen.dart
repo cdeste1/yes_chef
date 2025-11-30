@@ -50,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen>
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/Photos/YesChefLogo.png',
+                'assets/Photos/YesChefLogo_transparent.png',
                 width: 180,
                 height: 180,
               ),

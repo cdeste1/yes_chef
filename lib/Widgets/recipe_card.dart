@@ -20,7 +20,7 @@ class RecipeCard extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8.0),
-            child: Text(recipe.chef, style: const TextStyle(color: Colors.grey)),
+            child: Text(recipe.source,style: const TextStyle(color: Colors.grey)),
           ),
         ],
       ),

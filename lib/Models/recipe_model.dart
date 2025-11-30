@@ -7,7 +7,9 @@ class Recipe {
   final String description;
   final String category;
   final String keywords;
+  final List<WinePairing> winePairings;
   final List<Ingredient> ingredients;
+  final List<SpecialTools> specialtools;
   final List<StepItem> steps;
   final List<Recipe> subRecipes;
 
@@ -20,7 +22,9 @@ class Recipe {
     required this.description,
     required this.category,
     required this.keywords,
+    required this.winePairings,
     required this.ingredients,
+    required this.specialtools,
     required this.steps,
     required this.subRecipes,
   });
@@ -35,8 +39,14 @@ class Recipe {
       description: json['description'] ?? '',
       category: json['category'] ?? '',
       keywords: json['keywords'] ??'',
+      winePairings: (json["winePairings"] as List<dynamic>? ?? [])
+          .map((w) => WinePairing.fromJson(w))
+          .toList(),
       ingredients: (json['ingredients'] as List<dynamic>? ?? [])
           .map((i) => Ingredient.fromJson(i))
+          .toList(),
+      specialtools: (json['specialtools'] as List<dynamic>? ?? [])
+          .map((e) => SpecialTools.fromJson(e))
           .toList(),
       steps: (json['steps'] as List<dynamic>? ?? [])
           .map((s) => StepItem.fromJson(s))
@@ -68,6 +78,23 @@ class Ingredient {
   }
 }
 
+class SpecialTools {
+  final String item;
+  final String link;
+
+  SpecialTools({
+    required this.item,
+    required this.link,
+  });
+
+  factory SpecialTools.fromJson(Map<String, dynamic> json) {
+    return SpecialTools(
+      item: json['item'] ?? 0,
+      link: json['link'] ?? '',
+    );
+  }
+}
+
 class StepItem {
   final int number;
   final String instruction;
@@ -81,6 +108,20 @@ class StepItem {
     return StepItem(
       number: json['number'] ?? 0,
       instruction: json['instruction'] ?? '',
+    );
+  }
+}
+
+class WinePairing {
+  final String name;
+  final String notes;
+
+  WinePairing({required this.name, required this.notes});
+
+  factory WinePairing.fromJson(Map<String, dynamic> json) {
+    return WinePairing(
+      name: json["name"] ?? "",
+      notes: json["notes"] ?? "",
     );
   }
 }

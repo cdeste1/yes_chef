@@ -88,8 +88,10 @@ class RandomMealScreen extends StatelessWidget {
             child: Column(
               children: [
                 _buildMealCard('Cocktail', mealSet['cocktail']),
+                _buildMealCard('Bread', mealSet['bread']),
                 _buildMealCard('Starter', mealSet['starter']),
                 _buildMealCard('Main', mealSet['main']),
+                _buildMealCard('Sides', mealSet['sides']),
                 _buildMealCard('Dessert', mealSet['dessert']),
               ],
             ),

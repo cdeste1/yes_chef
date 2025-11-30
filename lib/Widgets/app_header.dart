@@ -15,7 +15,7 @@ class AppHeader extends StatelessWidget implements PreferredSizeWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            'assets/Photos/YesChefLogo.png',
+            'assets/Photos/YesChefLogo_transparent.png',
             height: 135,
             fit: BoxFit.fitHeight,
           ),

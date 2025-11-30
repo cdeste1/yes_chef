@@ -95,6 +95,18 @@ class RecipeService {
         }
       }
 
+      // --- Special Tools ---
+      if (!matchFound) {
+        for (var tool in recipe.specialtools) {
+          if (tool.item.toLowerCase().contains(lowerQuery) ||
+              tool.link.toLowerCase().contains(lowerQuery)) {
+            matchFound = true;
+            break;
+          }
+        }
+      }
+
+
       // --- Steps ---
       if (!matchFound) {
         for (var step in recipe.steps) {
@@ -153,8 +165,10 @@ static Future<Map<String, Recipe?>> randomMealSet() async {
   if (allRecipes.isEmpty) {
     return {
       'cocktail': null,
+      'bread': null,
       'starter': null,
       'main': null,
+      'sides': null,
       'dessert': null,
     };
   }
@@ -163,8 +177,10 @@ static Future<Map<String, Recipe?>> randomMealSet() async {
 
   // Group recipes by category
   final cocktails = allRecipes.where((r) => r.category.toLowerCase() == 'cocktail').toList();
+  final breads = allRecipes.where((r) => r.category.toLowerCase() == 'bread').toList();
   final starters  = allRecipes.where((r) => r.category.toLowerCase() == 'starter').toList();
   final mains     = allRecipes.where((r) => r.category.toLowerCase() == 'main').toList();
+  final sides = allRecipes.where((r) => r.category.toLowerCase() == 'sides').toList();
   final desserts  = allRecipes.where((r) => r.category.toLowerCase() == 'dessert').toList();
 
   // Helper: get random recipe from a list
@@ -173,23 +189,29 @@ static Future<Map<String, Recipe?>> randomMealSet() async {
 
   // Try to pick directly from categories first
   Recipe? cocktail = pickRandom(cocktails);
+  Recipe? bread = pickRandom(breads);
   Recipe? starter  = pickRandom(starters);
   Recipe? main     = pickRandom(mains);
+  Recipe? sides1 = pickRandom(sides);
   Recipe? dessert  = pickRandom(desserts);
 
   // If any category missing, fallback to random
   if (cocktail == null || starter == null || main == null || dessert == null) {
     final fallback = List.from(allRecipes);
     cocktail ??= fallback[random.nextInt(fallback.length)];
+    bread ??= fallback[random.nextInt(fallback.length)];
     starter  ??= fallback[random.nextInt(fallback.length)];
     main     ??= fallback[random.nextInt(fallback.length)];
+    sides1    ??= fallback[random.nextInt(fallback.length)];
     dessert  ??= fallback[random.nextInt(fallback.length)];
   }
 
   return {
     'cocktail': cocktail,
+    'bread': bread,
     'starter': starter,
     'main': main,
+    'sides': sides1,
     'dessert': dessert,
   };
 }

@@ -27,9 +27,30 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _loadRandomMenu() async {
-    final menu = await RecipeService.randomMealSet();
-    setState(() => _randomMenu = menu);
+  final allRecipes = await RecipeService.getAllRecipes(); // assumes all recipes from JSON
+  final categories = ['Cocktail', 'Bread', 'Starter', 'Main', 'Sides', 'Dessert'];
+
+  final Set<String> usedIds = {}; // track duplicates
+  final Map<String, Recipe?> randomMenu = {};
+
+  for (final category in categories) {
+    // find all recipes matching this category and not already used
+    final candidates = allRecipes.where((r) {
+      return r.category.contains(category) && !usedIds.contains(r.name);
+    }).toList();
+
+    if (candidates.isNotEmpty) {
+      candidates.shuffle();
+      final selected = candidates.first;
+      randomMenu[category] = selected;
+      usedIds.add(selected.name); // prevent repeats
+    } else {
+      randomMenu[category] = null;
+    }
   }
+
+  setState(() => _randomMenu = randomMenu);
+}
 
   Future<void> _loadTopRecipes() async {
     final top = await RecipeService.getTop10Recipes();
@@ -79,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
             if (recipe.imageUrl.isNotEmpty)
               ClipRRect(
                 borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
-                child: Image.network(
+                child: Image.asset(
                   recipe.imageUrl,
                   height: height,
                   width: double.infinity,
@@ -102,6 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           fontWeight: FontWeight.bold, fontSize: 16)),
                   const SizedBox(height: 4),
                   Text(recipe.source,
+                      overflow: TextOverflow.ellipsis,
                       style: const TextStyle(fontStyle: FontStyle.italic)),
                 ],
               ),
@@ -128,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildTop10Recipes() {
     return SizedBox(
-      height: 400,
+      height: 350,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: _topRecipes.length,
@@ -141,7 +163,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildCategoriesBar() {
-    final categories = ['Cocktail', 'Starter', 'Main', 'Dessert'];
+    final categories = ['Cocktail', 'Bread', 'Starter', 'Main', 'Sides', 'Dessert'];
     return SizedBox(
       height: 40,
       child: ListView.builder(
@@ -182,7 +204,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: TextField(
                     controller: _searchController,
                     decoration: InputDecoration(
-                      hintText: 'Search recipes, ingredients...',
+                      hintText: 'Search recipes, chefs, restaurants, ingredients...',
                       prefixIcon: const Icon(Icons.search),
                       filled: true,
                       fillColor: const Color.fromARGB(255, 15, 14, 14),
@@ -197,7 +219,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 const SizedBox(width: 8),
                 ElevatedButton(
                   onPressed: _searchRecipes,
-                  child: const Text('Search'),
+                  child: const Text('Be Fancy'),
                 ),
               ],
             ),
@@ -210,7 +232,7 @@ class _HomeScreenState extends State<HomeScreen> {
             // Random Menu
             if (_randomMenu.isNotEmpty) ...[
               const Text(
-                "Not sure what to cook? We'll pick something for you!",
+                "Not sure what to cook? Try this curated menu to wow your guests!",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16,color:Color.fromARGB(255, 255, 255, 255)),
               ),
               const SizedBox(height: 8),
@@ -228,19 +250,7 @@ class _HomeScreenState extends State<HomeScreen> {
               _buildTop10Recipes(),
               const SizedBox(height: 24),
             ],
-
-            // Search Results
-            _isSearching
-                ? const Center(child: CircularProgressIndicator())
-                : _results.isEmpty && _searchController.text.isNotEmpty
-                    ? const Center(child: Text('Oops - no fancy cooking tonight'))
-                    : ListView.builder(
-                        shrinkWrap: true,
-                        physics: const NeverScrollableScrollPhysics(),
-                        itemCount: _results.length,
-                        itemBuilder: (context, index) =>
-                            _buildRecipeCard(_results[index]),
-                      ),
+            const SizedBox(height: 40),
           ],
         ),
       ),

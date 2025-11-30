@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 //  static const Color flameOrange = Color(0xFFF58220);
 //  static const Color background = Color(0xFF121212);
-//  static const Color background = Color(0xFF181918)
+//  static const Color background = Color(0xFF141413)
 //  static const Color surface = Color(0xFF1E1E1E);
 //  static const Color textPrimary = Color(0xFFFFFFFF);
 //  static const Color textSecondary = Color(0xFFC8C8C8);
@@ -15,7 +15,7 @@ class YesChefTheme {
   static ThemeData buildTheme() {
     const primary = Color(0xFFF58220); // your orange flame color
     const surface = Color(0xFF1E1E1E); // dark card / background surface
-    const background = Color(0xFF181918); // full app background
+    const background = Color(0xFF121212); // full app background
 
     return ThemeData(
       brightness: Brightness.dark,

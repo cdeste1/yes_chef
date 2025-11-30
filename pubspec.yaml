@@ -1,5 +1,5 @@
-name: flutter_yes_chef
-description: "A new Flutter project."
+name: yes_chef
+description: "A MichMatch Recipe App."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -42,6 +42,7 @@ dependencies:
   flutter_native_splash: ^2.4.7
   flutter_launcher_icons: ^0.14.4
   google_mobile_ads: ^6.0.0
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +63,9 @@ flutter:
   assets:
     - assets/recipes.json
     - assets/Photos/YesChefLogo.png
+    - assets/Photos/YesChefLogo_transparent.png
+    - assets/Photos/
+    - assets/Photos/Recipes/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -101,20 +105,20 @@ flutter:
 
 flutter_native_splash:
   color: "#000000"                # Background color (dark theme)
-  image: assets/Photos/YesChefLogo.png
+  image: assets/Photos/YesChefLogo_transparent.png
   branding_mode: bottom
   android: true
   ios: true
   web: false
   android_12:
-    image: assets/Photos/YesChefLogo.png
+    image: assets/Photos/YesChefLogo_transparent.png
     color: "#000000"
 
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: assets/Photos/YesChefLogo.png
+  image_path: assets/Photos/YesChefLogo_transparent.png
   adaptive_icon_background: "#000000"
-  adaptive_icon_foreground: assets/Photos/YesChefLogo.png
+  adaptive_icon_foreground: assets/Photos/YesChefLogo_transparent.png
   min_sdk_android: 21
   remove_alpha_ios: true

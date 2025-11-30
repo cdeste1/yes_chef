@@ -9,6 +9,7 @@ class Recipe {
   final String cuisine;
   final List<String> tags;
   final List<String> ingredients;
+  final List<String> specialtools;
   final List<String> steps;
 
   Recipe({
@@ -19,6 +20,7 @@ class Recipe {
     required this.cuisine,
     required this.tags,
     required this.ingredients,
+    required this.specialtools,
     required this.steps,
   });
 
@@ -31,6 +33,7 @@ class Recipe {
       cuisine: json['cuisine'],
       tags: List<String>.from(json['tags']),
       ingredients: List<String>.from(json['ingredients']),
+      specialtools: List<String>.from(json['specialtools']),
       steps: List<String>.from(json['steps']),
     );
   }

@@ -1,0 +1,469 @@
+{
+  "recipe": {
+    "name": "Foie Gras Udon with Dashi Emulsion",
+    "source": "adapted from RyuGin",
+    "imageUrl": "",
+    "chef": "inspired by: Seiji Yamamoto",
+    "yield": "Serves 2",
+    "description": "Rich udon noodles dressed with seared foie gras and a silky, emulsified dashi.",
+    "category": "Main",
+    "keywords": "foie gras, udon, dashi, japanese french fusion",
+    "ingredients": [
+      { "item": "Foie gras", "quantity": "120 g", "note": "cut into medallions" }
+    ],
+    "specialtools": [],
+    "steps": [
+      { "number": 1, "instruction": "Place udon in bowl; top with foie gras; spoon dashi emulsion over." }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Dashi Emulsion",
+        "ingredients": [
+          { "item": "Dashi", "quantity": "200 mL" },
+          { "item": "Egg yolk", "quantity": "1" },
+          { "item": "Butter", "quantity": "40 g" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Blend warm dashi with yolk and butter until emulsified." }
+        ]
+      }
+    ]
+  }
+},
+
+{
+  "recipe": {
+    "name": "Sea Bream Somen with Kelp Broth",
+    "source": "adapted from RyuGin (Tokyo)",
+    "imageUrl": "",
+    "chef": "inspired by: Seiji Yamamoto",
+    "yield": "Serves 2",
+    "description": "A delicate RyuGin-style chilled somen dish topped with raw sea bream and poured-over kelp broth.",
+    "category": "Main",
+    "keywords": "ryugin, sea bream, somen, kelp, japanese fine dining",
+    "ingredients": [],
+    "specialtools": [],
+    "steps": [
+      { "number": 1, "instruction": "Layer somen, add sea bream slices, pour chilled broth tableside." }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Kelp Broth",
+        "ingredients": [
+          { "item": "Kombu", "quantity": "10 g" },
+          { "item": "Water", "quantity": "500 mL" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Cold-infuse kombu 6 hours; strain." }
+        ]
+      }
+    ]
+  }
+},
+
+{
+  "recipe": {
+    "name": "Lobster Ramen with Pickled Chili Oil",
+    "source": "adapted from Momofuku Ko (NYC)",
+    "imageUrl": "",
+    "chef": "inspired by: David Chang",
+    "yield": "Serves 2",
+    "description": "Deeply flavored ramen made from roasted lobster shells, finished with bright pickled chili oil.",
+    "category": "Main",
+    "keywords": "ramen, lobster, momofuku, chili oil",
+    "ingredients": [],
+    "specialtools": [],
+    "steps": [
+      { "number": 1, "instruction": "Fill bowls with noodles, lobster meat, broth, and chili oil drizzle." }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Lobster Broth",
+        "ingredients": [
+          { "item": "Lobster shells", "quantity": "from 2 lobsters" },
+          { "item": "Miso", "quantity": "1 tbsp" },
+          { "item": "Ginger", "quantity": "10 g" },
+          { "item": "Water", "quantity": "1 L" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Roast shells; simmer with aromatics 90 minutes." }
+        ]
+      },
+      {
+        "name": "Pickled Chili Oil",
+        "ingredients": [
+          { "item": "Red chilies", "quantity": "4" },
+          { "item": "Rice vinegar", "quantity": "50 mL" },
+          { "item": "Oil", "quantity": "50 mL" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Pickle chilies in vinegar; blend with oil." }
+        ]
+      }
+    ]
+  }
+},
+
+{
+  "recipe": {
+    "name": "Mishima Reserve Wagyu",
+    "source": "adpated from CUT",
+    "imageUrl": "",
+    "chef": "inspired by: Wolfgang Puck",
+    "yield": "Serves 2",
+    "description": "A perfectly seared Mishima Reserve Wagyu filet with bone marrow jus.",
+    "category": "Main",
+    "keywords": "wagyu, mishima reserve, steak, luxury beef",
+    "ingredients": [
+      { "item": "Mishima Reserve Wagyu filet", "quantity": "2 x 150 g" }
+    ],
+    "specialtools": [],
+    "steps": [
+      { "number": 1, "instruction": "Rest steak, slice, and spoon bone marrow jus over." }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Bone Marrow Jus",
+        "ingredients": [
+          { "item": "Brown stock", "quantity": "300 mL" },
+          { "item": "Bone marrow", "quantity": "50 g" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Reduce stock with bone marrow until glossy." }
+        ]
+      }
+    ]
+  }
+},
+
+{
+  "recipe": {
+    "name": "Filet de Bœuf Rossini",
+    "source": "L’Ambroisie (Paris)",
+    "imageUrl": "",
+    "chef": "inspired by: Bernard Pacaud",
+    "yield": "Serves 2",
+    "description": "A legendary French classic: filet mignon with seared foie gras, sauce périgueux, and black truffle.",
+    "category": "Main",
+    "keywords": "rossini, foie gras, truffle, classical french",
+    "ingredients": [
+      { "item": "Filet mignon", "quantity": "2 x 150 g" },
+      { "item": "Foie gras", "quantity": "2 x 40 g" }
+    ],
+    "specialtools": [],
+    "steps": [
+      { "number": 1, "instruction": "Assemble steak, foie gras, and truffle; napper with périgueux." }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Sauce Périgueux",
+        "ingredients": [
+          { "item": "Demi-glace", "quantity": "200 mL" },
+          { "item": "Black truffle", "quantity": "20 g" },
+          { "item": "Madeira wine", "quantity": "50 mL" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Reduce Madeira; add demi-glace; finish with truffle." }
+        ]
+      }
+    ]
+  }
+},
+
+{
+  "recipe": {
+    "name": "Mole Madre, Mole Nuevo",
+    "source": "adapted from Pujol (Mexico City)",
+    "imageUrl": "",
+    "chef": "inspired by: Enrique Olvera",
+    "yield": "Serves 2",
+    "description": "The iconic Pujol dish: a ring of aged mole madre surrounding a pool of fresh mole nuevo.",
+    "category": "Main",
+    "keywords": "pujol, mole, mexico city, tasting menu",
+    "ingredients": [],
+    "specialtools": [],
+    "steps": [
+      { "number": 1, "instruction": "Plate mole madre as outer ring; spoon mole nuevo in center." }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Mole Madre",
+        "ingredients": [
+          { "item": "Assorted dried chilies", "quantity": "100 g" },
+          { "item": "Nuts & seeds mix", "quantity": "80 g" },
+          { "item": "Mexican chocolate", "quantity": "30 g" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Toast, blend, cook down for hours; age as desired." }
+        ]
+      },
+      {
+        "name": "Mole Nuevo",
+        "ingredients": [
+          { "item": "Tomatillos", "quantity": "100 g" },
+          { "item": "Fresh chilies", "quantity": "30 g" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Blend fresh ingredients; simmer 20 minutes." }
+        ]
+      }
+    ]
+  }
+},
+
+{
+  "recipe": {
+    "name": "Grasshopper and Avocado Leaf Taco",
+    "source": "adapatd from Quintonil (Mexico City)",
+    "imageUrl": "",
+    "chef": "inspired by: Jorge Vallejo",
+    "yield": "6 small tacos",
+    "description": "A contemporary Mexican tasting bite featuring toasted chapulines, avocado leaf, and fresh masa.",
+    "category": "Main",
+    "keywords": "quintonil, grasshopper, chapulines, taco, modern mexican",
+    "ingredients": [],
+    "specialtools": [],
+    "steps": [
+      { "number": 1, "instruction": "Fill warm masa tortillas with grasshoppers and herb salsa." }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Chapulín Filling",
+        "ingredients": [
+          { "item": "Toasted grasshoppers", "quantity": "40 g" },
+          { "item": "Lime zest", "quantity": "pinch" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Toss grasshoppers with lime and avocado leaf ash." }
+        ]
+      }
+    ]
+  }
+},
+{
+    "recipe": {
+      "name": "Chocolate Textures — Mousse, Soil, Tuile, Sorbet",
+      "source": "adapted from Pierre Gagnaire",
+      "imageUrl": "",
+      "chef": "inspired by: Pierre Hermé",
+      "yield": "Serves 4",
+      "description": "A four-texture exploration of chocolate featuring aerated mousse, dark cocoa soil, crisp tuile, and a chilled 72% chocolate sorbet.",
+      "category": "Dessert",
+      "keywords": "chocolate, mousse, sorbet, tuile, modern dessert, fine dining",
+      "ingredients": [],
+      "specialtools": [
+        { "item": "ISi siphon", "link": "" },
+        { "item": "Dehydrator", "link": "" },
+        { "item": "Ice cream machine", "link": "" }
+      ],
+      "steps": [
+        { "number": 1, "instruction": "Plate the mousse quenelle at the center." },
+        { "number": 2, "instruction": "Scatter cocoa soil around the mousse." },
+        { "number": 3, "instruction": "Add a shard of chocolate tuile vertically for height." },
+        { "number": 4, "instruction": "Add a quenelle of chocolate sorbet." }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Chocolate Mousse",
+          "ingredients": [
+            { "item": "72% dark chocolate", "quantity": "150 g" },
+            { "item": "Cream", "quantity": "300 mL" },
+            { "item": "Egg yolks", "quantity": "3" },
+            { "item": "Sugar", "quantity": "40 g" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Whisk yolks and sugar until pale." },
+            { "number": 2, "instruction": "Melt chocolate and fold in whipped cream, then fold in yolks." },
+            { "number": 3, "instruction": "Chill at least 4 hours." }
+          ]
+        },
+        {
+          "name": "Cocoa Soil",
+          "ingredients": [
+            { "item": "Flour", "quantity": "50 g" },
+            { "item": "Cocoa powder", "quantity": "30 g" },
+            { "item": "Butter", "quantity": "40 g" },
+            { "item": "Sugar", "quantity": "30 g" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Combine ingredients until crumbly." },
+            { "number": 2, "instruction": "Bake at 150°C for 20 minutes and crumble." }
+          ]
+        },
+        {
+          "name": "Chocolate Tuile",
+          "ingredients": [
+            { "item": "Cocoa powder", "quantity": "25 g" },
+            { "item": "Hazelnut oil", "quantity": "20 g" },
+            { "item": "Sugar", "quantity": "20 g" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Spread thinly on silicone mat." },
+            { "number": 2, "instruction": "Bake at 160°C for 10 minutes and cool." }
+          ]
+        },
+        {
+          "name": "Chocolate Sorbet",
+          "ingredients": [
+            { "item": "Water", "quantity": "300 mL" },
+            { "item": "Sugar", "quantity": "80 g" },
+            { "item": "Cocoa powder", "quantity": "40 g" },
+            { "item": "72% chocolate", "quantity": "80 g" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Heat water, sugar, and cocoa to a boil." },
+            { "number": 2, "instruction": "Add chocolate, blend, chill, and spin." }
+          ]
+        }
+      ]
+    }
+  }, 
+
+  {
+    "recipe": {
+      "name": "Citrus Cloud with Yuzu Curd and Meringue Shards",
+      "source": "adapted from The Fat Duck",
+      "yield": "Serves 4",
+      "chef": "inspired by: Heston Blumenthal",
+      "description": "A bright, ethereal dessert combining whipped citrus espuma, silky yuzu curd, and crisp dehydrated meringue.",
+      "category": "Dessert",
+      "keywords": "yuzu, citrus, meringue, espuma",
+      "specialtools": [
+        { "item": "ISi siphon" },
+        { "item": "Dehydrator" }
+      ],
+      "steps": [
+        { "number": 1, "instruction": "Pipe yuzu curd onto the plate." },
+        { "number": 2, "instruction": "Dispense citrus cloud espuma around it." },
+        { "number": 3, "instruction": "Finish with meringue shards." }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Yuzu Curd",
+          "ingredients": [
+            { "item": "Yuzu juice", "quantity": "80 mL" },
+            { "item": "Sugar", "quantity": "80 g" },
+            { "item": "Egg yolks", "quantity": "3" },
+            { "item": "Butter", "quantity": "60 g" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Cook juice, sugar, and yolks over low heat to 82°C." },
+            { "number": 2, "instruction": "Blend in butter and chill." }
+          ]
+        },
+        {
+          "name": "Citrus Cloud Espuma",
+          "ingredients": [
+            { "item": "Lemon juice", "quantity": "40 mL" },
+            { "item": "Orange juice", "quantity": "40 mL" },
+            { "item": "Simple syrup", "quantity": "40 mL" },
+            { "item": "Cream", "quantity": "80 mL" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Blend ingredients, strain, charge with one N2O cartridge." }
+          ]
+        },
+        {
+          "name": "Meringue Shards",
+          "ingredients": [
+            { "item": "Egg whites", "quantity": "2" },
+            { "item": "Sugar", "quantity": "100 g" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Whip to stiff peaks." },
+            { "number": 2, "instruction": "Spread thinly and dehydrate overnight." }
+          ]
+        }
+      ]
+    }
+  },
+
+  {
+    "recipe": {
+      "name": "Vanilla Bean Bavarois with Roasted Pineapple Gelée",
+      "source": "adapted from Le Meurice",
+      "yield": "Serves 4",
+      "chef": "inspired by: Pierre Gagnaire",
+      "description": "Silky vanilla bavarois layered with roasted pineapple gelée and finished with rum-infused glaze.",
+      "category": "Dessert",
+      "keywords": "bavarois, vanilla, pineapple, gelée",
+      "specialtools": [],
+      "steps": [
+        { "number": 1, "instruction": "Layer bavarois in molds and chill." },
+        { "number": 2, "instruction": "Top with pineapple gelée." },
+        { "number": 3, "instruction": "Unmold and glaze lightly." }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Vanilla Bavarois",
+          "ingredients": [
+            { "item": "Milk", "quantity": "250 mL" },
+            { "item": "Cream", "quantity": "200 mL" },
+            { "item": "Egg yolks", "quantity": "4" },
+            { "item": "Sugar", "quantity": "60 g" },
+            { "item": "Gelatin sheets", "quantity": "2" },
+            { "item": "Vanilla bean", "quantity": "1" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Cook anglaise with vanilla, melt in gelatin." },
+            { "number": 2, "instruction": "Fold in whipped cream and chill." }
+          ]
+        },
+        {
+          "name": "Roasted Pineapple Gelée",
+          "ingredients": [
+            { "item": "Pineapple", "quantity": "300 g", "note": "roasted and puréed" },
+            { "item": "Sugar", "quantity": "40 g" },
+            { "item": "Gelatin sheets", "quantity": "2" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Heat purée with sugar, dissolve gelatin, and cool slightly before pouring." }
+          ]
+        }
+      ]
+    }
+  },
+
+  {
+    "recipe": {
+      "name": "Pierre Gagnaire–Style Grand Dessert — 5-Part Tasting",
+      "source": "adapted from Pierre Gagnaire",
+      "yield": "Serves 4",
+      "chef": "inspired by: Pierre Gagnaire",
+      "description": "A five-course miniature dessert flight inspired by Pierre Gagnaire, showcasing contrasting temperatures, textures, and flavors.",
+      "category": "Dessert",
+      "keywords": "dessert tasting, grand dessert, Gagnaire",
+      "specialtools": [],
+      "steps": [
+        { "number": 1, "instruction": "Serve the five desserts sequentially or together depending on service style." }
+      ],
+      "sub_recipes": [
+        { "name": "1. Warm Vanilla Soufflé", "ingredients": [], "steps": [] },
+        { "name": "2. Mango-Lime Sorbet", "ingredients": [], "steps": [] },
+        { "name": "3. Bitter Chocolate Ganache Cube", "ingredients": [], "steps": [] },
+        { "name": "4. Rhubarb Compote with Almond Foam", "ingredients": [], "steps": [] },
+        { "name": "5. Caramelized Milk Skin Tuile", "ingredients": [], "steps": [] }
+      ]
+    }
+  },
+
+  {
+    "recipe": {
+      "name": "Tahitian Vanilla Mille-Feuille",
+      "source": "adapted from Le Meurice",
+      "yield": "Serves 4",
+      "chef":"inspired by: Pierre Gagnaire",
+      "description": "A refined mille-feuille with ultra-thin caramelized puff pastry and silky Tahitian vanilla crème légère.",
+      "category": "Dessert",
+      "keywords": "mille-feuille, vanilla, modern French pastry",
+      "specialtools": [],
+      "steps": [
+        { "number": 1, "instruction": "Alternate layers of caramelized puff and vanilla cream." },
+        { "number": 2, "instruction": "Top with powdered sugar lattice." }
+      ],
+      "sub_recipes": [
+        { "name": "Caramelized Puff Pastry", "ingredients": [], "steps": [] },
+        { "name": "Vanilla Crème Légère", "ingredients": [], "steps": [] }
+      ]
+    }
+  }

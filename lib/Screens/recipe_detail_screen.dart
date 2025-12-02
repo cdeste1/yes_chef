@@ -42,7 +42,7 @@ class RecipeDetailScreen extends StatelessWidget {
               ),
             if (recipe.chef.isNotEmpty)
               Text(
-                'Chef: ${recipe.chef}',
+                'Inspiring Chef: ${recipe.chef}',
                 style: const TextStyle(fontStyle: FontStyle.italic),
               ),
             if (recipe.description.isNotEmpty) ...[

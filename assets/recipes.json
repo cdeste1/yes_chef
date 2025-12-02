@@ -4,7 +4,7 @@
       "name": "Pinwheel Lasagna",
       "source": "adapted from: Don Angie - NYC",
       "imageUrl": "assets/Photos/Recipes/PinWheelLasagna.png",
-      "chef": "inspired by: Angie Rito & Scott Tachinelli",
+      "chef": " Angie Rito & Scott Tachinelli",
       "yield": "16 pinwheels (serves 8-10)",
       "description": "A rolled lasagna pinwheel filled with sausage bolognese, besciamella, mozzarella, and Parmigiano-Reggiano, baked in tomato sauce and finished with robiolina.",
       "category": "Main",
@@ -138,7 +138,7 @@
       "name": "Rib-eye, mushroom purée and beef tea",
       "source": "adapted from The French Laundry (Yountville, USA)",
       "imageUrl": "assets/Photos/Recipes/rubeye_mushroompuree_beeftea.png",
-      "chef": "inspired by: Tom Keller",
+      "chef": " Tom Keller",
       "yield": "6 plates",
       "description": "An elegant course, pairing beef with mushroom purée and potatoes cooked with bacon.",
       "category": "Main",
@@ -244,10 +244,10 @@
   },
   {
     "recipe": {
-      "name": "Baked camembert with roasted grapes, walnuts, rosemary and pink peppercorn crackers",
+      "name": "Baked camembert with roasted grapes, walnuts, rosemary",
       "source": "adapted from: Classic French Bistro",
       "imageUrl": "assets/Photos/Recipes/BakedCamembert_Grapes_Walnuts.webp",
-      "chef": "inspired by: Alain Ducasse",
+      "chef": " Alain Ducasse",
       "yield": "4",
       "description": "Gooey, melted camembert is pierced with aromatic rosemary sprigs and topped with toasted walnuts and roasted grapes",
       "category": "Starter",
@@ -298,7 +298,7 @@
       "name": "Death in Venice",
       "source": "adapted from The Fat Duck",
       "imageUrl": "assets/Photos/Recipes/DeathinVenice.webp",
-      "chef": "inspired by: Heston Blumenthal",
+      "chef": " Heston Blumenthal",
       "yield": "1",
       "description": "Cocktail that is refreshing and simply prepared",
       "category": "Cocktail",
@@ -324,7 +324,7 @@
       "name": "Agnolotti al Limone",
       "source": "adapted from Modern Italian",
       "imageUrl": "assets/Photos/Recipes/agnolotti_lemonsauce.png",
-      "chef": "inspired by: Massimo Bottura",
+      "chef": " Massimo Bottura",
       "yield": "8 servings",
       "description": "Silky agnolotti served in a lemon cream sauce.  The Limoncello makes it a little sweet to balance the savory ricotta",
       "category": "Starter, Main",
@@ -391,7 +391,7 @@
       "name": "Inception",
       "source": "adapted from Alinea",
       "imageUrl": "assets/Photos/Recipes/Inception.webp",
-      "chef": "inspired by: Grant Achatz",
+      "chef": " Grant Achatz",
       "yield": "1",
       "description": "A drink inside a drink",
       "category": "Cocktail",
@@ -468,7 +468,7 @@
     "name": "Agnolotti del Plin",
     "source": "adapted from Osteria Francescana (Modena, Italy)",
     "imageUrl": "assets/Photos/Recipes/Agnolotti_Plin.png",
-    "chef": "inspired by: Massimo Bottura",
+    "chef": " Massimo Bottura",
     "yield": "Serves 6",
     "description": "An iconic dish from Piemonte, the pasta is filled with veal, pork, spinach, Parmigiano Reggiano, and eggs, then served in a sage butter sauce.",
     "category": "Main",
@@ -559,7 +559,7 @@
     "name": "Burrata Sphere with Basil Oil & Tomato Water Snow",
     "source": "adapted from Modern Italian",
     "imageUrl": "assets/Photos/Recipes/burrata_tomatowatersnow_basiloil.png",
-    "chef": "inspired by: Massimo Bottura",
+    "chef": " Massimo Bottura",
     "yield": "1, serving 2-4",
     "description": "A delicate burrata sphere paired with aromatic basil oil and refreshing tomato water snow, combining creamy, herbal, and acidic elements.",
     "category": "Starter",
@@ -655,7 +655,7 @@
     "name": "Squid Ink Tagliolini with Sea Urchin and Bottarga",
     "source": "adapted from Le Bernardin (New York City, USA)",
     "imageUrl": "assets/Photos/Recipes/SquidInkTagliolini_SeaUrchin_Bottarga.png",
-    "chef": "inspired by: Mauro Colagreco",
+    "chef": " Mauro Colagreco",
     "yield": "Serves 2",
     "description": "Fresh squid ink tagliolini served with a rich sea urchin sauce, finished with grated bottarga and a drizzle of olive oil. A luxurious, delicate seafood pasta with bright lemon zest and optional herbs.",
     "category": "Main",
@@ -732,10 +732,10 @@
 },
 {
   "recipe": {
-    "name": "Ballotine of Bresse Chicken with Black Truffle and Jus Gras",
+    "name": "Ballotine of Chicken with Black Truffle and Jus Gras",
     "source": "adapted from Maison Bocuse",
     "imageUrl": "assets/Photos/Recipes/BallotineBresse_Truffle_JusGras.jpg",
-    "chef": "inspired by: Paul Bocuse",
+    "chef": " Paul Bocuse",
     "yield": "Serves 4",
     "description": "A luxurious Bresse chicken ballotine infused with black truffle, served with a rich jus gras made from roasted chicken bones, vegetables, and truffle. Elegant, earthy, and perfect for special occasions.",
     "category": "Main",
@@ -814,7 +814,7 @@
     "name": "Corn-Fed Hen with Morels and Vin Jaune Sauce",
     "source": "adapted from French Cuisine",
     "imageUrl": "assets/Photos/Recipes/Corn-fedhen_morels_vinjaunesauce.png",
-    "chef": "inspired by: Yannick Alleno",
+    "chef": " Yannick Alleno",
     "yield": "Serves 4",
     "description": "Roasted corn-fed hen served with tender morels and a rich, nutty Vin Jaune sauce. Elegant poultry dish with earthy mushrooms and flavorful sauce.",
     "category": "Main",
@@ -894,7 +894,7 @@
     "name": "Lobster Tortellini with Bisque Reduction and Lemon Foam",
     "source": "adpated from Mirazur",
     "imageUrl": "assets/Photos/Recipes/lobstertortelinni_bisquereduction_lemonfoam.png",
-    "chef": "inspired by: Mauro Colagreco",
+    "chef": " Mauro Colagreco",
     "yield": "Serves 4",
     "description": "Delicate lobster-filled tortellini served with a rich bisque reduction and a bright lemon foam for contrast.",
     "category": "Main",
@@ -1028,10 +1028,10 @@
 },
 {
   "recipe": {
-    "name": "Deconstructed Chocolate Chip Cookie Sphere (Liquid Center)",
+    "name": "Deconstructed Chocolate Chip Cookie Sphere",
     "source": "adapted from Alinea",
     "imageUrl": "assets/Photos/Recipes/DeconstructedChocolateChipCookieSphere.png",
-    "chef": "inspired by: Grant Achatz",
+    "chef": " Grant Achatz",
     "yield": "Serves 4–6",
     "description": "A deconstructed chocolate chip cookie in a crisp chocolate sphere with a molten or ganache liquid center. Served with optional cocoa, chocolate drizzle, or ice cream.",
     "category": "Dessert",
@@ -1157,7 +1157,7 @@
     "name": "Duck Consommé with Soba and Shaved Truffle",
     "source": "adapted from Tetsuya",
     "imageUrl": "assets/Photos/Recipes/DuckConsomme_Soba_ShavedTruffle.png",
-    "chef": "inspired by: Nobu",
+    "chef": " Nobu",
     "yield": "Serves 4",
     "description": "A clear duck consommé served with soba noodles and garnished with freshly shaved black truffle. Slow-simmered for clarity and rich flavor.",
     "category": "Main",
@@ -1240,7 +1240,7 @@
     "name": "Smoked Short Rib with Celeriac Purée and Truffle Dust",
     "source": "adpated from CUT",
     "imageUrl": "assets/Photos/Recipes/SmokedShortRib_CeleriacPuree_TruffleDust.png",
-    "chef": "inspired by: Gordon Ramsay",
+    "chef": " Gordon Ramsay",
     "yield": "Serves 4",
     "description": "Tender smoked short ribs served with smooth celeriac purée and finished with a delicate truffle dust for aroma and presentation.",
     "category": "Main",
@@ -1331,7 +1331,7 @@
     "name": "Lobster Taco with Saffron Tortilla and Caviar",
     "source": "adpated from Pujol",
     "imageUrl": "assets/Photos/Recipes/LobsterTaco_SaffronTortilla_Caviar.png",
-    "chef": "inspired by: Enrique Olvera",
+    "chef": " Enrique Olvera",
     "yield": "Serves 4",
     "description": "Delicate lobster tacos served on saffron-infused tortillas, topped with luxurious caviar and garnished with micro herbs or edible flowers.",
     "category": "Main",
@@ -1404,7 +1404,7 @@
     "name": "Oxtail Barbacoa with Corn Espuma and Lime Gel",
     "source": "adpated from Pujol",
     "imageUrl": "assets/Photos/Recipes/OxtailBarbacoa_CornEspuma_LimeGel.png",
-    "chef": "inspired by: Enrique Olvera",
+    "chef": " Enrique Olvera",
     "yield": "Serves 4",
     "description": "Slow-cooked oxtail barbacoa served with light corn espuma and bright lime gel for a modern, flavorful presentation.",
     "category": "Main",
@@ -1504,7 +1504,7 @@
     "name": "Five Ages of Parmigiano Reggiano",
     "source": "adapted from Osteria Francescana (Modena, Italy)",
     "imageUrl": "assets/Photos/Recipes/Parm_5_ages.png",
-    "chef": "inspired by: Massimo Bottura",
+    "chef": " Massimo Bottura",
     "yield": "Serves 4",
     "description": "A tribute to Emilia-Romagna’s king of cheeses, presenting Parmigiano Reggiano in five distinct textures and maturations — crisp, sauce, foam, wafer, and air.",
     "category": "Starter",
@@ -1613,7 +1613,7 @@
     "name": "Cacio e Pepe Ravioli with Truffle Essence",
     "source": "adapted from Da Vittorio (Brusaporto, Italy)",
     "imageUrl": "assets/Photos/Recipes/caciopepe_truffleessense.png",
-    "chef": "inspired by: Cerea Brothers",
+    "chef": " Cerea Brothers",
     "yield": "Serves 4",
     "description": "Refined ravioli filled with Pecorino Romano and mascarpone, finished in a truffle essence sauce — a luxurious interpretation of Rome’s classic cacio e pepe.",
     "category": "Main",
@@ -1695,7 +1695,7 @@
     "name": "Roasted Chicken with Wild Mushrooms and Sherry Reduction",
     "source": "adapted from Le Bernardin (New York City, USA)",
     "imageUrl": "assets/Photos/Recipes/RoastedChicken_WildMushroom_SherryReduction.png",
-    "chef": "inspired by: Eric Ripert",
+    "chef": " Eric Ripert",
     "yield": "Serves 4",
     "description": "A refined take on classic roast chicken — perfectly crisped skin, tender meat, and a luxurious sherry reduction paired with earthy wild mushrooms.",
     "category": "Main",
@@ -1784,7 +1784,7 @@
     "name": "Beef Tenderloin with Bone Marrow Sabayon",
     "source": "adapted from L'Ambroisie",
     "imageUrl": "assets/Photos/Recipes/BeefTenderloin_BoneMarrowSabayon.webp",
-    "chef": "inspired by: Bernard Pacaud",
+    "chef": " Bernard Pacaud",
     "yield": "Serves 4",
     "description": "A luxurious main course pairing perfectly seared beef tenderloin with a silky, umami-rich bone marrow sabayon and red wine reduction.",
     "category": "Main",
@@ -1878,7 +1878,7 @@
     "name": "Quinoa Risotto with Jerusalem Artichoke and Black Garlic",
     "source": "adapted from Noma (Copenhagen)",
     "imageUrl": "assets/Photos/Recipes/quinorissotto_artichoke_garlicpuree.png",
-    "chef": "inspired by: René Redzepi",
+    "chef": " René Redzepi",
     "yield": "Serves 4",
     "description": "A refined plant-based risotto featuring nutty quinoa cooked to creamy perfection, paired with roasted Jerusalem artichokes and umami-rich black garlic purée.",
     "category": "Starter, Main",
@@ -1966,7 +1966,7 @@
     "name": "Poached Salmon with Cucumber Spheres and Dill Air",
     "source": "adapted from Le Bernardin (New York City, USA)",
     "imageUrl": "assets/Photos/Recipes/poachedsalmon_cucumberspheres_dillfoam.webp",
-    "chef": "inspired by: Mauro Colagreco",
+    "chef": " Mauro Colagreco",
     "yield": "Serves 4",
     "description": "A delicate modernist seafood dish featuring gently poached salmon, refreshing cucumber spheres, and aromatic dill air for a light yet complex presentation.",
     "category": "Main",
@@ -2050,7 +2050,7 @@
     "name": "Compressed Melon, Prosciutto Air, and Basil Pearls",
     "source": "adapted from Osteria Francescana (Modena, Italy)",
     "imageUrl": "assets/Photos/Recipes/melon_prosciuttoair_basilpearls.png",
-    "chef": "inspired by: Massimo Bottura",
+    "chef": " Massimo Bottura",
     "yield": "Serves 4",
     "description": "A playful, modernist take on the classic prosciutto and melon pairing — featuring vacuum-compressed melon, a savory prosciutto-infused air, and delicate basil pearls for balance and freshness.",
     "category": "Starter",
@@ -2134,7 +2134,7 @@
     "name": "Duck Carnitas with Mole Negro and Cocoa Nib Dust",
     "source": "adpated from Pujol",
     "imageUrl": "assets/Photos/Recipes/duckcarnitas_molenegro_cocoanibdust.webp",
-    "chef": "inspired by: Enrique Olvera",
+    "chef": " Enrique Olvera",
     "yield": "Serves 4",
     "description": "A refined twist on traditional carnitas — slow-cooked duck legs with a rich Oaxacan-style mole negro, finished with a dusting of cocoa nibs for bitterness and texture.",
     "category": "Main",
@@ -2226,7 +2226,7 @@
     "name": "Vegetable Consommé with Edible Flower Ravioli",
     "source": "adapted from Arpège",
     "imageUrl": "assets/Photos/Recipes/VegetableConsomme_EdibleFlowerRavioli.webp",
-    "chef": "inspired by: Alain Passard",
+    "chef": " Alain Passard",
     "yield": "Serves 4",
     "description": "A crystal-clear vegetable consommé served with delicate ravioli filled with ricotta and edible flowers, creating a visually stunning and aromatic dish.",
     "category": "Starter",
@@ -2304,7 +2304,7 @@
     "name": "Brown Butter Sablé with Tonka Bean Ganache",
     "source": "adapted from Pierre Gagnaire",
     "imageUrl": "assets/Photos/Recipes/BrownButterSable_TonkaGanache.png",
-    "chef": "inspired by: Pierre Hermé",
+    "chef": " Pierre Hermé",
     "yield": "Serves 6",
     "description": "Crisp brown butter sablé cookies paired with a luxurious, aromatic tonka bean ganache for a balance of nutty, buttery crunch and creamy spiced chocolate.",
     "category": "Dessert",
@@ -2380,7 +2380,7 @@
     "name": "Miso Chocolate Tuile with Caramelized Cocoa Nibs",
     "source": "adapted from Modern Pastry",
     "imageUrl": "assets/Photos/Recipes/misochocolatetuile_carmalizednibs.webp",
-    "chef": "inspired by: Dominique Ansel",
+    "chef": " Dominique Ansel",
     "yield": "Serves 6–8",
     "description": "A delicate, lacy chocolate tuile infused with umami-rich miso, paired with crunchy caramelized cocoa nibs — an interplay of sweet, salty, and bitter elements.",
     "category": "Dessert",
@@ -2465,7 +2465,7 @@
     "name": "Chocolate Chip Cookie Tuile with Ice Cream Sandwich",
     "source": "adapted from The French Laundry (Yountville, USA)",
     "imageUrl": "assets/Photos/Recipes/ChocholateChipTuile_icecreamsandwhich.png",
-    "chef": "inspired by: Thomas Keller",
+    "chef": " Thomas Keller",
     "yield": "Serves 6",
     "description": "A refined reimagining of the classic ice cream sandwich. The textures contrast beautifully: crisp, creamy, warm, and cold in perfect harmony.",
     "category": "Dessert",
@@ -2613,10 +2613,10 @@
 },
 {
   "recipe": {
-    "name": "Wagyu A5 Striploin with Fermented Black Garlic and Red Wine Jus",
+    "name": "Striploin with Fermented Black Garlic and Red Wine Jus",
     "source": "adpated from CUT",
     "imageUrl": "assets/Photos/Recipes/striploing_blackgarlie_redwinejus.png",
-    "chef": "inspired by: Wolfgang Puck",
+    "chef": " Wolfgang Puck",
     "yield": "Serves 2–4",
     "description": "An indulgent fine dining dish featuring buttery Wagyu A5 striploin paired with the deep umami of fermented black garlic and a silky red wine reduction.",
     "category": "Main",
@@ -2705,7 +2705,7 @@
     "name": "Golden Orchard Spritz",
     "source": "adapted from The Connaught Bar",
     "imageUrl": "assets/Photos/Recipes/GoldenOrchardSpritz.webp",
-    "chef": "inspired by: Giorgio Bargiani",
+    "chef": " Giorgio Bargiani",
     "yield": "1",
     "description": "A refined aperitif spritz highlighting pear, elderflower, and dry sparkling wine.",
     "category": "Cocktail",
@@ -2745,7 +2745,7 @@
     "name": "Saffron Citrus Americano",
     "source": "adapted from Il Ristorante (Paris)",
     "imageUrl": "assets/Photos/Recipes/SaffronCitrusAmericano.webp",
-    "chef": "inspired by: Niko Romito",
+    "chef": " Niko Romito",
     "yield": "1",
     "description": "A bright saffron-infused aperitif with bitter orange and sparkling tonic.",
     "category": "Cocktail",
@@ -2790,7 +2790,7 @@
     "name": "White Tea & Honey Fizz",
     "source": "adapted from Death & Co.",
     "imageUrl": "assets/Photos/Recipes/WhiteTea_HoneyFizz.webp",
-    "chef": "inspired by: Javelle Taft",
+    "chef": " Javelle Taft",
     "yield": "1",
     "description": "A light, floral aperitif built on white tea, gin, and bubbles.",
     "category": "Cocktail",
@@ -2833,7 +2833,7 @@
     "name": "Smoked Chestnut Boulevardier",
     "source": "adapted from The American Bar at the Savoy",
     "imageUrl": "assets/Photos/Recipes/smokedChestnut_boulevardier.webp",
-    "chef": "inspired by: Angelo Sparvoli",
+    "chef": " Angelo Sparvoli",
     "yield": "1",
     "description": "A deep, roasted take on the Boulevardier with smoked chestnut syrup.",
     "category": "Cocktail",
@@ -2882,7 +2882,7 @@
     "name": "Black Truffle Old Fashioned",
     "source": "adapted from The Connaught Bar",
     "imageUrl": "assets/Photos/Recipes/BlackTruffle_OldFashioned.webp",
-    "chef": "inspired by: Giorgio Bargiani",
+    "chef": " Giorgio Bargiani",
     "yield": "1",
     "description": "A decadent Old Fashioned infused with black truffle and raw honey.",
     "category": "Cocktail",
@@ -2968,7 +2968,7 @@
     "name": "Vanilla Bean Espresso Cloud",
     "source": "adapted from The Fat Duck",
     "imageUrl": "assets/Photos/Recipes/Vanilla_Espresso_Cloud.webp",
-    "chef": "inspired by: Heston Blumenthal",
+    "chef": " Heston Blumenthal",
     "yield": "1",
     "description": "A refined espresso martini with vanilla bean syrup and a light foam cap.",
     "category": "Cocktail",
@@ -3104,7 +3104,7 @@
       "name": "Buckwheat Brioche with Cultured Butter",
       "source": "adapted from Noma (Copenhagen)",
       "imageUrl": "assets/Photos/Recipes/BuckwheatBrioche.webp",
-      "chef": "inspired by: René Redzepi",
+      "chef": " René Redzepi",
       "yield": "1 loaf, serves 6",
       "description": "A nutty, deeply aromatic buckwheat brioche paired with tangy house-cultured butter.",
       "category": "Bread",
@@ -3175,7 +3175,7 @@
       "name": "Caramelized Onion Sourdough with Smoked Sea Salt",
       "source": "adapted from Eleven Madison Park (NYC)",
       "imageUrl": "assets/Photos/Recipes/Sourdough_CarmelizedOnions.webp",
-      "chef": "inspired by: Daniel Humm",
+      "chef": " Daniel Humm",
       "yield": "1 loaf",
       "description": "A rustic sourdough enriched with deeply caramelized onions and finished with smoked salt.",
       "category": "Bread",
@@ -3233,7 +3233,7 @@
       "name": "Truffle Milk Bread Rolls",
       "source": "adapted from The French Laundry (Yountville, USA)",
       "imageUrl": "assets/Photos/Recipes/TruffleMilkRolls.webp",
-      "chef": "inspired by: Thomas Keller",
+      "chef": " Thomas Keller",
       "yield": "12 rolls",
       "description": "Ultra-soft Japanese milk bread rolls infused with black truffle aroma.",
       "category": "Bread",
@@ -3271,7 +3271,7 @@
       "name": "Malted Barley Flatbread with Wildflower Butter",
       "source": "adapted from Noma (Copenhagen)",
       "imageUrl": "assets/Photos/Recipes/MaltedBarleyFlatbread_FlowerButter.jpg",
-      "chef": "inspired by: René Redzepi",
+      "chef": " René Redzepi",
       "yield": "8 flatbreads",
       "description": "Primitive-style flatbread using malted barley flour, served with aromatic wildflower butter.",
       "category": "Bread",
@@ -3313,7 +3313,7 @@
       "name": "Pretzel Bread with House Mustard",
       "source": "adapted from Eleven Madison Park (NYC)",
       "imageUrl": "assets/Photos/Recipes/Pretzel_Mustard.jpg",
-      "chef": "inspired by: Daniel Humm",
+      "chef": " Daniel Humm",
       "yield": "12 rolls",
       "description": "Classic pretzel rolls served with a sharp, fermented house mustard.",
       "category": "Bread",
@@ -3358,10 +3358,10 @@
 
   {
     "recipe": {
-      "name": "Garden Composition — 20 Micro-Vegetables, Edible Flowers, and Herb Vinaigrette",
+      "name": "Garden Composition with Herb Vinaigrette",
       "source": "adapted from Arpège",
       "imageUrl": "assets/Photos/Recipes/MicroVegetablePlatter.jpg",
-      "chef": "inspired by: Alain Passard",
+      "chef": " Alain Passard",
       "yield": "Serves 2",
       "description": "A delicate arrangement of micro-vegetables and flowers dressed with a bright herb vinaigrette.",
       "category": "Starter",
@@ -3420,9 +3420,9 @@
   {
     "recipe": {
       "name": "Légumes du Jardin",
-      "source": "inspired by from Arpège (Paris)",
+      "source": "adapted from Arpège (Paris)",
       "imageUrl": "assets/Photos/Recipes/LegumesJardin_Spring.jpg",
-      "chef": "adapted from Alain Passard",
+      "chef": "Alain Passard",
       "yield": "Serves 2",
       "description": "Seasonal vegetables, gently cooked to highlight natural sweetness.",
       "category": "Vegetable",
@@ -3543,106 +3543,12 @@
       ]
     }
   },
-
-  {
-    "recipe": {
-      "name": "Into the Vegetable Garden",
-      "source": "adapted from Manresa (California)",
-      "imageUrl": "",
-      "chef": "inspired by: David Kinch",
-      "yield": "Serves 2",
-      "description": "Iconic vegetable garden dish with edible soil and seasonal produce.",
-      "category": "Vegetable",
-      "keywords": "manresa, vegetable garden, edible soil",
-      "ingredients": [],
-      "specialtools": [],
-      "steps": [
-        { "number": 1, "instruction": "Arrange vegetables over edible 'soil' and drizzle lightly with broth." }
-      ],
-      "sub_recipes": [
-        {
-          "name": "Edible Soil",
-          "ingredients": [
-            { "item": "Dehydrated olives", "quantity": "20 g" },
-            { "item": "Toasted almonds", "quantity": "20 g" },
-            { "item": "Pumpernickel crumbs", "quantity": "20 g" }
-          ],
-          "steps": [
-            { "number": 1, "instruction": "Pulse to coarse soil texture." }
-          ]
-        }
-      ]
-    }
-  },
-
-  {
-    "recipe": {
-      "name": "Raw, Cooked, and Fermented Vegetable Sequence",
-      "source": "adapted from Geranium (Copenhagen)",
-      "imageUrl": "",
-      "chef": "inspired by: Rasmus Kofoed",
-      "yield": "Serves 2",
-      "description": "A progression of vegetables in contrasting states: raw, gently cooked, lacto-fermented.",
-      "category": "Vegetable",
-      "keywords": "geranium, raw, fermented, danish, vegetable tasting",
-      "ingredients": [],
-      "specialtools": [
-        { "item": "Fermentation jars", "link": "" }
-      ],
-      "steps": [
-        { "number": 1, "instruction": "Serve vegetables in sequence from raw to cooked to fermented." }
-      ],
-      "sub_recipes": [
-        {
-          "name": "Lacto-Fermented Vegetables",
-          "ingredients": [
-            { "item": "Carrots", "quantity": "100 g" },
-            { "item": "Cabbage", "quantity": "100 g" },
-            { "item": "2% salt brine", "quantity": "to cover" }
-          ],
-          "steps": [
-            { "number": 1, "instruction": "Ferment 3–5 days at room temperature." }
-          ]
-        }
-      ]
-    }
-  },
-
-  {
-    "recipe": {
-      "name": "Seed-to-Soil Vegetable Tasting",
-      "source": "adapted from Blue Hill at Stone Barns (NY)",
-      "imageUrl": "",
-      "chef": "inspired by: Dan Barber",
-      "yield": "Serves 2",
-      "description": "A tasting of vegetables prepared to highlight their terroir and farm origins.",
-      "category": "Vegetable",
-      "keywords": "blue hill, stone barns, vegetable tasting, farm to table",
-      "ingredients": [],
-      "specialtools": [],
-      "steps": [
-        { "number": 1, "instruction": "Present vegetables in 4–5 small composed bites." }
-      ],
-      "sub_recipes": [
-        {
-          "name": "Roasted Beet Essence",
-          "ingredients": [
-            { "item": "Beets", "quantity": "300 g" }
-          ],
-          "steps": [
-            { "number": 1, "instruction": "Roast, juice, reduce to syrup." }
-          ]
-        }
-      ]
-    }
-  },
-  
 {
   "recipe": {
     "name": "Volaille de Bresse en Vessie",
     "source": "adapted from Collonges-au-Mont-d'Or (Lyon)",
     "imageUrl": "assets/Photos/Recipes/BresseChicken_enVessie.webp",
-    "chef": "inspired by: Paul Bocuse",
+    "chef": " Paul Bocuse",
     "yield": "Serves 4",
     "description": "Bresse chicken poached in a bladder, served with creamy sauce suprême and truffle.",
     "category": "Main",
@@ -3686,7 +3592,7 @@
     "name": "Langoustine Ramen with Yuzu and Kombu Foam",
     "source": "adapted from RyuGin",
     "imageUrl": "assets/Photos/Recipes/Lagoustine_KomboBroth_Foam.jpg",
-    "chef": "inspired by: Seiji Yamamoto",
+    "chef": " Seiji Yamamoto",
     "yield": "Serves 2",
     "description": "A refined seafood ramen built on roasted langoustine shells, with bright yuzu notes and a light kombu foam.",
     "category": "Main",
@@ -3743,7 +3649,7 @@
       "name": "Celery Gin Cloud",
       "source": "adapted from The Fat Duck",
       "imageUrl": "assets/Photos/Recipes/CeleryGinCloud.webp",
-      "chef": "inspired by: Heston Blumenthal",
+      "chef": " Heston Blumenthal",
       "yield": "Serves 1",
       "category": "Cocktail",
       "description": "A light, vegetal gin cocktail topped with aerated celery foam.",
@@ -3884,7 +3790,7 @@
       "name": "Negroni Caviar",
       "source": "adapted from The Connaught Bar",
       "yield": "Serves 2",
-      "chef": "inspired by: Giorgio Bargiani",
+      "chef": " Giorgio Bargiani",
       "imageUrl": "assets/Photos/Recipes/negronicaviarorangegel.webp",
       "description": "A molecular take on the classic Negroni: Campari–gin caviar served over a chilled orange gel.",
       "category": "Cocktail",
@@ -3983,7 +3889,7 @@
     "name": "Corn Crème Brûlée",
     "source": "adapted from Quality Meats, NYC",
     "imageUrl": "assets/Photos/Recipes/corncremebrulee.webp",
-    "chef": "inspired by: Craig Koketsu",
+    "chef": " Craig Koketsu",
     "yield": "Serves 8",
     "description": "A side twist on crème brûlée - with sweet corn that is the perfect side to a steak!.",
     "category": "Sides",

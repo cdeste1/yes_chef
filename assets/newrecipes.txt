@@ -466,4 +466,98 @@
         { "name": "Vanilla Crème Légère", "ingredients": [], "steps": [] }
       ]
     }
-  }
+  },
+
+    {
+    "recipe": {
+      "name": "Into the Vegetable Garden",
+      "source": "adapted from Manresa (California)",
+      "imageUrl": "",
+      "chef": " David Kinch",
+      "yield": "Serves 2",
+      "description": "Iconic vegetable garden dish with edible soil and seasonal produce.",
+      "category": "Vegetable",
+      "keywords": "manresa, vegetable garden, edible soil",
+      "ingredients": [],
+      "specialtools": [],
+      "steps": [
+        { "number": 1, "instruction": "Arrange vegetables over edible 'soil' and drizzle lightly with broth." }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Edible Soil",
+          "ingredients": [
+            { "item": "Dehydrated olives", "quantity": "20 g" },
+            { "item": "Toasted almonds", "quantity": "20 g" },
+            { "item": "Pumpernickel crumbs", "quantity": "20 g" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Pulse to coarse soil texture." }
+          ]
+        }
+      ]
+    }
+  },
+
+  {
+    "recipe": {
+      "name": "Raw, Cooked, and Fermented Vegetable Sequence",
+      "source": "adapted from Geranium (Copenhagen)",
+      "imageUrl": "",
+      "chef": " Rasmus Kofoed",
+      "yield": "Serves 2",
+      "description": "A progression of vegetables in contrasting states: raw, gently cooked, lacto-fermented.",
+      "category": "Vegetable",
+      "keywords": "geranium, raw, fermented, danish, vegetable tasting",
+      "ingredients": [],
+      "specialtools": [
+        { "item": "Fermentation jars", "link": "" }
+      ],
+      "steps": [
+        { "number": 1, "instruction": "Serve vegetables in sequence from raw to cooked to fermented." }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Lacto-Fermented Vegetables",
+          "ingredients": [
+            { "item": "Carrots", "quantity": "100 g" },
+            { "item": "Cabbage", "quantity": "100 g" },
+            { "item": "2% salt brine", "quantity": "to cover" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Ferment 3–5 days at room temperature." }
+          ]
+        }
+      ]
+    }
+  },
+
+  {
+    "recipe": {
+      "name": "Seed-to-Soil Vegetable Tasting",
+      "source": "adapted from Blue Hill at Stone Barns (NY)",
+      "imageUrl": "",
+      "chef": " Dan Barber",
+      "yield": "Serves 2",
+      "description": "A tasting of vegetables prepared to highlight their terroir and farm origins.",
+      "category": "Vegetable",
+      "keywords": "blue hill, stone barns, vegetable tasting, farm to table",
+      "ingredients": [],
+      "specialtools": [],
+      "steps": [
+        { "number": 1, "instruction": "Present vegetables in 4–5 small composed bites." }
+      ],
+      "sub_recipes": [
+        {
+          "name": "Roasted Beet Essence",
+          "ingredients": [
+            { "item": "Beets", "quantity": "300 g" }
+          ],
+          "steps": [
+            { "number": 1, "instruction": "Roast, juice, reduce to syrup." }
+          ]
+        }
+      ]
+    }
+  },
+

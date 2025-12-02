@@ -70,6 +70,16 @@ class RecipeService {
     final lowerQuery = query.toLowerCase();
     final allRecipes = await loadRecipes();
 
+    // FIRST: strict category mode
+  final categories = ['cocktail', 'starter', 'main', 'sides', 'dessert', 'bread'];
+  if (categories.contains(lowerQuery)) {
+    return allRecipes
+        .where((r) => r.category.toLowerCase() == lowerQuery)
+        .toList();
+  }
+
+  // Otherwise: normal fuzzy search
+
     return allRecipes.where((recipe) {
       bool matchFound = false;
 

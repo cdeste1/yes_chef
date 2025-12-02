@@ -56,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen>
               ),
               const SizedBox(height: 24),
               const Text(
-                'Cook Bold. Be Fancy. Eat Better.',
+                'Cook Bold. Elevate Your Dish.',
                 style: TextStyle(
                   color: Colors.white70,
                   fontSize: 20,

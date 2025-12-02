@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
     
   }
 
-  Widget _buildRecipeCard(Recipe recipe, {double height = 120}) {
+  Widget _buildRecipeCard(Recipe recipe, {double height = 160}) {
     return GestureDetector(
       onTap: () => Navigator.push(
         context,
@@ -122,9 +122,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       style: const TextStyle(
                           fontWeight: FontWeight.bold, fontSize: 16)),
                   const SizedBox(height: 4),
-                  Text(recipe.source,
+                  //Flexible(
+                  //  child: 
+                  Text(recipe.description,
                       overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(fontStyle: FontStyle.italic)),
+                      maxLines: 2,
+                      style: const TextStyle(fontStyle: FontStyle.italic),
+                      ),
+                  //),
                 ],
               ),
             ),
@@ -219,7 +224,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 const SizedBox(width: 8),
                 ElevatedButton(
                   onPressed: _searchRecipes,
-                  child: const Text('Be Fancy'),
+                  child: const Text('Elevate'),
                 ),
               ],
             ),

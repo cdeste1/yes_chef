@@ -1,0 +1,2 @@
+API_KEY = "AIzaSyBgEzlqHsr513ff86TlBnx930NnZX4l4UA"
+CX = "<script async src='https://cse.google.com/cse.js?cx=442c4507fed7447cc'></script><div class='gcse-search'></div>"

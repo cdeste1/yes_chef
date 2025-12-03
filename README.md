@@ -1,6 +1,9 @@
 # Yes Chef!
 
-A new Flutter project.
+Tired of the same old lasagna?  Trying to recreate that romantic getaway to Paris?  Want to impress the in-laws.  Look no further.  Yes Chef! elevates your cooking to a fine dining level.  
+
+Most recipes are easy to follow with common cooking tools.  Some special tools may be needed - and the app will point those out.  It'll even tell you that special wine to pair perfectly with your meal.
+
 
 ## Getting Started
 

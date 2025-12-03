@@ -1,4 +1,4 @@
-# flutter_yes_chef
+# Yes Chef!
 
 A new Flutter project.
 

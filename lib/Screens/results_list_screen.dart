@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/recipe_model.dart';
 import 'recipe_detail_screen.dart';
-import '../Widgets/ad_banner.dart';
+import '../widgets/ad_banner.dart';
 
 class ResultsListScreen extends StatelessWidget {
   final List<Recipe> recipes;

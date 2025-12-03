@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../Models/affiliate_item.dart';
+import '../models/affiliate_item.dart';
 
 class AffiliateSection extends StatelessWidget {
   final List<AffiliateItem> items;

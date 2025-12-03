@@ -3,7 +3,7 @@ import '../models/recipe_model.dart';
 import '../services/recipe_service.dart';
 import 'recipe_detail_screen.dart';
 import 'results_list_screen.dart';
-import '../Widgets/app_header.dart';
+import '../widgets/app_header.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

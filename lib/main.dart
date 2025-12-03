@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'screens/splash_screen.dart';
-import 'Widgets/theme.dart';
+import 'widgets/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

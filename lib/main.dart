@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'screens/splash_screen.dart';
+import 'Screens/splash_screen.dart';
 import 'Widgets/theme.dart';
 
 void main() {

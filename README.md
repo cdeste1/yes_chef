@@ -4,6 +4,8 @@ Tired of the same old lasagna?  Trying to recreate that romantic getaway to Pari
 
 Most recipes are easy to follow with common cooking tools.  Some special tools may be needed - and the app will point those out.  It'll even tell you that special wine to pair perfectly with your meal.
 
+Not sure what to cook - let the app create a menu that wows your guests.
+
 
 ## Getting Started
 

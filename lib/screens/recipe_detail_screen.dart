@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../models/recipe_model.dart';
+import '../widgets/ad_banner.dart';
 
 class RecipeDetailScreen extends StatelessWidget {
   final Recipe recipe;
@@ -313,6 +314,7 @@ class RecipeDetailScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              const AdBanner(),
         ],
       ),
     );

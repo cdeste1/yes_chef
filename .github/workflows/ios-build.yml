@@ -1,0 +1,52 @@
+name: iOS Flutter Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      - name: Flutter Pub Get
+        run: flutter pub get
+
+      - name: Build iOS release
+        run: flutter build ios --release --no-codesign
+
+      - name: Setup signing
+        uses: apple-actions/import-codesign-certs@v2
+        with:
+          p12-file-base64: ${{ secrets.IOS_CERTIFICATE }}
+          p12-password: ${{ secrets.IOS_CERTIFICATE_PASSWORD }}
+          provisioning-profile-base64: ${{ secrets.IOS_PROVISIONING_PROFILE }}
+
+      - name: Build IPA with Xcode
+        run: |
+          cd ios
+          xcodebuild -workspace Runner.xcworkspace \
+            -scheme Runner \
+            -archivePath build/Runner.xcarchive archive
+
+          xcodebuild -exportArchive \
+            -archivePath build/Runner.xcarchive \
+            -exportPath build/ \
+            -exportOptionsPlist ExportOptions.plist
+
+      - name: Upload to TestFlight
+        uses: apple-actions/upload-testflight@v1
+        with:
+          app-path: ios/build/Runner.ipa
+          issuer-id: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+          api-key-id: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
+          api-key: ${{ secrets.APP_STORE_CONNECT_API_KEY }}

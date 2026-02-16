@@ -5,10 +5,10 @@ class AppHeader extends StatelessWidget implements PreferredSizeWidget {
   const AppHeader({super.key});
 
   static const String privacyUrl =
-      "https://yourgithubusername.github.io/yourrepo/privacy.html";
+      "https://cdeste1.github.io/yes_chef/legal/privacy.html";
 
   static const String termsUrl =
-      "https://yourgithubusername.github.io/yourrepo/terms.html";
+      "https://cdeste1.github.io/yes_chef/legal/terms.html";
 
   Future<void> _launchURL(String url) async {
     final Uri uri = Uri.parse(url);
@@ -60,38 +60,46 @@ class AppHeader extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppBar(
-      automaticallyImplyLeading: false,
-      toolbarHeight: 225,
-      centerTitle: true,
-      elevation: 0,
-      backgroundColor: Colors.transparent,
+  return AppBar(
+    automaticallyImplyLeading: false,
+    toolbarHeight: 225,
+    elevation: 0,
+    backgroundColor: Colors.transparent,
 
-      // ✅ Keep your logo exactly the same
-      title: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+    // Remove title & actions entirely
+    title: null,
+    actions: null,
+
+    flexibleSpace: SafeArea(
+      child: Stack(
         children: [
-          Image.asset(
-            'assets/Photos/YesChefLogo_transparent.png',
-            height: 135,
-            fit: BoxFit.fitHeight,
+          // ✅ Perfectly centered logo
+          Center(
+            child: Image.asset(
+              'assets/Photos/YesChefLogo_transparent.png',
+              height: 135,
+              fit: BoxFit.fitHeight,
+            ),
+          ),
+
+          // ✅ Settings button pinned to right
+          Positioned(
+            right: 16,
+            top: 16,
+            child: IconButton(
+              icon: const Icon(
+                Icons.settings,
+                color: Color(0xFFF58220),
+              ),
+              onPressed: () => _openSettings(context),
+            ),
           ),
         ],
       ),
+    ),
+  );
+}
 
-      // ✅ Add settings icon to right side
-      actions: [
-        Padding(
-          padding: const EdgeInsets.only(right: 16.0),
-          child: IconButton(
-            icon: const Icon(Icons.settings, color: Colors.black87),
-            onPressed: () => _openSettings(context),
-          ),
-        ),
-      ],
-    );
-  }
-
-  @override
-  Size get preferredSize => const Size.fromHeight(225);
+@override
+Size get preferredSize => const Size.fromHeight(225);
 }

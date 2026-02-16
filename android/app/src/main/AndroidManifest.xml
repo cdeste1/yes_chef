@@ -6,7 +6,8 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/> <!-- This is the official AdMob test App ID ca-app-pub-2497070669800198~9552422541--> 
+            android:value="ca-app-pub-2497070669800198~9552422541"/>
+             <!-- This is the official AdMob test App ID ca-app-pub-3940256099942544~3347511713--> 
             
         <activity
             android:name=".MainActivity"

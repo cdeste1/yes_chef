@@ -3,14 +3,14 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'screens/splash_screen.dart';
 import 'widgets/theme.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  await MobileAds.instance.initialize();
+  
   // Run the app immediately
   runApp(const MyApp());
 
-  // Initialize ads *after* the first frame
-  MobileAds.instance.initialize();
 }
 
 class MyApp extends StatelessWidget {

@@ -11,8 +11,8 @@ class AdBanner extends StatefulWidget {
 class _AdBannerState extends State<AdBanner> {
   BannerAd? _bannerAd;
 
-  static const String _testAdUnitIdAndroid = "ca-app-pub-2497070669800198~9552422541";    //Test ID: 'ca-app-pub-3940256099942544/6300978111';    //real ID: ca-app-pub-2497070669800198/7257431694
-  static const String _testAdUnitIdIOS = 'ca-app-pub-3940256099942544~2934735716';
+  static const String _testAdUnitIdAndroid = "ca-app-pub-2497070669800198/7257431694";    //Test ID: 'ca-app-pub-3940256099942544/6300978111';    //real ID: ca-app-pub-2497070669800198/7257431694
+  static const String _testAdUnitIdIOS = 'ca-app-pub-2497070669800198/9718255373';
 
   bool _isLoaded = false;
 
@@ -39,6 +39,7 @@ class _AdBannerState extends State<AdBanner> {
         onAdFailedToLoad: (ad, error) {
           debugPrint('Ad failed to load: $error');
           ad.dispose();
+          if (mounted) setState(() => _isLoaded = false);
         },
       ),
       request: const AdRequest(),

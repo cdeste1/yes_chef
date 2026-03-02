@@ -196,69 +196,75 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 0, 0, 0),
-      appBar: const AppHeader(),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // Search Bar
-            Row(
+      body: CustomScrollView(
+      slivers: [
+        // ✅ Sliver header replaces appBar
+        const AppHeader(),
+
+        // ✅ Wrap your entire body content in SliverToBoxAdapter
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Expanded(
-                  child: TextField(
-                    controller: _searchController,
-                    decoration: InputDecoration(
-                      hintText: 'Search recipes, chefs, restaurants, ingredients...',
-                      prefixIcon: const Icon(Icons.search),
-                      filled: true,
-                      fillColor: const Color.fromARGB(255, 15, 14, 14),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(24),
-                        borderSide: BorderSide.none,
+                // Search Bar
+                Row(
+                  children: [
+                    Expanded(
+                      child: TextField(
+                        controller: _searchController,
+                        decoration: InputDecoration(
+                          hintText: 'Search recipes, chefs, restaurants, ingredients...',
+                          prefixIcon: const Icon(Icons.search),
+                          filled: true,
+                          fillColor: const Color.fromARGB(255, 15, 14, 14),
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(24),
+                            borderSide: BorderSide.none,
+                          ),
+                        ),
+                        onSubmitted: (_) => _searchRecipes(),
                       ),
                     ),
-                    onSubmitted: (_) => _searchRecipes(),
+                    const SizedBox(width: 8),
+                    ElevatedButton(
+                      onPressed: _searchRecipes,
+                      child: const Text('Elevate'),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 16),
+
+                _buildCategoriesBar(),
+                const SizedBox(height: 16),
+
+                if (_randomMenu.isNotEmpty) ...[
+                  const Text(
+                    "Not sure what to cook? Try this curated menu to wow your guests!",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Color.fromARGB(255, 255, 255, 255)),
                   ),
-                ),
-                const SizedBox(width: 8),
-                ElevatedButton(
-                  onPressed: _searchRecipes,
-                  child: const Text('Elevate'),
-                ),
+                  const SizedBox(height: 8),
+                  _buildRandomMenuCarousel(),
+                  const SizedBox(height: 24),
+                ],
+
+                if (_topRecipes.isNotEmpty) ...[
+                  const Text(
+                    'Top 10 Recipes',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Color.fromARGB(255, 255, 255, 255)),
+                  ),
+                  const SizedBox(height: 8),
+                  _buildTop10Recipes(),
+                  const SizedBox(height: 24),
+                ],
+                const SizedBox(height: 40),
               ],
             ),
-            const SizedBox(height: 16),
-
-            // Categories
-            _buildCategoriesBar(),
-            const SizedBox(height: 16),
-
-            // Random Menu
-            if (_randomMenu.isNotEmpty) ...[
-              const Text(
-                "Not sure what to cook? Try this curated menu to wow your guests!",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16,color:Color.fromARGB(255, 255, 255, 255)),
-              ),
-              const SizedBox(height: 8),
-              _buildRandomMenuCarousel(),
-              const SizedBox(height: 24),
-            ],
-
-            // Top 10 Recipes
-            if (_topRecipes.isNotEmpty) ...[
-              const Text(
-                'Top 10 Recipes',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16,color:Color.fromARGB(255, 255, 255, 255)),
-              ),
-              const SizedBox(height: 8),
-              _buildTop10Recipes(),
-              const SizedBox(height: 24),
-            ],
-            const SizedBox(height: 40),
-          ],
+          ),
         ),
-      ),
-    );
-  }
+      ],
+    ),
+  );
+}
 }

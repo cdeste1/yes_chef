@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'screens/splash_screen.dart';
 import 'widgets/theme.dart';
@@ -6,11 +7,12 @@ import 'widgets/theme.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await MobileAds.instance.initialize();
+  if (!kIsWeb) {
+    await MobileAds.instance.initialize();
+  }
   
   // Run the app immediately
   runApp(const MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
@@ -26,4 +28,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class AppHeader extends StatelessWidget implements PreferredSizeWidget {
+class AppHeader extends StatelessWidget {
   const AppHeader({super.key});
 
   static const String privacyUrl =
       "https://cdeste1.github.io/yes_chef/legal/privacy.html";
-
   static const String termsUrl =
       "https://cdeste1.github.io/yes_chef/legal/terms.html";
 
@@ -32,10 +31,7 @@ class AppHeader extends StatelessWidget implements PreferredSizeWidget {
             children: [
               const Text(
                 "Settings",
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20),
               ListTile(
@@ -60,46 +56,58 @@ class AppHeader extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-  return AppBar(
-    automaticallyImplyLeading: false,
-    toolbarHeight: 225,
-    elevation: 0,
-    backgroundColor: Colors.transparent,
-
-    // Remove title & actions entirely
-    title: null,
-    actions: null,
-
-    flexibleSpace: SafeArea(
-      child: Stack(
-        children: [
-          // ✅ Perfectly centered logo
-          Center(
-            child: Image.asset(
-              'assets/Photos/YesChefLogo_transparent.png',
-              height: 135,
-              fit: BoxFit.fitHeight,
-            ),
-          ),
-
-          // ✅ Settings button pinned to right
-          Positioned(
-            right: 16,
-            top: 16,
-            child: IconButton(
-              icon: const Icon(
-                Icons.settings,
-                color: Color(0xFFF58220),
+    return SliverAppBar(
+      automaticallyImplyLeading: false,
+      expandedHeight: 225,   // full height when at top
+      collapsedHeight: 60,   // compact height when scrolled
+      pinned: true,          // stays visible at top
+      floating: false,
+      snap: false,
+      elevation: 0,
+      backgroundColor: Colors.transparent,
+      flexibleSpace: FlexibleSpaceBar(
+        collapseMode: CollapseMode.pin,
+        background: SafeArea(
+          child: Stack(
+            children: [
+              // Logo fades/shrinks as you scroll
+              Center(
+                child: Image.asset(
+                  'assets/Photos/YesChefLogo_transparent.png',
+                  height: 135,
+                  fit: BoxFit.fitHeight,
+                ),
               ),
-              onPressed: () => _openSettings(context),
-            ),
+              // Settings button stays pinned top-right
+              Positioned(
+                right: 16,
+                top: 16,
+                child: IconButton(
+                  icon: const Icon(Icons.settings, color: Color(0xFFF58220)),
+                  onPressed: () => _openSettings(context),
+                ),
+              ),
+            ],
           ),
-        ],
+        ),
+        // Small logo shown in collapsed state
+        title: Padding(
+          padding: const EdgeInsets.only(left: 8),
+          child: Image.asset(
+            'assets/Photos/YesChefLogo_transparent.png',
+            height: 36,
+            fit: BoxFit.fitHeight,
+          ),
+        ),
+        titlePadding: const EdgeInsets.only(left: 16, bottom: 12),
       ),
-    ),
-  );
-}
-
-@override
-Size get preferredSize => const Size.fromHeight(225);
+      // Settings icon stays visible when collapsed
+      actions: [
+        IconButton(
+          icon: const Icon(Icons.settings, color: Color(0xFFF58220)),
+          onPressed: () => _openSettings(context),
+        ),
+      ],
+    );
+  }
 }

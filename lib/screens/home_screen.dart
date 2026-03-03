@@ -191,17 +191,13 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
-      body: CustomScrollView(
+Widget build(BuildContext context) {
+  return Scaffold(
+    backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+    body: CustomScrollView(
       slivers: [
-        // ✅ Sliver header replaces appBar
         const AppHeader(),
-
-        // ✅ Wrap your entire body content in SliverToBoxAdapter
         SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.all(16),
@@ -267,4 +263,5 @@ class _HomeScreenState extends State<HomeScreen> {
     ),
   );
 }
+
 }

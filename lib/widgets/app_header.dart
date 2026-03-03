@@ -29,10 +29,8 @@ class AppHeader extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text(
-                "Settings",
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-              ),
+              const Text("Settings",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               const SizedBox(height: 20),
               ListTile(
                 leading: const Icon(Icons.privacy_tip_outlined),
@@ -58,56 +56,64 @@ class AppHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverAppBar(
       automaticallyImplyLeading: false,
-      expandedHeight: 225,   // full height when at top
-      collapsedHeight: 60,   // compact height when scrolled
-      pinned: true,          // stays visible at top
+      expandedHeight: 225,
+      collapsedHeight: 75,
+      pinned: true,
       floating: false,
       snap: false,
       elevation: 0,
-      backgroundColor: Colors.transparent,
-      flexibleSpace: FlexibleSpaceBar(
-        collapseMode: CollapseMode.pin,
-        background: SafeArea(
-          child: Stack(
-            children: [
-              // Logo fades/shrinks as you scroll
-              Center(
-                child: Image.asset(
-                  'assets/Photos/YesChefLogo_transparent.png',
-                  height: 135,
-                  fit: BoxFit.fitHeight,
+      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+      forceMaterialTransparency: true,
+      // ✅ No actions: here — settings is handled inside LayoutBuilder
+      flexibleSpace: LayoutBuilder(
+        builder: (context, constraints) {
+          const double minHeight = 75;
+          const double maxHeight = 225;
+          final double t = ((maxHeight - constraints.maxHeight) /
+                  (maxHeight - minHeight))
+              .clamp(0.0, 1.0);
+
+          // Logo shrinks from 225 down to 135 as you scroll
+          final double logoSize = 225 - (90 * t);
+
+          // Settings icon shrinks from 28 to 22 and fades slightly
+          final double iconSize = 28 - (6 * t);
+
+          // Icon moves from top-right corner inward as bar collapses
+          final double iconTop = 16 - (4 * t);
+          final double iconRight = 8.0;
+
+          return FlexibleSpaceBar(
+            collapseMode: CollapseMode.pin,
+            background: Stack(
+              children: [
+                // ✅ Logo — centered, shrinks as you scroll
+                Center(
+                  child: Image.asset(
+                    'assets/Photos/YesChefLogo_transparent.png',
+                    height: logoSize,
+                    fit: BoxFit.fitHeight,
+                  ),
                 ),
-              ),
-              // Settings button stays pinned top-right
-              Positioned(
-                right: 16,
-                top: 16,
-                child: IconButton(
-                  icon: const Icon(Icons.settings, color: Color(0xFFF58220)),
-                  onPressed: () => _openSettings(context),
+
+                // ✅ Settings icon — always visible, scales with collapse
+                Positioned(
+                  top: iconTop,
+                  right: iconRight,
+                  child: SafeArea(
+                    child: IconButton(
+                      iconSize: iconSize,
+                      icon: const Icon(Icons.settings,
+                          color: Color(0xFFF58220)),
+                      onPressed: () => _openSettings(context),
+                    ),
+                  ),
                 ),
-              ),
-            ],
-          ),
-        ),
-        // Small logo shown in collapsed state
-        title: Padding(
-          padding: const EdgeInsets.only(left: 8),
-          child: Image.asset(
-            'assets/Photos/YesChefLogo_transparent.png',
-            height: 36,
-            fit: BoxFit.fitHeight,
-          ),
-        ),
-        titlePadding: const EdgeInsets.only(left: 16, bottom: 12),
+              ],
+            ),
+          );
+        },
       ),
-      // Settings icon stays visible when collapsed
-      actions: [
-        IconButton(
-          icon: const Icon(Icons.settings, color: Color(0xFFF58220)),
-          onPressed: () => _openSettings(context),
-        ),
-      ],
     );
   }
 }

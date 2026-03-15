@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../models/recipe_model.dart';
 import '../widgets/ad_banner.dart';
@@ -21,21 +22,30 @@ class RecipeDetailScreen extends StatelessWidget {
           children: [
             // ===== Recipe Info =====
             if (recipe.imageUrl.isNotEmpty)
-              Padding(
-                padding: const EdgeInsets.only(bottom: 16.0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(12),
-                  child: Image.asset(
-                    recipe.imageUrl,
-                    fit: BoxFit.fitHeight,
-                    width: double.infinity,
-                    height: 300,
-                    errorBuilder: (context, error, stackTrace) {
-                      return const Text('Image failed to load');
-                    },
+                 Padding(
+                  padding: const EdgeInsets.only(bottom: 16.0),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(12),
+                    child: CachedNetworkImage(
+                      imageUrl: recipe.imageUrl,
+                      fit: BoxFit.cover,
+                      width: double.infinity,
+                      height: 300,
+                      placeholder: (context, url) => Container(
+                        height: 300,
+                        color: Colors.grey[300],
+                        alignment: Alignment.center,
+                        child: const CircularProgressIndicator(),
+                      ),
+                      errorWidget: (context, url, error) => Container(
+                        height: 300,
+                        color: Colors.grey[300],
+                        alignment: Alignment.center,
+                        child: const Text('Image failed to load'),
+                      ),
+                    ),
                   ),
                 ),
-              ),
             if (recipe.source.isNotEmpty)
               Text(
                 'Source: ${recipe.source}',

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import '../models/recipe_model.dart';
 import 'recipe_detail_screen.dart';
 import '../widgets/ad_banner.dart';
@@ -32,28 +33,29 @@ class ResultsListScreen extends StatelessWidget {
                       final recipe = recipes[index];
 
                       // Determine if the image is local or remote
-                      Widget recipeImage;
-                      if (recipe.imageUrl.isNotEmpty) {
-                        recipeImage = recipe.imageUrl.startsWith('http')
-                            ? Image.network(
-                                recipe.imageUrl,
-                                width: double.infinity,
+                      Widget recipeImage = recipe.imageUrl.isNotEmpty
+                          ? CachedNetworkImage(
+                              imageUrl: recipe.imageUrl,
+                              width: double.infinity,
+                              height: 180,
+                              fit: BoxFit.cover,
+                              placeholder: (context, url) => Container(
                                 height: 180,
-                                fit: BoxFit.cover,
-                              )
-                            : Image.asset(
-                                recipe.imageUrl,
-                                width: double.infinity,
+                                color: Colors.grey[300],
+                                alignment: Alignment.center,
+                                child: const CircularProgressIndicator(),
+                              ),
+                              errorWidget: (context, url, error) => Container(
                                 height: 180,
-                                fit: BoxFit.cover,
-                              );
-                      } else {
-                        recipeImage = Container(
-                          height: 180,
-                          color: Colors.grey[300],
-                          child: const Icon(Icons.image_not_supported, size: 40),
-                        );
-                      }
+                                color: Colors.grey[300],
+                                child: const Icon(Icons.image_not_supported, size: 40),
+                              ),
+                            )
+                          : Container(
+                              height: 180,
+                              color: Colors.grey[300],
+                              child: const Icon(Icons.image_not_supported, size: 40),
+                            );
 
                       return GestureDetector(
                         onTap: () {

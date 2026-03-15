@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import '../models/recipe_model.dart';
 import '../services/recipe_service.dart';
 import 'recipe_detail_screen.dart';
@@ -100,12 +101,18 @@ class _HomeScreenState extends State<HomeScreen> {
             if (recipe.imageUrl.isNotEmpty)
               ClipRRect(
                 borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
-                child: Image.asset(
-                  recipe.imageUrl,
+                child: CachedNetworkImage(
+                  imageUrl: recipe.imageUrl,
                   height: height,
                   width: double.infinity,
                   fit: BoxFit.cover,
-                  errorBuilder: (_, _, _) => Container(
+                  placeholder: (context, url) => Container(
+                    height: height,
+                    color: Colors.grey[300],
+                    alignment: Alignment.center,
+                    child: const CircularProgressIndicator(),
+                  ),
+                  errorWidget: (context, url, error) => Container(
                     height: height,
                     color: Colors.grey[300],
                     alignment: Alignment.center,

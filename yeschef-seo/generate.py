@@ -71,3 +71,32 @@ for entry in recipes:
     print(f"✅ Generated: {slug}")
 
 print("🎉 Done!")
+sitemap_entries = []
+
+for entry in recipes:
+    recipe = entry["recipe"]
+    slug = slugify(recipe["name"])
+
+    url = f"https://tryyeschef.app/recipes/{slug}/"
+    sitemap_entries.append(f"""
+  <url>
+    <loc>{url}</loc>
+  </url>""")
+
+# Build sitemap
+sitemap_content = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://tryyeschef.app/</loc>
+  </url>
+
+{''.join(sitemap_entries)}
+
+</urlset>
+"""
+
+with open("sitemap.xml", "w", encoding="utf-8") as f:
+    f.write(sitemap_content)
+
+print("✅ sitemap.xml generated")

@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/yes_chef/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -89,35 +89,109 @@
   </ul>
 </div>
   <script src="flutter_bootstrap.js" async></script>
-  <div id="ad-container" style="
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  z-index: 9999;
-  background: rgba(255,255,255,0.95);
-">
+<!-- ✅ Full-Width Ad Banner (Bottom Layer) -->
+<div id="ad-widget">
+  <!-- This text shows only if the ad fails to load -->
+  <span class="ad-placeholder-text">SPONSORED</span>
+  
   <ins class="adsbygoogle"
-       style="display:block"
+       style="display:block; width:100%; height:50px;"
        data-ad-client="ca-pub-2497070669800198"
-       data-ad-slot="YYYYYYYY"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
+       data-ad-slot="YYYYYYYY">
+  </ins>
 </div>
 
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<div style="
-  position: fixed;
-  bottom: 60px;
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-  opacity: 0.7;
-">
-  <a href="https://instagram.com/yeschefbychris/">Instagram</a> |
-  <a href="https://apps.apple.com/us/app/yes-chef-by-chris/id6759258837">Download App</a>
+<!-- ✅ Full-Width App Footer (Top Layer) -->
+<div id="native-footer">
+  <a href="https://instagram.com/yeschefbychris/" target="_blank">
+    <img src="/icons/instagram.png" alt="Instagram">
+    <span>IG</span>
+  </a>
+
+  <a href="https://apps.apple.com/us/app/yes-chef-by-chris/id6759258837" target="_blank">
+    <img src="/icons/applelogosmall.png" alt="Download App">
+    <span>App</span>
+  </a>
 </div>
+
+<style>
+/* Shared "Glass" effect for both bars */
+#ad-widget, #native-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: rgba(20, 20, 20, 0.8);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ad Position (Very Bottom) */
+#ad-widget {
+  bottom: 0;
+  height: 60px; /* 50px for ad + 10px padding */
+  z-index: 10000;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Footer Position (Sits exactly on top of the ad) */
+#native-footer {
+  bottom: 60px; 
+  height: 65px;
+  z-index: 9999;
+  gap: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.2);
+}
+
+/* Placeholder text style */
+.ad-placeholder-text {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 9px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  pointer-events: none;
+}
+
+/* Footer Links & Icons */
+#native-footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  font-family: sans-serif;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+
+#native-footer img {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 4px;
+  filter: invert(1);
+}
+
+#native-footer a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+</style>
+
+<script>
+  window.addEventListener("load", function () {
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.log("Ad Blocked - Placeholder remains.");
+    }
+  });
+</script>
 </body>
 </html>

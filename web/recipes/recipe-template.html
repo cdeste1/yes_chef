@@ -28,7 +28,23 @@
     .back-btn{display:flex;align-items:center;background:none;border:none;cursor:pointer;color:var(--white);padding:4px;opacity:.8;transition:opacity .2s;text-decoration:none}
     .back-btn:hover{opacity:1}
     .back-btn svg{width:22px;height:22px}
-    .header-title{font-size:16px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+    .header-title{
+      font-size: 16px;
+      font-weight: 500;
+
+      display: -webkit-box;
+      display: box; /* fallback */
+
+      -webkit-box-orient: vertical;
+      box-orient: vertical;
+
+      -webkit-line-clamp: 2;
+      line-clamp: 2; /* standard property */
+
+      overflow: hidden;
+      line-height: 1.2;
+      max-width: 260px;
+      }
     .header-logo-link img{width:40px;height:40px;object-fit:contain;display:block}
     .recipe-wrap{max-width:720px;margin:0 auto;padding:0 16px 160px}
     .recipe-hero-img{width:100%;max-height:320px;object-fit:cover;border-radius:var(--radius);display:block;margin:20px 0 16px}
@@ -38,7 +54,7 @@
     .recipe-description{font-size:16px;line-height:1.65;margin-bottom:10px}
     .divider{border:none;border-top:1px solid var(--border);margin:18px 0}
     .recipe-yield{font-size:15px;margin-bottom:20px}
-    .divider{border:none;border-top:1px solid var(--border);margin:18px 0}
+    .divider{border:none;border-top:1px solid var(--border);margin:10px 0}
     .section-heading{font-size:18px;font-weight:700;margin-bottom:10px}
     .ing-list{list-style:none;margin-bottom:4px}
     .ing-list li{font-size:15px;line-height:1.5;padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.04)}
@@ -46,6 +62,20 @@
     .steps-list{list-style:none}
     .steps-list li{font-size:15px;line-height:1.65;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.04);display:flex;gap:12px}
     .step-num{flex-shrink:0;color:var(--orange);font-weight:500;min-width:22px}
+    .divider-double {
+      border: none;
+      height: 6px;
+      margin: 10px 0;
+      background: repeating-linear-gradient(
+        to bottom,
+        var(--border),
+        var(--border) 1px,
+        transparent 1px,
+        transparent 4px,
+        var(--border) 4px,
+        var(--border) 5px
+      );
+    }
     .tools-list{list-style:none;margin-bottom:4px}
     .tools-list li{font-size:15px;line-height:1.5;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.04)}
     .tools-list li::before{content:'• ';color:var(--white-dim)}
@@ -102,11 +132,13 @@
     <hr class="divider">
     <h2 class="section-heading">Ingredients:</h2>
     <ul class="ing-list" itemprop="recipeIngredient">{{INGREDIENTS_HTML}}</ul>
+    <hr class="divider-double">
     {{TOOLS_HTML}}
     {{SOMMELIER_HTML}}
     <hr class="divider">
     <h2 class="section-heading">Steps:</h2>
     <ol class="steps-list" itemprop="recipeInstructions">{{STEPS_HTML}}</ol>
+    <hr class="divider">
     {{SUB_RECIPES_HTML}}
     <details>
       <summary>More Info</summary>

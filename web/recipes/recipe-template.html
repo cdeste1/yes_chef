@@ -28,6 +28,13 @@
     .back-btn{display:flex;align-items:center;background:none;border:none;cursor:pointer;color:var(--white);padding:4px;opacity:.8;transition:opacity .2s;text-decoration:none}
     .back-btn:hover{opacity:1}
     .back-btn svg{width:22px;height:22px}
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex: 1;              /* take available space */
+      min-width: 0;         /* allow shrinking properly */
+    }
     .header-title{
       font-size: 16px;
       font-weight: 500;
@@ -100,6 +107,24 @@
     .footer-text-links{background:rgba(10,10,10,.88);backdrop-filter:blur(14px);border-top:1px solid rgba(255,255,255,.05);display:flex;justify-content:center;gap:24px;padding:7px 20px}
     .footer-text-link{color:rgba(255,255,255,.3);font-size:10px;font-family:var(--font-body);text-decoration:none;transition:color .2s}
     .footer-text-link:hover{color:rgba(255,255,255,.7)}
+    
+    /* ── AD STRIP ────────────────────────────── */
+    .ad-strip {
+      background: rgba(20,20,20,0.8);
+      backdrop-filter: blur(14px);
+      border-top: 1px solid rgba(255,255,255,0.05);
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+ 
+    .ad-placeholder {
+      color: rgba(255,255,255,0.18);
+      font-size: 9px;
+      font-family: var(--font-body);
+      letter-spacing: 2px;
+    }
     @media(min-width:600px){.recipe-hero-img{max-height:400px}.header-title{max-width:360px}}
     @media(min-width:900px){header{padding:12px 40px}.recipe-wrap{padding:0 24px 160px}}
   </style>
@@ -188,5 +213,16 @@
       <a href="/terms" class="footer-text-link">Terms of Use</a>
     </div>
   </footer>
+
+    <script>
+  window.addEventListener("load", function () {
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.log("Ad Blocked - Placeholder remains.");
+    }
+  });
+</script>
+
 </body>
 </html>

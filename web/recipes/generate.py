@@ -3,7 +3,7 @@
 YesChef Recipe Page Generator
 ===============================
 Reads recipes.json and recipe-template.html, then outputs one
-  web/recipes/<slug>/index.html
+  recipes/web/recipes/<slug>/index.html
 per recipe.
  
 Usage:
@@ -14,7 +14,7 @@ Expects these files in the same directory as the script:
   recipe-template.html  — the HTML template with {{PLACEHOLDERS}}
  
 Output goes to:
-  web/recipes/<slug>/index.html  (relative to where you run the script)
+  recipes/web/recipes/<slug>/index.html  (relative to where you run the script)
 """
  
 import json, os, re, html
@@ -22,7 +22,7 @@ import json, os, re, html
 # ── Config ────────────────────────────────────────────────────────────────────
 RECIPES_FILE   = "recipes.json"
 TEMPLATE_FILE  = "recipe-template.html"
-OUTPUT_DIR     = "web/recipes"          # adjust to match your project structure
+OUTPUT_DIR     = "recipes/web/recipes"          # adjust to match your project structure
  
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def to_slug(name: str) -> str:

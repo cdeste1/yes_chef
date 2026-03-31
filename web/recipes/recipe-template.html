@@ -31,19 +31,13 @@
     .header-title{
       font-size: 16px;
       font-weight: 500;
-
-      display: -webkit-box;
-      display: box; /* fallback */
-
-      -webkit-box-orient: vertical;
-      box-orient: vertical;
-
-      -webkit-line-clamp: 2;
-      line-clamp: 2; /* standard property */
-
-      overflow: hidden;
       line-height: 1.2;
-      max-width: 260px;
+
+      white-space: normal;  /* allow wrapping */
+      overflow: visible;
+
+      max-width: none;      
+
       }
     .header-logo-link img{width:40px;height:40px;object-fit:contain;display:block}
     .recipe-wrap{max-width:720px;margin:0 auto;padding:0 16px 160px}
@@ -139,12 +133,46 @@
     <h2 class="section-heading">Steps:</h2>
     <ol class="steps-list" itemprop="recipeInstructions">{{STEPS_HTML}}</ol>
     <hr class="divider">
+    <ul class="ing-list" itemprop="recipeIngredient">{{INGREDIENTS_HTML}}</ul>
+
+    <!-- AdSense Block -->
+    <div class="ad-block">
+      <div id="ad-widget">
+  <!-- This text shows only if the ad fails to load -->
+  <span class="ad-placeholder-text">SPONSORED</span>
+  
+  <ins class="adsbygoogle"
+       style="display:block; width:100%; height:50px;"
+       data-ad-client="ca-pub-2497070669800198"
+       data-ad-slot="YYYYYYYY">
+  </ins>
+</div>
+
+    </div>
+
+    <hr class="divider-double">
+    {{TOOLS_HTML}}  
     {{SUB_RECIPES_HTML}}
     <details>
       <summary>More Info</summary>
       <p class="disclaimer-text">Disclaimer: The information and recipes provided within this application are intended for general informational and personal use only. Yes Chef makes no guarantees regarding accuracy, ingredient safety, or cooking outcomes. Users are responsible for checking allergen information, food safety temperatures, and proper handling of all ingredients. By using this app, you acknowledge that Yes Chef and its contributors are not liable for any adverse reactions, injuries, or results that may occur.</p>
     </details>
   </article>
+
+  <!-- AdSense Block -->
+    <div class="ad-block">
+      <div id="ad-widget">
+  <!-- This text shows only if the ad fails to load -->
+  <span class="ad-placeholder-text">SPONSORED</span>
+  
+  <ins class="adsbygoogle"
+       style="display:block; width:100%; height:50px;"
+       data-ad-client="ca-pub-2497070669800198"
+       data-ad-slot="YYYYYYYY">
+  </ins>
+</div>
+
+    </div>
 
   <footer>
     <nav class="footer-nav">

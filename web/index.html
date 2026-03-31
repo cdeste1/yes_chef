@@ -611,6 +611,21 @@
         <!-- JS populated or static entries below -->
       </div>
     </section>
+
+    <!-- AdSense Block -->
+    <div class="ad-block">
+      <div id="ad-widget">
+  <!-- This text shows only if the ad fails to load -->
+  <span class="ad-placeholder-text">SPONSORED</span>
+  
+  <ins class="adsbygoogle"
+       style="display:block; width:100%; height:50px;"
+       data-ad-client="ca-pub-2497070669800198"
+       data-ad-slot="YYYYYYYY">
+  </ins>
+</div>
+
+    </div>
  
   </main>
  
@@ -796,6 +811,15 @@
  
     init();
   </script>
+  <script>
+  window.addEventListener("load", function () {
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.log("Ad Blocked - Placeholder remains.");
+    }
+  });
+</script>
  
 </body>
 </html>

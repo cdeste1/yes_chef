@@ -3,27 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YesChef – Cook Bold, Elevate Your Dish</title>
+  <title>YesChef – Cook Boldly, Elevate Your Dish</title>
   <meta name="description" content="Discover restaurant-quality recipes, elevate your home cooking, and create Michelin-style dishes with YesChef!">
   <meta name="keywords" content="recipes, gourmet cooking, chef recipes, fine dining, cooking app, fancy, cooking, michelin, YesChef">
   <meta name="author" content="YesChef!">
  
   <!-- Open Graph -->
-  <meta property="og:title" content="YesChef – Cook Bold, Elevate Your Dish">
+  <meta property="og:title" content="YesChef – Cook Boldly, Elevate Your Dish">
   <meta property="og:description" content="Tired of basic meals? Earn your star with YesChef!">
-  <meta property="og:image" content="https://tryyeschef.app/assets/Photos/YesChefLogo.png">
+  <meta property="og:image" content="https://tryyeschef.app/assets/assets/Photos/YesChefLogo.png">
   <meta property="og:url" content="https://tryyeschef.app">
   <meta property="og:type" content="website">
  
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="YesChef – Cook Bold, Elevate Your Dish">
+  <meta name="twitter:title" content="YesChef – Cook Boldly, Elevate Your Dish">
   <meta name="twitter:description" content="Cook restaurant-quality meals at home.">
-  <meta name="twitter:image" content="https://tryyeschef.app/assets/Photos/YesChefLogo.png">
+  <meta name="twitter:image" content="https://tryyeschef.app/assets/assets/Photos/YesChefLogo.png">
  
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/Photos/YesChefLogo.png">
-  <link rel="apple-touch-icon" href="/assets/Photos/YesChefLogo.png">
+  <link rel="icon" type="image/png" href="/assets/assets/Photos/YesChefLogo.png">
+  <link rel="apple-touch-icon" href="/assets/assets/Photos/YesChefLogo.png">
  
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -243,6 +243,7 @@
       display: inline-block;
     }
     .chip:hover { background: rgba(245,130,32,0.25); border-color: var(--orange); color: var(--white); }
+    .chip-active { background: var(--orange) !important; border-color: var(--orange) !important; color: var(--white) !important; }
  
     /* ── SECTION HEADERS ─────────────────────── */
     .section-label {
@@ -548,20 +549,21 @@
   <!-- ═══ HEADER ═══ -->
   <header>
     <a href="/" class="header-logo" aria-label="YesChef home">
-      <img src="/assets/Photos/YesChefLogo_transparent.png" alt="YesChef logo">
+      <img src="/assets/assets/Photos/YesChefLogo.png" alt="YesChef logo">
     </a>
     <div class="header-icons">
       <a href="https://instagram.com/yeschefbychris/" target="_blank" rel="noopener" class="header-icon-link" aria-label="Instagram">
-        <img src="/web/icons/instagram.png" alt="Instagram">
+        <img src="/icons/instagram.png" alt="Instagram">
         <span>IG</span>
       </a>
       <a href="https://apps.apple.com/us/app/yes-chef-by-chris/id6759258837" target="_blank" rel="noopener" class="header-icon-link" aria-label="Download on App Store">
-        <img src="/web/icons/applelogosmall.png" alt="App Store">
+        <img src="/icons/applelogosmall.png" alt="App Store">
         <span>App</span>
       </a>
     </div>
   </header>
  
+
   <!-- ═══ MAIN ═══ -->
   <main>
  
@@ -580,12 +582,12 @@
  
     <!-- Category Chips -->
     <nav class="categories" aria-label="Recipe categories">
-      <a class="chip" href="/search?q=Cocktail">Cocktail</a>
-      <a class="chip" href="/search?q=Bread">Bread</a>
-      <a class="chip" href="/search?q=Starter">Starter</a>
-      <a class="chip" href="/search?q=Main">Main</a>
-      <a class="chip" href="/search?q=Sides">Sides</a>
-      <a class="chip" href="/search?q=Dessert">Dessert</a>
+      <a class="chip" href="#" onclick="filterByCategory('Cocktail',this);return false;">Cocktail</a>
+      <a class="chip" href="#" onclick="filterByCategory('Bread',this);return false;">Bread</a>
+      <a class="chip" href="#" onclick="filterByCategory('Starter',this);return false;">Starter</a>
+      <a class="chip" href="#" onclick="filterByCategory('Main',this);return false;">Main</a>
+      <a class="chip" href="#" onclick="filterByCategory('Sides',this);return false;">Sides</a>
+      <a class="chip" href="#" onclick="filterByCategory('Dessert',this);return false;">Dessert</a>
     </nav>
  
     <!-- Search Results (shown when searching) -->
@@ -632,6 +634,7 @@
  
   <script>
     const JSON_URL = 'https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json';
+    let ALL_RECIPES = [];
  
     // ── Slug generator ───────────────────────────────────────────────────────
     function toSlug(name) {
@@ -640,83 +643,158 @@
  
     // ── Card builders ────────────────────────────────────────────────────────
     function carouselCard(r) {
-      const slug = toSlug(r.name);
-      return `
-        <a href="/recipes/${slug}/" class="carousel-card">
-          ${r.imageUrl
-            ? `<img src="${r.imageUrl}" alt="${r.name}" loading="lazy">`
-            : `<div class="carousel-card img-fallback" style="height:200px;"></div>`}
-          <div class="carousel-card-body">
-            <div class="carousel-card-name">${r.name}</div>
-            <div class="carousel-card-desc">${r.description || ''}</div>
-          </div>
-        </a>`;
+      return `<a href="/recipes/${toSlug(r.name)}/" class="carousel-card">
+        ${r.imageUrl ? `<img src="${r.imageUrl}" alt="${r.name}" loading="lazy">` : `<div class="carousel-card img-fallback" style="height:200px;"></div>`}
+        <div class="carousel-card-body">
+          <div class="carousel-card-name">${r.name}</div>
+          <div class="carousel-card-desc">${r.description || ''}</div>
+        </div>
+      </a>`;
     }
  
     function top10Card(r) {
-      const slug = toSlug(r.name);
-      return `
-        <a href="/recipes/${slug}/" class="top10-card">
-          ${r.imageUrl
-            ? `<img src="${r.imageUrl}" alt="${r.name}" loading="lazy">`
-            : `<div class="top10-card img-fallback" style="height:100px;"></div>`}
-          <div class="top10-card-body">
-            <div class="top10-card-name">${r.name}</div>
-            <div class="top10-card-desc">${r.description || ''}</div>
-          </div>
-        </a>`;
+      return `<a href="/recipes/${toSlug(r.name)}/" class="top10-card">
+        ${r.imageUrl ? `<img src="${r.imageUrl}" alt="${r.name}" loading="lazy">` : `<div class="top10-card img-fallback" style="height:100px;"></div>`}
+        <div class="top10-card-body">
+          <div class="top10-card-name">${r.name}</div>
+          <div class="top10-card-desc">${r.description || ''}</div>
+        </div>
+      </a>`;
+    }
+ 
+    function resultCard(r) {
+      return `<a href="/recipes/${toSlug(r.name)}/" class="result-card">
+        ${r.imageUrl ? `<img src="${r.imageUrl}" alt="${r.name}" class="result-card-img">` : `<div class="result-card-img img-fallback"></div>`}
+        <div class="result-card-body">
+          <span class="result-card-tag">${r.category || ''}</span>
+          <div class="result-card-name">${r.name}</div>
+          <div class="result-card-desc">${r.description || ''}</div>
+        </div>
+      </a>`;
     }
  
     function pickRandom(arr) {
       return arr.length ? arr[Math.floor(Math.random() * arr.length)] : null;
     }
  
-    // ── Load recipes from R2 and populate page ───────────────────────────────
-    async function loadRecipes() {
-      let recipes = [];
+    // ── Show/hide results vs home sections ───────────────────────────────────
+    function showResults(results, label) {
+      const section = document.getElementById('results-section');
+      const header  = document.getElementById('results-header');
+      const list    = document.getElementById('results-list');
+      const carousel = document.querySelector('.carousel-section');
+      const top10    = document.querySelector('.top10-section');
+ 
+      if (results.length === 0) {
+        list.innerHTML = `<p style="color:rgba(255,255,255,0.4);font-style:italic;padding:12px 0;">No recipes found. Try a different search.</p>`;
+      } else {
+        list.innerHTML = results.map(resultCard).join('');
+      }
+ 
+      header.textContent = label;
+      section.classList.add('active');
+      carousel.style.display = 'none';
+      top10.style.display = 'none';
+    }
+ 
+    function clearResults() {
+      const section = document.getElementById('results-section');
+      const carousel = document.querySelector('.carousel-section');
+      const top10    = document.querySelector('.top10-section');
+      section.classList.remove('active');
+      carousel.style.display = '';
+      top10.style.display = '';
+      document.getElementById('search-input').value = '';
+      // re-highlight no chip
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('chip-active'));
+    }
+ 
+    // ── Fuzzy search (mirrors Flutter service logic) ──────────────────────────
+    function searchRecipes(query) {
+      const q = query.toLowerCase().trim();
+      if (!q) return [];
+ 
+      // Strict category match first
+      const cats = ['cocktail','starter','main','sides','dessert','bread'];
+      if (cats.includes(q)) {
+        return ALL_RECIPES.filter(r => (r.category || '').toLowerCase() === q);
+      }
+ 
+      return ALL_RECIPES.filter(r => {
+        const fields = [r.name, r.source, r.category, r.keywords, r.chef, r.description]
+          .map(f => (f || '').toLowerCase());
+        if (fields.some(f => f.includes(q))) return true;
+ 
+        const inIngredients = (r.ingredients || []).some(ing =>
+          (ing.item || '').toLowerCase().includes(q) || (ing.note || '').toLowerCase().includes(q)
+        );
+        if (inIngredients) return true;
+ 
+        const inSteps = (r.steps || []).some(s => (s.instruction || '').toLowerCase().includes(q));
+        if (inSteps) return true;
+ 
+        const inSubs = (r.sub_recipes || []).some(sub =>
+          (sub.name || '').toLowerCase().includes(q) ||
+          (sub.ingredients || []).some(i => (i.item || '').toLowerCase().includes(q))
+        );
+        return inSubs;
+      });
+    }
+ 
+    // ── Main search trigger ───────────────────────────────────────────────────
+    function runSearch() {
+      const q = document.getElementById('search-input').value.trim();
+      if (!q) { clearResults(); return; }
+      const results = searchRecipes(q);
+      showResults(results, `Results for "${q}"`);
+    }
+ 
+    // ── Category chip click ───────────────────────────────────────────────────
+    function filterByCategory(cat, chipEl) {
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('chip-active'));
+      chipEl.classList.add('chip-active');
+      document.getElementById('search-input').value = '';
+      const results = ALL_RECIPES.filter(r =>
+        (r.category || '').toLowerCase() === cat.toLowerCase()
+      );
+      showResults(results, cat);
+    }
+ 
+    // ── Wire up search input ──────────────────────────────────────────────────
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('keydown', e => { if (e.key === 'Enter') runSearch(); });
+    searchInput.addEventListener('input', e => { if (e.target.value === '') clearResults(); });
+ 
+    // ── Load recipes & populate page ─────────────────────────────────────────
+    async function init() {
       try {
         const res = await fetch(JSON_URL);
         const data = await res.json();
         const items = Array.isArray(data) ? data : data.recipes;
-        recipes = items.map(item => item.recipe ?? item);
+        ALL_RECIPES = items.map(item => item.recipe ?? item);
       } catch (e) {
         console.warn('Failed to load recipes:', e);
         return;
       }
  
-      // Curated carousel: 1 random per category, no repeats
-      const categories = ['Cocktail', 'Bread', 'Starter', 'Main', 'Sides', 'Dessert'];
-      const usedNames = new Set();
+      // Curated carousel: 1 random per category
+      const cats = ['Cocktail', 'Bread', 'Starter', 'Main', 'Sides', 'Dessert'];
+      const used = new Set();
       const curated = [];
- 
-      for (const cat of categories) {
-        const pool = recipes.filter(r =>
-          r.category && r.category.toLowerCase() === cat.toLowerCase() && !usedNames.has(r.name)
+      for (const cat of cats) {
+        const pool = ALL_RECIPES.filter(r =>
+          r.category && r.category.toLowerCase() === cat.toLowerCase() && !used.has(r.name)
         );
         const pick = pickRandom(pool);
-        if (pick) { curated.push(pick); usedNames.add(pick.name); }
+        if (pick) { curated.push(pick); used.add(pick.name); }
       }
- 
       document.getElementById('curated-carousel').innerHTML = curated.map(carouselCard).join('');
  
-      // Top 10: first 10 recipes in JSON order
-      document.getElementById('top10-track').innerHTML = recipes.slice(0, 10).map(top10Card).join('');
+      // Top 10: first 10 in JSON order
+      document.getElementById('top10-track').innerHTML = ALL_RECIPES.slice(0, 10).map(top10Card).join('');
     }
  
-    // ── Search ───────────────────────────────────────────────────────────────
-    const searchInput = document.getElementById('search-input');
-    searchInput.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') runSearch();
-    });
- 
-    function runSearch() {
-      const q = searchInput.value.trim();
-      if (!q) return;
-      window.location.href = `/search?q=${encodeURIComponent(q)}`;
-    }
- 
-    loadRecipes();
- 
+    init();
   </script>
  
 </body>

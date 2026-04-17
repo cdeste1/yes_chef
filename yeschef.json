@@ -1,0 +1,322 @@
+{
+      "recipe": {
+        "name": "Rib-eye, mushroom purée and beef tea",
+        "source": "adapted from The French Laundry (Yountville, USA)",
+        "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/rubeye_mushroompuree_beeftea.png",
+        "chef": " Tom Keller",
+        "yield": "6 plates",
+        "description": "An elegant course, pairing beef with mushroom purée and potatoes cooked with bacon.",
+        "category": "Main",
+        "keywords": "steak, rib-eye, dinner",
+        "winePairings": [
+          {
+            "name": "Côtes du Rhône",
+            "notes": "Peppery Grenache complements char and umami."
+          },
+          {
+            "name": "Paul Jaboulet La Chapelle Hermitage",
+            "notes": "Deep, powerful Syrah meets beef richness."
+          }
+        ],
+        "ingredients": [
+          {
+            "item": "Rib-eye steak",
+            "quantity": "4 1/2 lb"
+          },
+          {
+            "item": "Butter",
+            "quantity": "1 ounce"
+          },
+          {
+            "item": "Garlic cloves",
+            "quantity": "2",
+            "note": "peeled and sliced"
+          },
+          {
+            "item": "Thyme Leaves",
+            "quantity": "1/4 ounce"
+          },
+          {
+            "item": "Extra-virgin olive oil",
+            "quantity": "enough to rub the steak"
+          },
+          {
+            "item": "salt and pepper",
+            "quantity": "to season the steak"
+          },
+          {
+            "item": "Mushroom Purée",
+            "note": "see sub-recipe"
+          },
+          {
+            "item": "Beef Tea",
+            "note": "see sub-recipe"
+          },
+          {
+            "item": "Baby Carrots",
+            "quantity": "3-4",
+            "note": "a handful works"
+          },
+          {
+            "item": "Little Gem Lettuce",
+            "quantity": "1",
+            "note": "substitute spinach or arugala"
+          }
+        ],
+        "specialtools": [
+          {
+            "item": "Immersion Blender",
+            "link": "https://amzn.to/47LWEbR"
+          },
+          {
+            "item": "Fine Sieve",
+            "link": "https://amzn.to/4pb7orr"
+          },
+          {
+            "item": "Cooking Rings",
+            "link": "https://amzn.to/43hUP59"
+          },
+          {
+            "item": "Muslin Cloth",
+            "link": "https://amzn.to/43RiR77"
+          },
+          {
+            "item": "Cheese Cloth",
+            "link": "https://amzn.to/4oQp6jy"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Prepare the Beef Tea and Marcarie Potatoes",
+            "note": "see sub-recipe"
+          },
+          {
+            "number": 2,
+            "instruction": "Prepare the Mushroom Purée",
+            "note": "see sub-recipe"
+          },
+          {
+            "number": 3,
+            "instruction": "Blanch the baby carrots in boiling water for 3-5 minutes.  Remove and put on ice to stop the cooking process",
+            "note": "the carrots should be bright orange"
+          },
+          {
+            "number": 4,
+            "instruction": "Peel the skin off the carrots, add 3 1/2 ounces butter and 3 ounces water}"
+          },
+          {
+            "number": 5,
+            "instruction": "Trim fat from the rib-eye."
+          },
+          {
+            "number": 6,
+            "instruction": "Trim the meat surrounding the rib-eye and set aside.",
+            "note": "The eye is surrounded by a thin fat layer"
+          },
+          {
+            "number": 7,
+            "instruction": "Roll the trimmed meat in plastic wrap and cut into steaks."
+          },
+          {
+            "number": 8,
+            "instruction": "Place the rolled steaks, garlic cloves, and thyme leaves into a plastic bag and seal.",
+            "note": "make sure all the air is out of the bag"
+          },
+          {
+            "number": 9,
+            "instruction": "Cook in a water bath at 117°F (47°C) for 4 hours."
+          },
+          {
+            "number": 10,
+            "instruction": "Remote from the bath, scrape off garlic and thyme and cut the braised beef in half.  Store in the refrigerator."
+          },
+          {
+            "number": 11,
+            "instruction": "Season the rib-eye with salt and pepper."
+          },
+          {
+            "number": 12,
+            "instruction": "In a hot pan with olive oil, sear both side of the rib-eye",
+            "note": "about 2-3 minutes each side"
+          },
+          {
+            "number": 13,
+            "instruction": "Cut the braised beef into 1 inch pieces and add into the pan with 1 ounce of butter ."
+          },
+          {
+            "number": 14,
+            "instruction": "When cooked to your liking, remove from pan and rest"
+          },
+          {
+            "number": 15,
+            "instruction": "Peel the skin off the carrots and warm over low hear with 3 1/2 ounces butter and 3 ounces water"
+          },
+          {
+            "number": 16,
+            "instruction": "Cut the Little Gem Lettuce",
+            "note": "4-5 2 inch leafs"
+          },
+          {
+            "number": 17,
+            "instruction": "Plating Layer 1: Place the Mushroom Purée on the plate.  Place the braised beef pieces on the purée. "
+          },
+          {
+            "number": 18,
+            "instruction": "Plating Layer 2: Place the Marcaire Potatoes on the plate. Cut the rib-eye into long slices and place on the potatoes."
+          },
+          {
+            "number": 19,
+            "instruction": "Plating Layer 3: Place the lettuce and carrots on the plate"
+          }
+        ],
+        "sub_recipes": [
+          {
+            "name": "Mushroom Purée",
+            "ingredients": [
+              {
+                "item": "Flat Mushrooms",
+                "quantity": "1 1/8 lb"
+              },
+              {
+                "item": "Porcini Mushrooms",
+                "quantity": "1 3/4 oz",
+                "note": "soak in 1/2 cup of water for 30 minutes, then allow to dry"
+              },
+              {
+                "item": "Milk",
+                "quantity": "dash"
+              },
+              {
+                "item": "Butter",
+                "quantity": "3 1/2 ounces"
+              },
+              {
+                "item": "Garlic cloves",
+                "quantity": "2"
+              },
+              {
+                "item": "Thyme",
+                "quantity": "1/4 ounce"
+              }
+            ],
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Preheat oven to 300°F (150°C)"
+              },
+              {
+                "number": 2,
+                "instruction": "Place all ingredients into a pan, cover in foil and cook for 1 hour."
+              },
+              {
+                "number": 3,
+                "instruction": "Purée and pass through a fine sieve.",
+                "note": "an Immersion blender works great here"
+              },
+              {
+                "number": 4,
+                "instruction": "Add the dash of milk and reheat on low-medium heat"
+              }
+            ]
+          },
+          {
+            "name": "Marcaire Potatoes",
+            "ingredients": [
+              {
+                "item": "Potatoes",
+                "quantity": "4",
+                "note": "large"
+              },
+              {
+                "item": "Butter",
+                "quantity": "2 tablespoons"
+              },
+              {
+                "item": "Spring Onion",
+                "quantity": "2",
+                "note": "finely sliced"
+              },
+              {
+                "item": "Bacon",
+                "quantity": "3 1/2 ounces",
+                "note": "cooked, finely diced"
+              },
+              {
+                "item": "Extra-virgin olive oil",
+                "quantity": "2 tablespoons"
+              }
+            ],
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Preheat oven to 400°F (205°C)"
+              },
+              {
+                "number": 2,
+                "instruction": "Bake the potatoes for about an hour, or until soft",
+                "note": "pierce with a fork to test"
+              },
+              {
+                "number": 3,
+                "instruction": "Scoop the potato flesh and mix with the cooked bacon and spring onion."
+              },
+              {
+                "number": 4,
+                "instruction": "Place the mixture into a 2 inch diameter, 1 inch high ring",
+                "note": "if rings are not available, you can mold by hand"
+              },
+              {
+                "number": 5,
+                "instruction": "When ready to serve, pan fry the mixture in butter and oil until golden on both sides"
+              }
+            ]
+          },
+          {
+            "name": "Beef Tea",
+            "ingredients": [
+              {
+                "item": "Beef Stock",
+                "quantity": "4 1/4 cups"
+              },
+              {
+                "item": "Thyme Leaves",
+                "quantity": "1/3 ounce"
+              },
+              {
+                "item": "Porcini Mushrooms",
+                "quantity": "2 2/3 ounces",
+                "note": "soak in 1/2 cup of water for 30 minutes, then allow to dry"
+              },
+              {
+                "item": "Tomatoes",
+                "quantity": "3"
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/3 ounces"
+              },
+              {
+                "item": "Egg Whites",
+                "quantity": "3"
+              }
+            ],
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Mix all ingredients in a pan and bring to a boil"
+              },
+              {
+                "number": 2,
+                "instruction": "Lower to a simmer and cook for 1 1/2 hours"
+              },
+              {
+                "number": 3,
+                "instruction": "Pass through a muslin cloth and discard remnants",
+                "note": "cheese cloth also works"
+              }
+            ]
+          }
+        ]
+      }
+    },

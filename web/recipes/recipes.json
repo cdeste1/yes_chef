@@ -9704,12 +9704,12 @@
           {
             "item": "Zucchini",
             "quantity": "1",
-"note": "Thinly Sliced Lengthwise"
+            "note": "Thinly Sliced Lengthwise"
           },
           {
             "item": "Yellow Squash",
             "quantity": "1",
-"note": "Thinly Sliced"
+            "note": "Thinly Sliced"
           },
           {
             "item": "Medium Beetroot",
@@ -9719,7 +9719,7 @@
           {
             "item": "Carrot",
             "quantity": "1/4 ounce",
-"note": "Thin Ribbons"
+            "note": "Thin Ribbons"
           },
           {
             "item": "Extra-virgin Olive Oil",
@@ -9741,37 +9741,37 @@
             "item": "Cream",
             "quantity": "1 TBSP"
           },
-    {
+          {
             "item": "Lemon Juice",
             "quantity": "1 Splash"
           },
-{
+          {
             "item": "Baby Carrots",
             "quantity": "1/2 Cup"
           },
-{
+          {
             "item": "Pearl Onions",
             "quantity": "1/4 Cup"
           },
-{
+          {
             "item": "Wild Mushrooms",
             "quantity": "1 Cup",
-"note": "Oyster or Shiitake"
+            "note": "Oyster or Shiitake"
           },
-{
+          {
             "item": "Parmsesan Cheese",
             "quantity": "1/2 Cup",
- "note": "Finely Grated"
+            "note": "Finely Grated"
           },
-{
+          {
             "item": "Microgreens",
             "quantity": "1 handful"
           },
-{
+          {
             "item": "Edible Flowers",
             "quantity": "5"
           },
-{
+          {
             "item": "Balsamic Glaze",
             "quantity": "To Taste"
           }
@@ -9973,6 +9973,1935 @@
           }
         ]
       }
-    }
+    },
+    {
+      "recipe": {
+        "name": "The Torch and Truffle Royale Burger",
+        "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/torchtruffleburger.png",
+        "description": "A sous vide-perfected Wagyu-style patty, flame finished with a torch for a delicate, smoky crust, layered with melted cheese and silky caramelized onion puree.",
+        "category": "Main",
+        "keywords": "Burger",
+        "ingredients": [
+          {
+            "item": "Wagyu or high-quality beef patties",
+            "quantity": "2",
+		 "note": "6 oz each"
+          },
+          {
+            "item": "Brioche Buns",
+            "quantity": "2"
+          },
+          {
+            "item": "Salt & freshly cracked black pepper",
+            "quantity": "1",
+            "note": "To Taste"
+          },
+          {
+            "item": "Comté or Gruyère cheese",
+            "quantity": "2 slices"
+          },
+          {
+            "item": "Yellow Onions",
+            "quantity": "2",
+	       "note": "Sliced"
+          },
+          {
+            "item": "Butter",
+            "quantity": "2 tsp"
+          },
+          {
+            "item": "Balsamic Vinegar",
+            "quantity": "Splash"
+          },
+          {
+            "item": "Mayonnaise",
+            "quantity": "1/2 Cup"
+          },
+          {
+            "item": "Truffle Oil",
+            "quantity": "1 tsp"
+          },
+	     {
+            "item": "Dijon Mustard",
+            "quantity": "1 tsp"
+          },
+		{
+            "item": "Garlic",
+            "quantity": "1 Clove",
+	       "note": "Minced"
+          },
+		{
+            "item": "Lemon Juice",
+            "quantity": "A few drops"
+          },
+		{
+            "item": "Butter Lettuce",
+            "quantity": "2 Pieces"
+          },
+		{
+            "item": "Tomato Slices",
+            "quantity": "2 Slices"
+          },
+		{
+            "item": "Microgreens",
+            "quantity": "1 handful"
+          },
+		{
+            "item": "Foie Gras or Sautéed Mushrooms",
+            "quantity": "To Taste",
+		  "note": "Optional"
+          },
+		{
+            "item": "Balsamic Reduction",
+            "quantity": "To Taste"
+          }
+        ],
+        "specialtools": [
+          {
+            "item": "Vacuum Sealer",
+            "link": "https://amzn.to/4ufPoPh"
+          },
+          {
+            "item": "Sous Vide Precision Cooker",
+            "link": "https://amzn.to/48bdTV7"
+          },
+          {
+            "item": "Strainer",
+            "link": "https://amzn.to/4cjQK5p"
+          },
+          {
+            "item": "Squeeze Bottles",
+            "link": "https://amzn.to/3QkAbxs"
+          },
+	     {
+            "item": "Torch",
+            "link": "https://amzn.to/42eE89w"
+          },
+	     {
+            "item": "Burger Mold",
+            "link": "https://amzn.to/4tk0RND"
+          },
+          {
+            "item": "Microplane",
+            "link": "https://amzn.to/4mF1vT9"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Sous Vide the Patties",
+            "note": "see sub-recipe"
+          },
+          {
+            "number": 2,
+            "instruction": "Caramelized Onion Purée",
+            "note": "see sub-recipe"
+          },
+          {
+            "number": 3,
+            "instruction": "Truffle Aioli",
+            "note": "see sub-recipe"
+          },
+          {
+            "number": 4,
+            "instruction": "Sear + Torch Finish",
+            "note": "see sub-recipe"
+          },
+          {
+            "number": 5,
+            "instruction": "Optional Luxury Layer",
+            "note": "see sub-recipe"
+          },
+          {
+            "number": 6,
+            "instruction": "Toast the Brioche Buns.",
+            "note": "see sub-recipe"
+          },
+	     {
+            "number": 7,
+            "instruction": "Structured Assembly",
+            "note": "see sub-recipe"
+          },
+	    {
+            "number": 8,
+            "instruction": "Plate Like a Michelin Chef.",
+            "note": "see sub-recipe"
+          }
+
+        ],
+        "sub_recipes": [
+          {
+            "name": "Sous Vide the Patties (Perfect interior)",
+        
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Lightly season patties."
+              },
+              {
+                "number": 2,
+                "instruction": "Vacuum seal using Vacuum Sealer Machine"
+              },
+              {
+                "number": 3,
+                "instruction": "Cook in water bath with Sous Vide Precision Cooker: 131°F (55°C) for 45 minutes."
+              }
+            ]
+          },
+          {
+            "name": "Caramelized Onion Purée (Silky refinement)",
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Cook onions in butter over low heat for 25–30 minutes."
+              },
+              {
+                "number": 2,
+                "instruction": "Add sugar halfway; finish with balsamic."
+              },
+              {
+                "number": 3,
+                "instruction": "Blend until smooth."
+              },
+              {
+                "number": 4,
+                "instruction": "Strain through fine mesh strainer."
+              }
+            ]
+          },
+{
+            "name": "Truffle Aioli",
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Mix mayonnaise, truffle oil,  Dijon mustard, garlic and lemon juice"
+              },
+              {
+                "number": 2,
+                "instruction": "Strain for smoothness."
+              },
+              {
+                "number": 3,
+                "instruction": "Transfer to squeeze bottle"
+              }
+            ]
+          },
+{
+            "name": "Sear + Torch Finish ??",
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Remove patties from sous vide, pat completely dry."
+              },
+              {
+                "number": 2,
+                "instruction": "Sear in very hot pan (30–45 sec per side)."
+              },
+              {
+                "number": 3,
+                "instruction": "Add cheese during final seconds"
+              },
+              {
+                "number": 4,
+                "instruction": "Use hand torch to melt the cheese evenly and add controlled char"
+              }
+            ]
+          },
+          {
+            "name": "Optional Luxury Layer",
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Quickly sear foie gras (30 sec per side)"
+              },
+              {
+                "number": 2,
+                "instruction": "Sauté mushrooms in butter + thyme until golden"
+              }
+            ]
+          },
+	     {
+            "name": "Toast the Brioche Buns",
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Butter cut sides"
+              },
+              {
+                "number": 2,
+                "instruction": "Toast until golden and crisp"
+              }
+            ]
+          },
+	     {
+            "name": "Structured Assembly (Using Ring Mold)",
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Place ring mold on plate and build"
+              },
+              {
+                "number": 2,
+                "instruction": "Bottom bun + thin truffle aioli layer."
+              },
+		   {
+                "number": 3,
+                "instruction": "Pipe onion purée neatly."
+              },
+		   {
+                "number": 4,
+                "instruction": "Add lettuce"
+              },
+		   {
+                "number": 5,
+                "instruction": "Place burger patty with melted cheese"
+              },
+		   {
+                "number": 6,
+                "instruction": "Add foie gras and/or mushrooms"
+              },
+		   {
+                "number": 7,
+                "instruction": "Tomato slice"
+              },
+		   {
+                "number": 8,
+                "instruction": "Microgreens"
+              },
+              {
+                "number": 9,
+                "instruction": "Top bun"
+              },
+              {
+                "number": 10,
+                "instruction": "Carefully remove ring mold for a clean, vertical stack"
+              }
+			     ]
+          },
+		{
+            "name": "Michelin-Level Plating",
+            "steps": [
+              {
+                "number": 1,
+                "instruction": "Place burger slightly off-center on a stone or matte plate"
+              },
+              {
+                "number": 2,
+                "instruction": "Pipe aioli dots using squeeze bottle"
+              },
+              {
+                "number": 3,
+                "instruction": "Add balsamic reduction drops around plate"
+		    },
+               {
+                "number": 4,
+                "instruction": "Serve fries in a small metal cup"
+		    },
+               {
+                "number": 5,
+                "instruction": "Garnish with microgreens, microplaned cheese (using Microplane), and Flaky Salt"
+		    }
+            ]
+          }
+        ]
+      }
+    },
+    {
+  "recipe": {
+    "name": "Dirty Vege-Burger with Smoky Mushroom Demi-Glace and Fermented Aioli",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/dirty_vege_burger_mushroom_demi.PNG",
+   "yield": "4 burgers",
+    "description": "An elevated 'dirty' vegetable burger featuring a deeply roasted mushroom-quinoa patty with crisp crust, glossy dripping smoky mushroom demi-glace, fermented aioli, and refined toppings for indulgent yet refined street-food luxury.",
+    "category": "Main",
+    "keywords": "vegetarian, vegan, burger, mushroom, umami, dirty",
+    "winePairings": [
+      {
+        "name": "Pinot Noir (light red)",
+        "notes": "Earthy notes complement mushroom umami and subtle smoke."
+      },
+      {
+        "name": "Chardonnay (unoaked or lightly oaked)",
+        "notes": "Bright acidity cuts through the rich sauces and crispy elements."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Mixed mushrooms (shiitake, oyster, chestnut)",
+        "quantity": "350g",
+        "note": "300g for patty + extra 50g for demi-glace, finely chopped"
+      },
+      {
+        "item": "Red onion",
+        "quantity": "1 large",
+        "note": "finely diced"
+      },
+      {
+        "item": "Garlic cloves",
+        "quantity": "3",
+        "note": "2 minced for patty, 1 for demi-glace"
+      },
+      {
+        "item": "Carrot",
+        "quantity": "1 medium",
+        "note": "grated"
+      },
+      {
+        "item": "Cooked quinoa",
+        "quantity": "150g"
+      },
+      {
+        "item": "Black beans",
+        "quantity": "400g can",
+        "note": "drained and roughly mashed, reserve 2 tbsp liquid"
+      },
+      {
+        "item": "Toasted walnuts",
+        "quantity": "50g",
+        "note": "chopped"
+      },
+      {
+        "item": "White miso paste",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Tomato paste",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Flaxseed meal + water",
+        "quantity": "2 tbsp flax + 5 tbsp water",
+        "note": "binder"
+      },
+      {
+        "item": "Smoked paprika, cumin, coriander",
+        "quantity": "1 tsp each paprika & cumin, ½ tsp coriander"
+      },
+      {
+        "item": "Olive oil, sea salt, black pepper",
+        "quantity": "as needed"
+      },
+      {
+        "item": "Smoky Mushroom Demi-Glace",
+        "note": "reduced roasting juices and extra mushrooms (see sub-recipe)"
+      },
+      {
+        "item": "Fermented garlic aioli",
+        "note": "vegan mayo base + kimchi brine"
+      },
+      {
+        "item": "Red onions for pickling",
+        "quantity": "1",
+        "note": "quick-pickled"
+      },
+      {
+        "item": "Shallots",
+        "quantity": "for crispy frying"
+      },
+      {
+        "item": "Ripe avocado, heirloom tomato, microgreens, edible flower",
+        "note": "for topping"
+      },
+      {
+        "item": "Vegan brioche buns",
+        "quantity": "4"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "High-powered food processor",
+        "link": "https://amzn.to/4vIaWpe"
+      },
+      {
+        "item": "Digital kitchen scale (0.1g precision)",
+        "link": "https://amzn.to/4cQUI5s"
+      },
+      {
+        "item": "Burger patty press",
+        "link": "https://amzn.to/48Xe8Do"
+      },
+      {
+        "item": "Fish spatula (thin flexible)",
+        "link": "https://amzn.to/3OQLQ6N"
+      },
+      {
+        "item": "Precision digital thermometer (probe)",
+        "link": "https://amzn.to/4vDU7eX"
+      },
+      {
+        "item": "Mandoline slicer with safety guard",
+        "link": "https://amzn.to/4cQPLJT"
+      },
+      {
+        "item": "Edible Flowers",
+        "link": "https://amzn.to/4tSuWDC"
+      },
+      {
+        "item": "Smoking gun (cold smoke device)",
+        "link": "https://amzn.to/4csOM1i"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Weigh all ingredients precisely using the digital kitchen scale.",
+        "note": "Accuracy ensures consistent texture and flavor balance."
+      },
+      {
+        "number": 2,
+        "instruction": "Toss 300g mushrooms, onion, 2 garlic cloves, and carrot with olive oil, salt, pepper, and spices. Roast at 200°C (400°F) for 20–25 minutes until deeply caramelized. Reserve roasting juices.",
+        "note": "Optional: finish with 30–60 seconds cold smoke using the smoking gun."
+      },
+      {
+        "number": 3,
+        "instruction": "Pulse the roasted vegetables with mashed beans, quinoa, walnuts, miso, tomato paste, and flax binder in a high-powered food processor until cohesive but textured. Chill 30 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Divide mixture into four equal portions (~180–200g each) by weight. Use the burger patty press to form uniform 2cm-thick patties."
+      },
+      {
+        "number": 5,
+        "instruction": "Heat a cast-iron pan very hot with oil. Use the fish spatula to place and flip patties. Sear 4–5 minutes per side to develop a deep crust. Check internal temperature with the precision digital thermometer (target 70–75°C / 160–165°F)."
+      },
+      {
+        "number": 6,
+        "instruction": "Use the mandoline slicer (1–2mm setting) for paper-thin red onions (quick-pickle in rice vinegar, sugar, salt) and shallots (fry until golden and crispy)."
+      },
+      {
+        "number": 7,
+        "instruction": "Prepare the Smoky Mushroom Demi-Glace (see sub-recipe). Toast buns."
+      },
+      {
+        "number": 8,
+        "instruction": "Assemble: spread fermented aioli on bottom bun, add seared patty, spoon smoky mushroom demi-glace generously so it drips artfully, layer avocado, tomato, pickled onions, crispy shallots, microgreens, and edible flower."
+      },
+      {
+        "number": 9,
+        "instruction": "Plate on a pristine white dish with an artistic sauce smear and scattered microgreens."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Smoky Mushroom Demi-Glace",
+        "ingredients": [
+          {
+            "item": "Reserved roasting juices + extra 50g chopped mushrooms",
+            "note": "from main roast"
+          },
+          {
+            "item": "Garlic clove",
+            "quantity": "1",
+            "note": "minced"
+          },
+          {
+            "item": "Vegetable stock or water",
+            "quantity": "100ml",
+            "note": "as needed to deglaze"
+          },
+          {
+            "item": "White miso paste",
+            "quantity": "1 tsp"
+          },
+          {
+            "item": "Smoked paprika",
+            "quantity": "½ tsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "In the same roasting pan or a small saucepan, sauté the extra 50g mushrooms and remaining garlic with a splash of oil until deeply browned."
+          },
+          {
+            "number": 2,
+            "instruction": "Deglaze with vegetable stock, add reserved roasting juices, miso, and smoked paprika. Simmer gently until reduced to a glossy, slightly sticky consistency (about 8–10 minutes)."
+          },
+          {
+            "number": 3,
+            "instruction": "Optional: finish with 10–15 seconds of cold smoke using the smoking gun for extra depth."
+          }
+        ]
+      },
+      {
+        "name": "Fermented Garlic Aioli",
+        "ingredients": [
+          {
+            "item": "Vegan mayonnaise",
+            "quantity": "base amount"
+          },
+          {
+            "item": "Garlic",
+            "note": "minced"
+          },
+          {
+            "item": "Kimchi brine or sauerkraut juice",
+            "note": "for fermented tang"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Whisk ingredients together until smooth and balanced."
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Truffled Sous Vide Eggs Benedict with Smoked Salmon, Hollandaise Espuma & Ossetra Caviar",
+        "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/truffled_sous_vide_eggs_benedict.png",
+        "yield": "2 servings",
+    "description": "An ultra-luxurious brunch dish featuring precision sous-vide eggs, a weightless truffle hollandaise espuma, elegant smoked salmon rosettes, and a crowning of Ossetra caviar. Contrasting temperatures and textures create a three-star experience at home.",
+    "category": "Main, Brunch",
+    "keywords": "eggs benedict, sous vide, truffle, caviar, hollandaise espuma, smoked salmon, michelin",
+    "winePairings": [
+      {
+        "name": "Champagne (e.g., Krug Grande Cuvée)",
+        "notes": "Bright acidity and fine bubbles cut through the richness while complementing the truffle and caviar."
+      },
+      {
+        "name": "Chablis or White Burgundy",
+        "notes": "Crisp minerality balances the buttery hollandaise and salmon."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Ultra-fresh large eggs",
+        "quantity": "4",
+        "note": "room temperature"
+      },
+      {
+        "item": "Clarified butter",
+        "quantity": "200 g"
+      },
+      {
+        "item": "Large egg yolks (for hollandaise)",
+        "quantity": "3"
+      },
+      {
+        "item": "Fresh lemon juice",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "White truffle oil (or grated fresh black truffle)",
+        "quantity": "1 tbsp (or 10–15 g fresh truffle)"
+      },
+      {
+        "item": "Heavy cream",
+        "quantity": "100 ml",
+        "note": "cold"
+      },
+      {
+        "item": "Brioche rolls (or sourdough English muffins)",
+        "quantity": "2",
+        "note": "split and toasted"
+      },
+      {
+        "item": "Cold-smoked salmon",
+        "quantity": "150 g",
+        "note": "best quality, thinly sliced"
+      },
+      {
+        "item": "Thick asparagus spears",
+        "quantity": "8–10"
+      },
+      {
+        "item": "Ossetra caviar",
+        "quantity": "20 g",
+        "note": "or sustainable farmed equivalent"
+      },
+      {
+        "item": "Fresh black truffle",
+        "quantity": "5–10 g",
+        "note": "for shaving"
+      },
+      {
+        "item": "Microgreens or chervil leaves",
+        "quantity": "handful"
+      },
+      {
+        "item": "Edible gold leaf",
+        "quantity": "optional"
+      },
+      {
+        "item": "Fine sea salt and white pepper",
+        "quantity": "to taste"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "iSi Gourmet Whip siphon + 2 N?O chargers",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Truffle shaver",
+        "link": "https://amzn.to/4tpFx9m"
+      },
+      {
+        "item": "Stainless-steel ring molds",
+        "link": "https://amzn.to/4cQTZkJ"
+      },
+      {
+        "item": "Culinary blowtorch",
+        "link": "https://amzn.to/42eE89w"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Set up sous-vide bath to 63.5 °C (146.3 °F). Gently lower the 4 eggs (in shells) into the bath and cook for 45–60 minutes.",
+        "note": "This yields a silky white and molten custardy yolk."
+      },
+      {
+        "number": 2,
+        "instruction": "Prepare truffle hollandaise base: Whisk 3 egg yolks, lemon juice, salt, and white pepper over a double boiler until pale and ribbon-like. Slowly whisk in warm clarified butter until thick. Stir in truffle oil or grated fresh truffle. Cool to room temperature."
+      },
+      {
+        "number": 3,
+        "instruction": "Whip heavy cream to soft peaks. Gently fold in cooled hollandaise. Pour into iSi siphon, charge with two N?O cartridges, shake vigorously, and refrigerate upright for 30 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Toast brioche until golden. Blanch asparagus in boiling salted water for 90 seconds, shock in ice water, and pat dry."
+      },
+      {
+        "number": 5,
+        "instruction": "Warm plates. Place a ring mold on each plate, add toasted brioche, then layer smoked salmon in an elegant rosette."
+      },
+      {
+        "number": 6,
+        "instruction": "Carefully crack and slide one sous-vide egg onto the salmon per plate using an offset spatula. Remove ring mold."
+      },
+      {
+        "number": 7,
+        "instruction": "Dispense a generous cloud of truffle hollandaise espuma over each egg. Top with a quenelle of Ossetra caviar."
+      },
+      {
+        "number": 8,
+        "instruction": "Shave 3–4 paper-thin slices of fresh black truffle directly over the dish. Arrange asparagus spears artistically to the side. Scatter microgreens and edible gold leaf. Add sauce dots for visual rhythm."
+      }
+    ],
+    "sub_recipes": []
+  }
+},
+{
+  "recipe": {
+    "name": "Brioche French Toast, Vanilla Espuma and Berry Coulis",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/FrenchToast.png",
+    "yield": "4 servings",
+    "description": "A luxurious Michelin-inspired brunch dish featuring thick slices of artisanal brioche soaked in a fragrant vanilla bean and orange zest crème anglaise, pan-fried in clarified butter, finished with a crackling caramelized crust, and crowned with an ethereal vanilla espuma. Accompanied by macerated seasonal berries, toasted hazelnuts, and a vibrant berry coulis for perfect texture and flavor contrast.",
+    "category": "Main, Brunch",
+    "keywords": "french toast, brioche, pain perdu, espuma, fine dining, brunch",
+    "winePairings": [
+      {
+        "name": "Champagne Brut",
+        "notes": "Crisp bubbles cut through the richness and highlight the vanilla and berry notes."
+      },
+      {
+        "name": "Late Harvest Riesling",
+        "notes": "Sweet floral notes complement the caramelized crust and macerated berries."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Day-old artisanal brioche loaf",
+        "quantity": "4 slices",
+        "note": "2 cm / ¾ inch thick"
+      },
+      {
+        "item": "Whole milk",
+        "quantity": "300 ml"
+      },
+      {
+        "item": "Heavy cream (36% fat minimum)",
+        "quantity": "200 ml"
+      },
+      {
+        "item": "Madagascar vanilla bean",
+        "quantity": "1",
+        "note": "split and scraped"
+      },
+      {
+        "item": "Organic orange",
+        "quantity": "1",
+        "note": "zest only, microplaned"
+      },
+      {
+        "item": "Large free-range eggs",
+        "quantity": "4"
+      },
+      {
+        "item": "Caster sugar",
+        "quantity": "60 g"
+      },
+      {
+        "item": "Sea salt",
+        "quantity": "pinch"
+      },
+      {
+        "item": "Grand Marnier (or dark rum)",
+        "quantity": "30 ml",
+        "note": "optional"
+      },
+      {
+        "item": "Clarified butter (ghee)",
+        "quantity": "50 g"
+      },
+      {
+        "item": "Mixed fresh berries (strawberries, blueberries, raspberries)",
+        "quantity": "150 g",
+        "note": "macerated"
+      },
+      {
+        "item": "Caster sugar (for maceration)",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Toasted hazelnuts",
+        "quantity": "30 g",
+        "note": "lightly crushed"
+      },
+      {
+        "item": "Edible 24-karat gold leaf",
+        "quantity": "as needed"
+      },
+      {
+        "item": "Heavy cream (for espuma)",
+        "quantity": "100 ml"
+      },
+      {
+        "item": "Vanilla bean paste",
+        "quantity": "1 tsp"
+      },
+      {
+        "item": "Berry coulis or reduced maple syrup",
+        "quantity": "as needed"
+      },
+      {
+        "item": "Micro edible flowers",
+        "quantity": "optional"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "iSi Gourmet Whip siphon (0.5 L) + 2 N?O chargers",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Kitchen blowtorch (culinary torch)",
+        "link": "https://amzn.to/42eE89w"
+      },
+      {
+        "item": "Fine-mesh chinois strainer",
+        "link": "https://amzn.to/4cjQK5p"
+      },
+      {
+        "item": "Digital precision scale (0.1 g accuracy)",
+        "link": "https://amzn.to/4cQUI5s"
+      },
+      {
+        "item": "Microplane zester",
+        "link": "https://amzn.to/4mF1vT9"
+      },
+{
+        "item": "Edible Gold Leaf",
+        "link": "https://amzn.to/4cSNkGM"
+      },
+      {
+        "item": "Vacuum sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the infused custard base using a sous-vide immersion circulator at 60°C (140°F). Combine milk, cream, scraped vanilla bean and seeds, and microplaned orange zest. Infuse for 30 minutes."
+      },
+      {
+        "number": 2,
+        "instruction": "In a bowl, gently whisk the eggs, caster sugar, and sea salt until combined. Strain the infused dairy through a chinois into the egg mixture. Add Grand Marnier if using. Refrigerate until needed."
+      },
+      {
+        "number": 3,
+        "instruction": "Prepare the vanilla espuma: Whisk 100 ml heavy cream with vanilla bean paste and 20 g sugar until dissolved. Charge an iSi siphon with two N?O cartridges, shake vigorously, and refrigerate for at least 10 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Macerate the berries: Toss 150 g mixed berries with 1 tbsp sugar and a squeeze of lemon juice. Let sit for 15 minutes."
+      },
+      {
+        "number": 5,
+        "instruction": "Soak the brioche slices in the custard for 2–3 minutes per side until fully saturated but still holding shape. For deeper infusion, use a vacuum sealer on gentle setting."
+      },
+      {
+        "number": 6,
+        "instruction": "Heat clarified butter in a heavy skillet over medium-low heat. Fry each soaked brioche slice for 3–4 minutes per side until deep golden and the interior reaches 70°C (158°F)."
+      },
+      {
+        "number": 7,
+        "instruction": "Remove to a wire rack. Immediately sprinkle each slice evenly with caster or turbinado sugar and caramelize the surface using a kitchen blowtorch in sweeping motions until a glassy, crackling crust forms."
+      },
+      {
+        "number": 8,
+        "instruction": "Plating: Warm the plates. Place one or two slices of French toast slightly off-center. Dispense a generous cloud of vanilla espuma on top. Scatter macerated berries and crushed toasted hazelnuts around the base. Delicately apply flakes of edible gold leaf with tweezers. Garnish with micro edible flowers and finish with an artistic drizzle of berry coulis or reduced maple syrup."
+      }
+    ],
+    "sub_recipes": []
+  }
+},
+{
+  "recipe": {
+    "name": "Avocado Royale",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/avocado_royale.png",
+    "yield": "2 plates",
+    "description": "An elegant avocado-centric brunch course featuring vacuum-compressed Hass avocado carpaccio, sweet Dungeness crab, a custardy 63°C sous-vide quail egg, and a light truffle-infused avocado espuma.",
+    "category": "Main, Brunch",
+    "keywords": "avocado, crab, quail egg, brunch, fine dining",
+    "winePairings": [
+      {
+        "name": "Chablis or crisp Chardonnay",
+        "notes": "Mineral acidity cuts through the rich avocado and crab while highlighting the truffle notes."
+      },
+      {
+        "name": "Rosé Champagne",
+        "notes": "Bubbly elegance complements the luxurious textures and caviar pops."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Ripe Hass avocados",
+        "quantity": "2 large"
+      },
+      {
+        "item": "Fresh Dungeness crab meat",
+        "quantity": "100 g",
+        "note": "cooked and picked"
+      },
+      {
+        "item": "Quail eggs",
+        "quantity": "4",
+        "note": "very fresh, room temperature"
+      },
+      {
+        "item": "Fresh black truffle",
+        "quantity": "30 g"
+      },
+      {
+        "item": "Egg yolks",
+        "quantity": "2 large",
+        "note": "for espuma base"
+      },
+      {
+        "item": "Neutral oil or clarified butter",
+        "quantity": "150 g",
+        "note": "warm"
+      },
+      {
+        "item": "Yuzu kosho",
+        "quantity": "1 tsp",
+        "note": "or fresh yuzu zest + pinch of chili"
+      },
+      {
+        "item": "Fresh yuzu juice",
+        "quantity": "1",
+        "note": "or Meyer lemon"
+      },
+      {
+        "item": "Ossetra caviar",
+        "quantity": "20 g"
+      },
+      {
+        "item": "Micro shiso or chervil leaves",
+        "quantity": "as needed"
+      },
+      {
+        "item": "Edible 24K gold leaf",
+        "quantity": "as needed"
+      },
+      {
+        "item": "Yuzu gel or reduction",
+        "quantity": "1 tsp"
+      },
+      {
+        "item": "Fine sea salt and white pepper",
+        "quantity": "to season"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Chamber vacuum sealer",
+        "link": "https://amzn.to/4tlz9ji"
+      },
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "iSi Gourmet Whip siphon",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Plating ring molds (3-inch)",
+        "link": "https://amzn.to/4cQTZkJ"
+      },
+      {
+        "item": "Truffle slicer",
+        "link": "https://amzn.to/4tpFx9m"
+      },
+      {
+        "item": "Micro tweezers",
+        "link": "https://amzn.to/4eve5SX"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the compressed avocado carpaccio and avocado-truffle espuma",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 2,
+        "instruction": "Sous-vide the quail eggs",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 3,
+        "instruction": "Gently warm the Dungeness crab meat with a touch of yuzu juice and salt. Do not overcook."
+      },
+      {
+        "number": 4,
+        "instruction": "Peel the sous-vide quail eggs carefully just before plating."
+      },
+      {
+        "number": 5,
+        "instruction": "Season components lightly with salt and white pepper as needed."
+      },
+      {
+        "number": 6,
+        "instruction": "Plating Layer 1: Place the compressed avocado carpaccio disc in the center of the plate using a 3-inch ring mold."
+      },
+      {
+        "number": 7,
+        "instruction": "Plating Layer 2: Add a thin even layer of warm crab meat on the avocado base."
+      },
+      {
+        "number": 8,
+        "instruction": "Plating Layer 3: Carefully place one peeled sous-vide quail egg on top of the crab. Remove the ring mold."
+      },
+      {
+        "number": 9,
+        "instruction": "Dispense generous clouds of avocado-truffle espuma over and around the egg with the iSi siphon."
+      },
+      {
+        "number": 10,
+        "instruction": "Spoon Ossetra caviar in an elegant line across the espuma. Shave remaining fresh black truffle generously over the plate."
+      },
+      {
+        "number": 11,
+        "instruction": "Finish with tiny dots of yuzu gel, micro shiso leaves, and delicate flakes of edible gold leaf applied with micro tweezers."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Compressed Avocado Carpaccio",
+        "ingredients": [
+          {
+            "item": "Ripe Hass avocados",
+            "quantity": "2 large"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Peel and thinly slice each avocado into ?-inch rounds using a sharp knife or mandoline."
+          },
+          {
+            "number": 2,
+            "instruction": "Arrange overlapping slices inside a 3-inch ring mold on the base of a vacuum bag. Top with another layer of slices to enclose."
+          },
+          {
+            "number": 3,
+            "instruction": "Place in the chamber vacuum sealer and apply full vacuum + 2-second seal. Compress for 30 seconds."
+          },
+          {
+            "number": 4,
+            "instruction": "Gently remove the ring mold. The avocado will hold a perfect glossy disc. Chill for 15 minutes."
+          }
+        ]
+      },
+      {
+        "name": "Avocado-Truffle Espuma",
+        "ingredients": [
+          {
+            "item": "Egg yolks",
+            "quantity": "2 large"
+          },
+          {
+            "item": "Reserved avocado flesh",
+            "quantity": "100 g"
+          },
+          {
+            "item": "Neutral oil or clarified butter",
+            "quantity": "150 g",
+            "note": "warm"
+          },
+          {
+            "item": "Yuzu juice",
+            "quantity": "from 1 yuzu"
+          },
+          {
+            "item": "Yuzu kosho",
+            "quantity": "1 tsp"
+          },
+          {
+            "item": "Fresh black truffle",
+            "quantity": "10 g",
+            "note": "finely grated"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "In a double boiler, whisk egg yolks with yuzu juice until pale and thickened."
+          },
+          {
+            "number": 2,
+            "instruction": "Slowly emulsify in the warm oil to form a light base. Blend in reserved avocado flesh and yuzu kosho until silky."
+          },
+          {
+            "number": 3,
+            "instruction": "Season with salt and white pepper. Grate 10 g fresh black truffle directly into the mixture."
+          },
+          {
+            "number": 4,
+            "instruction": "Transfer to iSi siphon, charge with two N?O cartridges, shake vigorously 12–15 times. Keep warm in 50°C water bath."
+          }
+        ]
+      },
+      {
+        "name": "Sous-Vide Quail Eggs",
+        "ingredients": [
+          {
+            "item": "Quail eggs",
+            "quantity": "4"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Set sous-vide immersion circulator to exactly 63°C / 145°F."
+          },
+          {
+            "number": 2,
+            "instruction": "Gently lower quail eggs (in shell) into the stabilized water bath."
+          },
+          {
+            "number": 3,
+            "instruction": "Cook for 18 minutes for a tender white and custardy, runny yolk."
+          },
+          {
+            "number": 4,
+            "instruction": "Shock briefly in ice water. Peel carefully just before plating."
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Yuzu-Glazed A5 Wagyu Tataki with Uni-Miso Purée, Gochujang Caramel, Thai Basil Espuma, and Crispy Rice Crumble",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/wagyu_tataki_asian_fusion.png",
+    "yield": "2 tasting plates",
+    "description": "An exquisite Michelin-star Asian fusion course featuring premium A5 Japanese Wagyu lightly torched and glazed with yuzu, paired with silky uni-miso purée, spicy-sweet gochujang caramel, airy Thai basil espuma, and textural crispy rice crumble.",
+    "category": "Main",
+    "keywords": "wagyu, tataki, asian fusion, uni, yuzu, michelin",
+    "winePairings": [
+      {
+        "name": "Junmai Daiginjo Sake",
+        "notes": "Clean, fruity notes cut through the rich wagyu and complement yuzu brightness."
+      },
+      {
+        "name": "Alsace Riesling (dry or off-dry)",
+        "notes": "Crisp acidity balances the caramel heat and uni umami."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "A5 Japanese Wagyu ribeye or striploin",
+        "quantity": "300 g",
+        "note": "trimmed"
+      },
+      {
+        "item": "Fresh yuzu juice",
+        "quantity": "2 Tbsp"
+      },
+      {
+        "item": "Light Japanese soy sauce",
+        "quantity": "1 Tbsp"
+      },
+      {
+        "item": "Yuzu kosho paste",
+        "quantity": "1 tsp"
+      },
+      {
+        "item": "Fresh Hokkaido or Santa Barbara uni roe",
+        "quantity": "100 g"
+      },
+      {
+        "item": "White shiro miso",
+        "quantity": "50 g"
+      },
+      {
+        "item": "Dashi stock",
+        "quantity": "1 Tbsp"
+      },
+      {
+        "item": "Korean gochujang",
+        "quantity": "3 Tbsp"
+      },
+      {
+        "item": "Cane sugar",
+        "quantity": "2 Tbsp"
+      },
+      {
+        "item": "Full-fat coconut milk",
+        "quantity": "200 ml"
+      },
+      {
+        "item": "Heavy cream",
+        "quantity": "50 ml"
+      },
+      {
+        "item": "Fresh Thai basil leaves",
+        "quantity": "1 large bunch"
+      },
+      {
+        "item": "Cooked sushi rice",
+        "quantity": "100 g",
+        "note": "cooled"
+      },
+      {
+        "item": "Micro shiso leaves, edible gold leaf, yuzu zest, toasted black sesame seeds",
+        "quantity": "for garnish"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Polyscience Sous-Vide Immersion Circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Gold Flakes",
+        "link": "https://amzn.to/42c7XaS"
+      },
+      {
+        "item": "iSi Gourmet Whip Siphon",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Professional Kitchen Blowtorch",
+        "link": "https://amzn.to/42eE89w"
+      },
+{
+        "item": "Mixer",
+        "link": "https://amzn.to/48PAp5Z"
+      },
+
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the Uni-Miso Purée, Gochujang Caramel, Thai Basil Espuma, and Crispy Rice Crumble",
+        "note": "see sub-recipes"
+      },
+      {
+        "number": 2,
+        "instruction": "Season the A5 Wagyu lightly with sea salt. Vacuum-seal with yuzu juice, soy sauce, and yuzu kosho."
+      },
+      {
+        "number": 3,
+        "instruction": "Cook in sous-vide water bath at exactly 52°C (125.6°F) for 60 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Shock in ice water for 10 minutes, pat completely dry, and reserve bag juices."
+      },
+      {
+        "number": 5,
+        "instruction": "Brush Wagyu with reserved juices and torch the surface evenly until deep mahogany crust forms (10–15 seconds per side)."
+      },
+      {
+        "number": 6,
+        "instruction": "Slice against the grain into 5 mm thick pieces."
+      },
+      {
+        "number": 7,
+        "instruction": "Plating Layer 1: Place three precise dots of Uni-Miso Purée on the plate."
+      },
+      {
+        "number": 8,
+        "instruction": "Plating Layer 2: Arrange torched Wagyu slices in a gentle sweeping arc. Drizzle with warm Gochujang Caramel."
+      },
+      {
+        "number": 9,
+        "instruction": "Plating Layer 3: Dispense two elegant mounds of Thai Basil Espuma. Scatter Crispy Rice Crumble sparingly."
+      },
+      {
+        "number": 10,
+        "instruction": "Finish with micro shiso leaves, edible gold leaf flakes, microplaned yuzu zest, and toasted black sesame seeds."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Uni-Miso Purée",
+        "ingredients": [
+          {
+            "item": "Fresh uni roe",
+            "quantity": "100 g"
+          },
+          {
+            "item": "White shiro miso",
+            "quantity": "50 g"
+          },
+          {
+            "item": "Dashi stock",
+            "quantity": "1 Tbsp"
+          },
+          {
+            "item": "Rice vinegar",
+            "quantity": "1 tsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Combine all ingredients in the mixing bowl."
+          },
+          {
+            "number": 2,
+            "instruction": "Blend at speed 8 for 2 minutes, scraping sides once."
+          },
+          {
+            "number": 3,
+            "instruction": "Pass through a fine chinois strainer for silky texture. Transfer to squeeze bottle and chill."
+          }
+        ]
+      },
+      {
+        "name": "Gochujang Caramel",
+        "ingredients": [
+          {
+            "item": "Korean gochujang",
+            "quantity": "3 Tbsp"
+          },
+          {
+            "item": "Cane sugar",
+            "quantity": "2 Tbsp"
+          },
+          {
+            "item": "Rice vinegar",
+            "quantity": "1 Tbsp"
+          },
+          {
+            "item": "Toasted sesame oil",
+            "quantity": "1 tsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Combine all ingredients in a small saucepan over medium heat."
+          },
+          {
+            "number": 2,
+            "instruction": "Stir until sugar dissolves and mixture reduces to glossy caramel (5–7 minutes)."
+          },
+          {
+            "number": 3,
+            "instruction": "Keep warm in bain-marie until plating."
+          }
+        ]
+      },
+      {
+        "name": "Thai Basil Espuma",
+        "ingredients": [
+          {
+            "item": "Full-fat coconut milk",
+            "quantity": "200 ml"
+          },
+          {
+            "item": "Heavy cream",
+            "quantity": "50 ml"
+          },
+          {
+            "item": "Fresh Thai basil leaves",
+            "quantity": "1 large bunch"
+          },
+          {
+            "item": "Soy lecithin powder",
+            "quantity": "1 tsp"
+          },
+          {
+            "item": "Fine sea salt",
+            "quantity": "pinch"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Blend coconut milk, cream, basil, lecithin, and salt for 60 seconds."
+          },
+          {
+            "number": 2,
+            "instruction": "Strain through fine sieve."
+          },
+          {
+            "number": 3,
+            "instruction": "Pour into iSi Gourmet Whip siphon, charge with two N?O cartridges, shaking vigorously. Refrigerate upright minimum 2 hours."
+          }
+        ]
+      },
+      {
+        "name": "Crispy Rice Crumble",
+        "ingredients": [
+          {
+            "item": "Cooked sushi rice",
+            "quantity": "100 g"
+          },
+          {
+            "item": "Neutral frying oil",
+            "quantity": "as needed"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Spread cooled sushi rice thinly on silicone mat."
+          },
+          {
+            "number": 2,
+            "instruction": "Heat oil to 180°C (356°F) and fry small clusters until golden and crisp (2–3 minutes)."
+          },
+          {
+            "number": 3,
+            "instruction": "Drain, cool slightly, and crush lightly into irregular crumbs. Hold warm until service."
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+ "recipe": {
+   "name": "Wagyu Truffle Hot Dog – Le Chien Chaud de Luxe",
+   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/wagyu_truffle_hot_dog.png",
+   "yield": "4 plates",
+   "description": "An ultra-luxury reinterpretation of the classic hot dog: A5 Wagyu beef sausage cooked sous-vide, nestled in a vacuum-smoked brioche bun, finished with foie-gras espuma, hand-shaved black Périgord truffle, Ossetra caviar, and smoked truffle aioli. A three-Michelin-star experience in one perfect bite.",
+   "category": "Main",
+   "keywords": "hot dog, wagyu, truffle, foie gras, caviar, fine dining, luxury",
+   "winePairings": [
+     {
+       "name": "Vintage Champagne (e.g., Dom Pérignon)",
+       "notes": "Bubbles cut through the rich foie gras and truffle while enhancing the Wagyu savoriness."
+     },
+     {
+       "name": "Rare Japanese Whisky (e.g., Yamazaki 18)",
+       "notes": "Smoky depth complements the cold-smoked elements and umami explosion."
+     }
+   ],
+   "ingredients": [
+     {
+       "item": "A5 Wagyu beef frankfurters (or sausages)",
+       "quantity": "4 × 6-oz"
+     },
+     {
+       "item": "Premium brioche hot-dog buns",
+       "quantity": "4"
+     },
+     {
+       "item": "Fresh grade-A foie gras",
+       "quantity": "150 g",
+       "note": "for espuma"
+     },
+     {
+       "item": "Black Périgord truffle",
+       "quantity": "1 large (? 40 g)"
+     },
+     {
+       "item": "Ossetra caviar",
+       "quantity": "30 g"
+     },
+     {
+       "item": "Egg yolks",
+       "quantity": "2",
+       "note": "for smoked truffle aioli"
+     },
+     {
+       "item": "Neutral oil",
+       "quantity": "150 ml",
+       "note": "for aioli"
+     },
+     {
+       "item": "Black truffle oil",
+       "quantity": "2 tsp"
+     },
+     {
+       "item": "Shallot",
+       "quantity": "1",
+       "note": "finely minced"
+     },
+     {
+       "item": "Cognac",
+       "quantity": "30 ml"
+     },
+     {
+       "item": "Heavy cream",
+       "quantity": "120 ml"
+     },
+     {
+       "item": "Micro arugula or chervil",
+       "quantity": "small handful"
+     },
+     {
+       "item": "Edible 24K gold leaf flakes",
+       "quantity": "as needed"
+     },
+     {
+       "item": "Aged balsamic reduction",
+       "quantity": "optional swipe"
+     },
+     {
+       "item": "Applewood chips",
+       "quantity": "for cold smoking"
+     },
+     {
+       "item": "Salt, white pepper, lemon juice",
+       "quantity": "to taste"
+     }
+   ],
+   "specialtools": [
+     {
+       "item": "Sous-vide immersion circulator",
+       "link": "https://amzn.to/48bdTV7"
+     },
+     {
+       "item": "iSi Gourmet Whip siphon (1L) + N?O chargers",
+       "link": "https://amzn.to/4tiCiAl"
+     },
+     {
+       "item": "Condiment Tins",
+       "link": "https://amzn.to/4tQvWIs"
+     },
+
+     {
+       "item": "Truffle shaver",
+       "link": "https://amzn.to/4tpFx9m"
+     },
+     {
+       "item": "Vacuum Sealer",
+       "link": "https://amzn.to/4ufPoPh"
+     },
+     {
+       "item": "Smoking Gun Smoker",
+       "link": "https://amzn.to/3Oxxubd"
+     },
+     {
+       "item": "Culinary Blowtorch",
+       "link": "https://amzn.to/42eE89w"
+     },
+     {
+       "item": "Micro Tweezers ",
+       "link": "https://amzn.to/4eve5SX"
+     },
+     {
+       "item": "Vitamix professional high-speed blender",
+       "link": "https://amzn.to/4ew7esp"
+     },
+     {
+       "item": "Strainer",
+       "link": "https://amzn.to/4cjQK5p"
+     },
+     {
+       "item": "Plating Kit",
+       "link": "https://amzn.to/3OpA17x"
+     },
+     {
+       "item": "Digital precision scale (0.01g accuracy)",
+       "link": "https://amzn.to/4cQUI5s"
+     }
+   ],
+   "steps": [
+     {
+       "number": 1,
+       "instruction": "Prepare the Foie Gras Espuma and Smoked Truffle Aioli",
+       "note": "see sub-recipe"
+     },
+     {
+       "number": 2,
+       "instruction": "Prepare the Vacuum-Smoked Brioche Buns",
+       "note": "see sub-recipe"
+     },
+     {
+       "number": 3,
+       "instruction": "Sous-vide the Wagyu sausages in the Polyscience circulator at exactly 60°C (140°F) for 45 minutes."
+     },
+     {
+       "number": 4,
+       "instruction": "Shock sausages in ice water for 2 minutes, pat dry, then sear briefly with the Searzall torch or hot pan for Maillard crust."
+     },
+     {
+       "number": 5,
+       "instruction": "Using precision tweezers and plating tools, begin assembly on a pristine white plate."
+     },
+     {
+       "number": 6,
+       "instruction": "Spread smoked truffle aioli inside the warm smoked bun, nestle the hot sausage, and pipe a ribbon of foie-gras espuma from the iSi siphon."
+     },
+     {
+       "number": 7,
+       "instruction": "Shave 5–6 paper-thin slices of black truffle directly onto the espuma using the Brevetti slicer."
+     },
+     {
+       "number": 8,
+       "instruction": "Add tiny quenelles of Ossetra caviar with tweezers, microgreens, and 2–3 flakes of edible gold leaf. Optional: artistic swipe of aged balsamic."
+     },
+     {
+       "number": 9,
+       "instruction": "Serve immediately with negative space for dramatic Michelin-style presentation."
+     }
+   ],
+   "sub_recipes": [
+     {
+       "name": "Foie Gras Espuma",
+       "ingredients": [
+         {
+           "item": "Fresh grade-A foie gras",
+           "quantity": "150 g"
+         },
+         {
+           "item": "Shallot",
+           "quantity": "1",
+           "note": "finely minced"
+         },
+         {
+           "item": "Cognac",
+           "quantity": "30 ml"
+         },
+         {
+           "item": "Heavy cream",
+           "quantity": "120 ml"
+         },
+         {
+           "item": "Salt and white pepper",
+           "quantity": "to taste"
+         }
+       ],
+       "steps": [
+         {
+           "number": 1,
+           "instruction": "Sear foie gras with shallot until lightly caramelized, deglaze with Cognac."
+         },
+         {
+           "number": 2,
+           "instruction": "Blend to silky smoothness in Vitamix, strain through chinois, season, and charge iSi siphon with two N?O cartridges. Refrigerate upright for at least 2 hours."
+         }
+       ]
+     },
+     {
+       "name": "Smoked Truffle Aioli",
+       "ingredients": [
+         {
+           "item": "Egg yolks",
+           "quantity": "2"
+         },
+         {
+           "item": "Garlic clove",
+           "quantity": "1"
+         },
+         {
+           "item": "Neutral oil",
+           "quantity": "150 ml"
+         },
+         {
+           "item": "Black truffle oil",
+           "quantity": "2 tsp"
+         },
+         {
+           "item": "Lemon juice",
+           "quantity": "½ lemon"
+         },
+         {
+           "item": "Applewood chips",
+           "quantity": "for Smoking Gun"
+         }
+       ],
+       "steps": [
+         {
+           "number": 1,
+           "instruction": "Emulsify classic aioli base in high-speed blender."
+         },
+         {
+           "number": 2,
+           "instruction": "Infuse with applewood smoke using the Smoking Gun (seal and shake twice for deep flavor)."
+         }
+       ]
+     },
+     {
+       "name": "Vacuum-Smoked Brioche Buns",
+       "ingredients": [
+         {
+           "item": "Premium brioche hot-dog buns",
+           "quantity": "4"
+         },
+         {
+           "item": "Applewood chips",
+           "quantity": "for Smoking Gun"
+         }
+       ],
+       "steps": [
+         {
+           "number": 1,
+           "instruction": "Place each bun in a vacuum bag, fill with applewood smoke using the Smoking Gun Pro."
+         },
+         {
+           "number": 2,
+           "instruction": "Immediately seal on chamber vacuum sealer and rest 20–30 minutes for smoke penetration."
+         },
+         {
+           "number": 3,
+           "instruction": "Remove and lightly toast insides just before assembly."
+         }
+       ]
+     }
+   ]
+ }
+},
+{
+  "recipe": {
+    "name": "Halibut Royale en Nacre",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Halibut.png",
+    "yield": "2 plates",
+    "description": "A refined Michelin-style halibut dish featuring butter-poached fish, champagne beurre blanc, and delicate spring vegetables with luxurious garnishes.",
+    "category": "Main",
+    "keywords": "halibut, fine dining, seafood, michelin, beurre blanc",
+    "winePairings": [
+      {
+        "name": "Champagne Brut",
+        "notes": "Bright acidity enhances the beurre blanc and balances the richness."
+      },
+      {
+        "name": "Chablis Grand Cru",
+        "notes": "Minerality and citrus notes complement the delicate halibut."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Halibut fillets (center-cut, skinless)",
+        "quantity": "2 (6 oz each)"
+      },
+      {
+        "item": "Unsalted butter",
+        "quantity": "350 g",
+        "note": "divided for poaching and sauce"
+      },
+      {
+        "item": "Garlic clove",
+        "quantity": "1",
+        "note": "crushed"
+      },
+      {
+        "item": "Thyme sprig",
+        "quantity": "1"
+      },
+      {
+        "item": "Shallot",
+        "quantity": "1",
+        "note": "finely minced"
+      },
+      {
+        "item": "Champagne",
+        "quantity": "150 ml"
+      },
+      {
+        "item": "White wine vinegar",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "English peas",
+        "quantity": "1/2 cup"
+      },
+      {
+        "item": "Baby leeks or scallions",
+        "quantity": "4-6"
+      },
+      {
+        "item": "Microgreens",
+        "quantity": "small handful"
+      },
+      {
+        "item": "Lemon zest",
+        "quantity": "to finish"
+      },
+      {
+        "item": "Salt and white pepper",
+        "quantity": "to taste"
+      },
+      {
+        "item": "Caviar (optional)",
+        "quantity": "small spoonful"
+      },
+      {
+        "item": "Edible flowers (optional)",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Gold leaf (optional)",
+        "quantity": "for garnish"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous Vide Circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Cast Iron Skillet",
+        "link": "https://amzn.to/3ObTjgD"
+      },
+     {
+        "item": "Whisk",
+        "link": "https://amzn.to/3OOE9Ov"
+      },
+{
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Fine Chinois",
+        "link": "https://amzn.to/3OPQuls"
+      },
+      {
+        "item": "Fish Spatula",
+        "link": "https://amzn.to/3OQLQ6N"
+      },
+      {
+        "item": "Squeeze Bottle",
+        "link": "https://amzn.to/3QkAbxs"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Season the halibut lightly with salt and white pepper and place into a vacuum bag with butter, garlic, and thyme."
+      },
+      {
+        "number": 2,
+        "instruction": "Seal and cook in a water bath at 122°F (50°C) for 25 minutes.",
+        "note": "ensures a delicate, silky texture"
+      },
+      {
+        "number": 3,
+        "instruction": "Prepare the Champagne Beurre Blanc",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 4,
+        "instruction": "Blanch peas in salted boiling water, then shock in ice water.",
+        "note": "keeps color vibrant"
+      },
+      {
+        "number": 5,
+        "instruction": "Lightly sauté baby leeks in butter until tender."
+      },
+      {
+        "number": 6,
+        "instruction": "Remove halibut from bag and gently pat dry."
+      },
+      {
+        "number": 7,
+        "instruction": "Sear halibut briefly in a hot pan with butter to create a light golden crust.",
+        "note": "do not overcook"
+      },
+      {
+        "number": 8,
+        "instruction": "Plating: Spoon beurre blanc onto the plate as a base."
+      },
+      {
+        "number": 9,
+        "instruction": "Place halibut slightly off-center on the sauce."
+      },
+      {
+        "number": 10,
+        "instruction": "Arrange peas and leeks with height and balance."
+      },
+      {
+        "number": 11,
+        "instruction": "Garnish with microgreens, lemon zest, and optional caviar or gold leaf."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Champagne Beurre Blanc",
+        "ingredients": [
+          {
+            "item": "Shallot",
+            "quantity": "1",
+            "note": "finely minced"
+          },
+          {
+            "item": "Champagne",
+            "quantity": "150 ml"
+          },
+          {
+            "item": "White wine vinegar",
+            "quantity": "1 tbsp"
+          },
+          {
+            "item": "Cold butter",
+            "quantity": "150 g",
+            "note": "cubed"
+          },
+          {
+            "item": "Salt",
+            "quantity": "to taste"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Combine shallots, champagne, and vinegar in a saucepan and reduce until nearly dry."
+          },
+          {
+            "number": 2,
+            "instruction": "Lower heat and whisk in cold butter gradually until emulsified."
+          },
+          {
+            "number": 3,
+            "instruction": "Strain through a fine chinois for a smooth finish."
+          },
+          {
+            "number": 4,
+            "instruction": "Keep warm but not hot to prevent splitting."
+          }
+        ]
+      }
+    ]
+  }
+}
   ]
 }

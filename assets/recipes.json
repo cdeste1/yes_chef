@@ -906,7 +906,7 @@
         "chef": " Massimo Bottura",
         "yield": "8 servings",
         "description": "Silky agnolotti served in a lemon cream sauce.  The Limoncello makes it a little sweet to balance the savory ricotta",
-        "category": "Starter, Main",
+        "category": "Starter",
         "keywords": "pasta, ravioli, lemon, dinner, italian",
         "winePairings": [
           {
@@ -4814,7 +4814,7 @@
         "chef": " René Redzepi",
         "yield": "Serves 4",
         "description": "A refined plant-based risotto featuring nutty quinoa cooked to creamy perfection, paired with roasted Jerusalem artichokes and umami-rich black garlic purée.",
-        "category": "Starter, Main",
+        "category": "Main",
         "keywords": "quinoa, risotto, jerusalem artichoke, black garlic, vegetarian, fine dining, plant-based",
         "ingredients": [
           {
@@ -10554,7 +10554,7 @@
         "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/truffled_sous_vide_eggs_benedict.png",
         "yield": "2 servings",
     "description": "An ultra-luxurious brunch dish featuring precision sous-vide eggs, a weightless truffle hollandaise espuma, elegant smoked salmon rosettes, and a crowning of Ossetra caviar. Contrasting temperatures and textures create a three-star experience at home.",
-    "category": "Starter, Main",
+    "category": "Starter",
     "keywords": "eggs benedict, sous vide, truffle, caviar, hollandaise espuma, smoked salmon, michelin",
     "winePairings": [
       {

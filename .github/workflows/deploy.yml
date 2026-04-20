@@ -1,35 +1,72 @@
-name: Deploy Flutter Web to GitHub Pages
+name: Build & Deploy YesChef Website
 
 on:
+  # Trigger manually from the GitHub Actions tab
+  workflow_dispatch:
+
+  # OR trigger automatically whenever recipes.json changes on main
   push:
-    branches: [ main ]
+    branches:
+      - main
+    paths:
+      - 'web/recipes.json'        # adjust this path to wherever recipes.json lives in your repo
+      - 'web/recipe-template.html'
+      - 'web/seo/**'
+      - '.github/workflows/deploy.yml'
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      # ── 1. Check out the repo ────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Install Flutter
-        uses: subosito/flutter-action@v2
+      # ── 2. Set up Python ─────────────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          flutter-version: "3.38.3"
+          python-version: '3.12'
 
-      - name: Enable web
-        run: flutter config --enable-web
+      # ── 3. Fetch latest recipes.json from Cloudflare R2 ─────────────────────
+      #    This replaces the manual copy-paste step entirely.
+      #    The JSON is fetched fresh every run so the site is always in sync.
+      - name: Fetch recipes.json from Cloudflare R2
+        run: |
+          curl -fsSL \
+            "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json" \
+            -o web/recipes.json
+          echo "✓ recipes.json fetched ($(wc -c < web/recipes.json) bytes)"
 
-      - name: Get dependencies
-        run: flutter pub get
+      # ── 4. Run generate.py → produces web/recipes/<slug>/index.html ──────────
+      - name: Generate recipe pages (main site)
+        working-directory: web
+        run: |
+          python3 generate.py
+          echo "✓ Recipe pages generated"
 
-      - name: Build web release
-        run: flutter build web --release --base-href "/yes_chef/"
+      # ── 5. Run SEO generation (second folder) ────────────────────────────────
+      #    Adjust the path and script name to match your actual SEO script.
+      #    If it's the same script with a different OUTPUT_DIR, we pass it as env.
+      - name: Generate SEO pages
+        working-directory: web
+        env:
+          OUTPUT_DIR_OVERRIDE: "seo/recipes"   # override inside generate.py if needed
+        run: |
+          python3 generate_seo.py              # ← rename to your actual SEO script name
+          echo "✓ SEO pages generated"
 
+      # ── 6. Deploy to gh-pages ────────────────────────────────────────────────
+      #    peaceiris/actions-gh-pages will:
+      #      • overwrite the gh-pages branch with the contents of web/
+      #      • ALWAYS write the CNAME file — domain never gets wiped again
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/web
+          publish_dir: ./web              # the folder that becomes the gh-pages root
           publish_branch: gh-pages
-          force_orphan: true
+          cname: tryyeschef.app           # ← writes CNAME automatically on every deploy
+          force_orphan: false             # keeps gh-pages history intact
+          commit_message: "chore: auto-deploy from main [${{ github.sha }}]"

@@ -906,7 +906,7 @@
         "chef": " Massimo Bottura",
         "yield": "8 servings",
         "description": "Silky agnolotti served in a lemon cream sauce.  The Limoncello makes it a little sweet to balance the savory ricotta",
-        "category": "Starter, Main",
+        "category": "Starter",
         "keywords": "pasta, ravioli, lemon, dinner, italian",
         "winePairings": [
           {
@@ -4814,7 +4814,7 @@
         "chef": " René Redzepi",
         "yield": "Serves 4",
         "description": "A refined plant-based risotto featuring nutty quinoa cooked to creamy perfection, paired with roasted Jerusalem artichokes and umami-rich black garlic purée.",
-        "category": "Starter, Main",
+        "category": "Main",
         "keywords": "quinoa, risotto, jerusalem artichoke, black garlic, vegetarian, fine dining, plant-based",
         "ingredients": [
           {
@@ -10552,9 +10552,9 @@
   "recipe": {
     "name": "Truffled Sous Vide Eggs Benedict with Smoked Salmon, Hollandaise Espuma & Ossetra Caviar",
         "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/truffled_sous_vide_eggs_benedict.png",
-        "yield": "2 servings",
+"yield": "2 servings",
     "description": "An ultra-luxurious brunch dish featuring precision sous-vide eggs, a weightless truffle hollandaise espuma, elegant smoked salmon rosettes, and a crowning of Ossetra caviar. Contrasting temperatures and textures create a three-star experience at home.",
-    "category": "Starter, Main",
+    "category": "Brunch",
     "keywords": "eggs benedict, sous vide, truffle, caviar, hollandaise espuma, smoked salmon, michelin",
     "winePairings": [
       {
@@ -10636,7 +10636,7 @@
         "link": "https://amzn.to/48bdTV7"
       },
       {
-        "item": "iSi Gourmet Whip siphon + 2 N?O chargers",
+        "item": "Gourmet Whip siphon + 2 N?O chargers",
         "link": "https://amzn.to/4tiCiAl"
       },
       {
@@ -10664,7 +10664,7 @@
       },
       {
         "number": 3,
-        "instruction": "Whip heavy cream to soft peaks. Gently fold in cooled hollandaise. Pour into iSi siphon, charge with two N?O cartridges, shake vigorously, and refrigerate upright for 30 minutes."
+        "instruction": "Whip heavy cream to soft peaks. Gently fold in cooled hollandaise. Pour into siphon, charge with two N?O cartridges, shake vigorously, and refrigerate upright for 30 minutes."
       },
       {
         "number": 4,
@@ -10694,9 +10694,9 @@
   "recipe": {
     "name": "Brioche French Toast, Vanilla Espuma and Berry Coulis",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/FrenchToast.png",
-    "yield": "4 servings",
+"yield": "4 servings",
     "description": "A luxurious Michelin-inspired brunch dish featuring thick slices of artisanal brioche soaked in a fragrant vanilla bean and orange zest crème anglaise, pan-fried in clarified butter, finished with a crackling caramelized crust, and crowned with an ethereal vanilla espuma. Accompanied by macerated seasonal berries, toasted hazelnuts, and a vibrant berry coulis for perfect texture and flavor contrast.",
-    "category": "Main",
+    "category": "Brunch",
     "keywords": "french toast, brioche, pain perdu, espuma, fine dining, brunch",
     "winePairings": [
       {
@@ -10794,7 +10794,7 @@
         "link": "https://amzn.to/48bdTV7"
       },
       {
-        "item": "iSi Gourmet Whip siphon (0.5 L) + 2 N?O chargers",
+        "item": "Gourmet Whip siphon (0.5 L) + 2 N?O chargers",
         "link": "https://amzn.to/4tiCiAl"
       },
       {
@@ -10833,7 +10833,7 @@
       },
       {
         "number": 3,
-        "instruction": "Prepare the vanilla espuma: Whisk 100 ml heavy cream with vanilla bean paste and 20 g sugar until dissolved. Charge an iSi siphon with two N?O cartridges, shake vigorously, and refrigerate for at least 10 minutes."
+        "instruction": "Prepare the vanilla espuma: Whisk 100 ml heavy cream with vanilla bean paste and 20 g sugar until dissolved. Charge a siphon with two N?O cartridges, shake vigorously, and refrigerate for at least 10 minutes."
       },
       {
         "number": 4,
@@ -10863,9 +10863,9 @@
   "recipe": {
     "name": "Avocado Royale",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/avocado_royale.png",
-    "yield": "2 plates",
+        "yield": "2 plates",
     "description": "An elegant avocado-centric brunch course featuring vacuum-compressed Hass avocado carpaccio, sweet Dungeness crab, a custardy 63°C sous-vide quail egg, and a light truffle-infused avocado espuma.",
-    "category": "Starter",
+    "category": "Brunch",
     "keywords": "avocado, crab, quail egg, brunch, fine dining",
     "winePairings": [
       {
@@ -10939,7 +10939,7 @@
     ],
     "specialtools": [
       {
-        "item": "Chamber vacuum sealer",
+        "item": "Vacuum sealer",
         "link": "https://amzn.to/4tlz9ji"
       },
       {
@@ -10947,7 +10947,7 @@
         "link": "https://amzn.to/48bdTV7"
       },
       {
-        "item": "iSi Gourmet Whip siphon",
+        "item": "Gourmet Whip siphon",
         "link": "https://amzn.to/4tiCiAl"
       },
       {
@@ -11198,7 +11198,7 @@
     ],
     "specialtools": [
       {
-        "item": "Polyscience Sous-Vide Immersion Circulator",
+        "item": "Sous-Vide Immersion Circulator",
         "link": "https://amzn.to/48bdTV7"
       },
       {
@@ -11206,7 +11206,7 @@
         "link": "https://amzn.to/42c7XaS"
       },
       {
-        "item": "iSi Gourmet Whip Siphon",
+        "item": "Gourmet Whip Siphon",
         "link": "https://amzn.to/4tiCiAl"
       },
       {
@@ -11219,7 +11219,7 @@
       },
 
       {
-        "item": "Chamber Vacuum Sealer",
+        "item": "Vacuum Sealer",
         "link": "https://amzn.to/4ufPoPh"
       }
     ],
@@ -11372,7 +11372,7 @@
           },
           {
             "number": 3,
-            "instruction": "Pour into iSi Gourmet Whip siphon, charge with two N?O cartridges, shaking vigorously. Refrigerate upright minimum 2 hours."
+            "instruction": "Pour into Gourmet Whip siphon, charge with two N?O cartridges, shaking vigorously. Refrigerate upright minimum 2 hours."
           }
         ]
       },
@@ -11500,7 +11500,7 @@
        "link": "https://amzn.to/48bdTV7"
      },
      {
-       "item": "iSi Gourmet Whip siphon (1L) + N?O chargers",
+       "item": "Gourmet Whip siphon (1L) + N?O chargers",
        "link": "https://amzn.to/4tiCiAl"
      },
      {
@@ -11570,7 +11570,7 @@
      },
      {
        "number": 6,
-       "instruction": "Spread smoked truffle aioli inside the warm smoked bun, nestle the hot sausage, and pipe a ribbon of foie-gras espuma from the iSi siphon."
+       "instruction": "Spread smoked truffle aioli inside the warm smoked bun, nestle the hot sausage, and pipe a ribbon of foie-gras espuma from the siphon."
      },
      {
        "number": 7,
@@ -11618,7 +11618,7 @@
          },
          {
            "number": 2,
-           "instruction": "Blend to silky smoothness in Vitamix, strain through chinois, season, and charge iSi siphon with two N?O cartridges. Refrigerate upright for at least 2 hours."
+           "instruction": "Blend to silky smoothness in Vitamix, strain through chinois, season, and charge siphon with two N?O cartridges. Refrigerate upright for at least 2 hours."
          }
        ]
      },

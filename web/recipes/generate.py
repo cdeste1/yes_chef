@@ -3,36 +3,32 @@
 YesChef Recipe Page Generator
 ===============================
 Reads recipes.json and recipe-template.html, then outputs one
-  recipes/web/recipes/<slug>/index.html
+  <OUTPUT_DIR>/<slug>/index.html
 per recipe.
- 
+
 Usage:
-  python3 generate_recipes.py
- 
-Expects these files in the same directory as the script:
-  recipes.json          — your R2 JSON (or a local copy)
-  recipe-template.html  — the HTML template with {{PLACEHOLDERS}}
- 
-Output goes to:
-  recipes/web/recipes/<slug>/index.html  (relative to where you run the script)
+  python3 generate.py                        # uses default OUTPUT_DIR in script
+  OUTPUT_DIR_OVERRIDE=seo/recipes python3 generate.py   # override for SEO folder
+
+In CI (GitHub Actions) the OUTPUT_DIR_OVERRIDE env var is set automatically.
 """
- 
+
 import json, os, re, html
- 
+
 # ── Config ────────────────────────────────────────────────────────────────────
 RECIPES_FILE   = "recipes.json"
 TEMPLATE_FILE  = "recipe-template.html"
-OUTPUT_DIR     = "recipes/web/recipes"          # adjust to match your project structure
- 
+
+# Allow CI to override the output directory via environment variable
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR_OVERRIDE", "recipes/web/recipes")
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def to_slug(name: str) -> str:
-    """Convert recipe name to URL slug."""
     return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
- 
+
 def h(text) -> str:
-    """HTML-escape a string."""
     return html.escape(str(text or ''))
- 
+
 def ing_line(ing: dict) -> str:
     qty  = ing.get('quantity', '').strip()
     item = h(ing.get('item', ''))
@@ -45,20 +41,20 @@ def ing_line(ing: dict) -> str:
     if note:
         parts.append(f"({note})")
     return ' '.join(parts)
- 
+
 # ── Load template ─────────────────────────────────────────────────────────────
 with open(TEMPLATE_FILE, encoding='utf-8') as f:
     TEMPLATE = f.read()
- 
+
 # ── Load recipes ──────────────────────────────────────────────────────────────
 with open(RECIPES_FILE, encoding='utf-8') as f:
     raw = json.load(f)
- 
+
 items = raw if isinstance(raw, list) else raw.get('recipes', [])
 recipes = [item.get('recipe', item) for item in items]
- 
-print(f"Loaded {len(recipes)} recipes.")
- 
+
+print(f"Loaded {len(recipes)} recipes → outputting to ./{OUTPUT_DIR}/")
+
 # ── Generate pages ────────────────────────────────────────────────────────────
 generated = 0
 for r in recipes:
@@ -71,30 +67,23 @@ for r in recipes:
     category = r.get('category', '')
     keywords = r.get('keywords', '')
     image    = r.get('imageUrl', '')
- 
-    # ── Hero image ────────────────────────────────────────────────────────────
+
     hero_html = (
         f'<img class="recipe-hero-img" src="{h(image)}" alt="{h(name)}" itemprop="image" loading="eager">'
         if image else ''
     )
- 
-    # ── Meta line (source / chef) ──────────────────────────────────────────────
+
     meta_parts = []
     if source: meta_parts.append(f"Source: {h(source)}")
     if chef:   meta_parts.append(f"Inspiring Chef: {h(chef)}")
     meta_html = '<br>'.join(meta_parts)
- 
-    # ── Description ───────────────────────────────────────────────────────────
-    desc_html = f'<p class="recipe-description" itemprop="description">{h(desc)}</p>' if desc else ''
- 
-    # ── Yield ─────────────────────────────────────────────────────────────────
+
+    desc_html  = f'<p class="recipe-description" itemprop="description">{h(desc)}</p>' if desc else ''
     yield_html = f'<p class="recipe-yield" itemprop="recipeYield">{h(yield_)}</p>' if yield_ else ''
- 
-    # ── Ingredients ───────────────────────────────────────────────────────────
+
     ingredients = r.get('ingredients', [])
     ing_html = '\n'.join(f'<li>{ing_line(i)}</li>' for i in ingredients)
- 
-    # ── Specialty tools ───────────────────────────────────────────────────────
+
     tools = r.get('specialtools', [])
     if tools:
         tool_items = []
@@ -114,8 +103,7 @@ for r in recipes:
         )
     else:
         tools_html = ''
- 
-    # ── Wine / Sommelier ──────────────────────────────────────────────────────
+
     wines = r.get('winePairings', [])
     if wines:
         wine_items = []
@@ -133,25 +121,23 @@ for r in recipes:
         )
     else:
         sommelier_html = ''
- 
-    # ── Steps ─────────────────────────────────────────────────────────────────
+
     steps = r.get('steps', [])
     steps_html = '\n'.join(
         f'<li><span class="step-num">{i+1}.</span><span>{h(s.get("instruction",""))}</span></li>'
         for i, s in enumerate(steps)
     )
- 
-    # ── Sub-recipes ───────────────────────────────────────────────────────────
+
     subs = r.get('sub_recipes', [])
     if subs:
         sub_blocks = []
         for sub in subs:
-            sub_name   = h(sub.get('name', ''))
-            sub_yield  = sub.get('yield', sub.get('yieldInfo', ''))
+            sub_name      = h(sub.get('name', ''))
+            sub_yield     = sub.get('yield', sub.get('yieldInfo', ''))
             sub_yield_html = f'<div class="sub-recipe-yield">Yield: {h(sub_yield)}</div>' if sub_yield else ''
-            sub_ings   = sub.get('ingredients', [])
-            sub_ing_html = '\n'.join(f'<li>{ing_line(i)}</li>' for i in sub_ings)
-            sub_steps  = sub.get('steps', [])
+            sub_ings      = sub.get('ingredients', [])
+            sub_ing_html  = '\n'.join(f'<li>{ing_line(i)}</li>' for i in sub_ings)
+            sub_steps     = sub.get('steps', [])
             sub_step_html = '\n'.join(
                 f'<li><span class="step-num">{i+1}.</span><span>{h(s.get("instruction",""))}</span></li>'
                 for i, s in enumerate(sub_steps)
@@ -173,8 +159,7 @@ for r in recipes:
         )
     else:
         sub_recipes_html = ''
- 
-    # ── Schema.org Recipe JSON-LD ─────────────────────────────────────────────
+
     schema = {
         "@context": "https://schema.org",
         "@type": "Recipe",
@@ -193,37 +178,35 @@ for r in recipes:
         ]
     }
     schema_json = json.dumps(schema, ensure_ascii=False, indent=2)
- 
-    # ── Fill template ─────────────────────────────────────────────────────────
+
     page = TEMPLATE
-    page = page.replace('{{NAME}}',            h(name))
-    page = page.replace('{{SLUG}}',            slug)
-    page = page.replace('{{DESCRIPTION}}',     h(desc))
-    page = page.replace('{{KEYWORDS}}',        h(keywords))
-    page = page.replace('{{IMAGE_URL}}',       h(image))
-    page = page.replace('{{SCHEMA_JSON}}',     schema_json)
-    page = page.replace('{{HERO_IMAGE_HTML}}', hero_html)
-    page = page.replace('{{META_HTML}}',       meta_html)
-    page = page.replace('{{DESCRIPTION_HTML}}',desc_html)
-    page = page.replace('{{YIELD_HTML}}',      yield_html)
-    page = page.replace('{{INGREDIENTS_HTML}}',ing_html)
-    page = page.replace('{{TOOLS_HTML}}',      tools_html)
-    page = page.replace('{{SOMMELIER_HTML}}',  sommelier_html)
-    page = page.replace('{{STEPS_HTML}}',      steps_html)
-    page = page.replace('{{SUB_RECIPES_HTML}}',sub_recipes_html)
- 
-    # ── Write file ────────────────────────────────────────────────────────────
+    page = page.replace('{{NAME}}',             h(name))
+    page = page.replace('{{SLUG}}',             slug)
+    page = page.replace('{{DESCRIPTION}}',      h(desc))
+    page = page.replace('{{KEYWORDS}}',         h(keywords))
+    page = page.replace('{{IMAGE_URL}}',        h(image))
+    page = page.replace('{{SCHEMA_JSON}}',      schema_json)
+    page = page.replace('{{HERO_IMAGE_HTML}}',  hero_html)
+    page = page.replace('{{META_HTML}}',        meta_html)
+    page = page.replace('{{DESCRIPTION_HTML}}', desc_html)
+    page = page.replace('{{YIELD_HTML}}',       yield_html)
+    page = page.replace('{{INGREDIENTS_HTML}}', ing_html)
+    page = page.replace('{{TOOLS_HTML}}',       tools_html)
+    page = page.replace('{{SOMMELIER_HTML}}',   sommelier_html)
+    page = page.replace('{{STEPS_HTML}}',       steps_html)
+    page = page.replace('{{SUB_RECIPES_HTML}}', sub_recipes_html)
+
     out_dir  = os.path.join(OUTPUT_DIR, slug)
     out_file = os.path.join(out_dir, 'index.html')
     os.makedirs(out_dir, exist_ok=True)
     with open(out_file, 'w', encoding='utf-8') as f:
         f.write(page)
- 
+
     print(f"  ✓  {out_file}")
     generated += 1
- 
+
 print(f"\nDone — {generated} recipe pages generated in ./{OUTPUT_DIR}/")
 print("\nExample URLs:")
 for r in recipes[:3]:
-    slug = to_slug(r.get('name',''))
+    slug = to_slug(r.get('name', ''))
     print(f"  https://tryyeschef.app/recipes/{slug}/")

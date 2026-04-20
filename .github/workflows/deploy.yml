@@ -1,17 +1,16 @@
 name: Build & Deploy YesChef Website
 
 on:
-  # Trigger manually from the GitHub Actions tab
+  # Run manually from the Actions tab anytime
   workflow_dispatch:
 
-  # OR trigger automatically whenever recipes.json changes on main
+  # Run automatically when you push changes to main
   push:
     branches:
       - main
     paths:
-      - 'web/recipes.json'        # adjust this path to wherever recipes.json lives in your repo
-      - 'web/recipe-template.html'
-      - 'web/seo/**'
+      - 'web/**'
+      - 'yeschef-seo/**'
       - '.github/workflows/deploy.yml'
 
 jobs:
@@ -19,54 +18,47 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ── 1. Check out the repo ────────────────────────────────────────────────
+      # 1. Check out the full repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ── 2. Set up Python ─────────────────────────────────────────────────────
+      # 2. Python setup
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      # ── 3. Fetch latest recipes.json from Cloudflare R2 ─────────────────────
-      #    This replaces the manual copy-paste step entirely.
-      #    The JSON is fetched fresh every run so the site is always in sync.
+      # 3. Fetch latest recipes.json fresh from Cloudflare R2
+      #    No more manual copy-paste — always in sync with your app
       - name: Fetch recipes.json from Cloudflare R2
         run: |
           curl -fsSL \
             "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json" \
-            -o web/recipes.json
-          echo "✓ recipes.json fetched ($(wc -c < web/recipes.json) bytes)"
+            -o web/recipes/recipes.json
+          echo "✓ Fetched $(wc -c < web/recipes/recipes.json) bytes"
 
-      # ── 4. Run generate.py → produces web/recipes/<slug>/index.html ──────────
-      - name: Generate recipe pages (main site)
-        working-directory: web
+      # 4. Generate main site recipe pages → web/recipes/<slug>/index.html
+      - name: Generate main site recipe pages
+        working-directory: web/recipes
         run: |
           python3 generate.py
-          echo "✓ Recipe pages generated"
+          echo "✓ Main site pages generated"
 
-      # ── 5. Run SEO generation (second folder) ────────────────────────────────
-      #    Adjust the path and script name to match your actual SEO script.
-      #    If it's the same script with a different OUTPUT_DIR, we pass it as env.
-      - name: Generate SEO pages
-        working-directory: web
-        env:
-          OUTPUT_DIR_OVERRIDE: "seo/recipes"   # override inside generate.py if needed
+      # 5. Copy fresh recipes.json to SEO folder and generate SEO pages
+      - name: Generate SEO recipe pages
         run: |
-          python3 generate_seo.py              # ← rename to your actual SEO script name
+          cp web/recipes/recipes.json yeschef-seo/recipes.json
+          cd yeschef-seo
+          OUTPUT_DIR_OVERRIDE=output python3 generate.py
           echo "✓ SEO pages generated"
 
-      # ── 6. Deploy to gh-pages ────────────────────────────────────────────────
-      #    peaceiris/actions-gh-pages will:
-      #      • overwrite the gh-pages branch with the contents of web/
-      #      • ALWAYS write the CNAME file — domain never gets wiped again
+      # 6. Deploy web/ to gh-pages — CNAME is written every time so domain never wipes
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./web              # the folder that becomes the gh-pages root
+          publish_dir: ./web
           publish_branch: gh-pages
-          cname: tryyeschef.app           # ← writes CNAME automatically on every deploy
-          force_orphan: false             # keeps gh-pages history intact
-          commit_message: "chore: auto-deploy from main [${{ github.sha }}]"
+          cname: tryyeschef.app
+          force_orphan: false
+          commit_message: "deploy: auto-build from ${{ github.sha }}"

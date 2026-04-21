@@ -1,35 +1,64 @@
-name: Deploy Flutter Web to GitHub Pages
+name: Build & Deploy YesChef Website
 
 on:
+  # Run manually from the Actions tab anytime
+  workflow_dispatch:
+
+  # Run automatically when you push changes to main
   push:
-    branches: [ main ]
+    branches:
+      - main
+    paths:
+      - 'web/**'
+      - 'yeschef-seo/**'
+      - '.github/workflows/deploy.yml'
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      # 1. Check out the full repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Install Flutter
-        uses: subosito/flutter-action@v2
+      # 2. Python setup
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          flutter-version: "3.38.3"
+          python-version: '3.12'
 
-      - name: Enable web
-        run: flutter config --enable-web
+      # 3. Fetch latest recipes.json fresh from Cloudflare R2
+      #    No more manual copy-paste — always in sync with your app
+      - name: Fetch recipes.json from Cloudflare R2
+        run: |
+          curl -fsSL \
+            "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json" \
+            -o web/recipes/recipes.json
+          echo "✓ Fetched $(wc -c < web/recipes/recipes.json) bytes"
 
-      - name: Get dependencies
-        run: flutter pub get
+      # 4. Generate main site recipe pages → web/recipes/<slug>/index.html
+      - name: Generate main site recipe pages
+        working-directory: web/recipes
+        run: |
+          python3 generate.py
+          echo "✓ Main site pages generated"
 
-      - name: Build web release
-        run: flutter build web --release --base-href "/yes_chef/"
+      # 5. Copy fresh recipes.json to SEO folder and generate SEO pages
+      - name: Generate SEO recipe pages
+        run: |
+          cp web/recipes/recipes.json yeschef-seo/recipes.json
+          cd yeschef-seo
+          OUTPUT_DIR_OVERRIDE=output python3 generate.py
+          echo "✓ SEO pages generated"
 
+      # 6. Deploy web/ to gh-pages — CNAME is written every time so domain never wipes
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/web
+          publish_dir: ./web
           publish_branch: gh-pages
-          force_orphan: true
+          cname: tryyeschef.app
+          force_orphan: false
+          commit_message: "deploy: auto-build from ${{ github.sha }}"

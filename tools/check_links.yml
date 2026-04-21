@@ -1,0 +1,72 @@
+name: Daily Amazon Link Check
+
+on:
+  schedule:
+    - cron: '0 9 * * *'    # runs every day at 9:00 AM UTC (5 AM Eastern)
+  workflow_dispatch:        # also runnable manually from the Actions tab
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Run the checker — exits 0 (all ok) or 1 (broken/errors found)
+      - name: Run link checker
+        id: link_check
+        run: |
+          python3 tools/check_links.py
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true   # don't fail the job here; we handle it below
+
+      # Read the markdown report into a variable for the email body
+      - name: Read report
+        id: read_report
+        if: always()
+        run: |
+          # GitHub Actions has a limit on multiline env vars; use a file ref
+          echo "report_file=link_report.md" >> $GITHUB_OUTPUT
+
+      # Send email ONLY when broken/error links are found (exit code 1)
+      - name: Send alert email
+        if: steps.link_check.outcome == 'failure'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          secure: false
+          username: ${{ secrets.ALERT_EMAIL_USER }}
+          password: ${{ secrets.ALERT_EMAIL_PASS }}
+          subject: "⚠️ YesChef: Broken Amazon links detected"
+          to: ${{ secrets.ALERT_EMAIL_TO }}
+          from: "YesChef Link Checker <${{ secrets.ALERT_EMAIL_USER }}>"
+          body: |
+            One or more Amazon affiliate links in YesChef are broken or returning errors.
+
+            View the full report in the Actions run:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            The link_report.md artifact is attached to that run with full details
+            including which recipes are affected.
+
+            — YesChef Automation
+          # Attach the markdown report directly to the email
+          attachments: link_report.md
+
+      # Always upload the report as an artifact (visible in Actions tab)
+      - name: Upload link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report-${{ github.run_id }}
+          path: |
+            link_report.md
+            link_report.json
+          retention-days: 30    # keeps the last 30 days of reports

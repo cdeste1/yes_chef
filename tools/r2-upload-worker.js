@@ -1,30 +1,21 @@
 /**
- * YesChef R2 Upload Worker
- * ==========================
- * Accepts image file uploads from the contributor portal and saves
- * them to your Cloudflare R2 bucket. Your R2 credentials never leave
- * Cloudflare — the portal never touches them directly.
+ * YesChef R2 Upload + GitHub Proxy Worker
+ * ==========================================
+ * Handles two jobs so no secrets ever touch the browser:
+ *   POST /upload   — uploads an image to R2
+ *   POST /github   — proxies GitHub API calls (create branch, file, PR)
  *
- * Deploy steps:
- *   1. Install Wrangler:  npm install -g wrangler
- *   2. Login:             wrangler login
- *   3. Create R2 binding in wrangler.toml (see below)
- *   4. Deploy:            wrangler deploy
- *   5. Copy the worker URL into portal/index.html CONFIG.r2WorkerUrl
+ * Secrets (set via `wrangler secret put`):
+ *   GITHUB_TOKEN   — your ghp_xxx token
+ *   PORTAL_SECRET  — shared password (must match portal CONFIG.password)
  *
- * wrangler.toml should contain:
- * ─────────────────────────────
- *   name = "yeschef-upload"
- *   main = "r2-upload-worker.js"
- *   compatibility_date = "2024-01-01"
- *
+ * wrangler.toml bindings needed:
  *   [[r2_buckets]]
  *   binding = "BUCKET"
- *   bucket_name = "your-actual-bucket-name"
+ *   bucket_name = "your-bucket-name"
  *
  *   [vars]
- *   PORTAL_SECRET = "yeschef2024"   # must match portal password
- * ─────────────────────────────
+ *   PORTAL_SECRET = "yeschef2024"
  */
 
 export default {
@@ -32,79 +23,136 @@ export default {
 
     // ── CORS preflight ─────────────────────────────────────────────
     if (request.method === 'OPTIONS') {
-      return new Response(null, {
-        headers: {
-          'Access-Control-Allow-Origin':  '*',
-          'Access-Control-Allow-Methods': 'POST, OPTIONS',
-          'Access-Control-Allow-Headers': 'Content-Type, X-Portal-Secret',
-        },
-      });
+      return cors(new Response(null));
     }
 
     if (request.method !== 'POST') {
-      return json({ error: 'Method not allowed' }, 405);
+      return cors(json({ error: 'Method not allowed' }, 405));
     }
 
-    // ── Auth — simple shared secret ────────────────────────────────
+    // ── Auth ───────────────────────────────────────────────────────
     const secret = request.headers.get('X-Portal-Secret') || '';
     if (secret !== env.PORTAL_SECRET) {
-      return json({ error: 'Unauthorized' }, 401);
+      return cors(json({ error: 'Unauthorized' }, 401));
     }
 
-    // ── Parse multipart form ───────────────────────────────────────
-    let formData;
-    try {
-      formData = await request.formData();
-    } catch (e) {
-      return json({ error: 'Invalid form data' }, 400);
+    const url  = new URL(request.url);
+    const path = url.pathname;
+
+    // ── Route: /upload ─────────────────────────────────────────────
+    if (path === '/upload') {
+      return cors(await handleUpload(request, env));
     }
 
-    const file = formData.get('file');
-    const slug = (formData.get('slug') || 'recipe').replace(/[^a-z0-9-]/g, '');
-
-    if (!file || !(file instanceof File)) {
-      return json({ error: 'No file provided' }, 400);
+    // ── Route: /github ─────────────────────────────────────────────
+    if (path === '/github') {
+      return cors(await handleGitHub(request, env));
     }
 
-    // ── Validate ───────────────────────────────────────────────────
-    const allowed = ['image/jpeg', 'image/png', 'image/webp'];
-    if (!allowed.includes(file.type)) {
-      return json({ error: 'Only JPG, PNG, WebP allowed' }, 400);
-    }
-
-    const MAX_SIZE = 5 * 1024 * 1024; // 5MB
-    if (file.size > MAX_SIZE) {
-      return json({ error: 'File exceeds 5MB limit' }, 400);
-    }
-
-    // ── Build filename ─────────────────────────────────────────────
-    const ext      = file.type === 'image/webp' ? 'webp' : file.type === 'image/png' ? 'png' : 'jpg';
-    const key      = `assets/${slug}.${ext}`;
-    const buffer   = await file.arrayBuffer();
-
-    // ── Upload to R2 ───────────────────────────────────────────────
-    try {
-      await env.BUCKET.put(key, buffer, {
-        httpMetadata: { contentType: file.type },
-      });
-    } catch (e) {
-      return json({ error: `Upload failed: ${e.message}` }, 500);
-    }
-
-    // ── Return public URL ──────────────────────────────────────────
-    // Adjust this base URL to match your R2 public bucket URL
-    const publicUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/${key}`;
-
-    return json({ url: publicUrl, key }, 200);
+    return cors(json({ error: 'Not found' }, 404));
   }
 };
 
+// ══════════════════════════════════════════════════════════
+// IMAGE UPLOAD → R2
+// ══════════════════════════════════════════════════════════
+async function handleUpload(request, env) {
+  let formData;
+  try {
+    formData = await request.formData();
+  } catch (e) {
+    return json({ error: 'Invalid form data' }, 400);
+  }
+
+  const file = formData.get('file');
+  const slug = (formData.get('slug') || 'recipe').replace(/[^a-z0-9-]/g, '');
+
+  if (!file || !(file instanceof File)) {
+    return json({ error: 'No file provided' }, 400);
+  }
+
+  const allowed = ['image/jpeg', 'image/png', 'image/webp'];
+  if (!allowed.includes(file.type)) {
+    return json({ error: 'Only JPG, PNG, WebP allowed' }, 400);
+  }
+
+  if (file.size > 5 * 1024 * 1024) {
+    return json({ error: 'File exceeds 5MB limit' }, 400);
+  }
+
+  const ext    = file.type === 'image/webp' ? 'webp' : file.type === 'image/png' ? 'png' : 'jpg';
+  const key    = `assets/${slug}.${ext}`;
+  const buffer = await file.arrayBuffer();
+
+  try {
+    await env.BUCKET.put(key, buffer, {
+      httpMetadata: { contentType: file.type },
+    });
+  } catch (e) {
+    return json({ error: `Upload failed: ${e.message}` }, 500);
+  }
+
+  const publicUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/${key}`;
+  return json({ url: publicUrl, key });
+}
+
+// ══════════════════════════════════════════════════════════
+// GITHUB API PROXY
+// ══════════════════════════════════════════════════════════
+async function handleGitHub(request, env) {
+  let body;
+  try {
+    body = await request.json();
+  } catch (e) {
+    return json({ error: 'Invalid JSON body' }, 400);
+  }
+
+  const { endpoint, method = 'GET', payload } = body;
+
+  if (!endpoint || !endpoint.startsWith('/')) {
+    return json({ error: 'Invalid endpoint' }, 400);
+  }
+
+  // Whitelist — only allow the specific GitHub API calls the portal needs
+  const allowed = [
+    /^\/repos\/[^/]+\/[^/]+\/git\/ref\/heads\//,
+    /^\/repos\/[^/]+\/[^/]+\/git\/refs$/,
+    /^\/repos\/[^/]+\/[^/]+\/contents\//,
+    /^\/repos\/[^/]+\/[^/]+\/pulls$/,
+  ];
+
+  const permitted = allowed.some(re => re.test(endpoint));
+  if (!permitted) {
+    return json({ error: 'Endpoint not permitted' }, 403);
+  }
+
+  const ghResponse = await fetch(`https://api.github.com${endpoint}`, {
+    method,
+    headers: {
+      'Authorization': `token ${env.GITHUB_TOKEN}`,
+      'Accept':        'application/vnd.github+json',
+      'Content-Type':  'application/json',
+      'User-Agent':    'YesChef-Portal',
+    },
+    body: payload ? JSON.stringify(payload) : undefined,
+  });
+
+  const data = await ghResponse.json();
+  return json(data, ghResponse.status);
+}
+
+// ── Helpers ───────────────────────────────────────────────
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: {
-      'Content-Type':                 'application/json',
-      'Access-Control-Allow-Origin':  '*',
-    },
+    headers: { 'Content-Type': 'application/json' },
   });
+}
+
+function cors(response) {
+  const r = new Response(response.body, response);
+  r.headers.set('Access-Control-Allow-Origin',  '*');
+  r.headers.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  r.headers.set('Access-Control-Allow-Headers', 'Content-Type, X-Portal-Secret');
+  return r;
 }

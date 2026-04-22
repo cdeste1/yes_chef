@@ -1,0 +1,10 @@
+name = "yeschef-upload"
+main = "tools/r2-upload-worker.js"
+compatibility_date = "2024-01-01"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "yeschef-recipes"
+
+[vars]
+PORTAL_SECRET = "yeschef2024"

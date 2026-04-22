@@ -7,551 +7,352 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --ink:       #1a1410;
-    --cream:     #f7f3ee;
-    --gold:      #c9a84c;
-    --gold-dim:  #8a6e2f;
-    --rust:      #8b3a2a;
-    --surface:   #ffffff;
-    --border:    #e0d8ce;
-    --muted:     #7a6f65;
-    --success:   #2d6a4f;
-    --error:     #8b3a2a;
-    --radius:    4px;
+    --ink:      #1a1410;
+    --cream:    #f7f3ee;
+    --gold:     #c9a84c;
+    --gold-dim: #8a6e2f;
+    --surface:  #ffffff;
+    --border:   #e0d8ce;
+    --muted:    #7a6f65;
+    --success:  #2d6a4f;
+    --error:    #8b3a2a;
+    --radius:   4px;
   }
- 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
- 
-  body {
-    background: var(--cream);
-    color: var(--ink);
-    font-family: 'DM Mono', monospace;
-    font-size: 13px;
-    min-height: 100vh;
-  }
- 
-  /* ── Login Screen ── */
+  body { background: var(--cream); color: var(--ink); font-family: 'DM Mono', monospace; font-size: 13px; min-height: 100vh; }
+
+  /* ── Login ── */
   #login-screen {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:
-      radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.08) 0%, transparent 60%),
-      radial-gradient(ellipse at 80% 20%, rgba(139,58,42,0.06) 0%, transparent 50%),
-      var(--cream);
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 20%, rgba(139,58,42,0.06) 0%, transparent 50%), var(--cream);
   }
- 
-  .login-box {
-    width: 360px;
-    text-align: center;
-  }
- 
-  .login-logo {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 42px;
-    font-weight: 600;
-    letter-spacing: -0.5px;
-    color: var(--ink);
-    margin-bottom: 4px;
-  }
- 
-  .login-sub {
-    font-size: 11px;
-    color: var(--muted);
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-bottom: 48px;
-  }
- 
+  .login-box { width: 360px; text-align: center; }
+  .login-logo { font-family: 'Cormorant Garamond', serif; font-size: 42px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+  .login-sub { font-size: 11px; color: var(--muted); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 48px; }
   .login-box input[type="password"] {
-    width: 100%;
-    padding: 14px 16px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    font-family: 'DM Mono', monospace;
-    font-size: 14px;
-    color: var(--ink);
-    border-radius: var(--radius);
-    text-align: center;
-    letter-spacing: 0.3em;
-    outline: none;
-    transition: border-color 0.2s;
-    margin-bottom: 12px;
+    width: 100%; padding: 14px 16px; border: 1px solid var(--border); background: var(--surface);
+    font-family: 'DM Mono', monospace; font-size: 14px; color: var(--ink); border-radius: var(--radius);
+    text-align: center; letter-spacing: 0.3em; outline: none; transition: border-color 0.2s; margin-bottom: 12px;
   }
- 
   .login-box input[type="password"]:focus { border-color: var(--gold); }
- 
+  .login-error { margin-top: 12px; font-size: 12px; color: var(--error); min-height: 18px; }
+
+  /* ── Buttons ── */
   .btn-primary {
-    width: 100%;
-    padding: 14px;
-    background: var(--ink);
-    color: var(--cream);
-    border: none;
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: var(--radius);
-    transition: background 0.2s, transform 0.1s;
+    width: 100%; padding: 14px; background: var(--ink); color: var(--cream); border: none;
+    font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    cursor: pointer; border-radius: var(--radius); transition: background 0.2s, transform 0.1s;
   }
- 
-  .btn-primary:hover  { background: #2e2620; }
+  .btn-primary:hover { background: #2e2620; }
   .btn-primary:active { transform: translateY(1px); }
   .btn-primary:disabled { background: var(--muted); cursor: not-allowed; }
- 
-  .login-error {
-    margin-top: 12px;
-    font-size: 12px;
-    color: var(--error);
-    min-height: 18px;
-  }
- 
+
   /* ── Portal ── */
   #portal-screen { display: none; }
- 
   header {
-    background: var(--ink);
-    color: var(--cream);
-    padding: 20px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background: var(--ink); color: var(--cream); padding: 20px 40px;
+    display: flex; align-items: center; justify-content: space-between;
   }
- 
-  .header-logo {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 24px;
-    font-weight: 600;
-  }
- 
-  .header-sub {
-    font-size: 11px;
-    color: var(--gold);
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
- 
+  .header-logo { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 600; }
+  .header-sub { font-size: 11px; color: var(--gold); letter-spacing: 0.12em; text-transform: uppercase; }
   .btn-logout {
-    background: none;
-    border: 1px solid rgba(255,255,255,0.2);
-    color: rgba(255,255,255,0.6);
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.1em;
-    padding: 8px 14px;
-    cursor: pointer;
-    border-radius: var(--radius);
-    transition: all 0.2s;
+    background: none; border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.6);
+    font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.1em;
+    padding: 8px 14px; cursor: pointer; border-radius: var(--radius); transition: all 0.2s;
   }
   .btn-logout:hover { border-color: rgba(255,255,255,0.5); color: white; }
- 
-  main {
-    max-width: 860px;
-    margin: 48px auto;
-    padding: 0 24px 80px;
+  main { max-width: 860px; margin: 48px auto; padding: 0 24px 80px; }
+  .page-title { font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 400; font-style: italic; margin-bottom: 6px; }
+  .page-hint { color: var(--muted); font-size: 12px; margin-bottom: 32px; }
+
+  /* ── Mode Switcher ── */
+  .mode-switcher {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 32px;
   }
- 
-  .page-title {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 32px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 6px;
+  .mode-card {
+    border: 2px solid var(--border); border-radius: 6px; padding: 20px 24px;
+    cursor: pointer; transition: all 0.2s; background: var(--surface);
   }
- 
-  .page-hint {
-    color: var(--muted);
-    font-size: 12px;
-    margin-bottom: 40px;
-  }
- 
-  /* ── Form sections ── */
-  .section {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    margin-bottom: 20px;
-    overflow: hidden;
-  }
- 
+  .mode-card:hover { border-color: var(--gold); }
+  .mode-card.active { border-color: var(--ink); background: var(--ink); color: var(--cream); }
+  .mode-card.active .mode-sub { color: rgba(255,255,255,0.5); }
+  .mode-icon { font-size: 24px; margin-bottom: 10px; }
+  .mode-title { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+  .mode-sub { font-size: 11px; color: var(--muted); line-height: 1.5; }
+
+  /* ── Sections ── */
+  .section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 20px; overflow: hidden; }
   .section-header {
-    padding: 14px 20px;
-    background: var(--ink);
-    color: var(--cream);
-    font-size: 11px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    padding: 14px 20px; background: var(--ink); color: var(--cream);
+    font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; display: flex; align-items: center; gap: 10px;
   }
- 
-  .section-header .dot {
-    width: 6px; height: 6px;
-    border-radius: 50%;
-    background: var(--gold);
-    flex-shrink: 0;
-  }
- 
+  .section-header .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
   .section-body { padding: 24px 20px; }
- 
-  .field-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin-bottom: 16px;
-  }
+
+  /* ── Fields ── */
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
   .field-row.single { grid-template-columns: 1fr; }
   .field-row.triple { grid-template-columns: 1fr 1fr 1fr; }
- 
   .field { display: flex; flex-direction: column; gap: 6px; }
- 
-  label {
-    font-size: 11px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
- 
+  label { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
   label .req { color: var(--gold); margin-left: 2px; }
- 
-  input[type="text"],
-  input[type="url"],
-  textarea,
-  select {
-    padding: 10px 12px;
-    border: 1px solid var(--border);
-    background: #faf8f5;
-    font-family: 'DM Mono', monospace;
-    font-size: 13px;
-    color: var(--ink);
-    border-radius: var(--radius);
-    outline: none;
-    transition: border-color 0.2s, background 0.2s;
-    width: 100%;
+  input[type="text"], input[type="url"], textarea, select {
+    padding: 10px 12px; border: 1px solid var(--border); background: #faf8f5;
+    font-family: 'DM Mono', monospace; font-size: 13px; color: var(--ink);
+    border-radius: var(--radius); outline: none; transition: border-color 0.2s, background 0.2s; width: 100%;
   }
- 
-  input:focus, textarea:focus, select:focus {
-    border-color: var(--gold);
-    background: var(--surface);
-  }
- 
+  input:focus, textarea:focus, select:focus { border-color: var(--gold); background: var(--surface); }
   textarea { resize: vertical; min-height: 80px; line-height: 1.5; }
- 
-  /* ── Dynamic list items (ingredients, steps, etc.) ── */
-  .dynamic-list { display: flex; flex-direction: column; gap: 10px; }
- 
-  .list-item {
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
-    padding: 12px;
-    background: #faf8f5;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    position: relative;
-  }
- 
-  .item-num {
-    font-size: 11px;
-    color: var(--gold);
-    font-weight: 500;
-    min-width: 20px;
-    padding-top: 11px;
-    text-align: right;
-    flex-shrink: 0;
-  }
- 
-  .item-fields { flex: 1; display: flex; flex-direction: column; gap: 8px; }
-  .item-fields .field-row { margin-bottom: 0; }
- 
-  .btn-remove {
-    background: none;
-    border: none;
-    color: var(--muted);
-    cursor: pointer;
-    font-size: 16px;
-    padding: 8px 4px;
-    line-height: 1;
-    transition: color 0.2s;
-    flex-shrink: 0;
-  }
-  .btn-remove:hover { color: var(--error); }
- 
-  .btn-add {
-    margin-top: 12px;
-    padding: 10px 16px;
-    background: none;
-    border: 1px dashed var(--border);
-    color: var(--muted);
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    cursor: pointer;
-    border-radius: var(--radius);
-    width: 100%;
-    transition: all 0.2s;
-  }
-  .btn-add:hover { border-color: var(--gold); color: var(--gold-dim); }
- 
-  /* ── Image upload ── */
+
+  /* ── Upload zones ── */
   .upload-zone {
-    border: 2px dashed var(--border);
-    border-radius: var(--radius);
-    padding: 32px;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.2s;
-    position: relative;
+    border: 2px dashed var(--border); border-radius: var(--radius); padding: 32px;
+    text-align: center; cursor: pointer; transition: all 0.2s; position: relative;
   }
-  .upload-zone:hover, .upload-zone.dragover {
-    border-color: var(--gold);
-    background: rgba(201,168,76,0.04);
-  }
-  .upload-zone input[type="file"] {
-    position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
-  }
+  .upload-zone:hover, .upload-zone.dragover { border-color: var(--gold); background: rgba(201,168,76,0.04); }
+  .upload-zone input[type="file"] { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
   .upload-icon { font-size: 32px; margin-bottom: 10px; }
   .upload-text { font-size: 12px; color: var(--muted); }
   .upload-text strong { color: var(--ink); }
-  .upload-preview {
-    margin-top: 16px;
-    display: none;
+  .upload-preview { margin-top: 16px; display: none; }
+  .upload-preview img { max-height: 160px; border-radius: var(--radius); border: 1px solid var(--border); }
+  .upload-filename { margin-top: 8px; font-size: 11px; color: var(--gold-dim); }
+
+  /* ── JSON Upload Mode ── */
+  .json-drop-area {
+    border: 2px dashed var(--border); border-radius: var(--radius); padding: 40px;
+    text-align: center; cursor: pointer; transition: all 0.2s; position: relative; margin-bottom: 20px;
   }
-  .upload-preview img {
-    max-height: 180px;
-    border-radius: var(--radius);
-    border: 1px solid var(--border);
+  .json-drop-area:hover, .json-drop-area.dragover { border-color: var(--gold); background: rgba(201,168,76,0.04); }
+  .json-drop-area input[type="file"] { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
+  .json-loaded { margin-top: 16px; display: none; }
+  .json-loaded-name { font-size: 12px; color: var(--success); margin-bottom: 8px; }
+  .json-preview-box {
+    background: #1a1410; color: var(--gold); padding: 16px; border-radius: var(--radius);
+    font-size: 11px; line-height: 1.6; overflow-x: auto; white-space: pre; max-height: 240px; overflow-y: auto;
+    text-align: left;
   }
-  .upload-filename {
-    margin-top: 8px;
-    font-size: 11px;
-    color: var(--gold-dim);
+
+  /* ── Dynamic lists ── */
+  .dynamic-list { display: flex; flex-direction: column; gap: 10px; }
+  .list-item {
+    display: flex; gap: 10px; align-items: flex-start; padding: 12px;
+    background: #faf8f5; border: 1px solid var(--border); border-radius: var(--radius);
   }
- 
-  /* ── Submit area ── */
-  .submit-area {
-    margin-top: 32px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  .item-num { font-size: 11px; color: var(--gold); font-weight: 500; min-width: 20px; padding-top: 11px; text-align: right; flex-shrink: 0; }
+  .item-fields { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+  .item-fields .field-row { margin-bottom: 0; }
+  .btn-remove { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 16px; padding: 8px 4px; line-height: 1; transition: color 0.2s; flex-shrink: 0; }
+  .btn-remove:hover { color: var(--error); }
+  .btn-add {
+    margin-top: 12px; padding: 10px 16px; background: none; border: 1px dashed var(--border);
+    color: var(--muted); font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: 0.08em;
+    cursor: pointer; border-radius: var(--radius); width: 100%; transition: all 0.2s;
   }
- 
+  .btn-add:hover { border-color: var(--gold); color: var(--gold-dim); }
+
+  /* ── Submit ── */
+  .submit-area { margin-top: 32px; display: flex; align-items: center; gap: 16px; }
   .btn-submit {
-    padding: 16px 40px;
-    background: var(--ink);
-    color: var(--cream);
-    border: none;
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: var(--radius);
-    transition: background 0.2s, transform 0.1s;
+    padding: 16px 40px; background: var(--ink); color: var(--cream); border: none;
+    font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase;
+    cursor: pointer; border-radius: var(--radius); transition: background 0.2s, transform 0.1s;
   }
-  .btn-submit:hover  { background: #2e2620; }
+  .btn-submit:hover { background: #2e2620; }
   .btn-submit:active { transform: translateY(1px); }
   .btn-submit:disabled { background: var(--muted); cursor: not-allowed; }
- 
-  #status-msg {
-    font-size: 12px;
-    min-height: 18px;
-    flex: 1;
-  }
+  #status-msg { font-size: 12px; min-height: 18px; flex: 1; }
   #status-msg.success { color: var(--success); }
   #status-msg.error   { color: var(--error); }
   #status-msg.loading { color: var(--muted); }
- 
-  /* ── PR success card ── */
+
+  /* ── PR success ── */
   #pr-success {
-    display: none;
-    background: var(--surface);
-    border: 1px solid #a8d5b8;
-    border-left: 4px solid var(--success);
-    border-radius: var(--radius);
-    padding: 20px 24px;
-    margin-top: 24px;
+    display: none; background: var(--surface); border: 1px solid #a8d5b8;
+    border-left: 4px solid var(--success); border-radius: var(--radius); padding: 20px 24px; margin-top: 24px;
   }
-  #pr-success h3 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    color: var(--success);
-    margin-bottom: 6px;
-  }
+  #pr-success h3 { font-family: 'Cormorant Garamond', serif; font-size: 20px; color: var(--success); margin-bottom: 6px; }
   #pr-success p { color: var(--muted); font-size: 12px; line-height: 1.6; }
   #pr-success a { color: var(--gold-dim); }
- 
-  /* ── JSON preview ── */
-  #json-preview-section { display: none; }
-  #json-output {
-    background: #1a1410;
-    color: #c9a84c;
-    padding: 20px;
-    border-radius: var(--radius);
-    font-size: 12px;
-    line-height: 1.6;
-    overflow-x: auto;
-    white-space: pre;
-    max-height: 400px;
-    overflow-y: auto;
-  }
- 
-  .tabs {
-    display: flex;
-    gap: 2px;
-    margin-bottom: -1px;
-  }
-  .tab {
-    padding: 10px 20px;
-    font-size: 11px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: 1px solid var(--border);
-    border-bottom: none;
-    background: #f0ebe4;
-    color: var(--muted);
-    border-radius: 3px 3px 0 0;
-    transition: all 0.15s;
-  }
-  .tab.active { background: var(--surface); color: var(--ink); }
- 
+
   .spinner {
-    display: inline-block;
-    width: 14px; height: 14px;
-    border: 2px solid rgba(255,255,255,0.3);
-    border-top-color: white;
-    border-radius: 50%;
-    animation: spin 0.7s linear infinite;
-    vertical-align: middle;
-    margin-right: 6px;
+    display: inline-block; width: 14px; height: 14px;
+    border: 2px solid rgba(255,255,255,0.3); border-top-color: white;
+    border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle; margin-right: 6px;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
- 
+
+  /* ── Template download ── */
+  .template-hint {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    border-radius: var(--radius); padding: 14px 18px; margin-bottom: 20px;
+    font-size: 12px; color: var(--muted); display: flex; align-items: center; justify-content: space-between;
+  }
+  .btn-download {
+    padding: 8px 14px; background: none; border: 1px solid var(--gold); color: var(--gold-dim);
+    font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.08em;
+    cursor: pointer; border-radius: var(--radius); transition: all 0.2s; white-space: nowrap; margin-left: 16px;
+  }
+  .btn-download:hover { background: var(--gold); color: white; }
+
   @media (max-width: 600px) {
-    .field-row, .field-row.triple { grid-template-columns: 1fr; }
+    .field-row, .field-row.triple, .mode-switcher { grid-template-columns: 1fr; }
     header { padding: 16px 20px; }
     main { padding: 0 16px 60px; }
   }
 </style>
 </head>
 <body>
- 
-<!-- ══════════════════════════════════════════════════════════
-     LOGIN SCREEN
-══════════════════════════════════════════════════════════ -->
+
+<!-- LOGIN -->
 <div id="login-screen">
   <div class="login-box">
-    <div class="login-logo">Yes Chef!</div>
+    <a href="/" aria-label="YesChef home" style="display:inline-block;margin-bottom:24px;">
+      <img src="/assets/assets/Photos/YesChefLogo.png" alt="YesChef logo" style="max-height:80px;width:auto;">
+    </a>
     <div class="login-sub">Contributor Portal</div>
     <input type="password" id="portal-password" placeholder="Enter access code" autocomplete="current-password">
     <button class="btn-primary" onclick="checkPassword()">Enter Kitchen</button>
     <div class="login-error" id="login-error"></div>
   </div>
 </div>
- 
-<!-- ══════════════════════════════════════════════════════════
-     PORTAL SCREEN
-══════════════════════════════════════════════════════════ -->
+
+<!-- PORTAL -->
 <div id="portal-screen">
   <header>
     <div>
-      <div class="header-logo">Yes Chef!</div>
+      <a href="/" aria-label="YesChef home" style="display:inline-block;margin-bottom:4px;">
+        <img src="/assets/assets/Photos/YesChefLogo.png" alt="YesChef logo" style="max-height:40px;width:auto;filter:brightness(0) invert(1);">
+      </a>
       <div class="header-sub">Recipe Submission Portal</div>
     </div>
     <button class="btn-logout" onclick="logout()">Sign Out</button>
   </header>
- 
+
   <main>
     <div class="page-title">Submit a New Recipe</div>
-    <div class="page-hint">Fill in the details below. Your submission will be sent for review before going live.</div>
- 
-    <!-- ── Tabs ── -->
-    <div class="tabs">
-      <div class="tab active" onclick="switchTab('form')">Form</div>
-      <div class="tab" onclick="switchTab('preview')">JSON Preview</div>
+    <div class="page-hint">Choose how you'd like to submit your recipe.</div>
+
+    <!-- MODE SWITCHER -->
+    <div class="mode-switcher">
+      <div class="mode-card active" id="mode-upload-card" onclick="setMode('upload')">
+        <div class="mode-icon">📁</div>
+        <div class="mode-title">Upload JSON + Image</div>
+        <div class="mode-sub">Already have the JSON file ready? Upload it along with your photo and submit in seconds.</div>
+      </div>
+      <div class="mode-card" id="mode-form-card" onclick="setMode('form')">
+        <div class="mode-icon">📝</div>
+        <div class="mode-title">Fill Out Form</div>
+        <div class="mode-sub">Build the recipe step by step using the form. Great for entering recipes from scratch.</div>
+      </div>
     </div>
- 
-    <!-- ── FORM TAB ── -->
-    <div id="tab-form">
- 
+
+    <!-- ══════════════════════════════════════════
+         MODE 1: JSON UPLOAD
+    ══════════════════════════════════════════ -->
+    <div id="mode-upload">
+
+      <div class="template-hint">
+        <span>Need the JSON template? Download a blank recipe file to get started.</span>
+        <button class="btn-download" onclick="downloadTemplate()">⬇ Download Template</button>
+      </div>
+
+      <div class="section">
+        <div class="section-header"><div class="dot"></div>Recipe JSON File</div>
+        <div class="section-body">
+          <div class="json-drop-area" id="json-drop-area">
+            <input type="file" id="f-json-file" accept=".json,application/json" onchange="handleJsonSelect(this)">
+            <div class="upload-icon">{ }</div>
+            <div class="upload-text"><strong>Click to upload</strong> or drag & drop your .json file</div>
+            <div class="json-loaded" id="json-loaded">
+              <div class="json-loaded-name" id="json-loaded-name"></div>
+              <pre class="json-preview-box" id="json-preview-box"></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header"><div class="dot"></div>Recipe Image</div>
+        <div class="section-body">
+          <div class="upload-zone" id="upload-zone-u">
+            <input type="file" id="f-image-upload" accept="image/jpeg,image/png,image/webp" onchange="handleImageSelect(this, 'upload')">
+            <div class="upload-icon">🍽️</div>
+            <div class="upload-text"><strong>Click to upload</strong> or drag & drop</div>
+            <div class="upload-text">JPG, PNG or WebP · Max 5MB</div>
+            <div class="upload-preview" id="upload-preview-u">
+              <img id="preview-img-u" src="" alt="Preview">
+              <div class="upload-filename" id="upload-filename-u"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="submit-area">
+        <button class="btn-submit" id="submit-btn-u" onclick="submitUploadMode()">Submit for Review</button>
+        <span id="status-msg-u"></span>
+      </div>
+      <div id="pr-success-u" class="pr-success" style="display:none;background:var(--surface);border:1px solid #a8d5b8;border-left:4px solid var(--success);border-radius:var(--radius);padding:20px 24px;margin-top:24px;">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--success);margin-bottom:6px;">✓ Recipe submitted!</h3>
+        <p style="color:var(--muted);font-size:12px;line-height:1.6;">A pull request has been created for review.<br>
+        <a id="pr-link-u" href="#" target="_blank">View PR on GitHub →</a></p>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════
+         MODE 2: FORM
+    ══════════════════════════════════════════ -->
+    <div id="mode-form" style="display:none">
+
       <!-- Basic Info -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Basic Information</div>
         <div class="section-body">
           <div class="field-row">
-            <div class="field">
-              <label>Recipe Name <span class="req">*</span></label>
-              <input type="text" id="f-name" placeholder="e.g. Beef Wellington">
-            </div>
+            <div class="field"><label>Recipe Name <span class="req">*</span></label><input type="text" id="f-name" placeholder="e.g. Beef Wellington"></div>
             <div class="field">
               <label>Category <span class="req">*</span></label>
               <select id="f-category">
                 <option value="">— Select —</option>
-                <option>Cocktail</option>
-                <option>Bread</option>
-                <option>Starter</option>
-                <option>Main</option>
-                <option>Sides</option>
-                <option>Dessert</option>
+                <option>Cocktail</option><option>Bread</option><option>Starter</option>
+                <option>Main</option><option>Sides</option><option>Dessert</option>
               </select>
             </div>
           </div>
           <div class="field-row single">
-            <div class="field">
-              <label>Description <span class="req">*</span></label>
-              <textarea id="f-desc" placeholder="A short description of the dish and what makes it special..."></textarea>
-            </div>
+            <div class="field"><label>Description <span class="req">*</span></label><textarea id="f-desc" placeholder="What makes this dish special..."></textarea></div>
           </div>
           <div class="field-row triple">
-            <div class="field">
-              <label>Yield / Servings</label>
-              <input type="text" id="f-yield" placeholder="e.g. Serves 4">
-            </div>
-            <div class="field">
-              <label>Source / Book</label>
-              <input type="text" id="f-source" placeholder="e.g. The French Laundry Cookbook">
-            </div>
-            <div class="field">
-              <label>Inspiring Chef</label>
-              <input type="text" id="f-chef" placeholder="e.g. Thomas Keller">
-            </div>
+            <div class="field"><label>Yield / Servings</label><input type="text" id="f-yield" placeholder="e.g. Serves 4"></div>
+            <div class="field"><label>Source / Book</label><input type="text" id="f-source" placeholder="e.g. The French Laundry Cookbook"></div>
+            <div class="field"><label>Inspiring Chef</label><input type="text" id="f-chef" placeholder="e.g. Thomas Keller"></div>
           </div>
           <div class="field-row single">
-            <div class="field">
-              <label>Keywords (comma separated)</label>
-              <input type="text" id="f-keywords" placeholder="e.g. french, beef, pastry, fine dining">
-            </div>
+            <div class="field"><label>Keywords (comma separated)</label><input type="text" id="f-keywords" placeholder="e.g. french, beef, pastry, fine dining"></div>
           </div>
         </div>
       </div>
- 
-      <!-- Image Upload -->
+
+      <!-- Image -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Recipe Image</div>
         <div class="section-body">
-          <div class="upload-zone" id="upload-zone">
-            <input type="file" id="f-image" accept="image/jpeg,image/png,image/webp" onchange="handleImageSelect(this)">
+          <div class="upload-zone" id="upload-zone-f">
+            <input type="file" id="f-image-form" accept="image/jpeg,image/png,image/webp" onchange="handleImageSelect(this, 'form')">
             <div class="upload-icon">🍽️</div>
-            <div class="upload-text"><strong>Click to upload</strong> or drag & drop</div>
-            <div class="upload-text">JPG, PNG or WebP · Max 5MB</div>
-            <div class="upload-preview" id="upload-preview">
-              <img id="preview-img" src="" alt="Preview">
-              <div class="upload-filename" id="upload-filename"></div>
+            <div class="upload-text"><strong>Click to upload</strong> or drag & drop · JPG, PNG, WebP · Max 5MB</div>
+            <div class="upload-preview" id="upload-preview-f">
+              <img id="preview-img-f" src="" alt="Preview">
+              <div class="upload-filename" id="upload-filename-f"></div>
             </div>
           </div>
           <div style="margin-top:12px">
-            <div class="field">
-              <label>Or paste existing image URL</label>
-              <input type="url" id="f-image-url" placeholder="https://pub-xxx.r2.dev/assets/my-recipe.jpg">
-            </div>
+            <div class="field"><label>Or paste existing image URL</label><input type="url" id="f-image-url" placeholder="https://pub-xxx.r2.dev/assets/my-recipe.jpg"></div>
           </div>
         </div>
       </div>
- 
+
       <!-- Ingredients -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Ingredients</div>
@@ -560,7 +361,7 @@
           <button class="btn-add" onclick="addIngredient()">+ Add Ingredient</button>
         </div>
       </div>
- 
+
       <!-- Steps -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Steps</div>
@@ -569,8 +370,8 @@
           <button class="btn-add" onclick="addStep()">+ Add Step</button>
         </div>
       </div>
- 
-      <!-- Special Tools -->
+
+      <!-- Tools -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Specialty Items / Tools <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
         <div class="section-body">
@@ -578,8 +379,8 @@
           <button class="btn-add" onclick="addTool()">+ Add Tool</button>
         </div>
       </div>
- 
-      <!-- Wine Pairings -->
+
+      <!-- Wine -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Wine Pairings <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
         <div class="section-body">
@@ -587,7 +388,7 @@
           <button class="btn-add" onclick="addWine()">+ Add Wine</button>
         </div>
       </div>
- 
+
       <!-- Sub-recipes -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Sub-Recipes <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
@@ -596,60 +397,32 @@
           <button class="btn-add" onclick="addSub()">+ Add Sub-Recipe</button>
         </div>
       </div>
- 
-      <!-- Submit -->
+
       <div class="submit-area">
-        <button class="btn-submit" id="submit-btn" onclick="submitRecipe()">Submit for Review</button>
-        <span id="status-msg"></span>
+        <button class="btn-submit" id="submit-btn-f" onclick="submitFormMode()">Submit for Review</button>
+        <span id="status-msg-f"></span>
       </div>
- 
-      <div id="pr-success">
-        <h3>✓ Recipe submitted!</h3>
-        <p>A pull request has been created for review.<br>
-        <a id="pr-link" href="#" target="_blank">View PR on GitHub →</a></p>
-      </div>
- 
-    </div><!-- end tab-form -->
- 
-    <!-- ── JSON PREVIEW TAB ── -->
-    <div id="tab-preview" style="display:none">
-      <div class="section">
-        <div class="section-header"><div class="dot"></div>Generated JSON</div>
-        <div class="section-body">
-          <p style="color:var(--muted);font-size:12px;margin-bottom:16px">This is exactly what will be submitted as the recipe file.</p>
-          <pre id="json-output"></pre>
-        </div>
+      <div id="pr-success-f" style="display:none;background:var(--surface);border:1px solid #a8d5b8;border-left:4px solid var(--success);border-radius:var(--radius);padding:20px 24px;margin-top:24px;">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--success);margin-bottom:6px;">✓ Recipe submitted!</h3>
+        <p style="color:var(--muted);font-size:12px;line-height:1.6;">A pull request has been created for review.<br>
+        <a id="pr-link-f" href="#" target="_blank">View PR on GitHub →</a></p>
       </div>
     </div>
- 
+
   </main>
 </div>
- 
+
 <script>
 // ══════════════════════════════════════════════════════════
-// CONFIG — update these before deploying
+// CONFIG
 // ══════════════════════════════════════════════════════════
 const CONFIG = {
-  // The password contributors use to access the portal
-  // Change this to something secure before deploying
-  password: "yeschef2024",
- 
-  // Your GitHub repo details
-  githubOwner: "cdeste1",
-  githubRepo:  "yes_chef",
- 
-  // This token is set as a GitHub Secret CONTRIBUTOR_GITHUB_TOKEN
-  // For the portal to work, you need a backend to proxy the API call
-  // OR use a Cloudflare Worker (see README). For now this makes a
-  // direct API call — fine for a small trusted team.
-  // IMPORTANT: Replace this with your actual token or Worker URL
-  // githubToken is stored securely in the Cloudflare Worker — never in the browser
- 
-  // R2 image upload goes through a Cloudflare Worker to keep credentials private
-  // Deploy the worker from tools/r2-upload-worker.js and paste its URL here
-  r2WorkerUrl: "", // e.g. "https://yeschef-upload.your-account.workers.dev"
+  password:      "yeschef2024",
+  githubOwner:   "cdeste1",
+  githubRepo:    "yes_chef",
+  r2WorkerUrl:   "https://yeschef-upload.yeschef-upload.workers.dev",
 };
- 
+
 // ══════════════════════════════════════════════════════════
 // AUTH
 // ══════════════════════════════════════════════════════════
@@ -665,123 +438,328 @@ function checkPassword() {
     document.getElementById('portal-password').value = '';
   }
 }
- 
-function logout() {
-  sessionStorage.removeItem('yc_auth');
-  location.reload();
-}
- 
-document.getElementById('portal-password').addEventListener('keydown', e => {
-  if (e.key === 'Enter') checkPassword();
-});
- 
+function logout() { sessionStorage.removeItem('yc_auth'); location.reload(); }
+document.getElementById('portal-password').addEventListener('keydown', e => { if (e.key === 'Enter') checkPassword(); });
 if (sessionStorage.getItem('yc_auth')) {
   document.getElementById('login-screen').style.display = 'none';
   document.getElementById('portal-screen').style.display = 'block';
   setTimeout(initForm, 0);
 }
- 
+
 // ══════════════════════════════════════════════════════════
-// TABS
+// MODE SWITCHER
 // ══════════════════════════════════════════════════════════
-function switchTab(tab) {
-  document.querySelectorAll('.tab').forEach((t, i) => {
-    t.classList.toggle('active', (i === 0 && tab === 'form') || (i === 1 && tab === 'preview'));
-  });
-  document.getElementById('tab-form').style.display    = tab === 'form'    ? 'block' : 'none';
-  document.getElementById('tab-preview').style.display = tab === 'preview' ? 'block' : 'none';
-  if (tab === 'preview') {
-    document.getElementById('json-output').textContent = JSON.stringify(buildRecipeJSON(), null, 2);
-  }
+let currentMode = 'upload';
+function setMode(mode) {
+  currentMode = mode;
+  document.getElementById('mode-upload-card').classList.toggle('active', mode === 'upload');
+  document.getElementById('mode-form-card').classList.toggle('active', mode === 'form');
+  document.getElementById('mode-upload').style.display = mode === 'upload' ? 'block' : 'none';
+  document.getElementById('mode-form').style.display   = mode === 'form'   ? 'block' : 'none';
 }
- 
+
+// ══════════════════════════════════════════════════════════
+// JSON TEMPLATE DOWNLOAD
+// ══════════════════════════════════════════════════════════
+function downloadTemplate() {
+  const template = {
+    name: "",
+    description: "",
+    category: "Main",
+    keywords: "",
+    yield: "",
+    source: "",
+    chef: "",
+    imageUrl: "",
+    ingredients: [
+      { quantity: "200g", item: "ingredient name", note: "optional note" }
+    ],
+    steps: [
+      { instruction: "Describe step 1 here." }
+    ],
+    specialtools: [
+      { item: "Tool name", link: "https://amazon.com/dp/...?tag=yeschef-20" }
+    ],
+    winePairings: [
+      { name: "Wine name", notes: "Tasting notes here." }
+    ],
+    sub_recipes: [
+      {
+        name: "Sub-recipe name",
+        yield: "Makes 1 cup",
+        ingredients: [{ quantity: "100g", item: "ingredient", note: "" }],
+        steps: [{ instruction: "Step description." }]
+      }
+    ]
+  };
+  const blob = new Blob([JSON.stringify(template, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'recipe-template.json';
+  a.click();
+}
+
+// ══════════════════════════════════════════════════════════
+// JSON FILE HANDLING
+// ══════════════════════════════════════════════════════════
+let uploadedRecipeJSON = null;
+
+function handleJsonSelect(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      uploadedRecipeJSON = JSON.parse(e.target.result);
+      document.getElementById('json-loaded-name').textContent = '✓ ' + file.name;
+      document.getElementById('json-preview-box').textContent = JSON.stringify(uploadedRecipeJSON, null, 2);
+      document.getElementById('json-loaded').style.display = 'block';
+    } catch (err) {
+      setStatus('Invalid JSON file — please check the format.', 'error', 'u');
+      uploadedRecipeJSON = null;
+    }
+  };
+  reader.readAsText(file);
+}
+
+// Drag & drop for JSON
+const jsonZone = document.getElementById('json-drop-area');
+jsonZone.addEventListener('dragover', e => { e.preventDefault(); jsonZone.classList.add('dragover'); });
+jsonZone.addEventListener('dragleave', () => jsonZone.classList.remove('dragover'));
+jsonZone.addEventListener('drop', e => {
+  e.preventDefault(); jsonZone.classList.remove('dragover');
+  const file = e.dataTransfer.files[0];
+  if (file) {
+    const dt = new DataTransfer(); dt.items.add(file);
+    document.getElementById('f-json-file').files = dt.files;
+    handleJsonSelect(document.getElementById('f-json-file'));
+  }
+});
+
 // ══════════════════════════════════════════════════════════
 // IMAGE HANDLING
 // ══════════════════════════════════════════════════════════
-let imageFile = null;
- 
-function handleImageSelect(input) {
+let imageFileUpload = null;
+let imageFileForm   = null;
+
+function handleImageSelect(input, mode) {
   const file = input.files[0];
   if (!file) return;
-  if (file.size > 5 * 1024 * 1024) {
-    alert('Image must be under 5MB');
-    return;
-  }
-  imageFile = file;
+  if (file.size > 5 * 1024 * 1024) { alert('Image must be under 5MB'); return; }
+  if (mode === 'upload') { imageFileUpload = file; updateImagePreview(file, 'u'); }
+  else                   { imageFileForm   = file; updateImagePreview(file, 'f'); }
+}
+
+function updateImagePreview(file, suffix) {
   const url = URL.createObjectURL(file);
-  document.getElementById('preview-img').src = url;
-  document.getElementById('upload-filename').textContent = file.name;
-  document.getElementById('upload-preview').style.display = 'block';
+  document.getElementById(`preview-img-${suffix}`).src = url;
+  document.getElementById(`upload-filename-${suffix}`).textContent = file.name;
+  document.getElementById(`upload-preview-${suffix}`).style.display = 'block';
 }
- 
-// Drag & drop
-const zone = document.getElementById('upload-zone');
-zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('dragover'); });
-zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
-zone.addEventListener('drop', e => {
-  e.preventDefault();
-  zone.classList.remove('dragover');
-  const file = e.dataTransfer.files[0];
-  if (file && file.type.startsWith('image/')) {
-    const dt = new DataTransfer();
-    dt.items.add(file);
-    document.getElementById('f-image').files = dt.files;
-    handleImageSelect(document.getElementById('f-image'));
+
+// ══════════════════════════════════════════════════════════
+// GITHUB PROXY HELPER
+// ══════════════════════════════════════════════════════════
+async function gh(endpoint, method = 'GET', payload = null) {
+  const resp = await fetch(`${CONFIG.r2WorkerUrl}/github`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Portal-Secret': CONFIG.password },
+    body: JSON.stringify({ endpoint, method, payload }),
+  });
+  const data = await resp.json();
+  if (!resp.ok) throw new Error(data.message || data.error || `GitHub error ${resp.status}`);
+  return data;
+}
+
+async function uploadImage(imageFile, slug) {
+  const formData = new FormData();
+  formData.append('file', imageFile);
+  formData.append('slug', slug);
+  const resp = await fetch(`${CONFIG.r2WorkerUrl}/upload`, {
+    method: 'POST',
+    headers: { 'X-Portal-Secret': CONFIG.password },
+    body: formData,
+  });
+  const data = await resp.json();
+  if (!resp.ok) throw new Error(data.error || 'Image upload failed');
+  return data.url;
+}
+
+// ══════════════════════════════════════════════════════════
+// SHARED SUBMIT LOGIC
+// ══════════════════════════════════════════════════════════
+function toSlug(name) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, successId, btnId) {
+  const btn = document.getElementById(btnId);
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>Submitting...';
+
+  try {
+    const slug     = toSlug(recipe.name);
+    const branch   = `recipe/${slug}-${Date.now()}`;
+    const filename = `recipes/${slug}.json`;
+    const ghBase   = `/repos/${CONFIG.githubOwner}/${CONFIG.githubRepo}`;
+
+    // Upload image if provided
+    if (imageFile) {
+      setStatus('Uploading image...', 'loading', statusSuffix);
+      recipe.imageUrl = await uploadImage(imageFile, slug);
+    }
+
+    const content = JSON.stringify(recipe, null, 2) + '\n';
+    const encoded = btoa(unescape(encodeURIComponent(content)));
+
+    // Get SHA
+    setStatus('Preparing branch...', 'loading', statusSuffix);
+    const refData = await gh(`${ghBase}/git/ref/heads/main`);
+    const sha = refData.object.sha;
+
+    // Create branch
+    await gh(`${ghBase}/git/refs`, 'POST', { ref: `refs/heads/${branch}`, sha });
+
+    // Create file
+    setStatus('Adding recipe file...', 'loading', statusSuffix);
+    await gh(`${ghBase}/contents/${filename}`, 'PUT', {
+      message: `recipe: add ${recipe.name}`,
+      content: encoded,
+      branch,
+    });
+
+    // Open PR
+    setStatus('Opening pull request...', 'loading', statusSuffix);
+    const prData = await gh(`${ghBase}/pulls`, 'POST', {
+      title: `New Recipe: ${recipe.name}`,
+      body:  `## New Recipe Submission\n\n**Name:** ${recipe.name}\n**Category:** ${recipe.category || ''}\n**Description:** ${recipe.description || ''}\n\n_Submitted via the YesChef contributor portal._`,
+      head:  branch,
+      base:  'main',
+    });
+
+    // Success
+    setStatus('', '', statusSuffix);
+    document.getElementById(prLinkId).href = prData.html_url;
+    document.getElementById(successId).style.display = 'block';
+    document.getElementById(successId).scrollIntoView({ behavior: 'smooth' });
+
+  } catch (e) {
+    setStatus(`Error: ${e.message}`, 'error', statusSuffix);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Submit for Review';
   }
-});
- 
-// ══════════════════════════════════════════════════════════
-// DYNAMIC LIST BUILDERS
-// ══════════════════════════════════════════════════════════
-function initForm() {
-  addIngredient();
-  addIngredient();
-  addStep();
-  addStep();
 }
- 
+
+// ══════════════════════════════════════════════════════════
+// MODE 1: JSON UPLOAD SUBMIT
+// ══════════════════════════════════════════════════════════
+async function submitUploadMode() {
+  if (!uploadedRecipeJSON) { setStatus('Please upload a JSON file first.', 'error', 'u'); return; }
+  if (!uploadedRecipeJSON.name) { setStatus('JSON is missing a recipe name.', 'error', 'u'); return; }
+  await submitToGitHub(uploadedRecipeJSON, imageFileUpload, 'u', 'pr-link-u', 'pr-success-u', 'submit-btn-u');
+}
+
+// ══════════════════════════════════════════════════════════
+// MODE 2: FORM SUBMIT
+// ══════════════════════════════════════════════════════════
+function val(id) { return (document.getElementById(id)?.value || '').trim(); }
+
+function buildRecipeJSON() {
+  const ingredients = [];
+  document.querySelectorAll('#ingredients-list .list-item').forEach(item => {
+    const inputs = item.querySelectorAll('input');
+    const ing = inputs[1]?.value.trim();
+    if (ing) ingredients.push({ quantity: inputs[0]?.value.trim() || '', item: ing, note: inputs[2]?.value.trim() || '' });
+  });
+  const steps = [];
+  document.querySelectorAll('#steps-list .list-item textarea').forEach(ta => {
+    const txt = ta.value.trim();
+    if (txt) steps.push({ instruction: txt });
+  });
+  const specialtools = [];
+  document.querySelectorAll('#tools-list .list-item').forEach(item => {
+    const inputs = item.querySelectorAll('input');
+    const toolItem = inputs[0]?.value.trim();
+    if (toolItem) specialtools.push({ item: toolItem, link: inputs[1]?.value.trim() || '' });
+  });
+  const winePairings = [];
+  document.querySelectorAll('#wines-list .list-item').forEach(item => {
+    const inputs = item.querySelectorAll('input');
+    const wname = inputs[0]?.value.trim();
+    if (wname) winePairings.push({ name: wname, notes: inputs[1]?.value.trim() || '' });
+  });
+  const sub_recipes = [];
+  document.querySelectorAll('#subs-list .list-item').forEach(item => {
+    const inputs = item.querySelectorAll('input');
+    const tas    = item.querySelectorAll('textarea');
+    const subName = inputs[0]?.value.trim();
+    if (!subName) return;
+    const subIngs = (tas[0]?.value || '').split('\n').map(l => {
+      const p = l.split('|').map(s => s.trim());
+      return p[1] ? { quantity: p[0] || '', item: p[1], note: p[2] || '' } : null;
+    }).filter(Boolean);
+    const subSteps = (tas[1]?.value || '').split('\n').map(l => l.trim() ? { instruction: l.trim() } : null).filter(Boolean);
+    sub_recipes.push({ name: subName, yield: inputs[1]?.value.trim() || '', ingredients: subIngs, steps: subSteps });
+  });
+  return {
+    name: val('f-name'), description: val('f-desc'), category: val('f-category'),
+    keywords: val('f-keywords'), yield: val('f-yield'), source: val('f-source'),
+    chef: val('f-chef'), imageUrl: val('f-image-url'),
+    ingredients, steps, specialtools, winePairings, sub_recipes,
+  };
+}
+
+async function submitFormMode() {
+  const recipe = buildRecipeJSON();
+  if (!recipe.name)                    { setStatus('Recipe name is required.', 'error', 'f'); return; }
+  if (!recipe.category)                { setStatus('Category is required.', 'error', 'f'); return; }
+  if (!recipe.description)             { setStatus('Description is required.', 'error', 'f'); return; }
+  if (recipe.ingredients.length === 0) { setStatus('At least one ingredient is required.', 'error', 'f'); return; }
+  if (recipe.steps.length === 0)       { setStatus('At least one step is required.', 'error', 'f'); return; }
+  await submitToGitHub(recipe, imageFileForm, 'f', 'pr-link-f', 'pr-success-f', 'submit-btn-f');
+}
+
+// ══════════════════════════════════════════════════════════
+// DYNAMIC FORM BUILDERS
+// ══════════════════════════════════════════════════════════
+function initForm() { addIngredient(); addIngredient(); addStep(); addStep(); }
+
 let ingCount = 0;
 function addIngredient() {
   ingCount++;
-  const id = `ing-${ingCount}`;
-  const html = `
-    <div class="list-item" id="${id}">
+  document.getElementById('ingredients-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="ing-${ingCount}">
       <div class="item-num">${ingCount}</div>
       <div class="item-fields">
         <div class="field-row triple">
-          <div class="field"><label>Quantity</label><input type="text" placeholder="e.g. 200g / 2 tbsp"></div>
+          <div class="field"><label>Quantity</label><input type="text" placeholder="e.g. 200g"></div>
           <div class="field"><label>Item <span class="req">*</span></label><input type="text" placeholder="e.g. unsalted butter"></div>
           <div class="field"><label>Note</label><input type="text" placeholder="e.g. room temperature"></div>
         </div>
       </div>
-      <button class="btn-remove" onclick="removeItem('${id}')">×</button>
-    </div>`;
-  document.getElementById('ingredients-list').insertAdjacentHTML('beforeend', html);
+      <button class="btn-remove" onclick="removeItem('ing-${ingCount}')">×</button>
+    </div>`);
 }
- 
+
 let stepCount = 0;
 function addStep() {
   stepCount++;
-  const id = `step-${stepCount}`;
-  const html = `
-    <div class="list-item" id="${id}">
+  document.getElementById('steps-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="step-${stepCount}">
       <div class="item-num">${stepCount}</div>
       <div class="item-fields">
-        <div class="field">
-          <textarea placeholder="Describe this step in detail..." rows="2"></textarea>
-        </div>
+        <div class="field"><textarea placeholder="Describe this step..." rows="2"></textarea></div>
       </div>
-      <button class="btn-remove" onclick="removeItem('${id}')">×</button>
-    </div>`;
-  document.getElementById('steps-list').insertAdjacentHTML('beforeend', html);
+      <button class="btn-remove" onclick="removeItem('step-${stepCount}')">×</button>
+    </div>`);
 }
- 
+
 let toolCount = 0;
 function addTool() {
   toolCount++;
-  const id = `tool-${toolCount}`;
-  const html = `
-    <div class="list-item" id="${id}">
+  document.getElementById('tools-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="tool-${toolCount}">
       <div class="item-num">${toolCount}</div>
       <div class="item-fields">
         <div class="field-row">
@@ -789,17 +767,15 @@ function addTool() {
           <div class="field"><label>Amazon Link</label><input type="url" placeholder="https://amazon.com/dp/...?tag=yeschef-20"></div>
         </div>
       </div>
-      <button class="btn-remove" onclick="removeItem('${id}')">×</button>
-    </div>`;
-  document.getElementById('tools-list').insertAdjacentHTML('beforeend', html);
+      <button class="btn-remove" onclick="removeItem('tool-${toolCount}')">×</button>
+    </div>`);
 }
- 
+
 let wineCount = 0;
 function addWine() {
   wineCount++;
-  const id = `wine-${wineCount}`;
-  const html = `
-    <div class="list-item" id="${id}">
+  document.getElementById('wines-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="wine-${wineCount}">
       <div class="item-num">${wineCount}</div>
       <div class="item-fields">
         <div class="field-row">
@@ -807,244 +783,41 @@ function addWine() {
           <div class="field"><label>Tasting Notes</label><input type="text" placeholder="e.g. Full-bodied with dark fruit..."></div>
         </div>
       </div>
-      <button class="btn-remove" onclick="removeItem('${id}')">×</button>
-    </div>`;
-  document.getElementById('wines-list').insertAdjacentHTML('beforeend', html);
+      <button class="btn-remove" onclick="removeItem('wine-${wineCount}')">×</button>
+    </div>`);
 }
- 
+
 let subCount = 0;
 function addSub() {
   subCount++;
-  const id = `sub-${subCount}`;
-  const html = `
-    <div class="list-item" id="${id}" style="flex-direction:column">
+  document.getElementById('subs-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="sub-${subCount}" style="flex-direction:column">
       <div style="display:flex;justify-content:space-between;align-items:center;width:100%">
         <span style="font-size:12px;color:var(--gold)">Sub-Recipe ${subCount}</span>
-        <button class="btn-remove" onclick="removeItem('${id}')">×</button>
+        <button class="btn-remove" onclick="removeItem('sub-${subCount}')">×</button>
       </div>
       <div class="item-fields" style="width:100%">
         <div class="field-row">
-          <div class="field"><label>Sub-Recipe Name <span class="req">*</span></label><input type="text" placeholder="e.g. Duxelles"></div>
+          <div class="field"><label>Name <span class="req">*</span></label><input type="text" placeholder="e.g. Duxelles"></div>
           <div class="field"><label>Yield</label><input type="text" placeholder="e.g. Makes 1 cup"></div>
         </div>
         <div class="field" style="margin-top:8px">
           <label>Ingredients (one per line: quantity | item | note)</label>
-          <textarea placeholder="200g | cremini mushrooms | finely chopped&#10;2 tbsp | unsalted butter |" rows="3"></textarea>
+          <textarea placeholder="200g | cremini mushrooms | finely chopped" rows="3"></textarea>
         </div>
         <div class="field" style="margin-top:8px">
           <label>Steps (one per line)</label>
-          <textarea placeholder="Melt butter in a pan over medium heat.&#10;Add mushrooms and cook until dry..." rows="3"></textarea>
+          <textarea placeholder="Melt butter in a pan over medium heat." rows="3"></textarea>
         </div>
       </div>
-    </div>`;
-  document.getElementById('subs-list').insertAdjacentHTML('beforeend', html);
+    </div>`);
 }
- 
-function removeItem(id) {
-  document.getElementById(id)?.remove();
-}
- 
-// ══════════════════════════════════════════════════════════
-// BUILD JSON
-// ══════════════════════════════════════════════════════════
-function toSlug(name) {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-}
- 
-function val(id) {
-  return (document.getElementById(id)?.value || '').trim();
-}
- 
-function buildRecipeJSON() {
-  const name = val('f-name');
- 
-  // Ingredients
-  const ingredients = [];
-  document.querySelectorAll('#ingredients-list .list-item').forEach(item => {
-    const inputs = item.querySelectorAll('input');
-    const qty  = inputs[0]?.value.trim() || '';
-    const ing  = inputs[1]?.value.trim() || '';
-    const note = inputs[2]?.value.trim() || '';
-    if (ing) ingredients.push({ quantity: qty, item: ing, note });
-  });
- 
-  // Steps
-  const steps = [];
-  document.querySelectorAll('#steps-list .list-item').forEach(item => {
-    const txt = item.querySelector('textarea')?.value.trim() || '';
-    if (txt) steps.push({ instruction: txt });
-  });
- 
-  // Tools
-  const specialtools = [];
-  document.querySelectorAll('#tools-list .list-item').forEach(item => {
-    const inputs = item.querySelectorAll('input');
-    const toolItem = inputs[0]?.value.trim() || '';
-    const link     = inputs[1]?.value.trim() || '';
-    if (toolItem) specialtools.push({ item: toolItem, link });
-  });
- 
-  // Wines
-  const winePairings = [];
-  document.querySelectorAll('#wines-list .list-item').forEach(item => {
-    const inputs = item.querySelectorAll('input');
-    const wname  = inputs[0]?.value.trim() || '';
-    const notes  = inputs[1]?.value.trim() || '';
-    if (wname) winePairings.push({ name: wname, notes });
-  });
- 
-  // Sub-recipes
-  const sub_recipes = [];
-  document.querySelectorAll('#subs-list .list-item').forEach(item => {
-    const inputs    = item.querySelectorAll('input');
-    const textareas = item.querySelectorAll('textarea');
-    const subName   = inputs[0]?.value.trim() || '';
-    const subYield  = inputs[1]?.value.trim() || '';
-    if (!subName) return;
- 
-    const subIngs = (textareas[0]?.value || '').split('\n').map(l => {
-      const parts = l.split('|').map(s => s.trim());
-      return parts[1] ? { quantity: parts[0] || '', item: parts[1], note: parts[2] || '' } : null;
-    }).filter(Boolean);
- 
-    const subSteps = (textareas[1]?.value || '').split('\n').map(l => {
-      const t = l.trim();
-      return t ? { instruction: t } : null;
-    }).filter(Boolean);
- 
-    sub_recipes.push({ name: subName, yield: subYield, ingredients: subIngs, steps: subSteps });
-  });
- 
-  // Image URL — file upload takes priority, fallback to manual URL
-  const imageUrl = val('f-image-url') || (imageFile ? `__PENDING_UPLOAD__/${imageFile.name}` : '');
- 
-  return {
-    name,
-    description:  val('f-desc'),
-    category:     val('f-category'),
-    keywords:     val('f-keywords'),
-    yield:        val('f-yield'),
-    source:       val('f-source'),
-    chef:         val('f-chef'),
-    imageUrl,
-    ingredients,
-    steps,
-    specialtools,
-    winePairings,
-    sub_recipes,
-  };
-}
- 
-// ══════════════════════════════════════════════════════════
-// VALIDATION
-// ══════════════════════════════════════════════════════════
-function validate(recipe) {
-  if (!recipe.name)        return 'Recipe name is required.';
-  if (!recipe.category)    return 'Category is required.';
-  if (!recipe.description) return 'Description is required.';
-  if (recipe.ingredients.length === 0) return 'At least one ingredient is required.';
-  if (recipe.steps.length === 0)       return 'At least one step is required.';
-  return null;
-}
- 
-// ══════════════════════════════════════════════════════════
-// SUBMIT → GitHub Pull Request
-// ══════════════════════════════════════════════════════════
-async function submitRecipe() {
-  const recipe = buildRecipeJSON();
-  const err = validate(recipe);
-  if (err) { setStatus(err, 'error'); return; }
- 
-  const btn = document.getElementById('submit-btn');
-  btn.disabled = true;
-  btn.innerHTML = '<span class="spinner"></span>Submitting...';
-  setStatus('Creating pull request...', 'loading');
- 
-  try {
-    const slug      = toSlug(recipe.name);
-    const branch    = `recipe/${slug}-${Date.now()}`;
-    const filename  = `recipes/${slug}.json`;
- 
-    // ── Step 1: Upload image to R2 via Worker (if file selected) ──
-    if (imageFile && CONFIG.r2WorkerUrl) {
-      setStatus('Uploading image...', 'loading');
-      const formData = new FormData();
-      formData.append('file', imageFile);
-      formData.append('slug', slug);
-      const uploadResp = await fetch(CONFIG.r2WorkerUrl, { method: 'POST', body: formData });
-      if (!uploadResp.ok) throw new Error('Image upload failed');
-      const uploadData = await uploadResp.json();
-      recipe.imageUrl = uploadData.url;
-    }
- 
-    // Remove placeholder if no worker configured
-    if (recipe.imageUrl === `__PENDING_UPLOAD__/${imageFile?.name}`) {
-      recipe.imageUrl = '';
-    }
- 
-    const content = JSON.stringify(recipe, null, 2) + '\n';
-    const encoded = btoa(unescape(encodeURIComponent(content)));
- 
-    // All GitHub API calls go through the Cloudflare Worker — token never touches the browser
-    const ghBase = `/repos/${CONFIG.githubOwner}/${CONFIG.githubRepo}`;
- 
-    async function gh(endpoint, method = 'GET', payload = null) {
-      const resp = await fetch(`${CONFIG.r2WorkerUrl}/github`, {
-        method: 'POST',
-        headers: {
-          'Content-Type':    'application/json',
-          'X-Portal-Secret': CONFIG.password,
-        },
-        body: JSON.stringify({ endpoint, method, payload }),
-      });
-      const data = await resp.json();
-      if (!resp.ok) throw new Error(data.message || data.error || `GitHub API error ${resp.status}`);
-      return data;
-    }
- 
-    // ── Step 2: Get main branch SHA ──
-    setStatus('Preparing branch...', 'loading');
-    const refData = await gh(`${ghBase}/git/ref/heads/main`);
-    const sha = refData.object.sha;
- 
-    // ── Step 3: Create new branch ──
-    await gh(`${ghBase}/git/refs`, 'POST', { ref: `refs/heads/${branch}`, sha });
- 
-    // ── Step 4: Create the recipe file on the new branch ──
-    setStatus('Adding recipe file...', 'loading');
-    await gh(`${ghBase}/contents/${filename}`, 'PUT', {
-      message: `recipe: add ${recipe.name}`,
-      content: encoded,
-      branch,
-    });
- 
-    // ── Step 5: Open Pull Request ──
-    setStatus('Opening pull request...', 'loading');
-    const prData = await gh(`${ghBase}/pulls`, 'POST', {
-      title: `New Recipe: ${recipe.name}`,
-      body:  `## New Recipe Submission\n\n**Name:** ${recipe.name}\n**Category:** ${recipe.category}\n**Description:** ${recipe.description}\n\n_Submitted via the YesChef contributor portal._`,
-      head:  branch,
-      base:  'main',
-    });
- 
-    // ── Success ──
-    setStatus('', '');
-    document.getElementById('pr-link').href = prData.html_url;
-    document.getElementById('pr-success').style.display = 'block';
-    document.getElementById('pr-success').scrollIntoView({ behavior: 'smooth' });
- 
-  } catch (e) {
-    setStatus(`Error: ${e.message}`, 'error');
-  } finally {
-    btn.disabled = false;
-    btn.textContent = 'Submit for Review';
-  }
-}
- 
-function setStatus(msg, type) {
-  const el = document.getElementById('status-msg');
-  el.textContent = msg;
-  el.className = type;
+
+function removeItem(id) { document.getElementById(id)?.remove(); }
+
+function setStatus(msg, type, suffix) {
+  const el = document.getElementById(`status-msg-${suffix}`);
+  if (el) { el.textContent = msg; el.className = type; }
 }
 </script>
 </body>

@@ -1,7 +1,7 @@
 {
-    "name": "flutter_yes_chef",
-    "short_name": "flutter_yes_chef",
-    "start_url": ".",
+    "name": "Yes Chef!",
+    "short_name": "Yes Chef!",
+    "start_url": "/yes_chef/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",

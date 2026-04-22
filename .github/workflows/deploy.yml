@@ -1,10 +1,10 @@
 name: Build & Deploy YesChef Website
-
+ 
 on:
-  # Run manually from the Actions tab anytime
+  # Trigger manually from the GitHub Actions tab
   workflow_dispatch:
-
-  # Run automatically when you push changes to main
+ 
+  # OR trigger automatically on any push to main
   push:
     branches:
       - main
@@ -12,47 +12,53 @@ on:
       - 'web/**'
       - 'yeschef-seo/**'
       - '.github/workflows/deploy.yml'
-
+ 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
+ 
     steps:
-      # 1. Check out the full repo
+      # ── 1. Check out the repo ────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      # 2. Python setup
+ 
+      # ── 2. Set up Python ─────────────────────────────────────────────────────
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      # 3. Fetch latest recipes.json fresh from Cloudflare R2
-      #    No more manual copy-paste — always in sync with your app
+ 
+      # ── 3. Fetch latest recipes.json from Cloudflare R2 ─────────────────────
       - name: Fetch recipes.json from Cloudflare R2
         run: |
           curl -fsSL \
             "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json" \
             -o web/recipes/recipes.json
-          echo "✓ Fetched $(wc -c < web/recipes/recipes.json) bytes"
-
-      # 4. Generate main site recipe pages → web/recipes/<slug>/index.html
+          echo "✓ recipes.json fetched ($(wc -c < web/recipes/recipes.json) bytes)"
+ 
+      # ── 4. Generate main site recipe pages ───────────────────────────────────
+      #    Runs from web/recipes/ so OUTPUT_DIR="." places slugs directly
+      #    as siblings: web/recipes/<slug>/index.html
       - name: Generate main site recipe pages
         working-directory: web/recipes
+        env:
+          OUTPUT_DIR_OVERRIDE: "."
         run: |
           python3 generate.py
-          echo "✓ Main site pages generated"
-
-      # 5. Copy fresh recipes.json to SEO folder and generate SEO pages
-      - name: Generate SEO recipe pages
+          echo "✓ Main site recipe pages generated"
+ 
+      # ── 5. Generate SEO pages ────────────────────────────────────────────────
+      #    Copies the fresh JSON into yeschef-seo/ then runs the same script
+      #    with a different output directory.
+      - name: Generate SEO pages
         run: |
           cp web/recipes/recipes.json yeschef-seo/recipes.json
           cd yeschef-seo
           OUTPUT_DIR_OVERRIDE=output python3 generate.py
           echo "✓ SEO pages generated"
-
-      # 6. Deploy web/ to gh-pages — CNAME is written every time so domain never wipes
+ 
+      # ── 6. Deploy web/ to gh-pages ───────────────────────────────────────────
+      #    CNAME is written on every deploy — domain never gets wiped again
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

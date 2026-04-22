@@ -20,7 +20,7 @@ RECIPES_FILE   = "recipes.json"
 TEMPLATE_FILE  = "recipe-template.html"
 
 # Allow CI to override the output directory via environment variable
-OUTPUT_DIR = os.environ.get("OUTPUT_DIR_OVERRIDE", "recipes/web/recipes")
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR_OVERRIDE", ".")
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def to_slug(name: str) -> str:

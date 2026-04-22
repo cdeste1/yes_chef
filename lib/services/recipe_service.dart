@@ -393,8 +393,12 @@ class RecipeService {
     if (t.isEmpty) return s.length;
     List<List<int>> m =
         List.generate(s.length + 1, (_) => List.filled(t.length + 1, 0));
-    for (int i = 0; i <= s.length; i++) m[i][0] = i;
-    for (int j = 0; j <= t.length; j++) m[0][j] = j;
+    for (int i = 0; i <= s.length; i++) {
+      m[i][0] = i;
+    }
+    for (int j = 0; j <= t.length; j++) {
+      m[0][j] = j;
+    }
     for (int i = 1; i <= s.length; i++) {
       for (int j = 1; j <= t.length; j++) {
         int cost = s[i - 1] == t[j - 1] ? 0 : 1;

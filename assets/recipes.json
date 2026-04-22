@@ -11902,6 +11902,1156 @@
       }
     ]
   }
+},
+{
+
+  "recipe": {
+
+    "name": "Compressed Watermelon, Feta Mousse & Basil Pearls",
+
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/compressed_watermelon.png",
+
+    "yield": "4 plates",
+
+    "description": "A refined sweet-savory side dish featuring vacuum-compressed watermelon, airy feta mousse, and modern basil pearls for a vibrant, Michelin-style presentation.",
+
+    "category": "Sides",
+
+    "keywords": "watermelon, modernist, vegetarian, fine dining, summer",
+
+    "winePairings": [
+
+      {
+
+        "name": "Sauvignon Blanc",
+
+        "notes": "Bright acidity complements the herbal basil and cuts through the feta richness."
+
+      },
+
+      {
+
+        "name": "Dry Rosé",
+
+        "notes": "Fresh fruit notes enhance the watermelon while balancing the saltiness of the dish."
+
+      }
+
+    ],
+
+    "ingredients": [
+
+      {
+
+        "item": "Seedless watermelon",
+
+        "quantity": "1 small",
+
+        "note": "cut into uniform cubes"
+
+      },
+
+      {
+
+        "item": "Lime zest",
+
+        "quantity": "1 teaspoon"
+
+      },
+
+      {
+
+        "item": "Rice vinegar",
+
+        "quantity": "1 tablespoon"
+
+      },
+
+      {
+
+        "item": "Salt",
+
+        "quantity": "to taste"
+
+      },
+
+      {
+
+        "item": "Feta cheese",
+
+        "quantity": "7 ounces"
+
+      },
+
+      {
+
+        "item": "Heavy cream",
+
+        "quantity": "1/2 cup"
+
+      },
+
+      {
+
+        "item": "Greek yogurt",
+
+        "quantity": "1/4 cup"
+
+      },
+
+      {
+
+        "item": "Lemon juice",
+
+        "quantity": "1 teaspoon"
+
+      },
+
+      {
+
+        "item": "Fresh basil leaves",
+
+        "quantity": "1 bunch"
+
+      },
+
+      {
+
+        "item": "Neutral oil",
+
+        "quantity": "1 cup"
+
+      },
+
+      {
+
+        "item": "Sodium alginate",
+
+        "quantity": "2 grams"
+
+      },
+
+      {
+
+        "item": "Calcium chloride",
+
+        "quantity": "5 grams"
+
+      },
+
+      {
+
+        "item": "Water",
+
+        "quantity": "2 cups"
+
+      }
+
+    ],
+
+    "specialtools": [
+
+      {
+
+        "item": "Chamber vacuum sealer",
+
+        "link": "https://amzn.to/3QzSjn7"
+
+      },
+
+      {
+
+        "item": "Immersion circulator",
+
+        "link": "https://amzn.to/48eajcJ"
+
+      },
+
+   {
+
+        "item": "High-speed blender",
+
+        "link": "https://amzn.to/4vFnDAU"
+
+      },
+
+      {
+
+        "item": "Fine chinois",
+
+        "link": "https://amzn.to/3Or3fTx"
+
+      },
+
+      {
+
+        "item": "Precision scale",
+
+        "link": "https://amzn.to/3OgUWtr"
+
+      },
+
+      {
+
+        "item": "Squeeze bottles",
+
+        "link": "https://amzn.to/4ckpKma"
+
+      },
+
+      {
+
+        "item": "Pipette",
+
+        "link": "https://amzn.to/4czjqWC"
+
+      },
+
+      {
+
+        "item": "Spherification bath setup",
+
+        "link": "https://amzn.to/4cqmp3C"
+
+      },
+
+      {
+
+        "item": "Ring molds",
+
+        "link": "https://amzn.to/4clvOe7"
+
+      }
+
+    ],
+
+    "steps": [
+
+      {
+
+        "number": 1,
+
+        "instruction": "Cut watermelon into uniform cubes or cylinders for clean plating."
+
+      },
+
+      {
+
+        "number": 2,
+
+        "instruction": "Season lightly with lime zest, rice vinegar, and salt."
+
+      },
+
+      {
+
+        "number": 3,
+
+        "instruction": "Place watermelon in a chamber vacuum bag and seal under full vacuum to compress."
+
+      },
+
+      {
+
+        "number": 4,
+
+        "instruction": "Refrigerate for at least 1 hour to enhance texture and flavor."
+
+      },
+
+      {
+
+        "number": 5,
+
+        "instruction": "Blend feta, cream, yogurt, and lemon juice until completely smooth."
+
+      },
+
+      {
+
+        "number": 6,
+
+        "instruction": "Pass the mixture through a fine chinois for a silky mousse texture."
+
+      },
+
+      {
+
+        "number": 7,
+
+        "instruction": "Transfer mousse to a squeeze bottle and refrigerate."
+
+      },
+
+      {
+
+        "number": 8,
+
+        "instruction": "Blanch basil leaves briefly, then shock in ice water."
+
+      },
+
+      {
+
+        "number": 9,
+
+        "instruction": "Blend basil with neutral oil until vibrant green, then strain."
+
+      },
+
+      {
+
+        "number": 10,
+
+        "instruction": "Mix a portion of basil oil with sodium alginate using a blender."
+
+      },
+
+      {
+
+        "number": 11,
+
+        "instruction": "Prepare a calcium chloride bath with water."
+
+      },
+
+      {
+
+        "number": 12,
+
+        "instruction": "Using a pipette, drop basil mixture into the calcium bath to form pearls."
+
+      },
+
+      {
+
+        "number": 13,
+
+        "instruction": "Allow pearls to set for 30 seconds, then remove and rinse in clean water."
+
+      },
+
+      {
+
+        "number": 14,
+
+        "instruction": "Use a ring mold to plate the compressed watermelon neatly."
+
+      },
+
+      {
+
+        "number": 15,
+
+        "instruction": "Pipe dots or quenelles of feta mousse around the plate."
+
+      },
+
+      {
+
+        "number": 16,
+
+        "instruction": "Add basil pearls and drizzle basil oil artistically."
+
+      },
+
+      {
+
+        "number": 17,
+
+        "instruction": "Finish with micro herbs or fine zest for garnish and serve immediately."
+
+      }
+
+    ],
+
+    "sub_recipes": []
+
+  }
+
+},
+{
+  "recipe": {
+    "name": "Saffron-Infused Cloud Soufflé Pancake",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/saffroninfusedpancakes.png",
+    "yield": "4 plates",
+    "description": "A molecular approach to brunch featuring vacuum-compressed berries, saffron-infused foam, and hyper-aerated soufflé structures.",
+    "category": "Main",
+    "keywords": "soufflé, pancake, molecular, saffron",
+    "winePairings": [
+      {
+        "name": "Chateau d'Yquem Sauternes",
+        "notes": "Honeyed sweetness and apricot notes mirror the Manuka gastrique."
+      },
+      {
+        "name": "Moët & Chandon Grand Vintage Rose",
+        "notes": "The acidity cuts through the creamy saffron foam and rich egg yolks."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Organic Egg Yolks",
+        "quantity": "4",
+        "note": "tempered to room temperature"
+      },
+      {
+        "item": "Egg Whites",
+        "quantity": "6",
+        "note": "chilled"
+      },
+      {
+        "item": "Cake Flour",
+        "quantity": "50g",
+        "note": "sifted 3 times"
+      },
+      {
+        "item": "Castor Sugar",
+        "quantity": "40g"
+      },
+      {
+        "item": "Persian Saffron Threads",
+        "quantity": "1 tsp",
+        "note": "high-grade"
+      },
+      {
+        "item": "Vanilla Bean",
+        "quantity": "1",
+        "note": "scraped for seeds"
+      },
+      {
+        "item": "Heavy Cream",
+        "quantity": "250ml",
+        "note": "for saffron foam"
+      },
+      {
+        "item": "Manuka Honey (UMF 20+)",
+        "quantity": "100g"
+      },
+      {
+        "item": "Aged Sherry Vinegar",
+        "quantity": "20ml"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Induction Cooktop",
+        "link": "https://amzn.to/4dY5DeL"
+      },
+      {
+        "item": "Food Processor",
+        "link": "https://amzn.to/4cyXgDU"
+      },
+      {
+        "item": "Gourmet Whip",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Offset Spatula",
+        "link": "https://amzn.to/4cjORFJ"
+      },
+      {
+        "item": "Saffron Threads",
+        "link": "https://amzn.to/3OgzDIt"
+      },
+
+{
+        "item": "Gold Flakes",
+        "link": "https://amzn.to/42c7XaS"
+      }
+
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the Compressed Berries and Saffron Foam.",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 2,
+        "instruction": "Bloom the saffron threads in 10ml of warm milk for 15 minutes."
+      },
+      {
+        "number": 3,
+        "instruction": "In a copper bowl, whisk egg yolks with the saffron milk and vanilla seeds until pale and ribbon-like."
+      },
+      {
+        "number": 4,
+        "instruction": "Gently fold the triple-sifted cake flour into the yolk mixture."
+      },
+      {
+        "number": 5,
+        "instruction": "In a separate ultra-clean bowl, whisk chilled egg whites and castor sugar to a 'stiff-bird-beak' peak."
+      },
+      {
+        "number": 6,
+        "instruction": "Using a silhouette motion, fold the whites into the yolk base in three stages to maintain maximum aeration."
+      },
+      {
+        "number": 7,
+        "instruction": "Set the induction cooktop to exactly 165°C."
+      },
+      {
+        "number": 8,
+        "instruction": "Place non-stick ring molds on the surface and pipe the batter until 3/4 full."
+      },
+      {
+        "number": 9,
+        "instruction": "Add 5ml of distilled water to the pan and cover immediately with a heavy lid to create steam convection."
+      },
+      {
+        "number": 10,
+        "instruction": "Cook for 6 minutes, flip with the offset spatula, and cook for an additional 3 minutes."
+      },
+      {
+        "number": 11,
+        "instruction": "Prepare the Manuka Honey Gastrique.",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 12,
+        "instruction": "Plating: Stack three pancakes in the center of a chilled stone plate."
+      },
+      {
+        "number": 13,
+        "instruction": "Discharge a perfect quenelle of saffron foam from the iSi Whip onto the crown."
+      },
+      {
+        "number": 14,
+        "instruction": "Arrange compressed berries and dehydrated honeycomb around the base; finish with 24k gold leaf."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Compressed Berries",
+        "ingredients": [
+          { "item": "Wild Raspberries", "quantity": "200g" },
+          { "item": "Elderflower Syrup", "quantity": "10g" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Place berries and syrup in a vacuum bag." },
+          { "number": 2, "instruction": "Seal in a Chamber Vacuum Sealer at maximum pressure to alter cell structure." },
+          { "number": 3, "instruction": "Chill for 20 minutes before serving." }
+        ]
+      },
+      {
+        "name": "Manuka Honey Gastrique",
+        "ingredients": [
+          { "item": "Manuka Honey", "quantity": "100g" },
+          { "item": "Aged Sherry Vinegar", "quantity": "20ml" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "In a copper saucier, combine honey and vinegar." },
+          { "number": 2, "instruction": "Reduce over medium heat until it achieves a thick 'nappe' consistency." }
+        ]
+      },
+      {
+        "name": "Saffron Foam",
+        "ingredients": [
+          { "item": "Heavy Cream", "quantity": "250ml" },
+          { "item": "Saffron Milk", "quantity": "10ml" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Mix ingredients and pour into Gourmet Whip." },
+          { "number": 2, "instruction": "Charge with two N2O cartridges and shake vigorously." },
+          { "number": 3, "instruction": "Hold in a 4°C water bath." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Sous-Vide Duck Breast, Salsify Silk, and Cherry-Infused Balsamic Glaze",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sousvide_duckbreast.png",
+    "yield": "2 plates",
+    "description": "A masterclass in precision, featuring ultra-tender duck with a glass-like crackling skin, served with an aerated salsify foam and a molecularly clarified cherry reduction.",
+    "category": "Main",
+    "keywords": "duck, sous-vide, michelin, fine dining",
+    "winePairings": [
+      {
+        "name": "Gevrey-Chambertin (Pinot Noir)",
+        "notes": "Earthiness matches the salsify while bright acidity cuts the duck fat."
+      },
+      {
+        "name": "Vintage Port",
+        "notes": "The dark fruit notes mirror the cherry glaze perfectly."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Moulard Duck Breasts",
+        "quantity": "2 large",
+        "note": "approx. 14-16oz each"
+      },
+      {
+        "item": "Fresh Salsify Roots",
+        "quantity": "1 lb",
+        "note": "substitute parsnip if unavailable"
+      },
+      {
+        "item": "Fresh Sweet Cherries",
+        "quantity": "1 cup",
+        "note": "pitted and halved"
+      },
+      {
+        "item": "Aged Balsamic Vinegar",
+        "quantity": "1/4 cup"
+      },
+      {
+        "item": "Unsalted European Butter",
+        "quantity": "3 ounces"
+      },
+      {
+        "item": "Heavy Cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "item": "Lemon",
+        "quantity": "1",
+        "note": "for acidulated water bath"
+      },
+      {
+        "item": "Aromatics",
+        "quantity": "4 sprigs thyme, 2 cloves garlic",
+        "note": "for the vacuum bag"
+      },
+      {
+        "item": "Maldon Sea Salt",
+        "quantity": "to finish"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Immersion Circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Whipping Siphon",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Chinoise or Tamis",
+        "link": "https://amzn.to/4cjQK5p"
+      },
+ {
+        "item": "Plates perfect for this dish!",
+        "link": "https://amzn.to/3OS20Nf"
+      },
+
+      {
+        "item": "Infrared Thermometer",
+        "link": "https://amzn.to/3QhXtUM"
+      },
+  {
+        "item": "Cast Iron Grill Pan",
+        "link": "https://amzn.to/3ObTjgD"
+      },
+
+  {
+        "item": "Aged Balsamic Vinegar",
+        "link": "https://amzn.to/4tV07yb"
+      },
+
+      {
+        "item": "Culinary Tweezers",
+        "link": "https://amzn.to/4eve5SX"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Score the duck skin in a 2mm cross-hatch pattern and season with salt and white pepper."
+      },
+      {
+        "number": 2,
+        "instruction": "Place duck in a vacuum bag with thyme and garlic; use the Chamber Vacuum Sealer on 'High' to compress the meat."
+      },
+      {
+        "number": 3,
+        "instruction": "Set Immersion Circulator to 135.5°F (57.5°C) and cook the duck for 90 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Prepare the Salsify Silk: Peel roots into acidulated lemon water, boil in salted water until soft, and purée with butter and cream."
+      },
+      {
+        "number": 5,
+        "instruction": "Pass the purée through a Chinoise or Tamis twice to ensure zero grit."
+      },
+      {
+        "number": 6,
+        "instruction": "Load the purée into the Whipping Siphon, charge with 2 N2O cartridges, and keep warm in a 50°C water bath."
+      },
+      {
+        "number": 7,
+        "instruction": "Simmer cherries, balsamic, and sugar until soft; blend and strain through a fine mesh sieve to create the glaze."
+      },
+      {
+        "number": 8,
+        "instruction": "Remove duck from bag and pat dry. Use the Infrared Thermometer to ensure a cold pan is at room temperature before starting."
+      },
+      {
+        "number": 9,
+        "instruction": "Place duck skin-side down on low-medium heat for 12 minutes to render fat into a crispy crackling."
+      },
+      {
+        "number": 10,
+        "instruction": "Flip and sear the meat side for 60 seconds; let the duck rest for 10 minutes before slicing."
+      },
+      {
+        "number": 11,
+        "instruction": "Plating: Use the Siphon to create a cloud of Salsify Silk. Slice duck on a bias and fan out with tweezers."
+      },
+      {
+        "number": 12,
+        "instruction": "Drizzle the cherry reduction and finish with micro-herbs and Maldon salt."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Cherry-Balsamic Reduction",
+        "ingredients": [
+          { "item": "Cherries", "quantity": "1 cup" },
+          { "item": "Balsamic", "quantity": "1/4 cup" },
+          { "item": "Shallot", "quantity": "1, minced" }
+        ],
+        "steps": [
+          { "number": 1, "instruction": "Sauté shallots in 1 tsp duck fat, add cherries and balsamic." },
+          { "number": 2, "instruction": "Reduce by 50% until syrupy, then strain through muslin cloth." }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Miso-Glazed Black Cod, Yuzu Foam, Pickled Daikon and Crispy Rice",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Miso_Cod.png",
+    "yield": "2 plates",
+    "description": "A refined Asian fusion dish featuring buttery miso-marinated black cod, bright yuzu foam, compressed pickled daikon, and crispy sushi rice.",
+    "category": "Main",
+    "keywords": "black cod, miso, asian fusion, fine dining, seafood",
+    "winePairings": [
+      {
+        "name": "Junmai Daiginjo Sake",
+        "notes": "Elegant and aromatic, enhances umami and delicate fish texture."
+      },
+      {
+        "name": "Chablis Grand Cru",
+        "notes": "Mineral-driven acidity balances the richness of the cod."
+      }
+    ],
+
+    "ingredients": [
+      {
+        "item": "Black cod fillets",
+        "quantity": "2"
+      },
+      {
+        "item": "White miso",
+        "quantity": "1/2 cup"
+      },
+      {
+        "item": "Mirin",
+        "quantity": "1/4 cup"
+      },
+      {
+        "item": "Sake",
+        "quantity": "3 tbsp"
+      },
+      {
+        "item": "Sugar",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Sushi rice",
+        "quantity": "1 cup (cooked and chilled)"
+      },
+      {
+        "item": "Neutral oil",
+        "quantity": "for frying"
+      },
+      {
+        "item": "Pickled Daikon",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Yuzu Foam",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Microgreens",
+        "quantity": "small handful"
+      },
+      {
+        "item": "Black sesame seeds",
+        "quantity": "pinch"
+      },
+      {
+        "item": "Shiso leaves",
+        "quantity": "optional"
+      }
+    ],
+
+    "specialtools": [
+      {
+        "item": "Rice Cooker",
+        "link": "https://amzn.to/4ew1kYj"
+      },    
+  {
+        "item": "Sous Vide Immersion Circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Whipping Siphon",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Blowtorch",
+        "link": "https://amzn.to/42eE89w"
+      },
+{
+        "item": "Black Sesame Seeds",
+        "link": "https://amzn.to/42g6sIC"
+      },
+{
+        "item": "Whisk",
+        "link": "https://amzn.to/4cjHDS6"
+      },
+      {
+        "item": "Fine Chinois",
+        "link": "https://amzn.to/4sGKGZi"
+      },
+{
+        "item": "Basting Brush",
+        "link": "https://amzn.to/4tmw3fa"
+      },
+
+      {
+        "item": "Ring Mold",
+        "link": "https://amzn.to/4cQTZkJ"
+      }
+    ],
+
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the miso marinade by whisking miso, mirin, sake, and sugar until smooth."
+      },
+      {
+        "number": 2,
+        "instruction": "Coat the black cod and refrigerate for 12–24 hours.",
+        "note": "this develops deep umami flavor"
+      },
+      {
+        "number": 3,
+        "instruction": "Prepare Pickled Daikon using the sub-recipe.",
+        "note": "vacuum compression recommended"
+      },
+      {
+        "number": 4,
+        "instruction": "Prepare Yuzu Foam using the sub-recipe."
+      },
+      {
+        "number": 5,
+        "instruction": "Rinse excess marinade from cod, vacuum seal, and cook sous vide at 122°F (50°C) for 25 minutes."
+      },
+      {
+        "number": 6,
+        "instruction": "Press sushi rice into a flat sheet, cut into shapes, and fry at 375°F until golden and crispy."
+      },
+      {
+        "number": 7,
+        "instruction": "Remove cod from bag, pat dry, and brush lightly with miso glaze."
+      },
+      {
+        "number": 8,
+        "instruction": "Use a blowtorch to caramelize the surface until glossy."
+      },
+      {
+        "number": 9,
+        "instruction": "Plating Layer 1: Place crispy rice as the base."
+      },
+      {
+        "number": 10,
+        "instruction": "Plating Layer 2: Place cod on top and add pickled daikon curls."
+      },
+      {
+        "number": 11,
+        "instruction": "Plating Layer 3: Dispense yuzu foam beside the fish and garnish with microgreens and sesame seeds."
+      }
+    ],
+
+    "sub_recipes": [
+      {
+        "name": "Pickled Daikon",
+        "ingredients": [
+          {
+            "item": "Daikon radish",
+            "quantity": "1",
+            "note": "thinly sliced"
+          },
+          {
+            "item": "Rice vinegar",
+            "quantity": "1/2 cup"
+          },
+          {
+            "item": "Sugar",
+            "quantity": "2 tbsp"
+          },
+          {
+            "item": "Salt",
+            "quantity": "1 tsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Mix vinegar, sugar, and salt until dissolved."
+          },
+          {
+            "number": 2,
+            "instruction": "Combine with daikon and vacuum seal for instant compression.",
+            "note": "or marinate 1–2 hours traditionally"
+          }
+        ]
+      },
+      {
+        "name": "Yuzu Foam",
+        "ingredients": [
+          {
+            "item": "Yuzu juice",
+            "quantity": "1/2 cup"
+          },
+          {
+            "item": "Dashi",
+            "quantity": "1/2 cup"
+          },
+          {
+            "item": "Soy lecithin",
+            "quantity": "1 tsp"
+          },
+          {
+            "item": "Salt",
+            "quantity": "to taste"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Heat yuzu juice and dashi gently."
+          },
+          {
+            "number": 2,
+            "instruction": "Add lecithin and blend until foamy."
+          },
+          {
+            "number": 3,
+            "instruction": "Strain and charge in a siphon."
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "recipe": {
+    "name": "Grilled Peaches with Mascarpone Chantilly, Balsamic Reduction & Almond Praline",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/grilledpeaches.png",
+    "yield": "4 plates",
+    "description": "A refined dessert balancing caramelized peaches, airy mascarpone cream, and crunchy almond praline with a tangy balsamic finish.",
+    "category": "Dessert",
+    "keywords": "peaches, grilled fruit, dessert, mascarpone, elegant",
+    "winePairings": [
+      {
+        "name": "Moscato d'Asti",
+        "notes": "Light sweetness and bubbles complement the peaches."
+      },
+      {
+        "name": "Sauternes",
+        "notes": "Rich honeyed notes elevate the caramelized fruit."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Ripe peaches",
+        "quantity": "4",
+        "note": "halved and pitted"
+      },
+      {
+        "item": "Honey",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Unsalted butter",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Vanilla extract",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "item": "Flaky sea salt",
+        "quantity": "pinch"
+      },
+      {
+        "item": "Mascarpone",
+        "quantity": "1/2 cup"
+      },
+      {
+        "item": "Heavy cream",
+        "quantity": "1/4 cup"
+      },
+      {
+        "item": "Powdered sugar",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Lemon zest",
+        "quantity": "from 1/2 lemon"
+      },
+      {
+        "item": "Sliced almonds",
+        "quantity": "1/2 cup"
+      },
+      {
+        "item": "Sugar",
+        "quantity": "1/4 cup"
+      },
+      {
+        "item": "Water",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Balsamic vinegar",
+        "quantity": "1/2 cup"
+      },
+      {
+        "item": "Fresh mint",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Extra virgin olive oil",
+        "quantity": "for finishing"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Cast Iron Grill Pan",
+        "link": "https://amzn.to/3ObTjgD"
+      },
+      {
+        "item": "Immersion Blender",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Fine Mesh Sieve",
+        "link": "https://amzn.to/4cxtkIB"
+      },
+{
+        "item": "Piping Tools",
+        "link": "https://amzn.to/3OOZgQI"
+      },
+
+      {
+        "item": "Offset Spatula",
+        "link": "https://amzn.to/42ii264"
+      },
+      {
+        "item": "Squeeze Bottle",
+        "link": "https://amzn.to/3QkAbxs"
+      },
+      {
+        "item": "Kitchen Torch",
+        "link": "https://amzn.to/42eE89w"
+      },
+      {
+        "item": "Digital Thermometer",
+        "link": "https://amzn.to/4vDU7eX"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the balsamic reduction by simmering balsamic vinegar over low heat until reduced by half and syrupy.",
+        "note": "It should coat the back of a spoon."
+      },
+      {
+        "number": 2,
+        "instruction": "Make the almond praline by heating sugar and water until golden amber, then stir in sliced almonds.",
+        "note": "Spread thin and allow to cool completely."
+      },
+      {
+        "number": 3,
+        "instruction": "Crush the cooled praline into a mix of fine crumbs and small shards.",
+        "note": "Use a sieve for refined texture."
+      },
+      {
+        "number": 4,
+        "instruction": "Prepare mascarpone chantilly by blending mascarpone, cream, powdered sugar, and lemon zest until smooth and airy.",
+        "note": "Do not overmix."
+      },
+      {
+        "number": 5,
+        "instruction": "Mix honey, butter, vanilla, and salt, then brush onto the cut side of the peaches."
+      },
+      {
+        "number": 6,
+        "instruction": "Heat a cast iron grill pan until very hot and place peaches cut-side down.",
+        "note": "Do not move for 3–4 minutes to develop caramelization."
+      },
+      {
+        "number": 7,
+        "instruction": "Flip peaches and baste with remaining honey-butter mixture."
+      },
+      {
+        "number": 8,
+        "instruction": "Use a kitchen torch to lightly caramelize for a glossy finish.",
+        "note": "Optional but recommended."
+      },
+      {
+        "number": 9,
+        "instruction": "Spread a swoosh of mascarpone cream on the plate using an offset spatula."
+      },
+      {
+        "number": 10,
+        "instruction": "Place grilled peaches slightly off-center on the plate."
+      },
+      {
+        "number": 11,
+        "instruction": "Pipe or spoon additional mascarpone cream onto the peaches."
+      },
+      {
+        "number": 12,
+        "instruction": "Sprinkle almond praline crumble in a controlled, natural pattern."
+      },
+      {
+        "number": 13,
+        "instruction": "Dot balsamic reduction around the plate using a squeeze bottle."
+      },
+      {
+        "number": 14,
+        "instruction": "Garnish with fresh mint and a light drizzle of olive oil."
+      },
+      {
+        "number": 15,
+        "instruction": "Clean plate edges and serve immediately."
+      }
+    ],
+    "sub_recipes": []
+  }
 }
   ]
 }

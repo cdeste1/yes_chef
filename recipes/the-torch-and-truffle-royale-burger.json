@@ -1,0 +1,328 @@
+{
+  "name": "The Torch and Truffle Royale Burger",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/torchtruffleburger.png",
+  "description": "A sous vide-perfected Wagyu-style patty, flame finished with a torch for a delicate, smoky crust, layered with melted cheese and silky caramelized onion puree.",
+  "category": "Main",
+  "keywords": "Burger",
+  "ingredients": [
+    {
+      "item": "Wagyu or high-quality beef patties",
+      "quantity": "2",
+      "note": "6 oz each"
+    },
+    {
+      "item": "Brioche Buns",
+      "quantity": "2"
+    },
+    {
+      "item": "Salt & freshly cracked black pepper",
+      "quantity": "1",
+      "note": "To Taste"
+    },
+    {
+      "item": "Comté or Gruyère cheese",
+      "quantity": "2 slices"
+    },
+    {
+      "item": "Yellow Onions",
+      "quantity": "2",
+      "note": "Sliced"
+    },
+    {
+      "item": "Butter",
+      "quantity": "2 tsp"
+    },
+    {
+      "item": "Balsamic Vinegar",
+      "quantity": "Splash"
+    },
+    {
+      "item": "Mayonnaise",
+      "quantity": "1/2 Cup"
+    },
+    {
+      "item": "Truffle Oil",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Dijon Mustard",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Garlic",
+      "quantity": "1 Clove",
+      "note": "Minced"
+    },
+    {
+      "item": "Lemon Juice",
+      "quantity": "A few drops"
+    },
+    {
+      "item": "Butter Lettuce",
+      "quantity": "2 Pieces"
+    },
+    {
+      "item": "Tomato Slices",
+      "quantity": "2 Slices"
+    },
+    {
+      "item": "Microgreens",
+      "quantity": "1 handful"
+    },
+    {
+      "item": "Foie Gras or Sautéed Mushrooms",
+      "quantity": "To Taste",
+      "note": "Optional"
+    },
+    {
+      "item": "Balsamic Reduction",
+      "quantity": "To Taste"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Vacuum Sealer",
+      "link": "https://amzn.to/4ufPoPh"
+    },
+    {
+      "item": "Sous Vide Precision Cooker",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/4cjQK5p"
+    },
+    {
+      "item": "Squeeze Bottles",
+      "link": "https://amzn.to/3QkAbxs"
+    },
+    {
+      "item": "Torch",
+      "link": "https://amzn.to/42eE89w"
+    },
+    {
+      "item": "Burger Mold",
+      "link": "https://amzn.to/4tk0RND"
+    },
+    {
+      "item": "Microplane",
+      "link": "https://amzn.to/4mF1vT9"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Sous Vide the Patties",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 2,
+      "instruction": "Caramelized Onion Purée",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 3,
+      "instruction": "Truffle Aioli",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 4,
+      "instruction": "Sear + Torch Finish",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 5,
+      "instruction": "Optional Luxury Layer",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 6,
+      "instruction": "Toast the Brioche Buns.",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 7,
+      "instruction": "Structured Assembly",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 8,
+      "instruction": "Plate Like a Michelin Chef.",
+      "note": "see sub-recipe"
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Sous Vide the Patties (Perfect interior)",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Lightly season patties."
+        },
+        {
+          "number": 2,
+          "instruction": "Vacuum seal using Vacuum Sealer Machine"
+        },
+        {
+          "number": 3,
+          "instruction": "Cook in water bath with Sous Vide Precision Cooker: 131°F (55°C) for 45 minutes."
+        }
+      ]
+    },
+    {
+      "name": "Caramelized Onion Purée (Silky refinement)",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Cook onions in butter over low heat for 25–30 minutes."
+        },
+        {
+          "number": 2,
+          "instruction": "Add sugar halfway; finish with balsamic."
+        },
+        {
+          "number": 3,
+          "instruction": "Blend until smooth."
+        },
+        {
+          "number": 4,
+          "instruction": "Strain through fine mesh strainer."
+        }
+      ]
+    },
+    {
+      "name": "Truffle Aioli",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix mayonnaise, truffle oil,  Dijon mustard, garlic and lemon juice"
+        },
+        {
+          "number": 2,
+          "instruction": "Strain for smoothness."
+        },
+        {
+          "number": 3,
+          "instruction": "Transfer to squeeze bottle"
+        }
+      ]
+    },
+    {
+      "name": "Sear + Torch Finish ??",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Remove patties from sous vide, pat completely dry."
+        },
+        {
+          "number": 2,
+          "instruction": "Sear in very hot pan (30–45 sec per side)."
+        },
+        {
+          "number": 3,
+          "instruction": "Add cheese during final seconds"
+        },
+        {
+          "number": 4,
+          "instruction": "Use hand torch to melt the cheese evenly and add controlled char"
+        }
+      ]
+    },
+    {
+      "name": "Optional Luxury Layer",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Quickly sear foie gras (30 sec per side)"
+        },
+        {
+          "number": 2,
+          "instruction": "Sauté mushrooms in butter + thyme until golden"
+        }
+      ]
+    },
+    {
+      "name": "Toast the Brioche Buns",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Butter cut sides"
+        },
+        {
+          "number": 2,
+          "instruction": "Toast until golden and crisp"
+        }
+      ]
+    },
+    {
+      "name": "Structured Assembly (Using Ring Mold)",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Place ring mold on plate and build"
+        },
+        {
+          "number": 2,
+          "instruction": "Bottom bun + thin truffle aioli layer."
+        },
+        {
+          "number": 3,
+          "instruction": "Pipe onion purée neatly."
+        },
+        {
+          "number": 4,
+          "instruction": "Add lettuce"
+        },
+        {
+          "number": 5,
+          "instruction": "Place burger patty with melted cheese"
+        },
+        {
+          "number": 6,
+          "instruction": "Add foie gras and/or mushrooms"
+        },
+        {
+          "number": 7,
+          "instruction": "Tomato slice"
+        },
+        {
+          "number": 8,
+          "instruction": "Microgreens"
+        },
+        {
+          "number": 9,
+          "instruction": "Top bun"
+        },
+        {
+          "number": 10,
+          "instruction": "Carefully remove ring mold for a clean, vertical stack"
+        }
+      ]
+    },
+    {
+      "name": "Michelin-Level Plating",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Place burger slightly off-center on a stone or matte plate"
+        },
+        {
+          "number": 2,
+          "instruction": "Pipe aioli dots using squeeze bottle"
+        },
+        {
+          "number": 3,
+          "instruction": "Add balsamic reduction drops around plate"
+        },
+        {
+          "number": 4,
+          "instruction": "Serve fries in a small metal cup"
+        },
+        {
+          "number": 5,
+          "instruction": "Garnish with microgreens, microplaned cheese (using Microplane), and Flaky Salt"
+        }
+      ]
+    }
+  ]
+}

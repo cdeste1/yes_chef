@@ -1,0 +1,144 @@
+{
+  "name": "Baked camembert with roasted grapes, walnuts, rosemary",
+  "source": "adapted from: Classic French Bistro",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/BakedCamembert_Grapes_Walnuts.webp",
+  "chef": " Alain Ducasse",
+  "yield": "4",
+  "description": "Gooey, melted camembert is pierced with aromatic rosemary sprigs and topped with toasted walnuts and roasted grapes",
+  "category": "Starter",
+  "keywords": "cheese, grapes, appetizer, dessert",
+  "ingredients": [
+    {
+      "item": "Plain White Flour",
+      "quantity": "3 1/2 ounces"
+    },
+    {
+      "item": "Pink Peppercorns",
+      "quantity": "2 teaspoons",
+      "note": "crushed"
+    },
+    {
+      "item": "Salt",
+      "quantity": "pinch"
+    },
+    {
+      "item": "Extra-virgin olive oil",
+      "quantity": "1 teaspoon"
+    },
+    {
+      "item": "Water",
+      "quantity": "1 1/3 fluid ounces"
+    },
+    {
+      "item": "Flaky Sea Salt",
+      "quantity": "pinch"
+    },
+    {
+      "item": "Camembert",
+      "quantity": "1"
+    },
+    {
+      "item": "Rosemary",
+      "quantity": "2 sprigs",
+      "note": "scut into 1 inch pieces"
+    },
+    {
+      "item": "Walnuts",
+      "quantity": "handful"
+    },
+    {
+      "item": "Red Grapes",
+      "quantity": "1 bunch",
+      "note": "small grapes are preferred"
+    },
+    {
+      "item": "Vegetable Oil",
+      "quantity": "for drizzling"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Preheat oven to 350°F (180°C)"
+    },
+    {
+      "number": 2,
+      "instruction": "Place flour, half the pink peppercorns, and salt into a bowl."
+    },
+    {
+      "number": 3,
+      "instruction": "Add the oil and water and stir together until a dough forms"
+    },
+    {
+      "number": 4,
+      "instruction": "Knead the dough until smooth.  Cover and rest for 10 minutes"
+    },
+    {
+      "number": 5,
+      "instruction": "Place the grapes on a tray and drizzle with vegetable oil."
+    },
+    {
+      "number": 6,
+      "instruction": "Roast for 10 minutes or until skin splits and grapes are oozing."
+    },
+    {
+      "number": 7,
+      "instruction": "Open the Camembert box and remove the paper wrapping from the cheese."
+    },
+    {
+      "number": 8,
+      "instruction": "Place Camembert back into the box and place on an ovenproof tray "
+    },
+    {
+      "number": 9,
+      "instruction": "Cut diagonal slashes into the top of the cheese."
+    },
+    {
+      "number": 10,
+      "instruction": "Place the rosemary into the slashes and spring with walnuts."
+    },
+    {
+      "number": 11,
+      "instruction": "Drizzle with some vegetable oil."
+    },
+    {
+      "number": 12,
+      "instruction": "Roll out the dough so it is 2-3 mm (about 1 inch) thick"
+    },
+    {
+      "number": 13,
+      "instruction": "Score the dough into triangle shapes.",
+      "note": "the triangles do not need to be separated - it will automatically happen in the oven"
+    },
+    {
+      "number": 14,
+      "instruction": "Transfer to a flat baking tray and brush with olive oil"
+    },
+    {
+      "number": 15,
+      "instruction": "Sprinkle with sea salt and remaining pink peppercorns"
+    },
+    {
+      "number": 16,
+      "instruction": "Bake for 5-8 minutes"
+    },
+    {
+      "number": 17,
+      "instruction": "Once the grapes and crackers are done, put the Camembert into the oven"
+    },
+    {
+      "number": 18,
+      "instruction": "Bake for 10-15 minutes"
+    },
+    {
+      "number": 19,
+      "instruction": "Add the roasted graps on top and serve with crackers"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Saffron Citrus Americano",
+  "source": "adapted from Il Ristorante (Paris)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/SaffronCitrusAmericano.webp",
+  "chef": " Niko Romito",
+  "yield": "1",
+  "description": "A bright saffron-infused aperitif with bitter orange and sparkling tonic.",
+  "category": "Cocktail",
+  "keywords": "americano, aperitif, saffron, citrus, bitter",
+  "ingredients": [
+    {
+      "item": "Campari",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Sweet Vermouth",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Saffron Citrus Syrup",
+      "quantity": "1/2 ounce",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Tonic Water",
+      "quantity": "2 ounces"
+    },
+    {
+      "item": "Orange Peel",
+      "quantity": "1, expressed"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Ice Mold",
+      "link": "https://amzn.to/47QsXGH"
+    },
+    {
+      "item": "Fine Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Orange Peeler",
+      "link": "https://amzn.to/4i6MFT7"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Build Campari, sweet vermouth, and Saffron Citrus Syrup over ice."
+    },
+    {
+      "number": 2,
+      "instruction": "Top with tonic water."
+    },
+    {
+      "number": 3,
+      "instruction": "Stir lightly and express orange peel over the surface."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Saffron Citrus Syrup",
+      "ingredients": [
+        {
+          "item": "Sugar",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Water",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Lemon Peel",
+          "quantity": "Strips from 1 lemon"
+        },
+        {
+          "item": "Saffron Threads",
+          "quantity": "8–10 threads"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine water and sugar and bring to a simmer."
+        },
+        {
+          "number": 2,
+          "instruction": "Add lemon peel and saffron; steep 15 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain and refrigerate."
+        }
+      ]
+    }
+  ]
+}

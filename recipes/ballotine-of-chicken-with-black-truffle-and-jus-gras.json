@@ -1,0 +1,179 @@
+{
+  "name": "Ballotine of Chicken with Black Truffle and Jus Gras",
+  "source": "adapted from Maison Bocuse",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/BallotineBresse_Truffle_JusGras.jpg",
+  "chef": " Paul Bocuse",
+  "yield": "Serves 4",
+  "description": "A luxurious Bresse chicken ballotine infused with black truffle, served with a rich jus gras made from roasted chicken bones, vegetables, and truffle. Elegant, earthy, and perfect for special occasions.",
+  "category": "Main",
+  "keywords": "bresse chicken, chicken, ballotine, truffle, jus gras, gourmet, french",
+  "winePairings": [
+    {
+      "name": "White Burgundy (Mâcon-Villages)",
+      "notes": "Enough body for the jus; bright mineral notes for truffle."
+    },
+    {
+      "name": "Montrachet Grand Cru",
+      "notes": "Benchmark pairing with truffle + luxurious poultry."
+    }
+  ],
+  "ingredients": [],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Kitchen twine",
+      "link": "https://amzn.to/44174Dl"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Slice the cooked ballotine into thick medallions."
+    },
+    {
+      "number": 2,
+      "instruction": "Spoon a generous amount of jus gras on the plate."
+    },
+    {
+      "number": 3,
+      "instruction": "Arrange chicken slices on top. Garnish with micro herbs, truffle slices, or edible flowers if desired. Serve immediately."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Bresse Chicken Ballotine",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Bresse chicken",
+          "quantity": "1",
+          "note": "about 3–4 lbs, skin on.  If you cannot find a Bresse chicken, use a high quality whole chicken.  Boneless skin on chicken breasts may also be used if deboning a chicken is difficult"
+        },
+        {
+          "item": "Black truffle",
+          "quantity": "150 g",
+          "note": "fresh or preserved in brine"
+        },
+        {
+          "item": "Unsalted butter",
+          "quantity": "100 g",
+          "note": "softened"
+        },
+        {
+          "item": "Fresh thyme leaves",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Salt and white pepper",
+          "quantity": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Debone the chicken, keeping the skin intact to form a flat piece of meat.",
+          "note": "if using a chicken breast, butterfly andd flatten with a meat tenderizer."
+        },
+        {
+          "number": 2,
+          "instruction": "Prepare truffle butter: finely mince 50 g of truffle and mix with softened butter, thyme, salt, and pepper."
+        },
+        {
+          "number": 3,
+          "instruction": "Spread truffle butter evenly over the flattened chicken. Place remaining truffle slices on top."
+        },
+        {
+          "number": 4,
+          "instruction": "Roll chicken tightly and secure with kitchen twine or sausage netting."
+        },
+        {
+          "number": 5,
+          "instruction": "Cook: either poach in a water bath at 160°F (70°C) for 30–40 min, or roast in oven at 350°C (180°C) for 35–45 min until internal temp reaches 150°F."
+        },
+        {
+          "number": 6,
+          "instruction": "Remove from heat and rest 10 minutes before slicing carefully."
+        }
+      ]
+    },
+    {
+      "name": "Jus Gras (Rich Chicken and Truffle Sauce)",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Chicken bones and wings",
+          "quantity": "",
+          "note": "reserved from deboning."
+        },
+        {
+          "item": "Carrot",
+          "quantity": "1 small",
+          "note": "chopped"
+        },
+        {
+          "item": "Onion",
+          "quantity": "1 small",
+          "note": "chopped"
+        },
+        {
+          "item": "Celery stalk",
+          "quantity": "1",
+          "note": "chopped"
+        },
+        {
+          "item": "Garlic cloves",
+          "quantity": "2",
+          "note": "smashed"
+        },
+        {
+          "item": "Dry white wine",
+          "quantity": "3/4 cup"
+        },
+        {
+          "item": "Chicken stock",
+          "quantity": "2 cups"
+        },
+        {
+          "item": "Butter",
+          "quantity": "4 tablespoons",
+          "note": "cold, cubed"
+        },
+        {
+          "item": "Black truffle",
+          "quantity": "30 g",
+          "note": "finely diced"
+        },
+        {
+          "item": "Salt and white pepper",
+          "quantity": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Roast chicken bones, wings, and vegetables at 400°F (205°C) until browned (20–25 min).",
+          "note": "if using chicken breasts, skip this step."
+        },
+        {
+          "number": 2,
+          "instruction": "Deglaze pan with white wine and reduce by half."
+        },
+        {
+          "number": 3,
+          "instruction": "Add chicken stock, simmer 20–30 min. Strain and reduce to concentrate flavor."
+        },
+        {
+          "number": 4,
+          "instruction": "Off heat, whisk in cold butter cubes to emulsify."
+        },
+        {
+          "number": 5,
+          "instruction": "Stir in finely diced black truffle and season to taste."
+        }
+      ]
+    }
+  ]
+}

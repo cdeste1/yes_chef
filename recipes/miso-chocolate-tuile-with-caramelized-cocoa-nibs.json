@@ -1,0 +1,201 @@
+{
+  "name": "Miso Chocolate Tuile with Caramelized Cocoa Nibs",
+  "source": "adapted from Modern Pastry",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/misochocolatetuile_carmalizednibs.webp",
+  "chef": " Dominique Ansel",
+  "yield": "Serves 6–8",
+  "description": "A delicate, lacy chocolate tuile infused with umami-rich miso, paired with crunchy caramelized cocoa nibs — an interplay of sweet, salty, and bitter elements.",
+  "category": "Dessert",
+  "keywords": "miso, chocolate, tuile, cocoa nibs, caramel, dessert, modernist, pastry",
+  "winePairings": [
+    {
+      "name": "Madeira Sercial",
+      "notes": "Nutty, salty-sweet profile harmonizes with miso/chocolate."
+    },
+    {
+      "name": "Madeira Malmsey 20-year",
+      "notes": "Dense caramel and spice enhance deep cocoa notes."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Miso chocolate tuiles",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Caramelized cocoa nibs",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Dark chocolate ganache",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Cocoa Powder",
+      "note": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Flour Sifter",
+      "link": "https://amzn.to/4p1XvMH"
+    },
+    {
+      "item": "Silicone baking mat",
+      "link": "https://amzn.to/4qSvb0K"
+    },
+    {
+      "item": "Offset spatula",
+      "link": "https://amzn.to/4hTkzed"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Plate the tuile alongside a quenelle (smooth, oval-shaped scoop) of chocolate ganache."
+    },
+    {
+      "number": 2,
+      "instruction": "Scatter caramelized cocoa nibs over or around for texture and contrast."
+    },
+    {
+      "number": 3,
+      "instruction": "Optionally dust with cocoa powder."
+    },
+    {
+      "number": 4,
+      "instruction": "Serve immediately for maximum crispness and aromatic impact."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Miso Chocolate Tuile",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Unsalted butter",
+          "quantity": "50 g",
+          "note": "melted"
+        },
+        {
+          "item": "Powdered sugar",
+          "quantity": "50 g"
+        },
+        {
+          "item": "All-purpose flour",
+          "quantity": "25 g"
+        },
+        {
+          "item": "Cocoa powder",
+          "quantity": "10 g"
+        },
+        {
+          "item": "Egg white",
+          "quantity": "1"
+        },
+        {
+          "item": "White miso paste",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "Pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat oven to 170°C (340°F) and line a baking tray with a silicone mat."
+        },
+        {
+          "number": 2,
+          "instruction": "Whisk together melted butter, powdered sugar, miso paste, and egg white until smooth."
+        },
+        {
+          "number": 3,
+          "instruction": "Sift in flour, cocoa powder, and a pinch of salt; mix until combined."
+        },
+        {
+          "number": 4,
+          "instruction": "Spread thinly onto silicone mat using an offset spatula into desired shapes (rounds or ovals)."
+        },
+        {
+          "number": 5,
+          "instruction": "Bake for 7–8 minutes until edges darken slightly and tuile is lacy."
+        },
+        {
+          "number": 6,
+          "instruction": "While hot, drape over a rolling pin or mold for a curved shape if desired. Cool until crisp."
+        }
+      ]
+    },
+    {
+      "name": "Caramelized Cocoa Nibs",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Cocoa nibs",
+          "quantity": "50 g"
+        },
+        {
+          "item": "Granulated sugar",
+          "quantity": "30 g"
+        },
+        {
+          "item": "Water",
+          "quantity": "10 mL"
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "Pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine sugar and water in a small pan and heat until sugar dissolves."
+        },
+        {
+          "number": 2,
+          "instruction": "Add cocoa nibs and stir continuously until sugar caramelizes and coats nibs evenly."
+        },
+        {
+          "number": 3,
+          "instruction": "Remove from heat, spread on parchment paper, and sprinkle with a pinch of sea salt."
+        },
+        {
+          "number": 4,
+          "instruction": "Cool completely and break apart any clusters."
+        }
+      ]
+    },
+    {
+      "name": "Dark Chocolate Ganache",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Dark chocolate (70%)",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Cream",
+          "quantity": "50 mL"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Heat cream until just simmering, pour over chocolate, stir until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Chill slightly to thicken."
+        }
+      ]
+    }
+  ]
+}

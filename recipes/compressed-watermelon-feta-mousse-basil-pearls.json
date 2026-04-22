@@ -1,0 +1,182 @@
+{
+  "name": "Compressed Watermelon, Feta Mousse & Basil Pearls",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/compressed_watermelon.png",
+  "yield": "4 plates",
+  "description": "A refined sweet-savory side dish featuring vacuum-compressed watermelon, airy feta mousse, and modern basil pearls for a vibrant, Michelin-style presentation.",
+  "category": "Sides",
+  "keywords": "watermelon, modernist, vegetarian, fine dining, summer",
+  "winePairings": [
+    {
+      "name": "Sauvignon Blanc",
+      "notes": "Bright acidity complements the herbal basil and cuts through the feta richness."
+    },
+    {
+      "name": "Dry Rosé",
+      "notes": "Fresh fruit notes enhance the watermelon while balancing the saltiness of the dish."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Seedless watermelon",
+      "quantity": "1 small",
+      "note": "cut into uniform cubes"
+    },
+    {
+      "item": "Lime zest",
+      "quantity": "1 teaspoon"
+    },
+    {
+      "item": "Rice vinegar",
+      "quantity": "1 tablespoon"
+    },
+    {
+      "item": "Salt",
+      "quantity": "to taste"
+    },
+    {
+      "item": "Feta cheese",
+      "quantity": "7 ounces"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "1/2 cup"
+    },
+    {
+      "item": "Greek yogurt",
+      "quantity": "1/4 cup"
+    },
+    {
+      "item": "Lemon juice",
+      "quantity": "1 teaspoon"
+    },
+    {
+      "item": "Fresh basil leaves",
+      "quantity": "1 bunch"
+    },
+    {
+      "item": "Neutral oil",
+      "quantity": "1 cup"
+    },
+    {
+      "item": "Sodium alginate",
+      "quantity": "2 grams"
+    },
+    {
+      "item": "Calcium chloride",
+      "quantity": "5 grams"
+    },
+    {
+      "item": "Water",
+      "quantity": "2 cups"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Chamber vacuum sealer",
+      "link": "https://amzn.to/3QzSjn7"
+    },
+    {
+      "item": "Immersion circulator",
+      "link": "https://amzn.to/48eajcJ"
+    },
+    {
+      "item": "High-speed blender",
+      "link": "https://amzn.to/4vFnDAU"
+    },
+    {
+      "item": "Fine chinois",
+      "link": "https://amzn.to/3Or3fTx"
+    },
+    {
+      "item": "Precision scale",
+      "link": "https://amzn.to/3OgUWtr"
+    },
+    {
+      "item": "Squeeze bottles",
+      "link": "https://amzn.to/4ckpKma"
+    },
+    {
+      "item": "Pipette",
+      "link": "https://amzn.to/4czjqWC"
+    },
+    {
+      "item": "Spherification bath setup",
+      "link": "https://amzn.to/4cqmp3C"
+    },
+    {
+      "item": "Ring molds",
+      "link": "https://amzn.to/4clvOe7"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Cut watermelon into uniform cubes or cylinders for clean plating."
+    },
+    {
+      "number": 2,
+      "instruction": "Season lightly with lime zest, rice vinegar, and salt."
+    },
+    {
+      "number": 3,
+      "instruction": "Place watermelon in a chamber vacuum bag and seal under full vacuum to compress."
+    },
+    {
+      "number": 4,
+      "instruction": "Refrigerate for at least 1 hour to enhance texture and flavor."
+    },
+    {
+      "number": 5,
+      "instruction": "Blend feta, cream, yogurt, and lemon juice until completely smooth."
+    },
+    {
+      "number": 6,
+      "instruction": "Pass the mixture through a fine chinois for a silky mousse texture."
+    },
+    {
+      "number": 7,
+      "instruction": "Transfer mousse to a squeeze bottle and refrigerate."
+    },
+    {
+      "number": 8,
+      "instruction": "Blanch basil leaves briefly, then shock in ice water."
+    },
+    {
+      "number": 9,
+      "instruction": "Blend basil with neutral oil until vibrant green, then strain."
+    },
+    {
+      "number": 10,
+      "instruction": "Mix a portion of basil oil with sodium alginate using a blender."
+    },
+    {
+      "number": 11,
+      "instruction": "Prepare a calcium chloride bath with water."
+    },
+    {
+      "number": 12,
+      "instruction": "Using a pipette, drop basil mixture into the calcium bath to form pearls."
+    },
+    {
+      "number": 13,
+      "instruction": "Allow pearls to set for 30 seconds, then remove and rinse in clean water."
+    },
+    {
+      "number": 14,
+      "instruction": "Use a ring mold to plate the compressed watermelon neatly."
+    },
+    {
+      "number": 15,
+      "instruction": "Pipe dots or quenelles of feta mousse around the plate."
+    },
+    {
+      "number": 16,
+      "instruction": "Add basil pearls and drizzle basil oil artistically."
+    },
+    {
+      "number": 17,
+      "instruction": "Finish with micro herbs or fine zest for garnish and serve immediately."
+    }
+  ],
+  "sub_recipes": []
+}

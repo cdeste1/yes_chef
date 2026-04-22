@@ -1,0 +1,257 @@
+{
+  "name": "Avocado Royale",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/avocado_royale.png",
+  "yield": "2 plates",
+  "description": "An elegant avocado-centric brunch course featuring vacuum-compressed Hass avocado carpaccio, sweet Dungeness crab, a custardy 63°C sous-vide quail egg, and a light truffle-infused avocado espuma.",
+  "category": "Brunch",
+  "keywords": "avocado, crab, quail egg, brunch, fine dining",
+  "winePairings": [
+    {
+      "name": "Chablis or crisp Chardonnay",
+      "notes": "Mineral acidity cuts through the rich avocado and crab while highlighting the truffle notes."
+    },
+    {
+      "name": "Rosé Champagne",
+      "notes": "Bubbly elegance complements the luxurious textures and caviar pops."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Ripe Hass avocados",
+      "quantity": "2 large"
+    },
+    {
+      "item": "Fresh Dungeness crab meat",
+      "quantity": "100 g",
+      "note": "cooked and picked"
+    },
+    {
+      "item": "Quail eggs",
+      "quantity": "4",
+      "note": "very fresh, room temperature"
+    },
+    {
+      "item": "Fresh black truffle",
+      "quantity": "30 g"
+    },
+    {
+      "item": "Egg yolks",
+      "quantity": "2 large",
+      "note": "for espuma base"
+    },
+    {
+      "item": "Neutral oil or clarified butter",
+      "quantity": "150 g",
+      "note": "warm"
+    },
+    {
+      "item": "Yuzu kosho",
+      "quantity": "1 tsp",
+      "note": "or fresh yuzu zest + pinch of chili"
+    },
+    {
+      "item": "Fresh yuzu juice",
+      "quantity": "1",
+      "note": "or Meyer lemon"
+    },
+    {
+      "item": "Ossetra caviar",
+      "quantity": "20 g"
+    },
+    {
+      "item": "Micro shiso or chervil leaves",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Edible 24K gold leaf",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Yuzu gel or reduction",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Fine sea salt and white pepper",
+      "quantity": "to season"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Vacuum sealer",
+      "link": "https://amzn.to/4tlz9ji"
+    },
+    {
+      "item": "Sous-vide immersion circulator",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Gourmet Whip siphon",
+      "link": "https://amzn.to/4tiCiAl"
+    },
+    {
+      "item": "Plating ring molds (3-inch)",
+      "link": "https://amzn.to/4cQTZkJ"
+    },
+    {
+      "item": "Truffle slicer",
+      "link": "https://amzn.to/4tpFx9m"
+    },
+    {
+      "item": "Micro tweezers",
+      "link": "https://amzn.to/4eve5SX"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare the compressed avocado carpaccio and avocado-truffle espuma",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 2,
+      "instruction": "Sous-vide the quail eggs",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 3,
+      "instruction": "Gently warm the Dungeness crab meat with a touch of yuzu juice and salt. Do not overcook."
+    },
+    {
+      "number": 4,
+      "instruction": "Peel the sous-vide quail eggs carefully just before plating."
+    },
+    {
+      "number": 5,
+      "instruction": "Season components lightly with salt and white pepper as needed."
+    },
+    {
+      "number": 6,
+      "instruction": "Plating Layer 1: Place the compressed avocado carpaccio disc in the center of the plate using a 3-inch ring mold."
+    },
+    {
+      "number": 7,
+      "instruction": "Plating Layer 2: Add a thin even layer of warm crab meat on the avocado base."
+    },
+    {
+      "number": 8,
+      "instruction": "Plating Layer 3: Carefully place one peeled sous-vide quail egg on top of the crab. Remove the ring mold."
+    },
+    {
+      "number": 9,
+      "instruction": "Dispense generous clouds of avocado-truffle espuma over and around the egg with the iSi siphon."
+    },
+    {
+      "number": 10,
+      "instruction": "Spoon Ossetra caviar in an elegant line across the espuma. Shave remaining fresh black truffle generously over the plate."
+    },
+    {
+      "number": 11,
+      "instruction": "Finish with tiny dots of yuzu gel, micro shiso leaves, and delicate flakes of edible gold leaf applied with micro tweezers."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Compressed Avocado Carpaccio",
+      "ingredients": [
+        {
+          "item": "Ripe Hass avocados",
+          "quantity": "2 large"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Peel and thinly slice each avocado into ?-inch rounds using a sharp knife or mandoline."
+        },
+        {
+          "number": 2,
+          "instruction": "Arrange overlapping slices inside a 3-inch ring mold on the base of a vacuum bag. Top with another layer of slices to enclose."
+        },
+        {
+          "number": 3,
+          "instruction": "Place in the chamber vacuum sealer and apply full vacuum + 2-second seal. Compress for 30 seconds."
+        },
+        {
+          "number": 4,
+          "instruction": "Gently remove the ring mold. The avocado will hold a perfect glossy disc. Chill for 15 minutes."
+        }
+      ]
+    },
+    {
+      "name": "Avocado-Truffle Espuma",
+      "ingredients": [
+        {
+          "item": "Egg yolks",
+          "quantity": "2 large"
+        },
+        {
+          "item": "Reserved avocado flesh",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Neutral oil or clarified butter",
+          "quantity": "150 g",
+          "note": "warm"
+        },
+        {
+          "item": "Yuzu juice",
+          "quantity": "from 1 yuzu"
+        },
+        {
+          "item": "Yuzu kosho",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Fresh black truffle",
+          "quantity": "10 g",
+          "note": "finely grated"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "In a double boiler, whisk egg yolks with yuzu juice until pale and thickened."
+        },
+        {
+          "number": 2,
+          "instruction": "Slowly emulsify in the warm oil to form a light base. Blend in reserved avocado flesh and yuzu kosho until silky."
+        },
+        {
+          "number": 3,
+          "instruction": "Season with salt and white pepper. Grate 10 g fresh black truffle directly into the mixture."
+        },
+        {
+          "number": 4,
+          "instruction": "Transfer to iSi siphon, charge with two N?O cartridges, shake vigorously 12–15 times. Keep warm in 50°C water bath."
+        }
+      ]
+    },
+    {
+      "name": "Sous-Vide Quail Eggs",
+      "ingredients": [
+        {
+          "item": "Quail eggs",
+          "quantity": "4"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Set sous-vide immersion circulator to exactly 63°C / 145°F."
+        },
+        {
+          "number": 2,
+          "instruction": "Gently lower quail eggs (in shell) into the stabilized water bath."
+        },
+        {
+          "number": 3,
+          "instruction": "Cook for 18 minutes for a tender white and custardy, runny yolk."
+        },
+        {
+          "number": 4,
+          "instruction": "Shock briefly in ice water. Peel carefully just before plating."
+        }
+      ]
+    }
+  ]
+}

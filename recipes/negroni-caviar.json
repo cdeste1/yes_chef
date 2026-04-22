@@ -1,0 +1,151 @@
+{
+  "name": "Negroni Caviar",
+  "source": "adapted from The Connaught Bar",
+  "yield": "Serves 2",
+  "chef": " Giorgio Bargiani",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/negronicaviarorangegel.webp",
+  "description": "A molecular take on the classic Negroni: Campari–gin caviar served over a chilled orange gel.",
+  "category": "Cocktail",
+  "keywords": "negroni, spheres, molecular mixology",
+  "ingredients": [
+    {
+      "item": "Negroni Caviar",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Orange Gel",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Dehydrated Blood Orange",
+      "quantity": "1 slice",
+      "note": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Sodium Alginate",
+      "link": "https://amzn.to/480JdpD"
+    },
+    {
+      "item": "Calcium lactate",
+      "link": "https://amzn.to/4ovHte4"
+    },
+    {
+      "item": "Agar-agar",
+      "link": "https://amzn.to/47ZZcEu"
+    },
+    {
+      "item": "Fine Sieve",
+      "link": "https://amzn.to/4pb7orr"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Spoon a thin disk or teardrop of the orange gel on a plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Carefully spoon the negroni caviar on top of the orange gel."
+    },
+    {
+      "number": 3,
+      "instruction": "Garnish with a dehydrated blood orange."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Negroni Caviar",
+      "ingredients": [
+        {
+          "item": "Aviation Gin",
+          "quantity": "2 ounces"
+        },
+        {
+          "item": "Campari",
+          "quantity": "2 ounces"
+        },
+        {
+          "item": "Antica Torino Sweet Vermouth",
+          "quantity": "2 ounces"
+        },
+        {
+          "item": "Calcium lactate",
+          "quantity": "1 gram"
+        },
+        {
+          "item": "Sodium alginate bath",
+          "quantity": "2 grams, mixed with 500g of water"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix gin, campari, sweet vermouth, and calcium lactate. Chill for 10 minutes"
+        },
+        {
+          "number": 2,
+          "instruction": "Using a syringe or dropper, drip the negroni into the sodium bath and let sit for 60 seconds",
+          "note": "If membrane is too thick, reduce time to 45 seconds"
+        },
+        {
+          "number": 3,
+          "instruction": "Use a slotted spoon to remove the sphers and rinse under cold water"
+        }
+      ]
+    },
+    {
+      "name": "Orange Gel",
+      "ingredients": [
+        {
+          "item": "Orange juice",
+          "quantity": "1 1/4 cups",
+          "note": "no pulp, or strained"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "20 grams"
+        },
+        {
+          "item": "Agar-agar",
+          "quantity": "6 grams"
+        },
+        {
+          "item": "Orange zest",
+          "quantity": "from half an orange"
+        },
+        {
+          "item": "Lemon Juice",
+          "quantity": "1 teaspoon"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Whisk orange juice, sugar, and agar and bring to a rolling boil for 20 seconds"
+        },
+        {
+          "number": 2,
+          "instruction": "Remove from heat, strain, pour into a shallow tray and chill for 20 minutes"
+        },
+        {
+          "number": 3,
+          "instruction": "Break into chunks and blend until smooth."
+        },
+        {
+          "number": 4,
+          "instruction": "Pass through a fine sieve."
+        }
+      ]
+    }
+  ]
+}

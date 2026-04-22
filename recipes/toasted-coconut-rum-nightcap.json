@@ -1,0 +1,78 @@
+{
+  "name": "Toasted Coconut & Rum Nightcap",
+  "source": "Yes Chef! Kitchen",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/ToastedCoconut_RumNightcap.webp",
+  "chef": "",
+  "yield": "1",
+  "description": "A warm, silky dessert cocktail with toasted coconut, dark rum, and vanilla.",
+  "category": "Cocktail",
+  "keywords": "coconut, rum, dessert, creamy",
+  "ingredients": [
+    {
+      "item": "Dark Rum",
+      "quantity": "2 ounces"
+    },
+    {
+      "item": "Toasted Coconut Cream",
+      "quantity": "2 ounces",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Vanilla Extract",
+      "quantity": "2 drops"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/47LWEbR"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Shake all ingredients with ice until creamy."
+    },
+    {
+      "number": 2,
+      "instruction": "Strain into a chilled rocks glass."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Toasted Coconut Cream",
+      "ingredients": [
+        {
+          "item": "Coconut Milk",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Toasted Shredded Coconut",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Simmer all ingredients for 15 minutes."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend until smooth."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain and cool."
+        }
+      ]
+    }
+  ]
+}

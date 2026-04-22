@@ -1,0 +1,83 @@
+{
+  "name": "Saffron 75",
+  "source": "Yes Chef! Kitchen",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Saffron75.webp",
+  "chef": "",
+  "yield": "Serves 1",
+  "description": "A golden, aromatic twist on the French 75 featuring saffron gin and champagne.",
+  "category": "Cocktail",
+  "keywords": "champagne, saffron, French 75",
+  "specialtools": [
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Fine Mesh Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Saffron Gin.",
+      "quantity": "1.5 ounces",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Lemon Juice",
+      "quantity": "0.5 ounces"
+    },
+    {
+      "item": "Simple Syrup",
+      "quantity": "0.5 ounces "
+    },
+    {
+      "item": "Champagne",
+      "quantity": "3 ounces"
+    },
+    {
+      "item": "Lemon peel",
+      "quantity": "1 "
+    },
+    {
+      "item": "Saffron threads",
+      "quantity": "for garnish"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Shake gin, lemon juice, simple syrup over ice; strain into flute.",
+      "note": "Use a fine mesh strainer to catch saffron threads"
+    },
+    {
+      "number": 2,
+      "instruction": "Top with champagne."
+    },
+    {
+      "number": 2,
+      "instruction": "Garnish with lemon twist and saffron thread."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Saffron Gin",
+      "ingredients": [
+        {
+          "item": "Aviation Gin",
+          "quantity": "3 ounces"
+        },
+        {
+          "item": "Saffron threads",
+          "quantity": "5"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Add saffron threads to gin and let sit for at least 20 minutes, stirring occasionally."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "name": "Grilled Peaches with Mascarpone Chantilly, Balsamic Reduction & Almond Praline",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/grilledpeaches.png",
+  "yield": "4 plates",
+  "description": "A refined dessert balancing caramelized peaches, airy mascarpone cream, and crunchy almond praline with a tangy balsamic finish.",
+  "category": "Dessert",
+  "keywords": "peaches, grilled fruit, dessert, mascarpone, elegant",
+  "winePairings": [
+    {
+      "name": "Moscato d'Asti",
+      "notes": "Light sweetness and bubbles complement the peaches."
+    },
+    {
+      "name": "Sauternes",
+      "notes": "Rich honeyed notes elevate the caramelized fruit."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Ripe peaches",
+      "quantity": "4",
+      "note": "halved and pitted"
+    },
+    {
+      "item": "Honey",
+      "quantity": "2 tbsp"
+    },
+    {
+      "item": "Unsalted butter",
+      "quantity": "1 tbsp"
+    },
+    {
+      "item": "Vanilla extract",
+      "quantity": "1/2 tsp"
+    },
+    {
+      "item": "Flaky sea salt",
+      "quantity": "pinch"
+    },
+    {
+      "item": "Mascarpone",
+      "quantity": "1/2 cup"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "1/4 cup"
+    },
+    {
+      "item": "Powdered sugar",
+      "quantity": "2 tbsp"
+    },
+    {
+      "item": "Lemon zest",
+      "quantity": "from 1/2 lemon"
+    },
+    {
+      "item": "Sliced almonds",
+      "quantity": "1/2 cup"
+    },
+    {
+      "item": "Sugar",
+      "quantity": "1/4 cup"
+    },
+    {
+      "item": "Water",
+      "quantity": "1 tbsp"
+    },
+    {
+      "item": "Balsamic vinegar",
+      "quantity": "1/2 cup"
+    },
+    {
+      "item": "Fresh mint",
+      "quantity": "for garnish"
+    },
+    {
+      "item": "Extra virgin olive oil",
+      "quantity": "for finishing"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Cast Iron Grill Pan",
+      "link": "https://amzn.to/3ObTjgD"
+    },
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Fine Mesh Sieve",
+      "link": "https://amzn.to/4cxtkIB"
+    },
+    {
+      "item": "Piping Tools",
+      "link": "https://amzn.to/3OOZgQI"
+    },
+    {
+      "item": "Offset Spatula",
+      "link": "https://amzn.to/42ii264"
+    },
+    {
+      "item": "Squeeze Bottle",
+      "link": "https://amzn.to/3QkAbxs"
+    },
+    {
+      "item": "Kitchen Torch",
+      "link": "https://amzn.to/42eE89w"
+    },
+    {
+      "item": "Digital Thermometer",
+      "link": "https://amzn.to/4vDU7eX"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare the balsamic reduction by simmering balsamic vinegar over low heat until reduced by half and syrupy.",
+      "note": "It should coat the back of a spoon."
+    },
+    {
+      "number": 2,
+      "instruction": "Make the almond praline by heating sugar and water until golden amber, then stir in sliced almonds.",
+      "note": "Spread thin and allow to cool completely."
+    },
+    {
+      "number": 3,
+      "instruction": "Crush the cooled praline into a mix of fine crumbs and small shards.",
+      "note": "Use a sieve for refined texture."
+    },
+    {
+      "number": 4,
+      "instruction": "Prepare mascarpone chantilly by blending mascarpone, cream, powdered sugar, and lemon zest until smooth and airy.",
+      "note": "Do not overmix."
+    },
+    {
+      "number": 5,
+      "instruction": "Mix honey, butter, vanilla, and salt, then brush onto the cut side of the peaches."
+    },
+    {
+      "number": 6,
+      "instruction": "Heat a cast iron grill pan until very hot and place peaches cut-side down.",
+      "note": "Do not move for 3–4 minutes to develop caramelization."
+    },
+    {
+      "number": 7,
+      "instruction": "Flip peaches and baste with remaining honey-butter mixture."
+    },
+    {
+      "number": 8,
+      "instruction": "Use a kitchen torch to lightly caramelize for a glossy finish.",
+      "note": "Optional but recommended."
+    },
+    {
+      "number": 9,
+      "instruction": "Spread a swoosh of mascarpone cream on the plate using an offset spatula."
+    },
+    {
+      "number": 10,
+      "instruction": "Place grilled peaches slightly off-center on the plate."
+    },
+    {
+      "number": 11,
+      "instruction": "Pipe or spoon additional mascarpone cream onto the peaches."
+    },
+    {
+      "number": 12,
+      "instruction": "Sprinkle almond praline crumble in a controlled, natural pattern."
+    },
+    {
+      "number": 13,
+      "instruction": "Dot balsamic reduction around the plate using a squeeze bottle."
+    },
+    {
+      "number": 14,
+      "instruction": "Garnish with fresh mint and a light drizzle of olive oil."
+    },
+    {
+      "number": 15,
+      "instruction": "Clean plate edges and serve immediately."
+    }
+  ],
+  "sub_recipes": []
+}

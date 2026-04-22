@@ -1,0 +1,211 @@
+{
+  "name": "Squid Ink Tagliolini with Sea Urchin and Bottarga",
+  "source": "adapted from Le Bernardin (New York City, USA)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/SquidInkTagliolini_SeaUrchin_Bottarga.png",
+  "chef": " Mauro Colagreco",
+  "yield": "Serves 2",
+  "description": "Fresh squid ink tagliolini served with a rich sea urchin sauce, finished with grated bottarga and a drizzle of olive oil. A luxurious, delicate seafood pasta with bright lemon zest and optional herbs.",
+  "category": "Main",
+  "keywords": "squid ink pasta, tagliolini, sea urchin, uni, bottarga, seafood, italian, pasta",
+  "winePairings": [
+    {
+      "name": "Vermentino",
+      "notes": "Saline, crisp, Mediterranean synergy with bottarga."
+    },
+    {
+      "name": "Etna Bianco Superiore",
+      "notes": "Volcanic minerality + sea urchin = elite."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Squid Ink Tagliolini",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Sea urchin sauce",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Lemon",
+      "quantity": "1",
+      "note": "for juice"
+    },
+    {
+      "item": "Bottarga (mullet or tuna)",
+      "quantity": "20 g",
+      "note": "finely grated or shaved"
+    },
+    {
+      "item": "Remaining sea urchin roe",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Extra virgin olive oil",
+      "quantity": ""
+    },
+    {
+      "item": "Chives or micro basil",
+      "quantity": "",
+      "note": "optional, for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Pasta Sheet Roller and Spaghetti Cutter",
+      "link": "https://amzn.to/4qJFYdA"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Squid ink (cuttlefish ink)",
+      "link": "https://amzn.to/4qZTWZ4"
+    },
+    {
+      "item": "Sea Urchin Roe",
+      "link": "https://amzn.to/4nVpoVE"
+    },
+    {
+      "item": "Bottarga (mullet or tuna)",
+      "link": "https://amzn.to/4i2R9KD"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Cook pasta in heavily salted water for 2 minutes, until al dente."
+    },
+    {
+      "number": 2,
+      "instruction": "Transfer directly to the sea urchin sauce with a splash of pasta water."
+    },
+    {
+      "number": 3,
+      "instruction": "Toss gently until the pasta is glossy and coated. Adjust salt and acidity with lemon if needed."
+    },
+    {
+      "number": 3,
+      "instruction": "Plate immediately, topping with remaining sea urchin roe, grated bottarga, a drizzle of olive oil, and optional herbs."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Squid Ink Tagliolini (Fresh Pasta)",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "\"00\" flour",
+          "quantity": "200 g"
+        },
+        {
+          "item": "Semolina flour",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Large eggs",
+          "quantity": "3"
+        },
+        {
+          "item": "Squid ink (cuttlefish ink)",
+          "quantity": "10 g",
+          "note": "about 2 tsp"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix flours and salt in a bowl or on a clean counter."
+        },
+        {
+          "number": 2,
+          "instruction": "Make a well, add eggs, squid ink, and olive oil. Beat with a fork, gradually incorporating flour until a dough forms."
+        },
+        {
+          "number": 3,
+          "instruction": "Knead 10 minutes until smooth and elastic. Wrap in plastic and rest 30 minutes."
+        },
+        {
+          "number": 4,
+          "instruction": "Roll out to 1 mm thickness using a pasta machine. Cut into tagliolini (~1/8 inch (2 mm) wide) using the spaghetti cutter. Dust lightly with semolina and set aside covered."
+        }
+      ]
+    },
+    {
+      "name": "Sea Urchin Sauce",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Fresh sea urchin roe (uni)",
+          "quantity": "100 g",
+          "note": "about 8–10 tongues"
+        },
+        {
+          "item": "Garlic clove",
+          "quantity": "1",
+          "note": "finely minced"
+        },
+        {
+          "item": "Unsalted butter",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Extra virgin olive oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Dry white wine",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1 small",
+          "note": "finely diced"
+        },
+        {
+          "item": "Lemon zest",
+          "quantity": "½",
+          "note": "from half a lemon"
+        },
+        {
+          "item": "Salt and black pepper",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "1 tbsp",
+          "note": "optional, for silkier sauce"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Gently sauté shallot and garlic in olive oil until translucent; do not brown."
+        },
+        {
+          "number": 2,
+          "instruction": "Add white wine and reduce by half."
+        },
+        {
+          "number": 3,
+          "instruction": "Lower heat, whisk in butter until emulsified."
+        },
+        {
+          "number": 4,
+          "instruction": "Add half of the sea urchin roe and mash gently to form a creamy sauce. Season with salt, pepper, and lemon zest. Keep warm on low heat."
+        }
+      ]
+    }
+  ]
+}

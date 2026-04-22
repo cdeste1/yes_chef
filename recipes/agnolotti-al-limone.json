@@ -1,0 +1,181 @@
+{
+  "name": "Agnolotti al Limone",
+  "source": "adapted from Modern Italian",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/agnolotti_lemonsauce.png",
+  "chef": " Massimo Bottura",
+  "yield": "8 servings",
+  "description": "Silky agnolotti served in a lemon cream sauce.  The Limoncello makes it a little sweet to balance the savory ricotta",
+  "category": "Starter",
+  "keywords": "pasta, ravioli, lemon, dinner, italian",
+  "winePairings": [
+    {
+      "name": "Verdicchio",
+      "notes": "Stony minerality balances lemon cream richness."
+    },
+    {
+      "name": "Antinori Cervaro della Sala",
+      "notes": "Luxurious but bright enough for citrus."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "All-purpose or '00' flour",
+      "quantity": "4.5 grams"
+    },
+    {
+      "item": "Egg Yolk",
+      "quantity": "3 sheets"
+    },
+    {
+      "item": "Egg",
+      "quantity": "2"
+    },
+    {
+      "item": "Whole Milk Ricotta",
+      "quantity": "8 ounces"
+    },
+    {
+      "item": "Salt",
+      "quantity": "to taste"
+    },
+    {
+      "item": "Ground White Pepper",
+      "quantity": "to taste"
+    },
+    {
+      "item": "Garlic Powder",
+      "quantity": "2 cups"
+    },
+    {
+      "item": "Lemon Juice",
+      "quantity": "1 teaspoon"
+    },
+    {
+      "item": "Limoncello Cream Sauce",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Parsley",
+      "note": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Pasta Sheet Roller",
+      "link": "https://amzn.to/4qJFYdA"
+    },
+    {
+      "item": "Pastry Wheel",
+      "link": "https://amzn.to/3Jrqfzk"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "In a large pot, bring 4 quarts water and 1 cup kosher salt to a boil over high heat.",
+      "note": "The water should smell like the ocean"
+    },
+    {
+      "number": 2,
+      "instruction": "Mix the ricotta, 1 egg, salt, white pepper, Garlic Powder, and lemon juce with a fork."
+    },
+    {
+      "number": 3,
+      "instruction": "Spoon the ricotta mixture about 1/2 inch from the edge of the pasta sheet, about 2 inches apart."
+    },
+    {
+      "number": 4,
+      "instruction": "Fold the pasta sheet to cover the mixture and pinch the long edge."
+    },
+    {
+      "number": 5,
+      "instruction": "Press between each ricotta spoonful to make individual agnolotti"
+    },
+    {
+      "number": 6,
+      "instruction": "Cut with a ravioli cutter",
+      "note": "a knife could also be used if a straight edge is preferred."
+    },
+    {
+      "number": 7,
+      "instruction": "Repeat for all pasta sheets"
+    },
+    {
+      "number": 8,
+      "instruction": "Place in the boiling water for about 1 minute.",
+      "note": "the agnolotti will float when done"
+    },
+    {
+      "number": 9,
+      "instruction": "Ladle Limoncello Cream Sauce into each bowl."
+    },
+    {
+      "number": 10,
+      "instruction": "Garnish with Parsley."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Limoncello Cream Sauce",
+      "ingredients": [
+        {
+          "item": "Butter",
+          "quantity": "1 stick"
+        },
+        {
+          "item": "Garlic",
+          "quantity": "1 clove",
+          "note": "minced"
+        },
+        {
+          "item": "Lemon Juice",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Heavy Cream",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Limoncello",
+          "quantity": "1/2 cup"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Melt butter in a sauce pan over medium heat."
+        },
+        {
+          "number": 2,
+          "instruction": "Add minced garlic to soften",
+          "note": "Do not allow garlic to brown"
+        },
+        {
+          "number": 3,
+          "instruction": "Whisk in lemon juice"
+        },
+        {
+          "number": 4,
+          "instruction": "Slowly whisk in heavy cream"
+        },
+        {
+          "number": 5,
+          "instruction": "Once combined remove from heat"
+        },
+        {
+          "number": 6,
+          "instruction": "Add Limoncello and return to stove over low heat"
+        },
+        {
+          "number": 7,
+          "instruction": "Cook until thickened",
+          "note": "Do not boil"
+        }
+      ]
+    }
+  ]
+}

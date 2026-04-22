@@ -1,0 +1,185 @@
+{
+  "name": "Lobster Taco with Saffron Tortilla and Caviar",
+  "source": "adpated from Pujol",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/LobsterTaco_SaffronTortilla_Caviar.png",
+  "chef": " Enrique Olvera",
+  "yield": "Serves 4",
+  "description": "Delicate lobster tacos served on saffron-infused tortillas, topped with luxurious caviar and garnished with micro herbs or edible flowers.",
+  "category": "Main",
+  "keywords": "lobster, taco, saffron, caviar, seafood, advanced",
+  "winePairings": [
+    {
+      "name": "Albariño",
+      "notes": "Salinity and citrus enhance seafood + caviar."
+    },
+    {
+      "name": "Dom Pérignon",
+      "notes": "Champagne + caviar = unbeatable."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Saffron tortilla",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Lobster Filling",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Caviar",
+      "quantity": "20–30 g",
+      "note": "high-quality"
+    },
+    {
+      "item": "Micro herbs or edible flowers",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Crème fraîche or aioli",
+      "quantity": "",
+      "note": "optional"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Pastry Rings 4 inch (10 cm)",
+      "link": "https://amzn.to/49Pdmtq"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Place warm saffron tortilla on plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Fill with lobster mixture."
+    },
+    {
+      "number": 3,
+      "instruction": "Top with a small spoon of caviar."
+    },
+    {
+      "number": 4,
+      "instruction": "Garnish with micro herbs or edible flowers."
+    },
+    {
+      "number": 5,
+      "instruction": "Serve immediately to enjoy the contrast of warm tortilla, sweet lobster, and briny caviar."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Saffron Tortillas",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "All-purpose flour",
+          "quantity": "200 g"
+        },
+        {
+          "item": "Cornmeal",
+          "quantity": "50 g",
+          "note": "optional, for texture"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "2 tsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "½ tsp"
+        },
+        {
+          "item": "Saffron threads",
+          "quantity": "½ tsp",
+          "note": "soaked in 2 tbsp warm water"
+        },
+        {
+          "item": "Warm water",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix flour, cornmeal, sugar, and salt in a bowl."
+        },
+        {
+          "number": 2,
+          "instruction": "Add saffron water (discard threads), olive oil, and warm water gradually. Knead to form a soft dough."
+        },
+        {
+          "number": 3,
+          "instruction": "Rest dough for 30 minutes."
+        },
+        {
+          "number": 4,
+          "instruction": "Roll out small tortillas  (4 inch (~10 cm) diameter), using the pastry cutter if needed."
+        },
+        {
+          "number": 5,
+          "instruction": "Cook on a hot, dry skillet for 1–2 minutes per side until lightly golden."
+        }
+      ]
+    },
+    {
+      "name": "Lobster Filling",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Cooked lobster tails",
+          "quantity": "2 (~1/2 lb each)",
+          "note": "shelled and chopped"
+        },
+        {
+          "item": "Butter",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1 small",
+          "note": "minced"
+        },
+        {
+          "item": "Lemon juice",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "White pepper",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Sauté shallot in butter until translucent."
+        },
+        {
+          "number": 2,
+          "instruction": "Add lobster meat, toss gently, and heat through 1–2 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Season lightly with salt, pepper, and lemon juice."
+        }
+      ]
+    }
+  ]
+}

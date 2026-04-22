@@ -1,0 +1,68 @@
+{
+  "name": "Cognac & Saffron Nightcap",
+  "source": "Yes Chef! Kitchen",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Cognac_Saffron_Nightcap.webp",
+  "yield": "Serves 1",
+  "category": "Cocktail",
+  "description": "A deep, aromatic cocktail of XO cognac, saffron honey, and smoked vanilla bitters.",
+  "keywords": "cognac, saffron, nightcap",
+  "ingredients": [
+    {
+      "item": "XO Cognac",
+      "quantity": "2 ounces"
+    },
+    {
+      "item": "Saffron Honey",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Orange Bitters",
+      "quantity": "2-3 dashes"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Stir cognac with saffron honey and bitters over ice."
+    },
+    {
+      "number": 2,
+      "instruction": "Strain into a warmed snifter."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Saffron Honey",
+      "ingredients": [
+        {
+          "item": "Honey",
+          "quantity": "50 g (2 tablespoons)"
+        },
+        {
+          "item": "Water",
+          "quantity": "20 mL"
+        },
+        {
+          "item": "Saffron threads",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Warm gently and infuse."
+        }
+      ]
+    }
+  ]
+}

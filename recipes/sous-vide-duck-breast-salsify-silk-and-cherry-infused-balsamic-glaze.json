@@ -1,0 +1,178 @@
+{
+  "name": "Sous-Vide Duck Breast, Salsify Silk, and Cherry-Infused Balsamic Glaze",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sousvide_duckbreast.png",
+  "yield": "2 plates",
+  "description": "A masterclass in precision, featuring ultra-tender duck with a glass-like crackling skin, served with an aerated salsify foam and a molecularly clarified cherry reduction.",
+  "category": "Main",
+  "keywords": "duck, sous-vide, michelin, fine dining",
+  "winePairings": [
+    {
+      "name": "Gevrey-Chambertin (Pinot Noir)",
+      "notes": "Earthiness matches the salsify while bright acidity cuts the duck fat."
+    },
+    {
+      "name": "Vintage Port",
+      "notes": "The dark fruit notes mirror the cherry glaze perfectly."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Moulard Duck Breasts",
+      "quantity": "2 large",
+      "note": "approx. 14-16oz each"
+    },
+    {
+      "item": "Fresh Salsify Roots",
+      "quantity": "1 lb",
+      "note": "substitute parsnip if unavailable"
+    },
+    {
+      "item": "Fresh Sweet Cherries",
+      "quantity": "1 cup",
+      "note": "pitted and halved"
+    },
+    {
+      "item": "Aged Balsamic Vinegar",
+      "quantity": "1/4 cup"
+    },
+    {
+      "item": "Unsalted European Butter",
+      "quantity": "3 ounces"
+    },
+    {
+      "item": "Heavy Cream",
+      "quantity": "1/2 cup"
+    },
+    {
+      "item": "Lemon",
+      "quantity": "1",
+      "note": "for acidulated water bath"
+    },
+    {
+      "item": "Aromatics",
+      "quantity": "4 sprigs thyme, 2 cloves garlic",
+      "note": "for the vacuum bag"
+    },
+    {
+      "item": "Maldon Sea Salt",
+      "quantity": "to finish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Immersion Circulator",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4ufPoPh"
+    },
+    {
+      "item": "Whipping Siphon",
+      "link": "https://amzn.to/4tiCiAl"
+    },
+    {
+      "item": "Chinoise or Tamis",
+      "link": "https://amzn.to/4cjQK5p"
+    },
+    {
+      "item": "Plates perfect for this dish!",
+      "link": "https://amzn.to/3OS20Nf"
+    },
+    {
+      "item": "Infrared Thermometer",
+      "link": "https://amzn.to/3QhXtUM"
+    },
+    {
+      "item": "Cast Iron Grill Pan",
+      "link": "https://amzn.to/3ObTjgD"
+    },
+    {
+      "item": "Aged Balsamic Vinegar",
+      "link": "https://amzn.to/4tV07yb"
+    },
+    {
+      "item": "Culinary Tweezers",
+      "link": "https://amzn.to/4eve5SX"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Score the duck skin in a 2mm cross-hatch pattern and season with salt and white pepper."
+    },
+    {
+      "number": 2,
+      "instruction": "Place duck in a vacuum bag with thyme and garlic; use the Chamber Vacuum Sealer on 'High' to compress the meat."
+    },
+    {
+      "number": 3,
+      "instruction": "Set Immersion Circulator to 135.5°F (57.5°C) and cook the duck for 90 minutes."
+    },
+    {
+      "number": 4,
+      "instruction": "Prepare the Salsify Silk: Peel roots into acidulated lemon water, boil in salted water until soft, and purée with butter and cream."
+    },
+    {
+      "number": 5,
+      "instruction": "Pass the purée through a Chinoise or Tamis twice to ensure zero grit."
+    },
+    {
+      "number": 6,
+      "instruction": "Load the purée into the Whipping Siphon, charge with 2 N2O cartridges, and keep warm in a 50°C water bath."
+    },
+    {
+      "number": 7,
+      "instruction": "Simmer cherries, balsamic, and sugar until soft; blend and strain through a fine mesh sieve to create the glaze."
+    },
+    {
+      "number": 8,
+      "instruction": "Remove duck from bag and pat dry. Use the Infrared Thermometer to ensure a cold pan is at room temperature before starting."
+    },
+    {
+      "number": 9,
+      "instruction": "Place duck skin-side down on low-medium heat for 12 minutes to render fat into a crispy crackling."
+    },
+    {
+      "number": 10,
+      "instruction": "Flip and sear the meat side for 60 seconds; let the duck rest for 10 minutes before slicing."
+    },
+    {
+      "number": 11,
+      "instruction": "Plating: Use the Siphon to create a cloud of Salsify Silk. Slice duck on a bias and fan out with tweezers."
+    },
+    {
+      "number": 12,
+      "instruction": "Drizzle the cherry reduction and finish with micro-herbs and Maldon salt."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Cherry-Balsamic Reduction",
+      "ingredients": [
+        {
+          "item": "Cherries",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Balsamic",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1, minced"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Sauté shallots in 1 tsp duck fat, add cherries and balsamic."
+        },
+        {
+          "number": 2,
+          "instruction": "Reduce by 50% until syrupy, then strain through muslin cloth."
+        }
+      ]
+    }
+  ]
+}

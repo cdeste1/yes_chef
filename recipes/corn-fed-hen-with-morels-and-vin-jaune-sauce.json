@@ -1,0 +1,187 @@
+{
+  "name": "Corn-Fed Hen with Morels and Vin Jaune Sauce",
+  "source": "adapted from French Cuisine",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Corn-fedhen_morels_vinjaunesauce.png",
+  "chef": " Yannick Alleno",
+  "yield": "Serves 4",
+  "description": "Roasted corn-fed hen served with tender morels and a rich, nutty Vin Jaune sauce. Elegant poultry dish with earthy mushrooms and flavorful sauce.",
+  "category": "Main",
+  "keywords": "corn-fed hen, morels, Vin Jaune, poultry, mushrooms, french, gourmet",
+  "winePairings": [
+    {
+      "name": "Savagnin (Jura)",
+      "notes": "Same region as vin jaune → perfect harmony."
+    },
+    {
+      "name": "Château d'Arlay Vin Jaune",
+      "notes": "Deep oxidative notes mirror the sauce exactly."
+    }
+  ],
+  "ingredients": [],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Spoon a generous amount of Vin Jaune sauce on the plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Arrange the carved hen pieces on the plate."
+    },
+    {
+      "number": 3,
+      "instruction": "Spoon morels around or on top of the hen."
+    },
+    {
+      "number": 4,
+      "instruction": "Garnish with fresh herbs and service immediately."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Corn-Fed Hen",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Corn-fed hen",
+          "quantity": "1",
+          "note": "about 3 lbs, jointed or whole"
+        },
+        {
+          "item": "Salt and black pepper",
+          "quantity": ""
+        },
+        {
+          "item": "Unsalted butter",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Season the hen generously with salt and pepper."
+        },
+        {
+          "number": 2,
+          "instruction": "Heat butter and oil in skillet or roasting pan."
+        },
+        {
+          "number": 3,
+          "instruction": "Brown hen on all sides until golden."
+        },
+        {
+          "number": 4,
+          "instruction": "Transfer to oven at 350°F (180°C) and roast 30–40 min until internal temp reaches 160°F (70°C)."
+        },
+        {
+          "number": 5,
+          "instruction": "Rest hen 10 min, then carve."
+        }
+      ]
+    },
+    {
+      "name": "Morels",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Fresh or rehydrated dried morels",
+          "quantity": "150 g"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1",
+          "note": "finely diced"
+        },
+        {
+          "item": "Unsalted butter",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "If using dried morels, soak in warm water 30 min and rinse thoroughly."
+        },
+        {
+          "number": 2,
+          "instruction": "Sauté shallots in butter until translucent."
+        },
+        {
+          "number": 3,
+          "instruction": "Add morels and cook gently until tender and fragrant."
+        },
+        {
+          "number": 4,
+          "instruction": "Season lightly with salt and keep warm."
+        }
+      ]
+    },
+    {
+      "name": "Vin Jaune Sauce",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Pan drippings from roasted hen",
+          "quantity": ""
+        },
+        {
+          "item": "Unsalted butter",
+          "quantity": "50 g"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1 small",
+          "note": "minced"
+        },
+        {
+          "item": "Vin Jaune",
+          "quantity": "100 mL",
+          "note": "or dry white wine if unavailable"
+        },
+        {
+          "item": "Chicken stock",
+          "quantity": "150 mL"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "50 mL"
+        },
+        {
+          "item": "Salt and pepper",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Deglaze roasting pan with Vin Jaune, scraping up browned bits."
+        },
+        {
+          "number": 2,
+          "instruction": "Add chicken stock and simmer 5–10 min."
+        },
+        {
+          "number": 3,
+          "instruction": "Stir in cream and reduce slightly to a glossy sauce."
+        },
+        {
+          "number": 4,
+          "instruction": "Adjust seasoning with salt and pepper."
+        }
+      ]
+    }
+  ]
+}

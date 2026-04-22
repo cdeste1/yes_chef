@@ -1,0 +1,117 @@
+{
+  "name": "Langoustine Ramen with Yuzu and Kombu Foam",
+  "source": "adapted from RyuGin",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Lagoustine_KomboBroth_Foam.jpg",
+  "chef": " Seiji Yamamoto",
+  "yield": "Serves 2",
+  "description": "A refined seafood ramen built on roasted langoustine shells, with bright yuzu notes and a light kombu foam.",
+  "category": "Main",
+  "keywords": "ramen, langoustine, yuzu, kombu, modernist",
+  "ingredients": [
+    {
+      "item": "Ramen Noodles",
+      "quantity": "6 ounces"
+    },
+    {
+      "item": "Fresh langoustines",
+      "quantity": "6",
+      "note": "shells reserved for broth"
+    },
+    {
+      "item": "Lagoustine broth",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Kombu foam",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Kombu",
+      "link": "https://amzn.to/3M96Rb9"
+    },
+    {
+      "item": "Fine chinois",
+      "link": "https://amzn.to/4pb7orr"
+    },
+    {
+      "item": "Soy lecithin",
+      "link": "https://amzn.to/3Xnkupo"
+    },
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/47LWEbR"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Arrange noodles, add langoustine meat, pour broth, garnish with kombu foam."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Langoustine Broth",
+      "ingredients": [
+        {
+          "item": "Langoustine shells",
+          "quantity": "all"
+        },
+        {
+          "item": "Kombu",
+          "quantity": "10 g"
+        },
+        {
+          "item": "White soy sauce",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Water",
+          "quantity": "1 liter"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat oven to 400°F (205°C)."
+        },
+        {
+          "number": 2,
+          "instruction": "Roast shells for 15 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Simmer water, add shells, Kombu, and white soy sauce."
+        },
+        {
+          "number": 3,
+          "instruction": "Cook for 45 minutes then strain."
+        }
+      ]
+    },
+    {
+      "name": "Kombu Foam",
+      "ingredients": [
+        {
+          "item": "Kombu broth",
+          "quantity": "100 mL"
+        },
+        {
+          "item": "Soy lecithin",
+          "quantity": "1 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend at surface to create foam."
+        }
+      ]
+    }
+  ]
+}

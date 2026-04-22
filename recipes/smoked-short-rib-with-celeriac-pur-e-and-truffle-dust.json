@@ -1,0 +1,231 @@
+{
+  "name": "Smoked Short Rib with Celeriac Purée and Truffle Dust",
+  "source": "adpated from CUT",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/SmokedShortRib_CeleriacPuree_TruffleDust.png",
+  "chef": " Gordon Ramsay",
+  "yield": "Serves 4",
+  "description": "Tender smoked short ribs served with smooth celeriac purée and finished with a delicate truffle dust for aroma and presentation.",
+  "category": "Main",
+  "keywords": "beef, smoked, short ribs, celeriac, truffle, advanced, main course",
+  "winePairings": [
+    {
+      "name": "Malbec (Argentina)",
+      "notes": "Smoke + plum meets smoky beef."
+    },
+    {
+      "name": "Opus One",
+      "notes": "Lush, structured, ideal with fatty short rib."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Celeriac Puree",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Smoked short ribs",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Truffle Dust",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Micro greens or chive tips",
+      "note": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Pellet Smoker",
+      "link": "https://amzn.to/48a7idJ"
+    },
+    {
+      "item": "Smoker Drip Tray Liner",
+      "link": "https://amzn.to/4oZsXeu"
+    },
+    {
+      "item": "Smoker Grease Bucket Liner",
+      "link": "https://amzn.to/498KgFg"
+    },
+    {
+      "item": "Oak & Whiskey Pellets",
+      "link": "https://amzn.to/47ufuoX"
+    },
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/47LWEbR"
+    },
+    {
+      "item": "Food Processor",
+      "link": "https://amzn.to/47ufDsv"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Freeze-dried truffle powder",
+      "link": ""
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Spoon celeriac purée onto plate as a base."
+    },
+    {
+      "number": 2,
+      "instruction": "Place smoked short rib slices or chunks on top."
+    },
+    {
+      "number": 3,
+      "instruction": "Lightly dust with truffle."
+    },
+    {
+      "number": 4,
+      "instruction": "Optional: drizzle some reduced cooking jus around for extra flavor."
+    },
+    {
+      "number": 5,
+      "instruction": "Garnish with micro herbs or chive tips for visual contrast."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Smoked Short Rib",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Beef short ribs",
+          "quantity": "3-4 lbs"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "Freshly ground black pepper",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "Garlic",
+          "quantity": "2 cloves",
+          "note": "minced"
+        },
+        {
+          "item": "Fresh thyme",
+          "quantity": "1 sprig"
+        },
+        {
+          "item": "Beef stock",
+          "quantity": "2 cups"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat smoker or oven to 250°F (120°C)."
+        },
+        {
+          "number": 2,
+          "instruction": "Season short ribs generously with salt, pepper, and garlic."
+        },
+        {
+          "number": 3,
+          "instruction": "Sear ribs in a hot pan with olive oil until browned on all sides."
+        },
+        {
+          "number": 4,
+          "instruction": "Transfer ribs to smoker or low oven, add thyme and a splash of beef stock."
+        },
+        {
+          "number": 5,
+          "instruction": "Smoke until internal temperature is 205°F (96°C) (about 6–8 hours) or until meat is tender and pulls apart easily."
+        },
+        {
+          "number": 6,
+          "instruction": "Rest ribs before slicing or plating."
+        }
+      ]
+    },
+    {
+      "name": "Celeriac Purée",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Celeriac",
+          "quantity": "1 lb",
+          "note": "peeled and diced"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "3/4 cup"
+        },
+        {
+          "item": "Unsalted butter",
+          "quantity": "4 tablespoons"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "White pepper",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Boil celeriac in salted water until tender, about 20 minutes."
+        },
+        {
+          "number": 2,
+          "instruction": "Drain and transfer to a blender or food processor."
+        },
+        {
+          "number": 3,
+          "instruction": "Add cream and butter, blend until smooth and silky."
+        },
+        {
+          "number": 4,
+          "instruction": "Season to taste and keep warm."
+        }
+      ]
+    },
+    {
+      "name": "Truffle Dust",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Black truffle",
+          "quantity": "5–10 g"
+        },
+        {
+          "item": "Freeze-dried truffle powder",
+          "quantity": "1 tsp",
+          "note": "optional, finely grated"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Finely grate or microplane truffle to a powder."
+        },
+        {
+          "number": 2,
+          "instruction": "Dust over plated dish just before serving."
+        }
+      ]
+    }
+  ]
+}

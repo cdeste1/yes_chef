@@ -1,0 +1,140 @@
+{
+  "name": "Truffled Sous Vide Eggs Benedict with Smoked Salmon, Hollandaise Espuma & Ossetra Caviar",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/truffled_sous_vide_eggs_benedict.png",
+  "yield": "2 servings",
+  "description": "An ultra-luxurious brunch dish featuring precision sous-vide eggs, a weightless truffle hollandaise espuma, elegant smoked salmon rosettes, and a crowning of Ossetra caviar. Contrasting temperatures and textures create a three-star experience at home.",
+  "category": "Brunch",
+  "keywords": "eggs benedict, sous vide, truffle, caviar, hollandaise espuma, smoked salmon, michelin",
+  "winePairings": [
+    {
+      "name": "Champagne (e.g., Krug Grande Cuvée)",
+      "notes": "Bright acidity and fine bubbles cut through the richness while complementing the truffle and caviar."
+    },
+    {
+      "name": "Chablis or White Burgundy",
+      "notes": "Crisp minerality balances the buttery hollandaise and salmon."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Ultra-fresh large eggs",
+      "quantity": "4",
+      "note": "room temperature"
+    },
+    {
+      "item": "Clarified butter",
+      "quantity": "200 g"
+    },
+    {
+      "item": "Large egg yolks (for hollandaise)",
+      "quantity": "3"
+    },
+    {
+      "item": "Fresh lemon juice",
+      "quantity": "2 tbsp"
+    },
+    {
+      "item": "White truffle oil (or grated fresh black truffle)",
+      "quantity": "1 tbsp (or 10–15 g fresh truffle)"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "100 ml",
+      "note": "cold"
+    },
+    {
+      "item": "Brioche rolls (or sourdough English muffins)",
+      "quantity": "2",
+      "note": "split and toasted"
+    },
+    {
+      "item": "Cold-smoked salmon",
+      "quantity": "150 g",
+      "note": "best quality, thinly sliced"
+    },
+    {
+      "item": "Thick asparagus spears",
+      "quantity": "8–10"
+    },
+    {
+      "item": "Ossetra caviar",
+      "quantity": "20 g",
+      "note": "or sustainable farmed equivalent"
+    },
+    {
+      "item": "Fresh black truffle",
+      "quantity": "5–10 g",
+      "note": "for shaving"
+    },
+    {
+      "item": "Microgreens or chervil leaves",
+      "quantity": "handful"
+    },
+    {
+      "item": "Edible gold leaf",
+      "quantity": "optional"
+    },
+    {
+      "item": "Fine sea salt and white pepper",
+      "quantity": "to taste"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Sous-vide immersion circulator",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Gourmet Whip siphon + 2 N?O chargers",
+      "link": "https://amzn.to/4tiCiAl"
+    },
+    {
+      "item": "Truffle shaver",
+      "link": "https://amzn.to/4tpFx9m"
+    },
+    {
+      "item": "Stainless-steel ring molds",
+      "link": "https://amzn.to/4cQTZkJ"
+    },
+    {
+      "item": "Culinary blowtorch",
+      "link": "https://amzn.to/42eE89w"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Set up sous-vide bath to 63.5 °C (146.3 °F). Gently lower the 4 eggs (in shells) into the bath and cook for 45–60 minutes.",
+      "note": "This yields a silky white and molten custardy yolk."
+    },
+    {
+      "number": 2,
+      "instruction": "Prepare truffle hollandaise base: Whisk 3 egg yolks, lemon juice, salt, and white pepper over a double boiler until pale and ribbon-like. Slowly whisk in warm clarified butter until thick. Stir in truffle oil or grated fresh truffle. Cool to room temperature."
+    },
+    {
+      "number": 3,
+      "instruction": "Whip heavy cream to soft peaks. Gently fold in cooled hollandaise. Pour into siphon, charge with two N?O cartridges, shake vigorously, and refrigerate upright for 30 minutes."
+    },
+    {
+      "number": 4,
+      "instruction": "Toast brioche until golden. Blanch asparagus in boiling salted water for 90 seconds, shock in ice water, and pat dry."
+    },
+    {
+      "number": 5,
+      "instruction": "Warm plates. Place a ring mold on each plate, add toasted brioche, then layer smoked salmon in an elegant rosette."
+    },
+    {
+      "number": 6,
+      "instruction": "Carefully crack and slide one sous-vide egg onto the salmon per plate using an offset spatula. Remove ring mold."
+    },
+    {
+      "number": 7,
+      "instruction": "Dispense a generous cloud of truffle hollandaise espuma over each egg. Top with a quenelle of Ossetra caviar."
+    },
+    {
+      "number": 8,
+      "instruction": "Shave 3–4 paper-thin slices of fresh black truffle directly over the dish. Arrange asparagus spears artistically to the side. Scatter microgreens and edible gold leaf. Add sauce dots for visual rhythm."
+    }
+  ],
+  "sub_recipes": []
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Caramelized Onion Sourdough with Smoked Sea Salt",
+  "source": "adapted from Eleven Madison Park (NYC)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Sourdough_CarmelizedOnions.webp",
+  "chef": " Daniel Humm",
+  "yield": "1 loaf",
+  "description": "A rustic sourdough enriched with deeply caramelized onions and finished with smoked salt.",
+  "category": "Bread",
+  "keywords": "sourdough, caramelized onion, smoked sea salt, fermentation",
+  "winePairings": [
+    {
+      "name": "Dry Riesling",
+      "notes": "Acid slices through sweetness and smoke; aromatics enhance caramelized onion."
+    },
+    {
+      "name": "Puligny-Montrachet Premier Cru",
+      "notes": "Elegant, mineral-driven, superb with smoky-sweet notes."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Caramelized onions",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Sourdough Bread",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Smoked sea salt",
+      "quantity": "as needed",
+      "note": "for topping"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Dutch oven",
+      "link": "https://amzn.to/3KmqPyE"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Cool and slice; finish with smoked salt."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Caramelized Onions",
+      "ingredients": [
+        {
+          "item": "Yellow onions",
+          "quantity": "3 large",
+          "note": "thinly sliced"
+        },
+        {
+          "item": "Butter",
+          "quantity": "30 g"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "10 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "In a saute pan, cook onions low and slow 45 minutes until deeply golden."
+        }
+      ]
+    },
+    {
+      "name": "Sourdough Bread",
+      "ingredients": [
+        {
+          "item": "Bread flour",
+          "quantity": "450 g"
+        },
+        {
+          "item": "Water",
+          "quantity": "330 g"
+        },
+        {
+          "item": "Levain",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Salt",
+          "quantity": "10 g"
+        },
+        {
+          "item": "Caramelized onions",
+          "quantity": "all"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix bread flour, water, and levain. Let sit (autolyse) for 30 min."
+        },
+        {
+          "number": 2,
+          "instruction": "Add salt and fold in onions."
+        },
+        {
+          "number": 3,
+          "instruction": "Bulk ferment 3 hours with folds every hour."
+        },
+        {
+          "number": 4,
+          "instruction": "Shape, proof overnight, bake in Dutch oven 475°F."
+        }
+      ]
+    }
+  ]
+}

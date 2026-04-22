@@ -1,0 +1,247 @@
+{
+  "name": "Duck Carnitas with Mole Negro and Cocoa Nib Dust",
+  "source": "adpated from Pujol",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/duckcarnitas_molenegro_cocoanibdust.webp",
+  "chef": " Enrique Olvera",
+  "yield": "Serves 4",
+  "description": "A refined twist on traditional carnitas — slow-cooked duck legs with a rich Oaxacan-style mole negro, finished with a dusting of cocoa nibs for bitterness and texture.",
+  "category": "Main",
+  "keywords": "duck, carnitas, mole negro, cocoa nibs, Mexican, modernist, slow-cooked",
+  "ingredients": [
+    {
+      "item": "Duck Carnitas",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Mole Negro",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Cocoa Nib Dust",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Micro cilantro",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Toasted sesame seeds",
+      "quantity": "1 tsp",
+      "note": "optional"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Meat thermometer",
+      "link": "https://amzn.to/3WRr6fC"
+    },
+    {
+      "item": "Food processor",
+      "link": "https://amzn.to/47ufDsv"
+    },
+    {
+      "item": "Fine mesh strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Cast-iron skillet or braising pan",
+      "link": "https://amzn.to/3JPQvDq"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Spoon a layer of warm mole negro onto each plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Top with crisped duck carnitas."
+    },
+    {
+      "number": 3,
+      "instruction": "Dust lightly with cocoa nib mixture for aroma and texture."
+    },
+    {
+      "number": 4,
+      "instruction": "Garnish with micro cilantro and sesame seeds."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Duck Carnitas",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Duck legs",
+          "quantity": "4",
+          "note": "skin-on"
+        },
+        {
+          "item": "Duck fat or lard",
+          "quantity": "250 g"
+        },
+        {
+          "item": "Orange juice",
+          "quantity": "100 mL"
+        },
+        {
+          "item": "Garlic cloves",
+          "quantity": "3",
+          "note": "smashed"
+        },
+        {
+          "item": "Bay leaves",
+          "quantity": "2"
+        },
+        {
+          "item": "Salt",
+          "quantity": "to taste"
+        },
+        {
+          "item": "Black pepper",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Season duck legs generously with salt and pepper."
+        },
+        {
+          "number": 2,
+          "instruction": "In a heavy pan, melt duck fat and add garlic and bay leaves."
+        },
+        {
+          "number": 3,
+          "instruction": "Add duck legs and cook gently over low heat or in oven at 140°C (285°F) for 2–3 hours until and internal temperature of 63°C (145°F)."
+        },
+        {
+          "number": 4,
+          "instruction": "Remove duck and shred meat into bite-sized pieces."
+        },
+        {
+          "number": 5,
+          "instruction": "Crisp shredded duck in a hot skillet for 2–3 minutes before plating."
+        }
+      ]
+    },
+    {
+      "name": "Mole Negro",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Dried ancho chiles",
+          "quantity": "2",
+          "note": "stemmed and seeded"
+        },
+        {
+          "item": "Dried pasilla chiles",
+          "quantity": "2",
+          "note": "stemmed and seeded"
+        },
+        {
+          "item": "Onion",
+          "quantity": "1 small",
+          "note": "chopped"
+        },
+        {
+          "item": "Garlic cloves",
+          "quantity": "3",
+          "note": "peeled"
+        },
+        {
+          "item": "Tomato",
+          "quantity": "1 medium",
+          "note": "roasted"
+        },
+        {
+          "item": "Almonds",
+          "quantity": "30 g",
+          "note": "toasted"
+        },
+        {
+          "item": "Sesame seeds",
+          "quantity": "1 tbsp",
+          "note": "toasted"
+        },
+        {
+          "item": "Raisins",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Tortilla",
+          "quantity": "1 small",
+          "note": "toasted until dark"
+        },
+        {
+          "item": "Mexican chocolate or dark chocolate",
+          "quantity": "20 g"
+        },
+        {
+          "item": "Chicken stock",
+          "quantity": "400 mL"
+        },
+        {
+          "item": "Cinnamon stick",
+          "quantity": "1 small"
+        },
+        {
+          "item": "Salt",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Toast chiles lightly, then soak in hot water until softened."
+        },
+        {
+          "number": 2,
+          "instruction": "Sauté onion, garlic, tomato, almonds, sesame seeds, raisins, and tortilla until fragrant and browned."
+        },
+        {
+          "number": 3,
+          "instruction": "Blend all with softened chiles, cinnamon, and enough stock to form a smooth paste."
+        },
+        {
+          "number": 4,
+          "instruction": "Simmer sauce gently for 20–30 minutes, adding chocolate at the end to melt and enrich flavor."
+        },
+        {
+          "number": 5,
+          "instruction": "Strain through a fine mesh for a silky consistency. Season with salt."
+        }
+      ]
+    },
+    {
+      "name": "Cocoa Nib Dust",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Cocoa nibs",
+          "quantity": "10 g",
+          "note": "finely ground"
+        },
+        {
+          "item": "Sea salt flakes",
+          "quantity": "1 pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Grind cocoa nibs to a fine powder using a food processor."
+        },
+        {
+          "number": 2,
+          "instruction": "Mix lightly with sea salt flakes to enhance contrast."
+        }
+      ]
+    }
+  ]
+}

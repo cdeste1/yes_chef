@@ -1,0 +1,111 @@
+{
+  "name": "Smoked Chestnut Boulevardier",
+  "source": "adapted from The American Bar at the Savoy",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/smokedChestnut_boulevardier.webp",
+  "chef": " Angelo Sparvoli",
+  "yield": "1",
+  "description": "A deep, roasted take on the Boulevardier with smoked chestnut syrup.",
+  "category": "Cocktail",
+  "keywords": "boulevardier, chestnut, bourbon, smoked, spirit-forward",
+  "ingredients": [
+    {
+      "item": "Bourbon",
+      "quantity": "1 1/2 ounces"
+    },
+    {
+      "item": "Campari",
+      "quantity": "3/4 ounce"
+    },
+    {
+      "item": "Sweet Vermouth",
+      "quantity": "3/4 ounce"
+    },
+    {
+      "item": "Smoked Chestnut Syrup",
+      "quantity": "1/4 ounce",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Orange Peel",
+      "quantity": "1, expressed"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Ice Mold",
+      "link": "https://amzn.to/47QsXGH"
+    },
+    {
+      "item": "Brulee Torch",
+      "link": "https://amzn.to/4reCq3q"
+    },
+    {
+      "item": "Cocktail Smoking Wood",
+      "link": "https://amzn.to/48fDvPJ"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Combine all ingredients in a mixing glass with ice."
+    },
+    {
+      "number": 2,
+      "instruction": "Stir for 20 seconds and strain over a large cube."
+    },
+    {
+      "number": 3,
+      "instruction": "Express orange peel over the glass."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Smoked Chestnut Syrup",
+      "ingredients": [
+        {
+          "item": "Roasted Chestnuts",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Water",
+          "quantity": "1 cup"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Simmer chestnuts, sugar, and water for 20 minutes."
+        },
+        {
+          "number": 2,
+          "instruction": "Pour into a heat tolerant glass."
+        },
+        {
+          "number": 3,
+          "instruction": "Use the torch to light the smoking cube.",
+          "note": "Follow the manufacturer's instructions"
+        },
+        {
+          "number": 4,
+          "instruction": "Once smoking, cover the glass and cube with a large enough bowl to trap the smoke."
+        },
+        {
+          "number": 5,
+          "instruction": "After 3-5 minutes, remove the bowl, strain and cool."
+        }
+      ]
+    }
+  ]
+}

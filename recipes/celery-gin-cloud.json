@@ -1,0 +1,81 @@
+{
+  "name": "Celery Gin Cloud",
+  "source": "adapted from The Fat Duck",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/CeleryGinCloud.webp",
+  "chef": " Heston Blumenthal",
+  "yield": "Serves 1",
+  "category": "Cocktail",
+  "description": "A light, vegetal gin cocktail topped with aerated celery foam.",
+  "keywords": "gin, celery, foam",
+  "specialtools": [
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Soy lecithin",
+      "link": "https://amzn.to/3Xnkupo"
+    },
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/47LWEbR"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Aviation Gin",
+      "quantity": "1 1/2 ounces"
+    },
+    {
+      "item": "Celergy Juice",
+      "quantity": "1 ounces"
+    },
+    {
+      "item": "Dry Vermouth",
+      "quantity": "1/2 ounces"
+    },
+    {
+      "item": "Celery foam",
+      "note": "see sub-recipe"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Shake gin, celery juice, and dry vermouth; strain into a chilled glass."
+    },
+    {
+      "number": 2,
+      "instruction": "Top with celery foam."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Celery Foam",
+      "ingredients": [
+        {
+          "item": "Celery juice",
+          "quantity": "2 ounces"
+        },
+        {
+          "item": "Simple syrup",
+          "quantity": "1 ounce"
+        },
+        {
+          "item": "Soy lecithin",
+          "quantity": "1 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Place all ingredients into a pan, blend and foam using an immersion blender."
+        }
+      ]
+    }
+  ]
+}

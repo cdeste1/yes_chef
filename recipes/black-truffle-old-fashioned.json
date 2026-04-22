@@ -1,0 +1,94 @@
+{
+  "name": "Black Truffle Old Fashioned",
+  "source": "adapted from The Connaught Bar",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/BlackTruffle_OldFashioned.webp",
+  "chef": " Giorgio Bargiani",
+  "yield": "1",
+  "description": "A decadent Old Fashioned infused with black truffle and raw honey.",
+  "category": "Cocktail",
+  "keywords": "old fashioned, truffle, bourbon, honey, spirit-forward",
+  "ingredients": [
+    {
+      "item": "Bourbon",
+      "quantity": "2 ounces"
+    },
+    {
+      "item": "Black Truffle Honey Syrup",
+      "quantity": "1/4 ounce",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Angostura Bitters",
+      "quantity": "2 dashes"
+    },
+    {
+      "item": "Orange Peel",
+      "quantity": "1, expressed"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Microplane",
+      "link": "https://amzn.to/4oao69z"
+    },
+    {
+      "item": "Ice Mold",
+      "link": "https://amzn.to/47QsXGH"
+    },
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Peeler",
+      "link": "https://amzn.to/4i6MFT7"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Stir all ingredients over ice for 15–20 seconds."
+    },
+    {
+      "number": 2,
+      "instruction": "Strain over a large ice cube."
+    },
+    {
+      "number": 3,
+      "instruction": "Express orange peel and serve."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Black Truffle Honey Syrup",
+      "ingredients": [
+        {
+          "item": "Honey",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Hot Water",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Black Truffle",
+          "quantity": "1/4 teaspoon, microplaned"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Whisk hot water into honey until dissolved."
+        },
+        {
+          "number": 2,
+          "instruction": "Stir in microplaned truffle and infuse 10 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain and refrigerate."
+        }
+      ]
+    }
+  ]
+}

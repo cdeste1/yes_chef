@@ -1,0 +1,118 @@
+{
+  "name": "Vanilla Bean Espresso Cloud",
+  "source": "adapted from The Fat Duck",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Vanilla_Espresso_Cloud.webp",
+  "chef": " Heston Blumenthal",
+  "yield": "1",
+  "description": "A refined espresso martini with vanilla bean syrup and a light foam cap.",
+  "category": "Cocktail",
+  "keywords": "espresso, vanilla bean, dessert, martini",
+  "ingredients": [
+    {
+      "item": "Vodka",
+      "quantity": "1 1/2 ounces"
+    },
+    {
+      "item": "Coffee Liqueur",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Fresh Espresso",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Vanilla Bean Syrup",
+      "quantity": "1/2 ounce",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Espresso Foam",
+      "quantity": "1 ounce",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Espresso Machine",
+      "link": "https://amzn.to/3XNy0CW"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Shake vodka, liqueur, espresso, and vanilla syrup vigorously with ice."
+    },
+    {
+      "number": 2,
+      "instruction": "Strain into a chilled coupe."
+    },
+    {
+      "number": 3,
+      "instruction": "Top gently with Espresso Foam."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Vanilla Bean Syrup",
+      "ingredients": [
+        {
+          "item": "Sugar",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Water",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Vanilla Bean",
+          "quantity": "1, split and scraped"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Simmer sugar and water until dissolved."
+        },
+        {
+          "number": 2,
+          "instruction": "Add vanilla bean and infuse 20 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain and cool."
+        }
+      ]
+    },
+    {
+      "name": "Espresso Foam",
+      "ingredients": [
+        {
+          "item": "Fresh Espresso",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1 tablespoon"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Froth hot espresso with sugar until foam forms."
+        },
+        {
+          "number": 2,
+          "instruction": "Spoon gently onto the drink."
+        }
+      ]
+    }
+  ]
+}

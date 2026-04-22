@@ -1,0 +1,87 @@
+{
+  "name": "Volaille de Bresse en Vessie",
+  "source": "adapted from Collonges-au-Mont-d'Or (Lyon)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/BresseChicken_enVessie.webp",
+  "chef": " Paul Bocuse",
+  "yield": "Serves 4",
+  "description": "Bresse chicken poached in a bladder, served with creamy sauce suprême and truffle.",
+  "category": "Main",
+  "keywords": "bocuse, classic french, bresse chicken, truffle, bladder poaching",
+  "ingredients": [
+    {
+      "item": "Bresse chicken",
+      "quantity": "1",
+      "note": "If you cannot find a Bresse chicken, use a high quality whole chicken."
+    },
+    {
+      "item": "Pig’s bladder",
+      "quantity": "1",
+      "note": "a sealable plastic bag may be used as an alternative"
+    },
+    {
+      "item": "Truffle",
+      "quantity": "1"
+    },
+    {
+      "item": "Sauce Suprême",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Kitchen twine",
+      "link": "https://amzn.to/44174Dl"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Stuff the chicken cavity with truffle slices."
+    },
+    {
+      "number": 2,
+      "instruction": "Seal chicken inside bladder with kitchen twine.  Folder over the top and tie again to make sure no air can escape."
+    },
+    {
+      "number": 2,
+      "instruction": "Place the sealed bladder in a large stock pot with chicken broth.  Simmer for about 1.5 hours."
+    },
+    {
+      "number": 2,
+      "instruction": "Ladle broth over the bladder periodically to keep it moist."
+    },
+    {
+      "number": 1,
+      "instruction": "Serve carved chicken with sauce suprême and truffle slices."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Sauce Suprême",
+      "ingredients": [
+        {
+          "item": "Chicken stock",
+          "quantity": "300 mL"
+        },
+        {
+          "item": "Cream",
+          "quantity": "150 mL"
+        },
+        {
+          "item": "Butter",
+          "quantity": "20 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Reduce stock; whisk in cream and butter."
+        }
+      ]
+    }
+  ]
+}

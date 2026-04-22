@@ -1,0 +1,213 @@
+{
+  "name": "Burrata Sphere with Basil Oil & Tomato Water Snow",
+  "source": "adapted from Modern Italian",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/burrata_tomatowatersnow_basiloil.png",
+  "chef": " Massimo Bottura",
+  "yield": "1, serving 2-4",
+  "description": "A delicate burrata sphere paired with aromatic basil oil and refreshing tomato water snow, combining creamy, herbal, and acidic elements.",
+  "category": "Starter",
+  "keywords": "burrata, basil oil, tomato water, molecular gastronomy, modernist, cold dish",
+  "winePairings": [
+    {
+      "name": "Rosé from Provence",
+      "notes": "Crisp strawberry + herb notes match basil/tomato."
+    },
+    {
+      "name": "Sancerre Les Monts Damnés",
+      "notes": "High-end Sauvignon Blanc = precision + minerality."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Burrata Sphere",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Basil Oil",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Tomato Water Snow",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Xanthan gum",
+      "link": "https://amzn.to/43FdaJF"
+    },
+    {
+      "item": "Sodium alginate bath",
+      "link": "https://amzn.to/480JdpD"
+    },
+    {
+      "item": "Calcium lactate bath",
+      "link": "https://amzn.to/4ovHte4"
+    },
+    {
+      "item": "Fine Sieve",
+      "link": "https://amzn.to/4pb7orr"
+    },
+    {
+      "item": "Cheese Cloth",
+      "link": "https://amzn.to/4oQp6jy"
+    },
+    {
+      "item": "Microplane",
+      "link": "https://amzn.to/4oao69z"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Spoon a small pool of basil oil on the plate. Place the burrata sphere in the center."
+    },
+    {
+      "number": 2,
+      "instruction": "Grate tomato water snow over and around the sphere right before serving."
+    },
+    {
+      "number": 3,
+      "instruction": "Garnish with micro basil leaves, cracked black pepper, or a drizzle of olive oil. Serve immediately."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Burrata Sphere",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Fresh burrata",
+          "quantity": "7 ounces"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Salt",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "item": "Sodium alginate bath",
+          "quantity": "500 mL",
+          "note": "1 g sodium alginate per 500 mL water"
+        },
+        {
+          "item": "Calcium lactate bath",
+          "quantity": "1 L",
+          "note": "5 g calcium lactate per 1 L water"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Open the burrata and remove the stracciatella filling."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend the stracciatella, cream, salt, and sodium alginate until completely smooth."
+        },
+        {
+          "number": 3,
+          "instruction": "Chill 30 minutes to remove bubbles."
+        },
+        {
+          "number": 4,
+          "instruction": "Using a round spoon or mold, form small portions and drop into the calcium lactate bath for about 2 minutes."
+        },
+        {
+          "number": 5,
+          "instruction": "Rinse gently in cold water to remove any excess calcium."
+        },
+        {
+          "number": 6,
+          "instruction": "Set aside in a little olive oil to prevent sticking."
+        },
+        {
+          "number": 7,
+          "instruction": "Alternative: Skip steps 1-6 and use the burrata as is for a simpler presentation with similar flavor."
+        }
+      ]
+    },
+    {
+      "name": "Basil Oil",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Fresh basil leaves",
+          "quantity": "1 large bunch"
+        },
+        {
+          "item": "Neutral oil (grapeseed or light olive oil)",
+          "quantity": "200 mL"
+        },
+        {
+          "item": "Salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blanch basil leaves in boiling water for 10 seconds, then shock in ice water."
+        },
+        {
+          "number": 2,
+          "instruction": "Squeeze dry, then blend with oil and salt until bright green."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain through a fine mesh sieve or cheesecloth."
+        },
+        {
+          "number": 4,
+          "instruction": "Store refrigerated up to 5 days."
+        }
+      ]
+    },
+    {
+      "name": "Tomato Water Snow",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Ripe tomatoes",
+          "quantity": "1 kg"
+        },
+        {
+          "item": "Salt",
+          "quantity": "to taste",
+          "note": "about 1%"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "pinch",
+          "note": "optional, if tomatoes are acidic"
+        },
+        {
+          "item": "Xanthan gum",
+          "quantity": "1/4 teaspoon",
+          "note": "for thickening/emulsifying"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend tomatoes with salt and sugar."
+        },
+        {
+          "number": 2,
+          "instruction": "Line a bowl with cheesecloth, pour the purée in, and let it drip overnight in the fridge to collect tomato water."
+        },
+        {
+          "number": 3,
+          "instruction": "Mix tomato water with Xanthan gum and freeze tomato water solid."
+        }
+      ]
+    }
+  ]
+}

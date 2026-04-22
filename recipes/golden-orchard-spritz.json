@@ -1,0 +1,78 @@
+{
+  "name": "Golden Orchard Spritz",
+  "source": "adapted from The Connaught Bar",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/GoldenOrchardSpritz.webp",
+  "chef": " Giorgio Bargiani",
+  "yield": "1",
+  "description": "A refined aperitif spritz highlighting pear, elderflower, and dry sparkling wine.",
+  "category": "Cocktail",
+  "keywords": "spritz, aperitif, elderflower, pear, sparkling",
+  "ingredients": [
+    {
+      "item": "Pear Elderflower Base",
+      "quantity": "2 ounces",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Dry Sparkling Wine",
+      "quantity": "3 ounces"
+    },
+    {
+      "item": "Soda Water",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Thin Pear Slice",
+      "quantity": "1, for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Peeler",
+      "link": "https://amzn.to/4i6MFT7"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Add Pear Elderflower Base to a chilled wine glass."
+    },
+    {
+      "number": 2,
+      "instruction": "Add sparkling wine and soda water."
+    },
+    {
+      "number": 3,
+      "instruction": "Stir gently to combine."
+    },
+    {
+      "number": 4,
+      "instruction": "Garnish with a thin pear slice."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Pear Elderflower Base",
+      "ingredients": [
+        {
+          "item": "Elderflower Liqueur",
+          "quantity": "1 ounce"
+        },
+        {
+          "item": "Pear Purée",
+          "quantity": "1 ounce"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Stir the elderflower liqueur and pear purée together until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Refrigerate until use."
+        }
+      ]
+    }
+  ]
+}

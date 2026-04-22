@@ -1,0 +1,231 @@
+{
+  "name": "Quinoa Risotto with Jerusalem Artichoke and Black Garlic",
+  "source": "adapted from Noma (Copenhagen)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/quinorissotto_artichoke_garlicpuree.png",
+  "chef": " René Redzepi",
+  "yield": "Serves 4",
+  "description": "A refined plant-based risotto featuring nutty quinoa cooked to creamy perfection, paired with roasted Jerusalem artichokes and umami-rich black garlic purée.",
+  "category": "Main",
+  "keywords": "quinoa, risotto, jerusalem artichoke, black garlic, vegetarian, fine dining, plant-based",
+  "ingredients": [
+    {
+      "item": "Quinoa Risotto",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Jerusalem artichokes",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Black Garlic Puree",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Micro herbs",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Extra virgin olive oil",
+      "quantity": "",
+      "note": "for finishing drizzle"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "High-speed blender",
+      "link": "https://amzn.to/4oCWWZS"
+    },
+    {
+      "item": "Fine mesh strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Saucepan or risotto pan",
+      "link": "https://amzn.to/4hUESI1"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Spoon quinoa risotto onto the center of a warm plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Arrange roasted Jerusalem artichokes elegantly on top."
+    },
+    {
+      "number": 3,
+      "instruction": "Add dots or a swirl of black garlic purée around the plate."
+    },
+    {
+      "number": 4,
+      "instruction": "Finish with micro herbs and a drizzle of olive oil."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Quinoa Risotto Base",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "White quinoa",
+          "quantity": "250 g",
+          "note": "rinsed"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Shallots",
+          "quantity": "2",
+          "note": "finely chopped"
+        },
+        {
+          "item": "Dry white wine",
+          "quantity": "100 mL"
+        },
+        {
+          "item": "Vegetable stock",
+          "quantity": "600–700 mL",
+          "note": "kept warm"
+        },
+        {
+          "item": "Unsalted butter or olive oil",
+          "quantity": "30 g",
+          "note": "for finishing"
+        },
+        {
+          "item": "Parmesan or vegan alternative",
+          "quantity": "30 g",
+          "note": "finely grated"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "White pepper",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Heat olive oil in a risotto pan over medium heat. Add shallots and cook until translucent."
+        },
+        {
+          "number": 2,
+          "instruction": "Add rinsed quinoa and toast lightly for 2–3 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Deglaze with white wine and reduce until nearly dry."
+        },
+        {
+          "number": 4,
+          "instruction": "Add warm vegetable stock one ladle at a time, stirring occasionally until quinoa is tender and creamy (about 20 minutes)."
+        },
+        {
+          "number": 5,
+          "instruction": "Finish with butter and Parmesan (or vegan substitute). Season to taste with salt and pepper."
+        }
+      ]
+    },
+    {
+      "name": "Roasted Jerusalem Artichokes",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Jerusalem artichokes",
+          "quantity": "400 g",
+          "note": "washed and halved"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Thyme sprigs",
+          "quantity": "2"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "Black pepper",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat oven to 200°C (400°F)."
+        },
+        {
+          "number": 2,
+          "instruction": "Toss artichokes with olive oil, thyme, salt, and pepper."
+        },
+        {
+          "number": 3,
+          "instruction": "Roast for 25–30 minutes until golden and tender."
+        },
+        {
+          "number": 4,
+          "instruction": "Remove thyme sprigs before plating."
+        }
+      ]
+    },
+    {
+      "name": "Black Garlic Purée",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Black garlic cloves",
+          "quantity": "6–8"
+        },
+        {
+          "item": "Water or vegetable stock",
+          "quantity": "50–80 mL"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Lemon juice",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend black garlic, olive oil, and lemon juice, adding water gradually until smooth and glossy."
+        },
+        {
+          "number": 2,
+          "instruction": "Pass through fine mesh strainer for an ultra-smooth texture."
+        },
+        {
+          "number": 3,
+          "instruction": "Keep warm or gently reheat before serving."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Caramelized Fig Manhattan",
+  "source": "Yes Chef! Kitchen",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/CarmelizedFigManhatten.webp",
+  "chef": "",
+  "yield": "1",
+  "description": "A dessert-inspired Manhattan with caramelized fig syrup and aged bourbon.",
+  "category": "Cocktail",
+  "keywords": "manhattan, fig, caramelized, dessert, bourbon",
+  "ingredients": [
+    {
+      "item": "Bourbon",
+      "quantity": "2 ounces"
+    },
+    {
+      "item": "Sweet Vermouth",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Caramelized Fig Syrup",
+      "quantity": "1/2 ounce",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Coupe Glasses",
+      "link": "https://amzn.to/4pC6G6R"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Stir bourbon, vermouth, and syrup over ice."
+    },
+    {
+      "number": 2,
+      "instruction": "Strain into a chilled coupe."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Caramelized Fig Syrup",
+      "ingredients": [
+        {
+          "item": "Fresh Figs",
+          "quantity": "1 cup, halved"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Water",
+          "quantity": "1 cup"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Sauté figs and sugar until caramelized."
+        },
+        {
+          "number": 2,
+          "instruction": "Add water and simmer 10 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain and cool."
+        }
+      ]
+    }
+  ]
+}

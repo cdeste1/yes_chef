@@ -1,0 +1,183 @@
+{
+  "name": "Inception",
+  "source": "adapted from Alinea",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Inception.webp",
+  "chef": " Grant Achatz",
+  "yield": "1",
+  "description": "A drink inside a drink",
+  "category": "Cocktail",
+  "keywords": "alcohol, drink, bourbon, cool",
+  "ingredients": [
+    {
+      "item": "Boulevardier",
+      "quantity": "2 ounces",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Old Fashioned",
+      "quantity": "2 ounces",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Luxardo Maraschino Cherry",
+      "quantity": "1-2, for garnish"
+    },
+    {
+      "item": "Orange Peel",
+      "quantity": "1, for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Ice Mold",
+      "link": "https://amzn.to/47QsXGH"
+    },
+    {
+      "item": "Drill",
+      "link": "https://amzn.to/3LSvubW"
+    },
+    {
+      "item": "Drill bit set",
+      "link": "https://amzn.to/3XpAxU1"
+    },
+    {
+      "item": "Soldering Iron",
+      "link": "https://amzn.to/49oE9N9"
+    },
+    {
+      "item": "Syringe",
+      "link": "https://amzn.to/3KbK79O"
+    },
+    {
+      "item": "Orange Peeler",
+      "link": "https://amzn.to/4i6MFT7"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Fill sphere ice mold with water",
+      "note": "To get the perfect sphere put your finger over the air hole and turn the mold upside down.  If there is air, add more water."
+    },
+    {
+      "number": 2,
+      "instruction": "Freeze for 1 1/2 hours."
+    },
+    {
+      "number": 3,
+      "instruction": "Turn the mold upside down and freeze for 1 1/2 hours."
+    },
+    {
+      "number": 4,
+      "instruction": "Remove from freezer."
+    },
+    {
+      "number": 5,
+      "instruction": "Use a heated soldering iron, or a clean drill to create a hole in the ice sphere."
+    },
+    {
+      "number": 6,
+      "instruction": "Use a syringe to empty the water out of the ice sphere.  Alternatively turn the sphere over to pour out the water."
+    },
+    {
+      "number": 7,
+      "instruction": "Freeze for another 2 hours or overnight."
+    },
+    {
+      "number": 8,
+      "instruction": "Remove from freezer and pour the Old Fashioned into the ice cube."
+    },
+    {
+      "number": 9,
+      "instruction": "Carefully place in a glass."
+    },
+    {
+      "number": 10,
+      "instruction": "Pour in the Boulevardier."
+    },
+    {
+      "number": 11,
+      "instruction": "Garnish with a Luxardo Maraschino Cherry and Orange Peel"
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Simple Syrup",
+      "ingredients": [
+        {
+          "item": "Sugar",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Water",
+          "quantity": "1 cup"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Whisk together sugar and water."
+        },
+        {
+          "number": 2,
+          "instruction": "Bring to a boil and then simmer until reduced by half."
+        },
+        {
+          "number": 3,
+          "instruction": "Remove from heat and let cool.  It should thicken to a syrup consistency."
+        },
+        {
+          "number": 4,
+          "instruction": "Store in the refrigerator."
+        }
+      ]
+    },
+    {
+      "name": "Boulevardier",
+      "ingredients": [
+        {
+          "item": "Campari",
+          "quantity": "3/4 ounces"
+        },
+        {
+          "item": "Angel's Envy Bourbon",
+          "quantity": "1 1/2 ounces"
+        },
+        {
+          "item": "Antica Torino Sweet Vermouth",
+          "quantity": "3/4 ounces"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine all ingredients over ice and stir for 15-20 seconds"
+        }
+      ]
+    },
+    {
+      "name": "Old Fashioned",
+      "ingredients": [
+        {
+          "item": "Angel's Envy Bourbon",
+          "quantity": "2 ounces"
+        },
+        {
+          "item": "Simple Syrup",
+          "quantity": "1/4 ounce",
+          "note": "see sub-recipe"
+        },
+        {
+          "item": "Angostura Bitters",
+          "quantity": "3 dashes"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine all ingredients over ice and stir for 15-20 seconds"
+        }
+      ]
+    }
+  ]
+}

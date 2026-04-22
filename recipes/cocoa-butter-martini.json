@@ -1,0 +1,86 @@
+{
+  "name": "Cocoa Butter Martini",
+  "source": "Yes Chef! Kitchen",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/CocoaButter_Martini.webp",
+  "chef": "",
+  "yield": "1",
+  "description": "A silk-smooth vodka martini washed with cocoa butter.",
+  "category": "Cocktail",
+  "keywords": "martini, cocoa butter, vodka, spirit-forward",
+  "ingredients": [
+    {
+      "item": "Cocoa Butter–Washed Vodka",
+      "quantity": "2 1/2 ounces",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Dry Vermouth",
+      "quantity": "1/2 ounce"
+    },
+    {
+      "item": "Lemon Peel",
+      "quantity": "1, expressed"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Drink Shaker Set",
+      "link": "https://amzn.to/3XFD0JO"
+    },
+    {
+      "item": "Peeler",
+      "link": "https://amzn.to/4i6MFT7"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Double Boiler"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Stir ingredients over ice until well chilled."
+    },
+    {
+      "number": 2,
+      "instruction": "Strain into a frozen martini glass."
+    },
+    {
+      "number": 3,
+      "instruction": "Express lemon peel over the top."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Cocoa Butter–Washed Vodka",
+      "ingredients": [
+        {
+          "item": "Vodka",
+          "quantity": "1 bottle"
+        },
+        {
+          "item": "Food-Grade Cocoa Butter",
+          "quantity": "4 ounces"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Melt cocoa butter over a double boiler.",
+          "note": "A double boiler is nothing more than a glass bowl over a boiling pot"
+        },
+        {
+          "number": 2,
+          "instruction": "Stir into vodka and let infuse overnight."
+        },
+        {
+          "number": 3,
+          "instruction": "Freeze and strain off solids."
+        }
+      ]
+    }
+  ]
+}

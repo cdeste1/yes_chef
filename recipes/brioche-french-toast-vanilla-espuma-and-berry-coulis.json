@@ -1,0 +1,167 @@
+{
+  "name": "Brioche French Toast, Vanilla Espuma and Berry Coulis",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/FrenchToast.png",
+  "yield": "4 servings",
+  "description": "A luxurious Michelin-inspired brunch dish featuring thick slices of artisanal brioche soaked in a fragrant vanilla bean and orange zest crème anglaise, pan-fried in clarified butter, finished with a crackling caramelized crust, and crowned with an ethereal vanilla espuma. Accompanied by macerated seasonal berries, toasted hazelnuts, and a vibrant berry coulis for perfect texture and flavor contrast.",
+  "category": "Brunch",
+  "keywords": "french toast, brioche, pain perdu, espuma, fine dining, brunch",
+  "winePairings": [
+    {
+      "name": "Champagne Brut",
+      "notes": "Crisp bubbles cut through the richness and highlight the vanilla and berry notes."
+    },
+    {
+      "name": "Late Harvest Riesling",
+      "notes": "Sweet floral notes complement the caramelized crust and macerated berries."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Day-old artisanal brioche loaf",
+      "quantity": "4 slices",
+      "note": "2 cm / ¾ inch thick"
+    },
+    {
+      "item": "Whole milk",
+      "quantity": "300 ml"
+    },
+    {
+      "item": "Heavy cream (36% fat minimum)",
+      "quantity": "200 ml"
+    },
+    {
+      "item": "Madagascar vanilla bean",
+      "quantity": "1",
+      "note": "split and scraped"
+    },
+    {
+      "item": "Organic orange",
+      "quantity": "1",
+      "note": "zest only, microplaned"
+    },
+    {
+      "item": "Large free-range eggs",
+      "quantity": "4"
+    },
+    {
+      "item": "Caster sugar",
+      "quantity": "60 g"
+    },
+    {
+      "item": "Sea salt",
+      "quantity": "pinch"
+    },
+    {
+      "item": "Grand Marnier (or dark rum)",
+      "quantity": "30 ml",
+      "note": "optional"
+    },
+    {
+      "item": "Clarified butter (ghee)",
+      "quantity": "50 g"
+    },
+    {
+      "item": "Mixed fresh berries (strawberries, blueberries, raspberries)",
+      "quantity": "150 g",
+      "note": "macerated"
+    },
+    {
+      "item": "Caster sugar (for maceration)",
+      "quantity": "1 tbsp"
+    },
+    {
+      "item": "Toasted hazelnuts",
+      "quantity": "30 g",
+      "note": "lightly crushed"
+    },
+    {
+      "item": "Edible 24-karat gold leaf",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Heavy cream (for espuma)",
+      "quantity": "100 ml"
+    },
+    {
+      "item": "Vanilla bean paste",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Berry coulis or reduced maple syrup",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Micro edible flowers",
+      "quantity": "optional"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Sous-vide immersion circulator",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Gourmet Whip siphon (0.5 L) + 2 N?O chargers",
+      "link": "https://amzn.to/4tiCiAl"
+    },
+    {
+      "item": "Kitchen blowtorch (culinary torch)",
+      "link": "https://amzn.to/42eE89w"
+    },
+    {
+      "item": "Fine-mesh chinois strainer",
+      "link": "https://amzn.to/4cjQK5p"
+    },
+    {
+      "item": "Digital precision scale (0.1 g accuracy)",
+      "link": "https://amzn.to/4cQUI5s"
+    },
+    {
+      "item": "Microplane zester",
+      "link": "https://amzn.to/4mF1vT9"
+    },
+    {
+      "item": "Edible Gold Leaf",
+      "link": "https://amzn.to/4cSNkGM"
+    },
+    {
+      "item": "Vacuum sealer",
+      "link": "https://amzn.to/4ufPoPh"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare the infused custard base using a sous-vide immersion circulator at 60°C (140°F). Combine milk, cream, scraped vanilla bean and seeds, and microplaned orange zest. Infuse for 30 minutes."
+    },
+    {
+      "number": 2,
+      "instruction": "In a bowl, gently whisk the eggs, caster sugar, and sea salt until combined. Strain the infused dairy through a chinois into the egg mixture. Add Grand Marnier if using. Refrigerate until needed."
+    },
+    {
+      "number": 3,
+      "instruction": "Prepare the vanilla espuma: Whisk 100 ml heavy cream with vanilla bean paste and 20 g sugar until dissolved. Charge a siphon with two N?O cartridges, shake vigorously, and refrigerate for at least 10 minutes."
+    },
+    {
+      "number": 4,
+      "instruction": "Macerate the berries: Toss 150 g mixed berries with 1 tbsp sugar and a squeeze of lemon juice. Let sit for 15 minutes."
+    },
+    {
+      "number": 5,
+      "instruction": "Soak the brioche slices in the custard for 2–3 minutes per side until fully saturated but still holding shape. For deeper infusion, use a vacuum sealer on gentle setting."
+    },
+    {
+      "number": 6,
+      "instruction": "Heat clarified butter in a heavy skillet over medium-low heat. Fry each soaked brioche slice for 3–4 minutes per side until deep golden and the interior reaches 70°C (158°F)."
+    },
+    {
+      "number": 7,
+      "instruction": "Remove to a wire rack. Immediately sprinkle each slice evenly with caster or turbinado sugar and caramelize the surface using a kitchen blowtorch in sweeping motions until a glassy, crackling crust forms."
+    },
+    {
+      "number": 8,
+      "instruction": "Plating: Warm the plates. Place one or two slices of French toast slightly off-center. Dispense a generous cloud of vanilla espuma on top. Scatter macerated berries and crushed toasted hazelnuts around the base. Delicately apply flakes of edible gold leaf with tweezers. Garnish with micro edible flowers and finish with an artistic drizzle of berry coulis or reduced maple syrup."
+    }
+  ],
+  "sub_recipes": []
+}

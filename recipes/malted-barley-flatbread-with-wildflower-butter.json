@@ -1,0 +1,83 @@
+{
+  "name": "Malted Barley Flatbread with Wildflower Butter",
+  "source": "adapted from Noma (Copenhagen)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/MaltedBarleyFlatbread_FlowerButter.jpg",
+  "chef": " René Redzepi",
+  "yield": "8 flatbreads",
+  "description": "Primitive-style flatbread using malted barley flour, served with aromatic wildflower butter.",
+  "category": "Bread",
+  "keywords": "noma, barley, flatbread, wildflower, foraged, fermentation",
+  "ingredients": [
+    {
+      "item": "Malted barley flour",
+      "quantity": "150 g"
+    },
+    {
+      "item": "Bread flour",
+      "quantity": "150 g"
+    },
+    {
+      "item": "Warm water",
+      "quantity": "200 g"
+    },
+    {
+      "item": "Salt",
+      "quantity": "8 g"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Cast-iron pan",
+      "link": "https://amzn.to/3JPQvDq"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Edible Flowers",
+      "link": "https://amzn.to/4oN7NR1"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Mix ingredients into shaggy dough; rest 30 minutes."
+    },
+    {
+      "number": 2,
+      "instruction": "Roll into thin disks; cook in hot cast iron until blistered."
+    },
+    {
+      "number": 1,
+      "instruction": "Serve warm with soft wildflower butter."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Wildflower Butter",
+      "ingredients": [
+        {
+          "item": "Butter",
+          "quantity": "200 g",
+          "note": "Softened"
+        },
+        {
+          "item": "Wildflower petals",
+          "quantity": "20 g",
+          "note": "edible, dried or fresh"
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Fold petals and salt into softened butter; chill."
+        }
+      ]
+    }
+  ]
+}

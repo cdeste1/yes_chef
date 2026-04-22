@@ -1,0 +1,202 @@
+{
+  "name": "Compressed Melon, Prosciutto Air, and Basil Pearls",
+  "source": "adapted from Osteria Francescana (Modena, Italy)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/melon_prosciuttoair_basilpearls.png",
+  "chef": " Massimo Bottura",
+  "yield": "Serves 4",
+  "description": "A playful, modernist take on the classic prosciutto and melon pairing — featuring vacuum-compressed melon, a savory prosciutto-infused air, and delicate basil pearls for balance and freshness.",
+  "category": "Starter",
+  "keywords": "melon, prosciutto, basil, spherification, modernist, compressed fruit, molecular gastronomy",
+  "winePairings": [
+    {
+      "name": "Vinho Verde (Portugal)",
+      "notes": "Light spritz lifts melon sweetness and balances salinity."
+    },
+    {
+      "name": "Louis Roederer Brut Champagne",
+      "notes": "High acidity and brioche notes elevate the dish."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Compressed melon",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Basil Pearls",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Prosciutto Air",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Micro basil",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Cracked black pepper",
+      "quantity": "",
+      "note": "optional, for contrast"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Vacuum sealer or chamber sealer",
+      "link": "https://amzn.to/3XpsAxS"
+    },
+    {
+      "item": "Immersion blender",
+      "link": "https://amzn.to/47LWEbR"
+    },
+    {
+      "item": "Soy lecithin",
+      "link": "https://amzn.to/3Xnkupo"
+    },
+    {
+      "item": "Sodium alginate",
+      "link": "https://amzn.to/480JdpD"
+    },
+    {
+      "item": "Calcium lactate bath",
+      "link": "https://amzn.to/4ovHte4"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Arrange compressed melon cubes neatly on chilled plates."
+    },
+    {
+      "number": 2,
+      "instruction": "Spoon basil pearls around or on top of melon."
+    },
+    {
+      "number": 3,
+      "instruction": "Add a spoonful of prosciutto air over or beside the melon for an aromatic finish."
+    },
+    {
+      "number": 4,
+      "instruction": "Garnish with micro basil and a light dusting of cracked pepper."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Compressed Melon",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Cantaloupe or honeydew melon",
+          "quantity": "1 medium",
+          "note": "cut into 1 inch (2 cm) cubes"
+        },
+        {
+          "item": "White balsamic vinegar",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Mint leaves",
+          "quantity": "4–5",
+          "note": "torn"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Place melon cubes in a vacuum bag with white balsamic vinegar and mint leaves."
+        },
+        {
+          "number": 2,
+          "instruction": "Seal under full vacuum to compress fruit and intensify color and flavor."
+        },
+        {
+          "number": 3,
+          "instruction": "Refrigerate for at least 30 minutes before serving."
+        }
+      ]
+    },
+    {
+      "name": "Prosciutto Air",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Prosciutto",
+          "quantity": "100 g",
+          "note": "thinly sliced"
+        },
+        {
+          "item": "Water",
+          "quantity": "200 mL"
+        },
+        {
+          "item": "Soy lecithin",
+          "quantity": "1 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Simmer prosciutto in water for 10–15 minutes to extract flavor, then strain and cool.",
+          "note": "the prosciutto can be used in another dish, like risotto or pasta sauce for added flavor"
+        },
+        {
+          "number": 2,
+          "instruction": "Add soy lecithin to the liquid."
+        },
+        {
+          "number": 3,
+          "instruction": "Use an immersion blender at the surface to create a stable foam (air)."
+        },
+        {
+          "number": 4,
+          "instruction": "Scoop the airy foam gently on top of plated melon before serving."
+        }
+      ]
+    },
+    {
+      "name": "Basil Pearls",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Fresh basil leaves",
+          "quantity": "20 g"
+        },
+        {
+          "item": "Water",
+          "quantity": "100 mL"
+        },
+        {
+          "item": "Sodium alginate",
+          "quantity": "2 g"
+        },
+        {
+          "item": "Calcium lactate bath",
+          "quantity": "500 mL water + 5 g calcium lactate"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend basil leaves and water until smooth, then strain."
+        },
+        {
+          "number": 2,
+          "instruction": "Mix strained basil liquid with sodium alginate; let rest 30 minutes to remove air bubbles."
+        },
+        {
+          "number": 3,
+          "instruction": "Using a syringe or dropper, drip the basil mixture into the calcium bath to form small pearls."
+        },
+        {
+          "number": 4,
+          "instruction": "Let sit for 1 minute, then remove and rinse in clean water."
+        },
+        {
+          "number": 5,
+          "instruction": "Store pearls in a small amount of fresh water until plating."
+        }
+      ]
+    }
+  ]
+}

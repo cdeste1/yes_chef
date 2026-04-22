@@ -1,0 +1,381 @@
+{
+  "name": "Pinwheel Lasagna",
+  "source": "adapted from: Don Angie - NYC",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/PinWheelLasagna.png",
+  "chef": " Angie Rito & Scott Tachinelli",
+  "yield": "16 pinwheels (serves 8-10)",
+  "description": "A rolled lasagna pinwheel filled with sausage bolognese, besciamella, mozzarella, and Parmigiano-Reggiano, baked in tomato sauce and finished with robiolina.",
+  "category": "Main",
+  "keywords": "pasta, lasagna, dinner, italian",
+  "winePairings": [
+    {
+      "name": "Chianti Classico Riserva",
+      "notes": "Sangiovese acidity slices through cheese layers."
+    },
+    {
+      "name": "Sassicaia Bolgheri",
+      "notes": "Complex, structured, elevates a classic to elite level."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Kosher salt",
+      "note": "for the pasta water (see Note)"
+    },
+    {
+      "item": "Northern-Style Egg Yolk Pasta",
+      "quantity": "8 sheets",
+      "note": "12 × 7 inches, see sub-recipe; or use store-bought fresh pasta sheets"
+    },
+    {
+      "item": "Besciamella",
+      "quantity": "1 cup + 3 tablespoons",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Whole-milk mozzarella cheese",
+      "quantity": "4 cups",
+      "note": "shredded"
+    },
+    {
+      "item": "Parmigiano-Reggiano cheese",
+      "quantity": "1 cup",
+      "note": "finely grated"
+    },
+    {
+      "item": "Italian Sausage Bolognese",
+      "quantity": "4 cups",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "10-Minute San Marzano Tomato Sauce",
+      "quantity": "2 cups",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Robiolina cheese or whipped ricotta cheese",
+      "quantity": "½ cup"
+    },
+    {
+      "item": "Parsley",
+      "quantity": "2 tablespoons",
+      "note": "roughly chopped"
+    },
+    {
+      "item": "Extra-virgin olive oil",
+      "quantity": "3 tablespoons",
+      "note": "for finishing"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Pasta Sheet Roller",
+      "link": "https://amzn.to/4qJFYdA"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "In a large pot, bring 4 quarts water and 1 cup kosher salt to a boil over high heat. Meanwhile, set up an ice bath and line a sheet pan with parchment.",
+      "note": "The water should smell like the ocean"
+    },
+    {
+      "number": 2,
+      "instruction": "Blanch each pasta sheet for 15 seconds, chill in the ice bath for 15 seconds, then dry on parchment. Layer sheets separated by parchment."
+    },
+    {
+      "number": 3,
+      "instruction": "Lay one sheet out with the short side facing you. Spread ¼ cup besciamella, sprinkle 1 cup mozzarella and ¼ cup parmesan evenly."
+    },
+    {
+      "number": 4,
+      "instruction": "Add another pasta sheet on top. Spread 1 cup Bolognese evenly, leaving 2-inch border. Add 2 tsp besciamella on top edge to seal."
+    },
+    {
+      "number": 5,
+      "instruction": "Roll up from bottom into a log. Chill seam-side down for 1–2 hours to firm."
+    },
+    {
+      "number": 6,
+      "instruction": "Repeat to form 4 rolls total. Wrap tightly in plastic wrap if storing (2 days refrigerated or 3 months frozen)."
+    },
+    {
+      "number": 7,
+      "instruction": "Preheat oven to 400°F (205°C). Slice each roll into 4 pinwheels (1¾ inches thick)."
+    },
+    {
+      "number": 8,
+      "instruction": "Spread tomato sauce in 9×13-inch baking dish. Arrange 16 pinwheels cut-side down, slightly staggered."
+    },
+    {
+      "number": 9,
+      "instruction": "Bake 20–25 minutes until golden. Add dollops of robiolina, bake 2–3 minutes more. Top with parsley and olive oil."
+    },
+    {
+      "number": 10,
+      "instruction": "Serve immediately. Refrigerate leftovers up to 4 days."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Lasagna Sheet",
+      "yield": "8 sheets",
+      "ingredients": [
+        {
+          "item": "All-purpose or '00' flour",
+          "quantity": "4 cups"
+        },
+        {
+          "item": "Large Egg Yolk",
+          "quantity": "16"
+        },
+        {
+          "item": "Large Egg",
+          "quantity": "2"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Place all ingredients in a bowl and mix until it forms a bowl.",
+          "note": "Use a food processor, mixer with dough hook, or clean hands"
+        },
+        {
+          "number": 2,
+          "instruction": "Wrap in plastic wrap and rest for at least 30 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Use a lasagana roller to make the sheets.",
+          "note": "Keep the sheets square.  The end result should be a very thin sheet"
+        }
+      ]
+    },
+    {
+      "name": "Besciamella",
+      "yield": "2½ cups",
+      "ingredients": [
+        {
+          "item": "Unsalted butter",
+          "quantity": "½ cup (1 stick)",
+          "note": "cubed"
+        },
+        {
+          "item": "Garlic",
+          "quantity": "1 head",
+          "note": "halved horizontally"
+        },
+        {
+          "item": "Shallots",
+          "quantity": "⅓ cup",
+          "note": "thinly sliced (about 1 medium)"
+        },
+        {
+          "item": "Bay leaf",
+          "quantity": "1"
+        },
+        {
+          "item": "Thyme sprig",
+          "quantity": "1"
+        },
+        {
+          "item": "Black peppercorns",
+          "quantity": "¼ teaspoon"
+        },
+        {
+          "item": "Kosher salt",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "item": "All-purpose or '00' flour",
+          "quantity": "½ cup"
+        },
+        {
+          "item": "Cold whole milk",
+          "quantity": "2 cups"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Melt butter; add garlic, shallots, bay leaf, thyme, peppercorns, and salt. Cook 2 minutes until shallots are translucent."
+        },
+        {
+          "number": 2,
+          "instruction": "Add flour, cook until golden, about 5 minutes. Stir in milk and cook 5 minutes until thickened. Strain."
+        },
+        {
+          "number": 3,
+          "instruction": "Refrigerate until cool. Keeps 3 days refrigerated or 3 months frozen."
+        }
+      ]
+    },
+    {
+      "name": "Italian Sausage Bolognese",
+      "ingredients": [
+        {
+          "item": "Yellow onions",
+          "quantity": "2",
+          "note": "coarsely chopped"
+        },
+        {
+          "item": "Garlic cloves",
+          "quantity": "4",
+          "note": "peeled"
+        },
+        {
+          "item": "Celery ribs",
+          "quantity": "5",
+          "note": "coarsely chopped"
+        },
+        {
+          "item": "Carrots",
+          "quantity": "2",
+          "note": "coarsely chopped"
+        },
+        {
+          "item": "Pancetta",
+          "quantity": "4 ounces",
+          "note": "cut into 1-inch cubes"
+        },
+        {
+          "item": "Sweet Italian sausage",
+          "quantity": "1 pound",
+          "note": "casings removed"
+        },
+        {
+          "item": "Ground veal",
+          "quantity": "1 pound",
+          "note": "Ground beef can be used as a substitute"
+        },
+        {
+          "item": "Kosher salt",
+          "quantity": "3 tablespoons"
+        },
+        {
+          "item": "Extra-virgin olive oil",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "item": "Tomato paste",
+          "quantity": "½ cup"
+        },
+        {
+          "item": "White wine",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Whole tomatoes (San Marzano DOP)",
+          "quantity": "2 cans (28 oz each)"
+        },
+        {
+          "item": "Whole milk",
+          "quantity": "2 cups"
+        },
+        {
+          "item": "Star anise",
+          "quantity": "2 whole"
+        },
+        {
+          "item": "Colatura or fish sauce",
+          "quantity": "2 teaspoons",
+          "note": "Optional, but adds flavor.  Add more to taste"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "item": "Fresh lemon juice",
+          "quantity": "2 tablespoons"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Process onions, garlic, celery, and carrots until finely chopped; set aside. Process pancetta until finely chopped."
+        },
+        {
+          "number": 2,
+          "instruction": "Mix sausage and veal with salt."
+        },
+        {
+          "number": 3,
+          "instruction": "Brown meat in olive oil 15 minutes. Remove and set aside. Drain excess fat but keep browned bits."
+        },
+        {
+          "number": 4,
+          "instruction": "Cook pancetta until browned, 8–10 minutes. Add vegetables; cook 10–15 minutes until soft and darkened."
+        },
+        {
+          "number": 5,
+          "instruction": "Add tomato paste; cook 5 minutes until caramelized. Stir in wine; reduce 5 minutes."
+        },
+        {
+          "number": 6,
+          "instruction": "Crush tomatoes by hand. Return meat to pot with milk, star anise, and tomatoes. Simmer 2 hours, stirring occasionally."
+        },
+        {
+          "number": 7,
+          "instruction": "Remove star anise. Stir in colatura, sugar, and lemon juice to re-emulsify. Store up to 1 week refrigerated or 3 months frozen."
+        }
+      ]
+    },
+    {
+      "name": "10-Minute San Marzano Tomato Sauce",
+      "ingredients": [
+        {
+          "item": "Whole San Marzano tomatoes (DOP)",
+          "quantity": "2 cans (28 oz each)"
+        },
+        {
+          "item": "Extra-virgin olive oil",
+          "quantity": "½ cup"
+        },
+        {
+          "item": "Garlic cloves",
+          "quantity": "8",
+          "note": "smashed"
+        },
+        {
+          "item": "Kosher salt",
+          "quantity": "1 tablespoon + 1 teaspoon"
+        },
+        {
+          "item": "Crushed red pepper flakes",
+          "quantity": "¼ teaspoon"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "item": "Basil sprigs",
+          "quantity": "2"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Pulse tomatoes until broken but chunky."
+        },
+        {
+          "number": 2,
+          "instruction": "Heat oil; add garlic and salt. Cook until golden, 2 minutes. Add pepper flakes and tomatoes. Bring to boil and remove from heat."
+        },
+        {
+          "number": 3,
+          "instruction": "Add sugar and basil. Steep 5–30 minutes, then remove garlic and basil. Store up to 1 week refrigerated or 3 months frozen."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "name": "Cacio e Pepe Ravioli with Truffle Essence",
+  "source": "adapted from Da Vittorio (Brusaporto, Italy)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caciopepe_truffleessense.png",
+  "chef": " Cerea Brothers",
+  "yield": "Serves 4",
+  "description": "Refined ravioli filled with Pecorino Romano and mascarpone, finished in a truffle essence sauce — a luxurious interpretation of Rome’s classic cacio e pepe.",
+  "category": "Main",
+  "keywords": "ravioli, pasta, truffle, pecorino, fine dining, italian",
+  "ingredients": [
+    {
+      "item": "Ravioli",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Cacio Pepe Filling",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Truffle Essence",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Shaved black truffle",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Cracked black pepper",
+      "quantity": "",
+      "note": "to finish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Stand mixer",
+      "link": "https://amzn.to/47CjeF9"
+    },
+    {
+      "item": "Pasta roller",
+      "link": "https://amzn.to/4qJFYdA"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Cheese grater",
+      "link": "https://amzn.to/3JyH7Em"
+    },
+    {
+      "item": "Black Truffle Paste",
+      "link": "https://amzn.to/4ibEHZ4"
+    },
+    {
+      "item": "Ring cutter",
+      "link": ""
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Cut pasta rounds, fill with cheese mix, and seal to form ravioli."
+    },
+    {
+      "number": 1,
+      "instruction": "Spoon filling into the center of one round."
+    },
+    {
+      "number": 1,
+      "instruction": "Place a round on top and seal edges, making sure no air is trapped."
+    },
+    {
+      "number": 2,
+      "instruction": "Boil ravioli for 2–3 minutes until tender."
+    },
+    {
+      "number": 3,
+      "instruction": "Toss gently in truffle essence sauce."
+    },
+    {
+      "number": 4,
+      "instruction": "Arrange on plate, spoon over sauce, and garnish with shaved truffle and pepper."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Pasta Dough",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "00 flour",
+          "quantity": "200 g"
+        },
+        {
+          "item": "Egg yolks",
+          "quantity": "2"
+        },
+        {
+          "item": "Whole egg",
+          "quantity": "1"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "Pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix flour and salt, make a well, and add eggs and oil."
+        },
+        {
+          "number": 2,
+          "instruction": "Knead until smooth and elastic, about 8–10 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Wrap and rest 30 minutes before rolling thin sheets about 2 mm thick."
+        }
+      ]
+    },
+    {
+      "name": "Cacio e Pepe Filling",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Pecorino Romano",
+          "quantity": "100 g",
+          "note": "finely grated"
+        },
+        {
+          "item": "Mascarpone",
+          "quantity": "50 g"
+        },
+        {
+          "item": "Freshly ground black pepper",
+          "quantity": "½ tsp"
+        },
+        {
+          "item": "Cream",
+          "quantity": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine all ingredients in a bowl and mix until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Adjust texture with a small amount of cream if needed."
+        }
+      ]
+    },
+    {
+      "name": "Truffle Essence Sauce",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Light chicken stock",
+          "quantity": "100 mL"
+        },
+        {
+          "item": "Cream",
+          "quantity": "50 mL"
+        },
+        {
+          "item": "Black truffle paste or reduction",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Butter",
+          "quantity": "1 tbsp",
+          "note": "for finishing"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Reduce stock and cream together to a glaze."
+        },
+        {
+          "number": 2,
+          "instruction": "Whisk in truffle paste and finish with butter."
+        },
+        {
+          "number": 3,
+          "instruction": "Season lightly and keep warm."
+        }
+      ]
+    }
+  ]
+}

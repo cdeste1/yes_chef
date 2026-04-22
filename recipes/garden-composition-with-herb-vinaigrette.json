@@ -1,0 +1,157 @@
+{
+  "name": "Garden Composition with Herb Vinaigrette",
+  "source": "adapted from Arpège",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/MicroVegetablePlatter.jpg",
+  "chef": " Alain Passard",
+  "yield": "Serves 2",
+  "description": "A delicate arrangement of micro-vegetables and flowers dressed with a bright herb vinaigrette.",
+  "category": "Starter",
+  "keywords": "garden, microgreens, edible flowers, vinaigrette, fine dining",
+  "ingredients": [
+    {
+      "item": "Baby Carrots, thin shavings",
+      "quantity": "4-6 shavings"
+    },
+    {
+      "item": "Baby Turnups, wedged",
+      "quantity": "4 wedges"
+    },
+    {
+      "item": "Micro Kohlrabi, sliced",
+      "quantity": "6 slices"
+    },
+    {
+      "item": "Pea tendrils",
+      "quantity": "4"
+    },
+    {
+      "item": "Micro Corn Shoots",
+      "quantity": "6-8 strands"
+    },
+    {
+      "item": "Micro Radish Greens",
+      "quantity": "6-8 leaves"
+    },
+    {
+      "item": "Micro Mustard Greens",
+      "quantity": "6-8 leaves"
+    },
+    {
+      "item": "Micro Arugula",
+      "quantity": "6-8 leaves"
+    },
+    {
+      "item": "Watercress Tips",
+      "quantity": "4-6 tips"
+    },
+    {
+      "item": "Sorrel",
+      "quantity": "4-6 small leaves"
+    },
+    {
+      "item": "Chicory Tips",
+      "quantity": "4-6 tips"
+    },
+    {
+      "item": "Micro Mizuna",
+      "quantity": "6-8 leaves"
+    },
+    {
+      "item": "Bronze Fennel Fronds",
+      "quantity": "4 tiny fronds"
+    },
+    {
+      "item": "Chervil Tips",
+      "quantity": "4-6 sprigs"
+    },
+    {
+      "item": "Micro Basil",
+      "quantity": "6-8 leaves"
+    },
+    {
+      "item": "Micro Shiso",
+      "quantity": "2-3 leaves"
+    },
+    {
+      "item": "Nasturtium Leaves",
+      "quantity": "2-4 leaves"
+    },
+    {
+      "item": "Edible Flowers: Viola",
+      "quantity": "4"
+    },
+    {
+      "item": "Edible Flowers: Borage",
+      "quantity": "3"
+    },
+    {
+      "item": "Edible FlowersL Nasturtium Petals",
+      "quantity": "6"
+    },
+    {
+      "item": "Herb Vinaigrette",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Arrange micro mustards, micro arugula, sorrel, and pea shoots as a base layer."
+    },
+    {
+      "number": 2,
+      "instruction": "Add the second layer of baby carrot curls, baby turnip wedges, Kohlrabi slices, Chicory tips, and Nasturtium leaves."
+    },
+    {
+      "number": 3,
+      "instruction": "Final layer of bronze fennel, Chervil, micro basil, and edible flower."
+    },
+    {
+      "number": 4,
+      "instruction": "Spoon 1 tsp at a time of the Herb Vinaigrette to gloss.  Do not drench"
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Herb Vinaigrette",
+      "ingredients": [
+        {
+          "item": "Parsley",
+          "quantity": "10 g"
+        },
+        {
+          "item": "Tarragon",
+          "quantity": "5 g"
+        },
+        {
+          "item": "Chives",
+          "quantity": "5 g"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "50 g"
+        },
+        {
+          "item": "White wine vinegar",
+          "quantity": "15 g"
+        },
+        {
+          "item": "Salt",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend herbs and oil; whisk in vinegar."
+        }
+      ]
+    }
+  ]
+}

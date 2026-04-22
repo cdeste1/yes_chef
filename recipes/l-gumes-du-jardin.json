@@ -1,0 +1,340 @@
+{
+  "name": "Légumes du Jardin",
+  "source": "adapted from Arpège (Paris)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/LegumesJardin_Spring.jpg",
+  "chef": "Alain Passard",
+  "yield": "Serves 2",
+  "description": "Seasonal vegetables, gently cooked to highlight natural sweetness.",
+  "category": "Vegetable",
+  "keywords": "arpege, vegetables, passard, farm, fine dining",
+  "ingredients": [
+    {
+      "item": "Assorted farm vegetables",
+      "quantity": "600 g",
+      "note": "see sub-recipe for each season"
+    },
+    {
+      "item": "Vegetable Broth",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Fine Mesh Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Edible Flowers",
+      "link": "https://amzn.to/4oN7NR1"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Plate vegetables in natural arrangement; drizzle with broth."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Vegetable Broth",
+      "ingredients": [
+        {
+          "item": "Carrot tops",
+          "quantity": "20 g"
+        },
+        {
+          "item": "Leek greens",
+          "quantity": "30 g"
+        },
+        {
+          "item": "Water",
+          "quantity": "500 mL"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine all ingredients and simmer 1 hour; strain."
+        }
+      ]
+    },
+    {
+      "name": "Spring Vegetables",
+      "ingredients": [
+        {
+          "item": "Baby Carrots",
+          "quantity": "120 g",
+          "note": "mixed colors if possible"
+        },
+        {
+          "item": "Baby beets",
+          "quantity": "80 g",
+          "note": "gold and chioggia (pink and white)"
+        },
+        {
+          "item": "Peas",
+          "quantity": "60 g"
+        },
+        {
+          "item": "Fava beans",
+          "quantity": "60 g"
+        },
+        {
+          "item": "Baby turnips",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Asparagus",
+          "quantity": "120 g"
+        },
+        {
+          "item": "Sorrel Leaves",
+          "quantity": "30 g"
+        },
+        {
+          "item": "Edible Flowers",
+          "quantity": "15 g"
+        },
+        {
+          "item": "Tarragon",
+          "quantity": "30 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Toss baby carrots with oil and salt. Roast 20 minutes at 350°F (180°C)."
+        },
+        {
+          "number": 2,
+          "instruction": "Roast beets 40 minutes at 375°F (190°C).  Peel after roasting."
+        },
+        {
+          "number": 3,
+          "instruction": "Boil water.  Drop peas in water for 20 seconds.  Remove and put in ice bath.  Dry before serving."
+        },
+        {
+          "number": 4,
+          "instruction": "Boil water.  Drop fava beans in water for 30 seconds.  Peel skins.  Serve warm or chilled."
+        },
+        {
+          "number": 5,
+          "instruction": "Simmer turnips in butter and water for 10 minutes."
+        },
+        {
+          "number": 6,
+          "instruction": "Steam asparagus for 5-8 minutes."
+        },
+        {
+          "number": 7,
+          "instruction": "Leave sorrel leaves, edible flowers, and tarragon raw."
+        }
+      ]
+    },
+    {
+      "name": "Summer Vegetables",
+      "ingredients": [
+        {
+          "item": "Baby Zucchini & Blossoms",
+          "quantity": "150 g"
+        },
+        {
+          "item": "Baby Pattypan Squash",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Haricots Verts",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Heirloom Tomatoes",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Corn kernels",
+          "quantity": "60 g"
+        },
+        {
+          "item": "Fennel bulbs",
+          "quantity": "60 g"
+        },
+        {
+          "item": "Basil",
+          "quantity": "15 g"
+        },
+        {
+          "item": "Chervil",
+          "quantity": "15 g"
+        },
+        {
+          "item": "Edible Flowers",
+          "quantity": "20 g"
+        },
+        {
+          "item": "Nasturtium Leaves",
+          "quantity": "20 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Grill zucchini 1 minute per side."
+        },
+        {
+          "number": 2,
+          "instruction": "Roast pattypan squash 15 minutes at 375°F (190°C)."
+        },
+        {
+          "number": 3,
+          "instruction": "Boil salted water.  Drop haricots verts in water for 20 seconds.  Remove and put in ice bath."
+        },
+        {
+          "number": 4,
+          "instruction": "Shave raw fennel bulbs."
+        },
+        {
+          "number": 5,
+          "instruction": "Leave all other ingredients raw."
+        }
+      ]
+    },
+    {
+      "name": "Autumn Vegetables",
+      "ingredients": [
+        {
+          "item": "Heirloom Carrots",
+          "quantity": "120 g"
+        },
+        {
+          "item": "Golden and Red Beets",
+          "quantity": "120 g"
+        },
+        {
+          "item": "Baby leeks",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Celeriac",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Kohlrabi",
+          "quantity": "60 g"
+        },
+        {
+          "item": "Fennel",
+          "quantity": "60 g"
+        },
+        {
+          "item": "Rainbow Chard",
+          "quantity": "50 g"
+        },
+        {
+          "item": "Tarragon",
+          "quantity": "15 g"
+        },
+        {
+          "item": "Thyme",
+          "quantity": "15 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Roast carrots 30 minutes at 350°F (180°C)."
+        },
+        {
+          "number": 2,
+          "instruction": "Roast beets 45-50 minutes at 375°F (190°C)."
+        },
+        {
+          "number": 3,
+          "instruction": "Bring vegetable stock to a simmer. Add leeks and cover for 15 min."
+        },
+        {
+          "number": 4,
+          "instruction": "Sear fennel, 60 seconds each side."
+        },
+        {
+          "number": 5,
+          "instruction": "Heat olive oil over medium heat.  Add chard and wilt for 2 minutes."
+        },
+        {
+          "number": 6,
+          "instruction": "Leave all other ingredients raw."
+        }
+      ]
+    },
+    {
+      "name": "Winter Vegetables",
+      "ingredients": [
+        {
+          "item": "Jerusalem artichokes",
+          "quantity": "120 g"
+        },
+        {
+          "item": "Winter turnips",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Pearl Onions",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Cabbage hearts",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Salsify",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Carrots",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Kale micro-shoots",
+          "quantity": "40 g"
+        },
+        {
+          "item": "Parsley",
+          "quantity": "10 g"
+        },
+        {
+          "item": "Chives",
+          "quantity": "10 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Roast artichokes 30 minutes at 375°F (190°C)."
+        },
+        {
+          "number": 2,
+          "instruction": "Simmer turnips in butter and water for 15 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Roast pearl onions and carrots for 30 minutes at 350°F (180°C)."
+        },
+        {
+          "number": 4,
+          "instruction": "Melt butter in a hot pan and wilt cabbage hearts for 2 minutes."
+        },
+        {
+          "number": 5,
+          "instruction": "Simmer vegetable stock and add salsify for 10 minutes."
+        },
+        {
+          "number": 6,
+          "instruction": "Leave all other ingredients raw."
+        }
+      ]
+    }
+  ]
+}

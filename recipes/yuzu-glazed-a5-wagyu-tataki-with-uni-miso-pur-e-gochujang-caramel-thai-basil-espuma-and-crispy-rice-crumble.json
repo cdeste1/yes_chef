@@ -1,0 +1,285 @@
+{
+  "name": "Yuzu-Glazed A5 Wagyu Tataki with Uni-Miso Purée, Gochujang Caramel, Thai Basil Espuma, and Crispy Rice Crumble",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/wagyu_tataki_asian_fusion.png",
+  "yield": "2 tasting plates",
+  "description": "An exquisite Michelin-star Asian fusion course featuring premium A5 Japanese Wagyu lightly torched and glazed with yuzu, paired with silky uni-miso purée, spicy-sweet gochujang caramel, airy Thai basil espuma, and textural crispy rice crumble.",
+  "category": "Main",
+  "keywords": "wagyu, tataki, asian fusion, uni, yuzu, michelin",
+  "winePairings": [
+    {
+      "name": "Junmai Daiginjo Sake",
+      "notes": "Clean, fruity notes cut through the rich wagyu and complement yuzu brightness."
+    },
+    {
+      "name": "Alsace Riesling (dry or off-dry)",
+      "notes": "Crisp acidity balances the caramel heat and uni umami."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "A5 Japanese Wagyu ribeye or striploin",
+      "quantity": "300 g",
+      "note": "trimmed"
+    },
+    {
+      "item": "Fresh yuzu juice",
+      "quantity": "2 Tbsp"
+    },
+    {
+      "item": "Light Japanese soy sauce",
+      "quantity": "1 Tbsp"
+    },
+    {
+      "item": "Yuzu kosho paste",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Fresh Hokkaido or Santa Barbara uni roe",
+      "quantity": "100 g"
+    },
+    {
+      "item": "White shiro miso",
+      "quantity": "50 g"
+    },
+    {
+      "item": "Dashi stock",
+      "quantity": "1 Tbsp"
+    },
+    {
+      "item": "Korean gochujang",
+      "quantity": "3 Tbsp"
+    },
+    {
+      "item": "Cane sugar",
+      "quantity": "2 Tbsp"
+    },
+    {
+      "item": "Full-fat coconut milk",
+      "quantity": "200 ml"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "50 ml"
+    },
+    {
+      "item": "Fresh Thai basil leaves",
+      "quantity": "1 large bunch"
+    },
+    {
+      "item": "Cooked sushi rice",
+      "quantity": "100 g",
+      "note": "cooled"
+    },
+    {
+      "item": "Micro shiso leaves, edible gold leaf, yuzu zest, toasted black sesame seeds",
+      "quantity": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Sous-Vide Immersion Circulator",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Gold Flakes",
+      "link": "https://amzn.to/42c7XaS"
+    },
+    {
+      "item": "Gourmet Whip Siphon",
+      "link": "https://amzn.to/4tiCiAl"
+    },
+    {
+      "item": "Professional Kitchen Blowtorch",
+      "link": "https://amzn.to/42eE89w"
+    },
+    {
+      "item": "Mixer",
+      "link": "https://amzn.to/48PAp5Z"
+    },
+    {
+      "item": "Vacuum Sealer",
+      "link": "https://amzn.to/4ufPoPh"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare the Uni-Miso Purée, Gochujang Caramel, Thai Basil Espuma, and Crispy Rice Crumble",
+      "note": "see sub-recipes"
+    },
+    {
+      "number": 2,
+      "instruction": "Season the A5 Wagyu lightly with sea salt. Vacuum-seal with yuzu juice, soy sauce, and yuzu kosho."
+    },
+    {
+      "number": 3,
+      "instruction": "Cook in sous-vide water bath at exactly 52°C (125.6°F) for 60 minutes."
+    },
+    {
+      "number": 4,
+      "instruction": "Shock in ice water for 10 minutes, pat completely dry, and reserve bag juices."
+    },
+    {
+      "number": 5,
+      "instruction": "Brush Wagyu with reserved juices and torch the surface evenly until deep mahogany crust forms (10–15 seconds per side)."
+    },
+    {
+      "number": 6,
+      "instruction": "Slice against the grain into 5 mm thick pieces."
+    },
+    {
+      "number": 7,
+      "instruction": "Plating Layer 1: Place three precise dots of Uni-Miso Purée on the plate."
+    },
+    {
+      "number": 8,
+      "instruction": "Plating Layer 2: Arrange torched Wagyu slices in a gentle sweeping arc. Drizzle with warm Gochujang Caramel."
+    },
+    {
+      "number": 9,
+      "instruction": "Plating Layer 3: Dispense two elegant mounds of Thai Basil Espuma. Scatter Crispy Rice Crumble sparingly."
+    },
+    {
+      "number": 10,
+      "instruction": "Finish with micro shiso leaves, edible gold leaf flakes, microplaned yuzu zest, and toasted black sesame seeds."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Uni-Miso Purée",
+      "ingredients": [
+        {
+          "item": "Fresh uni roe",
+          "quantity": "100 g"
+        },
+        {
+          "item": "White shiro miso",
+          "quantity": "50 g"
+        },
+        {
+          "item": "Dashi stock",
+          "quantity": "1 Tbsp"
+        },
+        {
+          "item": "Rice vinegar",
+          "quantity": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine all ingredients in the mixing bowl."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend at speed 8 for 2 minutes, scraping sides once."
+        },
+        {
+          "number": 3,
+          "instruction": "Pass through a fine chinois strainer for silky texture. Transfer to squeeze bottle and chill."
+        }
+      ]
+    },
+    {
+      "name": "Gochujang Caramel",
+      "ingredients": [
+        {
+          "item": "Korean gochujang",
+          "quantity": "3 Tbsp"
+        },
+        {
+          "item": "Cane sugar",
+          "quantity": "2 Tbsp"
+        },
+        {
+          "item": "Rice vinegar",
+          "quantity": "1 Tbsp"
+        },
+        {
+          "item": "Toasted sesame oil",
+          "quantity": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine all ingredients in a small saucepan over medium heat."
+        },
+        {
+          "number": 2,
+          "instruction": "Stir until sugar dissolves and mixture reduces to glossy caramel (5–7 minutes)."
+        },
+        {
+          "number": 3,
+          "instruction": "Keep warm in bain-marie until plating."
+        }
+      ]
+    },
+    {
+      "name": "Thai Basil Espuma",
+      "ingredients": [
+        {
+          "item": "Full-fat coconut milk",
+          "quantity": "200 ml"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "50 ml"
+        },
+        {
+          "item": "Fresh Thai basil leaves",
+          "quantity": "1 large bunch"
+        },
+        {
+          "item": "Soy lecithin powder",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Fine sea salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend coconut milk, cream, basil, lecithin, and salt for 60 seconds."
+        },
+        {
+          "number": 2,
+          "instruction": "Strain through fine sieve."
+        },
+        {
+          "number": 3,
+          "instruction": "Pour into Gourmet Whip siphon, charge with two N?O cartridges, shaking vigorously. Refrigerate upright minimum 2 hours."
+        }
+      ]
+    },
+    {
+      "name": "Crispy Rice Crumble",
+      "ingredients": [
+        {
+          "item": "Cooked sushi rice",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Neutral frying oil",
+          "quantity": "as needed"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Spread cooled sushi rice thinly on silicone mat."
+        },
+        {
+          "number": 2,
+          "instruction": "Heat oil to 180°C (356°F) and fry small clusters until golden and crisp (2–3 minutes)."
+        },
+        {
+          "number": 3,
+          "instruction": "Drain, cool slightly, and crush lightly into irregular crumbs. Hold warm until service."
+        }
+      ]
+    }
+  ]
+}

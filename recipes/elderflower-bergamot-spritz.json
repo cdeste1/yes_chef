@@ -1,0 +1,59 @@
+{
+  "name": "Elderflower–Bergamot Spritz",
+  "source": "Yes Chef! Kitchen",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Elderflower_Bergamot_Spritz.webp",
+  "yield": "Serves 1",
+  "description": "A bright spritz of elderflower, bergamot cordial, and sparkling wine.",
+  "category": "Cocktail",
+  "keywords": "St. Germain, elderflower, bergamot, spritz",
+  "ingredients": [
+    {
+      "item": "St. Germain",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Bergamot liquor",
+      "quantity": "0.5 ounce"
+    },
+    {
+      "item": "Prosecco",
+      "quantity": "3 ounce"
+    },
+    {
+      "item": "Club soda",
+      "quantity": "1 ounce",
+      "note": "chilled"
+    },
+    {
+      "item": "Orange Bitters",
+      "quantity": "1 dash"
+    },
+    {
+      "item": "Bergamot peel",
+      "quantity": "1 ",
+      "note": "Optionally use a lemon twist"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Add ice to a wine glass."
+    },
+    {
+      "number": 1,
+      "instruction": "Add St. Germain and Bergamot."
+    },
+    {
+      "number": 1,
+      "instruction": "Top with prosecco and club soda."
+    },
+    {
+      "number": 1,
+      "instruction": "Add dash of orange bitters."
+    },
+    {
+      "number": 1,
+      "instruction": "Express bergamot peel and drop in glass."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "name": "Five Ages of Parmigiano Reggiano",
+  "source": "adapted from Osteria Francescana (Modena, Italy)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Parm_5_ages.png",
+  "chef": " Massimo Bottura",
+  "yield": "Serves 4",
+  "description": "A tribute to Emilia-Romagna’s king of cheeses, presenting Parmigiano Reggiano in five distinct textures and maturations — crisp, sauce, foam, wafer, and air.",
+  "category": "Starter",
+  "keywords": "parmigiano, cheese, italian, modernist, fine dining, foam, bottura",
+  "winePairings": [
+    {
+      "name": "Lambrusco dry",
+      "notes": "Traditional Emilia pairing; cuts richness."
+    },
+    {
+      "name": "Barolo Riserva",
+      "notes": "Structure + nutty tertiary notes = sublime with aged Parm."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Black pepper oil",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Micro basil",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Parmigiano Crisp",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Parmigiano Sauce",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Parmigiano Foam",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Parmigiano Wafer",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Parmigiano Air",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Silicone baking mat",
+      "link": "https://amzn.to/4qSvb0K"
+    },
+    {
+      "item": "Immersion blender",
+      "link": "https://amzn.to/47LWEbR"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Gelatin",
+      "link": "https://amzn.to/47M6oCQ"
+    },
+    {
+      "item": "Foamer",
+      "link": "https://amzn.to/4nFjrMf"
+    },
+    {
+      "item": "Foamer Nitrogen Refill",
+      "link": "https://amzn.to/3XlOWAc"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Soy lecithin",
+      "link": "https://amzn.to/3Xnkupo"
+    },
+    {
+      "item": "Cheese grater",
+      "link": "https://amzn.to/3JyH7Em"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Spoon warm sauce in center of a shallow bowl."
+    },
+    {
+      "number": 2,
+      "instruction": "Add Parmigiano foam, crisp, and wafer."
+    },
+    {
+      "number": 3,
+      "instruction": "Top with Parmigiano air."
+    },
+    {
+      "number": 4,
+      "instruction": "Finish with micro basil and a drizzle of black pepper oil."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Parmigiano Crisp (24-month aged)",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Parmigiano Reggiano (24-month aged)",
+          "quantity": "50 g",
+          "note": "finely grated"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat oven to 350°F. (175°C)"
+        },
+        {
+          "number": 2,
+          "instruction": "Spread cheese into thin circles on a silicone mat."
+        },
+        {
+          "number": 3,
+          "instruction": "Bake 4–5 minutes until golden and crisp."
+        },
+        {
+          "number": 4,
+          "instruction": "Cool on a rack before use."
+        }
+      ]
+    },
+    {
+      "name": "Warm Parmigiano Sauce (30-month aged)",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Parmigiano Reggiano (30-month aged)",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Milk",
+          "quantity": "200 mL"
+        },
+        {
+          "item": "Cream",
+          "quantity": "50 mL"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Simmer milk and cream together."
+        },
+        {
+          "number": 2,
+          "instruction": "Add grated cheese, stir until melted."
+        },
+        {
+          "number": 3,
+          "instruction": "Blend and strain for a smooth emulsion."
+        }
+      ]
+    },
+    {
+      "name": "Parmigiano Foam (36-month aged)",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Parmigiano sauce (from above)",
+          "quantity": "150 mL"
+        },
+        {
+          "item": "Gelatin sheet",
+          "quantity": "1",
+          "note": "soaked"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Dissolve gelatin in warm Parmigiano sauce."
+        },
+        {
+          "number": 2,
+          "instruction": "Strain and transfer to foamer."
+        },
+        {
+          "number": 3,
+          "instruction": "Spray foam onto a baking sheet and keep warm until service."
+        }
+      ]
+    },
+    {
+      "name": "Parmigiano Wafer (18-month aged)",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Parmigiano Reggiano (18-month aged)",
+          "quantity": "50 g"
+        },
+        {
+          "item": "Flour",
+          "quantity": "25 g"
+        },
+        {
+          "item": "Water",
+          "quantity": "50 mL"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix ingredients into a thin batter."
+        },
+        {
+          "number": 2,
+          "instruction": "Spread thin on a baking sheet and bake until crisp."
+        }
+      ]
+    },
+    {
+      "name": "Parmigiano Air (48-month aged)",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Parmigiano stock",
+          "quantity": "100 mL",
+          "note": "steep cheese in hot water"
+        },
+        {
+          "item": "Soy lecithin",
+          "quantity": "1 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend stock with soy lecithin."
+        },
+        {
+          "number": 2,
+          "instruction": "Froth with immersion blender until airy foam forms."
+        }
+      ]
+    }
+  ]
+}

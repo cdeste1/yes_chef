@@ -1,0 +1,87 @@
+{
+  "name": "Truffle Milk Bread Rolls",
+  "source": "adapted from The French Laundry (Yountville, USA)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/TruffleMilkRolls.webp",
+  "chef": " Thomas Keller",
+  "yield": "12 rolls",
+  "description": "Ultra-soft Japanese milk bread rolls infused with black truffle aroma.",
+  "category": "Bread",
+  "keywords": "milk bread, truffle, shokupan, brioche",
+  "winePairings": [
+    {
+      "name": "Franciacorta Brut",
+      "notes": "Light bubbles and acidity lift truffle aromatics."
+    },
+    {
+      "name": "Bourgogne Blanc from Leflaive",
+      "notes": "Silky, luxurious complement to truffle richness."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Bread flour",
+      "quantity": "400 g"
+    },
+    {
+      "item": "Milk",
+      "quantity": "220 g"
+    },
+    {
+      "item": "Butter",
+      "quantity": "40 g"
+    },
+    {
+      "item": "Sugar",
+      "quantity": "40 g"
+    },
+    {
+      "item": "Yeast",
+      "quantity": "7 g"
+    },
+    {
+      "item": "Salt",
+      "quantity": "8 g"
+    },
+    {
+      "item": "Truffle paste",
+      "quantity": "15 g"
+    },
+    {
+      "item": "Fresh black truffle",
+      "quantity": "to shave",
+      "note": "for serving"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Stand mixer",
+      "link": "https://amzn.to/47CjeF9"
+    },
+    {
+      "item": "Microplane",
+      "link": "https://amzn.to/4oao69z"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Mix flour, milk, butter, sugar, yeast, salt, and truffle paste; knead until elastic."
+    },
+    {
+      "number": 2,
+      "instruction": "Proof 1 hour; shape rolls."
+    },
+    {
+      "number": 3,
+      "instruction": "Final proof 45 minutes, bake 180°C (350°F)."
+    },
+    {
+      "number": 4,
+      "instruction": "Brush rolls with melted butter and shave truffle over top."
+    }
+  ]
+}

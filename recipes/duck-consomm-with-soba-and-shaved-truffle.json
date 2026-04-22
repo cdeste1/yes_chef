@@ -1,0 +1,199 @@
+{
+  "name": "Duck Consommé with Soba and Shaved Truffle",
+  "source": "adapted from Tetsuya",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/DuckConsomme_Soba_ShavedTruffle.png",
+  "chef": " Nobu",
+  "yield": "Serves 4",
+  "description": "A clear duck consommé served with soba noodles and garnished with freshly shaved black truffle. Slow-simmered for clarity and rich flavor.",
+  "category": "Main",
+  "keywords": "duck, consommé, soba, truffle, soup, advanced",
+  "winePairings": [
+    {
+      "name": "Dry Fino Sherry",
+      "notes": "Clean, salty, nutty; sharp contrast to duck depth."
+    },
+    {
+      "name": "Puligny-Montrachet Premier Cru",
+      "notes": "Refined minerality complements truffle."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Duck Consommé",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Soba noodles",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Truffle Garnish",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Truffle Oil",
+      "note": "a few drops"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Cheese Cloth",
+      "link": "https://amzn.to/4oQp6jy"
+    },
+    {
+      "item": "Microplane",
+      "link": "https://amzn.to/4oao69z"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Truffle Oil",
+      "link": "https://amzn.to/47PPCTp"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Reheat consommé gently without boiling."
+    },
+    {
+      "number": 2,
+      "instruction": "Place cooked soba noodles in the center of warmed soup bowls."
+    },
+    {
+      "number": 3,
+      "instruction": "Pour consommé around noodles carefully to maintain clarity."
+    },
+    {
+      "number": 4,
+      "instruction": "Top with shaved truffles. Optionally, drizzle a few drops of truffle oil for aroma."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Duck Consommé",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Whole duck",
+          "quantity": "1 (3–4 lbs)",
+          "note": "or duck carcasses from previous cooking"
+        },
+        {
+          "item": "Cold water",
+          "quantity": "8 cups"
+        },
+        {
+          "item": "Egg whites",
+          "quantity": "",
+          "note": "for clarification"
+        },
+        {
+          "item": "Onion",
+          "quantity": "1",
+          "note": "chopped"
+        },
+        {
+          "item": "Carrot",
+          "quantity": "1",
+          "note": "chopped"
+        },
+        {
+          "item": "Celery stalk",
+          "quantity": "1",
+          "note": "chopped"
+        },
+        {
+          "item": "Bay leaf",
+          "quantity": "1"
+        },
+        {
+          "item": "Thyme sprigs",
+          "quantity": "2"
+        },
+        {
+          "item": "Salt and pepper",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Roast or sauté the duck until golden (optional for extra depth)."
+        },
+        {
+          "number": 2,
+          "instruction": "Combine duck bones/meat with cold water in a large stockpot. Slowly bring to a simmer, skimming off foam."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain stock after 1–2 hours, reserving liquid."
+        },
+        {
+          "number": 4,
+          "instruction": "For clarification, whisk egg whites and mix with cold stock. Heat gently, stirring, until egg whites coagulate and trap impurities."
+        },
+        {
+          "number": 5,
+          "instruction": "Strain through fine cheesecloth. Season with salt and pepper. Chill if needed."
+        }
+      ]
+    },
+    {
+      "name": "Soba Noodles",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Soba noodles (buckwheat)",
+          "quantity": "200 g"
+        },
+        {
+          "item": "Water",
+          "quantity": "",
+          "note": "for boiling"
+        },
+        {
+          "item": "Salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Cook soba noodles in salted boiling water until al dente, usually 4–5 minutes."
+        },
+        {
+          "number": 2,
+          "instruction": "Drain and rinse under cold water to stop cooking."
+        },
+        {
+          "number": 3,
+          "instruction": "Keep aside until plating."
+        }
+      ]
+    },
+    {
+      "name": "Truffle Garnish",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Black truffle",
+          "quantity": "10–15 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Carefully shave truffle thinly just before serving using a small truffle slicer or microplane."
+        },
+        {
+          "number": 2,
+          "instruction": "Reserve for final garnish."
+        }
+      ]
+    }
+  ]
+}

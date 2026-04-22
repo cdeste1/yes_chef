@@ -1,0 +1,240 @@
+{
+  "name": "Dirty Vege-Burger with Smoky Mushroom Demi-Glace and Fermented Aioli",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/dirty_vege_burger_mushroom_demi.PNG",
+  "yield": "4 burgers",
+  "description": "An elevated 'dirty' vegetable burger featuring a deeply roasted mushroom-quinoa patty with crisp crust, glossy dripping smoky mushroom demi-glace, fermented aioli, and refined toppings for indulgent yet refined street-food luxury.",
+  "category": "Main",
+  "keywords": "vegetarian, vegan, burger, mushroom, umami, dirty",
+  "winePairings": [
+    {
+      "name": "Pinot Noir (light red)",
+      "notes": "Earthy notes complement mushroom umami and subtle smoke."
+    },
+    {
+      "name": "Chardonnay (unoaked or lightly oaked)",
+      "notes": "Bright acidity cuts through the rich sauces and crispy elements."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Mixed mushrooms (shiitake, oyster, chestnut)",
+      "quantity": "350g",
+      "note": "300g for patty + extra 50g for demi-glace, finely chopped"
+    },
+    {
+      "item": "Red onion",
+      "quantity": "1 large",
+      "note": "finely diced"
+    },
+    {
+      "item": "Garlic cloves",
+      "quantity": "3",
+      "note": "2 minced for patty, 1 for demi-glace"
+    },
+    {
+      "item": "Carrot",
+      "quantity": "1 medium",
+      "note": "grated"
+    },
+    {
+      "item": "Cooked quinoa",
+      "quantity": "150g"
+    },
+    {
+      "item": "Black beans",
+      "quantity": "400g can",
+      "note": "drained and roughly mashed, reserve 2 tbsp liquid"
+    },
+    {
+      "item": "Toasted walnuts",
+      "quantity": "50g",
+      "note": "chopped"
+    },
+    {
+      "item": "White miso paste",
+      "quantity": "2 tbsp"
+    },
+    {
+      "item": "Tomato paste",
+      "quantity": "1 tbsp"
+    },
+    {
+      "item": "Flaxseed meal + water",
+      "quantity": "2 tbsp flax + 5 tbsp water",
+      "note": "binder"
+    },
+    {
+      "item": "Smoked paprika, cumin, coriander",
+      "quantity": "1 tsp each paprika & cumin, ½ tsp coriander"
+    },
+    {
+      "item": "Olive oil, sea salt, black pepper",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Smoky Mushroom Demi-Glace",
+      "note": "reduced roasting juices and extra mushrooms (see sub-recipe)"
+    },
+    {
+      "item": "Fermented garlic aioli",
+      "note": "vegan mayo base + kimchi brine"
+    },
+    {
+      "item": "Red onions for pickling",
+      "quantity": "1",
+      "note": "quick-pickled"
+    },
+    {
+      "item": "Shallots",
+      "quantity": "for crispy frying"
+    },
+    {
+      "item": "Ripe avocado, heirloom tomato, microgreens, edible flower",
+      "note": "for topping"
+    },
+    {
+      "item": "Vegan brioche buns",
+      "quantity": "4"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "High-powered food processor",
+      "link": "https://amzn.to/4vIaWpe"
+    },
+    {
+      "item": "Digital kitchen scale (0.1g precision)",
+      "link": "https://amzn.to/4cQUI5s"
+    },
+    {
+      "item": "Burger patty press",
+      "link": "https://amzn.to/48Xe8Do"
+    },
+    {
+      "item": "Fish spatula (thin flexible)",
+      "link": "https://amzn.to/3OQLQ6N"
+    },
+    {
+      "item": "Precision digital thermometer (probe)",
+      "link": "https://amzn.to/4vDU7eX"
+    },
+    {
+      "item": "Mandoline slicer with safety guard",
+      "link": "https://amzn.to/4cQPLJT"
+    },
+    {
+      "item": "Edible Flowers",
+      "link": "https://amzn.to/4tSuWDC"
+    },
+    {
+      "item": "Smoking gun (cold smoke device)",
+      "link": "https://amzn.to/4csOM1i"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Weigh all ingredients precisely using the digital kitchen scale.",
+      "note": "Accuracy ensures consistent texture and flavor balance."
+    },
+    {
+      "number": 2,
+      "instruction": "Toss 300g mushrooms, onion, 2 garlic cloves, and carrot with olive oil, salt, pepper, and spices. Roast at 200°C (400°F) for 20–25 minutes until deeply caramelized. Reserve roasting juices.",
+      "note": "Optional: finish with 30–60 seconds cold smoke using the smoking gun."
+    },
+    {
+      "number": 3,
+      "instruction": "Pulse the roasted vegetables with mashed beans, quinoa, walnuts, miso, tomato paste, and flax binder in a high-powered food processor until cohesive but textured. Chill 30 minutes."
+    },
+    {
+      "number": 4,
+      "instruction": "Divide mixture into four equal portions (~180–200g each) by weight. Use the burger patty press to form uniform 2cm-thick patties."
+    },
+    {
+      "number": 5,
+      "instruction": "Heat a cast-iron pan very hot with oil. Use the fish spatula to place and flip patties. Sear 4–5 minutes per side to develop a deep crust. Check internal temperature with the precision digital thermometer (target 70–75°C / 160–165°F)."
+    },
+    {
+      "number": 6,
+      "instruction": "Use the mandoline slicer (1–2mm setting) for paper-thin red onions (quick-pickle in rice vinegar, sugar, salt) and shallots (fry until golden and crispy)."
+    },
+    {
+      "number": 7,
+      "instruction": "Prepare the Smoky Mushroom Demi-Glace (see sub-recipe). Toast buns."
+    },
+    {
+      "number": 8,
+      "instruction": "Assemble: spread fermented aioli on bottom bun, add seared patty, spoon smoky mushroom demi-glace generously so it drips artfully, layer avocado, tomato, pickled onions, crispy shallots, microgreens, and edible flower."
+    },
+    {
+      "number": 9,
+      "instruction": "Plate on a pristine white dish with an artistic sauce smear and scattered microgreens."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Smoky Mushroom Demi-Glace",
+      "ingredients": [
+        {
+          "item": "Reserved roasting juices + extra 50g chopped mushrooms",
+          "note": "from main roast"
+        },
+        {
+          "item": "Garlic clove",
+          "quantity": "1",
+          "note": "minced"
+        },
+        {
+          "item": "Vegetable stock or water",
+          "quantity": "100ml",
+          "note": "as needed to deglaze"
+        },
+        {
+          "item": "White miso paste",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Smoked paprika",
+          "quantity": "½ tsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "In the same roasting pan or a small saucepan, sauté the extra 50g mushrooms and remaining garlic with a splash of oil until deeply browned."
+        },
+        {
+          "number": 2,
+          "instruction": "Deglaze with vegetable stock, add reserved roasting juices, miso, and smoked paprika. Simmer gently until reduced to a glossy, slightly sticky consistency (about 8–10 minutes)."
+        },
+        {
+          "number": 3,
+          "instruction": "Optional: finish with 10–15 seconds of cold smoke using the smoking gun for extra depth."
+        }
+      ]
+    },
+    {
+      "name": "Fermented Garlic Aioli",
+      "ingredients": [
+        {
+          "item": "Vegan mayonnaise",
+          "quantity": "base amount"
+        },
+        {
+          "item": "Garlic",
+          "note": "minced"
+        },
+        {
+          "item": "Kimchi brine or sauerkraut juice",
+          "note": "for fermented tang"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Whisk ingredients together until smooth and balanced."
+        }
+      ]
+    }
+  ]
+}

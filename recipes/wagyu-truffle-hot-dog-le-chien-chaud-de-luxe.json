@@ -1,0 +1,282 @@
+{
+  "name": "Wagyu Truffle Hot Dog – Le Chien Chaud de Luxe",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/wagyu_truffle_hot_dog.png",
+  "yield": "4 plates",
+  "description": "An ultra-luxury reinterpretation of the classic hot dog: A5 Wagyu beef sausage cooked sous-vide, nestled in a vacuum-smoked brioche bun, finished with foie-gras espuma, hand-shaved black Périgord truffle, Ossetra caviar, and smoked truffle aioli. A three-Michelin-star experience in one perfect bite.",
+  "category": "Main",
+  "keywords": "hot dog, wagyu, truffle, foie gras, caviar, fine dining, luxury",
+  "winePairings": [
+    {
+      "name": "Vintage Champagne (e.g., Dom Pérignon)",
+      "notes": "Bubbles cut through the rich foie gras and truffle while enhancing the Wagyu savoriness."
+    },
+    {
+      "name": "Rare Japanese Whisky (e.g., Yamazaki 18)",
+      "notes": "Smoky depth complements the cold-smoked elements and umami explosion."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "A5 Wagyu beef frankfurters (or sausages)",
+      "quantity": "4 × 6-oz"
+    },
+    {
+      "item": "Premium brioche hot-dog buns",
+      "quantity": "4"
+    },
+    {
+      "item": "Fresh grade-A foie gras",
+      "quantity": "150 g",
+      "note": "for espuma"
+    },
+    {
+      "item": "Black Périgord truffle",
+      "quantity": "1 large (? 40 g)"
+    },
+    {
+      "item": "Ossetra caviar",
+      "quantity": "30 g"
+    },
+    {
+      "item": "Egg yolks",
+      "quantity": "2",
+      "note": "for smoked truffle aioli"
+    },
+    {
+      "item": "Neutral oil",
+      "quantity": "150 ml",
+      "note": "for aioli"
+    },
+    {
+      "item": "Black truffle oil",
+      "quantity": "2 tsp"
+    },
+    {
+      "item": "Shallot",
+      "quantity": "1",
+      "note": "finely minced"
+    },
+    {
+      "item": "Cognac",
+      "quantity": "30 ml"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "120 ml"
+    },
+    {
+      "item": "Micro arugula or chervil",
+      "quantity": "small handful"
+    },
+    {
+      "item": "Edible 24K gold leaf flakes",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Aged balsamic reduction",
+      "quantity": "optional swipe"
+    },
+    {
+      "item": "Applewood chips",
+      "quantity": "for cold smoking"
+    },
+    {
+      "item": "Salt, white pepper, lemon juice",
+      "quantity": "to taste"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Sous-vide immersion circulator",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Gourmet Whip siphon (1L) + N?O chargers",
+      "link": "https://amzn.to/4tiCiAl"
+    },
+    {
+      "item": "Condiment Tins",
+      "link": "https://amzn.to/4tQvWIs"
+    },
+    {
+      "item": "Truffle shaver",
+      "link": "https://amzn.to/4tpFx9m"
+    },
+    {
+      "item": "Vacuum Sealer",
+      "link": "https://amzn.to/4ufPoPh"
+    },
+    {
+      "item": "Smoking Gun Smoker",
+      "link": "https://amzn.to/3Oxxubd"
+    },
+    {
+      "item": "Culinary Blowtorch",
+      "link": "https://amzn.to/42eE89w"
+    },
+    {
+      "item": "Micro Tweezers ",
+      "link": "https://amzn.to/4eve5SX"
+    },
+    {
+      "item": "Vitamix professional high-speed blender",
+      "link": "https://amzn.to/4ew7esp"
+    },
+    {
+      "item": "Strainer",
+      "link": "https://amzn.to/4cjQK5p"
+    },
+    {
+      "item": "Plating Kit",
+      "link": "https://amzn.to/3OpA17x"
+    },
+    {
+      "item": "Digital precision scale (0.01g accuracy)",
+      "link": "https://amzn.to/4cQUI5s"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare the Foie Gras Espuma and Smoked Truffle Aioli",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 2,
+      "instruction": "Prepare the Vacuum-Smoked Brioche Buns",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 3,
+      "instruction": "Sous-vide the Wagyu sausages in the Polyscience circulator at exactly 60°C (140°F) for 45 minutes."
+    },
+    {
+      "number": 4,
+      "instruction": "Shock sausages in ice water for 2 minutes, pat dry, then sear briefly with the Searzall torch or hot pan for Maillard crust."
+    },
+    {
+      "number": 5,
+      "instruction": "Using precision tweezers and plating tools, begin assembly on a pristine white plate."
+    },
+    {
+      "number": 6,
+      "instruction": "Spread smoked truffle aioli inside the warm smoked bun, nestle the hot sausage, and pipe a ribbon of foie-gras espuma from the siphon."
+    },
+    {
+      "number": 7,
+      "instruction": "Shave 5–6 paper-thin slices of black truffle directly onto the espuma using the Brevetti slicer."
+    },
+    {
+      "number": 8,
+      "instruction": "Add tiny quenelles of Ossetra caviar with tweezers, microgreens, and 2–3 flakes of edible gold leaf. Optional: artistic swipe of aged balsamic."
+    },
+    {
+      "number": 9,
+      "instruction": "Serve immediately with negative space for dramatic Michelin-style presentation."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Foie Gras Espuma",
+      "ingredients": [
+        {
+          "item": "Fresh grade-A foie gras",
+          "quantity": "150 g"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1",
+          "note": "finely minced"
+        },
+        {
+          "item": "Cognac",
+          "quantity": "30 ml"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "120 ml"
+        },
+        {
+          "item": "Salt and white pepper",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Sear foie gras with shallot until lightly caramelized, deglaze with Cognac."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend to silky smoothness in Vitamix, strain through chinois, season, and charge siphon with two N?O cartridges. Refrigerate upright for at least 2 hours."
+        }
+      ]
+    },
+    {
+      "name": "Smoked Truffle Aioli",
+      "ingredients": [
+        {
+          "item": "Egg yolks",
+          "quantity": "2"
+        },
+        {
+          "item": "Garlic clove",
+          "quantity": "1"
+        },
+        {
+          "item": "Neutral oil",
+          "quantity": "150 ml"
+        },
+        {
+          "item": "Black truffle oil",
+          "quantity": "2 tsp"
+        },
+        {
+          "item": "Lemon juice",
+          "quantity": "½ lemon"
+        },
+        {
+          "item": "Applewood chips",
+          "quantity": "for Smoking Gun"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Emulsify classic aioli base in high-speed blender."
+        },
+        {
+          "number": 2,
+          "instruction": "Infuse with applewood smoke using the Smoking Gun (seal and shake twice for deep flavor)."
+        }
+      ]
+    },
+    {
+      "name": "Vacuum-Smoked Brioche Buns",
+      "ingredients": [
+        {
+          "item": "Premium brioche hot-dog buns",
+          "quantity": "4"
+        },
+        {
+          "item": "Applewood chips",
+          "quantity": "for Smoking Gun"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Place each bun in a vacuum bag, fill with applewood smoke using the Smoking Gun Pro."
+        },
+        {
+          "number": 2,
+          "instruction": "Immediately seal on chamber vacuum sealer and rest 20–30 minutes for smoke penetration."
+        },
+        {
+          "number": 3,
+          "instruction": "Remove and lightly toast insides just before assembly."
+        }
+      ]
+    }
+  ]
+}

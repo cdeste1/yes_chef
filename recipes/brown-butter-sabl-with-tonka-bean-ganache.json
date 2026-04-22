@@ -1,0 +1,194 @@
+{
+  "name": "Brown Butter Sablé with Tonka Bean Ganache",
+  "source": "adapted from Pierre Gagnaire",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/BrownButterSable_TonkaGanache.png",
+  "chef": " Pierre Hermé",
+  "yield": "Serves 6",
+  "description": "Crisp brown butter sablé cookies paired with a luxurious, aromatic tonka bean ganache for a balance of nutty, buttery crunch and creamy spiced chocolate.",
+  "category": "Dessert",
+  "keywords": "brown butter, sablé, tonka bean, ganache, chocolate, pastry, dessert, fine dining",
+  "winePairings": [
+    {
+      "name": "Sauternes (half bottle)",
+      "notes": "Honeyed notes align with brown butter and vanilla."
+    },
+    {
+      "name": "Tokaji Aszú 6 Puttonyos",
+      "notes": "Highly concentrated apricot sweetness matches richness."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Brown Butter Sablé",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Tonka Bean Ganache",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Cocoa nibs",
+      "quantity": "2 tbsp",
+      "note": "for garnish"
+    },
+    {
+      "item": "Edible gold leaf",
+      "quantity": "",
+      "note": "optional, for presentation"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Fine mesh strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Microplane grater",
+      "link": "https://amzn.to/4oao69z"
+    },
+    {
+      "item": "Piping bag",
+      "link": "https://amzn.to/4rd3ccD"
+    },
+    {
+      "item": "Edible gold leaf",
+      "link": "https://amzn.to/4hRq7pg"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Pipe tonka bean ganache onto half of the sablés."
+    },
+    {
+      "number": 2,
+      "instruction": "Top with a second sablé to form sandwich cookies or serve open-faced."
+    },
+    {
+      "number": 3,
+      "instruction": "Garnish with cocoa nibs and a touch of gold leaf for an elegant finish."
+    },
+    {
+      "number": 4,
+      "instruction": "Serve slightly chilled or at room temperature for the ideal texture contrast."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Brown Butter Sablé",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Unsalted butter",
+          "quantity": "150 g",
+          "note": "browned and cooled"
+        },
+        {
+          "item": "Powdered sugar",
+          "quantity": "70 g"
+        },
+        {
+          "item": "All-purpose flour",
+          "quantity": "200 g"
+        },
+        {
+          "item": "Almond flour",
+          "quantity": "40 g"
+        },
+        {
+          "item": "Egg yolk",
+          "quantity": "1"
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "Pinch"
+        },
+        {
+          "item": "Vanilla extract",
+          "quantity": "1/2 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Melt butter in a saucepan over medium heat until it turns golden brown and releases a nutty aroma. Cool slightly."
+        },
+        {
+          "number": 2,
+          "instruction": "In a mixing bowl, combine flour, almond flour, powdered sugar, and salt."
+        },
+        {
+          "number": 3,
+          "instruction": "Add brown butter, egg yolk, and vanilla; mix until dough just comes together."
+        },
+        {
+          "number": 4,
+          "instruction": "Shape into a log, wrap in plastic, and chill for 1 hour."
+        },
+        {
+          "number": 5,
+          "instruction": "Slice into ½-inch rounds and bake at 170°C (340°F) for 12–14 minutes until golden brown at edges."
+        }
+      ]
+    },
+    {
+      "name": "Tonka Bean Ganache",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Dark chocolate (70%)",
+          "quantity": "200 g",
+          "note": "finely chopped"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "150 g"
+        },
+        {
+          "item": "Tonka bean",
+          "quantity": "1/4",
+          "note": "finely grated"
+        },
+        {
+          "item": "Butter",
+          "quantity": "20 g",
+          "note": "softened"
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "Pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Heat cream with grated tonka bean just to a simmer for 10 minutes."
+        },
+        {
+          "number": 2,
+          "instruction": "Remove from heat and strain.  Allow to cool for full flavor infusion."
+        },
+        {
+          "number": 3,
+          "instruction": "Reheat cream and pour over chopped chocolate. Let sit for 1 minute."
+        },
+        {
+          "number": 4,
+          "instruction": "Stir gently from the center until smooth and emulsified."
+        },
+        {
+          "number": 5,
+          "instruction": "Incorporate butter and a pinch of salt until glossy."
+        },
+        {
+          "number": 6,
+          "instruction": "Chill until thickened enough to pipe or spread."
+        }
+      ]
+    }
+  ]
+}

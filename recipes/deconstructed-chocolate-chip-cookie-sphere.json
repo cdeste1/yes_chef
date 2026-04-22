@@ -1,0 +1,313 @@
+{
+  "name": "Deconstructed Chocolate Chip Cookie Sphere",
+  "source": "adapted from Alinea",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/DeconstructedChocolateChipCookieSphere.png",
+  "chef": " Grant Achatz",
+  "yield": "Serves 4–6",
+  "description": "A deconstructed chocolate chip cookie in a crisp chocolate sphere with a molten or ganache liquid center. Served with optional cocoa, chocolate drizzle, or ice cream.",
+  "category": "Dessert",
+  "keywords": "chocolate, cookie, molten, dessert, sphere, advanced",
+  "winePairings": [
+    {
+      "name": "Ruby Port",
+      "notes": "Bright berry sweetness matches chocolate."
+    },
+    {
+      "name": "Tawny Port 20-year",
+      "notes": "Caramel + nut notes enhance molten center."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Cookie Dough Ball or Ganache",
+      "note": "Choose one for the center of the sphere. See sub-recipe"
+    },
+    {
+      "item": "Chocolate Hemisphere",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Cookie Dough Ball",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Ice Mold",
+      "link": "https://amzn.to/47QsXGH"
+    },
+    {
+      "item": "Mixer",
+      "link": "https://amzn.to/47CjeF9"
+    },
+    {
+      "item": "Flour Sifter",
+      "link": "https://amzn.to/4p1XvMH"
+    },
+    {
+      "item": "Foamer",
+      "link": "https://amzn.to/4nFjrMf"
+    },
+    {
+      "item": "Foamer Nitrogen Refill",
+      "link": "https://amzn.to/3XlOWAc"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Candy thermometer",
+      "link": "https://amzn.to/3LB5HF4"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Place chocolate hemispheres on a warm baking sheet to slightly melt edge."
+    },
+    {
+      "number": 2,
+      "instruction": "Place a cookie dough ball or ganache inside one chocolate hemisphere."
+    },
+    {
+      "number": 3,
+      "instruction": "Top with the matching hemisphere to form a complete sphere."
+    },
+    {
+      "number": 4,
+      "instruction": "Chill briefly to set."
+    },
+    {
+      "number": 5,
+      "instruction": "Plate: crack the sphere with a knife at the table for the deconstructed effect."
+    },
+    {
+      "number": 6,
+      "instruction": "Optional plating: dust with cocoa powder, drizzle with chocolate sauce, or add a scoop of vanilla bean ice cream or caramel foam.  Or all of them!"
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Chocolate Sphere Shell",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "High-quality dark chocolate (60–65%)",
+          "quantity": "200 g"
+        },
+        {
+          "item": "Silicone hemisphere molds",
+          "quantity": "4"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Bring water to a simmer in a medium saucepan."
+        },
+        {
+          "number": 2,
+          "instruction": "Place a glass or metal bowl on top of the saucepan."
+        },
+        {
+          "number": 3,
+          "instruction": "Add about 75 g of the dark chocolate and melt until the temperature is 120°F (50°C)."
+        },
+        {
+          "number": 4,
+          "instruction": "Add in 25 g of chocolate, stirring contantly."
+        },
+        {
+          "number": 5,
+          "instruction": "Pour tempered chocolate into silicone molds, coating evenly."
+        },
+        {
+          "number": 6,
+          "instruction": "Scrape excess chocolate, refrigerate 5–10 minutes, then repeat steps 3 and 4 for a second layer for sturdiness."
+        },
+        {
+          "number": 7,
+          "instruction": "Chill until firm, then carefully remove the chocolate hemispheres."
+        }
+      ]
+    },
+    {
+      "name": "Cookie Dough Filling",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Unsalted butter",
+          "quantity": "100 g",
+          "note": "softened"
+        },
+        {
+          "item": "Brown sugar",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Granulated sugar",
+          "quantity": "40 g"
+        },
+        {
+          "item": "Vanilla extract",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Egg yolk",
+          "quantity": "1"
+        },
+        {
+          "item": "All-purpose flour",
+          "quantity": "150 g"
+        },
+        {
+          "item": "Baking soda",
+          "quantity": "½ tsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "pinch"
+        },
+        {
+          "item": "Chocolate chips",
+          "quantity": "100 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Cream butter and sugars until light and fluffy."
+        },
+        {
+          "number": 2,
+          "instruction": "Mix in vanilla and egg yolk."
+        },
+        {
+          "number": 3,
+          "instruction": "Sift in flour, baking soda, and salt; fold to combine."
+        },
+        {
+          "number": 4,
+          "instruction": "Fold in chocolate chips."
+        },
+        {
+          "number": 5,
+          "instruction": "Roll into small balls that fit inside the chocolate hemispheres."
+        },
+        {
+          "number": 6,
+          "instruction": "Chill dough for at least 30 minutes to maintain shape during baking."
+        }
+      ]
+    },
+    {
+      "name": "Liquid Center - Eggless Ganache Core Option",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "White or milk chocolate",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Cream",
+          "quantity": "50 mL"
+        },
+        {
+          "item": "Liqueur",
+          "quantity": "1 tsp",
+          "note": "optional, like Baileys or coffee liqueur"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Heat cream until just simmering, pour over chocolate, stir until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Chill slightly to thicken but remain pourable."
+        }
+      ]
+    },
+    {
+      "name": "Liquid Center - Molten Cookie Option",
+      "yield": "",
+      "ingredients": [],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Bake cookie dough balls for only 6–8 minutes at 355°F (180°C) so the centers remain gooey."
+        },
+        {
+          "number": 2,
+          "instruction": "For extra decadence, roll the baked cookie dough balls in the Eggless Ganache."
+        }
+      ]
+    },
+    {
+      "name": "Caramel Foam",
+      "yield": "1 cup",
+      "ingredients": [
+        {
+          "item": "Sugar",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Water",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Vanilla extract",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "item": "Heave Whipping Cream",
+          "quantity": "3 tablespoons"
+        },
+        {
+          "item": "Whole milk",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "item": "Sea Salt",
+          "quantity": "Pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine sugar and 1/2 cup of water in a small saucepan over medium-high heat."
+        },
+        {
+          "number": 2,
+          "instruction": "Let simmer for 18-20 minutes or until it turns a light amber color.  Do not stir."
+        },
+        {
+          "number": 3,
+          "instruction": "In a separate saucepan, boil the other 1/2 cup of water."
+        },
+        {
+          "number": 4,
+          "instruction": "Once the amber color is achieved, carefully pour in the boiling water, whisking constantly."
+        },
+        {
+          "number": 5,
+          "instruction": "Whisk in vanilla extract."
+        },
+        {
+          "number": 6,
+          "instruction": "Let cool."
+        },
+        {
+          "number": 7,
+          "instruction": "Combine the heavy cream, milk and sea salt with the cooled caramel syrup."
+        },
+        {
+          "number": 8,
+          "instruction": "Using the foamer, spray directly onto the cookie."
+        }
+      ]
+    }
+  ]
+}

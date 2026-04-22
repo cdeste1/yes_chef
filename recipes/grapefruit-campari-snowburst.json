@@ -1,0 +1,63 @@
+{
+  "name": "Grapefruit–Campari Snowburst",
+  "source": "Yes Chef! Kitchen",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Grapefruit_Campari_Snowburst.webp",
+  "chef": "",
+  "yield": "Serves 1",
+  "category": "Cocktail",
+  "description": "Frozen grapefruit–Campari granita layered with chilled botanical gin.",
+  "keywords": "Campari, grapefruit, granita",
+  "ingredients": [
+    {
+      "item": "Grapefruit juice",
+      "quantity": "1 cup",
+      "note": "Ruby-red or yellow"
+    },
+    {
+      "item": "Campari",
+      "quantity": "2 ounces"
+    },
+    {
+      "item": "Simple Syrup",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Water",
+      "quantity": "1 ounce"
+    },
+    {
+      "item": "Sea Salt",
+      "quantity": "pinch"
+    },
+    {
+      "item": "Grapefruit Peel",
+      "quantity": "1"
+    },
+    {
+      "item": "Prosecco",
+      "quantity": "splash"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Whisk grapefruit juice, campari, simple syrup, water and salt in a pan."
+    },
+    {
+      "number": 2,
+      "instruction": "Freeze pan for 2-3 hours."
+    },
+    {
+      "number": 4,
+      "instruction": "Scrape with a fork every 45 minutes to form granita."
+    },
+    {
+      "number": 5,
+      "instruction": "Scoop snow into a glass and top with prosecco."
+    },
+    {
+      "number": 6,
+      "instruction": "Express grapefruit peel and drop on top for garnish."
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "name": "Poached Salmon with Cucumber Spheres and Dill Air",
+  "source": "adapted from Le Bernardin (New York City, USA)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/poachedsalmon_cucumberspheres_dillfoam.webp",
+  "chef": " Mauro Colagreco",
+  "yield": "Serves 4",
+  "description": "A delicate modernist seafood dish featuring gently poached salmon, refreshing cucumber spheres, and aromatic dill air for a light yet complex presentation.",
+  "category": "Main",
+  "keywords": "salmon, cucumber, dill, sous vide, molecular gastronomy, modernist cuisine, fine dining",
+  "ingredients": [
+    {
+      "item": "Micro dill or fennel fronds",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Olive oil",
+      "quantity": "few drops",
+      "note": "to finish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Vacuum sealer or chamber sealer",
+      "link": "https://amzn.to/3XpsAxS"
+    },
+    {
+      "item": "Sous vide circulator",
+      "link": "https://amzn.to/4o2YqLK"
+    },
+    {
+      "item": "Sous vide container",
+      "link": "https://amzn.to/48mrWYd"
+    },
+    {
+      "item": "Immersion blender",
+      "link": "https://amzn.to/47LWEbR"
+    },
+    {
+      "item": "Sodium Alginate",
+      "link": "https://amzn.to/480JdpD"
+    },
+    {
+      "item": "Soy lecithin",
+      "link": "https://amzn.to/3Xnkupo"
+    },
+    {
+      "item": "Calcium lactate bath",
+      "link": "https://amzn.to/4ovHte4"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Place poached salmon at center of a warm shallow plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Arrange several cucumber spheres around the fish."
+    },
+    {
+      "number": 3,
+      "instruction": "Spoon dill air gently over or beside the salmon."
+    },
+    {
+      "number": 4,
+      "instruction": "Finish with micro dill and a few drops of olive oil."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Poached Salmon",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Salmon fillets",
+          "quantity": "4 pieces (~150 g each)",
+          "note": "skinless, pin-boned"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Lemon zest",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Fresh dill",
+          "quantity": "2 sprigs"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "White pepper",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Season salmon lightly with salt, pepper, and lemon zest."
+        },
+        {
+          "number": 2,
+          "instruction": "Vacuum seal each fillet with a drizzle of olive oil and a sprig of dill."
+        },
+        {
+          "number": 3,
+          "instruction": "Sous vide at 50°C (122°F) for 30 minutes for tender, silky texture."
+        },
+        {
+          "number": 4,
+          "instruction": "Remove from bag and pat dry just before plating."
+        }
+      ]
+    },
+    {
+      "name": "Cucumber Spheres",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Cucumber juice",
+          "quantity": "200 mL",
+          "note": "strained"
+        },
+        {
+          "item": "Sodium alginate",
+          "quantity": "2 g"
+        },
+        {
+          "item": "Calcium lactate bath",
+          "quantity": "500 mL water + 5 g calcium lactate"
+        },
+        {
+          "item": "Lemon juice",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend cucumber juice with sodium alginate and let rest 30 minutes to remove bubbles."
+        },
+        {
+          "number": 2,
+          "instruction": "Using a small spoon or syringe, drop portions into the calcium lactate bath to form spheres."
+        },
+        {
+          "number": 3,
+          "instruction": "Let set for 1 minute, then remove and rinse gently in clean water."
+        },
+        {
+          "number": 4,
+          "instruction": "Keep chilled until serving."
+        }
+      ]
+    },
+    {
+      "name": "Dill Air",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Fresh dill",
+          "quantity": "20 g"
+        },
+        {
+          "item": "Water",
+          "quantity": "100 mL"
+        },
+        {
+          "item": "Lemon juice",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Soy lecithin",
+          "quantity": "1 g"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend dill, water, lemon juice, and salt until smooth. Strain through a fine mesh."
+        },
+        {
+          "number": 2,
+          "instruction": "Add soy lecithin and use immersion blender at surface angle to create light foam."
+        },
+        {
+          "number": 3,
+          "instruction": "Scoop the foam (air) gently onto the dish just before serving."
+        }
+      ]
+    }
+  ]
+}

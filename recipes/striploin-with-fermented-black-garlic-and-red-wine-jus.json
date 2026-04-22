@@ -1,0 +1,229 @@
+{
+  "name": "Striploin with Fermented Black Garlic and Red Wine Jus",
+  "source": "adpated from CUT",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/striploing_blackgarlie_redwinejus.png",
+  "chef": " Wolfgang Puck",
+  "yield": "Serves 2–4",
+  "description": "An indulgent fine dining dish featuring buttery Wagyu A5 striploin paired with the deep umami of fermented black garlic and a silky red wine reduction.",
+  "category": "Main",
+  "keywords": "wagyu, beef, black garlic, red wine jus, luxury, fine dining, japanese beef",
+  "ingredients": [
+    {
+      "item": "Cooked Wagyu striploin",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Fermented black garlic purée",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Red wine jus",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Micro greens or chive tips",
+      "quantity": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Instant-read meat thermometer",
+      "link": "https://amzn.to/3WRr6fC"
+    },
+    {
+      "item": "Fine-mesh strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Saucepan with heavy base",
+      "link": "https://amzn.to/3LVuROM"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Slice the rested Wagyu striploin against the grain into thick medallions."
+    },
+    {
+      "number": 2,
+      "instruction": "Spoon a line or dot of black garlic purée onto each plate."
+    },
+    {
+      "number": 3,
+      "instruction": "Arrange the sliced beef elegantly beside the purée."
+    },
+    {
+      "number": 4,
+      "instruction": "Drizzle red wine jus around the plate for depth and aroma."
+    },
+    {
+      "number": 5,
+      "instruction": "Finish with micro greens or chive tips for freshness and contrast."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Wagyu A5 Striploin",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Wagyu A5 striploin",
+          "quantity": "400–500 g",
+          "note": "trimmed and portioned. A high quality striploin may be used instead of Wagyu."
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "to taste"
+        },
+        {
+          "item": "Freshly ground black pepper",
+          "quantity": "to taste"
+        },
+        {
+          "item": "Neutral oil (e.g., grapeseed)",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Butter",
+          "quantity": "20 g"
+        },
+        {
+          "item": "Garlic clove",
+          "quantity": "1, crushed"
+        },
+        {
+          "item": "Fresh thyme",
+          "quantity": "1 sprig"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Bring the Wagyu to room temperature for 30–45 minutes before cooking."
+        },
+        {
+          "number": 2,
+          "instruction": "Season lightly with salt and black pepper — the marbling provides richness, so avoid over-seasoning."
+        },
+        {
+          "number": 3,
+          "instruction": "Melt butter, crushed carlic, and thyme over medium heat and keep warm"
+        },
+        {
+          "number": 4,
+          "instruction": "Heat neutral oil in a heavy pan over medium-high heat until shimmering."
+        },
+        {
+          "number": 5,
+          "instruction": "Sear the striploin 45–60 seconds per side for medium-rare, basting with butter, garlic, and thyme during the final moments."
+        },
+        {
+          "number": 6,
+          "instruction": "Rest the steak on a rack for 5–7 minutes before slicing.",
+          "note": "Optionally, pour some of the remaining butter mixture over the steak"
+        }
+      ]
+    },
+    {
+      "name": "Fermented Black Garlic Purée",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Fermented black garlic cloves",
+          "quantity": "6–8"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Water or light stock",
+          "quantity": "1–2 tbsp",
+          "note": "for consistency"
+        },
+        {
+          "item": "Salt",
+          "quantity": "Pinch",
+          "note": "optional"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine black garlic, olive oil, and a splash of water in a blender."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend until silky smooth, adding more liquid as needed for a purée consistency."
+        },
+        {
+          "number": 3,
+          "instruction": "Taste and season lightly with salt if needed."
+        },
+        {
+          "number": 4,
+          "instruction": "Pass through a fine sieve for an ultra-smooth texture."
+        }
+      ]
+    },
+    {
+      "name": "Red Wine Jus",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Shallots",
+          "quantity": "2",
+          "note": "finely chopped"
+        },
+        {
+          "item": "Red wine",
+          "quantity": "250 mL",
+          "note": "full-bodied, such as Cabernet or Bordeaux"
+        },
+        {
+          "item": "Beef or veal stock",
+          "quantity": "200 mL"
+        },
+        {
+          "item": "Butter",
+          "quantity": "30 g",
+          "note": "cold, cubed"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Fresh thyme",
+          "quantity": "1 sprig"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Sauté shallots and thyme in olive oil over medium heat until soft and lightly caramelized."
+        },
+        {
+          "number": 2,
+          "instruction": "Deglaze with red wine and reduce by two-thirds."
+        },
+        {
+          "number": 3,
+          "instruction": "Add stock and continue to reduce until thick and glossy."
+        },
+        {
+          "number": 4,
+          "instruction": "Strain through a fine sieve and whisk in cold butter to finish the sauce."
+        },
+        {
+          "number": 5,
+          "instruction": "Adjust seasoning and keep warm."
+        }
+      ]
+    }
+  ]
+}

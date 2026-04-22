@@ -1,0 +1,234 @@
+{
+  "name": "Roasted Chicken with Wild Mushrooms and Sherry Reduction",
+  "source": "adapted from Le Bernardin (New York City, USA)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/RoastedChicken_WildMushroom_SherryReduction.png",
+  "chef": " Eric Ripert",
+  "yield": "Serves 4",
+  "description": "A refined take on classic roast chicken — perfectly crisped skin, tender meat, and a luxurious sherry reduction paired with earthy wild mushrooms.",
+  "category": "Main",
+  "keywords": "chicken, roasted, sherry, mushrooms, french, fine dining, eric ripert",
+  "ingredients": [
+    {
+      "item": "Roasted Chicken",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Sautéed Mushrooms",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Sherry Reduction",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Micro herbs",
+      "quantity": "",
+      "note": "optional garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Roasting pan",
+      "link": "https://amzn.to/3JUFRLE"
+    },
+    {
+      "item": "Fine mesh strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Saucepan",
+      "link": "https://amzn.to/3LVuROM"
+    },
+    {
+      "item": "Meat thermometer",
+      "link": "https://amzn.to/3WRr6fC"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Carve roasted chicken and place slices or portions on warm plates."
+    },
+    {
+      "number": 2,
+      "instruction": "Spoon sautéed mushrooms alongside or beneath the chicken."
+    },
+    {
+      "number": 3,
+      "instruction": "Drizzle sherry reduction over and around the plate."
+    },
+    {
+      "number": 4,
+      "instruction": "Garnish with micro herbs for a refined presentation."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Roasted Chicken",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Whole chicken",
+          "quantity": "1 (1.5–1.8 kg)",
+          "note": "preferably organic or free-range"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Butter",
+          "quantity": "2 tbsp",
+          "note": "softened"
+        },
+        {
+          "item": "Fresh thyme",
+          "quantity": "2 sprigs"
+        },
+        {
+          "item": "Garlic",
+          "quantity": "3 cloves",
+          "note": "crushed"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "Black pepper",
+          "quantity": "",
+          "note": "freshly ground, to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat oven to 200°C (400°F)."
+        },
+        {
+          "number": 2,
+          "instruction": "Pat chicken dry and rub with olive oil, butter, salt, and pepper."
+        },
+        {
+          "number": 3,
+          "instruction": "Stuff cavity with thyme and crushed garlic."
+        },
+        {
+          "number": 4,
+          "instruction": "Roast for 50–60 minutes, basting occasionally, until golden and internal temperature reaches 74°C (165°F)."
+        },
+        {
+          "number": 5,
+          "instruction": "Rest 10–15 minutes before carving."
+        }
+      ]
+    },
+    {
+      "name": "Wild Mushroom Sauté",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Mixed wild mushrooms",
+          "quantity": "300 g",
+          "note": "chanterelles, shiitake, oyster, or morels"
+        },
+        {
+          "item": "Butter",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1 small",
+          "note": "minced"
+        },
+        {
+          "item": "Thyme leaves",
+          "quantity": "½ tsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "Black pepper",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Heat butter and olive oil in a sauté pan over medium heat."
+        },
+        {
+          "number": 2,
+          "instruction": "Add shallot and cook until translucent."
+        },
+        {
+          "number": 3,
+          "instruction": "Add mushrooms and thyme; sauté until golden and moisture evaporates."
+        },
+        {
+          "number": 4,
+          "instruction": "Season with salt and pepper; set aside warm."
+        }
+      ]
+    },
+    {
+      "name": "Sherry Reduction",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Dry sherry",
+          "quantity": "150 mL"
+        },
+        {
+          "item": "Chicken stock",
+          "quantity": "200 mL"
+        },
+        {
+          "item": "Butter",
+          "quantity": "1 tbsp",
+          "note": "cold, for finishing"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1 small",
+          "note": "finely chopped"
+        },
+        {
+          "item": "Thyme sprig",
+          "quantity": "1"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Sauté shallot in a small saucepan with a touch of butter until soft."
+        },
+        {
+          "number": 2,
+          "instruction": "Add sherry and thyme; reduce by half."
+        },
+        {
+          "number": 3,
+          "instruction": "Add chicken stock; continue reducing until glossy and thickened."
+        },
+        {
+          "number": 4,
+          "instruction": "Strain and whisk in cold butter before serving."
+        }
+      ]
+    }
+  ]
+}

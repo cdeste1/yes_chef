@@ -1,0 +1,206 @@
+{
+  "name": "Chocolate Chip Cookie Tuile with Ice Cream Sandwich",
+  "source": "adapted from The French Laundry (Yountville, USA)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/ChocholateChipTuile_icecreamsandwhich.png",
+  "chef": " Thomas Keller",
+  "yield": "Serves 6",
+  "description": "A refined reimagining of the classic ice cream sandwich. The textures contrast beautifully: crisp, creamy, warm, and cold in perfect harmony.",
+  "category": "Dessert",
+  "keywords": "chocolate chip, tuile, cookie, ice cream, dessert, french laundry, thomas keller",
+  "ingredients": [
+    {
+      "item": "Chocolate chip tuiles",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Vanilla bean ice cream",
+      "note": "see sub-recipe, or choose your favorite Vanilla Bean"
+    },
+    {
+      "item": "Sea salt flakes",
+      "quantity": "Optional",
+      "note": "for finishing"
+    },
+    {
+      "item": "Chocolate shavings",
+      "quantity": "Optional",
+      "note": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Silicone baking mat",
+      "link": "https://amzn.to/4qSvb0K"
+    },
+    {
+      "item": "Flour Sifter",
+      "link": "https://amzn.to/4p1XvMH"
+    },
+    {
+      "item": "Ring mold (6 cm)",
+      "link": ""
+    },
+    {
+      "item": "Offset spatula",
+      "link": "https://amzn.to/4hTkzed"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Candy thermometer",
+      "link": "https://amzn.to/3LB5HF4"
+    },
+    {
+      "item": "Stand mixer",
+      "link": "https://amzn.to/47CjeF9"
+    },
+    {
+      "item": "Ice Cream Maker",
+      "link": "https://amzn.to/4o9mGfo"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Place one tuile flat-side up on a chilled plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Add a small scoop of vanilla bean ice cream in the center."
+    },
+    {
+      "number": 3,
+      "instruction": "Top with a second tuile, pressing gently to form an ice cream sandwich."
+    },
+    {
+      "number": 4,
+      "instruction": "Sprinkle with sea salt flakes or garnish with chocolate shavings if desired."
+    },
+    {
+      "number": 5,
+      "instruction": "Serve immediately, or freeze briefly to firm before serving for a crisp–creamy contrast."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Chocolate Chip Tuile",
+      "yield": "12",
+      "ingredients": [
+        {
+          "item": "Unsalted butter",
+          "quantity": "60 g",
+          "note": "melted"
+        },
+        {
+          "item": "Light brown sugar",
+          "quantity": "60 g"
+        },
+        {
+          "item": "All-purpose flour",
+          "quantity": "40 g"
+        },
+        {
+          "item": "Egg white",
+          "quantity": "1"
+        },
+        {
+          "item": "Mini chocolate chips",
+          "quantity": "25 g"
+        },
+        {
+          "item": "Vanilla extract",
+          "quantity": "¼ tsp"
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "Pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat oven to 170°C (340°F) and line a baking sheet with a silicone mat."
+        },
+        {
+          "number": 2,
+          "instruction": "Whisk melted butter, brown sugar, and vanilla until smooth."
+        },
+        {
+          "number": 3,
+          "instruction": "Add egg white and whisk until glossy and incorporated."
+        },
+        {
+          "number": 4,
+          "instruction": "Sift in flour and salt; mix until a thin batter forms."
+        },
+        {
+          "number": 5,
+          "instruction": "Fold in mini chocolate chips."
+        },
+        {
+          "number": 6,
+          "instruction": "Spoon small rounds onto silicone mat and spread thin with an offset spatula."
+        },
+        {
+          "number": 7,
+          "instruction": "Bake 6–8 minutes until golden brown around edges and lightly set in center."
+        }
+      ]
+    },
+    {
+      "name": "Vanilla Bean Ice Cream",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Whole milk",
+          "quantity": "250 mL"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "250 mL"
+        },
+        {
+          "item": "Egg yolks",
+          "quantity": "4"
+        },
+        {
+          "item": "Granulated sugar",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Vanilla bean",
+          "quantity": "1",
+          "note": "split and scraped"
+        },
+        {
+          "item": "Salt",
+          "quantity": "Pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Heat milk, cream, and vanilla bean (seeds and pod) until just steaming."
+        },
+        {
+          "number": 2,
+          "instruction": "Whisk egg yolks and sugar until pale."
+        },
+        {
+          "number": 3,
+          "instruction": "Temper hot milk mixture into yolks, whisking constantly."
+        },
+        {
+          "number": 4,
+          "instruction": "Return mixture to saucepan and cook gently to 82°C (180°F), stirring until thickened."
+        },
+        {
+          "number": 5,
+          "instruction": "Strain, cool, and churn in an ice cream maker. Freeze until firm."
+        }
+      ]
+    }
+  ]
+}

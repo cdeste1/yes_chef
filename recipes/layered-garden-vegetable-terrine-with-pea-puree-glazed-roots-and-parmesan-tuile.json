@@ -1,0 +1,278 @@
+{
+  "name": "Layered Garden Vegetable Terrine with Pea Puree, Glazed Roots and Parmesan Tuile",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/LayeredGardenVege.PNG",
+  "description": "An elegant vegetarian course, pairing zucchini, peas, and other delicious vegetables.",
+  "category": "Main",
+  "keywords": "Vegetarian",
+  "ingredients": [
+    {
+      "item": "Zucchini",
+      "quantity": "1",
+      "note": "Thinly Sliced Lengthwise"
+    },
+    {
+      "item": "Yellow Squash",
+      "quantity": "1",
+      "note": "Thinly Sliced"
+    },
+    {
+      "item": "Medium Beetroot",
+      "quantity": "1",
+      "note": "Peeled, Thinly Sliced"
+    },
+    {
+      "item": "Carrot",
+      "quantity": "1/4 ounce",
+      "note": "Thin Ribbons"
+    },
+    {
+      "item": "Extra-virgin Olive Oil",
+      "quantity": "1 tablespoon"
+    },
+    {
+      "item": "Salt and White Pepper",
+      "quantity": "To Taste"
+    },
+    {
+      "item": "Fresh or Frozen Peas",
+      "quantity": "1 Cup"
+    },
+    {
+      "item": "Butter",
+      "quantity": "1 TBSP"
+    },
+    {
+      "item": "Cream",
+      "quantity": "1 TBSP"
+    },
+    {
+      "item": "Lemon Juice",
+      "quantity": "1 Splash"
+    },
+    {
+      "item": "Baby Carrots",
+      "quantity": "1/2 Cup"
+    },
+    {
+      "item": "Pearl Onions",
+      "quantity": "1/4 Cup"
+    },
+    {
+      "item": "Wild Mushrooms",
+      "quantity": "1 Cup",
+      "note": "Oyster or Shiitake"
+    },
+    {
+      "item": "Parmsesan Cheese",
+      "quantity": "1/2 Cup",
+      "note": "Finely Grated"
+    },
+    {
+      "item": "Microgreens",
+      "quantity": "1 handful"
+    },
+    {
+      "item": "Edible Flowers",
+      "quantity": "5"
+    },
+    {
+      "item": "Balsamic Glaze",
+      "quantity": "To Taste"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/3OM86i8"
+    },
+    {
+      "item": "Brush",
+      "link": "https://amzn.to/4mz1yQB"
+    },
+    {
+      "item": "Edible Flowers",
+      "link": "https://amzn.to/4tSuWDC"
+    },
+    {
+      "item": "Sieve",
+      "link": "https://amzn.to/3ONDo8i"
+    },
+    {
+      "item": "Quenelle ",
+      "link": "https://amzn.to/3QugfIt"
+    },
+    {
+      "item": "Cheese Grater ",
+      "link": "https://amzn.to/4mAunvP"
+    },
+    {
+      "item": "Terrine",
+      "link": "https://amzn.to/4mCDPyW"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare the Vegetable Terrine",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 2,
+      "instruction": "Make the Pea Purée",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 3,
+      "instruction": "Glaze the Vegetables",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 4,
+      "instruction": "Make the Parmesan Tuile",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 5,
+      "instruction": "(Optional) Foam Element.",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 6,
+      "instruction": "Plate Like a Michelin Chef.",
+      "note": "see sub-recipe"
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Vegetable Terrine",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Lightly brush all sliced vegetables with olive oil and season with salt and pepper."
+        },
+        {
+          "number": 2,
+          "instruction": "Grill or roast slices briefly (just until tender but still structured)."
+        },
+        {
+          "number": 3,
+          "instruction": "Line a small ring mold or ramekin with zucchini slices."
+        },
+        {
+          "number": 4,
+          "instruction": "Layer vegetables in a repeating pattern (zucchini → beet → squash → carrot)."
+        },
+        {
+          "number": 5,
+          "instruction": "Press gently and chill in the fridge for at least 30–60 minutes to set."
+        }
+      ]
+    },
+    {
+      "name": "Pea Purée",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blanch peas in boiling salted water (2–3 minutes), then transfer to ice water."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend peas with butter, cream, salt, and a splash of lemon juice until smooth."
+        },
+        {
+          "number": 3,
+          "instruction": "Pass through a fine sieve for ultra-smooth texture ",
+          "note": "This is key for Michelin style"
+        },
+        {
+          "number": 4,
+          "instruction": "Keep warm."
+        }
+      ]
+    },
+    {
+      "name": "Glaze the Vegetables",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "In a pan, melt butter and add honey."
+        },
+        {
+          "number": 2,
+          "instruction": "Add carrots and pearl onions; cook until glossy and tender."
+        },
+        {
+          "number": 3,
+          "instruction": "In a separate pan, sauté mushrooms until golden."
+        },
+        {
+          "number": 4,
+          "instruction": "Season everything lightly with salt."
+        }
+      ]
+    },
+    {
+      "name": "Parmesan Tuile",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat oven to 375°F (190°C)."
+        },
+        {
+          "number": 2,
+          "instruction": "Place small piles of grated parmesan on parchment paper."
+        },
+        {
+          "number": 3,
+          "instruction": "Bake 5–7 minutes until melted and golden."
+        },
+        {
+          "number": 4,
+          "instruction": "Cool and shape if desired (drape over a rolling pin for curves)."
+        }
+      ]
+    },
+    {
+      "name": "Foam",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Warm a light vegetable broth."
+        },
+        {
+          "number": 2,
+          "instruction": "Add a pinch of soy lecithin and blend with an immersion blender to create foam."
+        }
+      ]
+    },
+    {
+      "name": "Plate",
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Place the terrine neatly in the center of a plate."
+        },
+        {
+          "number": 2,
+          "instruction": "Add a quenelle (oval scoop) of pea purée on the side."
+        },
+        {
+          "number": 3,
+          "instruction": "Arrange glazed carrots, onions, and mushrooms artistically"
+        },
+        {
+          "number": 4,
+          "instruction": "Add dots of balsamic glaze and a drizzle of olive oil."
+        },
+        {
+          "number": 5,
+          "instruction": "Garnish with microgreens, edible flowers, and tuile crisps."
+        },
+        {
+          "number": 6,
+          "instruction": "Finish with foam if using."
+        }
+      ]
+    }
+  ]
+}

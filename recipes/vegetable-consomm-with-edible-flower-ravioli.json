@@ -1,0 +1,202 @@
+{
+  "name": "Vegetable Consommé with Edible Flower Ravioli",
+  "source": "adapted from Arpège",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/VegetableConsomme_EdibleFlowerRavioli.webp",
+  "chef": " Alain Passard",
+  "yield": "Serves 4",
+  "description": "A crystal-clear vegetable consommé served with delicate ravioli filled with ricotta and edible flowers, creating a visually stunning and aromatic dish.",
+  "category": "Starter",
+  "keywords": "vegetarian, consommé, ravioli, edible flowers, fine dining, delicate, clear soup",
+  "winePairings": [
+    {
+      "name": "Grüner Veltliner",
+      "notes": "White pepper and acidity match delicate broth."
+    },
+    {
+      "name": "Chablis Premier Cru",
+      "notes": "Pure, mineral, elegant with floral notes."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Ravioli",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Vegetable consommé",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Edible flower petals",
+      "quantity": "",
+      "note": "for garnish"
+    },
+    {
+      "item": "Chive oil",
+      "quantity": "few drops",
+      "note": "optional"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Fine mesh strainer or chinois",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Pasta roller",
+      "link": "https://amzn.to/4qJFYdA"
+    },
+    {
+      "item": "Pastry Wheel",
+      "link": "https://amzn.to/3Jrqfzk"
+    },
+    {
+      "item": "Edible Flowers",
+      "link": "https://amzn.to/4oN7NR1"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Place ravioli in the center of a shallow bowl."
+    },
+    {
+      "number": 2,
+      "instruction": "Gently pour hot vegetable consommé around the ravioli."
+    },
+    {
+      "number": 3,
+      "instruction": "Garnish with flower petals and a drizzle of chive oil."
+    },
+    {
+      "number": 4,
+      "instruction": "Serve immediately for a delicate and aromatic presentation."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Vegetable Consommé",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Carrots",
+          "quantity": "2",
+          "note": "roughly chopped"
+        },
+        {
+          "item": "Leeks",
+          "quantity": "1",
+          "note": "cleaned and sliced"
+        },
+        {
+          "item": "Celery stalks",
+          "quantity": "2",
+          "note": "roughly chopped"
+        },
+        {
+          "item": "Onion",
+          "quantity": "1",
+          "note": "quartered"
+        },
+        {
+          "item": "Tomato paste",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Egg whites",
+          "quantity": "3",
+          "note": "for clarification"
+        },
+        {
+          "item": "Cold water",
+          "quantity": "1.5 L"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine vegetables, tomato paste, and cold water in a large pot. Simmer for 45–60 minutes to extract flavor."
+        },
+        {
+          "number": 2,
+          "instruction": "Strain through fine mesh sieve."
+        },
+        {
+          "number": 3,
+          "instruction": "Whisk egg whites and add to strained broth. Slowly bring to a simmer to form a raft that clarifies the liquid."
+        },
+        {
+          "number": 4,
+          "instruction": "Carefully ladle the clear consommé from under the raft."
+        },
+        {
+          "number": 5,
+          "instruction": "Season lightly with salt before serving."
+        }
+      ]
+    },
+    {
+      "name": "Edible Flower Ravioli",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "00 flour",
+          "quantity": "200 g"
+        },
+        {
+          "item": "Eggs",
+          "quantity": "2"
+        },
+        {
+          "item": "Ricotta cheese",
+          "quantity": "150 g"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "30 g",
+          "note": "grated"
+        },
+        {
+          "item": "Edible flowers",
+          "quantity": "Handful",
+          "note": "nasturtiums, pansies, or violets, finely chopped"
+        },
+        {
+          "item": "Salt",
+          "quantity": "Pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Make pasta dough by mixing flour and eggs; knead until smooth. Rest for 30 minutes."
+        },
+        {
+          "number": 2,
+          "instruction": "Roll dough into thin sheets using pasta roller."
+        },
+        {
+          "number": 3,
+          "instruction": "Combine ricotta, Parmesan, and chopped edible flowers for filling."
+        },
+        {
+          "number": 4,
+          "instruction": "Spoon small portions of filling onto pasta sheet, cover with another sheet, and seal edges."
+        },
+        {
+          "number": 5,
+          "instruction": "Cut into ravioli shapes and cook gently in salted boiling water for 2–3 minutes."
+        }
+      ]
+    }
+  ]
+}

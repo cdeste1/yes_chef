@@ -1,0 +1,101 @@
+{
+  "name": "Pretzel Bread with House Mustard",
+  "source": "adapted from Eleven Madison Park (NYC)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Pretzel_Mustard.jpg",
+  "chef": " Daniel Humm",
+  "yield": "12 rolls",
+  "description": "Classic pretzel rolls served with a sharp, fermented house mustard.",
+  "category": "Bread",
+  "keywords": "pretzel, mustard, bread",
+  "ingredients": [
+    {
+      "item": "Bread flour",
+      "quantity": "500 g"
+    },
+    {
+      "item": "Water",
+      "quantity": "300 g"
+    },
+    {
+      "item": "Butter",
+      "quantity": "30 g"
+    },
+    {
+      "item": "Yeast",
+      "quantity": "7 g"
+    },
+    {
+      "item": "Salt",
+      "quantity": "10 g"
+    },
+    {
+      "item": "Baking Soda",
+      "quantity": "1/4 cup"
+    },
+    {
+      "item": "Mustard Sauce",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/47LWEbR"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Mix bread flour, water, butter, yeast, and salt; proof 1 hour."
+    },
+    {
+      "number": 2,
+      "instruction": "Dissolve baking soda in 4 cups of water.  Chill to room temperature."
+    },
+    {
+      "number": 3,
+      "instruction": "Shape rolls; soak in baking soda bath for 30 seconds; bake 230°C (450°F)."
+    },
+    {
+      "number": 4,
+      "instruction": "Serve warm with quenelle of mustard."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "House Mustard",
+      "ingredients": [
+        {
+          "item": "Yellow mustard seeds",
+          "quantity": "40 g"
+        },
+        {
+          "item": "Brown mustard seeds",
+          "quantity": "40 g"
+        },
+        {
+          "item": "Apple cider vinegar",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Soak seeds in vinegar overnight; blend to desired texture."
+        },
+        {
+          "number": 2,
+          "instruction": "Add salt to taste."
+        }
+      ]
+    }
+  ]
+}

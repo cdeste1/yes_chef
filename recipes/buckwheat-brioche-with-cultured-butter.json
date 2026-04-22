@@ -1,0 +1,163 @@
+{
+  "name": "Buckwheat Brioche with Cultured Butter",
+  "source": "adapted from Noma (Copenhagen)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/BuckwheatBrioche.webp",
+  "chef": " René Redzepi",
+  "yield": "1 loaf, serves 6",
+  "description": "A nutty, deeply aromatic buckwheat brioche paired with tangy house-cultured butter.",
+  "category": "Bread",
+  "keywords": "brioche, buckwheat, cultured butter, fermentation, fine dining",
+  "winePairings": [
+    {
+      "name": "Muscadet",
+      "notes": "Crisp minerality cuts through butter richness and complements nutty buckwheat."
+    },
+    {
+      "name": "Krug Grande Cuvée",
+      "notes": "Toasty brioche notes mirror the bread perfectly."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Brioche",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Cultured Butter",
+      "note": "see sub-recipe"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Stand mixer",
+      "link": "https://amzn.to/47CjeF9"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    },
+    {
+      "item": "Proofing box",
+      "link": "https://amzn.to/48cK7OQ"
+    },
+    {
+      "item": "Brioche Mold",
+      "link": "https://amzn.to/3XTS0Us"
+    },
+    {
+      "item": "Thermometer",
+      "link": "https://amzn.to/3LB5HF4"
+    },
+    {
+      "item": "Cheesecloth",
+      "link": "https://amzn.to/4oQp6jy"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Slice warm brioche and serve with quenelle of cultured butter."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Buckwheat Brioche Dough",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Bread flour",
+          "quantity": "300 g"
+        },
+        {
+          "item": "Buckwheat flour",
+          "quantity": "80 g"
+        },
+        {
+          "item": "Eggs",
+          "quantity": "4"
+        },
+        {
+          "item": "Butter",
+          "quantity": "200 g",
+          "note": "room temperature"
+        },
+        {
+          "item": "Milk",
+          "quantity": "60 g",
+          "note": "warm"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "40 g"
+        },
+        {
+          "item": "Salt",
+          "quantity": "8 g"
+        },
+        {
+          "item": "Instant yeast",
+          "quantity": "7 g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine flours, sugar, salt, yeast in mixer."
+        },
+        {
+          "number": 2,
+          "instruction": "Add eggs and milk; mix until dough forms."
+        },
+        {
+          "number": 3,
+          "instruction": "Incorporate butter slowly; mix 8–10 minutes until glossy."
+        },
+        {
+          "number": 4,
+          "instruction": "Shape and place in brioche mold; final proof 1 hour."
+        },
+        {
+          "number": 5,
+          "instruction": "Proof at 37°C (100°F) 1.5 hours until doubled.",
+          "note": "If your oven does not have a proof option, use a proofing box"
+        },
+        {
+          "number": 6,
+          "instruction": "Bake at 180°C (355°F) for 25–30 minutes."
+        }
+      ]
+    },
+    {
+      "name": "Cultured Butter",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Heavy cream",
+          "quantity": "500 mL"
+        },
+        {
+          "item": "Buttermilk",
+          "quantity": "30 mL"
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix cream and buttermilk; ferment 24 hours at room temperature."
+        },
+        {
+          "number": 2,
+          "instruction": "Chill, then whip until fat separates."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain through cheesecloth; knead in salt."
+        }
+      ]
+    }
+  ]
+}

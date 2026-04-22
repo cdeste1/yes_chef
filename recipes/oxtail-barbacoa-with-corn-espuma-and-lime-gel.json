@@ -1,0 +1,266 @@
+{
+  "name": "Oxtail Barbacoa with Corn Espuma and Lime Gel",
+  "source": "adpated from Pujol",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/OxtailBarbacoa_CornEspuma_LimeGel.png",
+  "chef": " Enrique Olvera",
+  "yield": "Serves 4",
+  "description": "Slow-cooked oxtail barbacoa served with light corn espuma and bright lime gel for a modern, flavorful presentation.",
+  "category": "Main",
+  "keywords": "oxtail, barbacoa, corn espuma, lime gel, slow-cooked, advanced, main course",
+  "winePairings": [
+    {
+      "name": "Ribeiro (Godello)",
+      "notes": "Citrus minerality plays with lime; enough body for oxtail."
+    },
+    {
+      "name": "Vega Sicilia Valbuena",
+      "notes": "Elegant Spanish depth for heavy braise."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Cooked oxtail",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Corn Epsuma",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Lime Gel",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Micro cilantro",
+      "quantity": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Food Processor",
+      "link": "https://amzn.to/47ufDsv"
+    },
+    {
+      "item": "Gelatin",
+      "link": "https://amzn.to/47M6oCQ"
+    },
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/47LWEbR"
+    },
+    {
+      "item": "Fine mesh strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Foamer",
+      "link": "https://amzn.to/4nFjrMf"
+    },
+    {
+      "item": "Foamer Nitrogen Refill",
+      "link": "https://amzn.to/3XlOWAc"
+    },
+    {
+      "item": "Agar-agar",
+      "link": "https://amzn.to/47ZZcEu"
+    },
+    {
+      "item": "Food Scale",
+      "link": "https://amzn.to/4hV7XmS"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Place shredded oxtail in the center of the plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Pipe or spoon corn espuma around or over the meat."
+    },
+    {
+      "number": 3,
+      "instruction": "Add dots or small quenelles of lime gel for brightness."
+    },
+    {
+      "number": 4,
+      "instruction": "Optional: garnish with micro cilantro."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Oxtail Barbacoa",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Oxtail pieces",
+          "quantity": "3-4 lbs"
+        },
+        {
+          "item": "Vegetable oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Onion",
+          "quantity": "1",
+          "note": "chopped"
+        },
+        {
+          "item": "Garlic",
+          "quantity": "4 cloves",
+          "note": "minced"
+        },
+        {
+          "item": "Dried chiles (guajillo or ancho)",
+          "quantity": "2",
+          "note": "soaked and pureed"
+        },
+        {
+          "item": "Ground cumin",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Smoked paprika",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Beef or chicken stock",
+          "quantity": "2 cups"
+        },
+        {
+          "item": "Bay leaves",
+          "quantity": "2"
+        },
+        {
+          "item": "Salt and black pepper",
+          "quantity": "",
+          "note": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Preheat oven to 300°F (150°C) or prepare slow cooker.",
+          "note": "Alternatively add a layer of flavor with a smoker, preheated to 250°F (120°C)"
+        },
+        {
+          "number": 2,
+          "instruction": "Season oxtail with salt and pepper. Sear in oil until browned on all sides."
+        },
+        {
+          "number": 3,
+          "instruction": "Remove meat, sauté onion and garlic in the same pan."
+        },
+        {
+          "number": 4,
+          "instruction": "Add chile puree, cumin, and paprika; cook 1–2 minutes."
+        },
+        {
+          "number": 5,
+          "instruction": "Return oxtail to pan, add stock and bay leaves."
+        },
+        {
+          "number": 6,
+          "instruction": "Cover and slow-cook in oven or slow cooker 6–8 hours until meat is tender and falls off the bone.",
+          "note": "If smoking, cook until internal temperature is 205°F (96°C) "
+        },
+        {
+          "number": 7,
+          "instruction": "Shred meat gently and keep warm."
+        }
+      ]
+    },
+    {
+      "name": "Corn Espuma",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Corn kernels",
+          "quantity": "1/2 lb",
+          "note": "fresh or frozen"
+        },
+        {
+          "item": "Milk",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Cream",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1 tsp",
+          "note": "optional"
+        },
+        {
+          "item": "Salt",
+          "quantity": "",
+          "note": "to taste"
+        },
+        {
+          "item": "Gelatin or soy lecithin",
+          "quantity": "1 sheet or 1 g",
+          "note": "for stabilization"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend corn, milk, cream, sugar, and salt until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Strain through fine mesh."
+        },
+        {
+          "number": 3,
+          "instruction": "Heat gently and add gelatin (if using) to stabilize."
+        },
+        {
+          "number": 4,
+          "instruction": "Transfer to a foamer to create espuma."
+        }
+      ]
+    },
+    {
+      "name": "Lime Gel",
+      "yield": "",
+      "ingredients": [
+        {
+          "item": "Lime juice",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Water",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1/2 tablespoons"
+        },
+        {
+          "item": "Agar-agar or gelatin",
+          "quantity": "2 g or 1 sheet"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix lime juice, water, sugar, and agar-agar."
+        },
+        {
+          "number": 2,
+          "instruction": "Bring to a gentle boil for 1–2 minutes, stirring constantly."
+        },
+        {
+          "number": 3,
+          "instruction": "Pour onto a tray and chill until set."
+        },
+        {
+          "number": 4,
+          "instruction": "Blend to a smooth gel or cut into small cubes for plating."
+        }
+      ]
+    }
+  ]
+}

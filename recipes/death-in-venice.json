@@ -1,0 +1,45 @@
+{
+  "name": "Death in Venice",
+  "source": "adapted from The Fat Duck",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/DeathinVenice.webp",
+  "chef": " Heston Blumenthal",
+  "yield": "1",
+  "description": "Cocktail that is refreshing and simply prepared",
+  "category": "Cocktail",
+  "keywords": "alcohol, drink, prosecco, italian",
+  "ingredients": [
+    {
+      "item": "Campari",
+      "quantity": "1/2 ounces"
+    },
+    {
+      "item": "Grapefruit Bitters",
+      "quantity": "4 drops",
+      "note": "Orange bitters can also be used"
+    },
+    {
+      "item": "Prosecco",
+      "quantity": "to fill the glass"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Champagne Flute",
+      "link": "https://amzn.to/4qQrTLH"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Add Campari and bitters to a champagne flute"
+    },
+    {
+      "number": 2,
+      "instruction": "Top with Prosecco"
+    },
+    {
+      "number": 3,
+      "instruction": "Stir lightly"
+    }
+  ]
+}

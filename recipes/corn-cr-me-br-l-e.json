@@ -1,0 +1,116 @@
+{
+  "name": "Corn Crème Brûlée",
+  "source": "adapted from Quality Meats, NYC",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/corncremebrulee.webp",
+  "chef": " Craig Koketsu",
+  "yield": "Serves 8",
+  "description": "A side twist on crème brûlée - with sweet corn that is the perfect side to a steak!.",
+  "category": "Sides",
+  "keywords": "corn, side, creamy, crème brûlée, fine dining",
+  "ingredients": [
+    {
+      "item": "Ears of Yellow or Bi-color Corn",
+      "quantity": "4",
+      "note": "shucked and cleaned of silk"
+    },
+    {
+      "item": "Half & Half",
+      "quantity": "1 cup"
+    },
+    {
+      "item": "Granulated Sugar",
+      "quantity": "10 tablespoons, divided"
+    },
+    {
+      "item": "Salt",
+      "quantity": "1 teaspoon"
+    },
+    {
+      "item": "Ground White Pepper",
+      "quantity": "1/2 teaspoon"
+    },
+    {
+      "item": "Heavy Cream",
+      "quantity": "1 1/2cup"
+    },
+    {
+      "item": "Egg Yolks",
+      "quantity": "4",
+      "note": "beaten"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Crème Brûlée Pan and Ramekin set",
+      "link": "https://amzn.to/4p4ZyQc"
+    },
+    {
+      "item": "Crème Brûlée Torch",
+      "link": "https://amzn.to/4reCq3q"
+    },
+    {
+      "item": "Fine Mesh Strainer",
+      "link": "https://amzn.to/3JFzzzE"
+    },
+    {
+      "item": "Immersion Blender",
+      "link": "https://amzn.to/47LWEbR"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Set oven rack in the center of oven. Remove any other racks from oven. Place the crème brûlée pan (or large casserole dish) on rack and fill 1 inch deep with warm water. Preheat oven to 325°F (165°C)."
+    },
+    {
+      "number": 2,
+      "instruction": "Cut corn kernels from cobs using a sharp knife. Divide corn kernels in half."
+    },
+    {
+      "number": 3,
+      "instruction": "Using the back of the knife, scrape cobs to extract any remaining pulp. Discard cobs."
+    },
+    {
+      "number": 4,
+      "instruction": "Place pulp, half of the corn kernels, half & half, 2 tablespoons of sugar, salt, and white pepper in a metal bowl. Blend until corn is completely dissolved."
+    },
+    {
+      "number": 5,
+      "instruction": "Strain corn mixture through a fine mesh strainer into a mixing bowl, using the back of a spoon to press out any remaining solids."
+    },
+    {
+      "number": 6,
+      "instruction": "Mix heavy cream into strained corn mixture. Taste for seasoning and adjust with more sugar, salt, and/or white pepper.",
+      "note": "Mixture should be sweet, but not excessive."
+    },
+    {
+      "number": 7,
+      "instruction": "Whisk egg yolks into corn mixture to fully incorporate.",
+      "note": "Be careful not to make lots of bubbles."
+    },
+    {
+      "number": 8,
+      "instruction": "Divide other half of corn kernels equally into four 4-ounce ramekins, and fill ramekins almost to top with corn mixture."
+    },
+    {
+      "number": 9,
+      "instruction": "Carefully place ramekins into water bath in oven. Bake until custards are just set, start checking about 25-30 minutes into the bake."
+    },
+    {
+      "number": 10,
+      "instruction": "Carefully remove the entire water bath from the oven and let cool to room temperature."
+    },
+    {
+      "number": 11,
+      "instruction": "Remove from the water bath and refrigerate for about 4 hours."
+    },
+    {
+      "number": 12,
+      "instruction": "Before serving, place ramekins back in the water bath in the 325 degree oven. Let warm for 10 minutes."
+    },
+    {
+      "number": 13,
+      "instruction": "Remove from oven and lightly sprinkle with 2 tablespoons of sugar. Quickly pass over sugar with a blowtorch or burn with a brûlée iron. Serve immediately."
+    }
+  ]
+}

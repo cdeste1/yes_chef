@@ -2075,6 +2075,112 @@
     ]
   },
   {
+    "name": "Butter-Poached Blue Prawns with Saffron-Shellfish Emulsion",
+    "yield": "2 servings",
+    "description": "A molecular gastronomy course featuring precision-temperature prawns and a centrifuged saffron-shellfish foam.",
+    "category": "Main",
+    "keywords": "prawns, shrimp, molecular gastronomy, sous vide",
+    "ingredients": [
+      {
+        "item": "Blue Prawns or Tiger Shrimp",
+        "quantity": "8-10",
+        "note": "fresh, head-on"
+      },
+      {
+        "item": "Cultured Butter (82% fat)",
+        "quantity": "8 ounces"
+      },
+      {
+        "item": "Saffron Threads",
+        "quantity": "1 pinch"
+      },
+      {
+        "item": "Lemongrass",
+        "quantity": "1 stalk",
+        "note": "bruised"
+      },
+      {
+        "item": "Dry White Wine",
+        "quantity": "1/4 cup"
+      },
+      {
+        "item": "Shellfish Stock",
+        "quantity": "2 cups"
+      },
+      {
+        "item": "Fresh Chervil",
+        "quantity": "1 sprig",
+        "note": "for garnish"
+      },
+      {
+        "item": "Lecithin or Heavy Cream",
+        "quantity": "1 teaspoon",
+        "note": "to stabilize foam"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Gourmet Whip siphon + 2 N?O chargers",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Digital Refractometer",
+        "link": "https://amzn.to/4cE3zX8"
+      },
+      {
+        "item": "Culinary blowtorch",
+        "link": "https://amzn.to/42eE89w"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the shellfish stock using prawn heads and shells."
+      },
+      {
+        "number": 2,
+        "instruction": "Pour the strained stock into the canisters of a culinary centrifuge; spin until the liquid clarifies into a pure essence."
+      },
+      {
+        "number": 3,
+        "instruction": "Place butter, saffron, and lemongrass into a vacuum bag; use a chamber vacuum sealer to pull a full vacuum for precision infusion."
+      },
+      {
+        "number": 4,
+        "instruction": "Set the immersion circulator to 125.6�F (52�C)."
+      },
+      {
+        "number": 5,
+        "instruction": "Clean prawns and place in a vacuum bag with the saffron-infused butter; seal and submerge in the water bath for 12�15 minutes."
+      },
+      {
+        "number": 6,
+        "instruction": "Reduce the centrifuged shellfish essence with white wine, using a digital refractometer to verify the ideal density/sugar concentration."
+      },
+      {
+        "number": 7,
+        "instruction": "Add lecithin or heavy cream to the reduction; pour into a siphon and charge with gas cartridges."
+      },
+      {
+        "number": 8,
+        "instruction": "Remove prawns from the bath, pat dry, and give a brief singe with a culinary torch for aroma."
+      },
+      {
+        "number": 9,
+        "instruction": "Plating: Place prawns in a shallow bowl, dispense saffron foam from the siphon over the top, and garnish with chervil."
+      }
+    ],
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.png"
+  },
+  {
     "name": "Butter-Poached Lobster with Saffron Foam, Fennel Ash & Citrus Gel",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.png",
     "yield": "2-3 plates",

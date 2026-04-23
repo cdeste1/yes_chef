@@ -81,7 +81,7 @@ async function handleUpload(request, env) {
   }
 
   const ext    = file.type === 'image/webp' ? 'webp' : file.type === 'image/png' ? 'png' : 'jpg';
-  const key    = `assets/${slug}.${ext}`;
+  const key    = `assets/Photos/Recipes/${slug}.${ext}`;
   const buffer = await file.arrayBuffer();
 
   try {
@@ -91,8 +91,8 @@ async function handleUpload(request, env) {
   } catch (e) {
     return json({ error: `Upload failed: ${e.message}` }, 500);
   }
-
-  const publicUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/${key}`;
+  
+  const publicUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/${slug}.${ext}`;
   return json({ url: publicUrl, key });
 }
 

@@ -663,7 +663,7 @@ async function submitUploadMode() {
   if (imageFileUpload) {
     const slug = toSlug(recipe.name);
     const ext  = imageFileUpload.type === 'image/webp' ? 'webp' : imageFileUpload.type === 'image/png' ? 'png' : 'jpg';
-    recipe.imageUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/${slug}.${ext}`;
+    recipe.imageUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/${slug}.${ext}`;
   }
   await submitToGitHub(recipe, imageFileUpload, 'u', 'pr-link-u', 'pr-success-u', 'submit-btn-u');
 }

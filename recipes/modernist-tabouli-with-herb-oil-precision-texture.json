@@ -1,0 +1,152 @@
+{
+  "name": "Modernist Tabouli with Herb Oil & Precision Texture",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/modernist-tabouli-with-herb-oil-precision-texture.png",
+  "yield": "4 plates",
+  "description": "A refined tabouli showcasing precision-cut herbs, vacuum-hydrated bulgur, clarified lemon, and vibrant herb oil for a clean, modern presentation.",
+  "category": "Sides",
+  "keywords": "tabouli, tabbouleh, modernist, vegetarian, herbs, fine dining",
+  "winePairings": [
+    {
+      "name": "Sancerre",
+      "notes": "Crisp acidity complements lemon and herbs."
+    },
+    {
+      "name": "Albari�o",
+      "notes": "Bright citrus and minerality enhance freshness."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Fine bulgur wheat",
+      "quantity": "1/2 cup"
+    },
+    {
+      "item": "Flat-leaf parsley leaves",
+      "quantity": "2 cups",
+      "note": "stems removed"
+    },
+    {
+      "item": "Fresh mint leaves",
+      "quantity": "1/2 cup"
+    },
+    {
+      "item": "Ripe tomatoes",
+      "quantity": "2",
+      "note": "deseeded and finely diced"
+    },
+    {
+      "item": "Scallions",
+      "quantity": "3",
+      "note": "thinly sliced"
+    },
+    {
+      "item": "Shallot",
+      "quantity": "1",
+      "note": "finely diced"
+    },
+    {
+      "item": "Lemon juice",
+      "quantity": "from 2 lemons"
+    },
+    {
+      "item": "Lemon zest",
+      "quantity": "from 1 lemon"
+    },
+    {
+      "item": "Extra-virgin olive oil",
+      "quantity": "60 ml"
+    },
+    {
+      "item": "Salt",
+      "quantity": "to taste"
+    },
+    {
+      "item": "Pomegranate seeds",
+      "quantity": "optional garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Vacuum Sealer",
+      "link": "https://amzn.to/4ufPoPh"
+    },
+    {
+      "item": "High-Speed Blender",
+      "link": "https://amzn.to/41ORGbK"
+    },
+    {
+      "item": "Centrifuge",
+      "link": "https://amzn.to/3QrAg2q"
+    },
+    {
+      "item": "Fine Chinois",
+      "link": "https://amzn.to/4cEcbgl"
+    },
+    {
+      "item": "Precision Scale",
+      "link": "https://amzn.to/4cQUI5s"
+    },
+    {
+      "item": "Ring Molds",
+      "link": "https://amzn.to/4cQTZkJ"
+    },
+    {
+      "item": "Dehydrator",
+      "link": "https://amzn.to/4eB2cuI"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Weigh bulgur and water at a 1:1 ratio. Vacuum seal with a pinch of salt and allow to hydrate for 30�40 minutes.",
+      "note": "ensures even hydration without mushiness"
+    },
+    {
+      "number": 2,
+      "instruction": "Clarify the lemon juice by blending briefly and passing through a fine chinois or superbag.",
+      "note": "for ultra clarity, centrifuge if available"
+    },
+    {
+      "number": 3,
+      "instruction": "Blanch a small portion of parsley for 10 seconds, shock in ice, then blend with olive oil until vibrant green.",
+      "note": "strain to create herb oil"
+    },
+    {
+      "number": 4,
+      "instruction": "Finely chiffonade parsley and mint, then cross-cut gently.",
+      "note": "avoid bruising the herbs"
+    },
+    {
+      "number": 5,
+      "instruction": "Deseed tomatoes completely and dice into uniform small cubes.",
+      "note": "prevents excess moisture"
+    },
+    {
+      "number": 6,
+      "instruction": "Rinse sliced shallots briefly in cold water and dry.",
+      "note": "removes harshness"
+    },
+    {
+      "number": 7,
+      "instruction": "Combine bulgur, herbs, tomatoes, shallots, and scallions gently by hand."
+    },
+    {
+      "number": 8,
+      "instruction": "Add clarified lemon juice, lemon zest, and salt. Mix lightly.",
+      "note": "season before oil for brightness"
+    },
+    {
+      "number": 9,
+      "instruction": "Fold in olive oil gently until evenly coated."
+    },
+    {
+      "number": 10,
+      "instruction": "Optional: briefly place mixture under light vacuum to integrate flavors."
+    },
+    {
+      "number": 11,
+      "instruction": "Plate using a ring mold to form a tight cylinder. Finish with herb oil, mint tips, and pomegranate seeds."
+    }
+  ],
+  "sub_recipes": []
+}

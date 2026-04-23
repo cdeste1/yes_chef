@@ -656,8 +656,16 @@ async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, success
 // ══════════════════════════════════════════════════════════
 async function submitUploadMode() {
   if (!uploadedRecipeJSON) { setStatus('Please upload a JSON file first.', 'error', 'u'); return; }
-  if (!uploadedRecipeJSON.name) { setStatus('JSON is missing a recipe name.', 'error', 'u'); return; }
-  await submitToGitHub(uploadedRecipeJSON, imageFileUpload, 'u', 'pr-link-u', 'pr-success-u', 'submit-btn-u');
+  // Unwrap {"recipe": {...}} if present
+  const recipe = uploadedRecipeJSON.recipe ? uploadedRecipeJSON.recipe : uploadedRecipeJSON;
+  if (!recipe.name) { setStatus('JSON is missing a recipe name field.', 'error', 'u'); return; }
+  // Always set imageUrl from the uploaded image filename, ignoring whatever was in the JSON
+  if (imageFileUpload) {
+    const slug = toSlug(recipe.name);
+    const ext  = imageFileUpload.type === 'image/webp' ? 'webp' : imageFileUpload.type === 'image/png' ? 'png' : 'jpg';
+    recipe.imageUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/${slug}.${ext}`;
+  }
+  await submitToGitHub(recipe, imageFileUpload, 'u', 'pr-link-u', 'pr-success-u', 'submit-btn-u');
 }
 
 // ══════════════════════════════════════════════════════════

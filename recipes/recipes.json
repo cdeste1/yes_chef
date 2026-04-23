@@ -2075,6 +2075,201 @@
     ]
   },
   {
+    "name": "Butter-Poached Lobster with Saffron Foam, Fennel Ash & Citrus Gel",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.png",
+    "yield": "2-3 plates",
+    "description": "A refined seafood dish featuring butter-poached lobster, airy saffron foam, bright citrus gel, and fennel ash for a modern, Michelin-style presentation.",
+    "category": "Main",
+    "keywords": "lobster, seafood, modernist, fine dining",
+    "winePairings": [
+      {
+        "name": "Chablis",
+        "notes": "Crisp minerality enhances the sweetness of lobster."
+      },
+      {
+        "name": "Champagne",
+        "notes": "Bright acidity and bubbles cut through the richness of butter."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Lobster tails",
+        "quantity": "2-3"
+      },
+      {
+        "item": "Unsalted butter",
+        "quantity": "500g"
+      },
+      {
+        "item": "Garlic cloves",
+        "quantity": "2",
+        "note": "lightly crushed"
+      },
+      {
+        "item": "Fresh thyme",
+        "quantity": "a few sprigs"
+      },
+      {
+        "item": "Lemon zest",
+        "quantity": "from 1 lemon"
+      },
+      {
+        "item": "Seafood stock",
+        "quantity": "200ml"
+      },
+      {
+        "item": "Heavy cream",
+        "quantity": "100ml"
+      },
+      {
+        "item": "Saffron threads",
+        "quantity": "pinch"
+      },
+      {
+        "item": "Lecithin",
+        "quantity": "small pinch"
+      },
+      {
+        "item": "Orange juice",
+        "quantity": "200ml"
+      },
+      {
+        "item": "Lemon juice",
+        "quantity": "50ml"
+      },
+      {
+        "item": "Agar-agar",
+        "quantity": "2g"
+      },
+      {
+        "item": "Fennel fronds",
+        "quantity": "handful"
+      },
+      {
+        "item": "Olive oil",
+        "quantity": "small amount"
+      },
+      {
+        "item": "Microgreens",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Fresh fennel",
+        "quantity": "1 bulb",
+        "note": "thinly shaved"
+      },
+      {
+        "item": "Citrus segments",
+        "quantity": "for garnish"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Whisk",
+        "link": "https://amzn.to/4sUHGc5"
+      },
+      {
+        "item": "Gourmet Whip siphon + 2 N?O chargers",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Fine mesh strainer",
+        "link": "https://amzn.to/4cjQK5p"
+      },
+      {
+        "item": "Dehydrator",
+        "link": "https://amzn.to/48cq2Jp"
+      },
+      {
+        "item": "Saffron",
+        "link": "https://amzn.to/4cUHe8V"
+      },
+      {
+        "item": "Plating tweezers",
+        "link": "https://amzn.to/48hNwwH"
+      },
+      {
+        "item": "Infrared thermometer",
+        "link": "https://amzn.to/4tmdWFX"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Remove lobster meat from shells carefully, keeping pieces intact."
+      },
+      {
+        "number": 2,
+        "instruction": "Place lobster in a vacuum bag with butter, garlic, thyme, and lemon zest, then seal."
+      },
+      {
+        "number": 3,
+        "instruction": "Cook in a water bath at 56�C (132.8�F) for 20�25 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Gently heat seafood stock, cream, and saffron to infuse flavor without boiling."
+      },
+      {
+        "number": 5,
+        "instruction": "Strain the mixture, add lecithin, blend, and transfer to a cream siphon. Charge and keep warm."
+      },
+      {
+        "number": 6,
+        "instruction": "Combine orange juice, lemon juice, and agar-agar, then bring to a boil while whisking."
+      },
+      {
+        "number": 7,
+        "instruction": "Pour into a shallow container and allow to set."
+      },
+      {
+        "number": 8,
+        "instruction": "Blend the set gel until smooth and strain for a refined texture."
+      },
+      {
+        "number": 9,
+        "instruction": "Lightly coat fennel fronds in oil and dehydrate until fully dry."
+      },
+      {
+        "number": 10,
+        "instruction": "Char the dried fennel and grind into a fine ash."
+      },
+      {
+        "number": 11,
+        "instruction": "Remove lobster from bag and slice into even medallions."
+      },
+      {
+        "number": 12,
+        "instruction": "Plate lobster with space between pieces for a clean presentation."
+      },
+      {
+        "number": 13,
+        "instruction": "Add dots or lines of citrus gel around the plate."
+      },
+      {
+        "number": 14,
+        "instruction": "Dispense saffron foam lightly over or beside the lobster."
+      },
+      {
+        "number": 15,
+        "instruction": "Dust fennel ash sparingly across the plate."
+      },
+      {
+        "number": 16,
+        "instruction": "Finish with microgreens, shaved fennel, and citrus segments for garnish."
+      }
+    ],
+    "sub_recipes": []
+  },
+  {
     "name": "Cacao Sablé with Fleur de Sel Caramel",
     "source": "adapted from: Classic French Bistro",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/cacaosable_caramel.webp",

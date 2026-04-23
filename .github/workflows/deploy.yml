@@ -1,14 +1,12 @@
 name: Build & Deploy YesChef Website
  
 on:
-  # Trigger manually from the GitHub Actions tab
   workflow_dispatch:
- 
-  # OR trigger automatically on any push to main
   push:
     branches:
       - main
     paths:
+      - 'recipes/**'
       - 'web/**'
       - 'yeschef-seo/**'
       - '.github/workflows/deploy.yml'
@@ -18,47 +16,61 @@ jobs:
     runs-on: ubuntu-latest
  
     steps:
-      # ── 1. Check out the repo ────────────────────────────────────────────────
+      # ── 1. Checkout ──────────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
  
-      # ── 2. Set up Python ─────────────────────────────────────────────────────
+      # ── 2. Python ────────────────────────────────────────────────────────────
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
  
-      # ── 3. Fetch latest recipes.json from Cloudflare R2 ─────────────────────
-      - name: Fetch recipes.json from Cloudflare R2
+      # ── 3. Merge all individual recipe JSONs → single recipes.json ───────────
+      - name: Merge recipe files
         run: |
-          curl -fsSL \
-            "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json" \
-            -o web/recipes/recipes.json
-          echo "✓ recipes.json fetched ($(wc -c < web/recipes/recipes.json) bytes)"
+          python3 tools/merge_recipes.py \
+            --input   recipes \
+            --output  merged/recipes.json
+          echo "✓ Merged $(ls recipes/*.json | wc -l) recipe files"
  
-      # ── 4. Generate main site recipe pages ───────────────────────────────────
-      #    Runs from web/recipes/ so OUTPUT_DIR="." places slugs directly
-      #    as siblings: web/recipes/<slug>/index.html
+      # ── 4. Upload merged recipes.json to Cloudflare R2 ───────────────────────
+      - name: Upload recipes.json to R2
+        env:
+          AWS_ACCESS_KEY_ID:     ${{ secrets.CF_R2_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.CF_R2_SECRET_KEY }}
+          AWS_DEFAULT_REGION:    auto
+        run: |
+          pip install awscli --quiet
+          aws s3 cp merged/recipes.json \
+            s3://yeschef-recipes/assets/recipes.json \
+            --endpoint-url https://${{ secrets.CF_ACCOUNT_ID }}.r2.cloudflarestorage.com \
+            --content-type application/json
+          echo "✓ recipes.json uploaded to R2"
+ 
+      # ── 5. Copy merged JSON for site generation ──────────────────────────────
+      - name: Stage recipes.json for site build
+        run: cp merged/recipes.json web/recipes/recipes.json
+ 
+      # ── 6. Generate main site recipe pages ───────────────────────────────────
       - name: Generate main site recipe pages
         working-directory: web/recipes
         env:
+          RECIPES_DIR:         "../../recipes"
           OUTPUT_DIR_OVERRIDE: "."
         run: |
           python3 generate.py
-          echo "✓ Main site recipe pages generated"
+          echo "✓ Main site pages generated"
  
-      # ── 5. Generate SEO pages ────────────────────────────────────────────────
-      #    Copies the fresh JSON into yeschef-seo/ then runs the same script
-      #    with a different output directory.
+      # ── 7. Generate SEO pages ────────────────────────────────────────────────
       - name: Generate SEO pages
         run: |
-          cp web/recipes/recipes.json yeschef-seo/recipes.json
+          cp merged/recipes.json yeschef-seo/recipes.json
           cd yeschef-seo
-          OUTPUT_DIR_OVERRIDE=output python3 generate.py
+          RECIPES_DIR=../recipes OUTPUT_DIR_OVERRIDE=output python3 generate.py
           echo "✓ SEO pages generated"
  
-      # ── 6. Deploy web/ to gh-pages ───────────────────────────────────────────
-      #    CNAME is written on every deploy — domain never gets wiped again
+      # ── 8. Deploy web/ to gh-pages — CNAME written every time ────────────────
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

@@ -20,7 +20,7 @@
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--cream); color: var(--ink); font-family: 'DM Mono', monospace; font-size: 13px; min-height: 100vh; }
-
+ 
   /* ── Login ── */
   #login-screen {
     min-height: 100vh; display: flex; align-items: center; justify-content: center;
@@ -37,7 +37,7 @@
   }
   .login-box input[type="password"]:focus { border-color: var(--gold); }
   .login-error { margin-top: 12px; font-size: 12px; color: var(--error); min-height: 18px; }
-
+ 
   /* ── Buttons ── */
   .btn-primary {
     width: 100%; padding: 14px; background: var(--ink); color: var(--cream); border: none;
@@ -47,7 +47,7 @@
   .btn-primary:hover { background: #2e2620; }
   .btn-primary:active { transform: translateY(1px); }
   .btn-primary:disabled { background: var(--muted); cursor: not-allowed; }
-
+ 
   /* ── Portal ── */
   #portal-screen { display: none; }
   header {
@@ -65,7 +65,7 @@
   main { max-width: 860px; margin: 48px auto; padding: 0 24px 80px; }
   .page-title { font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 400; font-style: italic; margin-bottom: 6px; }
   .page-hint { color: var(--muted); font-size: 12px; margin-bottom: 32px; }
-
+ 
   /* ── Mode Switcher ── */
   .mode-switcher {
     display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 32px;
@@ -80,7 +80,7 @@
   .mode-icon { font-size: 24px; margin-bottom: 10px; }
   .mode-title { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; margin-bottom: 4px; }
   .mode-sub { font-size: 11px; color: var(--muted); line-height: 1.5; }
-
+ 
   /* ── Sections ── */
   .section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 20px; overflow: hidden; }
   .section-header {
@@ -89,7 +89,7 @@
   }
   .section-header .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
   .section-body { padding: 24px 20px; }
-
+ 
   /* ── Fields ── */
   .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
   .field-row.single { grid-template-columns: 1fr; }
@@ -104,7 +104,7 @@
   }
   input:focus, textarea:focus, select:focus { border-color: var(--gold); background: var(--surface); }
   textarea { resize: vertical; min-height: 80px; line-height: 1.5; }
-
+ 
   /* ── Upload zones ── */
   .upload-zone {
     border: 2px dashed var(--border); border-radius: var(--radius); padding: 32px;
@@ -118,7 +118,7 @@
   .upload-preview { margin-top: 16px; display: none; }
   .upload-preview img { max-height: 160px; border-radius: var(--radius); border: 1px solid var(--border); }
   .upload-filename { margin-top: 8px; font-size: 11px; color: var(--gold-dim); }
-
+ 
   /* ── JSON Upload Mode ── */
   .json-drop-area {
     border: 2px dashed var(--border); border-radius: var(--radius); padding: 40px;
@@ -133,7 +133,7 @@
     font-size: 11px; line-height: 1.6; overflow-x: auto; white-space: pre; max-height: 240px; overflow-y: auto;
     text-align: left;
   }
-
+ 
   /* ── Dynamic lists ── */
   .dynamic-list { display: flex; flex-direction: column; gap: 10px; }
   .list-item {
@@ -151,7 +151,7 @@
     cursor: pointer; border-radius: var(--radius); width: 100%; transition: all 0.2s;
   }
   .btn-add:hover { border-color: var(--gold); color: var(--gold-dim); }
-
+ 
   /* ── Submit ── */
   .submit-area { margin-top: 32px; display: flex; align-items: center; gap: 16px; }
   .btn-submit {
@@ -166,7 +166,7 @@
   #status-msg.success { color: var(--success); }
   #status-msg.error   { color: var(--error); }
   #status-msg.loading { color: var(--muted); }
-
+ 
   /* ── PR success ── */
   #pr-success {
     display: none; background: var(--surface); border: 1px solid #a8d5b8;
@@ -175,14 +175,14 @@
   #pr-success h3 { font-family: 'Cormorant Garamond', serif; font-size: 20px; color: var(--success); margin-bottom: 6px; }
   #pr-success p { color: var(--muted); font-size: 12px; line-height: 1.6; }
   #pr-success a { color: var(--gold-dim); }
-
+ 
   .spinner {
     display: inline-block; width: 14px; height: 14px;
     border: 2px solid rgba(255,255,255,0.3); border-top-color: white;
     border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle; margin-right: 6px;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
-
+ 
   /* ── Template download ── */
   .template-hint {
     background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
@@ -195,7 +195,7 @@
     cursor: pointer; border-radius: var(--radius); transition: all 0.2s; white-space: nowrap; margin-left: 16px;
   }
   .btn-download:hover { background: var(--gold); color: white; }
-
+ 
   @media (max-width: 600px) {
     .field-row, .field-row.triple, .mode-switcher { grid-template-columns: 1fr; }
     header { padding: 16px 20px; }
@@ -204,7 +204,7 @@
 </style>
 </head>
 <body>
-
+ 
 <!-- LOGIN -->
 <div id="login-screen">
   <div class="login-box">
@@ -217,7 +217,7 @@
     <div class="login-error" id="login-error"></div>
   </div>
 </div>
-
+ 
 <!-- PORTAL -->
 <div id="portal-screen">
   <header>
@@ -229,11 +229,11 @@
     </div>
     <button class="btn-logout" onclick="logout()">Sign Out</button>
   </header>
-
+ 
   <main>
     <div class="page-title">Submit a New Recipe</div>
     <div class="page-hint">Choose how you'd like to submit your recipe.</div>
-
+ 
     <!-- MODE SWITCHER -->
     <div class="mode-switcher">
       <div class="mode-card active" id="mode-upload-card" onclick="setMode('upload')">
@@ -247,17 +247,17 @@
         <div class="mode-sub">Build the recipe step by step using the form. Great for entering recipes from scratch.</div>
       </div>
     </div>
-
+ 
     <!-- ══════════════════════════════════════════
          MODE 1: JSON UPLOAD
     ══════════════════════════════════════════ -->
     <div id="mode-upload">
-
+ 
       <div class="template-hint">
         <span>Need the JSON template? Download a blank recipe file to get started.</span>
         <button class="btn-download" onclick="downloadTemplate()">⬇ Download Template</button>
       </div>
-
+ 
       <div class="section">
         <div class="section-header"><div class="dot"></div>Recipe JSON File</div>
         <div class="section-body">
@@ -272,7 +272,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="section">
         <div class="section-header"><div class="dot"></div>Recipe Image</div>
         <div class="section-body">
@@ -288,7 +288,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="submit-area">
         <button class="btn-submit" id="submit-btn-u" onclick="submitUploadMode()">Submit for Review</button>
         <span id="status-msg-u"></span>
@@ -299,12 +299,12 @@
         <a id="pr-link-u" href="#" target="_blank">View PR on GitHub →</a></p>
       </div>
     </div>
-
+ 
     <!-- ══════════════════════════════════════════
          MODE 2: FORM
     ══════════════════════════════════════════ -->
     <div id="mode-form" style="display:none">
-
+ 
       <!-- Basic Info -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Basic Information</div>
@@ -333,7 +333,7 @@
           </div>
         </div>
       </div>
-
+ 
       <!-- Image -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Recipe Image</div>
@@ -352,7 +352,7 @@
           </div>
         </div>
       </div>
-
+ 
       <!-- Ingredients -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Ingredients</div>
@@ -361,7 +361,7 @@
           <button class="btn-add" onclick="addIngredient()">+ Add Ingredient</button>
         </div>
       </div>
-
+ 
       <!-- Steps -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Steps</div>
@@ -370,7 +370,7 @@
           <button class="btn-add" onclick="addStep()">+ Add Step</button>
         </div>
       </div>
-
+ 
       <!-- Tools -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Specialty Items / Tools <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
@@ -379,7 +379,7 @@
           <button class="btn-add" onclick="addTool()">+ Add Tool</button>
         </div>
       </div>
-
+ 
       <!-- Wine -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Wine Pairings <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
@@ -388,7 +388,7 @@
           <button class="btn-add" onclick="addWine()">+ Add Wine</button>
         </div>
       </div>
-
+ 
       <!-- Sub-recipes -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Sub-Recipes <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
@@ -397,7 +397,7 @@
           <button class="btn-add" onclick="addSub()">+ Add Sub-Recipe</button>
         </div>
       </div>
-
+ 
       <div class="submit-area">
         <button class="btn-submit" id="submit-btn-f" onclick="submitFormMode()">Submit for Review</button>
         <span id="status-msg-f"></span>
@@ -408,10 +408,10 @@
         <a id="pr-link-f" href="#" target="_blank">View PR on GitHub →</a></p>
       </div>
     </div>
-
+ 
   </main>
 </div>
-
+ 
 <script>
 // ══════════════════════════════════════════════════════════
 // CONFIG
@@ -422,7 +422,7 @@ const CONFIG = {
   githubRepo:    "yes_chef",
   r2WorkerUrl:   "https://yeschef-upload.yeschef-upload.workers.dev",
 };
-
+ 
 // ══════════════════════════════════════════════════════════
 // AUTH
 // ══════════════════════════════════════════════════════════
@@ -445,7 +445,7 @@ if (sessionStorage.getItem('yc_auth')) {
   document.getElementById('portal-screen').style.display = 'block';
   setTimeout(initForm, 0);
 }
-
+ 
 // ══════════════════════════════════════════════════════════
 // MODE SWITCHER
 // ══════════════════════════════════════════════════════════
@@ -457,7 +457,7 @@ function setMode(mode) {
   document.getElementById('mode-upload').style.display = mode === 'upload' ? 'block' : 'none';
   document.getElementById('mode-form').style.display   = mode === 'form'   ? 'block' : 'none';
 }
-
+ 
 // ══════════════════════════════════════════════════════════
 // JSON TEMPLATE DOWNLOAD
 // ══════════════════════════════════════════════════════════
@@ -498,12 +498,12 @@ function downloadTemplate() {
   a.download = 'recipe-template.json';
   a.click();
 }
-
+ 
 // ══════════════════════════════════════════════════════════
 // JSON FILE HANDLING
 // ══════════════════════════════════════════════════════════
 let uploadedRecipeJSON = null;
-
+ 
 function handleJsonSelect(input) {
   const file = input.files[0];
   if (!file) return;
@@ -521,7 +521,7 @@ function handleJsonSelect(input) {
   };
   reader.readAsText(file);
 }
-
+ 
 // Drag & drop for JSON
 const jsonZone = document.getElementById('json-drop-area');
 jsonZone.addEventListener('dragover', e => { e.preventDefault(); jsonZone.classList.add('dragover'); });
@@ -535,13 +535,13 @@ jsonZone.addEventListener('drop', e => {
     handleJsonSelect(document.getElementById('f-json-file'));
   }
 });
-
+ 
 // ══════════════════════════════════════════════════════════
 // IMAGE HANDLING
 // ══════════════════════════════════════════════════════════
 let imageFileUpload = null;
 let imageFileForm   = null;
-
+ 
 function handleImageSelect(input, mode) {
   const file = input.files[0];
   if (!file) return;
@@ -549,14 +549,14 @@ function handleImageSelect(input, mode) {
   if (mode === 'upload') { imageFileUpload = file; updateImagePreview(file, 'u'); }
   else                   { imageFileForm   = file; updateImagePreview(file, 'f'); }
 }
-
+ 
 function updateImagePreview(file, suffix) {
   const url = URL.createObjectURL(file);
   document.getElementById(`preview-img-${suffix}`).src = url;
   document.getElementById(`upload-filename-${suffix}`).textContent = file.name;
   document.getElementById(`upload-preview-${suffix}`).style.display = 'block';
 }
-
+ 
 // ══════════════════════════════════════════════════════════
 // GITHUB PROXY HELPER
 // ══════════════════════════════════════════════════════════
@@ -570,7 +570,7 @@ async function gh(endpoint, method = 'GET', payload = null) {
   if (!resp.ok) throw new Error(data.message || data.error || `GitHub error ${resp.status}`);
   return data;
 }
-
+ 
 async function uploadImage(imageFile, slug) {
   const formData = new FormData();
   formData.append('file', imageFile);
@@ -584,42 +584,42 @@ async function uploadImage(imageFile, slug) {
   if (!resp.ok) throw new Error(data.error || 'Image upload failed');
   return data.url;
 }
-
+ 
 // ══════════════════════════════════════════════════════════
 // SHARED SUBMIT LOGIC
 // ══════════════════════════════════════════════════════════
 function toSlug(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
-
+ 
 async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, successId, btnId) {
   const btn = document.getElementById(btnId);
   btn.disabled = true;
   btn.innerHTML = '<span class="spinner"></span>Submitting...';
-
+ 
   try {
     const slug     = toSlug(recipe.name);
     const branch   = `recipe/${slug}-${Date.now()}`;
     const filename = `recipes/${slug}.json`;
     const ghBase   = `/repos/${CONFIG.githubOwner}/${CONFIG.githubRepo}`;
-
+ 
     // Upload image if provided
     if (imageFile) {
       setStatus('Uploading image...', 'loading', statusSuffix);
       recipe.imageUrl = await uploadImage(imageFile, slug);
     }
-
+ 
     const content = JSON.stringify(recipe, null, 2) + '\n';
     const encoded = btoa(unescape(encodeURIComponent(content)));
-
+ 
     // Get SHA
     setStatus('Preparing branch...', 'loading', statusSuffix);
-    const refData = await gh(`${ghBase}/git/ref/heads/main`);
+    const refData = await gh(`${ghBase}/git/refs/heads/main`);
     const sha = refData.object.sha;
-
+ 
     // Create branch
     await gh(`${ghBase}/git/refs`, 'POST', { ref: `refs/heads/${branch}`, sha });
-
+ 
     // Create file
     setStatus('Adding recipe file...', 'loading', statusSuffix);
     await gh(`${ghBase}/contents/${filename}`, 'PUT', {
@@ -627,7 +627,7 @@ async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, success
       content: encoded,
       branch,
     });
-
+ 
     // Open PR
     setStatus('Opening pull request...', 'loading', statusSuffix);
     const prData = await gh(`${ghBase}/pulls`, 'POST', {
@@ -636,13 +636,13 @@ async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, success
       head:  branch,
       base:  'main',
     });
-
+ 
     // Success
     setStatus('', '', statusSuffix);
     document.getElementById(prLinkId).href = prData.html_url;
     document.getElementById(successId).style.display = 'block';
     document.getElementById(successId).scrollIntoView({ behavior: 'smooth' });
-
+ 
   } catch (e) {
     setStatus(`Error: ${e.message}`, 'error', statusSuffix);
   } finally {
@@ -650,7 +650,7 @@ async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, success
     btn.textContent = 'Submit for Review';
   }
 }
-
+ 
 // ══════════════════════════════════════════════════════════
 // MODE 1: JSON UPLOAD SUBMIT
 // ══════════════════════════════════════════════════════════
@@ -663,16 +663,16 @@ async function submitUploadMode() {
   if (imageFileUpload) {
     const slug = toSlug(recipe.name);
     const ext  = imageFileUpload.type === 'image/webp' ? 'webp' : imageFileUpload.type === 'image/png' ? 'png' : 'jpg';
-    recipe.imageUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/${slug}.${ext}`;
+    recipe.imageUrl = `https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/${slug}.${ext}`;
   }
   await submitToGitHub(recipe, imageFileUpload, 'u', 'pr-link-u', 'pr-success-u', 'submit-btn-u');
 }
-
+ 
 // ══════════════════════════════════════════════════════════
 // MODE 2: FORM SUBMIT
 // ══════════════════════════════════════════════════════════
 function val(id) { return (document.getElementById(id)?.value || '').trim(); }
-
+ 
 function buildRecipeJSON() {
   const ingredients = [];
   document.querySelectorAll('#ingredients-list .list-item').forEach(item => {
@@ -717,7 +717,7 @@ function buildRecipeJSON() {
     ingredients, steps, specialtools, winePairings, sub_recipes,
   };
 }
-
+ 
 async function submitFormMode() {
   const recipe = buildRecipeJSON();
   if (!recipe.name)                    { setStatus('Recipe name is required.', 'error', 'f'); return; }
@@ -727,12 +727,12 @@ async function submitFormMode() {
   if (recipe.steps.length === 0)       { setStatus('At least one step is required.', 'error', 'f'); return; }
   await submitToGitHub(recipe, imageFileForm, 'f', 'pr-link-f', 'pr-success-f', 'submit-btn-f');
 }
-
+ 
 // ══════════════════════════════════════════════════════════
 // DYNAMIC FORM BUILDERS
 // ══════════════════════════════════════════════════════════
 function initForm() { addIngredient(); addIngredient(); addStep(); addStep(); }
-
+ 
 let ingCount = 0;
 function addIngredient() {
   ingCount++;
@@ -749,7 +749,7 @@ function addIngredient() {
       <button class="btn-remove" onclick="removeItem('ing-${ingCount}')">×</button>
     </div>`);
 }
-
+ 
 let stepCount = 0;
 function addStep() {
   stepCount++;
@@ -762,7 +762,7 @@ function addStep() {
       <button class="btn-remove" onclick="removeItem('step-${stepCount}')">×</button>
     </div>`);
 }
-
+ 
 let toolCount = 0;
 function addTool() {
   toolCount++;
@@ -778,7 +778,7 @@ function addTool() {
       <button class="btn-remove" onclick="removeItem('tool-${toolCount}')">×</button>
     </div>`);
 }
-
+ 
 let wineCount = 0;
 function addWine() {
   wineCount++;
@@ -794,7 +794,7 @@ function addWine() {
       <button class="btn-remove" onclick="removeItem('wine-${wineCount}')">×</button>
     </div>`);
 }
-
+ 
 let subCount = 0;
 function addSub() {
   subCount++;
@@ -820,9 +820,9 @@ function addSub() {
       </div>
     </div>`);
 }
-
+ 
 function removeItem(id) { document.getElementById(id)?.remove(); }
-
+ 
 function setStatus(msg, type, suffix) {
   const el = document.getElementById(`status-msg-${suffix}`);
   if (el) { el.textContent = msg; el.className = type; }

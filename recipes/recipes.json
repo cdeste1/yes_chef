@@ -5448,6 +5448,176 @@
     ]
   },
   {
+    "name": "Forest Sunrise",
+    "description": "A 64°C slow-poached egg served over a truffled Jerusalem artichoke velouté with aerated brioche 'soil' and vacuum-compressed artichoke shavings.",
+    "category": "Brunch",
+    "keywords": "Michelin, Modernist, Egg, Artichoke, Truffle, Dominique Crenn",
+    "yield": "4 Servings",
+    "source": "Gemini Culinary Laboratory",
+    "chef": "Inspired by Dominique Crenn",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/forest-sunrise.jpg",
+    "ingredients": [
+      {
+        "quantity": "4",
+        "item": "Farm-fresh organic eggs",
+        "note": "Room temperature"
+      },
+      {
+        "quantity": "As needed",
+        "item": "Micro-sorrel",
+        "note": "For garnish"
+      },
+      {
+        "quantity": "As needed",
+        "item": "Herb oil",
+        "note": "For garnish"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Set the immersion circulator to 64°C (147.2°F)."
+      },
+      {
+        "instruction": "Gently lower eggs into the water bath and cook for 45 minutes."
+      },
+      {
+        "instruction": "Carefully crack each egg into a small spoon to drain loose whites before plating."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Immersion Circulator (Sous Vide)",
+        "link": "https://amazon.com/dp/B087NBPX6V?tag=yeschef-20"
+      },
+      {
+        "item": "Whipping Siphon",
+        "link": "https://amzn.to/42ui4I8"
+      },
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/4cIQZWr0"
+      },
+      {
+        "item": "Fine-Mesh Chinois",
+        "link": "https://amzn.to/4e8R1t4"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Vintage Champagne",
+        "notes": "The high acidity and brioche notes complement the truffle and rich egg yolk."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Truffled Jerusalem Artichoke Velouté",
+        "yield": "Makes approx. 400ml",
+        "ingredients": [
+          {
+            "quantity": "500g",
+            "item": "Jerusalem artichokes",
+            "note": "Peeled and sliced"
+          },
+          {
+            "quantity": "1",
+            "item": "White leek",
+            "note": "Whites only, sliced"
+          },
+          {
+            "quantity": "300ml",
+            "item": "Heavy cream",
+            "note": ""
+          },
+          {
+            "quantity": "100ml",
+            "item": "Vegetable nage",
+            "note": ""
+          },
+          {
+            "quantity": "10ml",
+            "item": "White truffle oil",
+            "note": "High quality"
+          },
+          {
+            "quantity": "As needed",
+            "item": "Unsalted butter",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Sweat artichokes and leeks in butter over low heat without browning."
+          },
+          {
+            "instruction": "Add cream and nage; simmer until tender."
+          },
+          {
+            "instruction": "Blend in a high-speed blender for 3 minutes until molecularly smooth."
+          },
+          {
+            "instruction": "Pass through a chinois and stir in truffle oil."
+          }
+        ]
+      },
+      {
+        "name": "Aerated Brioche Soil",
+        "yield": "Makes 1.5 cups",
+        "ingredients": [
+          {
+            "quantity": "200g",
+            "item": "Fresh brioche",
+            "note": "Torn into pieces"
+          },
+          {
+            "quantity": "50g",
+            "item": "Toasted hazelnuts",
+            "note": ""
+          },
+          {
+            "quantity": "5g",
+            "item": "Dried porcini powder",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Dehydrate brioche at 80°C until dry."
+          },
+          {
+            "instruction": "Pulse with hazelnuts and porcini powder into a coarse earth texture."
+          },
+          {
+            "instruction": "Place in whipping siphon, charge with N2O, and shake to aerate."
+          }
+        ]
+      },
+      {
+        "name": "Compressed Artichoke Garnish",
+        "yield": "Makes 12-15 shavings",
+        "ingredients": [
+          {
+            "quantity": "1",
+            "item": "Raw Jerusalem artichoke",
+            "note": "Shaved thin on mandoline"
+          },
+          {
+            "quantity": "Splash",
+            "item": "Lemon water",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Place shavings and lemon water in a vacuum bag."
+          },
+          {
+            "instruction": "Run a full cycle in a chamber vacuum sealer to achieve translucency."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Garden Composition with Herb Vinaigrette",
     "source": "adapted from Arpège",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/MicroVegetablePlatter.jpg",

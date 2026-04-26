@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadRandomMenu() async {
   final allRecipes = await RecipeService.getAllRecipes(); // assumes all recipes from JSON
-  final categories = ['Cocktail', 'Bread', 'Starter', 'Main', 'Sides', 'Dessert'];
+  final categories = ['Cocktail', 'Bread', 'Brunch', 'Starter', 'Main', 'Sides', 'Dessert'];
 
   final Set<String> usedIds = {}; // track duplicates
   final Map<String, Recipe?> randomMenu = {};
@@ -175,7 +175,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildCategoriesBar() {
-    final categories = ['Cocktail', 'Bread', 'Starter', 'Main', 'Sides', 'Dessert'];
+    final categories = ['Cocktail', 'Bread', 'Brunch', 'Starter', 'Main', 'Sides', 'Dessert'];
     return SizedBox(
       height: 40,
       child: ListView.builder(

@@ -584,6 +584,7 @@
     <nav class="categories" aria-label="Recipe categories">
       <a class="chip" href="#" onclick="filterByCategory('Cocktail',this);return false;">Cocktail</a>
       <a class="chip" href="#" onclick="filterByCategory('Bread',this);return false;">Bread</a>
+      <a class="chip" href="#" onclick="filterByCategory('Brunch',this);return false;">Brunch</a>
       <a class="chip" href="#" onclick="filterByCategory('Starter',this);return false;">Starter</a>
       <a class="chip" href="#" onclick="filterByCategory('Main',this);return false;">Main</a>
       <a class="chip" href="#" onclick="filterByCategory('Sides',this);return false;">Sides</a>
@@ -730,7 +731,7 @@
       if (!q) return [];
  
       // Strict category match first
-      const cats = ['cocktail','starter','main','sides','dessert','bread'];
+      const cats = ['cocktail','starter','brunch', 'main','sides','dessert','bread'];
       if (cats.includes(q)) {
         return ALL_RECIPES.filter(r => (r.category || '').toLowerCase() === q);
       }
@@ -793,7 +794,7 @@
       }
  
       // Curated carousel: 1 random per category
-      const cats = ['Cocktail', 'Bread', 'Starter', 'Main', 'Sides', 'Dessert'];
+      const cats = ['Cocktail', 'Bread', 'Brunch', 'Starter', 'Main', 'Sides', 'Dessert'];
       const used = new Set();
       const curated = [];
       for (const cat of cats) {

@@ -20,7 +20,7 @@
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--cream); color: var(--ink); font-family: 'DM Mono', monospace; font-size: 13px; min-height: 100vh; }
- 
+
   /* ── Login ── */
   #login-screen {
     min-height: 100vh; display: flex; align-items: center; justify-content: center;
@@ -37,7 +37,7 @@
   }
   .login-box input[type="password"]:focus { border-color: var(--gold); }
   .login-error { margin-top: 12px; font-size: 12px; color: var(--error); min-height: 18px; }
- 
+
   /* ── Buttons ── */
   .btn-primary {
     width: 100%; padding: 14px; background: var(--ink); color: var(--cream); border: none;
@@ -47,7 +47,7 @@
   .btn-primary:hover { background: #2e2620; }
   .btn-primary:active { transform: translateY(1px); }
   .btn-primary:disabled { background: var(--muted); cursor: not-allowed; }
- 
+
   /* ── Portal ── */
   #portal-screen { display: none; }
   header {
@@ -65,7 +65,7 @@
   main { max-width: 860px; margin: 48px auto; padding: 0 24px 80px; }
   .page-title { font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 400; font-style: italic; margin-bottom: 6px; }
   .page-hint { color: var(--muted); font-size: 12px; margin-bottom: 32px; }
- 
+
   /* ── Mode Switcher ── */
   .mode-switcher {
     display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 32px;
@@ -80,7 +80,7 @@
   .mode-icon { font-size: 24px; margin-bottom: 10px; }
   .mode-title { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; margin-bottom: 4px; }
   .mode-sub { font-size: 11px; color: var(--muted); line-height: 1.5; }
- 
+
   /* ── Sections ── */
   .section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 20px; overflow: hidden; }
   .section-header {
@@ -89,7 +89,7 @@
   }
   .section-header .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
   .section-body { padding: 24px 20px; }
- 
+
   /* ── Fields ── */
   .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
   .field-row.single { grid-template-columns: 1fr; }
@@ -104,7 +104,7 @@
   }
   input:focus, textarea:focus, select:focus { border-color: var(--gold); background: var(--surface); }
   textarea { resize: vertical; min-height: 80px; line-height: 1.5; }
- 
+
   /* ── Upload zones ── */
   .upload-zone {
     border: 2px dashed var(--border); border-radius: var(--radius); padding: 32px;
@@ -118,7 +118,7 @@
   .upload-preview { margin-top: 16px; display: none; }
   .upload-preview img { max-height: 160px; border-radius: var(--radius); border: 1px solid var(--border); }
   .upload-filename { margin-top: 8px; font-size: 11px; color: var(--gold-dim); }
- 
+
   /* ── JSON Upload Mode ── */
   .json-drop-area {
     border: 2px dashed var(--border); border-radius: var(--radius); padding: 40px;
@@ -133,7 +133,7 @@
     font-size: 11px; line-height: 1.6; overflow-x: auto; white-space: pre; max-height: 240px; overflow-y: auto;
     text-align: left;
   }
- 
+
   /* ── Dynamic lists ── */
   .dynamic-list { display: flex; flex-direction: column; gap: 10px; }
   .list-item {
@@ -151,7 +151,7 @@
     cursor: pointer; border-radius: var(--radius); width: 100%; transition: all 0.2s;
   }
   .btn-add:hover { border-color: var(--gold); color: var(--gold-dim); }
- 
+
   /* ── Submit ── */
   .submit-area { margin-top: 32px; display: flex; align-items: center; gap: 16px; }
   .btn-submit {
@@ -166,7 +166,7 @@
   #status-msg.success { color: var(--success); }
   #status-msg.error   { color: var(--error); }
   #status-msg.loading { color: var(--muted); }
- 
+
   /* ── PR success ── */
   #pr-success {
     display: none; background: var(--surface); border: 1px solid #a8d5b8;
@@ -175,14 +175,14 @@
   #pr-success h3 { font-family: 'Cormorant Garamond', serif; font-size: 20px; color: var(--success); margin-bottom: 6px; }
   #pr-success p { color: var(--muted); font-size: 12px; line-height: 1.6; }
   #pr-success a { color: var(--gold-dim); }
- 
+
   .spinner {
     display: inline-block; width: 14px; height: 14px;
     border: 2px solid rgba(255,255,255,0.3); border-top-color: white;
     border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle; margin-right: 6px;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
- 
+
   /* ── Template download ── */
   .template-hint {
     background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
@@ -195,7 +195,7 @@
     cursor: pointer; border-radius: var(--radius); transition: all 0.2s; white-space: nowrap; margin-left: 16px;
   }
   .btn-download:hover { background: var(--gold); color: white; }
- 
+
   @media (max-width: 600px) {
     .field-row, .field-row.triple, .mode-switcher { grid-template-columns: 1fr; }
     header { padding: 16px 20px; }
@@ -204,7 +204,7 @@
 </style>
 </head>
 <body>
- 
+
 <!-- LOGIN -->
 <div id="login-screen">
   <div class="login-box">
@@ -217,7 +217,7 @@
     <div class="login-error" id="login-error"></div>
   </div>
 </div>
- 
+
 <!-- PORTAL -->
 <div id="portal-screen">
   <header>
@@ -229,13 +229,13 @@
     </div>
     <button class="btn-logout" onclick="logout()">Sign Out</button>
   </header>
- 
+
   <main>
     <div class="page-title">Submit a New Recipe</div>
     <div class="page-hint">Choose how you'd like to submit your recipe.</div>
- 
+
     <!-- MODE SWITCHER -->
-    <div class="mode-switcher">
+    <div class="mode-switcher" style="grid-template-columns:1fr 1fr 1fr">
       <div class="mode-card active" id="mode-upload-card" onclick="setMode('upload')">
         <div class="mode-icon">📁</div>
         <div class="mode-title">Upload JSON + Image</div>
@@ -246,18 +246,23 @@
         <div class="mode-title">Fill Out Form</div>
         <div class="mode-sub">Build the recipe step by step using the form. Great for entering recipes from scratch.</div>
       </div>
+      <div class="mode-card" id="mode-edit-card" onclick="setMode('edit')">
+        <div class="mode-icon">✏️</div>
+        <div class="mode-title">Edit Recipe</div>
+        <div class="mode-sub">Browse existing recipes, pick one, and make changes. Saves directly to the live site.</div>
+      </div>
     </div>
- 
+
     <!-- ══════════════════════════════════════════
          MODE 1: JSON UPLOAD
     ══════════════════════════════════════════ -->
     <div id="mode-upload">
- 
+
       <div class="template-hint">
         <span>Need the JSON template? Download a blank recipe file to get started.</span>
         <button class="btn-download" onclick="downloadTemplate()">⬇ Download Template</button>
       </div>
- 
+
       <div class="section">
         <div class="section-header"><div class="dot"></div>Recipe JSON File</div>
         <div class="section-body">
@@ -272,7 +277,7 @@
           </div>
         </div>
       </div>
- 
+
       <div class="section">
         <div class="section-header"><div class="dot"></div>Recipe Image</div>
         <div class="section-body">
@@ -288,7 +293,7 @@
           </div>
         </div>
       </div>
- 
+
       <div class="submit-area">
         <button class="btn-submit" id="submit-btn-u" onclick="submitUploadMode()">Submit for Review</button>
         <span id="status-msg-u"></span>
@@ -299,12 +304,12 @@
         <a id="pr-link-u" href="#" target="_blank">View PR on GitHub →</a></p>
       </div>
     </div>
- 
+
     <!-- ══════════════════════════════════════════
          MODE 2: FORM
     ══════════════════════════════════════════ -->
     <div id="mode-form" style="display:none">
- 
+
       <!-- Basic Info -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Basic Information</div>
@@ -333,7 +338,7 @@
           </div>
         </div>
       </div>
- 
+
       <!-- Image -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Recipe Image</div>
@@ -352,7 +357,7 @@
           </div>
         </div>
       </div>
- 
+
       <!-- Ingredients -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Ingredients</div>
@@ -361,7 +366,7 @@
           <button class="btn-add" onclick="addIngredient()">+ Add Ingredient</button>
         </div>
       </div>
- 
+
       <!-- Steps -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Steps</div>
@@ -370,7 +375,7 @@
           <button class="btn-add" onclick="addStep()">+ Add Step</button>
         </div>
       </div>
- 
+
       <!-- Tools -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Specialty Items / Tools <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
@@ -379,7 +384,7 @@
           <button class="btn-add" onclick="addTool()">+ Add Tool</button>
         </div>
       </div>
- 
+
       <!-- Wine -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Wine Pairings <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
@@ -388,7 +393,7 @@
           <button class="btn-add" onclick="addWine()">+ Add Wine</button>
         </div>
       </div>
- 
+
       <!-- Sub-recipes -->
       <div class="section">
         <div class="section-header"><div class="dot"></div>Sub-Recipes <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
@@ -397,7 +402,7 @@
           <button class="btn-add" onclick="addSub()">+ Add Sub-Recipe</button>
         </div>
       </div>
- 
+
       <div class="submit-area">
         <button class="btn-submit" id="submit-btn-f" onclick="submitFormMode()">Submit for Review</button>
         <span id="status-msg-f"></span>
@@ -408,10 +413,120 @@
         <a id="pr-link-f" href="#" target="_blank">View PR on GitHub →</a></p>
       </div>
     </div>
- 
+
   </main>
 </div>
- 
+
+    <!-- ══════════════════════════════════════════
+         MODE 3: EDIT RECIPE
+    ══════════════════════════════════════════ -->
+    <div id="mode-edit" style="display:none">
+
+      <div class="section">
+        <div class="section-header"><div class="dot"></div>Select a Recipe to Edit</div>
+        <div class="section-body">
+          <div id="recipe-list-loading" style="color:var(--muted);font-size:12px;padding:8px 0">Loading recipes...</div>
+          <div id="recipe-list" style="display:none">
+            <input type="text" id="recipe-search" placeholder="Search recipes..." oninput="filterRecipeList()" style="margin-bottom:16px">
+            <div id="recipe-list-items" style="display:flex;flex-direction:column;gap:8px;max-height:320px;overflow-y:auto;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="edit-form-section" style="display:none">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:22px;font-style:italic" id="edit-recipe-title">Editing: </div>
+          <button onclick="clearEditForm()" style="background:none;border:1px solid var(--border);color:var(--muted);font-family:'DM Mono',monospace;font-size:11px;padding:6px 12px;cursor:pointer;border-radius:var(--radius);">← Back to list</button>
+        </div>
+
+        <!-- Basic Info -->
+        <div class="section">
+          <div class="section-header"><div class="dot"></div>Basic Information</div>
+          <div class="section-body">
+            <div class="field-row">
+              <div class="field"><label>Recipe Name <span class="req">*</span></label><input type="text" id="e-name"></div>
+              <div class="field">
+                <label>Category <span class="req">*</span></label>
+                <select id="e-category">
+                  <option value="">— Select —</option>
+                  <option>Cocktail</option><option>Bread</option><option>Starter</option>
+                  <option>Main</option><option>Sides</option><option>Dessert</option>
+                </select>
+              </div>
+            </div>
+            <div class="field-row single">
+              <div class="field"><label>Description</label><textarea id="e-desc"></textarea></div>
+            </div>
+            <div class="field-row triple">
+              <div class="field"><label>Yield / Servings</label><input type="text" id="e-yield"></div>
+              <div class="field"><label>Source / Book</label><input type="text" id="e-source"></div>
+              <div class="field"><label>Inspiring Chef</label><input type="text" id="e-chef"></div>
+            </div>
+            <div class="field-row single">
+              <div class="field"><label>Keywords</label><input type="text" id="e-keywords"></div>
+            </div>
+            <div class="field-row single">
+              <div class="field"><label>Image URL</label><input type="url" id="e-imageurl"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ingredients -->
+        <div class="section">
+          <div class="section-header"><div class="dot"></div>Ingredients</div>
+          <div class="section-body">
+            <div class="dynamic-list" id="e-ingredients-list"></div>
+            <button class="btn-add" onclick="addEditIngredient()">+ Add Ingredient</button>
+          </div>
+        </div>
+
+        <!-- Steps -->
+        <div class="section">
+          <div class="section-header"><div class="dot"></div>Steps</div>
+          <div class="section-body">
+            <div class="dynamic-list" id="e-steps-list"></div>
+            <button class="btn-add" onclick="addEditStep()">+ Add Step</button>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="section">
+          <div class="section-header"><div class="dot"></div>Specialty Items / Tools <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
+          <div class="section-body">
+            <div class="dynamic-list" id="e-tools-list"></div>
+            <button class="btn-add" onclick="addEditTool()">+ Add Tool</button>
+          </div>
+        </div>
+
+        <!-- Wine -->
+        <div class="section">
+          <div class="section-header"><div class="dot"></div>Wine Pairings <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
+          <div class="section-body">
+            <div class="dynamic-list" id="e-wines-list"></div>
+            <button class="btn-add" onclick="addEditWine()">+ Add Wine</button>
+          </div>
+        </div>
+
+        <!-- Sub-recipes -->
+        <div class="section">
+          <div class="section-header"><div class="dot"></div>Sub-Recipes <span style="font-size:11px;opacity:0.5;margin-left:8px">(optional)</span></div>
+          <div class="section-body">
+            <div class="dynamic-list" id="e-subs-list"></div>
+            <button class="btn-add" onclick="addEditSub()">+ Add Sub-Recipe</button>
+          </div>
+        </div>
+
+        <div class="submit-area">
+          <button class="btn-submit" id="submit-btn-e" onclick="saveEdit()">Save Changes</button>
+          <span id="status-msg-e"></span>
+        </div>
+        <div id="edit-success" style="display:none;background:var(--surface);border:1px solid #a8d5b8;border-left:4px solid var(--success);border-radius:var(--radius);padding:20px 24px;margin-top:24px;">
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--success);margin-bottom:6px;">✓ Changes saved!</h3>
+          <p style="color:var(--muted);font-size:12px;line-height:1.6;">The recipe has been updated directly on main. The site will rebuild automatically in a minute or two.</p>
+        </div>
+      </div>
+    </div>
+
 <script>
 // ══════════════════════════════════════════════════════════
 // CONFIG
@@ -422,7 +537,7 @@ const CONFIG = {
   githubRepo:    "yes_chef",
   r2WorkerUrl:   "https://yeschef-upload.yeschef-upload.workers.dev",
 };
- 
+
 // ══════════════════════════════════════════════════════════
 // AUTH
 // ══════════════════════════════════════════════════════════
@@ -445,7 +560,7 @@ if (sessionStorage.getItem('yc_auth')) {
   document.getElementById('portal-screen').style.display = 'block';
   setTimeout(initForm, 0);
 }
- 
+
 // ══════════════════════════════════════════════════════════
 // MODE SWITCHER
 // ══════════════════════════════════════════════════════════
@@ -454,10 +569,13 @@ function setMode(mode) {
   currentMode = mode;
   document.getElementById('mode-upload-card').classList.toggle('active', mode === 'upload');
   document.getElementById('mode-form-card').classList.toggle('active', mode === 'form');
+  document.getElementById('mode-edit-card').classList.toggle('active', mode === 'edit');
   document.getElementById('mode-upload').style.display = mode === 'upload' ? 'block' : 'none';
   document.getElementById('mode-form').style.display   = mode === 'form'   ? 'block' : 'none';
+  document.getElementById('mode-edit').style.display   = mode === 'edit'   ? 'block' : 'none';
+  if (mode === 'edit' && allRecipes.length === 0) loadRecipeList();
 }
- 
+
 // ══════════════════════════════════════════════════════════
 // JSON TEMPLATE DOWNLOAD
 // ══════════════════════════════════════════════════════════
@@ -498,12 +616,12 @@ function downloadTemplate() {
   a.download = 'recipe-template.json';
   a.click();
 }
- 
+
 // ══════════════════════════════════════════════════════════
 // JSON FILE HANDLING
 // ══════════════════════════════════════════════════════════
 let uploadedRecipeJSON = null;
- 
+
 function handleJsonSelect(input) {
   const file = input.files[0];
   if (!file) return;
@@ -521,7 +639,7 @@ function handleJsonSelect(input) {
   };
   reader.readAsText(file);
 }
- 
+
 // Drag & drop for JSON
 const jsonZone = document.getElementById('json-drop-area');
 jsonZone.addEventListener('dragover', e => { e.preventDefault(); jsonZone.classList.add('dragover'); });
@@ -535,13 +653,13 @@ jsonZone.addEventListener('drop', e => {
     handleJsonSelect(document.getElementById('f-json-file'));
   }
 });
- 
+
 // ══════════════════════════════════════════════════════════
 // IMAGE HANDLING
 // ══════════════════════════════════════════════════════════
 let imageFileUpload = null;
 let imageFileForm   = null;
- 
+
 function handleImageSelect(input, mode) {
   const file = input.files[0];
   if (!file) return;
@@ -549,14 +667,14 @@ function handleImageSelect(input, mode) {
   if (mode === 'upload') { imageFileUpload = file; updateImagePreview(file, 'u'); }
   else                   { imageFileForm   = file; updateImagePreview(file, 'f'); }
 }
- 
+
 function updateImagePreview(file, suffix) {
   const url = URL.createObjectURL(file);
   document.getElementById(`preview-img-${suffix}`).src = url;
   document.getElementById(`upload-filename-${suffix}`).textContent = file.name;
   document.getElementById(`upload-preview-${suffix}`).style.display = 'block';
 }
- 
+
 // ══════════════════════════════════════════════════════════
 // GITHUB PROXY HELPER
 // ══════════════════════════════════════════════════════════
@@ -570,7 +688,7 @@ async function gh(endpoint, method = 'GET', payload = null) {
   if (!resp.ok) throw new Error(data.message || data.error || `GitHub error ${resp.status}`);
   return data;
 }
- 
+
 async function uploadImage(imageFile, slug) {
   const formData = new FormData();
   formData.append('file', imageFile);
@@ -584,42 +702,42 @@ async function uploadImage(imageFile, slug) {
   if (!resp.ok) throw new Error(data.error || 'Image upload failed');
   return data.url;
 }
- 
+
 // ══════════════════════════════════════════════════════════
 // SHARED SUBMIT LOGIC
 // ══════════════════════════════════════════════════════════
 function toSlug(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
- 
+
 async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, successId, btnId) {
   const btn = document.getElementById(btnId);
   btn.disabled = true;
   btn.innerHTML = '<span class="spinner"></span>Submitting...';
- 
+
   try {
     const slug     = toSlug(recipe.name);
     const branch   = `recipe/${slug}-${Date.now()}`;
     const filename = `recipes/${slug}.json`;
     const ghBase   = `/repos/${CONFIG.githubOwner}/${CONFIG.githubRepo}`;
- 
+
     // Upload image if provided
     if (imageFile) {
       setStatus('Uploading image...', 'loading', statusSuffix);
       recipe.imageUrl = await uploadImage(imageFile, slug);
     }
- 
+
     const content = JSON.stringify(recipe, null, 2) + '\n';
     const encoded = btoa(unescape(encodeURIComponent(content)));
- 
+
     // Get SHA
     setStatus('Preparing branch...', 'loading', statusSuffix);
     const refData = await gh(`${ghBase}/git/refs/heads/main`);
     const sha = refData.object.sha;
- 
+
     // Create branch
     await gh(`${ghBase}/git/refs`, 'POST', { ref: `refs/heads/${branch}`, sha });
- 
+
     // Create file
     setStatus('Adding recipe file...', 'loading', statusSuffix);
     await gh(`${ghBase}/contents/${filename}`, 'PUT', {
@@ -627,7 +745,7 @@ async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, success
       content: encoded,
       branch,
     });
- 
+
     // Open PR
     setStatus('Opening pull request...', 'loading', statusSuffix);
     const prData = await gh(`${ghBase}/pulls`, 'POST', {
@@ -636,13 +754,13 @@ async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, success
       head:  branch,
       base:  'main',
     });
- 
+
     // Success
     setStatus('', '', statusSuffix);
     document.getElementById(prLinkId).href = prData.html_url;
     document.getElementById(successId).style.display = 'block';
     document.getElementById(successId).scrollIntoView({ behavior: 'smooth' });
- 
+
   } catch (e) {
     setStatus(`Error: ${e.message}`, 'error', statusSuffix);
   } finally {
@@ -650,7 +768,7 @@ async function submitToGitHub(recipe, imageFile, statusSuffix, prLinkId, success
     btn.textContent = 'Submit for Review';
   }
 }
- 
+
 // ══════════════════════════════════════════════════════════
 // MODE 1: JSON UPLOAD SUBMIT
 // ══════════════════════════════════════════════════════════
@@ -667,12 +785,12 @@ async function submitUploadMode() {
   }
   await submitToGitHub(recipe, imageFileUpload, 'u', 'pr-link-u', 'pr-success-u', 'submit-btn-u');
 }
- 
+
 // ══════════════════════════════════════════════════════════
 // MODE 2: FORM SUBMIT
 // ══════════════════════════════════════════════════════════
 function val(id) { return (document.getElementById(id)?.value || '').trim(); }
- 
+
 function buildRecipeJSON() {
   const ingredients = [];
   document.querySelectorAll('#ingredients-list .list-item').forEach(item => {
@@ -717,7 +835,7 @@ function buildRecipeJSON() {
     ingredients, steps, specialtools, winePairings, sub_recipes,
   };
 }
- 
+
 async function submitFormMode() {
   const recipe = buildRecipeJSON();
   if (!recipe.name)                    { setStatus('Recipe name is required.', 'error', 'f'); return; }
@@ -727,12 +845,12 @@ async function submitFormMode() {
   if (recipe.steps.length === 0)       { setStatus('At least one step is required.', 'error', 'f'); return; }
   await submitToGitHub(recipe, imageFileForm, 'f', 'pr-link-f', 'pr-success-f', 'submit-btn-f');
 }
- 
+
 // ══════════════════════════════════════════════════════════
 // DYNAMIC FORM BUILDERS
 // ══════════════════════════════════════════════════════════
 function initForm() { addIngredient(); addIngredient(); addStep(); addStep(); }
- 
+
 let ingCount = 0;
 function addIngredient() {
   ingCount++;
@@ -749,7 +867,7 @@ function addIngredient() {
       <button class="btn-remove" onclick="removeItem('ing-${ingCount}')">×</button>
     </div>`);
 }
- 
+
 let stepCount = 0;
 function addStep() {
   stepCount++;
@@ -762,7 +880,7 @@ function addStep() {
       <button class="btn-remove" onclick="removeItem('step-${stepCount}')">×</button>
     </div>`);
 }
- 
+
 let toolCount = 0;
 function addTool() {
   toolCount++;
@@ -778,7 +896,7 @@ function addTool() {
       <button class="btn-remove" onclick="removeItem('tool-${toolCount}')">×</button>
     </div>`);
 }
- 
+
 let wineCount = 0;
 function addWine() {
   wineCount++;
@@ -794,7 +912,7 @@ function addWine() {
       <button class="btn-remove" onclick="removeItem('wine-${wineCount}')">×</button>
     </div>`);
 }
- 
+
 let subCount = 0;
 function addSub() {
   subCount++;
@@ -820,9 +938,267 @@ function addSub() {
       </div>
     </div>`);
 }
- 
+
 function removeItem(id) { document.getElementById(id)?.remove(); }
- 
+
+
+// ══════════════════════════════════════════════════════════
+// EDIT MODE
+// ══════════════════════════════════════════════════════════
+let allRecipes      = [];
+let editingRecipe   = null;
+let editingSlug     = null;
+let editingFileSHA  = null;
+let eIngCount = 0, eStepCount = 0, eToolCount = 0, eWineCount = 0, eSubCount = 0;
+
+async function loadRecipeList() {
+  try {
+    const resp = await fetch(`https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json?cb=${Date.now()}`);
+    allRecipes = await resp.json();
+    renderRecipeList(allRecipes);
+    document.getElementById('recipe-list-loading').style.display = 'none';
+    document.getElementById('recipe-list').style.display = 'block';
+  } catch(e) {
+    document.getElementById('recipe-list-loading').textContent = 'Failed to load recipes: ' + e.message;
+  }
+}
+
+function renderRecipeList(recipes) {
+  const container = document.getElementById('recipe-list-items');
+  container.innerHTML = '';
+  recipes.forEach(r => {
+    const name = r.name || r.recipe?.name || '';
+    const cat  = r.category || r.recipe?.category || '';
+    if (!name) return;
+    const div = document.createElement('div');
+    div.style.cssText = 'display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#faf8f5;border:1px solid var(--border);border-radius:var(--radius);cursor:pointer;transition:border-color 0.2s';
+    div.innerHTML = `<div><div style="font-size:13px;color:var(--ink)">${name}</div><div style="font-size:11px;color:var(--muted);margin-top:2px">${cat}</div></div><span style="font-size:11px;color:var(--gold)">Edit →</span>`;
+    div.onmouseenter = () => div.style.borderColor = 'var(--gold)';
+    div.onmouseleave = () => div.style.borderColor = 'var(--border)';
+    div.onclick = () => loadRecipeForEdit(r.recipe || r);
+    container.appendChild(div);
+  });
+}
+
+function filterRecipeList() {
+  const q = document.getElementById('recipe-search').value.toLowerCase();
+  renderRecipeList(allRecipes.filter(r => {
+    const name = (r.name || r.recipe?.name || '').toLowerCase();
+    return name.includes(q);
+  }));
+}
+
+async function loadRecipeForEdit(recipe) {
+  editingRecipe = recipe;
+  editingSlug   = toSlug(recipe.name);
+  const ghBase  = `/repos/${CONFIG.githubOwner}/${CONFIG.githubRepo}`;
+
+  setStatus('Loading recipe file...', 'loading', 'e');
+  try {
+    const fileData = await gh(`${ghBase}/contents/recipes/${editingSlug}.json`);
+    editingFileSHA = fileData.sha;
+  } catch(e) {
+    setStatus('Could not find recipe file in repo: ' + e.message, 'error', 'e');
+    return;
+  }
+
+  setStatus('', '', 'e');
+  document.getElementById('recipe-list').style.display = 'none';
+  document.getElementById('edit-recipe-title').textContent = 'Editing: ' + recipe.name;
+  document.getElementById('edit-form-section').style.display = 'block';
+  document.getElementById('edit-success').style.display = 'none';
+
+  // Populate fields
+  document.getElementById('e-name').value     = recipe.name || '';
+  document.getElementById('e-category').value = recipe.category || '';
+  document.getElementById('e-desc').value      = recipe.description || '';
+  document.getElementById('e-yield').value     = recipe.yield || '';
+  document.getElementById('e-source').value    = recipe.source || '';
+  document.getElementById('e-chef').value      = recipe.chef || '';
+  document.getElementById('e-keywords').value  = recipe.keywords || '';
+  document.getElementById('e-imageurl').value  = recipe.imageUrl || '';
+
+  // Ingredients
+  document.getElementById('e-ingredients-list').innerHTML = '';
+  eIngCount = 0;
+  (recipe.ingredients || []).forEach(i => addEditIngredient(i.quantity || '', i.item || '', i.note || ''));
+
+  // Steps
+  document.getElementById('e-steps-list').innerHTML = '';
+  eStepCount = 0;
+  (recipe.steps || []).forEach(s => addEditStep(s.instruction || ''));
+
+  // Tools
+  document.getElementById('e-tools-list').innerHTML = '';
+  eToolCount = 0;
+  (recipe.specialtools || []).forEach(t => addEditTool(t.item || '', t.link || ''));
+
+  // Wines
+  document.getElementById('e-wines-list').innerHTML = '';
+  eWineCount = 0;
+  (recipe.winePairings || []).forEach(w => addEditWine(w.name || '', w.notes || ''));
+
+  // Sub-recipes
+  document.getElementById('e-subs-list').innerHTML = '';
+  eSubCount = 0;
+  (recipe.sub_recipes || []).forEach(s => {
+    const ings  = (s.ingredients || []).map(i => `${i.quantity || ''}|${i.item || ''}|${i.note || ''}`).join('\n');
+    const steps = (s.steps || []).map(st => st.instruction || '').join('\n');
+    addEditSub(s.name || '', s.yield || '', ings, steps);
+  });
+
+  document.getElementById('edit-form-section').scrollIntoView({ behavior: 'smooth' });
+}
+
+function clearEditForm() {
+  document.getElementById('edit-form-section').style.display = 'none';
+  document.getElementById('recipe-search').value = '';
+  renderRecipeList(allRecipes);
+  document.getElementById('recipe-list').style.display = 'block';
+  editingRecipe = null; editingSlug = null; editingFileSHA = null;
+}
+
+function buildEditRecipeJSON() {
+  const eVal = id => (document.getElementById(id)?.value || '').trim();
+  const ingredients = [];
+  document.querySelectorAll('#e-ingredients-list .list-item').forEach(item => {
+    const inputs = item.querySelectorAll('input');
+    const ing = inputs[1]?.value.trim();
+    if (ing) ingredients.push({ quantity: inputs[0]?.value.trim() || '', item: ing, note: inputs[2]?.value.trim() || '' });
+  });
+  const steps = [];
+  document.querySelectorAll('#e-steps-list .list-item textarea').forEach(ta => {
+    const txt = ta.value.trim(); if (txt) steps.push({ instruction: txt });
+  });
+  const specialtools = [];
+  document.querySelectorAll('#e-tools-list .list-item').forEach(item => {
+    const inputs = item.querySelectorAll('input');
+    const t = inputs[0]?.value.trim(); if (t) specialtools.push({ item: t, link: inputs[1]?.value.trim() || '' });
+  });
+  const winePairings = [];
+  document.querySelectorAll('#e-wines-list .list-item').forEach(item => {
+    const inputs = item.querySelectorAll('input');
+    const w = inputs[0]?.value.trim(); if (w) winePairings.push({ name: w, notes: inputs[1]?.value.trim() || '' });
+  });
+  const sub_recipes = [];
+  document.querySelectorAll('#e-subs-list .list-item').forEach(item => {
+    const inputs = item.querySelectorAll('input');
+    const tas = item.querySelectorAll('textarea');
+    const subName = inputs[0]?.value.trim(); if (!subName) return;
+    const subIngs  = (tas[0]?.value || '').split('\n').map(l => { const p = l.split('|').map(s => s.trim()); return p[1] ? { quantity: p[0]||'', item: p[1], note: p[2]||'' } : null; }).filter(Boolean);
+    const subSteps = (tas[1]?.value || '').split('\n').map(l => l.trim() ? { instruction: l.trim() } : null).filter(Boolean);
+    sub_recipes.push({ name: subName, yield: inputs[1]?.value.trim() || '', ingredients: subIngs, steps: subSteps });
+  });
+  return {
+    name: eVal('e-name'), description: eVal('e-desc'), category: eVal('e-category'),
+    keywords: eVal('e-keywords'), yield: eVal('e-yield'), source: eVal('e-source'),
+    chef: eVal('e-chef'), imageUrl: eVal('e-imageurl'),
+    ingredients, steps, specialtools, winePairings, sub_recipes,
+  };
+}
+
+async function saveEdit() {
+  if (!editingSlug || !editingFileSHA) { setStatus('No recipe loaded.', 'error', 'e'); return; }
+  const recipe = buildEditRecipeJSON();
+  if (!recipe.name) { setStatus('Recipe name is required.', 'error', 'e'); return; }
+
+  const btn = document.getElementById('submit-btn-e');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>Saving...';
+  setStatus('Saving changes...', 'loading', 'e');
+
+  try {
+    const newSlug  = toSlug(recipe.name);
+    const ghBase   = `/repos/${CONFIG.githubOwner}/${CONFIG.githubRepo}`;
+    const filename = `recipes/${newSlug}.json`;
+    const content  = JSON.stringify(recipe, null, 2) + '\n';
+    const encoded  = btoa(unescape(encodeURIComponent(content)));
+
+    await gh(`${ghBase}/contents/${filename}`, 'PUT', {
+      message: `recipe: edit ${recipe.name}`,
+      content: encoded,
+      sha:     editingFileSHA,
+      branch:  'main',
+    });
+
+    setStatus('', '', 'e');
+    document.getElementById('edit-success').style.display = 'block';
+    document.getElementById('edit-success').scrollIntoView({ behavior: 'smooth' });
+
+  } catch(e) {
+    setStatus('Error: ' + e.message, 'error', 'e');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Save Changes';
+  }
+}
+
+// Edit mode dynamic list builders
+function addEditIngredient(qty='', item='', note='') {
+  eIngCount++;
+  document.getElementById('e-ingredients-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="e-ing-${eIngCount}">
+      <div class="item-num">${eIngCount}</div>
+      <div class="item-fields"><div class="field-row triple">
+        <div class="field"><label>Quantity</label><input type="text" value="${qty}" placeholder="e.g. 200g"></div>
+        <div class="field"><label>Item <span class="req">*</span></label><input type="text" value="${item}" placeholder="e.g. unsalted butter"></div>
+        <div class="field"><label>Note</label><input type="text" value="${note}" placeholder="e.g. room temperature"></div>
+      </div></div>
+      <button class="btn-remove" onclick="removeItem('e-ing-${eIngCount}')">×</button>
+    </div>`);
+}
+function addEditStep(instruction='') {
+  eStepCount++;
+  document.getElementById('e-steps-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="e-step-${eStepCount}">
+      <div class="item-num">${eStepCount}</div>
+      <div class="item-fields"><div class="field"><textarea rows="2" placeholder="Describe this step...">${instruction}</textarea></div></div>
+      <button class="btn-remove" onclick="removeItem('e-step-${eStepCount}')">×</button>
+    </div>`);
+}
+function addEditTool(item='', link='') {
+  eToolCount++;
+  document.getElementById('e-tools-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="e-tool-${eToolCount}">
+      <div class="item-num">${eToolCount}</div>
+      <div class="item-fields"><div class="field-row">
+        <div class="field"><label>Tool / Item</label><input type="text" value="${item}" placeholder="e.g. Sous vide circulator"></div>
+        <div class="field"><label>Amazon Link</label><input type="url" value="${link}" placeholder="https://amazon.com/dp/..."></div>
+      </div></div>
+      <button class="btn-remove" onclick="removeItem('e-tool-${eToolCount}')">×</button>
+    </div>`);
+}
+function addEditWine(name='', notes='') {
+  eWineCount++;
+  document.getElementById('e-wines-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="e-wine-${eWineCount}">
+      <div class="item-num">${eWineCount}</div>
+      <div class="item-fields"><div class="field-row">
+        <div class="field"><label>Wine Name</label><input type="text" value="${name}" placeholder="e.g. 2019 Château Pichon Baron"></div>
+        <div class="field"><label>Tasting Notes</label><input type="text" value="${notes}" placeholder="e.g. Full-bodied..."></div>
+      </div></div>
+      <button class="btn-remove" onclick="removeItem('e-wine-${eWineCount}')">×</button>
+    </div>`);
+}
+function addEditSub(name='', yld='', ings='', steps='') {
+  eSubCount++;
+  document.getElementById('e-subs-list').insertAdjacentHTML('beforeend', `
+    <div class="list-item" id="e-sub-${eSubCount}" style="flex-direction:column">
+      <div style="display:flex;justify-content:space-between;align-items:center;width:100%">
+        <span style="font-size:12px;color:var(--gold)">Sub-Recipe ${eSubCount}</span>
+        <button class="btn-remove" onclick="removeItem('e-sub-${eSubCount}')">×</button>
+      </div>
+      <div class="item-fields" style="width:100%">
+        <div class="field-row">
+          <div class="field"><label>Name</label><input type="text" value="${name}" placeholder="e.g. Duxelles"></div>
+          <div class="field"><label>Yield</label><input type="text" value="${yld}" placeholder="e.g. Makes 1 cup"></div>
+        </div>
+        <div class="field" style="margin-top:8px"><label>Ingredients (quantity|item|note per line)</label><textarea rows="3" placeholder="200g|cremini mushrooms|finely chopped">${ings}</textarea></div>
+        <div class="field" style="margin-top:8px"><label>Steps (one per line)</label><textarea rows="3" placeholder="Melt butter in a pan...">${steps}</textarea></div>
+      </div>
+    </div>`);
+}
+
 function setStatus(msg, type, suffix) {
   const el = document.getElementById(`status-msg-${suffix}`);
   if (el) { el.textContent = msg; el.className = type; }

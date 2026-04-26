@@ -1,62 +1,101 @@
 {
   "name": "Saffron-Infused Cloud Soufflé Pancake",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/saffroninfusedpancakes.png",
-  "yield": "4 plates",
   "description": "A molecular approach to brunch featuring vacuum-compressed berries, saffron-infused foam, and hyper-aerated soufflé structures.",
   "category": "Main",
   "keywords": "soufflé, pancake, molecular, saffron",
-  "winePairings": [
-    {
-      "name": "Chateau d'Yquem Sauternes",
-      "notes": "Honeyed sweetness and apricot notes mirror the Manuka gastrique."
-    },
-    {
-      "name": "Moët & Chandon Grand Vintage Rose",
-      "notes": "The acidity cuts through the creamy saffron foam and rich egg yolks."
-    }
-  ],
+  "yield": "4 plates",
+  "source": "",
+  "chef": "Dominique Ansel",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/saffroninfusedpancakes.png",
   "ingredients": [
     {
-      "item": "Organic Egg Yolks",
       "quantity": "4",
+      "item": "Organic Egg Yolks",
       "note": "tempered to room temperature"
     },
     {
-      "item": "Egg Whites",
       "quantity": "6",
+      "item": "Egg Whites",
       "note": "chilled"
     },
     {
-      "item": "Cake Flour",
       "quantity": "50g",
+      "item": "Cake Flour",
       "note": "sifted 3 times"
     },
     {
+      "quantity": "40g",
       "item": "Castor Sugar",
-      "quantity": "40g"
+      "note": ""
     },
     {
-      "item": "Persian Saffron Threads",
       "quantity": "1 tsp",
+      "item": "Persian Saffron Threads",
       "note": "high-grade"
     },
     {
-      "item": "Vanilla Bean",
       "quantity": "1",
+      "item": "Vanilla Bean",
       "note": "scraped for seeds"
     },
     {
-      "item": "Heavy Cream",
       "quantity": "250ml",
+      "item": "Heavy Cream",
       "note": "for saffron foam"
     },
     {
+      "quantity": "100g",
       "item": "Manuka Honey (UMF 20+)",
-      "quantity": "100g"
+      "note": ""
     },
     {
+      "quantity": "20ml",
       "item": "Aged Sherry Vinegar",
-      "quantity": "20ml"
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare the Compressed Berries and Saffron Foam."
+    },
+    {
+      "instruction": "Bloom the saffron threads in 10ml of warm milk for 15 minutes."
+    },
+    {
+      "instruction": "In a copper bowl, whisk egg yolks with the saffron milk and vanilla seeds until pale and ribbon-like."
+    },
+    {
+      "instruction": "Gently fold the triple-sifted cake flour into the yolk mixture."
+    },
+    {
+      "instruction": "In a separate ultra-clean bowl, whisk chilled egg whites and castor sugar to a 'stiff-bird-beak' peak."
+    },
+    {
+      "instruction": "Using a silhouette motion, fold the whites into the yolk base in three stages to maintain maximum aeration."
+    },
+    {
+      "instruction": "Set the induction cooktop to exactly 165°C."
+    },
+    {
+      "instruction": "Place non-stick ring molds on the surface and pipe the batter until 3/4 full."
+    },
+    {
+      "instruction": "Add 5ml of distilled water to the pan and cover immediately with a heavy lid to create steam convection."
+    },
+    {
+      "instruction": "Cook for 6 minutes, flip with the offset spatula, and cook for an additional 3 minutes."
+    },
+    {
+      "instruction": "Prepare the Manuka Honey Gastrique."
+    },
+    {
+      "instruction": "Plating: Stack three pancakes in the center of a chilled stone plate."
+    },
+    {
+      "instruction": "Discharge a perfect quenelle of saffron foam from the iSi Whip onto the crown."
+    },
+    {
+      "instruction": "Arrange compressed berries and dehydrated honeycomb around the base; finish with 24k gold leaf."
     }
   ],
   "specialtools": [
@@ -66,7 +105,7 @@
     },
     {
       "item": "Food Processor",
-      "link": "https://amzn.to/4cyXgDU"
+      "link": "https://amzn.to/41TQUu4"
     },
     {
       "item": "Gourmet Whip",
@@ -89,140 +128,91 @@
       "link": "https://amzn.to/42c7XaS"
     }
   ],
-  "steps": [
+  "winePairings": [
     {
-      "number": 1,
-      "instruction": "Prepare the Compressed Berries and Saffron Foam.",
-      "note": "see sub-recipe"
+      "name": "Chateau d'Yquem Sauternes",
+      "notes": "Honeyed sweetness and apricot notes mirror the Manuka gastrique."
     },
     {
-      "number": 2,
-      "instruction": "Bloom the saffron threads in 10ml of warm milk for 15 minutes."
-    },
-    {
-      "number": 3,
-      "instruction": "In a copper bowl, whisk egg yolks with the saffron milk and vanilla seeds until pale and ribbon-like."
-    },
-    {
-      "number": 4,
-      "instruction": "Gently fold the triple-sifted cake flour into the yolk mixture."
-    },
-    {
-      "number": 5,
-      "instruction": "In a separate ultra-clean bowl, whisk chilled egg whites and castor sugar to a 'stiff-bird-beak' peak."
-    },
-    {
-      "number": 6,
-      "instruction": "Using a silhouette motion, fold the whites into the yolk base in three stages to maintain maximum aeration."
-    },
-    {
-      "number": 7,
-      "instruction": "Set the induction cooktop to exactly 165°C."
-    },
-    {
-      "number": 8,
-      "instruction": "Place non-stick ring molds on the surface and pipe the batter until 3/4 full."
-    },
-    {
-      "number": 9,
-      "instruction": "Add 5ml of distilled water to the pan and cover immediately with a heavy lid to create steam convection."
-    },
-    {
-      "number": 10,
-      "instruction": "Cook for 6 minutes, flip with the offset spatula, and cook for an additional 3 minutes."
-    },
-    {
-      "number": 11,
-      "instruction": "Prepare the Manuka Honey Gastrique.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 12,
-      "instruction": "Plating: Stack three pancakes in the center of a chilled stone plate."
-    },
-    {
-      "number": 13,
-      "instruction": "Discharge a perfect quenelle of saffron foam from the iSi Whip onto the crown."
-    },
-    {
-      "number": 14,
-      "instruction": "Arrange compressed berries and dehydrated honeycomb around the base; finish with 24k gold leaf."
+      "name": "Moët & Chandon Grand Vintage Rose",
+      "notes": "The acidity cuts through the creamy saffron foam and rich egg yolks."
     }
   ],
   "sub_recipes": [
     {
       "name": "Compressed Berries",
+      "yield": "",
       "ingredients": [
         {
+          "quantity": "200g",
           "item": "Wild Raspberries",
-          "quantity": "200g"
+          "note": ""
         },
         {
+          "quantity": "10g",
           "item": "Elderflower Syrup",
-          "quantity": "10g"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Place berries and syrup in a vacuum bag."
         },
         {
-          "number": 2,
           "instruction": "Seal in a Chamber Vacuum Sealer at maximum pressure to alter cell structure."
         },
         {
-          "number": 3,
           "instruction": "Chill for 20 minutes before serving."
         }
       ]
     },
     {
       "name": "Manuka Honey Gastrique",
+      "yield": "",
       "ingredients": [
         {
+          "quantity": "100g",
           "item": "Manuka Honey",
-          "quantity": "100g"
+          "note": ""
         },
         {
+          "quantity": "20ml",
           "item": "Aged Sherry Vinegar",
-          "quantity": "20ml"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "In a copper saucier, combine honey and vinegar."
         },
         {
-          "number": 2,
           "instruction": "Reduce over medium heat until it achieves a thick 'nappe' consistency."
         }
       ]
     },
     {
       "name": "Saffron Foam",
+      "yield": "",
       "ingredients": [
         {
+          "quantity": "250ml",
           "item": "Heavy Cream",
-          "quantity": "250ml"
+          "note": ""
         },
         {
+          "quantity": "10ml",
           "item": "Saffron Milk",
-          "quantity": "10ml"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Mix ingredients and pour into Gourmet Whip."
         },
         {
-          "number": 2,
           "instruction": "Charge with two N2O cartridges and shake vigorously."
         },
         {
-          "number": 3,
           "instruction": "Hold in a 4°C water bath."
         }
       ]

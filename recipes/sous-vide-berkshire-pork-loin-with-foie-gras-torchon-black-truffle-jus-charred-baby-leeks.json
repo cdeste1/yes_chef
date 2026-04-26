@@ -1,0 +1,265 @@
+{
+  "name": "Sous-Vide Berkshire Pork Loin with Foie Gras Torchon, Black Truffle Jus & Charred Baby Leeks",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.jpg",
+  "yield": "4 plates",
+  "description": "A luxurious Michelin-inspired course featuring perfectly cooked heritage Berkshire pork, silky foie gras torchon, earthy black truffle jus, and dramatic charred baby leeks.",
+  "category": "Main",
+  "keywords": "pork, sous-vide, foie gras, truffle, fine dining",
+  "winePairings": [
+    {
+      "name": "Mature Burgundy (Pinot Noir)",
+      "notes": "Elegant red fruit and earthiness complement the pork and truffle."
+    },
+    {
+      "name": "Aged Rioja Reserva",
+      "notes": "Velvety texture and subtle oak balance the rich foie gras and jus."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Center-cut Berkshire pork loin medallions",
+      "quantity": "4 � 180g (6 oz)"
+    },
+    {
+      "item": "Fresh rosemary sprigs",
+      "quantity": "4"
+    },
+    {
+      "item": "Garlic cloves",
+      "quantity": "4",
+      "note": "lightly crushed"
+    },
+    {
+      "item": "Unsalted butter",
+      "quantity": "50g + extra for finishing"
+    },
+    {
+      "item": "Foie gras torchon",
+      "note": "see sub-recipe (200g grade-A lobe)"
+    },
+    {
+      "item": "Black Truffle Jus",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Baby leeks",
+      "quantity": "8",
+      "note": "cleaned"
+    },
+    {
+      "item": "Fresh black truffles",
+      "quantity": "for shaving + 30g grated in jus"
+    },
+    {
+      "item": "Microgreens and edible flowers",
+      "quantity": "as needed",
+      "note": "red-veined sorrel, chervil, violas"
+    },
+    {
+      "item": "Neutral oil",
+      "quantity": "for charring"
+    },
+    {
+      "item": "Flaky sea salt and white pepper",
+      "quantity": "to season"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Sous-vide immersion circulator",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Chamber vacuum sealer",
+      "link": "https://amzn.to/4ufPoPh"
+    },
+    {
+      "item": "Professional kitchen blowtorch",
+      "link": "https://amzn.to/42eE89w"
+    },
+    {
+      "item": "Ring Molds",
+      "link": "https://amzn.to/4cQTZkJ"
+    },
+    {
+      "item": "Offset Spatulas",
+      "link": "https://amzn.to/48ecvkx"
+    },
+    {
+      "item": "Black Truffles",
+      "link": "https://amzn.to/41RzDlh"
+    },
+    {
+      "item": "Fine chinois strainer",
+      "link": "https://amzn.to/4cjQK5p"
+    },
+    {
+      "item": "Microplane for truffle",
+      "link": "https://amzn.to/4mF1vT9"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare the Foie Gras Torchon and Black Truffle Jus",
+      "note": "see sub-recipes (can be done 1 day ahead)"
+    },
+    {
+      "number": 2,
+      "instruction": "Prepare the Charred Baby Leeks",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 3,
+      "instruction": "Season each pork medallion with flaky sea salt and white pepper. Place in individual vacuum bags with rosemary, crushed garlic, and a knob of butter."
+    },
+    {
+      "number": 4,
+      "instruction": "Seal bags using chamber vacuum sealer at full vacuum."
+    },
+    {
+      "number": 5,
+      "instruction": "Cook in sous-vide bath at exactly 58�C (136�F) for 90 minutes."
+    },
+    {
+      "number": 6,
+      "instruction": "Remove pork from bags, pat extremely dry. Scrape off garlic and herbs."
+    },
+    {
+      "number": 7,
+      "instruction": "Heat a cast-iron skillet until screaming hot. Sear pork 30 seconds per side, then finish crust evenly with professional blowtorch."
+    },
+    {
+      "number": 8,
+      "instruction": "Rest pork 2 minutes on a rack. Reheat torchon slices and jus gently."
+    },
+    {
+      "number": 9,
+      "instruction": "Warm baby leeks briefly if needed."
+    },
+    {
+      "number": 10,
+      "instruction": "Plating Layer 1: Place a ring mold in center of warm plate. Set seared pork medallion inside and remove mold."
+    },
+    {
+      "number": 11,
+      "instruction": "Plating Layer 2: Lay one slice of foie gras torchon beside the pork. Paint black truffle jus in elegant swooshes with offset spatula."
+    },
+    {
+      "number": 12,
+      "instruction": "Plating Layer 3: Stand two charred baby leeks vertically. Shave fresh black truffle over the plate. Finish with strategic microgreens and edible flowers."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Foie Gras Torchon",
+      "ingredients": [
+        {
+          "item": "Grade-A foie gras lobe",
+          "quantity": "200g"
+        },
+        {
+          "item": "Armagnac or Cognac",
+          "quantity": "10g"
+        },
+        {
+          "item": "Salt, white pepper, quatre-�pices",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Season foie gras with salt, white pepper, quatre-�pices, and Armagnac."
+        },
+        {
+          "number": 2,
+          "instruction": "Roll tightly in cheesecloth to form a cylinder and vacuum-seal."
+        },
+        {
+          "number": 3,
+          "instruction": "Poach in 55�C water bath for 20 minutes, then shock in ice water."
+        },
+        {
+          "number": 4,
+          "instruction": "Refrigerate overnight. Slice into 1 cm rounds with a hot knife before plating."
+        }
+      ]
+    },
+    {
+      "name": "Black Truffle Jus",
+      "ingredients": [
+        {
+          "item": "Rich veal or pork stock",
+          "quantity": "300ml"
+        },
+        {
+          "item": "Fresh black truffles",
+          "quantity": "50g (30g grated + for shaving)"
+        },
+        {
+          "item": "Vintage Port wine",
+          "quantity": "100ml"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1",
+          "note": "finely minced"
+        },
+        {
+          "item": "Cold butter",
+          "quantity": "20g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Reduce Port with minced shallot until syrupy."
+        },
+        {
+          "number": 2,
+          "instruction": "Add stock and simmer until reduced by half."
+        },
+        {
+          "number": 3,
+          "instruction": "Grate in 30g fresh black truffle and infuse 5 minutes."
+        },
+        {
+          "number": 4,
+          "instruction": "Pass through fine chinois. Mount with cold butter off heat for glossy finish."
+        }
+      ]
+    },
+    {
+      "name": "Charred Baby Leeks",
+      "ingredients": [
+        {
+          "item": "Baby leeks",
+          "quantity": "8"
+        },
+        {
+          "item": "Neutral oil",
+          "quantity": "as needed"
+        },
+        {
+          "item": "Salt",
+          "quantity": "to season"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blanch leeks in salted boiling water for 60 seconds, then shock in ice water and pat dry."
+        },
+        {
+          "number": 2,
+          "instruction": "Brush lightly with neutral oil and season."
+        },
+        {
+          "number": 3,
+          "instruction": "Char evenly with professional kitchen blowtorch (30�45 seconds per side) until blackened in spots but vibrant inside."
+        }
+      ]
+    }
+  ]
+}

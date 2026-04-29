@@ -818,6 +818,249 @@
     ]
   },
   {
+    "name": "Baked Littleneck Clams with Brown Butter, Garlic Confit & Herb Pangrattato",
+    "description": "A Michelin-level baked clams dish featuring tender littlenecks, silky brown butter emulsion, sweet garlic confit, and a crisp herb pangrattato topping.",
+    "category": "Starter",
+    "keywords": "baked clams, fine dining, seafood, Michelin, garlic confit, pangrattato",
+    "yield": "4 servings",
+    "source": "Chef-inspired",
+    "chef": "World-Class Modern Seafood",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/baked-littleneck-clams-with-brown-butter-garlic-confit-herb-pangrattato.png",
+    "ingredients": [
+      {
+        "quantity": "24",
+        "item": "littleneck clams",
+        "note": "scrubbed and purged"
+      },
+      {
+        "quantity": "2 cups",
+        "item": "kosher salt",
+        "note": "for stabilizing shells"
+      },
+      {
+        "quantity": "1 cup",
+        "item": "extra virgin olive oil",
+        "note": ""
+      },
+      {
+        "quantity": "2 heads",
+        "item": "garlic",
+        "note": "peeled"
+      },
+      {
+        "quantity": "2 sprigs",
+        "item": "fresh thyme",
+        "note": ""
+      },
+      {
+        "quantity": "1 strip",
+        "item": "lemon zest",
+        "note": ""
+      },
+      {
+        "quantity": "1 cup",
+        "item": "sourdough breadcrumbs",
+        "note": "day-old, pulsed"
+      },
+      {
+        "quantity": "3 tbsp",
+        "item": "clarified butter",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "anchovy fillets",
+        "note": "finely minced"
+      },
+      {
+        "quantity": "1",
+        "item": "shallot",
+        "note": "brunoise"
+      },
+      {
+        "quantity": "1",
+        "item": "lemon zest",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "parsley",
+        "note": "chopped"
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "chives",
+        "note": "chopped"
+      },
+      {
+        "quantity": "6 tbsp",
+        "item": "unsalted butter",
+        "note": ""
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "garlic confit oil",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "lemon juice",
+        "note": ""
+      },
+      {
+        "quantity": "1 splash",
+        "item": "dry white wine",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "Maldon sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "Espelette pepper",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare garlic confit by slowly cooking garlic, olive oil, thyme, and lemon zest at low heat until soft and aromatic."
+      },
+      {
+        "instruction": "Steam clams with white wine until just opened, then remove top shells and strain reserved liquid."
+      },
+      {
+        "instruction": "Make pangrattato by saut�ing shallots and anchovy in clarified butter, then adding breadcrumbs and toasting until golden. Finish with herbs and lemon zest."
+      },
+      {
+        "instruction": "Prepare brown butter by cooking butter until nutty and golden, then blending with garlic confit, lemon juice, white wine, and a touch of clam liquor."
+      },
+      {
+        "instruction": "Preheat oven to 450�F and spread kosher salt on a tray to hold clams steady."
+      },
+      {
+        "instruction": "Place clams on tray, spoon brown butter emulsion over each, and top with pangrattato."
+      },
+      {
+        "instruction": "Bake for 5�7 minutes until golden and bubbling."
+      },
+      {
+        "instruction": "Finish with Maldon salt, Espelette pepper, and fresh herbs before serving."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous vide circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Chamber vacuum sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "High-speed blender",
+        "link": "https://amzn.to/4ulm9dS"
+      },
+      {
+        "item": "Microplane zester",
+        "link": "https://amzn.to/4mF1vT9"
+      },
+      {
+        "item": "Culinary blowtorch",
+        "link": "https://amzn.to/42eE89w"
+      },
+      {
+        "item": "Fine chinois strainer",
+        "link": "https://amzn.to/4cjQK5p"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Chablis (Burgundy)",
+        "notes": "Crisp minerality and citrus cut through the richness of the butter."
+      },
+      {
+        "name": "Vermentino",
+        "notes": "Bright acidity and herbal notes complement the clams and herbs."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Garlic Confit",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "quantity": "2 heads",
+            "item": "garlic",
+            "note": "peeled"
+          },
+          {
+            "quantity": "1 cup",
+            "item": "olive oil",
+            "note": ""
+          },
+          {
+            "quantity": "2 sprigs",
+            "item": "thyme",
+            "note": ""
+          },
+          {
+            "quantity": "1 strip",
+            "item": "lemon zest",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Combine all ingredients and cook gently at low heat until garlic is soft and lightly golden."
+          }
+        ]
+      },
+      {
+        "name": "Herb Pangrattato",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "quantity": "1 cup",
+            "item": "breadcrumbs",
+            "note": ""
+          },
+          {
+            "quantity": "3 tbsp",
+            "item": "clarified butter",
+            "note": ""
+          },
+          {
+            "quantity": "1",
+            "item": "shallot",
+            "note": "finely chopped"
+          },
+          {
+            "quantity": "2",
+            "item": "anchovy fillets",
+            "note": ""
+          },
+          {
+            "quantity": "2 tbsp",
+            "item": "parsley",
+            "note": ""
+          },
+          {
+            "quantity": "1 tbsp",
+            "item": "chives",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Cook shallots and anchovy in butter, add breadcrumbs, toast until golden, then finish with herbs."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Ballotine of Chicken with Black Truffle and Jus Gras",
     "source": "adapted from Maison Bocuse",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/BallotineBresse_Truffle_JusGras.jpg",

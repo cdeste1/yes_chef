@@ -1720,6 +1720,206 @@
     ]
   },
   {
+    "name": "Black Truffle Brown Butter Souffle Waffle",
+    "description": "A Michelin-inspired waffle with a crisp caramelized exterior and airy souffl� interior, layered with brown butter, black truffle, maple gastrique, and hazelnut texture.",
+    "category": "Brunch",
+    "keywords": "waffle, truffle, brown butter, fine dining, gourmet, souffle waffle",
+    "yield": "4 waffles",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/black-truffle-brown-butter-souffle-waffle.png",
+    "ingredients": [
+      {
+        "quantity": "120g",
+        "item": "all-purpose flour",
+        "note": "sifted"
+      },
+      {
+        "quantity": "30g",
+        "item": "cornstarch",
+        "note": "for crisp texture"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "baking powder",
+        "note": ""
+      },
+      {
+        "quantity": "3",
+        "item": "eggs",
+        "note": "separated"
+      },
+      {
+        "quantity": "40g",
+        "item": "granulated sugar",
+        "note": ""
+      },
+      {
+        "quantity": "180ml",
+        "item": "whole milk",
+        "note": ""
+      },
+      {
+        "quantity": "60g",
+        "item": "brown butter",
+        "note": "cooled"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "vanilla bean paste",
+        "note": ""
+      },
+      {
+        "quantity": "1/2 tsp",
+        "item": "fine sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "black truffle",
+        "note": "finely grated or paste"
+      },
+      {
+        "quantity": "10g",
+        "item": "Parmigiano Reggiano",
+        "note": "optional, finely grated"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare brown butter by heating unsalted butter until milk solids turn amber and aromatic. Strain and cool."
+      },
+      {
+        "instruction": "In a saucepan, reduce maple syrup, vinegar, star anise, and salt until a light syrup consistency forms. Remove star anise and set aside."
+      },
+      {
+        "instruction": "Toast hazelnuts, coat in caramelized sugar, cool, then grind into a fine dust."
+      },
+      {
+        "instruction": "Whisk flour, cornstarch, baking powder, and salt in a bowl."
+      },
+      {
+        "instruction": "In another bowl, whisk egg yolks with sugar until pale, then add milk, vanilla, truffle, and brown butter."
+      },
+      {
+        "instruction": "Combine wet and dry ingredients gently until just incorporated."
+      },
+      {
+        "instruction": "Whip egg whites to soft peaks and fold into batter in three stages to maintain airiness."
+      },
+      {
+        "instruction": "Cook batter in a preheated waffle iron until deep golden and crisp."
+      },
+      {
+        "instruction": "Plate waffle with whipped cr�me fra�che, drizzle maple gastrique, and finish with hazelnut dust, truffle shavings, and microgreens."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Precision Combi Steam Oven",
+        "link": "https://amzn.to/4n0t9ua"
+      },
+      {
+        "item": "Infrared Thermometer",
+        "link": "https://amzn.to/4taHEwR"
+      },
+      {
+        "item": "Vacuum Infusion Chamber",
+        "link": "https://amzn.to/3QEncXE"
+      },
+      {
+        "item": "Micro-Lattice Waffle Insert Mold",
+        "link": "https://amzn.to/4mVRcdv"
+      },
+      {
+        "item": "Truffles",
+        "link": "https://amzn.to/4cTEEi6"
+      },
+      {
+        "item": "Plating Tweezers",
+        "link": "https://amzn.to/4eve5SX"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Sauternes",
+        "notes": "Sweet botrytized wine balancing the truffle richness with acidity and honeyed depth."
+      },
+      {
+        "name": "Champagne Brut Blanc de Blancs",
+        "notes": "High acidity and fine bubbles cut through the richness while enhancing nutty brown butter notes."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Brown Butter",
+        "yield": "60g usable",
+        "ingredients": [
+          {
+            "quantity": "100g",
+            "item": "unsalted butter",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Melt butter over medium heat until milk solids turn golden brown and aromatic, then strain."
+          }
+        ]
+      },
+      {
+        "name": "Maple Gastrique",
+        "yield": "Approx. 120ml",
+        "ingredients": [
+          {
+            "quantity": "100ml",
+            "item": "maple syrup",
+            "note": ""
+          },
+          {
+            "quantity": "30ml",
+            "item": "sherry vinegar",
+            "note": ""
+          },
+          {
+            "quantity": "1",
+            "item": "star anise",
+            "note": ""
+          },
+          {
+            "quantity": "pinch",
+            "item": "salt",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Simmer all ingredients until slightly thickened. Remove star anise before serving."
+          }
+        ]
+      },
+      {
+        "name": "Candied Hazelnut Dust",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "quantity": "100g",
+            "item": "hazelnuts",
+            "note": "toasted"
+          },
+          {
+            "quantity": "40g",
+            "item": "sugar",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Caramelize sugar, coat hazelnuts, cool completely, then grind into a fine powder."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Black Truffle Old Fashioned",
     "source": "adapted from The Connaught Bar",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/BlackTruffle_OldFashioned.webp",

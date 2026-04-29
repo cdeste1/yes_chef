@@ -1,0 +1,197 @@
+{
+  "name": "Michelin-Style Linguine with Clam Sauce",
+  "description": "A refined coastal Italian dish featuring sous vide clams, fennel aromatics, and a silky emulsified white wine butter sauce finished with fresh herbs and citrus.",
+  "category": "Main",
+  "keywords": "clam pasta, linguine alle vongole, fine dining, seafood pasta, Italian",
+  "yield": "2-3 servings",
+  "source": "Modern fine dining technique",
+  "chef": "World-Class Inspired",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/michelin-style-linguine-with-clam-sauce.png",
+  "ingredients": [
+    {
+      "quantity": "2 lbs",
+      "item": "littleneck clams",
+      "note": "purged"
+    },
+    {
+      "quantity": "200g",
+      "item": "linguine pasta",
+      "note": "bronze-cut preferred"
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "extra virgin olive oil",
+      "note": "high quality"
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "unsalted butter",
+      "note": "European-style"
+    },
+    {
+      "quantity": "3 cloves",
+      "item": "garlic",
+      "note": "thinly sliced"
+    },
+    {
+      "quantity": "2",
+      "item": "shallots",
+      "note": "finely minced"
+    },
+    {
+      "quantity": "1 small bulb",
+      "item": "fennel",
+      "note": "brunoise"
+    },
+    {
+      "quantity": "1/2 tsp",
+      "item": "Calabrian chili paste",
+      "note": ""
+    },
+    {
+      "quantity": "1/2 cup",
+      "item": "dry white wine",
+      "note": "Sauvignon Blanc preferred"
+    },
+    {
+      "quantity": "1/2 cup",
+      "item": "clam stock",
+      "note": ""
+    },
+    {
+      "quantity": "1",
+      "item": "lemon zest",
+      "note": ""
+    },
+    {
+      "quantity": "1/2",
+      "item": "lemon juice",
+      "note": ""
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "parsley",
+      "note": "finely chopped"
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "chives",
+      "note": "finely chopped"
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "tarragon",
+      "note": "lightly chopped"
+    },
+    {
+      "quantity": "to taste",
+      "item": "salt",
+      "note": ""
+    },
+    {
+      "quantity": "to taste",
+      "item": "black pepper",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Purge clams in salted water for 30�60 minutes. Rinse thoroughly."
+    },
+    {
+      "instruction": "Place clams in a vacuum bag with a splash of white wine and fennel trimmings. Seal lightly."
+    },
+    {
+      "instruction": "Sous vide at 122�F (50�C) for 12�15 minutes until clams open. Remove meat and strain liquid through a fine chinois. Reserve both."
+    },
+    {
+      "instruction": "In a copper saut� pan, heat olive oil and butter over low heat. Add shallots and fennel, cooking gently until translucent."
+    },
+    {
+      "instruction": "Add garlic and Calabrian chili paste. Cook briefly until aromatic."
+    },
+    {
+      "instruction": "Deglaze with white wine and reduce by about 70%."
+    },
+    {
+      "instruction": "Add reserved clam liquid and clam stock. Simmer gently until slightly reduced and flavorful."
+    },
+    {
+      "instruction": "Cook pasta in heavily salted water until just under al dente."
+    },
+    {
+      "instruction": "Transfer pasta directly into the sauce with a small amount of pasta water."
+    },
+    {
+      "instruction": "Emulsify by tossing continuously over medium heat while adding butter gradually until sauce is glossy and coats the pasta."
+    },
+    {
+      "instruction": "Add clam meat, lemon zest, lemon juice, parsley, chives, and a small amount of tarragon. Warm gently without overcooking."
+    },
+    {
+      "instruction": "Adjust seasoning with salt and pepper. Plate by twirling pasta into a nest and arranging clams. Finish with olive oil drizzle."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Sous vide circulator",
+      "link": "https://amzn.to/48bdTV7"
+    },
+    {
+      "item": "Vacuum sealer",
+      "link": "https://amzn.to/4ufPoPh"
+    },
+    {
+      "item": "Pasta Pot",
+      "link": "https://amzn.to/490FEjq"
+    },
+    {
+      "item": "Fine chinois strainer",
+      "link": "https://amzn.to/4cjQK5p"
+    },
+    {
+      "item": "Saut� pan",
+      "link": "https://amzn.to/4wh5hH1"
+    },
+    {
+      "item": "Plating tweezers",
+      "link": "https://amzn.to/4eve5SX"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Sauvignon Blanc",
+      "notes": "Crisp acidity and citrus notes complement the briny clams and lemon finish."
+    },
+    {
+      "name": "Vermentino",
+      "notes": "Mineral-driven with herbal undertones that match the fennel and fresh herbs."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Clam Butter Emulsion",
+      "yield": "Makes ~1/2 cup",
+      "ingredients": [
+        {
+          "quantity": "1/2 cup",
+          "item": "clam sauce base",
+          "note": "warm"
+        },
+        {
+          "quantity": "3 tbsp",
+          "item": "unsalted butter",
+          "note": "cold cubes"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Blend warm clam sauce base while slowly adding cold butter until emulsified and silky."
+        },
+        {
+          "instruction": "Return to main sauce to enhance richness and texture."
+        }
+      ]
+    }
+  ]
+}

@@ -1721,10 +1721,12 @@
   },
   {
     "name": "Black Truffle Brown Butter Souffle Waffle",
-    "description": "A Michelin-inspired waffle with a crisp caramelized exterior and airy souffl� interior, layered with brown butter, black truffle, maple gastrique, and hazelnut texture.",
+    "description": "A Michelin-inspired waffle with a crisp caramelized exterior and airy souffle interior, layered with brown butter, black truffle, maple gastrique, and hazelnut texture.",
     "category": "Brunch",
     "keywords": "waffle, truffle, brown butter, fine dining, gourmet, souffle waffle",
     "yield": "4 waffles",
+    "source": "",
+    "chef": "",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/black-truffle-brown-butter-souffle-waffle.png",
     "ingredients": [
       {

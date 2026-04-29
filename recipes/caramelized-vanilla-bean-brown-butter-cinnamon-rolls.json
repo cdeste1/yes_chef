@@ -1,0 +1,260 @@
+{
+  "name": "Caramelized Vanilla Bean & Brown Butter Cinnamon Rolls",
+  "description": "A Michelin-inspired laminated brioche cinnamon roll with caramelized brown butter filling, Ceylon cinnamon, citrus aromatics, and a mascarpone vanilla bean glaze.",
+  "category": "Brunch",
+  "keywords": "cinnamon rolls, brioche, laminated dough, brown butter, pastry, fine dining, gourmet",
+  "yield": "12 rolls",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.png",
+  "ingredients": [
+    {
+      "quantity": "500g",
+      "item": "bread flour",
+      "note": "high protein"
+    },
+    {
+      "quantity": "60g",
+      "item": "granulated sugar",
+      "note": ""
+    },
+    {
+      "quantity": "10g",
+      "item": "fine sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "10g",
+      "item": "instant yeast",
+      "note": ""
+    },
+    {
+      "quantity": "4",
+      "item": "eggs",
+      "note": "room temperature"
+    },
+    {
+      "quantity": "120ml",
+      "item": "whole milk",
+      "note": "warmed to 95�F"
+    },
+    {
+      "quantity": "200g",
+      "item": "European-style butter",
+      "note": "cold, cubed"
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "orange zest",
+      "note": "finely grated"
+    },
+    {
+      "quantity": "180g",
+      "item": "unsalted butter",
+      "note": "for brown butter filling"
+    },
+    {
+      "quantity": "220g",
+      "item": "dark brown sugar",
+      "note": ""
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "Ceylon cinnamon",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "freshly grated nutmeg",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "vanilla bean paste",
+      "note": ""
+    },
+    {
+      "quantity": "pinch",
+      "item": "Maldon salt",
+      "note": ""
+    },
+    {
+      "quantity": "200g",
+      "item": "powdered sugar",
+      "note": ""
+    },
+    {
+      "quantity": "100g",
+      "item": "mascarpone",
+      "note": ""
+    },
+    {
+      "quantity": "1",
+      "item": "vanilla bean",
+      "note": "split and scraped"
+    },
+    {
+      "quantity": "2�3 tbsp",
+      "item": "heavy cream",
+      "note": ""
+    },
+    {
+      "quantity": "pinch",
+      "item": "salt",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Combine flour, sugar, salt, and yeast in a stand mixer."
+    },
+    {
+      "instruction": "Add eggs and warm milk; mix until a shaggy dough forms."
+    },
+    {
+      "instruction": "Gradually incorporate butter and knead until smooth and elastic (windowpane stage)."
+    },
+    {
+      "instruction": "Proof dough at 75�78�F until doubled, about 90 minutes."
+    },
+    {
+      "instruction": "Refrigerate dough overnight for flavor development and easier handling."
+    },
+    {
+      "instruction": "Prepare brown butter by heating butter until amber and nutty; cool slightly and mix with brown sugar, cinnamon, nutmeg, vanilla, and salt."
+    },
+    {
+      "instruction": "Roll dough into a rectangle, spread filling evenly, and fold into thirds."
+    },
+    {
+      "instruction": "Chill for 20 minutes, then repeat folding process once more for lamination."
+    },
+    {
+      "instruction": "Roll dough to 1/4 inch thickness and slice into 2-inch spirals."
+    },
+    {
+      "instruction": "Place rolls into a buttered baking dish and proof 45�60 minutes until puffy."
+    },
+    {
+      "instruction": "Bake at 350�F (175�C) for 20�25 minutes until golden brown."
+    },
+    {
+      "instruction": "Whisk mascarpone, powdered sugar, vanilla bean, cream, and salt to form glaze."
+    },
+    {
+      "instruction": "Glaze rolls while warm and finish with optional garnishes."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Infrared Thermometer Gun",
+      "link": "https://amzn.to/4taHEwR"
+    },
+    {
+      "item": "Digital Dough Sheeter",
+      "link": "https://amzn.to/4eXu5NE"
+    },
+    {
+      "item": "Copper Saucepan",
+      "link": "https://amzn.to/4vZgag7"
+    },
+    {
+      "item": "Gold Flakes",
+      "link": "https://amzn.to/4cZRuvr"
+    },
+    {
+      "item": "Precision Gram Scale",
+      "link": "https://amzn.to/4mW2Chq"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Tokaji Asz�",
+      "notes": "Lush sweetness with balancing acidity enhances caramelized cinnamon and brown butter notes."
+    },
+    {
+      "name": "Champagne Demi-Sec",
+      "notes": "Light sweetness and acidity complement the richness while refreshing the palate."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Brown Butter Filling",
+      "yield": "Enough for 12 rolls",
+      "ingredients": [
+        {
+          "quantity": "180g",
+          "item": "unsalted butter",
+          "note": ""
+        },
+        {
+          "quantity": "220g",
+          "item": "dark brown sugar",
+          "note": ""
+        },
+        {
+          "quantity": "2 tbsp",
+          "item": "Ceylon cinnamon",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "nutmeg",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "vanilla bean paste",
+          "note": ""
+        },
+        {
+          "quantity": "pinch",
+          "item": "salt",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Brown butter until nutty and amber."
+        },
+        {
+          "instruction": "Mix with sugar, spices, vanilla, and salt until spreadable."
+        }
+      ]
+    },
+    {
+      "name": "Mascarpone Vanilla Glaze",
+      "yield": "Enough for 12 rolls",
+      "ingredients": [
+        {
+          "quantity": "200g",
+          "item": "powdered sugar",
+          "note": ""
+        },
+        {
+          "quantity": "100g",
+          "item": "mascarpone",
+          "note": ""
+        },
+        {
+          "quantity": "1",
+          "item": "vanilla bean",
+          "note": ""
+        },
+        {
+          "quantity": "2�3 tbsp",
+          "item": "heavy cream",
+          "note": ""
+        },
+        {
+          "quantity": "pinch",
+          "item": "salt",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Whisk all ingredients until smooth and pourable."
+        }
+      ]
+    }
+  ]
+}

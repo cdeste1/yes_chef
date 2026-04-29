@@ -1,0 +1,134 @@
+{
+  "name": "Roasted Brussels Sprouts Pavé with Aged Balsamic Emulsion and Crispy Leaves",
+  "description": "A structural culinary masterpiece featuring precisely layered and compressed Brussels sprouts, slow-roasted to achieve velvet-tender hearts with glass-like crispy exteriors. Finished with a glossy aged balsamic reduction, lemon zest, and accompanied by a light truffle-scented foam and crispy sprout leaf chips.",
+  "category": "Sides",
+  "keywords": "brussels sprouts, michelin style, roasted pavé, aged balsamic, molecular gastronomy, haute cuisine",
+  "yield": "Serves 4",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/roasted-brussels-sprouts-pav-with-aged-balsamic-emulsion-and-crispy-leaves.jpg",
+  "ingredients": [
+    {
+      "quantity": "680g",
+      "item": "fresh Brussels sprouts",
+      "note": "uniform medium-sized, preferably farmers' market"
+    },
+    {
+      "quantity": "3 tbsp",
+      "item": "avocado oil",
+      "note": "or high-smoke-point grapeseed oil"
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "cultured European butter",
+      "note": "high butterfat, melted and clarified"
+    },
+    {
+      "quantity": "4 cloves",
+      "item": "garlic",
+      "note": "lightly crushed"
+    },
+    {
+      "quantity": "2",
+      "item": "shallots",
+      "note": "thinly sliced on a Japanese mandoline"
+    },
+    {
+      "quantity": "to taste",
+      "item": "fine sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "fresh thyme leaves",
+      "note": ""
+    },
+    {
+      "quantity": "2-3 tbsp",
+      "item": "aged balsamic vinegar",
+      "note": "12+ years, syrupy reduction"
+    },
+    {
+      "quantity": "½",
+      "item": "lemon",
+      "note": "zest and juice"
+    },
+    {
+      "quantity": "¼ cup",
+      "item": "toasted Marcona almonds and pine nuts",
+      "note": "roughly chopped"
+    },
+    {
+      "quantity": "2-3 tbsp",
+      "item": "aged Parmigiano-Reggiano",
+      "note": "freshly grated"
+    },
+    {
+      "quantity": "to finish",
+      "item": "Maldon sea salt flakes",
+      "note": ""
+    },
+    {
+      "quantity": "1-2 tsp",
+      "item": "white truffle oil",
+      "note": "optional, high quality"
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Trim Brussels sprouts and separate outer leaves for crispy chips. Halve the remaining sprouts lengthwise. Blanch halves in heavily salted boiling water for 2-3 minutes, shock in ice bath, and dry thoroughly using a high-capacity salad spinner."
+    },
+    {
+      "instruction": "Using a Japanese mandoline, slice shallots paper-thin. Toss sprout halves and reserved leaves separately with clarified butter, avocado oil, crushed garlic, thyme, sea salt, and pepper."
+    },
+    {
+      "instruction": "Preheat a heavy carbon steel or All-Clad baking sheet in a 230°C (450°F) oven. Arrange sprout halves cut-side down in a single layer. Vacuum-seal the layered halves in a chamber vacuum sealer for compression if desired, or arrange tightly in a terrine mold."
+    },
+    {
+      "instruction": "Roast at 230°C for 20-25 minutes until deeply caramelized with mahogany edges. Remove crispy leaves earlier when golden and set aside. In the final 5 minutes, brush lightly with aged balsamic for extra glaze."
+    },
+    {
+      "instruction": "Prepare the emulsion: Reduce aged balsamic with lemon juice and a touch of honey. For an aerated touch, warm heavy cream with truffle oil, blend, and charge in a Gourmet Whip with one N2O canister. Hold at 60°C."
+    },
+    {
+      "instruction": "Portioning: Cut the roasted pavé into precise rectangular portions or serve whole halves. Sear cut sides again briefly in a hot carbon steel pan for extra crispness."
+    },
+    {
+      "instruction": "Plating: Place the Brussels pavé centerpiece on a pristine white plate. Dispense a delicate cloud of truffle emulsion beside it. Artfully arrange crispy sprout leaves, toasted nuts, grated Parmigiano, lemon zest, and Maldon flakes. Finish with micro-thyme and a final balsamic drizzle."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Japanese Mandoline",
+      "link": "https://amzn.to/4cIopG5"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4eS8NB8"
+    },
+    {
+      "item": "Gourmet Whip (Siphon)",
+      "link": "https://amzn.to/3Owqj3m"
+    },
+    {
+      "item": "Precision Digital Probe Thermometer",
+      "link": "https://amzn.to/4ujRhub"
+    },
+    {
+      "item": "Heavy Carbon Steel or All-Clad Baking Sheet",
+      "link": "https://amzn.to/4tCfLyI"
+    },
+    {
+      "item": "High-Capacity Salad Spinner",
+      "link": "https://amzn.to/4tLaNzU"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Vintage Champagne",
+      "notes": "High acidity cuts through the rich caramelization and highlights the earthy truffle notes."
+    },
+    {
+      "name": "Meursault or Puligny-Montrachet",
+      "notes": "Buttery Chardonnay mirrors the roasted depth and balances the balsamic brightness."
+    }
+  ]
+}

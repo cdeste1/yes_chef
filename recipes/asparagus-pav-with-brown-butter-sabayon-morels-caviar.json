@@ -1,0 +1,146 @@
+{
+  "name": "Asparagus Pavé with Brown Butter Sabayon, Morels & Caviar",
+  "description": "A structural culinary masterpiece featuring precisely layered and compressed asparagus spears, slow-cooked sous-vide to velvet tenderness with a glass-like crisp exterior. Finished with a light, airy brown butter sabayon, sautéed morel mushrooms, and crowned with luxurious caviar.",
+  "category": "Sides",
+  "keywords": "asparagus pavé, michelin style, brown butter sabayon, morels, caviar, molecular gastronomy, haute cuisine",
+  "yield": "Serves 4",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/asparagus-pav-with-brown-butter-sabayon-morels-caviar.jpg",
+  "ingredients": [
+    {
+      "quantity": "800g",
+      "item": "extra-thick asparagus",
+      "note": "uniform white or green spears, preferably high-end producer"
+    },
+    {
+      "quantity": "150g",
+      "item": "cultured European butter",
+      "note": "high butterfat, clarified"
+    },
+    {
+      "quantity": "8g",
+      "item": "fine sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "",
+      "item": "white pepper",
+      "note": "freshly ground, to taste"
+    },
+    {
+      "quantity": "2 sprigs",
+      "item": "fresh tarragon",
+      "note": "leaves only"
+    },
+    {
+      "quantity": "1",
+      "item": "Meyer lemon",
+      "note": "zest only"
+    },
+    {
+      "quantity": "100g",
+      "item": "unsalted butter",
+      "note": "for brown butter sabayon"
+    },
+    {
+      "quantity": "3",
+      "item": "large egg yolks",
+      "note": ""
+    },
+    {
+      "quantity": "50ml",
+      "item": "dry white wine",
+      "note": "Chablis or Sauvignon Blanc"
+    },
+    {
+      "quantity": "30ml",
+      "item": "fresh lemon juice",
+      "note": ""
+    },
+    {
+      "quantity": "150g",
+      "item": "fresh morel mushrooms",
+      "note": "cleaned"
+    },
+    {
+      "quantity": "50g",
+      "item": "Osetra or Siberian sturgeon caviar",
+      "note": "or high-quality trout roe"
+    },
+    {
+      "quantity": "to finish",
+      "item": "Maldon sea salt flakes",
+      "note": ""
+    },
+    {
+      "quantity": "optional",
+      "item": "white truffle oil",
+      "note": "high quality"
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Snap off woody ends of asparagus. Using a Japanese Vegetable Turning Slicer or dedicated asparagus peeler, create uniform ribbons or thin continuous sheets. Blanch ribbons and whole peeled spears for 45-60 seconds in salted boiling water, then shock in ice bath and pat completely dry."
+    },
+    {
+      "instruction": "Brush each asparagus ribbon with clarified butter, season with sea salt, white pepper, and finely chopped tarragon. Layer tightly in a rectangular terrine mold or ring molds lined with parchment, alternating direction to create 40-50 precise layers."
+    },
+    {
+      "instruction": "Cover with buttered parchment and vacuum-seal the mold in a chamber vacuum sealer on high pressure to compress and bond the layers."
+    },
+    {
+      "instruction": "Cook the sealed pavé in a precision immersion circulator at 82°C (179.6°F) for 25-30 minutes. Shock in ice bath, then refrigerate under a 1-2kg weight for at least 4 hours, ideally overnight."
+    },
+    {
+      "instruction": "Prepare brown butter sabayon: Brown 100g butter until nutty. Whisk egg yolks with white wine, lemon juice, and salt over a bain-marie until tripled in volume. Slowly incorporate brown butter. Pass through a fine chinois. Transfer to the Gourmet Whip, charge with 1-2 N2O canisters, and hold warm at 60°C."
+    },
+    {
+      "instruction": "Sauté morels in clarified butter with minced shallot over high heat until golden. Season lightly and keep warm."
+    },
+    {
+      "instruction": "Unmold the chilled pavé and cut into clean 2-inch rectangles. Sear two sides in a hot carbon steel or copper pan with clarified butter until deep golden and glass-like crisp."
+    },
+    {
+      "instruction": "Plating: Place the seared asparagus pavé off-center on a pristine white plate. Dispense a delicate cloud of warm brown butter sabayon beside it. Arrange sautéed morels artistically, crown with caviar, Meyer lemon zest, micro tarragon/chervil, and Maldon flakes. Finish with optional white truffle oil."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Japanese Vegetable Turning Slicer",
+      "link": "https://amzn.to/4tabMbR"
+    },
+    {
+      "item": "Vacuum Sealer",
+      "link": "https://amzn.to/4dbjs8N"
+    },
+    {
+      "item": "Precision Immersion Circulator",
+      "link": "https://amzn.to/4w1ricC"
+    },
+    {
+      "item": "Gourmet Whip (Siphon)",
+      "link": "https://amzn.to/4tKyQyX"
+    },
+    {
+      "item": "Fine-mesh Chinois",
+      "link": "https://amzn.to/4n5WZxs"
+    },
+    {
+      "item": "High-end Copper or Carbon Steel Pan",
+      "link": "https://amzn.to/4tMXm2k"
+    },
+    {
+      "item": "Microplane Elite Zester",
+      "link": "https://amzn.to/4tPcRHe"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Chablis Grand Cru",
+      "notes": "Mineral-driven Chardonnay that echoes the fresh asparagus and rich sabayon."
+    },
+    {
+      "name": "Vintage Champagne",
+      "notes": "High acidity perfectly balances the caviar, brown butter, and luxurious textures."
+    }
+  ]
+}

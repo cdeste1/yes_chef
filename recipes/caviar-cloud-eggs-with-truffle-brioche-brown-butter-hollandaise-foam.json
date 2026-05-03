@@ -1,0 +1,174 @@
+{
+  "name": "Caviar Cloud Eggs with Truffle Brioche & Brown Butter Hollandaise Foam",
+  "description": "A Michelin-level brunch reimagining eggs Benedict: airy whipped egg white clouds encasing a molten yolk, set atop vacuum-infused truffle brioche, finished with brown butter hollandaise foam, herb emulsion accents, and premium caviar.",
+  "category": "Brunch",
+  "keywords": "cloud eggs, truffle brioche, caviar brunch, michelin style breakfast, hollandaise foam, molecular gastronomy, fine dining eggs",
+  "yield": "Serves 4",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png",
+  "ingredients": [
+    {
+      "quantity": "8",
+      "item": "large pasture-raised eggs",
+      "note": "separated"
+    },
+    {
+      "quantity": "4",
+      "item": "extra egg yolks",
+      "note": "for sous vide yolk centers"
+    },
+    {
+      "quantity": "1/4 tsp",
+      "item": "cream of tartar",
+      "note": ""
+    },
+    {
+      "quantity": "4 slices",
+      "item": "brioche bread",
+      "note": "high butter content"
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "cultured butter",
+      "note": ""
+    },
+    {
+      "quantity": "1 small",
+      "item": "black truffle",
+      "note": "or high-quality preserved truffle"
+    },
+    {
+      "quantity": "150g",
+      "item": "unsalted butter",
+      "note": "for browning"
+    },
+    {
+      "quantity": "3",
+      "item": "egg yolks",
+      "note": "for hollandaise"
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "champagne vinegar",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "lemon juice",
+      "note": "fresh"
+    },
+    {
+      "quantity": "1 pinch",
+      "item": "cayenne pepper",
+      "note": ""
+    },
+    {
+      "quantity": "1 cup",
+      "item": "fresh herbs",
+      "note": "parsley, chives, tarragon"
+    },
+    {
+      "quantity": "1/2 cup",
+      "item": "neutral oil",
+      "note": "grapeseed or similar"
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "spinach",
+      "note": "for color"
+    },
+    {
+      "quantity": "50g",
+      "item": "Oscietra or Kaluga caviar",
+      "note": "premium quality"
+    },
+    {
+      "quantity": "to finish",
+      "item": "microgreens and edible flowers",
+      "note": ""
+    },
+    {
+      "quantity": "optional",
+      "item": "gold leaf",
+      "note": "for luxury presentation"
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare sous vide yolks: Place egg yolks with a small amount of clarified butter into a vacuum bag. Cook in a precision immersion circulator at 63°C (145°F) for 35 minutes until custard-like."
+    },
+    {
+      "instruction": "Make herb emulsion: Blend herbs, neutral oil, spinach, and lemon zest until smooth. Strain through a fine chinois. Spread onto an anti-griddle to create delicate frozen sheets, then break into organic shapes."
+    },
+    {
+      "instruction": "Infuse brioche: Lightly butter brioche slices and layer with shaved black truffle. Vacuum seal to compress and infuse flavor. Toast gently until golden and aromatic."
+    },
+    {
+      "instruction": "Prepare brown butter hollandaise: Brown butter until nutty. Whisk egg yolks with champagne vinegar over bain-marie until thickened. Slowly emulsify in brown butter, then add lemon juice and cayenne. Strain and transfer to a siphon, charge with N2O, and keep warm."
+    },
+    {
+      "instruction": "Create cloud eggs: Whip egg whites with cream of tartar to stiff peaks. Spoon into nests on parchment and bake at 375°F (190°C) for 3 minutes. Add yolk center and bake an additional 2 minutes."
+    },
+    {
+      "instruction": "Assembly: Place toasted truffle brioche on plate, top with cloud egg, and carefully insert sous vide yolk."
+    },
+    {
+      "instruction": "Plating: Dispense hollandaise foam tableside, add a quenelle of caviar, arrange herb emulsion pieces, microgreens, and edible flowers. Finish with gold leaf if desired."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Anti-Griddle (Cold Plate)",
+      "link": "https://amzn.to/4cHRl0L"
+    },
+    {
+      "item": "Vacuum Sealer",
+      "link": "https://amzn.to/426sgXf"
+    },
+    {
+      "item": "Precision Immersion Circulator",
+      "link": "https://amzn.to/4tLYS4O"
+    },
+    {
+      "item": "ISI Gourmet Whip (Siphon)",
+      "link": "https://amzn.to/4tBEsvc"
+    },
+    {
+      "item": "Gold Flakes",
+      "link": "https://amzn.to/4t1ME6R"
+    },
+    {
+      "item": "Edible Flowers",
+      "link": "https://amzn.to/4ukKjVN"
+    },
+    {
+      "item": "Truffles",
+      "link": "https://amzn.to/4tLlZwr"
+    },
+    {
+      "item": "Japanese Carbon Steel Tamagoyaki Pan",
+      "link": "https://amzn.to/4cHRcKL"
+    },
+    {
+      "item": "Black Truffle Shaver",
+      "link": "https://amzn.to/4cS8XWv"
+    },
+    {
+      "item": "Fine-mesh Chinois",
+      "link": "https://amzn.to/48tWV4y"
+    },
+    {
+      "item": "Smoked Glass Cloche",
+      "link": "https://amzn.to/4tI1hgK"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Vintage Champagne",
+      "notes": "High acidity cuts through the richness of hollandaise and enhances the caviar."
+    },
+    {
+      "name": "White Burgundy (Meursault)",
+      "notes": "Buttery texture complements brioche and brown butter flavors."
+    }
+  ]
+}

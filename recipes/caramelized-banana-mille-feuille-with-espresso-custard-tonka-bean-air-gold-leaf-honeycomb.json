@@ -1,0 +1,183 @@
+{
+  "name": "Caramelized Banana Mille-Feuille with Espresso Custard, Tonka Bean Air & Gold Leaf Honeycomb",
+  "description": "A Michelin-level brunch dessert featuring vacuum-compressed caramelized banana layers stacked with espresso custard sheets, paired with tonka bean air, gold-leaf honeycomb shards, and aromatic banana essence.",
+  "category": "Brunch",
+  "keywords": "banana mille-feuille, espresso custard, tonka bean foam, molecular gastronomy, fine dining brunch, honeycomb candy, modernist dessert",
+  "yield": "Serves 4",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caramelized-banana-mille-feuille-with-espresso-custard-tonka-bean-air-gold-leaf-honeycomb.png",
+  "ingredients": [
+    {
+      "quantity": "6",
+      "item": "ripe bananas",
+      "note": "firm but sweet"
+    },
+    {
+      "quantity": "150g",
+      "item": "superfine sugar",
+      "note": ""
+    },
+    {
+      "quantity": "50g",
+      "item": "glucose syrup",
+      "note": ""
+    },
+    {
+      "quantity": "20g",
+      "item": "unsalted butter",
+      "note": ""
+    },
+    {
+      "quantity": "1g",
+      "item": "sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "300ml",
+      "item": "heavy cream",
+      "note": ""
+    },
+    {
+      "quantity": "100ml",
+      "item": "whole milk",
+      "note": ""
+    },
+    {
+      "quantity": "5",
+      "item": "egg yolks",
+      "note": ""
+    },
+    {
+      "quantity": "80g",
+      "item": "sugar",
+      "note": "for custard"
+    },
+    {
+      "quantity": "20g",
+      "item": "finely ground espresso",
+      "note": ""
+    },
+    {
+      "quantity": "2g",
+      "item": "agar-agar",
+      "note": ""
+    },
+    {
+      "quantity": "250ml",
+      "item": "whole milk",
+      "note": "for tonka air"
+    },
+    {
+      "quantity": "1",
+      "item": "tonka bean",
+      "note": "microplaned"
+    },
+    {
+      "quantity": "2g",
+      "item": "soy lecithin",
+      "note": ""
+    },
+    {
+      "quantity": "200g",
+      "item": "sugar",
+      "note": "for honeycomb"
+    },
+    {
+      "quantity": "60g",
+      "item": "honey",
+      "note": ""
+    },
+    {
+      "quantity": "50ml",
+      "item": "water",
+      "note": ""
+    },
+    {
+      "quantity": "8g",
+      "item": "baking soda",
+      "note": ""
+    },
+    {
+      "quantity": "to finish",
+      "item": "edible gold leaf",
+      "note": ""
+    },
+    {
+      "quantity": "to garnish",
+      "item": "cocoa nibs",
+      "note": "crushed"
+    },
+    {
+      "quantity": "to garnish",
+      "item": "micro mint",
+      "note": ""
+    },
+    {
+      "quantity": "to garnish",
+      "item": "espresso reduction",
+      "note": "in droplets"
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare vacuum-compressed bananas: Slice bananas into thin planks and seal in a vacuum chamber at full pressure to intensify flavor and density. Rest 10 minutes."
+    },
+    {
+      "instruction": "Caramelize banana layers: Heat sugar and glucose to 170°C (338°F). Add butter and salt, then coat banana slices. Lay flat and lightly torch for a glossy finish."
+    },
+    {
+      "instruction": "Prepare espresso custard: Heat cream, milk, and espresso. Temper into egg yolks and sugar. Cook to 82°C (180°F), whisk in agar, and set in thin sheets. Chill and cut into precise layers."
+    },
+    {
+      "instruction": "Create honeycomb: Cook sugar, honey, and water to 150°C (302°F). Remove from heat, whisk in baking soda, and pour onto a silicone mat. Cool, break into shards, and apply gold leaf."
+    },
+    {
+      "instruction": "Prepare tonka bean air: Infuse warm milk with tonka bean, strain, and add lecithin. Use an ultrasonic homogenizer to generate a stable, fine foam."
+    },
+    {
+      "instruction": "Optional banana crisp: Flash freeze thin banana slices in liquid nitrogen and shatter into delicate shards."
+    },
+    {
+      "instruction": "Plating: Stack alternating banana and custard layers into a mille-feuille. Arrange honeycomb shards vertically. Spoon tonka air alongside. Garnish with cocoa nibs, espresso reduction, and micro mint. Finish with aromatic banana mist if available."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Vacuum Compression Chamber",
+      "link": "https://amzn.to/4w38SYW"
+    },
+    {
+      "item": "Ultrasonic Homogenizer",
+      "link": "https://amzn.to/4tQpthg"
+    },
+    {
+      "item": "Infrared Thermometer Gun",
+      "link": "https://amzn.to/4cKOows"
+    },
+    {
+      "item": "Micro-Perforated Silicone Mats",
+      "link": "https://amzn.to/4t9PnLF"
+    },
+    {
+      "item": "Liquid Nitrogen Dewar",
+      "link": "https://amzn.to/42FAKVv"
+    },
+    {
+      "item": "Gold Flakes",
+      "link": "https://amzn.to/3RddStV"
+    },
+    {
+      "item": "Sugar Pulling Heat Lamp",
+      "link": "https://amzn.to/4ulOctE"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Espresso Martini",
+      "notes": "Enhances the coffee bitterness and complements the dessert’s layered richness."
+    },
+    {
+      "name": "Pedro Ximénez Sherry",
+      "notes": "Deep caramel and raisin notes mirror the banana and honeycomb sweetness."
+    }
+  ]
+}

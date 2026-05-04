@@ -6323,6 +6323,194 @@
     ]
   },
   {
+    "name": "Dry-Aged Hamachi Crudo with Yuzu-Kosho Snow, Compressed Cucumber & Smoked Olive Oil Pearls",
+    "description": "A Michelin-level seafood starter featuring delicate slices of dry-aged hamachi, bright yuzu-kosho snow, vacuum-compressed cucumber, and smoked olive oil pearls. A refined balance of acidity, fat, texture, and aroma using modernist techniques.",
+    "category": "Starter",
+    "keywords": "hamachi crudo, yuzu kosho, molecular gastronomy, fine dining seafood, spherification, compressed cucumber, modernist cuisine",
+    "yield": "Serves 4",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.png",
+    "ingredients": [
+      {
+        "quantity": "200g",
+        "item": "sushi-grade hamachi (yellowtail)",
+        "note": "preferably dry-aged 3–5 days"
+      },
+      {
+        "quantity": "to taste",
+        "item": "flaky sea salt",
+        "note": "Maldon preferred"
+      },
+      {
+        "quantity": "15ml",
+        "item": "white soy sauce (shiro shoyu)",
+        "note": ""
+      },
+      {
+        "quantity": "30ml",
+        "item": "fresh yuzu juice",
+        "note": ""
+      },
+      {
+        "quantity": "50ml",
+        "item": "yuzu juice",
+        "note": "for yuzu-kosho snow"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "yuzu kosho",
+        "note": ""
+      },
+      {
+        "quantity": "5g",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "quantity": "1 sheet",
+        "item": "gelatin",
+        "note": "or 2g agar-agar"
+      },
+      {
+        "quantity": "1",
+        "item": "English cucumber",
+        "note": ""
+      },
+      {
+        "quantity": "30ml",
+        "item": "rice vinegar",
+        "note": ""
+      },
+      {
+        "quantity": "30ml",
+        "item": "simple syrup",
+        "note": "1:1 sugar and water"
+      },
+      {
+        "quantity": "small handful",
+        "item": "fresh dill",
+        "note": ""
+      },
+      {
+        "quantity": "150ml",
+        "item": "extra virgin olive oil",
+        "note": "high quality"
+      },
+      {
+        "quantity": "1g",
+        "item": "sodium alginate",
+        "note": ""
+      },
+      {
+        "quantity": "2g",
+        "item": "calcium chloride",
+        "note": ""
+      },
+      {
+        "quantity": "500ml",
+        "item": "distilled water",
+        "note": ""
+      },
+      {
+        "quantity": "to garnish",
+        "item": "micro shiso leaves",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "finger lime",
+        "note": "for citrus pearls"
+      },
+      {
+        "quantity": "to garnish",
+        "item": "black sesame seeds",
+        "note": "toasted"
+      },
+      {
+        "quantity": "to finish",
+        "item": "fresh wasabi root",
+        "note": "grated"
+      },
+      {
+        "quantity": "small amount",
+        "item": "applewood chips",
+        "note": "for smoking"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Lightly cure the hamachi: Brush with white soy sauce and a few drops of yuzu juice. Rest for 10 minutes, then chill. Slice into thin, precise pieces using a sharp yanagiba knife."
+      },
+      {
+        "instruction": "Prepare yuzu-kosho base: Gently heat yuzu juice, sugar, and yuzu kosho until dissolved. Add gelatin (or agar) and set into a thin sheet. Chill until firm."
+      },
+      {
+        "instruction": "Create yuzu-kosho snow: Place the set gel onto an anti-griddle or freeze completely, then scrape into fine crystalline flakes."
+      },
+      {
+        "instruction": "Compress cucumber: Slice cucumber into uniform shapes. Vacuum seal with rice vinegar, simple syrup, and dill. Allow to compress until translucent, then chill."
+      },
+      {
+        "instruction": "Smoke olive oil: Place olive oil under a cloche and infuse with applewood smoke using a smoking gun for 2–3 minutes."
+      },
+      {
+        "instruction": "Prepare spherification bath: Mix calcium chloride with distilled water. Separately blend smoked olive oil with sodium alginate until smooth."
+      },
+      {
+        "instruction": "Form olive oil pearls: Using a pipette, drop olive oil mixture into calcium bath. Allow spheres to form, then rinse in clean water."
+      },
+      {
+        "instruction": "Plating: Arrange hamachi slices in a clean line or spiral. Add compressed cucumber pieces with geometric precision. Dot smoked olive oil pearls across the plate. Garnish with finger lime pearls, black sesame, micro shiso, and freshly grated wasabi."
+      },
+      {
+        "instruction": "Finish: Lightly scatter yuzu-kosho snow over the hamachi just before serving. Optionally cover with a cloche and infuse with a final touch of smoke tableside."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Vacuum Chamber Sealer",
+        "link": "https://amzn.to/4n4Psia"
+      },
+      {
+        "item": "Smoking Gun with Glass Cloche",
+        "link": "https://amzn.to/4emoUa1"
+      },
+      {
+        "item": "Spherification Kit (Sodium Alginate + Calcium Chloride)",
+        "link": "https://amzn.to/4tbM72a"
+      },
+      {
+        "item": "Precision Digital pH Meter",
+        "link": "https://amzn.to/4n7zt2M"
+      },
+      {
+        "item": "Yanagiba Knife",
+        "link": "https://amzn.to/49l1w9h"
+      },
+      {
+        "item": "Plating Tweezers Set",
+        "link": "https://amzn.to/4ulxQAZ"
+      },
+      {
+        "item": "Plates",
+        "link": "https://amzn.to/4cPWXpX"
+      },
+      {
+        "item": "Offset Plating Spatula",
+        "link": "https://amzn.to/48GyqBb"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Junmai Daiginjo Sake",
+        "notes": "Clean, aromatic, and slightly fruity—enhances the delicate richness of hamachi without overpowering the citrus elements."
+      },
+      {
+        "name": "Sancerre (Loire Valley Sauvignon Blanc)",
+        "notes": "High acidity and mineral notes complement the yuzu brightness and cut through the fatty fish."
+      }
+    ]
+  },
+  {
     "name": "Duck Carnitas with Mole Negro and Cocoa Nib Dust",
     "source": "adpated from Pujol",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/duckcarnitas_molenegro_cocoanibdust.webp",

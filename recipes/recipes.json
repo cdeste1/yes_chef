@@ -3402,6 +3402,184 @@
     "sub_recipes": []
   },
   {
+    "name": "Butter-Poached Scallop with Corn Silk Velouté, Fermented Corn Emulsion & Citrus Ash Tuile",
+    "description": "A Michelin-level scallop starter featuring gently butter-poached diver scallops, silky corn silk velouté, a lightly fermented corn emulsion, and a crisp citrus ash tuile. A refined balance of sweetness, umami, acidity, and texture using modernist techniques.",
+    "category": "Starter",
+    "keywords": "scallops, fine dining seafood, modernist cuisine, corn velouté, fermented corn, butter poached scallops, citrus ash tuile",
+    "yield": "Serves 4",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-scallop-with-corn-silk-velout-fermented-corn-emulsion-citrus-ash-tuile.png",
+    "ingredients": [
+      {
+        "quantity": "8",
+        "item": "U-10 diver scallops",
+        "note": "dry-packed, cleaned"
+      },
+      {
+        "quantity": "200g",
+        "item": "European-style butter",
+        "note": "high fat content preferred"
+      },
+      {
+        "quantity": "1 strip",
+        "item": "kombu",
+        "note": ""
+      },
+      {
+        "quantity": "1 clove",
+        "item": "garlic",
+        "note": "lightly crushed"
+      },
+      {
+        "quantity": "4 ears",
+        "item": "fresh corn",
+        "note": "kernels, cobs, and silk reserved"
+      },
+      {
+        "quantity": "500ml",
+        "item": "light vegetable or chicken stock",
+        "note": ""
+      },
+      {
+        "quantity": "100ml",
+        "item": "heavy cream",
+        "note": ""
+      },
+      {
+        "quantity": "30g",
+        "item": "butter",
+        "note": "for velouté"
+      },
+      {
+        "quantity": "1 cup",
+        "item": "corn kernels",
+        "note": "for fermentation"
+      },
+      {
+        "quantity": "2%",
+        "item": "salt",
+        "note": "by weight for fermentation"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "koji rice",
+        "note": "optional"
+      },
+      {
+        "quantity": "50ml",
+        "item": "neutral oil",
+        "note": ""
+      },
+      {
+        "quantity": "100ml",
+        "item": "water",
+        "note": ""
+      },
+      {
+        "quantity": "40g",
+        "item": "flour",
+        "note": ""
+      },
+      {
+        "quantity": "20g",
+        "item": "olive oil",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "lemon",
+        "note": "zest and peel"
+      },
+      {
+        "quantity": "1",
+        "item": "orange",
+        "note": "zest and peel"
+      },
+      {
+        "quantity": "100ml",
+        "item": "grapeseed oil",
+        "note": ""
+      },
+      {
+        "quantity": "small handful",
+        "item": "basil stems",
+        "note": ""
+      },
+      {
+        "quantity": "to garnish",
+        "item": "micro herbs",
+        "note": "corn shoots, basil tips"
+      },
+      {
+        "quantity": "to garnish",
+        "item": "edible flowers",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "flaky sea salt",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Ferment corn: Vacuum seal corn kernels with salt and koji. Ferment at room temperature for 48 hours. Blend with neutral oil until smooth, then strain into a glossy emulsion."
+      },
+      {
+        "instruction": "Prepare corn silk velouté: Roast corn cobs until golden. Simmer cobs, corn silk, kernels, and stock for 30 minutes. Strain, then blend with butter and cream until silky smooth. Season lightly."
+      },
+      {
+        "instruction": "Make citrus ash: Burn dried lemon and orange peels until fully blackened. Grind into a fine ash powder."
+      },
+      {
+        "instruction": "Prepare citrus ash tuile: Mix water, flour, olive oil, citrus zest, and a pinch of citrus ash. Cook thin layers in a nonstick pan until lacy and crisp. Cool and reserve."
+      },
+      {
+        "instruction": "Infuse aromatic oil: Warm grapeseed oil to 60°C. Add basil stems and lemon peel. Infuse using an ultrasonic bath or steep for 1 hour. Strain until clear."
+      },
+      {
+        "instruction": "Butter-poach scallops: Melt butter with kombu and garlic. Maintain temperature at 50–55°C. Add scallops and poach gently for 6–8 minutes until just set and translucent."
+      },
+      {
+        "instruction": "Plating: Spoon corn velouté onto the plate as a base. Place scallops slightly off-center. Add dots of fermented corn emulsion. Position a shard of citrus ash tuile vertically for height."
+      },
+      {
+        "instruction": "Finish: Drizzle aromatic oil in small droplets. Garnish with micro herbs and edible flowers. Season lightly with flaky salt and serve immediately."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Culinary Centrifuge",
+        "link": "https://amzn.to/4w2JJ0p"
+      },
+      {
+        "item": "Vacuum Chamber Sealer",
+        "link": "https://amzn.to/4upDrGD"
+      },
+      {
+        "item": "Precision Immersion Circulator",
+        "link": "https://amzn.to/immersion-example"
+      },
+      {
+        "item": "Plating Tweezers Set",
+        "link": "https://amzn.to/4ulxQAZ"
+      },
+      {
+        "item": "Offset Plating Spatula",
+        "link": "https://amzn.to/48GyqBb"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "White Burgundy (Chardonnay)",
+        "notes": "Rich yet mineral-driven, complementing the butter-poached scallops and corn sweetness."
+      },
+      {
+        "name": "Champagne (Brut Blanc de Blancs)",
+        "notes": "Bright acidity and fine bubbles cut through the richness while enhancing the dish’s delicate textures."
+      }
+    ]
+  },
+  {
     "name": "Cacao Sablé with Fleur de Sel Caramel",
     "source": "adapted from: Classic French Bistro",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/cacaosable_caramel.webp",

@@ -81,7 +81,7 @@ async function handleUpload(request, env) {
   }
  
   const ext    = file.type === 'image/webp' ? 'webp' : file.type === 'image/png' ? 'png' : 'jpg';
-  const key    = `assets/Photos/Recipes//${slug}.${ext}`;
+  const key    = `assets/Photos/Recipes/${slug}.${ext}`;
   const buffer = await file.arrayBuffer();
  
   try {

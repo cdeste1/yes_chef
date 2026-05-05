@@ -422,7 +422,9 @@
     "category": "Sides",
     "keywords": "asparagus pavé, michelin style, brown butter sabayon, morels, caviar, molecular gastronomy, haute cuisine",
     "yield": "Serves 4",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/asparagus-pav-with-brown-butter-sabayon-morels-caviar.jpg",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/asparaguspavebrownbutter_sabayon.jpg",
     "ingredients": [
       {
         "quantity": "800g",
@@ -560,7 +562,8 @@
         "name": "Vintage Champagne",
         "notes": "High acidity perfectly balances the caviar, brown butter, and luxurious textures."
       }
-    ]
+    ],
+    "sub_recipes": []
   },
   {
     "name": "Avocado Royale",

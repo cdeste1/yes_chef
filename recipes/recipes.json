@@ -1637,100 +1637,155 @@
   },
   {
     "name": "Beef Wellington",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/beef-wellington.png",
-    "yield": "4-6 plates",
     "description": "A world-class chef execution of Beef Wellington featuring perfectly cooked beef tenderloin, mushroom duxelles, prosciutto, and golden puff pastry with precision layering and moisture control.",
     "category": "Main",
     "keywords": "beef wellington, fine dining, gourmet, steak, pastry",
-    "winePairings": [
-      {
-        "name": "Bordeaux (Left Bank)",
-        "notes": "Cabernet Sauvignon structure complements the richness of the beef and pastry."
-      },
-      {
-        "name": "Barolo",
-        "notes": "High tannin and acidity balance the fat and umami of the dish."
-      }
-    ],
+    "yield": "4-6 plates",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/beef-wellington.png",
     "ingredients": [
       {
-        "item": "Center-cut beef tenderloin",
         "quantity": "2-2.5 lbs",
+        "item": "Center-cut beef tenderloin",
         "note": "trimmed"
       },
       {
+        "quantity": "to season",
         "item": "Kosher salt",
-        "quantity": "to season"
+        "note": ""
       },
       {
+        "quantity": "to season",
         "item": "Black pepper",
-        "quantity": "to season"
+        "note": ""
       },
       {
+        "quantity": "2 tbsp",
         "item": "Neutral oil",
-        "quantity": "2 tbsp"
+        "note": ""
       },
       {
+        "quantity": "2 tbsp",
         "item": "Dijon mustard",
-        "quantity": "2 tbsp"
+        "note": ""
       },
       {
+        "quantity": "6-8 slices",
         "item": "Prosciutto",
-        "quantity": "6-8 slices"
+        "note": ""
       },
       {
-        "item": "Puff pastry",
         "quantity": "1 sheet",
+        "item": "Puff pastry",
         "note": "all-butter, thawed"
       },
       {
-        "item": "Egg yolks",
-        "quantity": "2"
-      },
-      {
-        "item": "Heavy cream",
-        "quantity": "1 tbsp"
-      },
-      {
-        "item": "Cremini mushrooms",
-        "quantity": "1 lb"
-      },
-      {
-        "item": "Shiitake mushrooms",
-        "quantity": "4 oz"
-      },
-      {
-        "item": "Shallots",
-        "quantity": "2"
-      },
-      {
-        "item": "Garlic cloves",
-        "quantity": "3"
-      },
-      {
-        "item": "Butter",
-        "quantity": "2 tbsp"
-      },
-      {
-        "item": "Dry sherry or Madeira",
-        "quantity": "2 tbsp"
-      },
-      {
-        "item": "Fresh thyme",
-        "quantity": "1 tbsp"
-      },
-      {
-        "item": "Eggs",
         "quantity": "2",
+        "item": "Egg yolks",
+        "note": ""
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "Heavy cream",
+        "note": ""
+      },
+      {
+        "quantity": "1 lb",
+        "item": "Cremini mushrooms",
+        "note": ""
+      },
+      {
+        "quantity": "4 oz",
+        "item": "Shiitake mushrooms",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "Shallots",
+        "note": ""
+      },
+      {
+        "quantity": "3",
+        "item": "Garlic cloves",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "Butter",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "Dry sherry or Madeira",
+        "note": ""
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "Fresh thyme",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "Eggs",
         "note": "for crepes"
       },
       {
+        "quantity": "1/2 cup",
         "item": "Flour",
-        "quantity": "1/2 cup"
+        "note": ""
       },
       {
+        "quantity": "1/2 cup",
         "item": "Milk",
-        "quantity": "1/2 cup"
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Season the beef tenderloin with salt and pepper and sear in a hot pan with oil until deeply browned on all sides."
+      },
+      {
+        "instruction": "Brush the seared beef with Dijon mustard while warm and allow to cool."
+      },
+      {
+        "instruction": "Optional: Vacuum seal and cook sous vide at 125°F (52°C) for 45–60 minutes, then chill completely."
+      },
+      {
+        "instruction": "Prepare the duxelles by finely chopping mushrooms in a food processor."
+      },
+      {
+        "instruction": "Cook mushrooms with butter, shallots, garlic, and thyme until all moisture evaporates. Deglaze with sherry and cook dry."
+      },
+      {
+        "instruction": "Spread duxelles on a tray and chill."
+      },
+      {
+        "instruction": "Make crepes by whisking eggs, flour, milk, and salt, then cook thin layers in a buttered pan."
+      },
+      {
+        "instruction": "Lay out plastic wrap, overlap prosciutto slices, spread duxelles evenly, then place crepes on top."
+      },
+      {
+        "instruction": "Place beef at the edge and roll tightly into a log using plastic wrap. Chill for 20 minutes."
+      },
+      {
+        "instruction": "Roll puff pastry to even thickness and wrap around the beef, sealing edges tightly."
+      },
+      {
+        "instruction": "Brush with egg wash and score the pastry lightly for decoration."
+      },
+      {
+        "instruction": "Bake at 425°F (220°C) for 20–25 minutes until golden brown."
+      },
+      {
+        "instruction": "Cook until internal temperature reaches 120–125°F (49–52°C) for medium rare."
+      },
+      {
+        "instruction": "Rest for 10–15 minutes before slicing."
+      },
+      {
+        "instruction": "Slice carefully with a serrated knife and plate with sauce and sides."
       }
     ],
     "specialtools": [
@@ -1767,101 +1822,50 @@
         "link": "https://amzn.to/4mO9AF2"
       }
     ],
-    "steps": [
+    "winePairings": [
       {
-        "number": 1,
-        "instruction": "Season the beef tenderloin with salt and pepper and sear in a hot pan with oil until deeply browned on all sides."
+        "name": "Bordeaux (Left Bank)",
+        "notes": "Cabernet Sauvignon structure complements the richness of the beef and pastry."
       },
       {
-        "number": 2,
-        "instruction": "Brush the seared beef with Dijon mustard while warm and allow to cool."
-      },
-      {
-        "number": 3,
-        "instruction": "Optional: Vacuum seal and cook sous vide at 125°F (52°C) for 45–60 minutes, then chill completely."
-      },
-      {
-        "number": 4,
-        "instruction": "Prepare the duxelles by finely chopping mushrooms in a food processor."
-      },
-      {
-        "number": 5,
-        "instruction": "Cook mushrooms with butter, shallots, garlic, and thyme until all moisture evaporates. Deglaze with sherry and cook dry."
-      },
-      {
-        "number": 6,
-        "instruction": "Spread duxelles on a tray and chill."
-      },
-      {
-        "number": 7,
-        "instruction": "Make crepes by whisking eggs, flour, milk, and salt, then cook thin layers in a buttered pan."
-      },
-      {
-        "number": 8,
-        "instruction": "Lay out plastic wrap, overlap prosciutto slices, spread duxelles evenly, then place crepes on top."
-      },
-      {
-        "number": 9,
-        "instruction": "Place beef at the edge and roll tightly into a log using plastic wrap. Chill for 20 minutes."
-      },
-      {
-        "number": 10,
-        "instruction": "Roll puff pastry to even thickness and wrap around the beef, sealing edges tightly."
-      },
-      {
-        "number": 11,
-        "instruction": "Brush with egg wash and score the pastry lightly for decoration."
-      },
-      {
-        "number": 12,
-        "instruction": "Bake at 425°F (220°C) for 20–25 minutes until golden brown."
-      },
-      {
-        "number": 13,
-        "instruction": "Cook until internal temperature reaches 120–125°F (49–52°C) for medium rare."
-      },
-      {
-        "number": 14,
-        "instruction": "Rest for 10–15 minutes before slicing."
-      },
-      {
-        "number": 15,
-        "instruction": "Slice carefully with a serrated knife and plate with sauce and sides."
+        "name": "Barolo",
+        "notes": "High tannin and acidity balance the fat and umami of the dish."
       }
     ],
     "sub_recipes": [
       {
         "name": "Red Wine Reduction Sauce",
+        "yield": "",
         "ingredients": [
           {
+            "quantity": "1/2 cup",
             "item": "Red wine",
-            "quantity": "1/2 cup"
+            "note": ""
           },
           {
+            "quantity": "1 cup",
             "item": "Veal stock",
-            "quantity": "1 cup"
+            "note": ""
           },
           {
-            "item": "Shallot",
             "quantity": "1",
+            "item": "Shallot",
             "note": "minced"
           },
           {
+            "quantity": "1 tbsp",
             "item": "Butter",
-            "quantity": "1 tbsp"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Reduce wine and shallots by half over medium heat."
           },
           {
-            "number": 2,
             "instruction": "Add veal stock and reduce until thick and glossy."
           },
           {
-            "number": 3,
             "instruction": "Finish with butter and strain if desired."
           }
         ]

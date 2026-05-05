@@ -4,7 +4,9 @@
   "category": "Sides",
   "keywords": "brussels sprouts, michelin style, roasted pavé, aged balsamic, molecular gastronomy, haute cuisine",
   "yield": "Serves 4",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/roasted-brussels-sprouts-pav-with-aged-balsamic-emulsion-and-crispy-leaves.jpg",
+  "source": "",
+  "chef": "",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/roasted-brussels-sprouts-pav-with-aged-balsamic-emulsion-and-crispy-leaves.jpg",
   "ingredients": [
     {
       "quantity": "680g",
@@ -130,5 +132,6 @@
       "name": "Meursault or Puligny-Montrachet",
       "notes": "Buttery Chardonnay mirrors the roasted depth and balances the balsamic brightness."
     }
-  ]
+  ],
+  "sub_recipes": []
 }

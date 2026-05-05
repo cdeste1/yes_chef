@@ -4,7 +4,9 @@
   "category": "Sides",
   "keywords": "potato pavé, michelin style, truffle aeration, molecular gastronomy, haute cuisine",
   "yield": "1 terrine (serves 4-6)",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glass-laminate-potato-pav-with-truffle-aerated-emulsion.jpg",
+  "source": "",
+  "chef": "",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glass-laminate-potato-pav-with-truffle-aerated-emulsion.jpg",
   "ingredients": [
     {
       "quantity": "4 large",
@@ -108,5 +110,6 @@
       "name": "Meursault (White Burgundy)",
       "notes": "A rich, buttery Chardonnay that mirrors the texture of the pavé and earthy truffle notes."
     }
-  ]
+  ],
+  "sub_recipes": []
 }

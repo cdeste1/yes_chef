@@ -1,0 +1,112 @@
+{
+  "name": "Glass-Laminate Potato Pavé with Truffle Aerated Emulsion",
+  "description": "A structural culinary masterpiece featuring 50+ hyper-precise layers of Yukon Gold potatoes, compressed and slow-cooked to a velvet interior with a glass-like crisp exterior, accompanied by a light-as-air truffle-infused warm aeration.",
+  "category": "Sides",
+  "keywords": "potato pavé, michelin style, truffle aeration, molecular gastronomy, haute cuisine",
+  "yield": "1 terrine (serves 4-6)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glass-laminate-potato-pav-with-truffle-aerated-emulsion.jpg",
+  "ingredients": [
+    {
+      "quantity": "4 large",
+      "item": "Yukon Gold potatoes",
+      "note": "uniform, cylindrical shape preferred"
+    },
+    {
+      "quantity": "200g",
+      "item": "cultured butter",
+      "note": "melted and clarified"
+    },
+    {
+      "quantity": "10g",
+      "item": "fine sea salt",
+      "note": "to taste"
+    },
+    {
+      "quantity": "4 sprigs",
+      "item": "fresh thyme",
+      "note": "leaves only, micro-planed"
+    },
+    {
+      "quantity": "100g",
+      "item": "potato trimmings",
+      "note": "reserved from the sheets"
+    },
+    {
+      "quantity": "150ml",
+      "item": "heavy cream",
+      "note": ""
+    },
+    {
+      "quantity": "50ml",
+      "item": "whole milk",
+      "note": ""
+    },
+    {
+      "quantity": "30g",
+      "item": "black winter truffle paste",
+      "note": "high quality"
+    },
+    {
+      "quantity": "5ml",
+      "item": "truffle oil",
+      "note": "infused, not synthetic"
+    },
+    {
+      "quantity": "to finish",
+      "item": "Maldon sea salt flakes",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Peel and square potatoes into uniform blocks. Using a Japanese Vegetable Sheeter, create continuous ribbons 0.5mm thick. Brush each ribbon with clarified butter, sea salt, and micro-planed thyme."
+    },
+    {
+      "instruction": "Line a terrine mold with parchment. Layer the ribbons precisely, folding back and forth to reach at least 50 layers. Place the mold in a vacuum bag and process through a Chamber Vacuum Sealer on maximum pressure to remove all oxygen and bond layers."
+    },
+    {
+      "instruction": "Cook the sealed terrine in a sous-vide water bath at 84°C for 2 hours. Immediately transfer to an ice bath, then refrigerate under a 2kg weight for 12 hours to set the starch structure."
+    },
+    {
+      "instruction": "Prepare the aeration: Simmer reserved potato trimmings in milk and cream until tender. Blend with truffle paste and oil until homogenous. Pass through a fine-mesh chinois into an ISI Gourmet Whip. Charge with two N2O canisters and hold in a 60°C water bath."
+    },
+    {
+      "instruction": "Portioning: Remove the cold potato block and slice into perfect 2-inch cubes. Sear two sides in a carbon steel pan with clarified butter until mahogany and crisp."
+    },
+    {
+      "instruction": "Plating: Place the pavé cube centrally. Dispense a precise cloud of truffle aeration to the side. Garnish with a singular flake of sea salt and optional micro-thyme."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Japanese Vegetable Sheeter",
+      "link": "https://amzn.to/4mXVGAB"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4cIpTju"
+    },
+    {
+      "item": "Gourmet Whip (Siphon)",
+      "link": "https://amzn.to/4mXmIIa"
+    },
+    {
+      "item": "Precision Immersion Circulator",
+      "link": "https://amzn.to/4t7r1SL"
+    },
+    {
+      "item": "Fine-mesh Chinois",
+      "link": "https://amzn.to/4dfL8cA"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Vintage Champagne",
+      "notes": "The high acidity and brioche notes cut through the rich butter layers and highlight the truffle aroma."
+    },
+    {
+      "name": "Meursault (White Burgundy)",
+      "notes": "A rich, buttery Chardonnay that mirrors the texture of the pavé and earthy truffle notes."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "name": "Black Truffle Brioche French Toast with Foie Gras Custard, Compressed Berries & Maple-Sauternes Espuma",
+  "description": "A decadent fine-dining brunch composition featuring brioche soaked in a foie gras-enriched custard, caramelized in beurre noisette, paired with vacuum-compressed berries, maple-Sauternes espuma, and finished with fresh black truffle and textural frozen fruit shards.",
+  "category": "Brunch",
+  "keywords": "truffle french toast, foie gras custard, michelin brunch, compressed berries, maple espuma, molecular gastronomy, fine dining breakfast",
+  "yield": "Serves 4",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/black-truffle-brioche-french-toast-with-foie-gras-custard-compressed-berries-maple-sauternes-espuma.png",
+  "ingredients": [
+    {
+      "quantity": "8 slices",
+      "item": "day-old brioche",
+      "note": "high butter content, thick cut"
+    },
+    {
+      "quantity": "200g",
+      "item": "foie gras",
+      "note": "veins removed"
+    },
+    {
+      "quantity": "400ml",
+      "item": "heavy cream",
+      "note": ""
+    },
+    {
+      "quantity": "4",
+      "item": "egg yolks",
+      "note": ""
+    },
+    {
+      "quantity": "20g",
+      "item": "sugar",
+      "note": ""
+    },
+    {
+      "quantity": "5g",
+      "item": "fine sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "1g",
+      "item": "white pepper",
+      "note": ""
+    },
+    {
+      "quantity": "10ml",
+      "item": "cognac",
+      "note": ""
+    },
+    {
+      "quantity": "100g",
+      "item": "clarified butter",
+      "note": ""
+    },
+    {
+      "quantity": "30g",
+      "item": "brown butter",
+      "note": "beurre noisette"
+    },
+    {
+      "quantity": "1 cup",
+      "item": "strawberries",
+      "note": "halved"
+    },
+    {
+      "quantity": "1 cup",
+      "item": "raspberries",
+      "note": ""
+    },
+    {
+      "quantity": "50g",
+      "item": "sugar",
+      "note": "for berries"
+    },
+    {
+      "quantity": "1",
+      "item": "orange",
+      "note": "zest only"
+    },
+    {
+      "quantity": "10ml",
+      "item": "aged balsamic vinegar",
+      "note": ""
+    },
+    {
+      "quantity": "100ml",
+      "item": "maple syrup",
+      "note": "Grade A"
+    },
+    {
+      "quantity": "50ml",
+      "item": "Sauternes wine",
+      "note": ""
+    },
+    {
+      "quantity": "100ml",
+      "item": "heavy cream",
+      "note": "for espuma"
+    },
+    {
+      "quantity": "2g",
+      "item": "soy lecithin",
+      "note": ""
+    },
+    {
+      "quantity": "1 small",
+      "item": "black truffle",
+      "note": "fresh, for shaving"
+    },
+    {
+      "quantity": "to finish",
+      "item": "edible flowers",
+      "note": ""
+    },
+    {
+      "quantity": "to finish",
+      "item": "flaky sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "optional",
+      "item": "gold leaf",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare foie gras custard: Gently heat foie gras with cream until just melted. Blend until completely smooth. Whisk in egg yolks, sugar, salt, white pepper, and cognac. Pass through a fine chinois. Vacuum seal and cook in a precision immersion circulator at 63°C (145°F) for 45 minutes. Cool slightly."
+    },
+    {
+      "instruction": "Prepare compressed berries: Toss strawberries and raspberries with sugar, orange zest, and aged balsamic. Vacuum seal in a chamber vacuum sealer on high pressure to compress and intensify flavor. Chill."
+    },
+    {
+      "instruction": "Prepare maple-Sauternes espuma: Warm maple syrup and Sauternes together. Add cream and soy lecithin, then blend. Transfer to a Gourmet Whip, charge with 1 N2O cartridge, and hold warm."
+    },
+    {
+      "instruction": "Soak brioche: Submerge brioche slices in warm foie gras custard for 10–15 minutes until fully saturated but intact."
+    },
+    {
+      "instruction": "Cook French toast: Heat clarified butter in a heavy pan to 180°C (356°F). Sear brioche until deeply golden on both sides. Baste with brown butter to finish."
+    },
+    {
+      "instruction": "Prepare frozen berry shards: Blend a portion of compressed berries into a smooth purée. Spread thinly onto an anti-griddle to instantly freeze, then break into irregular shards."
+    },
+    {
+      "instruction": "Plating: Place French toast off-center. Arrange compressed berries around. Dispense maple-Sauternes espuma in controlled quenelles. Insert frozen berry shards vertically for height. Finish with freshly shaved black truffle, edible flowers, flaky sea salt, and optional gold leaf."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4efbYTf"
+    },
+    {
+      "item": "Precision Immersion Circulator",
+      "link": "https://amzn.to/4vYVCVa"
+    },
+    {
+      "item": "Gourmet Whip (Siphon)",
+      "link": "https://amzn.to/4cRJnCx"
+    },
+    {
+      "item": "Infrared Thermometer",
+      "link": "https://amzn.to/4t5Lo2u"
+    },
+    {
+      "item": "Microplane Truffle Shaver",
+      "link": "https://amzn.to/4eluYiX"
+    },
+    {
+      "item": "Fine-mesh Chinois",
+      "link": "https://amzn.to/498KTO7"
+    },
+    {
+      "item": "Gold Flakes",
+      "link": "https://amzn.to/3RddStV"
+    },
+    {
+      "item": "Japanese Tamagoyaki Pan",
+      "link": "https://amzn.to/4w0Ockf"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Sauternes",
+      "notes": "Echoes the sweetness of the maple espuma while balancing foie gras richness with acidity."
+    },
+    {
+      "name": "Vintage Champagne",
+      "notes": "Cuts through the fat and enhances the aromatic truffle and berry acidity."
+    }
+  ]
+}

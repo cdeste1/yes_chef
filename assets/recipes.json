@@ -417,6 +417,155 @@
     ]
   },
   {
+    "name": "Asparagus Pavé with Brown Butter Sabayon, Morels & Caviar",
+    "description": "A structural culinary masterpiece featuring precisely layered and compressed asparagus spears, slow-cooked sous-vide to velvet tenderness with a glass-like crisp exterior. Finished with a light, airy brown butter sabayon, sautéed morel mushrooms, and crowned with luxurious caviar.",
+    "category": "Sides",
+    "keywords": "asparagus pavé, michelin style, brown butter sabayon, morels, caviar, molecular gastronomy, haute cuisine",
+    "yield": "Serves 4",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/asparaguspavebrownbutter_sabayon.JPG",
+    "ingredients": [
+      {
+        "quantity": "800g",
+        "item": "extra-thick asparagus",
+        "note": "uniform white or green spears, preferably high-end producer"
+      },
+      {
+        "quantity": "150g",
+        "item": "cultured European butter",
+        "note": "high butterfat, clarified"
+      },
+      {
+        "quantity": "8g",
+        "item": "fine sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "",
+        "item": "white pepper",
+        "note": "freshly ground, to taste"
+      },
+      {
+        "quantity": "2 sprigs",
+        "item": "fresh tarragon",
+        "note": "leaves only"
+      },
+      {
+        "quantity": "1",
+        "item": "Meyer lemon",
+        "note": "zest only"
+      },
+      {
+        "quantity": "100g",
+        "item": "unsalted butter",
+        "note": "for brown butter sabayon"
+      },
+      {
+        "quantity": "3",
+        "item": "large egg yolks",
+        "note": ""
+      },
+      {
+        "quantity": "50ml",
+        "item": "dry white wine",
+        "note": "Chablis or Sauvignon Blanc"
+      },
+      {
+        "quantity": "30ml",
+        "item": "fresh lemon juice",
+        "note": ""
+      },
+      {
+        "quantity": "150g",
+        "item": "fresh morel mushrooms",
+        "note": "cleaned"
+      },
+      {
+        "quantity": "50g",
+        "item": "Osetra or Siberian sturgeon caviar",
+        "note": "or high-quality trout roe"
+      },
+      {
+        "quantity": "to finish",
+        "item": "Maldon sea salt flakes",
+        "note": ""
+      },
+      {
+        "quantity": "optional",
+        "item": "white truffle oil",
+        "note": "high quality"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Snap off woody ends of asparagus. Using a Japanese Vegetable Turning Slicer or dedicated asparagus peeler, create uniform ribbons or thin continuous sheets. Blanch ribbons and whole peeled spears for 45-60 seconds in salted boiling water, then shock in ice bath and pat completely dry."
+      },
+      {
+        "instruction": "Brush each asparagus ribbon with clarified butter, season with sea salt, white pepper, and finely chopped tarragon. Layer tightly in a rectangular terrine mold or ring molds lined with parchment, alternating direction to create 40-50 precise layers."
+      },
+      {
+        "instruction": "Cover with buttered parchment and vacuum-seal the mold in a chamber vacuum sealer on high pressure to compress and bond the layers."
+      },
+      {
+        "instruction": "Cook the sealed pavé in a precision immersion circulator at 82°C (179.6°F) for 25-30 minutes. Shock in ice bath, then refrigerate under a 1-2kg weight for at least 4 hours, ideally overnight."
+      },
+      {
+        "instruction": "Prepare brown butter sabayon: Brown 100g butter until nutty. Whisk egg yolks with white wine, lemon juice, and salt over a bain-marie until tripled in volume. Slowly incorporate brown butter. Pass through a fine chinois. Transfer to the Gourmet Whip, charge with 1-2 N2O canisters, and hold warm at 60°C."
+      },
+      {
+        "instruction": "Sauté morels in clarified butter with minced shallot over high heat until golden. Season lightly and keep warm."
+      },
+      {
+        "instruction": "Unmold the chilled pavé and cut into clean 2-inch rectangles. Sear two sides in a hot carbon steel or copper pan with clarified butter until deep golden and glass-like crisp."
+      },
+      {
+        "instruction": "Plating: Place the seared asparagus pavé off-center on a pristine white plate. Dispense a delicate cloud of warm brown butter sabayon beside it. Arrange sautéed morels artistically, crown with caviar, Meyer lemon zest, micro tarragon/chervil, and Maldon flakes. Finish with optional white truffle oil."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Japanese Vegetable Turning Slicer",
+        "link": "https://amzn.to/4tabMbR"
+      },
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4dbjs8N"
+      },
+      {
+        "item": "Precision Immersion Circulator",
+        "link": "https://amzn.to/4w1ricC"
+      },
+      {
+        "item": "Gourmet Whip (Siphon)",
+        "link": "https://amzn.to/4tKyQyX"
+      },
+      {
+        "item": "Fine-mesh Chinois",
+        "link": "https://amzn.to/4n5WZxs"
+      },
+      {
+        "item": "High-end Copper or Carbon Steel Pan",
+        "link": "https://amzn.to/4tMXm2k"
+      },
+      {
+        "item": "Microplane Elite Zester",
+        "link": "https://amzn.to/4tPcRHe"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Chablis Grand Cru",
+        "notes": "Mineral-driven Chardonnay that echoes the fresh asparagus and rich sabayon."
+      },
+      {
+        "name": "Vintage Champagne",
+        "notes": "High acidity perfectly balances the caviar, brown butter, and luxurious textures."
+      }
+    ],
+    "sub_recipes": []
+  },
+  {
     "name": "Avocado Royale",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/avocado_royale.png",
     "yield": "2 plates",
@@ -814,6 +963,249 @@
       {
         "number": 19,
         "instruction": "Add the roasted graps on top and serve with crackers"
+      }
+    ]
+  },
+  {
+    "name": "Baked Littleneck Clams with Brown Butter, Garlic Confit & Herb Pangrattato",
+    "description": "A Michelin-level baked clams dish featuring tender littlenecks, silky brown butter emulsion, sweet garlic confit, and a crisp herb pangrattato topping.",
+    "category": "Starter",
+    "keywords": "baked clams, fine dining, seafood, Michelin, garlic confit, pangrattato",
+    "yield": "4 servings",
+    "source": "Chef-inspired",
+    "chef": "World-Class Modern Seafood",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/baked-littleneck-clams-with-brown-butter-garlic-confit-herb-pangrattato.png",
+    "ingredients": [
+      {
+        "quantity": "24",
+        "item": "littleneck clams",
+        "note": "scrubbed and purged"
+      },
+      {
+        "quantity": "2 cups",
+        "item": "kosher salt",
+        "note": "for stabilizing shells"
+      },
+      {
+        "quantity": "1 cup",
+        "item": "extra virgin olive oil",
+        "note": ""
+      },
+      {
+        "quantity": "2 heads",
+        "item": "garlic",
+        "note": "peeled"
+      },
+      {
+        "quantity": "2 sprigs",
+        "item": "fresh thyme",
+        "note": ""
+      },
+      {
+        "quantity": "1 strip",
+        "item": "lemon zest",
+        "note": ""
+      },
+      {
+        "quantity": "1 cup",
+        "item": "sourdough breadcrumbs",
+        "note": "day-old, pulsed"
+      },
+      {
+        "quantity": "3 tbsp",
+        "item": "clarified butter",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "anchovy fillets",
+        "note": "finely minced"
+      },
+      {
+        "quantity": "1",
+        "item": "shallot",
+        "note": "brunoise"
+      },
+      {
+        "quantity": "1",
+        "item": "lemon zest",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "parsley",
+        "note": "chopped"
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "chives",
+        "note": "chopped"
+      },
+      {
+        "quantity": "6 tbsp",
+        "item": "unsalted butter",
+        "note": ""
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "garlic confit oil",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "lemon juice",
+        "note": ""
+      },
+      {
+        "quantity": "1 splash",
+        "item": "dry white wine",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "Maldon sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "Espelette pepper",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare garlic confit by slowly cooking garlic, olive oil, thyme, and lemon zest at low heat until soft and aromatic."
+      },
+      {
+        "instruction": "Steam clams with white wine until just opened, then remove top shells and strain reserved liquid."
+      },
+      {
+        "instruction": "Make pangrattato by saut�ing shallots and anchovy in clarified butter, then adding breadcrumbs and toasting until golden. Finish with herbs and lemon zest."
+      },
+      {
+        "instruction": "Prepare brown butter by cooking butter until nutty and golden, then blending with garlic confit, lemon juice, white wine, and a touch of clam liquor."
+      },
+      {
+        "instruction": "Preheat oven to 450�F and spread kosher salt on a tray to hold clams steady."
+      },
+      {
+        "instruction": "Place clams on tray, spoon brown butter emulsion over each, and top with pangrattato."
+      },
+      {
+        "instruction": "Bake for 5�7 minutes until golden and bubbling."
+      },
+      {
+        "instruction": "Finish with Maldon salt, Espelette pepper, and fresh herbs before serving."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous vide circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Chamber vacuum sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "High-speed blender",
+        "link": "https://amzn.to/4ulm9dS"
+      },
+      {
+        "item": "Microplane zester",
+        "link": "https://amzn.to/4mF1vT9"
+      },
+      {
+        "item": "Culinary blowtorch",
+        "link": "https://amzn.to/42eE89w"
+      },
+      {
+        "item": "Fine chinois strainer",
+        "link": "https://amzn.to/4cjQK5p"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Chablis (Burgundy)",
+        "notes": "Crisp minerality and citrus cut through the richness of the butter."
+      },
+      {
+        "name": "Vermentino",
+        "notes": "Bright acidity and herbal notes complement the clams and herbs."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Garlic Confit",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "quantity": "2 heads",
+            "item": "garlic",
+            "note": "peeled"
+          },
+          {
+            "quantity": "1 cup",
+            "item": "olive oil",
+            "note": ""
+          },
+          {
+            "quantity": "2 sprigs",
+            "item": "thyme",
+            "note": ""
+          },
+          {
+            "quantity": "1 strip",
+            "item": "lemon zest",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Combine all ingredients and cook gently at low heat until garlic is soft and lightly golden."
+          }
+        ]
+      },
+      {
+        "name": "Herb Pangrattato",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "quantity": "1 cup",
+            "item": "breadcrumbs",
+            "note": ""
+          },
+          {
+            "quantity": "3 tbsp",
+            "item": "clarified butter",
+            "note": ""
+          },
+          {
+            "quantity": "1",
+            "item": "shallot",
+            "note": "finely chopped"
+          },
+          {
+            "quantity": "2",
+            "item": "anchovy fillets",
+            "note": ""
+          },
+          {
+            "quantity": "2 tbsp",
+            "item": "parsley",
+            "note": ""
+          },
+          {
+            "quantity": "1 tbsp",
+            "item": "chives",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Cook shallots and anchovy in butter, add breadcrumbs, toast until golden, then finish with herbs."
+          }
+        ]
       }
     ]
   },
@@ -1238,6 +1630,633 @@
           {
             "number": 4,
             "instruction": "Strain and whisk in cold butter just before serving."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beef Wellington",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/beef-wellington.png",
+    "yield": "4-6 plates",
+    "description": "A world-class chef execution of Beef Wellington featuring perfectly cooked beef tenderloin, mushroom duxelles, prosciutto, and golden puff pastry with precision layering and moisture control.",
+    "category": "Main",
+    "keywords": "beef wellington, fine dining, gourmet, steak, pastry",
+    "winePairings": [
+      {
+        "name": "Bordeaux (Left Bank)",
+        "notes": "Cabernet Sauvignon structure complements the richness of the beef and pastry."
+      },
+      {
+        "name": "Barolo",
+        "notes": "High tannin and acidity balance the fat and umami of the dish."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Center-cut beef tenderloin",
+        "quantity": "2-2.5 lbs",
+        "note": "trimmed"
+      },
+      {
+        "item": "Kosher salt",
+        "quantity": "to season"
+      },
+      {
+        "item": "Black pepper",
+        "quantity": "to season"
+      },
+      {
+        "item": "Neutral oil",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Dijon mustard",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Prosciutto",
+        "quantity": "6-8 slices"
+      },
+      {
+        "item": "Puff pastry",
+        "quantity": "1 sheet",
+        "note": "all-butter, thawed"
+      },
+      {
+        "item": "Egg yolks",
+        "quantity": "2"
+      },
+      {
+        "item": "Heavy cream",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Cremini mushrooms",
+        "quantity": "1 lb"
+      },
+      {
+        "item": "Shiitake mushrooms",
+        "quantity": "4 oz"
+      },
+      {
+        "item": "Shallots",
+        "quantity": "2"
+      },
+      {
+        "item": "Garlic cloves",
+        "quantity": "3"
+      },
+      {
+        "item": "Butter",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Dry sherry or Madeira",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Fresh thyme",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Eggs",
+        "quantity": "2",
+        "note": "for crepes"
+      },
+      {
+        "item": "Flour",
+        "quantity": "1/2 cup"
+      },
+      {
+        "item": "Milk",
+        "quantity": "1/2 cup"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Chamber vacuum sealer",
+        "link": "https://amzn.to/4eH0eZP"
+      },
+      {
+        "item": "Immersion circulator (sous vide)",
+        "link": "https://amzn.to/4mU2BuC"
+      },
+      {
+        "item": "Wireless probe thermometer",
+        "link": "https://amzn.to/4e7Lymo"
+      },
+      {
+        "item": "High-power food processor",
+        "link": "https://amzn.to/3Oo3C1f"
+      },
+      {
+        "item": "Offset spatula",
+        "link": "https://amzn.to/4u1Mf5d"
+      },
+      {
+        "item": "Plating tweezers",
+        "link": "https://amzn.to/48n6li9"
+      },
+      {
+        "item": "Ring molds",
+        "link": "https://amzn.to/3OZYIaP"
+      },
+      {
+        "item": "Perforated baking tray or silicone mat",
+        "link": "https://amzn.to/4mO9AF2"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Season the beef tenderloin with salt and pepper and sear in a hot pan with oil until deeply browned on all sides."
+      },
+      {
+        "number": 2,
+        "instruction": "Brush the seared beef with Dijon mustard while warm and allow to cool."
+      },
+      {
+        "number": 3,
+        "instruction": "Optional: Vacuum seal and cook sous vide at 125°F (52°C) for 45–60 minutes, then chill completely."
+      },
+      {
+        "number": 4,
+        "instruction": "Prepare the duxelles by finely chopping mushrooms in a food processor."
+      },
+      {
+        "number": 5,
+        "instruction": "Cook mushrooms with butter, shallots, garlic, and thyme until all moisture evaporates. Deglaze with sherry and cook dry."
+      },
+      {
+        "number": 6,
+        "instruction": "Spread duxelles on a tray and chill."
+      },
+      {
+        "number": 7,
+        "instruction": "Make crepes by whisking eggs, flour, milk, and salt, then cook thin layers in a buttered pan."
+      },
+      {
+        "number": 8,
+        "instruction": "Lay out plastic wrap, overlap prosciutto slices, spread duxelles evenly, then place crepes on top."
+      },
+      {
+        "number": 9,
+        "instruction": "Place beef at the edge and roll tightly into a log using plastic wrap. Chill for 20 minutes."
+      },
+      {
+        "number": 10,
+        "instruction": "Roll puff pastry to even thickness and wrap around the beef, sealing edges tightly."
+      },
+      {
+        "number": 11,
+        "instruction": "Brush with egg wash and score the pastry lightly for decoration."
+      },
+      {
+        "number": 12,
+        "instruction": "Bake at 425°F (220°C) for 20–25 minutes until golden brown."
+      },
+      {
+        "number": 13,
+        "instruction": "Cook until internal temperature reaches 120–125°F (49–52°C) for medium rare."
+      },
+      {
+        "number": 14,
+        "instruction": "Rest for 10–15 minutes before slicing."
+      },
+      {
+        "number": 15,
+        "instruction": "Slice carefully with a serrated knife and plate with sauce and sides."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Red Wine Reduction Sauce",
+        "ingredients": [
+          {
+            "item": "Red wine",
+            "quantity": "1/2 cup"
+          },
+          {
+            "item": "Veal stock",
+            "quantity": "1 cup"
+          },
+          {
+            "item": "Shallot",
+            "quantity": "1",
+            "note": "minced"
+          },
+          {
+            "item": "Butter",
+            "quantity": "1 tbsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Reduce wine and shallots by half over medium heat."
+          },
+          {
+            "number": 2,
+            "instruction": "Add veal stock and reduce until thick and glossy."
+          },
+          {
+            "number": 3,
+            "instruction": "Finish with butter and strain if desired."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Truffle Brioche French Toast with Foie Gras Custard, Compressed Berries & Maple-Sauternes Espuma",
+    "description": "A decadent fine-dining brunch composition featuring brioche soaked in a foie gras-enriched custard, caramelized in beurre noisette, paired with vacuum-compressed berries, maple-Sauternes espuma, and finished with fresh black truffle and textural frozen fruit shards.",
+    "category": "Brunch",
+    "keywords": "truffle french toast, foie gras custard, michelin brunch, compressed berries, maple espuma, molecular gastronomy, fine dining breakfast",
+    "yield": "Serves 4",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/black-truffle-brioche-french-toast-with-foie-gras-custard-compressed-berries-maple-sauternes-espuma.png",
+    "ingredients": [
+      {
+        "quantity": "8 slices",
+        "item": "day-old brioche",
+        "note": "high butter content, thick cut"
+      },
+      {
+        "quantity": "200g",
+        "item": "foie gras",
+        "note": "veins removed"
+      },
+      {
+        "quantity": "400ml",
+        "item": "heavy cream",
+        "note": ""
+      },
+      {
+        "quantity": "4",
+        "item": "egg yolks",
+        "note": ""
+      },
+      {
+        "quantity": "20g",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "quantity": "5g",
+        "item": "fine sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "1g",
+        "item": "white pepper",
+        "note": ""
+      },
+      {
+        "quantity": "10ml",
+        "item": "cognac",
+        "note": ""
+      },
+      {
+        "quantity": "100g",
+        "item": "clarified butter",
+        "note": ""
+      },
+      {
+        "quantity": "30g",
+        "item": "brown butter",
+        "note": "beurre noisette"
+      },
+      {
+        "quantity": "1 cup",
+        "item": "strawberries",
+        "note": "halved"
+      },
+      {
+        "quantity": "1 cup",
+        "item": "raspberries",
+        "note": ""
+      },
+      {
+        "quantity": "50g",
+        "item": "sugar",
+        "note": "for berries"
+      },
+      {
+        "quantity": "1",
+        "item": "orange",
+        "note": "zest only"
+      },
+      {
+        "quantity": "10ml",
+        "item": "aged balsamic vinegar",
+        "note": ""
+      },
+      {
+        "quantity": "100ml",
+        "item": "maple syrup",
+        "note": "Grade A"
+      },
+      {
+        "quantity": "50ml",
+        "item": "Sauternes wine",
+        "note": ""
+      },
+      {
+        "quantity": "100ml",
+        "item": "heavy cream",
+        "note": "for espuma"
+      },
+      {
+        "quantity": "2g",
+        "item": "soy lecithin",
+        "note": ""
+      },
+      {
+        "quantity": "1 small",
+        "item": "black truffle",
+        "note": "fresh, for shaving"
+      },
+      {
+        "quantity": "to finish",
+        "item": "edible flowers",
+        "note": ""
+      },
+      {
+        "quantity": "to finish",
+        "item": "flaky sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "optional",
+        "item": "gold leaf",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare foie gras custard: Gently heat foie gras with cream until just melted. Blend until completely smooth. Whisk in egg yolks, sugar, salt, white pepper, and cognac. Pass through a fine chinois. Vacuum seal and cook in a precision immersion circulator at 63°C (145°F) for 45 minutes. Cool slightly."
+      },
+      {
+        "instruction": "Prepare compressed berries: Toss strawberries and raspberries with sugar, orange zest, and aged balsamic. Vacuum seal in a chamber vacuum sealer on high pressure to compress and intensify flavor. Chill."
+      },
+      {
+        "instruction": "Prepare maple-Sauternes espuma: Warm maple syrup and Sauternes together. Add cream and soy lecithin, then blend. Transfer to a Gourmet Whip, charge with 1 N2O cartridge, and hold warm."
+      },
+      {
+        "instruction": "Soak brioche: Submerge brioche slices in warm foie gras custard for 10–15 minutes until fully saturated but intact."
+      },
+      {
+        "instruction": "Cook French toast: Heat clarified butter in a heavy pan to 180°C (356°F). Sear brioche until deeply golden on both sides. Baste with brown butter to finish."
+      },
+      {
+        "instruction": "Prepare frozen berry shards: Blend a portion of compressed berries into a smooth purée. Spread thinly onto an anti-griddle to instantly freeze, then break into irregular shards."
+      },
+      {
+        "instruction": "Plating: Place French toast off-center. Arrange compressed berries around. Dispense maple-Sauternes espuma in controlled quenelles. Insert frozen berry shards vertically for height. Finish with freshly shaved black truffle, edible flowers, flaky sea salt, and optional gold leaf."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/4efbYTf"
+      },
+      {
+        "item": "Precision Immersion Circulator",
+        "link": "https://amzn.to/4vYVCVa"
+      },
+      {
+        "item": "Gourmet Whip (Siphon)",
+        "link": "https://amzn.to/4cRJnCx"
+      },
+      {
+        "item": "Infrared Thermometer",
+        "link": "https://amzn.to/4t5Lo2u"
+      },
+      {
+        "item": "Microplane Truffle Shaver",
+        "link": "https://amzn.to/4eluYiX"
+      },
+      {
+        "item": "Fine-mesh Chinois",
+        "link": "https://amzn.to/498KTO7"
+      },
+      {
+        "item": "Gold Flakes",
+        "link": "https://amzn.to/3RddStV"
+      },
+      {
+        "item": "Japanese Tamagoyaki Pan",
+        "link": "https://amzn.to/4w0Ockf"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Sauternes",
+        "notes": "Echoes the sweetness of the maple espuma while balancing foie gras richness with acidity."
+      },
+      {
+        "name": "Vintage Champagne",
+        "notes": "Cuts through the fat and enhances the aromatic truffle and berry acidity."
+      }
+    ]
+  },
+  {
+    "name": "Black Truffle Brown Butter Souffle Waffle",
+    "description": "A Michelin-inspired waffle with a crisp caramelized exterior and airy souffle interior, layered with brown butter, black truffle, maple gastrique, and hazelnut texture.",
+    "category": "Brunch",
+    "keywords": "waffle, truffle, brown butter, fine dining, gourmet, souffle waffle",
+    "yield": "4 waffles",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/blacktruffle_brownbutter_waffle.PNG",
+    "ingredients": [
+      {
+        "quantity": "120g",
+        "item": "all-purpose flour",
+        "note": "sifted"
+      },
+      {
+        "quantity": "30g",
+        "item": "cornstarch",
+        "note": "for crisp texture"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "baking powder",
+        "note": ""
+      },
+      {
+        "quantity": "3",
+        "item": "eggs",
+        "note": "separated"
+      },
+      {
+        "quantity": "40g",
+        "item": "granulated sugar",
+        "note": ""
+      },
+      {
+        "quantity": "180ml",
+        "item": "whole milk",
+        "note": ""
+      },
+      {
+        "quantity": "60g",
+        "item": "brown butter",
+        "note": "cooled"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "vanilla bean paste",
+        "note": ""
+      },
+      {
+        "quantity": "1/2 tsp",
+        "item": "fine sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "black truffle",
+        "note": "finely grated or paste"
+      },
+      {
+        "quantity": "10g",
+        "item": "Parmigiano Reggiano",
+        "note": "optional, finely grated"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare brown butter by heating unsalted butter until milk solids turn amber and aromatic. Strain and cool."
+      },
+      {
+        "instruction": "In a saucepan, reduce maple syrup, vinegar, star anise, and salt until a light syrup consistency forms. Remove star anise and set aside."
+      },
+      {
+        "instruction": "Toast hazelnuts, coat in caramelized sugar, cool, then grind into a fine dust."
+      },
+      {
+        "instruction": "Whisk flour, cornstarch, baking powder, and salt in a bowl."
+      },
+      {
+        "instruction": "In another bowl, whisk egg yolks with sugar until pale, then add milk, vanilla, truffle, and brown butter."
+      },
+      {
+        "instruction": "Combine wet and dry ingredients gently until just incorporated."
+      },
+      {
+        "instruction": "Whip egg whites to soft peaks and fold into batter in three stages to maintain airiness."
+      },
+      {
+        "instruction": "Cook batter in a preheated waffle iron until deep golden and crisp."
+      },
+      {
+        "instruction": "Plate waffle with whipped creme fraiche, drizzle maple gastrique, and finish with hazelnut dust, truffle shavings, and microgreens."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Precision Combi Steam Oven",
+        "link": "https://amzn.to/4n0t9ua"
+      },
+      {
+        "item": "Infrared Thermometer",
+        "link": "https://amzn.to/4taHEwR"
+      },
+      {
+        "item": "Vacuum Infusion Chamber",
+        "link": "https://amzn.to/3QEncXE"
+      },
+      {
+        "item": "Micro-Lattice Waffle Insert Mold",
+        "link": "https://amzn.to/4mVRcdv"
+      },
+      {
+        "item": "Truffles",
+        "link": "https://amzn.to/4cTEEi6"
+      },
+      {
+        "item": "Plating Tweezers",
+        "link": "https://amzn.to/4eve5SX"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Sauternes",
+        "notes": "Sweet botrytized wine balancing the truffle richness with acidity and honeyed depth."
+      },
+      {
+        "name": "Champagne Brut Blanc de Blancs",
+        "notes": "High acidity and fine bubbles cut through the richness while enhancing nutty brown butter notes."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Brown Butter",
+        "yield": "60g usable",
+        "ingredients": [
+          {
+            "quantity": "100g",
+            "item": "unsalted butter",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Melt butter over medium heat until milk solids turn golden brown and aromatic, then strain."
+          }
+        ]
+      },
+      {
+        "name": "Maple Gastrique",
+        "yield": "Approx. 120ml",
+        "ingredients": [
+          {
+            "quantity": "100ml",
+            "item": "maple syrup",
+            "note": ""
+          },
+          {
+            "quantity": "30ml",
+            "item": "sherry vinegar",
+            "note": ""
+          },
+          {
+            "quantity": "1",
+            "item": "star anise",
+            "note": ""
+          },
+          {
+            "quantity": "pinch",
+            "item": "salt",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Simmer all ingredients until slightly thickened. Remove star anise before serving."
+          }
+        ]
+      },
+      {
+        "name": "Candied Hazelnut Dust",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "quantity": "100g",
+            "item": "hazelnuts",
+            "note": "toasted"
+          },
+          {
+            "quantity": "40g",
+            "item": "sugar",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Caramelize sugar, coat hazelnuts, cool completely, then grind into a fine powder."
           }
         ]
       }
@@ -2075,6 +3094,308 @@
     ]
   },
   {
+    "name": "Butter-Poached Blue Prawns with Saffron-Shellfish Emulsion",
+    "yield": "2 servings",
+    "description": "A molecular gastronomy course featuring precision-temperature prawns and a centrifuged saffron-shellfish foam.",
+    "category": "Main",
+    "keywords": "prawns, shrimp, molecular gastronomy, sous vide",
+    "ingredients": [
+      {
+        "item": "Blue Prawns or Tiger Shrimp",
+        "quantity": "8-10",
+        "note": "fresh, head-on"
+      },
+      {
+        "item": "Cultured Butter (82% fat)",
+        "quantity": "8 ounces"
+      },
+      {
+        "item": "Saffron Threads",
+        "quantity": "1 pinch"
+      },
+      {
+        "item": "Lemongrass",
+        "quantity": "1 stalk",
+        "note": "bruised"
+      },
+      {
+        "item": "Dry White Wine",
+        "quantity": "1/4 cup"
+      },
+      {
+        "item": "Shellfish Stock",
+        "quantity": "2 cups"
+      },
+      {
+        "item": "Fresh Chervil",
+        "quantity": "1 sprig",
+        "note": "for garnish"
+      },
+      {
+        "item": "Lecithin or Heavy Cream",
+        "quantity": "1 teaspoon",
+        "note": "to stabilize foam"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Gourmet Whip siphon + 2 N?O chargers",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Digital Refractometer",
+        "link": "https://amzn.to/4cE3zX8"
+      },
+      {
+        "item": "Culinary blowtorch",
+        "link": "https://amzn.to/42eE89w"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the shellfish stock using prawn heads and shells."
+      },
+      {
+        "number": 2,
+        "instruction": "Pour the strained stock into the canisters of a culinary centrifuge; spin until the liquid clarifies into a pure essence."
+      },
+      {
+        "number": 3,
+        "instruction": "Place butter, saffron, and lemongrass into a vacuum bag; use a chamber vacuum sealer to pull a full vacuum for precision infusion."
+      },
+      {
+        "number": 4,
+        "instruction": "Set the immersion circulator to 125.6�F (52�C)."
+      },
+      {
+        "number": 5,
+        "instruction": "Clean prawns and place in a vacuum bag with the saffron-infused butter; seal and submerge in the water bath for 12�15 minutes."
+      },
+      {
+        "number": 6,
+        "instruction": "Reduce the centrifuged shellfish essence with white wine, using a digital refractometer to verify the ideal density/sugar concentration."
+      },
+      {
+        "number": 7,
+        "instruction": "Add lecithin or heavy cream to the reduction; pour into a siphon and charge with gas cartridges."
+      },
+      {
+        "number": 8,
+        "instruction": "Remove prawns from the bath, pat dry, and give a brief singe with a culinary torch for aroma."
+      },
+      {
+        "number": 9,
+        "instruction": "Plating: Place prawns in a shallow bowl, dispense saffron foam from the siphon over the top, and garnish with chervil."
+      }
+    ],
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.png"
+  },
+  {
+    "name": "Butter-Poached Lobster with Saffron Foam, Fennel Ash & Citrus Gel",
+    "description": "A refined seafood dish featuring butter-poached lobster, airy saffron foam, bright citrus gel, and fennel ash for a modern, Michelin-style presentation.",
+    "category": "Main",
+    "keywords": "lobster, seafood, modernist, fine dining",
+    "yield": "2-3 plates",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.PNG",
+    "ingredients": [
+      {
+        "quantity": "2-3",
+        "item": "Lobster tails",
+        "note": ""
+      },
+      {
+        "quantity": "500g",
+        "item": "Unsalted butter",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "Garlic cloves",
+        "note": "lightly crushed"
+      },
+      {
+        "quantity": "a few sprigs",
+        "item": "Fresh thyme",
+        "note": ""
+      },
+      {
+        "quantity": "from 1 lemon",
+        "item": "Lemon zest",
+        "note": ""
+      },
+      {
+        "quantity": "200ml",
+        "item": "Seafood stock",
+        "note": ""
+      },
+      {
+        "quantity": "100ml",
+        "item": "Heavy cream",
+        "note": ""
+      },
+      {
+        "quantity": "pinch",
+        "item": "Saffron threads",
+        "note": ""
+      },
+      {
+        "quantity": "small pinch",
+        "item": "Lecithin",
+        "note": ""
+      },
+      {
+        "quantity": "200ml",
+        "item": "Orange juice",
+        "note": ""
+      },
+      {
+        "quantity": "50ml",
+        "item": "Lemon juice",
+        "note": ""
+      },
+      {
+        "quantity": "2g",
+        "item": "Agar-agar",
+        "note": ""
+      },
+      {
+        "quantity": "handful",
+        "item": "Fennel fronds",
+        "note": ""
+      },
+      {
+        "quantity": "small amount",
+        "item": "Olive oil",
+        "note": ""
+      },
+      {
+        "quantity": "for garnish",
+        "item": "Microgreens",
+        "note": ""
+      },
+      {
+        "quantity": "1 bulb",
+        "item": "Fresh fennel",
+        "note": "thinly shaved"
+      },
+      {
+        "quantity": "for garnish",
+        "item": "Citrus segments",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Remove lobster meat from shells carefully, keeping pieces intact."
+      },
+      {
+        "instruction": "Place lobster in a vacuum bag with butter, garlic, thyme, and lemon zest, then seal."
+      },
+      {
+        "instruction": "Cook in a water bath at 56�C (132.8�F) for 20�25 minutes."
+      },
+      {
+        "instruction": "Gently heat seafood stock, cream, and saffron to infuse flavor without boiling."
+      },
+      {
+        "instruction": "Strain the mixture, add lecithin, blend, and transfer to a cream siphon. Charge and keep warm."
+      },
+      {
+        "instruction": "Combine orange juice, lemon juice, and agar-agar, then bring to a boil while whisking."
+      },
+      {
+        "instruction": "Pour into a shallow container and allow to set."
+      },
+      {
+        "instruction": "Blend the set gel until smooth and strain for a refined texture."
+      },
+      {
+        "instruction": "Lightly coat fennel fronds in oil and dehydrate until fully dry."
+      },
+      {
+        "instruction": "Char the dried fennel and grind into a fine ash."
+      },
+      {
+        "instruction": "Remove lobster from bag and slice into even medallions."
+      },
+      {
+        "instruction": "Plate lobster with space between pieces for a clean presentation."
+      },
+      {
+        "instruction": "Add dots or lines of citrus gel around the plate."
+      },
+      {
+        "instruction": "Dispense saffron foam lightly over or beside the lobster."
+      },
+      {
+        "instruction": "Dust fennel ash sparingly across the plate."
+      },
+      {
+        "instruction": "Finish with microgreens, shaved fennel, and citrus segments for garnish."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Whisk",
+        "link": "https://amzn.to/4sUHGc5"
+      },
+      {
+        "item": "Gourmet Whip siphon + 2 N?O chargers",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Fine mesh strainer",
+        "link": "https://amzn.to/4cjQK5p"
+      },
+      {
+        "item": "Dehydrator",
+        "link": "https://amzn.to/48cq2Jp"
+      },
+      {
+        "item": "Saffron",
+        "link": "https://amzn.to/4cUHe8V"
+      },
+      {
+        "item": "Plating tweezers",
+        "link": "https://amzn.to/48hNwwH"
+      },
+      {
+        "item": "Infrared thermometer",
+        "link": "https://amzn.to/4tmdWFX"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Chablis",
+        "notes": "Crisp minerality enhances the sweetness of lobster."
+      },
+      {
+        "name": "Champagne",
+        "notes": "Bright acidity and bubbles cut through the richness of butter."
+      }
+    ],
+    "sub_recipes": []
+  },
+  {
     "name": "Cacao Sablé with Fleur de Sel Caramel",
     "source": "adapted from: Classic French Bistro",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/cacaosable_caramel.webp",
@@ -2461,6 +3782,192 @@
     ]
   },
   {
+    "name": "Caramelized Banana Mille-Feuille with Espresso Custard, Tonka Bean Air & Gold Leaf Honeycomb",
+    "description": "A Michelin-level brunch dessert featuring vacuum-compressed caramelized banana layers stacked with espresso custard sheets, paired with tonka bean air, gold-leaf honeycomb shards, and aromatic banana essence.",
+    "category": "Brunch",
+    "keywords": "banana mille-feuille, espresso custard, tonka bean foam, molecular gastronomy, fine dining brunch, honeycomb candy, modernist dessert",
+    "yield": "Serves 4",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-banana-mille-feuille-with-espresso-custard-tonka-bean-air-gold-leaf-honeycomb.PNG",
+    "ingredients": [
+      {
+        "quantity": "6",
+        "item": "ripe bananas",
+        "note": "firm but sweet"
+      },
+      {
+        "quantity": "150g",
+        "item": "superfine sugar",
+        "note": ""
+      },
+      {
+        "quantity": "50g",
+        "item": "glucose syrup",
+        "note": ""
+      },
+      {
+        "quantity": "20g",
+        "item": "unsalted butter",
+        "note": ""
+      },
+      {
+        "quantity": "1g",
+        "item": "sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "300ml",
+        "item": "heavy cream",
+        "note": ""
+      },
+      {
+        "quantity": "100ml",
+        "item": "whole milk",
+        "note": ""
+      },
+      {
+        "quantity": "5",
+        "item": "egg yolks",
+        "note": ""
+      },
+      {
+        "quantity": "80g",
+        "item": "sugar",
+        "note": "for custard"
+      },
+      {
+        "quantity": "20g",
+        "item": "finely ground espresso",
+        "note": ""
+      },
+      {
+        "quantity": "2g",
+        "item": "agar-agar",
+        "note": ""
+      },
+      {
+        "quantity": "250ml",
+        "item": "whole milk",
+        "note": "for tonka air"
+      },
+      {
+        "quantity": "1",
+        "item": "tonka bean",
+        "note": "microplaned"
+      },
+      {
+        "quantity": "2g",
+        "item": "soy lecithin",
+        "note": ""
+      },
+      {
+        "quantity": "200g",
+        "item": "sugar",
+        "note": "for honeycomb"
+      },
+      {
+        "quantity": "60g",
+        "item": "honey",
+        "note": ""
+      },
+      {
+        "quantity": "50ml",
+        "item": "water",
+        "note": ""
+      },
+      {
+        "quantity": "8g",
+        "item": "baking soda",
+        "note": ""
+      },
+      {
+        "quantity": "to finish",
+        "item": "edible gold leaf",
+        "note": ""
+      },
+      {
+        "quantity": "to garnish",
+        "item": "cocoa nibs",
+        "note": "crushed"
+      },
+      {
+        "quantity": "to garnish",
+        "item": "micro mint",
+        "note": ""
+      },
+      {
+        "quantity": "to garnish",
+        "item": "espresso reduction",
+        "note": "in droplets"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare vacuum-compressed bananas: Slice bananas into thin planks and seal in a vacuum chamber at full pressure to intensify flavor and density. Rest 10 minutes."
+      },
+      {
+        "instruction": "Caramelize banana layers: Heat sugar and glucose to 170°C (338°F). Add butter and salt, then coat banana slices. Lay flat and lightly torch for a glossy finish."
+      },
+      {
+        "instruction": "Prepare espresso custard: Heat cream, milk, and espresso. Temper into egg yolks and sugar. Cook to 82°C (180°F), whisk in agar, and set in thin sheets. Chill and cut into precise layers."
+      },
+      {
+        "instruction": "Create honeycomb: Cook sugar, honey, and water to 150°C (302°F). Remove from heat, whisk in baking soda, and pour onto a silicone mat. Cool, break into shards, and apply gold leaf."
+      },
+      {
+        "instruction": "Prepare tonka bean air: Infuse warm milk with tonka bean, strain, and add lecithin. Use an ultrasonic homogenizer to generate a stable, fine foam."
+      },
+      {
+        "instruction": "Optional banana crisp: Flash freeze thin banana slices in liquid nitrogen and shatter into delicate shards."
+      },
+      {
+        "instruction": "Plating: Stack alternating banana and custard layers into a mille-feuille. Arrange honeycomb shards vertically. Spoon tonka air alongside. Garnish with cocoa nibs, espresso reduction, and micro mint. Finish with aromatic banana mist if available."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Vacuum Compression Chamber",
+        "link": "https://amzn.to/4w38SYW"
+      },
+      {
+        "item": "Ultrasonic Homogenizer",
+        "link": "https://amzn.to/4tQpthg"
+      },
+      {
+        "item": "Infrared Thermometer Gun",
+        "link": "https://amzn.to/4cKOows"
+      },
+      {
+        "item": "Micro-Perforated Silicone Mats",
+        "link": "https://amzn.to/4t9PnLF"
+      },
+      {
+        "item": "Liquid Nitrogen Dewar",
+        "link": "https://amzn.to/42FAKVv"
+      },
+      {
+        "item": "Gold Flakes",
+        "link": "https://amzn.to/3RddStV"
+      },
+      {
+        "item": "Sugar Pulling Heat Lamp",
+        "link": "https://amzn.to/4ulOctE"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Espresso Martini",
+        "notes": "Enhances the coffee bitterness and complements the dessert’s layered richness."
+      },
+      {
+        "name": "Pedro Ximénez Sherry",
+        "notes": "Deep caramel and raisin notes mirror the banana and honeycomb sweetness."
+      }
+    ],
+    "sub_recipes": []
+  },
+  {
     "name": "Caramelized Fig Manhattan",
     "source": "Yes Chef! Kitchen",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/CarmelizedFigManhatten.webp",
@@ -2661,6 +4168,445 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Caramelized Vanilla Bean & Brown Butter Cinnamon Rolls",
+    "description": "A Michelin-inspired laminated brioche cinnamon roll with caramelized brown butter filling, Ceylon cinnamon, citrus aromatics, and a mascarpone vanilla bean glaze.",
+    "category": "Brunch",
+    "keywords": "cinnamon rolls, brioche, laminated dough, brown butter, pastry, fine dining, gourmet",
+    "yield": "12 rolls",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.PNG",
+    "ingredients": [
+      {
+        "quantity": "500g",
+        "item": "bread flour",
+        "note": "high protein"
+      },
+      {
+        "quantity": "60g",
+        "item": "granulated sugar",
+        "note": ""
+      },
+      {
+        "quantity": "10g",
+        "item": "fine sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "10g",
+        "item": "instant yeast",
+        "note": ""
+      },
+      {
+        "quantity": "4",
+        "item": "eggs",
+        "note": "room temperature"
+      },
+      {
+        "quantity": "120ml",
+        "item": "whole milk",
+        "note": "warmed to 95�F"
+      },
+      {
+        "quantity": "200g",
+        "item": "European-style butter",
+        "note": "cold, cubed"
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "orange zest",
+        "note": "finely grated"
+      },
+      {
+        "quantity": "180g",
+        "item": "unsalted butter",
+        "note": "for brown butter filling"
+      },
+      {
+        "quantity": "220g",
+        "item": "dark brown sugar",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "Ceylon cinnamon",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "freshly grated nutmeg",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "vanilla bean paste",
+        "note": ""
+      },
+      {
+        "quantity": "pinch",
+        "item": "Maldon salt",
+        "note": ""
+      },
+      {
+        "quantity": "200g",
+        "item": "powdered sugar",
+        "note": ""
+      },
+      {
+        "quantity": "100g",
+        "item": "mascarpone",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "vanilla bean",
+        "note": "split and scraped"
+      },
+      {
+        "quantity": "2�3 tbsp",
+        "item": "heavy cream",
+        "note": ""
+      },
+      {
+        "quantity": "pinch",
+        "item": "salt",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Combine flour, sugar, salt, and yeast in a stand mixer."
+      },
+      {
+        "instruction": "Add eggs and warm milk; mix until a shaggy dough forms."
+      },
+      {
+        "instruction": "Gradually incorporate butter and knead until smooth and elastic (windowpane stage)."
+      },
+      {
+        "instruction": "Proof dough at 75�78�F until doubled, about 90 minutes."
+      },
+      {
+        "instruction": "Refrigerate dough overnight for flavor development and easier handling."
+      },
+      {
+        "instruction": "Prepare brown butter by heating butter until amber and nutty; cool slightly and mix with brown sugar, cinnamon, nutmeg, vanilla, and salt."
+      },
+      {
+        "instruction": "Roll dough into a rectangle, spread filling evenly, and fold into thirds."
+      },
+      {
+        "instruction": "Chill for 20 minutes, then repeat folding process once more for lamination."
+      },
+      {
+        "instruction": "Roll dough to 1/4 inch thickness and slice into 2-inch spirals."
+      },
+      {
+        "instruction": "Place rolls into a buttered baking dish and proof 45�60 minutes until puffy."
+      },
+      {
+        "instruction": "Bake at 350�F (175�C) for 20�25 minutes until golden brown."
+      },
+      {
+        "instruction": "Whisk mascarpone, powdered sugar, vanilla bean, cream, and salt to form glaze."
+      },
+      {
+        "instruction": "Glaze rolls while warm and finish with optional garnishes."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Infrared Thermometer Gun",
+        "link": "https://amzn.to/4taHEwR"
+      },
+      {
+        "item": "Digital Dough Sheeter",
+        "link": "https://amzn.to/4eXu5NE"
+      },
+      {
+        "item": "Copper Saucepan",
+        "link": "https://amzn.to/4vZgag7"
+      },
+      {
+        "item": "Gold Flakes",
+        "link": "https://amzn.to/4cZRuvr"
+      },
+      {
+        "item": "Precision Gram Scale",
+        "link": "https://amzn.to/4mW2Chq"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Tokaji Asz�",
+        "notes": "Lush sweetness with balancing acidity enhances caramelized cinnamon and brown butter notes."
+      },
+      {
+        "name": "Champagne Demi-Sec",
+        "notes": "Light sweetness and acidity complement the richness while refreshing the palate."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Brown Butter Filling",
+        "yield": "Enough for 12 rolls",
+        "ingredients": [
+          {
+            "quantity": "180g",
+            "item": "unsalted butter",
+            "note": ""
+          },
+          {
+            "quantity": "220g",
+            "item": "dark brown sugar",
+            "note": ""
+          },
+          {
+            "quantity": "2 tbsp",
+            "item": "Ceylon cinnamon",
+            "note": ""
+          },
+          {
+            "quantity": "1 tsp",
+            "item": "nutmeg",
+            "note": ""
+          },
+          {
+            "quantity": "1 tsp",
+            "item": "vanilla bean paste",
+            "note": ""
+          },
+          {
+            "quantity": "pinch",
+            "item": "salt",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Brown butter until nutty and amber."
+          },
+          {
+            "instruction": "Mix with sugar, spices, vanilla, and salt until spreadable."
+          }
+        ]
+      },
+      {
+        "name": "Mascarpone Vanilla Glaze",
+        "yield": "Enough for 12 rolls",
+        "ingredients": [
+          {
+            "quantity": "200g",
+            "item": "powdered sugar",
+            "note": ""
+          },
+          {
+            "quantity": "100g",
+            "item": "mascarpone",
+            "note": ""
+          },
+          {
+            "quantity": "1",
+            "item": "vanilla bean",
+            "note": ""
+          },
+          {
+            "quantity": "2�3 tbsp",
+            "item": "heavy cream",
+            "note": ""
+          },
+          {
+            "quantity": "pinch",
+            "item": "salt",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Whisk all ingredients until smooth and pourable."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Caviar Cloud Eggs with Truffle Brioche & Brown Butter Hollandaise Foam",
+    "description": "A Michelin-level brunch reimagining eggs Benedict: airy whipped egg white clouds encasing a molten yolk, set atop vacuum-infused truffle brioche, finished with brown butter hollandaise foam, herb emulsion accents, and premium caviar.",
+    "category": "Brunch",
+    "keywords": "cloud eggs, truffle brioche, caviar brunch, michelin style breakfast, hollandaise foam, molecular gastronomy, fine dining eggs",
+    "yield": "Serves 4",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.PNG",
+    "ingredients": [
+      {
+        "quantity": "8",
+        "item": "large pasture-raised eggs",
+        "note": "separated"
+      },
+      {
+        "quantity": "4",
+        "item": "extra egg yolks",
+        "note": "for sous vide yolk centers"
+      },
+      {
+        "quantity": "1/4 tsp",
+        "item": "cream of tartar",
+        "note": ""
+      },
+      {
+        "quantity": "4 slices",
+        "item": "brioche bread",
+        "note": "high butter content"
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "cultured butter",
+        "note": ""
+      },
+      {
+        "quantity": "1 small",
+        "item": "black truffle",
+        "note": "or high-quality preserved truffle"
+      },
+      {
+        "quantity": "150g",
+        "item": "unsalted butter",
+        "note": "for browning"
+      },
+      {
+        "quantity": "3",
+        "item": "egg yolks",
+        "note": "for hollandaise"
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "champagne vinegar",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "lemon juice",
+        "note": "fresh"
+      },
+      {
+        "quantity": "1 pinch",
+        "item": "cayenne pepper",
+        "note": ""
+      },
+      {
+        "quantity": "1 cup",
+        "item": "fresh herbs",
+        "note": "parsley, chives, tarragon"
+      },
+      {
+        "quantity": "1/2 cup",
+        "item": "neutral oil",
+        "note": "grapeseed or similar"
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "spinach",
+        "note": "for color"
+      },
+      {
+        "quantity": "50g",
+        "item": "Oscietra or Kaluga caviar",
+        "note": "premium quality"
+      },
+      {
+        "quantity": "to finish",
+        "item": "microgreens and edible flowers",
+        "note": ""
+      },
+      {
+        "quantity": "optional",
+        "item": "gold leaf",
+        "note": "for luxury presentation"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare sous vide yolks: Place egg yolks with a small amount of clarified butter into a vacuum bag. Cook in a precision immersion circulator at 63°C (145°F) for 35 minutes until custard-like."
+      },
+      {
+        "instruction": "Make herb emulsion: Blend herbs, neutral oil, spinach, and lemon zest until smooth. Strain through a fine chinois. Spread onto an anti-griddle to create delicate frozen sheets, then break into organic shapes."
+      },
+      {
+        "instruction": "Infuse brioche: Lightly butter brioche slices and layer with shaved black truffle. Vacuum seal to compress and infuse flavor. Toast gently until golden and aromatic."
+      },
+      {
+        "instruction": "Prepare brown butter hollandaise: Brown butter until nutty. Whisk egg yolks with champagne vinegar over bain-marie until thickened. Slowly emulsify in brown butter, then add lemon juice and cayenne. Strain and transfer to a siphon, charge with N2O, and keep warm."
+      },
+      {
+        "instruction": "Create cloud eggs: Whip egg whites with cream of tartar to stiff peaks. Spoon into nests on parchment and bake at 375°F (190°C) for 3 minutes. Add yolk center and bake an additional 2 minutes."
+      },
+      {
+        "instruction": "Assembly: Place toasted truffle brioche on plate, top with cloud egg, and carefully insert sous vide yolk."
+      },
+      {
+        "instruction": "Plating: Dispense hollandaise foam tableside, add a quenelle of caviar, arrange herb emulsion pieces, microgreens, and edible flowers. Finish with gold leaf if desired."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Anti-Griddle (Cold Plate)",
+        "link": "https://amzn.to/4cHRl0L"
+      },
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/426sgXf"
+      },
+      {
+        "item": "Precision Immersion Circulator",
+        "link": "https://amzn.to/4tLYS4O"
+      },
+      {
+        "item": "ISI Gourmet Whip (Siphon)",
+        "link": "https://amzn.to/4tBEsvc"
+      },
+      {
+        "item": "Gold Flakes",
+        "link": "https://amzn.to/4t1ME6R"
+      },
+      {
+        "item": "Edible Flowers",
+        "link": "https://amzn.to/4ukKjVN"
+      },
+      {
+        "item": "Truffles",
+        "link": "https://amzn.to/4tLlZwr"
+      },
+      {
+        "item": "Japanese Carbon Steel Tamagoyaki Pan",
+        "link": "https://amzn.to/4cHRcKL"
+      },
+      {
+        "item": "Black Truffle Shaver",
+        "link": "https://amzn.to/4cS8XWv"
+      },
+      {
+        "item": "Fine-mesh Chinois",
+        "link": "https://amzn.to/48tWV4y"
+      },
+      {
+        "item": "Smoked Glass Cloche",
+        "link": "https://amzn.to/4tI1hgK"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Vintage Champagne",
+        "notes": "High acidity cuts through the richness of hollandaise and enhances the caviar."
+      },
+      {
+        "name": "White Burgundy (Meursault)",
+        "notes": "Buttery texture complements brioche and brown butter flavors."
+      }
+    ],
+    "sub_recipes": []
   },
   {
     "name": "Celery Gin Cloud",
@@ -4389,6 +6335,194 @@
     ]
   },
   {
+    "name": "Dry-Aged Hamachi Crudo with Yuzu-Kosho Snow, Compressed Cucumber & Smoked Olive Oil Pearls",
+    "description": "A Michelin-level seafood starter featuring delicate slices of dry-aged hamachi, bright yuzu-kosho snow, vacuum-compressed cucumber, and smoked olive oil pearls. A refined balance of acidity, fat, texture, and aroma using modernist techniques.",
+    "category": "Starter",
+    "keywords": "hamachi crudo, yuzu kosho, molecular gastronomy, fine dining seafood, spherification, compressed cucumber, modernist cuisine",
+    "yield": "Serves 4",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.png",
+    "ingredients": [
+      {
+        "quantity": "200g",
+        "item": "sushi-grade hamachi (yellowtail)",
+        "note": "preferably dry-aged 3–5 days"
+      },
+      {
+        "quantity": "to taste",
+        "item": "flaky sea salt",
+        "note": "Maldon preferred"
+      },
+      {
+        "quantity": "15ml",
+        "item": "white soy sauce (shiro shoyu)",
+        "note": ""
+      },
+      {
+        "quantity": "30ml",
+        "item": "fresh yuzu juice",
+        "note": ""
+      },
+      {
+        "quantity": "50ml",
+        "item": "yuzu juice",
+        "note": "for yuzu-kosho snow"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "yuzu kosho",
+        "note": ""
+      },
+      {
+        "quantity": "5g",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "quantity": "1 sheet",
+        "item": "gelatin",
+        "note": "or 2g agar-agar"
+      },
+      {
+        "quantity": "1",
+        "item": "English cucumber",
+        "note": ""
+      },
+      {
+        "quantity": "30ml",
+        "item": "rice vinegar",
+        "note": ""
+      },
+      {
+        "quantity": "30ml",
+        "item": "simple syrup",
+        "note": "1:1 sugar and water"
+      },
+      {
+        "quantity": "small handful",
+        "item": "fresh dill",
+        "note": ""
+      },
+      {
+        "quantity": "150ml",
+        "item": "extra virgin olive oil",
+        "note": "high quality"
+      },
+      {
+        "quantity": "1g",
+        "item": "sodium alginate",
+        "note": ""
+      },
+      {
+        "quantity": "2g",
+        "item": "calcium chloride",
+        "note": ""
+      },
+      {
+        "quantity": "500ml",
+        "item": "distilled water",
+        "note": ""
+      },
+      {
+        "quantity": "to garnish",
+        "item": "micro shiso leaves",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "finger lime",
+        "note": "for citrus pearls"
+      },
+      {
+        "quantity": "to garnish",
+        "item": "black sesame seeds",
+        "note": "toasted"
+      },
+      {
+        "quantity": "to finish",
+        "item": "fresh wasabi root",
+        "note": "grated"
+      },
+      {
+        "quantity": "small amount",
+        "item": "applewood chips",
+        "note": "for smoking"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Lightly cure the hamachi: Brush with white soy sauce and a few drops of yuzu juice. Rest for 10 minutes, then chill. Slice into thin, precise pieces using a sharp yanagiba knife."
+      },
+      {
+        "instruction": "Prepare yuzu-kosho base: Gently heat yuzu juice, sugar, and yuzu kosho until dissolved. Add gelatin (or agar) and set into a thin sheet. Chill until firm."
+      },
+      {
+        "instruction": "Create yuzu-kosho snow: Place the set gel onto an anti-griddle or freeze completely, then scrape into fine crystalline flakes."
+      },
+      {
+        "instruction": "Compress cucumber: Slice cucumber into uniform shapes. Vacuum seal with rice vinegar, simple syrup, and dill. Allow to compress until translucent, then chill."
+      },
+      {
+        "instruction": "Smoke olive oil: Place olive oil under a cloche and infuse with applewood smoke using a smoking gun for 2–3 minutes."
+      },
+      {
+        "instruction": "Prepare spherification bath: Mix calcium chloride with distilled water. Separately blend smoked olive oil with sodium alginate until smooth."
+      },
+      {
+        "instruction": "Form olive oil pearls: Using a pipette, drop olive oil mixture into calcium bath. Allow spheres to form, then rinse in clean water."
+      },
+      {
+        "instruction": "Plating: Arrange hamachi slices in a clean line or spiral. Add compressed cucumber pieces with geometric precision. Dot smoked olive oil pearls across the plate. Garnish with finger lime pearls, black sesame, micro shiso, and freshly grated wasabi."
+      },
+      {
+        "instruction": "Finish: Lightly scatter yuzu-kosho snow over the hamachi just before serving. Optionally cover with a cloche and infuse with a final touch of smoke tableside."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Vacuum Chamber Sealer",
+        "link": "https://amzn.to/4n4Psia"
+      },
+      {
+        "item": "Smoking Gun with Glass Cloche",
+        "link": "https://amzn.to/4emoUa1"
+      },
+      {
+        "item": "Spherification Kit (Sodium Alginate + Calcium Chloride)",
+        "link": "https://amzn.to/4tbM72a"
+      },
+      {
+        "item": "Precision Digital pH Meter",
+        "link": "https://amzn.to/4n7zt2M"
+      },
+      {
+        "item": "Yanagiba Knife",
+        "link": "https://amzn.to/49l1w9h"
+      },
+      {
+        "item": "Plating Tweezers Set",
+        "link": "https://amzn.to/4ulxQAZ"
+      },
+      {
+        "item": "Plates",
+        "link": "https://amzn.to/4cPWXpX"
+      },
+      {
+        "item": "Offset Plating Spatula",
+        "link": "https://amzn.to/48GyqBb"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Junmai Daiginjo Sake",
+        "notes": "Clean, aromatic, and slightly fruity—enhances the delicate richness of hamachi without overpowering the citrus elements."
+      },
+      {
+        "name": "Sancerre (Loire Valley Sauvignon Blanc)",
+        "notes": "High acidity and mineral notes complement the yuzu brightness and cut through the fatty fish."
+      }
+    ]
+  },
+  {
     "name": "Duck Carnitas with Mole Negro and Cocoa Nib Dust",
     "source": "adpated from Pujol",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/duckcarnitas_molenegro_cocoanibdust.webp",
@@ -5147,6 +7281,176 @@
     ]
   },
   {
+    "name": "Forest Sunrise",
+    "description": "A 64°C slow-poached egg served over a truffled Jerusalem artichoke velouté with aerated brioche 'soil' and vacuum-compressed artichoke shavings.",
+    "category": "Brunch",
+    "keywords": "Michelin, Modernist, Egg, Artichoke, Truffle, Dominique Crenn",
+    "yield": "4 Servings",
+    "source": "Gemini Culinary Laboratory",
+    "chef": "Inspired by Dominique Crenn",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/forest-sunrise.jpg",
+    "ingredients": [
+      {
+        "quantity": "4",
+        "item": "Farm-fresh organic eggs",
+        "note": "Room temperature"
+      },
+      {
+        "quantity": "As needed",
+        "item": "Micro-sorrel",
+        "note": "For garnish"
+      },
+      {
+        "quantity": "As needed",
+        "item": "Herb oil",
+        "note": "For garnish"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Set the immersion circulator to 64°C (147.2°F)."
+      },
+      {
+        "instruction": "Gently lower eggs into the water bath and cook for 45 minutes."
+      },
+      {
+        "instruction": "Carefully crack each egg into a small spoon to drain loose whites before plating."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Immersion Circulator (Sous Vide)",
+        "link": "https://amazon.com/dp/B087NBPX6V?tag=yeschef-20"
+      },
+      {
+        "item": "Whipping Siphon",
+        "link": "https://amzn.to/42ui4I8"
+      },
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/4cIQZWr0"
+      },
+      {
+        "item": "Fine-Mesh Chinois",
+        "link": "https://amzn.to/4e8R1t4"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Vintage Champagne",
+        "notes": "The high acidity and brioche notes complement the truffle and rich egg yolk."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Truffled Jerusalem Artichoke Velouté",
+        "yield": "Makes approx. 400ml",
+        "ingredients": [
+          {
+            "quantity": "500g",
+            "item": "Jerusalem artichokes",
+            "note": "Peeled and sliced"
+          },
+          {
+            "quantity": "1",
+            "item": "White leek",
+            "note": "Whites only, sliced"
+          },
+          {
+            "quantity": "300ml",
+            "item": "Heavy cream",
+            "note": ""
+          },
+          {
+            "quantity": "100ml",
+            "item": "Vegetable nage",
+            "note": ""
+          },
+          {
+            "quantity": "10ml",
+            "item": "White truffle oil",
+            "note": "High quality"
+          },
+          {
+            "quantity": "As needed",
+            "item": "Unsalted butter",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Sweat artichokes and leeks in butter over low heat without browning."
+          },
+          {
+            "instruction": "Add cream and nage; simmer until tender."
+          },
+          {
+            "instruction": "Blend in a high-speed blender for 3 minutes until molecularly smooth."
+          },
+          {
+            "instruction": "Pass through a chinois and stir in truffle oil."
+          }
+        ]
+      },
+      {
+        "name": "Aerated Brioche Soil",
+        "yield": "Makes 1.5 cups",
+        "ingredients": [
+          {
+            "quantity": "200g",
+            "item": "Fresh brioche",
+            "note": "Torn into pieces"
+          },
+          {
+            "quantity": "50g",
+            "item": "Toasted hazelnuts",
+            "note": ""
+          },
+          {
+            "quantity": "5g",
+            "item": "Dried porcini powder",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Dehydrate brioche at 80°C until dry."
+          },
+          {
+            "instruction": "Pulse with hazelnuts and porcini powder into a coarse earth texture."
+          },
+          {
+            "instruction": "Place in whipping siphon, charge with N2O, and shake to aerate."
+          }
+        ]
+      },
+      {
+        "name": "Compressed Artichoke Garnish",
+        "yield": "Makes 12-15 shavings",
+        "ingredients": [
+          {
+            "quantity": "1",
+            "item": "Raw Jerusalem artichoke",
+            "note": "Shaved thin on mandoline"
+          },
+          {
+            "quantity": "Splash",
+            "item": "Lemon water",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Place shavings and lemon water in a vacuum bag."
+          },
+          {
+            "instruction": "Run a full cycle in a chamber vacuum sealer to achieve translucency."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Garden Composition with Herb Vinaigrette",
     "source": "adapted from Arpège",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/MicroVegetablePlatter.jpg",
@@ -5302,6 +7606,214 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Glass-Laminate Potato Pavé with Truffle Aerated Emulsion",
+    "description": "A structural culinary masterpiece featuring 50+ hyper-precise layers of Yukon Gold potatoes, compressed and slow-cooked to a velvet interior with a glass-like crisp exterior, accompanied by a light-as-air truffle-infused warm aeration.",
+    "category": "Sides",
+    "keywords": "potato pavé, michelin style, truffle aeration, molecular gastronomy, haute cuisine",
+    "yield": "1 terrine (serves 4-6)",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glass-laminate-potato-pav-with-truffle-aerated-emulsion.jpg",
+    "ingredients": [
+      {
+        "quantity": "4 large",
+        "item": "Yukon Gold potatoes",
+        "note": "uniform, cylindrical shape preferred"
+      },
+      {
+        "quantity": "200g",
+        "item": "cultured butter",
+        "note": "melted and clarified"
+      },
+      {
+        "quantity": "10g",
+        "item": "fine sea salt",
+        "note": "to taste"
+      },
+      {
+        "quantity": "4 sprigs",
+        "item": "fresh thyme",
+        "note": "leaves only, micro-planed"
+      },
+      {
+        "quantity": "100g",
+        "item": "potato trimmings",
+        "note": "reserved from the sheets"
+      },
+      {
+        "quantity": "150ml",
+        "item": "heavy cream",
+        "note": ""
+      },
+      {
+        "quantity": "50ml",
+        "item": "whole milk",
+        "note": ""
+      },
+      {
+        "quantity": "30g",
+        "item": "black winter truffle paste",
+        "note": "high quality"
+      },
+      {
+        "quantity": "5ml",
+        "item": "truffle oil",
+        "note": "infused, not synthetic"
+      },
+      {
+        "quantity": "to finish",
+        "item": "Maldon sea salt flakes",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Peel and square potatoes into uniform blocks. Using a Japanese Vegetable Sheeter, create continuous ribbons 0.5mm thick. Brush each ribbon with clarified butter, sea salt, and micro-planed thyme."
+      },
+      {
+        "instruction": "Line a terrine mold with parchment. Layer the ribbons precisely, folding back and forth to reach at least 50 layers. Place the mold in a vacuum bag and process through a Chamber Vacuum Sealer on maximum pressure to remove all oxygen and bond layers."
+      },
+      {
+        "instruction": "Cook the sealed terrine in a sous-vide water bath at 84°C for 2 hours. Immediately transfer to an ice bath, then refrigerate under a 2kg weight for 12 hours to set the starch structure."
+      },
+      {
+        "instruction": "Prepare the aeration: Simmer reserved potato trimmings in milk and cream until tender. Blend with truffle paste and oil until homogenous. Pass through a fine-mesh chinois into an ISI Gourmet Whip. Charge with two N2O canisters and hold in a 60°C water bath."
+      },
+      {
+        "instruction": "Portioning: Remove the cold potato block and slice into perfect 2-inch cubes. Sear two sides in a carbon steel pan with clarified butter until mahogany and crisp."
+      },
+      {
+        "instruction": "Plating: Place the pavé cube centrally. Dispense a precise cloud of truffle aeration to the side. Garnish with a singular flake of sea salt and optional micro-thyme."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Japanese Vegetable Sheeter",
+        "link": "https://amzn.to/4mXVGAB"
+      },
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/4cIpTju"
+      },
+      {
+        "item": "Gourmet Whip (Siphon)",
+        "link": "https://amzn.to/4mXmIIa"
+      },
+      {
+        "item": "Precision Immersion Circulator",
+        "link": "https://amzn.to/4t7r1SL"
+      },
+      {
+        "item": "Fine-mesh Chinois",
+        "link": "https://amzn.to/4dfL8cA"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Vintage Champagne",
+        "notes": "The high acidity and brioche notes cut through the rich butter layers and highlight the truffle aroma."
+      },
+      {
+        "name": "Meursault (White Burgundy)",
+        "notes": "A rich, buttery Chardonnay that mirrors the texture of the pavé and earthy truffle notes."
+      }
+    ]
+  },
+  {
+    "name": "Glazed Baby Carrots with Aerated Herb Foam",
+    "description": "A modernist side dish using vacuum compression to intensify flavor and nitrous-oxide aeration for a delicate herb foam.",
+    "category": "Sides",
+    "keywords": "carrots, molecular gastronomy, sous-vide, foam",
+    "yield": "6 plates",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glazed-baby-carrots-with-aerated-herb-foam.jpg",
+    "ingredients": [
+      {
+        "quantity": "1 lb",
+        "item": "Baby heirloom carrots",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "Butter",
+        "note": ""
+      },
+      {
+        "quantity": "1 sprig",
+        "item": "Thyme",
+        "note": ""
+      },
+      {
+        "quantity": "1 pinch",
+        "item": "Sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "1 handful",
+        "item": "Parsley and Chives",
+        "note": ""
+      },
+      {
+        "quantity": "100 ml",
+        "item": "Vegetable stock",
+        "note": ""
+      },
+      {
+        "quantity": "50 ml",
+        "item": "Heavy cream",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Peel and trim the carrots, then place them in a vacuum pouch with butter, thyme, and sea salt."
+      },
+      {
+        "instruction": "Use the Chamber Vacuum Sealer on its highest setting to collapse the cell structure and infuse the aromatics."
+      },
+      {
+        "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84�C (183�F) for 45�60 minutes."
+      },
+      {
+        "instruction": "Blanch and shock the herbs, then blend with vegetable stock and heavy cream to create the foam base."
+      },
+      {
+        "instruction": "Pass the herb mixture through a Micro-Fine Mesh Sieve."
+      },
+      {
+        "instruction": "Pour the liquid into a Siphon, charge with one N2O cartridge, and shake vigorously."
+      },
+      {
+        "instruction": "Keep the siphon warm in a 50�C (122�F) water bath until ready to serve."
+      },
+      {
+        "instruction": "Remove carrots from the pouch and briefly sear in a hot pan for 30 seconds using the pouch juices to create a glossy glaze."
+      },
+      {
+        "instruction": "Plating: Arrange the carrots on a plate and dispense a cloud of herb foam alongside them."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Gourmet Whip siphon + 2 N?O chargers",
+        "link": "https://amzn.to/4tiCiAl"
+      },
+      {
+        "item": "Micro-Fine Mesh Sieve",
+        "link": "https://amzn.to/3QEWDl3"
+      }
+    ],
+    "winePairings": [],
+    "sub_recipes": []
   },
   {
     "name": "Golden Orchard Spritz",
@@ -7383,6 +9895,203 @@
     ]
   },
   {
+    "name": "Michelin-Style Linguine with Clam Sauce",
+    "description": "A refined coastal Italian dish featuring sous vide clams, fennel aromatics, and a silky emulsified white wine butter sauce finished with fresh herbs and citrus.",
+    "category": "Main",
+    "keywords": "clam pasta, linguine alle vongole, fine dining, seafood pasta, Italian",
+    "yield": "2-3 servings",
+    "source": "Modern fine dining technique",
+    "chef": "World-Class Inspired",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/michelin-style-linguine-with-clam-sauce.png",
+    "ingredients": [
+      {
+        "quantity": "2 lbs",
+        "item": "littleneck clams",
+        "note": "purged"
+      },
+      {
+        "quantity": "200g",
+        "item": "linguine pasta",
+        "note": "bronze-cut preferred"
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "extra virgin olive oil",
+        "note": "high quality"
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "unsalted butter",
+        "note": "European-style"
+      },
+      {
+        "quantity": "3 cloves",
+        "item": "garlic",
+        "note": "thinly sliced"
+      },
+      {
+        "quantity": "2",
+        "item": "shallots",
+        "note": "finely minced"
+      },
+      {
+        "quantity": "1 small bulb",
+        "item": "fennel",
+        "note": "brunoise"
+      },
+      {
+        "quantity": "1/2 tsp",
+        "item": "Calabrian chili paste",
+        "note": ""
+      },
+      {
+        "quantity": "1/2 cup",
+        "item": "dry white wine",
+        "note": "Sauvignon Blanc preferred"
+      },
+      {
+        "quantity": "1/2 cup",
+        "item": "clam stock",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "lemon zest",
+        "note": ""
+      },
+      {
+        "quantity": "1/2",
+        "item": "lemon juice",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "parsley",
+        "note": "finely chopped"
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "chives",
+        "note": "finely chopped"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "tarragon",
+        "note": "lightly chopped"
+      },
+      {
+        "quantity": "to taste",
+        "item": "salt",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "black pepper",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Purge clams in salted water for 30�60 minutes. Rinse thoroughly."
+      },
+      {
+        "instruction": "Place clams in a vacuum bag with a splash of white wine and fennel trimmings. Seal lightly."
+      },
+      {
+        "instruction": "Sous vide at 122�F (50�C) for 12�15 minutes until clams open. Remove meat and strain liquid through a fine chinois. Reserve both."
+      },
+      {
+        "instruction": "In a copper saute pan, heat olive oil and butter over low heat. Add shallots and fennel, cooking gently until translucent."
+      },
+      {
+        "instruction": "Add garlic and Calabrian chili paste. Cook briefly until aromatic."
+      },
+      {
+        "instruction": "Deglaze with white wine and reduce by about 70%."
+      },
+      {
+        "instruction": "Add reserved clam liquid and clam stock. Simmer gently until slightly reduced and flavorful."
+      },
+      {
+        "instruction": "Cook pasta in heavily salted water until just under al dente."
+      },
+      {
+        "instruction": "Transfer pasta directly into the sauce with a small amount of pasta water."
+      },
+      {
+        "instruction": "Emulsify by tossing continuously over medium heat while adding butter gradually until sauce is glossy and coats the pasta."
+      },
+      {
+        "instruction": "Add clam meat, lemon zest, lemon juice, parsley, chives, and a small amount of tarragon. Warm gently without overcooking."
+      },
+      {
+        "instruction": "Adjust seasoning with salt and pepper. Plate by twirling pasta into a nest and arranging clams. Finish with olive oil drizzle."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous vide circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Vacuum sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Pasta Pot",
+        "link": "https://amzn.to/490FEjq"
+      },
+      {
+        "item": "Fine chinois strainer",
+        "link": "https://amzn.to/4cjQK5p"
+      },
+      {
+        "item": "Saut� pan",
+        "link": "https://amzn.to/4wh5hH1"
+      },
+      {
+        "item": "Plating tweezers",
+        "link": "https://amzn.to/4eve5SX"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Sauvignon Blanc",
+        "notes": "Crisp acidity and citrus notes complement the briny clams and lemon finish."
+      },
+      {
+        "name": "Vermentino",
+        "notes": "Mineral-driven with herbal undertones that match the fennel and fresh herbs."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Clam Butter Emulsion",
+        "yield": "Makes ~1/2 cup",
+        "ingredients": [
+          {
+            "quantity": "1/2 cup",
+            "item": "clam sauce base",
+            "note": "warm"
+          },
+          {
+            "quantity": "3 tbsp",
+            "item": "unsalted butter",
+            "note": "cold cubes"
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Blend warm clam sauce base while slowly adding cold butter until emulsified and silky."
+          },
+          {
+            "instruction": "Return to main sauce to enhance richness and texture."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Miso Chocolate Tuile with Caramelized Cocoa Nibs",
     "source": "adapted from Modern Pastry",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/misochocolatetuile_carmalizednibs.webp",
@@ -7810,6 +10519,149 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Modernist Tabouli with Herb Oil & Precision Texture",
+    "description": "A refined tabouli showcasing precision-cut herbs, vacuum-hydrated bulgur, clarified lemon, and vibrant herb oil for a clean, modern presentation.",
+    "category": "Sides",
+    "keywords": "tabouli, tabbouleh, modernist, vegetarian, herbs, fine dining",
+    "yield": "4 plates",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/modernist-tabouli-with-herb-oil-precision-texture.PNG",
+    "ingredients": [
+      {
+        "quantity": "1/2 cup",
+        "item": "Fine bulgur wheat",
+        "note": ""
+      },
+      {
+        "quantity": "2 cups",
+        "item": "Flat-leaf parsley leaves",
+        "note": "stems removed"
+      },
+      {
+        "quantity": "1/2 cup",
+        "item": "Fresh mint leaves",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "Ripe tomatoes",
+        "note": "deseeded and finely diced"
+      },
+      {
+        "quantity": "3",
+        "item": "Scallions",
+        "note": "thinly sliced"
+      },
+      {
+        "quantity": "1",
+        "item": "Shallot",
+        "note": "finely diced"
+      },
+      {
+        "quantity": "from 2 lemons",
+        "item": "Lemon juice",
+        "note": ""
+      },
+      {
+        "quantity": "from 1 lemon",
+        "item": "Lemon zest",
+        "note": ""
+      },
+      {
+        "quantity": "60 ml",
+        "item": "Extra-virgin olive oil",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "Salt",
+        "note": ""
+      },
+      {
+        "quantity": "optional garnish",
+        "item": "Pomegranate seeds",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Weigh bulgur and water at a 1:1 ratio. Vacuum seal with a pinch of salt and allow to hydrate for 30�40 minutes."
+      },
+      {
+        "instruction": "Clarify the lemon juice by blending briefly and passing through a fine chinois or superbag."
+      },
+      {
+        "instruction": "Blanch a small portion of parsley for 10 seconds, shock in ice, then blend with olive oil until vibrant green."
+      },
+      {
+        "instruction": "Finely chiffonade parsley and mint, then cross-cut gently."
+      },
+      {
+        "instruction": "Deseed tomatoes completely and dice into uniform small cubes."
+      },
+      {
+        "instruction": "Rinse sliced shallots briefly in cold water and dry."
+      },
+      {
+        "instruction": "Combine bulgur, herbs, tomatoes, shallots, and scallions gently by hand."
+      },
+      {
+        "instruction": "Add clarified lemon juice, lemon zest, and salt. Mix lightly."
+      },
+      {
+        "instruction": "Fold in olive oil gently until evenly coated."
+      },
+      {
+        "instruction": "Optional: briefly place mixture under light vacuum to integrate flavors."
+      },
+      {
+        "instruction": "Plate using a ring mold to form a tight cylinder. Finish with herb oil, mint tips, and pomegranate seeds."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "High-Speed Blender",
+        "link": "https://amzn.to/41ORGbK"
+      },
+      {
+        "item": "Centrifuge",
+        "link": "https://amzn.to/3QrAg2q"
+      },
+      {
+        "item": "Fine Chinois",
+        "link": "https://amzn.to/4cEcbgl"
+      },
+      {
+        "item": "Precision Scale",
+        "link": "https://amzn.to/4cQUI5s"
+      },
+      {
+        "item": "Ring Molds",
+        "link": "https://amzn.to/4cQTZkJ"
+      },
+      {
+        "item": "Dehydrator",
+        "link": "https://amzn.to/4eB2cuI"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Sancerre",
+        "notes": "Crisp acidity complements lemon and herbs."
+      },
+      {
+        "name": "Albari�o",
+        "notes": "Bright citrus and minerality enhance freshness."
+      }
+    ],
+    "sub_recipes": []
   },
   {
     "name": "Negroni Caviar",
@@ -9472,6 +12324,143 @@
     ]
   },
   {
+    "name": "Roasted Brussels Sprouts Pavé with Aged Balsamic Emulsion and Crispy Leaves",
+    "description": "A structural culinary masterpiece featuring precisely layered and compressed Brussels sprouts, slow-roasted to achieve velvet-tender hearts with glass-like crispy exteriors. Finished with a glossy aged balsamic reduction, lemon zest, and accompanied by a light truffle-scented foam and crispy sprout leaf chips.",
+    "category": "Sides",
+    "keywords": "brussels sprouts, michelin style, roasted pavé, aged balsamic, molecular gastronomy, haute cuisine",
+    "yield": "Serves 4",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/roasted-brussels-sprouts-pav-with-aged-balsamic-emulsion-and-crispy-leaves.JPG",
+    "ingredients": [
+      {
+        "quantity": "680g",
+        "item": "fresh Brussels sprouts",
+        "note": "uniform medium-sized, preferably farmers' market"
+      },
+      {
+        "quantity": "3 tbsp",
+        "item": "avocado oil",
+        "note": "or high-smoke-point grapeseed oil"
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "cultured European butter",
+        "note": "high butterfat, melted and clarified"
+      },
+      {
+        "quantity": "4 cloves",
+        "item": "garlic",
+        "note": "lightly crushed"
+      },
+      {
+        "quantity": "2",
+        "item": "shallots",
+        "note": "thinly sliced on a Japanese mandoline"
+      },
+      {
+        "quantity": "to taste",
+        "item": "fine sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "fresh thyme leaves",
+        "note": ""
+      },
+      {
+        "quantity": "2-3 tbsp",
+        "item": "aged balsamic vinegar",
+        "note": "12+ years, syrupy reduction"
+      },
+      {
+        "quantity": "½",
+        "item": "lemon",
+        "note": "zest and juice"
+      },
+      {
+        "quantity": "¼ cup",
+        "item": "toasted Marcona almonds and pine nuts",
+        "note": "roughly chopped"
+      },
+      {
+        "quantity": "2-3 tbsp",
+        "item": "aged Parmigiano-Reggiano",
+        "note": "freshly grated"
+      },
+      {
+        "quantity": "to finish",
+        "item": "Maldon sea salt flakes",
+        "note": ""
+      },
+      {
+        "quantity": "1-2 tsp",
+        "item": "white truffle oil",
+        "note": "optional, high quality"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Trim Brussels sprouts and separate outer leaves for crispy chips. Halve the remaining sprouts lengthwise. Blanch halves in heavily salted boiling water for 2-3 minutes, shock in ice bath, and dry thoroughly using a high-capacity salad spinner."
+      },
+      {
+        "instruction": "Using a Japanese mandoline, slice shallots paper-thin. Toss sprout halves and reserved leaves separately with clarified butter, avocado oil, crushed garlic, thyme, sea salt, and pepper."
+      },
+      {
+        "instruction": "Preheat a heavy carbon steel or All-Clad baking sheet in a 230°C (450°F) oven. Arrange sprout halves cut-side down in a single layer. Vacuum-seal the layered halves in a chamber vacuum sealer for compression if desired, or arrange tightly in a terrine mold."
+      },
+      {
+        "instruction": "Roast at 230°C for 20-25 minutes until deeply caramelized with mahogany edges. Remove crispy leaves earlier when golden and set aside. In the final 5 minutes, brush lightly with aged balsamic for extra glaze."
+      },
+      {
+        "instruction": "Prepare the emulsion: Reduce aged balsamic with lemon juice and a touch of honey. For an aerated touch, warm heavy cream with truffle oil, blend, and charge in a Gourmet Whip with one N2O canister. Hold at 60°C."
+      },
+      {
+        "instruction": "Portioning: Cut the roasted pavé into precise rectangular portions or serve whole halves. Sear cut sides again briefly in a hot carbon steel pan for extra crispness."
+      },
+      {
+        "instruction": "Plating: Place the Brussels pavé centerpiece on a pristine white plate. Dispense a delicate cloud of truffle emulsion beside it. Artfully arrange crispy sprout leaves, toasted nuts, grated Parmigiano, lemon zest, and Maldon flakes. Finish with micro-thyme and a final balsamic drizzle."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Japanese Mandoline",
+        "link": "https://amzn.to/4cIopG5"
+      },
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/4eS8NB8"
+      },
+      {
+        "item": "Gourmet Whip (Siphon)",
+        "link": "https://amzn.to/3Owqj3m"
+      },
+      {
+        "item": "Precision Digital Probe Thermometer",
+        "link": "https://amzn.to/4ujRhub"
+      },
+      {
+        "item": "Heavy Carbon Steel or All-Clad Baking Sheet",
+        "link": "https://amzn.to/4tCfLyI"
+      },
+      {
+        "item": "High-Capacity Salad Spinner",
+        "link": "https://amzn.to/4tLaNzU"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Vintage Champagne",
+        "notes": "High acidity cuts through the rich caramelization and highlights the earthy truffle notes."
+      },
+      {
+        "name": "Meursault or Puligny-Montrachet",
+        "notes": "Buttery Chardonnay mirrors the roasted depth and balances the balsamic brightness."
+      }
+    ],
+    "sub_recipes": []
+  },
+  {
     "name": "Roasted Chicken with Wild Mushrooms and Sherry Reduction",
     "source": "adapted from Le Bernardin (New York City, USA)",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/RoastedChicken_WildMushroom_SherryReduction.png",
@@ -9888,63 +12877,102 @@
   },
   {
     "name": "Saffron-Infused Cloud Soufflé Pancake",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/saffroninfusedpancakes.png",
-    "yield": "4 plates",
     "description": "A molecular approach to brunch featuring vacuum-compressed berries, saffron-infused foam, and hyper-aerated soufflé structures.",
-    "category": "Main",
+    "category": "Brunch",
     "keywords": "soufflé, pancake, molecular, saffron",
-    "winePairings": [
-      {
-        "name": "Chateau d'Yquem Sauternes",
-        "notes": "Honeyed sweetness and apricot notes mirror the Manuka gastrique."
-      },
-      {
-        "name": "Moët & Chandon Grand Vintage Rose",
-        "notes": "The acidity cuts through the creamy saffron foam and rich egg yolks."
-      }
-    ],
+    "yield": "4 plates",
+    "source": "",
+    "chef": "Dominique Ansel",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/saffroninfusedpancakes.png",
     "ingredients": [
       {
-        "item": "Organic Egg Yolks",
         "quantity": "4",
+        "item": "Organic Egg Yolks",
         "note": "tempered to room temperature"
       },
       {
-        "item": "Egg Whites",
         "quantity": "6",
+        "item": "Egg Whites",
         "note": "chilled"
       },
       {
-        "item": "Cake Flour",
         "quantity": "50g",
+        "item": "Cake Flour",
         "note": "sifted 3 times"
       },
       {
+        "quantity": "40g",
         "item": "Castor Sugar",
-        "quantity": "40g"
+        "note": ""
       },
       {
-        "item": "Persian Saffron Threads",
         "quantity": "1 tsp",
+        "item": "Persian Saffron Threads",
         "note": "high-grade"
       },
       {
-        "item": "Vanilla Bean",
         "quantity": "1",
+        "item": "Vanilla Bean",
         "note": "scraped for seeds"
       },
       {
-        "item": "Heavy Cream",
         "quantity": "250ml",
+        "item": "Heavy Cream",
         "note": "for saffron foam"
       },
       {
+        "quantity": "100g",
         "item": "Manuka Honey (UMF 20+)",
-        "quantity": "100g"
+        "note": ""
       },
       {
+        "quantity": "20ml",
         "item": "Aged Sherry Vinegar",
-        "quantity": "20ml"
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare the Compressed Berries and Saffron Foam."
+      },
+      {
+        "instruction": "Bloom the saffron threads in 10ml of warm milk for 15 minutes."
+      },
+      {
+        "instruction": "In a copper bowl, whisk egg yolks with the saffron milk and vanilla seeds until pale and ribbon-like."
+      },
+      {
+        "instruction": "Gently fold the triple-sifted cake flour into the yolk mixture."
+      },
+      {
+        "instruction": "In a separate ultra-clean bowl, whisk chilled egg whites and castor sugar to a 'stiff-bird-beak' peak."
+      },
+      {
+        "instruction": "Using a silhouette motion, fold the whites into the yolk base in three stages to maintain maximum aeration."
+      },
+      {
+        "instruction": "Set the induction cooktop to exactly 165°C."
+      },
+      {
+        "instruction": "Place non-stick ring molds on the surface and pipe the batter until 3/4 full."
+      },
+      {
+        "instruction": "Add 5ml of distilled water to the pan and cover immediately with a heavy lid to create steam convection."
+      },
+      {
+        "instruction": "Cook for 6 minutes, flip with the offset spatula, and cook for an additional 3 minutes."
+      },
+      {
+        "instruction": "Prepare the Manuka Honey Gastrique."
+      },
+      {
+        "instruction": "Plating: Stack three pancakes in the center of a chilled stone plate."
+      },
+      {
+        "instruction": "Discharge a perfect quenelle of saffron foam from the iSi Whip onto the crown."
+      },
+      {
+        "instruction": "Arrange compressed berries and dehydrated honeycomb around the base; finish with 24k gold leaf."
       }
     ],
     "specialtools": [
@@ -9954,7 +12982,7 @@
       },
       {
         "item": "Food Processor",
-        "link": "https://amzn.to/4cyXgDU"
+        "link": "https://amzn.to/41TQUu4"
       },
       {
         "item": "Gourmet Whip",
@@ -9977,140 +13005,91 @@
         "link": "https://amzn.to/42c7XaS"
       }
     ],
-    "steps": [
+    "winePairings": [
       {
-        "number": 1,
-        "instruction": "Prepare the Compressed Berries and Saffron Foam.",
-        "note": "see sub-recipe"
+        "name": "Chateau d'Yquem Sauternes",
+        "notes": "Honeyed sweetness and apricot notes mirror the Manuka gastrique."
       },
       {
-        "number": 2,
-        "instruction": "Bloom the saffron threads in 10ml of warm milk for 15 minutes."
-      },
-      {
-        "number": 3,
-        "instruction": "In a copper bowl, whisk egg yolks with the saffron milk and vanilla seeds until pale and ribbon-like."
-      },
-      {
-        "number": 4,
-        "instruction": "Gently fold the triple-sifted cake flour into the yolk mixture."
-      },
-      {
-        "number": 5,
-        "instruction": "In a separate ultra-clean bowl, whisk chilled egg whites and castor sugar to a 'stiff-bird-beak' peak."
-      },
-      {
-        "number": 6,
-        "instruction": "Using a silhouette motion, fold the whites into the yolk base in three stages to maintain maximum aeration."
-      },
-      {
-        "number": 7,
-        "instruction": "Set the induction cooktop to exactly 165°C."
-      },
-      {
-        "number": 8,
-        "instruction": "Place non-stick ring molds on the surface and pipe the batter until 3/4 full."
-      },
-      {
-        "number": 9,
-        "instruction": "Add 5ml of distilled water to the pan and cover immediately with a heavy lid to create steam convection."
-      },
-      {
-        "number": 10,
-        "instruction": "Cook for 6 minutes, flip with the offset spatula, and cook for an additional 3 minutes."
-      },
-      {
-        "number": 11,
-        "instruction": "Prepare the Manuka Honey Gastrique.",
-        "note": "see sub-recipe"
-      },
-      {
-        "number": 12,
-        "instruction": "Plating: Stack three pancakes in the center of a chilled stone plate."
-      },
-      {
-        "number": 13,
-        "instruction": "Discharge a perfect quenelle of saffron foam from the iSi Whip onto the crown."
-      },
-      {
-        "number": 14,
-        "instruction": "Arrange compressed berries and dehydrated honeycomb around the base; finish with 24k gold leaf."
+        "name": "Moët & Chandon Grand Vintage Rose",
+        "notes": "The acidity cuts through the creamy saffron foam and rich egg yolks."
       }
     ],
     "sub_recipes": [
       {
         "name": "Compressed Berries",
+        "yield": "",
         "ingredients": [
           {
+            "quantity": "200g",
             "item": "Wild Raspberries",
-            "quantity": "200g"
+            "note": ""
           },
           {
+            "quantity": "10g",
             "item": "Elderflower Syrup",
-            "quantity": "10g"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Place berries and syrup in a vacuum bag."
           },
           {
-            "number": 2,
             "instruction": "Seal in a Chamber Vacuum Sealer at maximum pressure to alter cell structure."
           },
           {
-            "number": 3,
             "instruction": "Chill for 20 minutes before serving."
           }
         ]
       },
       {
         "name": "Manuka Honey Gastrique",
+        "yield": "",
         "ingredients": [
           {
+            "quantity": "100g",
             "item": "Manuka Honey",
-            "quantity": "100g"
+            "note": ""
           },
           {
+            "quantity": "20ml",
             "item": "Aged Sherry Vinegar",
-            "quantity": "20ml"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "In a copper saucier, combine honey and vinegar."
           },
           {
-            "number": 2,
             "instruction": "Reduce over medium heat until it achieves a thick 'nappe' consistency."
           }
         ]
       },
       {
         "name": "Saffron Foam",
+        "yield": "",
         "ingredients": [
           {
+            "quantity": "250ml",
             "item": "Heavy Cream",
-            "quantity": "250ml"
+            "note": ""
           },
           {
+            "quantity": "10ml",
             "item": "Saffron Milk",
-            "quantity": "10ml"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Mix ingredients and pour into Gourmet Whip."
           },
           {
-            "number": 2,
             "instruction": "Charge with two N2O cartridges and shake vigorously."
           },
           {
-            "number": 3,
             "instruction": "Hold in a 4°C water bath."
           }
         ]
@@ -10454,6 +13433,271 @@
           {
             "number": 2,
             "instruction": "Dust over plated dish just before serving."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sous-Vide Berkshire Pork Loin with Foie Gras Torchon, Black Truffle Jus & Charred Baby Leeks",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.jpg",
+    "yield": "4 plates",
+    "description": "A luxurious Michelin-inspired course featuring perfectly cooked heritage Berkshire pork, silky foie gras torchon, earthy black truffle jus, and dramatic charred baby leeks.",
+    "category": "Main",
+    "keywords": "pork, sous-vide, foie gras, truffle, fine dining",
+    "winePairings": [
+      {
+        "name": "Mature Burgundy (Pinot Noir)",
+        "notes": "Elegant red fruit and earthiness complement the pork and truffle."
+      },
+      {
+        "name": "Aged Rioja Reserva",
+        "notes": "Velvety texture and subtle oak balance the rich foie gras and jus."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Center-cut Berkshire pork loin medallions",
+        "quantity": "4 � 180g (6 oz)"
+      },
+      {
+        "item": "Fresh rosemary sprigs",
+        "quantity": "4"
+      },
+      {
+        "item": "Garlic cloves",
+        "quantity": "4",
+        "note": "lightly crushed"
+      },
+      {
+        "item": "Unsalted butter",
+        "quantity": "50g + extra for finishing"
+      },
+      {
+        "item": "Foie gras torchon",
+        "note": "see sub-recipe (200g grade-A lobe)"
+      },
+      {
+        "item": "Black Truffle Jus",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Baby leeks",
+        "quantity": "8",
+        "note": "cleaned"
+      },
+      {
+        "item": "Fresh black truffles",
+        "quantity": "for shaving + 30g grated in jus"
+      },
+      {
+        "item": "Microgreens and edible flowers",
+        "quantity": "as needed",
+        "note": "red-veined sorrel, chervil, violas"
+      },
+      {
+        "item": "Neutral oil",
+        "quantity": "for charring"
+      },
+      {
+        "item": "Flaky sea salt and white pepper",
+        "quantity": "to season"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/48bdTV7"
+      },
+      {
+        "item": "Chamber vacuum sealer",
+        "link": "https://amzn.to/4ufPoPh"
+      },
+      {
+        "item": "Professional kitchen blowtorch",
+        "link": "https://amzn.to/42eE89w"
+      },
+      {
+        "item": "Ring Molds",
+        "link": "https://amzn.to/4cQTZkJ"
+      },
+      {
+        "item": "Offset Spatulas",
+        "link": "https://amzn.to/48ecvkx"
+      },
+      {
+        "item": "Black Truffles",
+        "link": "https://amzn.to/41RzDlh"
+      },
+      {
+        "item": "Fine chinois strainer",
+        "link": "https://amzn.to/4cjQK5p"
+      },
+      {
+        "item": "Microplane for truffle",
+        "link": "https://amzn.to/4mF1vT9"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the Foie Gras Torchon and Black Truffle Jus",
+        "note": "see sub-recipes (can be done 1 day ahead)"
+      },
+      {
+        "number": 2,
+        "instruction": "Prepare the Charred Baby Leeks",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 3,
+        "instruction": "Season each pork medallion with flaky sea salt and white pepper. Place in individual vacuum bags with rosemary, crushed garlic, and a knob of butter."
+      },
+      {
+        "number": 4,
+        "instruction": "Seal bags using chamber vacuum sealer at full vacuum."
+      },
+      {
+        "number": 5,
+        "instruction": "Cook in sous-vide bath at exactly 58�C (136�F) for 90 minutes."
+      },
+      {
+        "number": 6,
+        "instruction": "Remove pork from bags, pat extremely dry. Scrape off garlic and herbs."
+      },
+      {
+        "number": 7,
+        "instruction": "Heat a cast-iron skillet until screaming hot. Sear pork 30 seconds per side, then finish crust evenly with professional blowtorch."
+      },
+      {
+        "number": 8,
+        "instruction": "Rest pork 2 minutes on a rack. Reheat torchon slices and jus gently."
+      },
+      {
+        "number": 9,
+        "instruction": "Warm baby leeks briefly if needed."
+      },
+      {
+        "number": 10,
+        "instruction": "Plating Layer 1: Place a ring mold in center of warm plate. Set seared pork medallion inside and remove mold."
+      },
+      {
+        "number": 11,
+        "instruction": "Plating Layer 2: Lay one slice of foie gras torchon beside the pork. Paint black truffle jus in elegant swooshes with offset spatula."
+      },
+      {
+        "number": 12,
+        "instruction": "Plating Layer 3: Stand two charred baby leeks vertically. Shave fresh black truffle over the plate. Finish with strategic microgreens and edible flowers."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Foie Gras Torchon",
+        "ingredients": [
+          {
+            "item": "Grade-A foie gras lobe",
+            "quantity": "200g"
+          },
+          {
+            "item": "Armagnac or Cognac",
+            "quantity": "10g"
+          },
+          {
+            "item": "Salt, white pepper, quatre-�pices",
+            "quantity": "to taste"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Season foie gras with salt, white pepper, quatre-�pices, and Armagnac."
+          },
+          {
+            "number": 2,
+            "instruction": "Roll tightly in cheesecloth to form a cylinder and vacuum-seal."
+          },
+          {
+            "number": 3,
+            "instruction": "Poach in 55�C water bath for 20 minutes, then shock in ice water."
+          },
+          {
+            "number": 4,
+            "instruction": "Refrigerate overnight. Slice into 1 cm rounds with a hot knife before plating."
+          }
+        ]
+      },
+      {
+        "name": "Black Truffle Jus",
+        "ingredients": [
+          {
+            "item": "Rich veal or pork stock",
+            "quantity": "300ml"
+          },
+          {
+            "item": "Fresh black truffles",
+            "quantity": "50g (30g grated + for shaving)"
+          },
+          {
+            "item": "Vintage Port wine",
+            "quantity": "100ml"
+          },
+          {
+            "item": "Shallot",
+            "quantity": "1",
+            "note": "finely minced"
+          },
+          {
+            "item": "Cold butter",
+            "quantity": "20g"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Reduce Port with minced shallot until syrupy."
+          },
+          {
+            "number": 2,
+            "instruction": "Add stock and simmer until reduced by half."
+          },
+          {
+            "number": 3,
+            "instruction": "Grate in 30g fresh black truffle and infuse 5 minutes."
+          },
+          {
+            "number": 4,
+            "instruction": "Pass through fine chinois. Mount with cold butter off heat for glossy finish."
+          }
+        ]
+      },
+      {
+        "name": "Charred Baby Leeks",
+        "ingredients": [
+          {
+            "item": "Baby leeks",
+            "quantity": "8"
+          },
+          {
+            "item": "Neutral oil",
+            "quantity": "as needed"
+          },
+          {
+            "item": "Salt",
+            "quantity": "to season"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Blanch leeks in salted boiling water for 60 seconds, then shock in ice water and pat dry."
+          },
+          {
+            "number": 2,
+            "instruction": "Brush lightly with neutral oil and season."
+          },
+          {
+            "number": 3,
+            "instruction": "Char evenly with professional kitchen blowtorch (30�45 seconds per side) until blackened in spots but vibrant inside."
           }
         ]
       }
@@ -12480,6 +15724,190 @@
           {
             "number": 3,
             "instruction": "Cool and refrigerate."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "World-Class Chef-Inspired Avocado Toast",
+    "description": "Elevated avocado toast featuring creamy textured avocado mash on thick sourdough, topped with precision-cooked 63°C egg, confit cherry tomatoes, toasted pine nuts, black sesame, and microgreens. A luxurious brunch dish inspired by fine-dining techniques.",
+    "category": "Brunch",
+    "keywords": "avocado toast, sourdough, sous vide egg, gourmet breakfast, chef recipe",
+    "yield": "2 slices (serves 1-2)",
+    "source": "",
+    "chef": "Inspired by Gordon Ramsay & Bobby Flay techniques",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/world-class-chef-inspired-avocado-toast.JPG",
+    "ingredients": [
+      {
+        "quantity": "2 thick slices (¾–1 inch)",
+        "item": "naturally leavened sourdough bread",
+        "note": "artisan bakery preferred"
+      },
+      {
+        "quantity": "2",
+        "item": "ripe Hass avocados",
+        "note": "perfectly ripe"
+      },
+      {
+        "quantity": "1 small (20g)",
+        "item": "shallot",
+        "note": "finely minced"
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "fresh lime juice",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "fresh lemon zest",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "extra-virgin olive oil",
+        "note": "high-quality fruity variety"
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "fresh cilantro",
+        "note": "chopped"
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "fresh mint",
+        "note": "chopped"
+      },
+      {
+        "quantity": "",
+        "item": "flaky sea salt (Maldon)",
+        "note": "to taste"
+      },
+      {
+        "quantity": "",
+        "item": "freshly cracked Tellicherry black pepper",
+        "note": "to taste"
+      },
+      {
+        "quantity": "½ tsp",
+        "item": "red pepper flakes or Aleppo pepper",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "eggs",
+        "note": "for 63°C sous-vide"
+      },
+      {
+        "quantity": "4–6",
+        "item": "cherry tomatoes",
+        "note": "for confit or fresh torched"
+      },
+      {
+        "quantity": "1–2 tsp",
+        "item": "toasted pine nuts or sliced almonds",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "black sesame seeds",
+        "note": "mixed with lemon zest and sea salt"
+      },
+      {
+        "quantity": "handful",
+        "item": "microgreens",
+        "note": "shiso or amaranth optional"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare thick, even slices of sourdough using a precision bread knife. Toast until deeply golden and crisp on the outside, chewy inside. Optionally torch edges lightly for char."
+      },
+      {
+        "instruction": "Make the avocado base: In a mortar and pestle, gently crush avocado flesh with minced shallot, lime juice, lemon zest, chopped herbs, olive oil, chili flakes, salt, and pepper to a creamy yet chunky texture."
+      },
+      {
+        "instruction": "Cook eggs using sous-vide immersion circulator at 63–65°C for 45–60 minutes for silky custardy yolks. Keep warm."
+      },
+      {
+        "instruction": "Prepare confit cherry tomatoes by slow-cooking in olive oil with garlic and thyme at low temperature, or lightly torch fresh ones."
+      },
+      {
+        "instruction": "Assemble: Drizzle toasted bread with olive oil and flaky salt. Spread avocado mixture evenly. Top with egg, confit tomatoes, toasted nuts, black sesame blend, microgreens, and a final drizzle of olive oil or aged balsamic."
+      },
+      {
+        "instruction": "Serve immediately while toast is warm and crisp."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Sous-vide immersion circulator",
+        "link": "https://amzn.to/4ucn1Bg"
+      },
+      {
+        "item": "Precision kitchen scale (0.1g accuracy)",
+        "link": "https://amzn.to/4ejnMDX"
+      },
+      {
+        "item": "Professional Microplane zester",
+        "link": "https://amzn.to/4umVTzK"
+      },
+      {
+        "item": "Japanese suribachi mortar and pestle",
+        "link": "https://amzn.to/4ugzHqG"
+      },
+      {
+        "item": "Culinary butane kitchen torch",
+        "link": "https://amzn.to/4w0JYJs"
+      },
+      {
+        "item": "High-end serrated bread knife",
+        "link": "https://amzn.to/4deZIB5"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Crisp Sauvignon Blanc",
+        "notes": "Bright acidity and citrus notes cut through the richness of the avocado and complement the lime and herbs perfectly."
+      },
+      {
+        "name": "Chablis or unoaked Chardonnay",
+        "notes": "Mineral-driven white with subtle oak to match the toasted sourdough and nutty elements."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Quick Confit Cherry Tomatoes",
+        "yield": "Makes enough for 2 toasts",
+        "ingredients": [
+          {
+            "quantity": "8-10",
+            "item": "cherry tomatoes",
+            "note": "halved"
+          },
+          {
+            "quantity": "½ cup",
+            "item": "extra-virgin olive oil",
+            "note": ""
+          },
+          {
+            "quantity": "1",
+            "item": "garlic clove",
+            "note": "smashed"
+          },
+          {
+            "quantity": "few sprigs",
+            "item": "fresh thyme",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "instruction": "Combine ingredients in a small saucepan and cook over very low heat (around 200°F/93°C) for 20-30 minutes until tomatoes are softened but hold shape."
+          },
+          {
+            "instruction": "Cool slightly and use as topping. Store leftover oil for other uses."
           }
         ]
       }

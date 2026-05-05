@@ -4,7 +4,9 @@
   "category": "Starter",
   "keywords": "hamachi crudo, yuzu kosho, molecular gastronomy, fine dining seafood, spherification, compressed cucumber, modernist cuisine",
   "yield": "Serves 4",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.png",
+  "source": "",
+  "chef": "",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.png",
   "ingredients": [
     {
       "quantity": "200g",
@@ -184,5 +186,6 @@
       "name": "Sancerre (Loire Valley Sauvignon Blanc)",
       "notes": "High acidity and mineral notes complement the yuzu brightness and cut through the fatty fish."
     }
-  ]
+  ],
+  "sub_recipes": []
 }

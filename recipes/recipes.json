@@ -16102,6 +16102,194 @@
     ]
   },
   {
+    "name": "Yuzu-Cured Kampachi with Frozen Olive Oil, Compressed Melon & Smoked Dashi Air",
+    "description": "A Michelin-level crudo featuring lightly yuzu-cured kampachi, vacuum-compressed melon, frozen olive oil shards, and smoked dashi air. A balance of temperature, aroma, acidity, and texture using modernist techniques.",
+    "category": "Starter",
+    "keywords": "kampachi crudo, yuzu cure, molecular gastronomy, fine dining seafood, compressed fruit, smoked dashi air, modernist cuisine",
+    "yield": "Serves 4",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/yuzu-cured-kampachi-with-frozen-olive-oil-compressed-melon-smoked-dashi-air.png",
+    "ingredients": [
+      {
+        "quantity": "300g",
+        "item": "sashimi-grade kampachi",
+        "note": "very fresh, sushi-grade"
+      },
+      {
+        "quantity": "120ml",
+        "item": "yuzu juice",
+        "note": "fresh preferred"
+      },
+      {
+        "quantity": "40ml",
+        "item": "lime or sudachi juice",
+        "note": ""
+      },
+      {
+        "quantity": "30g",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "quantity": "12g",
+        "item": "fine sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "1 piece",
+        "item": "kombu",
+        "note": "small strip"
+      },
+      {
+        "quantity": "150ml",
+        "item": "extra virgin olive oil",
+        "note": "high-quality, peppery finish"
+      },
+      {
+        "quantity": "1/2",
+        "item": "honeydew melon",
+        "note": "cut into cubes"
+      },
+      {
+        "quantity": "60ml",
+        "item": "clarified cucumber juice",
+        "note": ""
+      },
+      {
+        "quantity": "10ml",
+        "item": "rice vinegar",
+        "note": ""
+      },
+      {
+        "quantity": "5g",
+        "item": "sugar",
+        "note": "for melon compression"
+      },
+      {
+        "quantity": "200ml",
+        "item": "dashi",
+        "note": "kombu + katsuobushi"
+      },
+      {
+        "quantity": "2g",
+        "item": "soy lecithin",
+        "note": "for dashi air"
+      },
+      {
+        "quantity": "150ml",
+        "item": "yuzu juice",
+        "note": "for gel"
+      },
+      {
+        "quantity": "2g",
+        "item": "agar agar",
+        "note": ""
+      },
+      {
+        "quantity": "10g",
+        "item": "sugar",
+        "note": "for gel"
+      },
+      {
+        "quantity": "to garnish",
+        "item": "micro shiso leaves",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "finger lime",
+        "note": "for citrus pearls"
+      },
+      {
+        "quantity": "to finish",
+        "item": "flaky sea salt",
+        "note": "Maldon preferred"
+      },
+      {
+        "quantity": "a few drops",
+        "item": "white soy sauce",
+        "note": ""
+      },
+      {
+        "quantity": "small amount",
+        "item": "cherry wood chips",
+        "note": "for smoke"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare the cure: Dissolve salt and sugar into yuzu and lime juice. Add kombu and let infuse for 20 minutes."
+      },
+      {
+        "instruction": "Cure the kampachi: Slice into thick sashimi pieces. Submerge in curing liquid for exactly 12 minutes. Remove, rinse lightly, pat dry, and chill."
+      },
+      {
+        "instruction": "Compress the melon: Combine melon, cucumber juice, rice vinegar, sugar, and salt. Vacuum seal at full compression and release slowly until melon becomes translucent."
+      },
+      {
+        "instruction": "Prepare frozen olive oil: Drizzle olive oil onto an anti-griddle or freeze in a thin layer. Scrape into delicate shards just before serving."
+      },
+      {
+        "instruction": "Make citrus gel: Heat yuzu juice and sugar, whisk in agar, and boil for 1 minute. Set into a thin sheet, then blend into a smooth gel and transfer to a piping bottle."
+      },
+      {
+        "instruction": "Create smoked dashi air: Warm dashi slightly and add soy lecithin. Use an immersion blender or ultrasonic homogenizer to form a stable foam. Infuse with cherry wood smoke under a cloche."
+      },
+      {
+        "instruction": "Plate: Arrange kampachi slices in an overlapping arc. Add compressed melon cubes. Pipe citrus gel dots precisely. Scatter finger lime pearls and micro shiso."
+      },
+      {
+        "instruction": "Finish: Add frozen olive oil shards last. Season lightly with flaky salt and a few drops of white soy."
+      },
+      {
+        "instruction": "Serve: Present under a smoked cloche and release tableside. Spoon smoked dashi air onto the dish just before serving."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/42LGtsW"
+      },
+      {
+        "item": "Smoking Gun with Glass Cloche",
+        "link": "https://amzn.to/4ncaJXq"
+      },
+      {
+        "item": "Ultrasonic Homogenizer",
+        "link": "https://amzn.to/4euentw"
+      },
+      {
+        "item": "Superbag Filtration System",
+        "link": "https://amzn.to/4u3FXT9"
+      },
+      {
+        "item": "Yanagiba Knife",
+        "link": "https://amzn.to/3QPKgmq"
+      },
+      {
+        "item": "Olive Oil Dispenser",
+        "link": "https://amzn.to/4tVkbB3"
+      },
+      {
+        "item": "Precision Plating Tweezers",
+        "link": "https://amzn.to/3R2JuT1"
+      },
+      {
+        "item": "Modern Ceramic Plating Set",
+        "link": "https://amzn.to/4cSs1oV"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Junmai Daiginjo Sake",
+        "notes": "Elegant and aromatic, enhancing the delicate citrus and umami without overpowering the fish."
+      },
+      {
+        "name": "Champagne Blanc de Blancs",
+        "notes": "High acidity and fine bubbles cut through the richness while elevating the citrus notes."
+      }
+    ]
+  },
+  {
     "name": "Yuzu-Glazed A5 Wagyu Tataki with Uni-Miso Purée, Gochujang Caramel, Thai Basil Espuma, and Crispy Rice Crumble",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/wagyu_tataki_asian_fusion.png",
     "yield": "2 tasting plates",

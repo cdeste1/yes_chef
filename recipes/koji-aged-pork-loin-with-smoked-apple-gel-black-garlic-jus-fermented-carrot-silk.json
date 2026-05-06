@@ -1,0 +1,208 @@
+{
+  "name": "Koji-Aged Pork Loin with Smoked Apple Gel, Black Garlic Jus & Fermented Carrot Silk",
+  "description": "A Michelin-level pork main course featuring koji-aged pork loin cooked sous vide and seared to perfection, paired with smoked apple gel, black garlic jus, fermented carrot silk, and pork fat crumb. A balance of umami, acidity, smoke, and texture using modernist techniques.",
+  "category": "Main Course",
+  "keywords": "koji pork, sous vide pork loin, black garlic jus, modernist cuisine, fine dining pork, fermented carrot, smoked apple gel",
+  "yield": "Serves 4",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/koji-aged-pork-loin-with-smoked-apple-gel-black-garlic-jus-fermented-carrot-silk.png",
+  "ingredients": [
+    {
+      "quantity": "2",
+      "item": "pork loins",
+      "note": "center-cut, Berkshire or Iberico preferred"
+    },
+    {
+      "quantity": "200g",
+      "item": "rice koji",
+      "note": ""
+    },
+    {
+      "quantity": "10g",
+      "item": "salt",
+      "note": ""
+    },
+    {
+      "quantity": "5g",
+      "item": "sugar",
+      "note": ""
+    },
+    {
+      "quantity": "1kg",
+      "item": "pork bones",
+      "note": "for jus"
+    },
+    {
+      "quantity": "2",
+      "item": "shallots",
+      "note": "sliced"
+    },
+    {
+      "quantity": "1 head",
+      "item": "black garlic",
+      "note": ""
+    },
+    {
+      "quantity": "200ml",
+      "item": "red wine",
+      "note": ""
+    },
+    {
+      "quantity": "500ml",
+      "item": "veal stock",
+      "note": ""
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "sherry vinegar",
+      "note": ""
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "soy sauce",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "brown butter",
+      "note": ""
+    },
+    {
+      "quantity": "4",
+      "item": "Granny Smith apples",
+      "note": ""
+    },
+    {
+      "quantity": "100ml",
+      "item": "apple juice",
+      "note": ""
+    },
+    {
+      "quantity": "2g",
+      "item": "agar agar",
+      "note": ""
+    },
+    {
+      "quantity": "500g",
+      "item": "carrots",
+      "note": ""
+    },
+    {
+      "quantity": "2%",
+      "item": "salt",
+      "note": "by weight for fermentation"
+    },
+    {
+      "quantity": "50g",
+      "item": "butter",
+      "note": ""
+    },
+    {
+      "quantity": "50ml",
+      "item": "cream",
+      "note": ""
+    },
+    {
+      "quantity": "as needed",
+      "item": "rendered pork fat",
+      "note": ""
+    },
+    {
+      "quantity": "100g",
+      "item": "panko breadcrumbs",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "thyme",
+      "note": ""
+    },
+    {
+      "quantity": "to garnish",
+      "item": "baby herbs",
+      "note": "sorrel, chervil"
+    },
+    {
+      "quantity": "to garnish",
+      "item": "pickled mustard seeds",
+      "note": ""
+    },
+    {
+      "quantity": "to garnish",
+      "item": "fresh apple slices",
+      "note": "thinly shaved"
+    },
+    {
+      "quantity": "to garnish",
+      "item": "edible flowers",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare the koji cure: Blend rice koji into a coarse paste and mix with salt and sugar."
+    },
+    {
+      "instruction": "Cure the pork: Coat pork loins evenly with the koji mixture. Place in a controlled fermentation environment at 30°C (86°F) for 36–48 hours. Rinse, pat dry, and rest overnight in the refrigerator."
+    },
+    {
+      "instruction": "Sous vide the pork: Vacuum seal pork with a small amount of butter and cook at 58°C (136°F) for 1.5 hours."
+    },
+    {
+      "instruction": "Sear and baste: Remove pork, pat dry, and sear in hot pork fat until a deep crust forms. Baste with butter and thyme, then rest before slicing."
+    },
+    {
+      "instruction": "Prepare black garlic jus: Roast pork bones at 220°C until caramelized. Sauté shallots, add black garlic, deglaze with red wine, and reduce. Add veal stock and simmer 1–2 hours. Strain and reduce to a glossy consistency. Finish with sherry vinegar, soy sauce, and brown butter."
+    },
+    {
+      "instruction": "Make smoked apple gel: Extract apple juice and infuse with applewood smoke using a smoking gun. Heat with agar agar, bring to a boil, set into a gel, then blend until smooth."
+    },
+    {
+      "instruction": "Prepare fermented carrot silk: Vacuum seal carrots with 2% salt and ferment for 3–5 days. Cook until tender, then blend with butter and cream until smooth. Pass through a fine sieve."
+    },
+    {
+      "instruction": "Make pork fat crumb: Toast panko breadcrumbs in rendered pork fat with thyme until golden and crisp. Season lightly with salt."
+    },
+    {
+      "instruction": "Plate: Swipe carrot silk across the plate. Slice pork into medallions and place slightly off-center. Add dots of smoked apple gel and spoon black garlic jus around."
+    },
+    {
+      "instruction": "Finish: Sprinkle pork fat crumb and garnish with herbs, apple slices, mustard seeds, and edible flowers. Serve immediately."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Fermentation Chamber",
+      "link": "https://amzn.to/4drgo8G"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/42RFgAl"
+    },
+    {
+      "item": "Sous Vide Immersion Circulator",
+      "link": "https://amzn.to/4tiladc"
+    },
+    {
+      "item": "Smoking Gun with Wood Chips",
+      "link": "https://amzn.to/3P9UjlN"
+    },
+    {
+      "item": "Precision Induction Cooktop",
+      "link": "https://amzn.to/48IPXZr"
+    },
+    {
+      "item": "Fine Plating Tweezers Set",
+      "link": "https://amzn.to/4deblqR"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Pinot Noir (Burgundy)",
+      "notes": "Bright acidity and red fruit complement the pork while balancing the richness of the jus."
+    },
+    {
+      "name": "Dry Riesling (Alsace)",
+      "notes": "Crisp acidity and slight sweetness enhance the apple and fermented carrot elements."
+    }
+  ]
+}

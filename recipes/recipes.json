@@ -10491,69 +10491,108 @@
   },
   {
     "name": "Miso-Glazed Black Cod, Yuzu Foam, Pickled Daikon and Crispy Rice",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Miso_Cod.png",
-    "yield": "2 plates",
     "description": "A refined Asian fusion dish featuring buttery miso-marinated black cod, bright yuzu foam, compressed pickled daikon, and crispy sushi rice.",
     "category": "Main",
     "keywords": "black cod, miso, asian fusion, fine dining, seafood",
-    "winePairings": [
-      {
-        "name": "Junmai Daiginjo Sake",
-        "notes": "Elegant and aromatic, enhances umami and delicate fish texture."
-      },
-      {
-        "name": "Chablis Grand Cru",
-        "notes": "Mineral-driven acidity balances the richness of the cod."
-      }
-    ],
+    "yield": "2 plates",
+    "source": "Nobu",
+    "chef": "Nobu Matsuhisa",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Miso_Cod.png",
     "ingredients": [
       {
+        "quantity": "2",
         "item": "Black cod fillets",
-        "quantity": "2"
+        "note": ""
       },
       {
+        "quantity": "1/2 cup",
         "item": "White miso",
-        "quantity": "1/2 cup"
+        "note": ""
       },
       {
+        "quantity": "1/4 cup",
         "item": "Mirin",
-        "quantity": "1/4 cup"
+        "note": ""
       },
       {
+        "quantity": "3 tbsp",
         "item": "Sake",
-        "quantity": "3 tbsp"
+        "note": ""
       },
       {
+        "quantity": "2 tbsp",
         "item": "Sugar",
-        "quantity": "2 tbsp"
+        "note": ""
       },
       {
+        "quantity": "1 cup (cooked and chilled)",
         "item": "Sushi rice",
-        "quantity": "1 cup (cooked and chilled)"
+        "note": ""
       },
       {
+        "quantity": "for frying",
         "item": "Neutral oil",
-        "quantity": "for frying"
+        "note": ""
       },
       {
+        "quantity": "",
         "item": "Pickled Daikon",
         "note": "see sub-recipe"
       },
       {
+        "quantity": "",
         "item": "Yuzu Foam",
         "note": "see sub-recipe"
       },
       {
+        "quantity": "small handful",
         "item": "Microgreens",
-        "quantity": "small handful"
+        "note": ""
       },
       {
+        "quantity": "pinch",
         "item": "Black sesame seeds",
-        "quantity": "pinch"
+        "note": ""
       },
       {
+        "quantity": "optional",
         "item": "Shiso leaves",
-        "quantity": "optional"
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare the miso marinade by whisking miso, mirin, sake, and sugar until smooth."
+      },
+      {
+        "instruction": "Coat the black cod and refrigerate for 12–24 hours."
+      },
+      {
+        "instruction": "Prepare Pickled Daikon using the sub-recipe."
+      },
+      {
+        "instruction": "Prepare Yuzu Foam using the sub-recipe."
+      },
+      {
+        "instruction": "Rinse excess marinade from cod, vacuum seal, and cook sous vide at 122°F (50°C) for 25 minutes."
+      },
+      {
+        "instruction": "Press sushi rice into a flat sheet, cut into shapes, and fry at 375°F until golden and crispy."
+      },
+      {
+        "instruction": "Remove cod from bag, pat dry, and brush lightly with miso glaze."
+      },
+      {
+        "instruction": "Use a blowtorch to caramelize the surface until glossy."
+      },
+      {
+        "instruction": "Plating Layer 1: Place crispy rice as the base."
+      },
+      {
+        "instruction": "Plating Layer 2: Place cod on top and add pickled daikon curls."
+      },
+      {
+        "instruction": "Plating Layer 3: Dispense yuzu foam beside the fish and garnish with microgreens and sesame seeds."
       }
     ],
     "specialtools": [
@@ -10598,119 +10637,84 @@
         "link": "https://amzn.to/4cQTZkJ"
       }
     ],
-    "steps": [
+    "winePairings": [
       {
-        "number": 1,
-        "instruction": "Prepare the miso marinade by whisking miso, mirin, sake, and sugar until smooth."
+        "name": "Junmai Daiginjo Sake",
+        "notes": "Elegant and aromatic, enhances umami and delicate fish texture."
       },
       {
-        "number": 2,
-        "instruction": "Coat the black cod and refrigerate for 12–24 hours.",
-        "note": "this develops deep umami flavor"
-      },
-      {
-        "number": 3,
-        "instruction": "Prepare Pickled Daikon using the sub-recipe.",
-        "note": "vacuum compression recommended"
-      },
-      {
-        "number": 4,
-        "instruction": "Prepare Yuzu Foam using the sub-recipe."
-      },
-      {
-        "number": 5,
-        "instruction": "Rinse excess marinade from cod, vacuum seal, and cook sous vide at 122°F (50°C) for 25 minutes."
-      },
-      {
-        "number": 6,
-        "instruction": "Press sushi rice into a flat sheet, cut into shapes, and fry at 375°F until golden and crispy."
-      },
-      {
-        "number": 7,
-        "instruction": "Remove cod from bag, pat dry, and brush lightly with miso glaze."
-      },
-      {
-        "number": 8,
-        "instruction": "Use a blowtorch to caramelize the surface until glossy."
-      },
-      {
-        "number": 9,
-        "instruction": "Plating Layer 1: Place crispy rice as the base."
-      },
-      {
-        "number": 10,
-        "instruction": "Plating Layer 2: Place cod on top and add pickled daikon curls."
-      },
-      {
-        "number": 11,
-        "instruction": "Plating Layer 3: Dispense yuzu foam beside the fish and garnish with microgreens and sesame seeds."
+        "name": "Chablis Grand Cru",
+        "notes": "Mineral-driven acidity balances the richness of the cod."
       }
     ],
     "sub_recipes": [
       {
         "name": "Pickled Daikon",
+        "yield": "",
         "ingredients": [
           {
-            "item": "Daikon radish",
             "quantity": "1",
+            "item": "Daikon radish",
             "note": "thinly sliced"
           },
           {
+            "quantity": "1/2 cup",
             "item": "Rice vinegar",
-            "quantity": "1/2 cup"
+            "note": ""
           },
           {
+            "quantity": "2 tbsp",
             "item": "Sugar",
-            "quantity": "2 tbsp"
+            "note": ""
           },
           {
+            "quantity": "1 tsp",
             "item": "Salt",
-            "quantity": "1 tsp"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Mix vinegar, sugar, and salt until dissolved."
           },
           {
-            "number": 2,
-            "instruction": "Combine with daikon and vacuum seal for instant compression.",
-            "note": "or marinate 1–2 hours traditionally"
+            "instruction": "Combine with daikon and vacuum seal for instant compression."
           }
         ]
       },
       {
         "name": "Yuzu Foam",
+        "yield": "",
         "ingredients": [
           {
+            "quantity": "1/2 cup",
             "item": "Yuzu juice",
-            "quantity": "1/2 cup"
+            "note": ""
           },
           {
+            "quantity": "1/2 cup",
             "item": "Dashi",
-            "quantity": "1/2 cup"
+            "note": ""
           },
           {
+            "quantity": "1 tsp",
             "item": "Soy lecithin",
-            "quantity": "1 tsp"
+            "note": ""
           },
           {
+            "quantity": "to taste",
             "item": "Salt",
-            "quantity": "to taste"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Heat yuzu juice and dashi gently."
           },
           {
-            "number": 2,
             "instruction": "Add lecithin and blend until foamy."
           },
           {
-            "number": 3,
             "instruction": "Strain and charge in a siphon."
           }
         ]

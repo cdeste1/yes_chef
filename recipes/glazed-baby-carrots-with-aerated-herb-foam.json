@@ -58,7 +58,7 @@
       "instruction": "Use the Chamber Vacuum Sealer on its highest setting to collapse the cell structure and infuse the aromatics."
     },
     {
-      "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84�C (183�F) for 45�60 minutes."
+      "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84 C (183 F) for 45 60 minutes."
     },
     {
       "instruction": "Blanch and shock the herbs, then blend with vegetable stock and heavy cream to create the foam base."
@@ -70,7 +70,7 @@
       "instruction": "Pour the liquid into a Siphon, charge with one N2O cartridge, and shake vigorously."
     },
     {
-      "instruction": "Keep the siphon warm in a 50�C (122�F) water bath until ready to serve."
+      "instruction": "Keep the siphon warm in a 50 C (122 F) water bath until ready to serve."
     },
     {
       "instruction": "Remove carrots from the pouch and briefly sear in a hot pan for 30 seconds using the pouch juices to create a glossy glaze."
@@ -110,7 +110,7 @@
     },
     {
       "number": 3,
-      "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84�C (183�F) for 45�60 minutes."
+      "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84 C (183 F) for 45 60 minutes."
     },
     {
       "number": 4,
@@ -127,7 +127,7 @@
     },
     {
       "number": 7,
-      "instruction": "Keep the siphon warm in a 50�C (122�F) water bath until ready to serve."
+      "instruction": "Keep the siphon warm in a 50 C (122 F) water bath until ready to serve."
     },
     {
       "number": 8,
@@ -138,9 +138,7 @@
       "instruction": "Plating: Arrange the carrots on a plate and dispense a cloud of herb foam alongside them."
     }
   ],
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glazed-baby-carrots-with-aerated-herb-foam.jpg"
-=======
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glazed-baby-carrots-with-aerated-herb-foam.jpg",
   "winePairings": [],
   "sub_recipes": []
->>>>>>> 33021d756c4ae51cc5c2f59aa8f1518e55caf99d
 }

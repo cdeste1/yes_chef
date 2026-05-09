@@ -4,15 +4,12 @@
   "category": "Main",
   "keywords": "clam pasta, linguine alle vongole, fine dining, seafood pasta, Italian",
   "yield": "2-3 servings",
-<<<<<<< HEAD
   "source": "Modern fine dining technique",
   "chef": "World-Class Inspired",
   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/michelin-style-linguine-with-clam-sauce.png",
-=======
   "source": "Osteria Francescana",
   "chef": "Massimo Bottura",
   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/michelin-style-linguine-with-clam-sauce.PNG",
->>>>>>> 386193175b3d151c911ae47c89e6e659e921de34
   "ingredients": [
     {
       "quantity": "2 lbs",

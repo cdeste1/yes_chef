@@ -4,13 +4,10 @@
   "description": "A molecular gastronomy course featuring precision-temperature prawns and a centrifuged saffron-shellfish foam.",
   "category": "Main",
   "keywords": "prawns, shrimp, molecular gastronomy, sous vide",
-<<<<<<< HEAD
-=======
   "yield": "2 servings",
   "source": "elBulli",
   "chef": "Ferran Adrià",
   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.PNG",
->>>>>>> 386193175b3d151c911ae47c89e6e659e921de34
   "ingredients": [
     {
       "item": "Blue Prawns or Tiger Shrimp",

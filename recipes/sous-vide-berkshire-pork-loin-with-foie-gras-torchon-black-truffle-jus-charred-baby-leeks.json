@@ -5,6 +5,7 @@
   "description": "A luxurious Michelin-inspired course featuring perfectly cooked heritage Berkshire pork, silky foie gras torchon, earthy black truffle jus, and dramatic charred baby leeks.",
   "category": "Main",
   "keywords": "pork, sous-vide, foie gras, truffle, fine dining",
+<<<<<<< HEAD
   "winePairings": [
     {
       "name": "Mature Burgundy (Pinot Noir)",
@@ -15,6 +16,12 @@
       "notes": "Velvety texture and subtle oak balance the rich foie gras and jus."
     }
   ],
+=======
+  "yield": "4 plates",
+  "source": "Mirazur",
+  "chef": "Mauro Colagreco",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.JPG",
+>>>>>>> 386193175b3d151c911ae47c89e6e659e921de34
   "ingredients": [
     {
       "item": "Center-cut Berkshire pork loin medallions",

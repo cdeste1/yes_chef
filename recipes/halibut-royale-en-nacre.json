@@ -1,83 +1,122 @@
 {
   "name": "Halibut Royale en Nacre",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Halibut.png",
-  "yield": "2 plates",
   "description": "A refined Michelin-style halibut dish featuring butter-poached fish, champagne beurre blanc, and delicate spring vegetables with luxurious garnishes.",
   "category": "Main",
   "keywords": "halibut, fine dining, seafood, michelin, beurre blanc",
-  "winePairings": [
-    {
-      "name": "Champagne Brut",
-      "notes": "Bright acidity enhances the beurre blanc and balances the richness."
-    },
-    {
-      "name": "Chablis Grand Cru",
-      "notes": "Minerality and citrus notes complement the delicate halibut."
-    }
-  ],
+  "yield": "2 plates",
+  "source": "Restaurant Guy Savoy",
+  "chef": "Guy Savoy",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Halibut.png",
   "ingredients": [
     {
+      "quantity": "2 (6 oz each)",
       "item": "Halibut fillets (center-cut, skinless)",
-      "quantity": "2 (6 oz each)"
+      "note": ""
     },
     {
-      "item": "Unsalted butter",
       "quantity": "350 g",
+      "item": "Unsalted butter",
       "note": "divided for poaching and sauce"
     },
     {
-      "item": "Garlic clove",
       "quantity": "1",
+      "item": "Garlic clove",
       "note": "crushed"
     },
     {
+      "quantity": "1",
       "item": "Thyme sprig",
-      "quantity": "1"
+      "note": ""
     },
     {
-      "item": "Shallot",
       "quantity": "1",
+      "item": "Shallot",
       "note": "finely minced"
     },
     {
+      "quantity": "150 ml",
       "item": "Champagne",
-      "quantity": "150 ml"
+      "note": ""
     },
     {
+      "quantity": "1 tbsp",
       "item": "White wine vinegar",
-      "quantity": "1 tbsp"
+      "note": ""
     },
     {
+      "quantity": "1/2 cup",
       "item": "English peas",
-      "quantity": "1/2 cup"
+      "note": ""
     },
     {
+      "quantity": "4-6",
       "item": "Baby leeks or scallions",
-      "quantity": "4-6"
+      "note": ""
     },
     {
+      "quantity": "small handful",
       "item": "Microgreens",
-      "quantity": "small handful"
+      "note": ""
     },
     {
+      "quantity": "to finish",
       "item": "Lemon zest",
-      "quantity": "to finish"
+      "note": ""
     },
     {
+      "quantity": "to taste",
       "item": "Salt and white pepper",
-      "quantity": "to taste"
+      "note": ""
     },
     {
+      "quantity": "small spoonful",
       "item": "Caviar (optional)",
-      "quantity": "small spoonful"
+      "note": ""
     },
     {
+      "quantity": "for garnish",
       "item": "Edible flowers (optional)",
-      "quantity": "for garnish"
+      "note": ""
     },
     {
+      "quantity": "for garnish",
       "item": "Gold leaf (optional)",
-      "quantity": "for garnish"
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Season the halibut lightly with salt and white pepper and place into a vacuum bag with butter, garlic, and thyme."
+    },
+    {
+      "instruction": "Seal and cook in a water bath at 122°F (50°C) for 25 minutes."
+    },
+    {
+      "instruction": "Prepare the Champagne Beurre Blanc"
+    },
+    {
+      "instruction": "Blanch peas in salted boiling water, then shock in ice water."
+    },
+    {
+      "instruction": "Lightly sauté baby leeks in butter until tender."
+    },
+    {
+      "instruction": "Remove halibut from bag and gently pat dry."
+    },
+    {
+      "instruction": "Sear halibut briefly in a hot pan with butter to create a light golden crust."
+    },
+    {
+      "instruction": "Plating: Spoon beurre blanc onto the plate as a base."
+    },
+    {
+      "instruction": "Place halibut slightly off-center on the sauce."
+    },
+    {
+      "instruction": "Arrange peas and leeks with height and balance."
+    },
+    {
+      "instruction": "Garnish with microgreens, lemon zest, and optional caviar or gold leaf."
     }
   ],
   "specialtools": [
@@ -110,98 +149,58 @@
       "link": "https://amzn.to/3QkAbxs"
     }
   ],
-  "steps": [
+  "winePairings": [
     {
-      "number": 1,
-      "instruction": "Season the halibut lightly with salt and white pepper and place into a vacuum bag with butter, garlic, and thyme."
+      "name": "Champagne Brut",
+      "notes": "Bright acidity enhances the beurre blanc and balances the richness."
     },
     {
-      "number": 2,
-      "instruction": "Seal and cook in a water bath at 122°F (50°C) for 25 minutes.",
-      "note": "ensures a delicate, silky texture"
-    },
-    {
-      "number": 3,
-      "instruction": "Prepare the Champagne Beurre Blanc",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 4,
-      "instruction": "Blanch peas in salted boiling water, then shock in ice water.",
-      "note": "keeps color vibrant"
-    },
-    {
-      "number": 5,
-      "instruction": "Lightly sauté baby leeks in butter until tender."
-    },
-    {
-      "number": 6,
-      "instruction": "Remove halibut from bag and gently pat dry."
-    },
-    {
-      "number": 7,
-      "instruction": "Sear halibut briefly in a hot pan with butter to create a light golden crust.",
-      "note": "do not overcook"
-    },
-    {
-      "number": 8,
-      "instruction": "Plating: Spoon beurre blanc onto the plate as a base."
-    },
-    {
-      "number": 9,
-      "instruction": "Place halibut slightly off-center on the sauce."
-    },
-    {
-      "number": 10,
-      "instruction": "Arrange peas and leeks with height and balance."
-    },
-    {
-      "number": 11,
-      "instruction": "Garnish with microgreens, lemon zest, and optional caviar or gold leaf."
+      "name": "Chablis Grand Cru",
+      "notes": "Minerality and citrus notes complement the delicate halibut."
     }
   ],
   "sub_recipes": [
     {
       "name": "Champagne Beurre Blanc",
+      "yield": "",
       "ingredients": [
         {
-          "item": "Shallot",
           "quantity": "1",
+          "item": "Shallot",
           "note": "finely minced"
         },
         {
+          "quantity": "150 ml",
           "item": "Champagne",
-          "quantity": "150 ml"
+          "note": ""
         },
         {
+          "quantity": "1 tbsp",
           "item": "White wine vinegar",
-          "quantity": "1 tbsp"
+          "note": ""
         },
         {
-          "item": "Cold butter",
           "quantity": "150 g",
+          "item": "Cold butter",
           "note": "cubed"
         },
         {
+          "quantity": "to taste",
           "item": "Salt",
-          "quantity": "to taste"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Combine shallots, champagne, and vinegar in a saucepan and reduce until nearly dry."
         },
         {
-          "number": 2,
           "instruction": "Lower heat and whisk in cold butter gradually until emulsified."
         },
         {
-          "number": 3,
           "instruction": "Strain through a fine chinois for a smooth finish."
         },
         {
-          "number": 4,
           "instruction": "Keep warm but not hot to prevent splitting."
         }
       ]

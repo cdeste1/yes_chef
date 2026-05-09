@@ -1,0 +1,129 @@
+{
+  "name": "Blue Mussel Velouté with Saffron Foam & Compressed Sea Beans",
+  "description": "A world-class main course inspired by Chef Yannick Alléno’s modern extraction philosophy. This dish features ultra-clean mussel essence, high-stability saffron foam, and vacuum-compressed sea beans for a multi-textural marine experience.",
+  "category": "Main",
+  "keywords": "mussel veloute, Yannick Alleno inspired, saffron foam, modern French, seafood extraction, molecular gastronomy, fine dining mussels",
+  "yield": "Serves 4",
+  "source": "",
+  "chef": "",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/blue-mussel-velout-with-saffron-foam-compressed-sea-beans.jpg",
+  "ingredients": [
+    {
+      "quantity": "2kg",
+      "item": "Live Blue Mussels",
+      "note": "scrubbed and de-bearded"
+    },
+    {
+      "quantity": "200ml",
+      "item": "Dry White Wine",
+      "note": "Chablis preferred"
+    },
+    {
+      "quantity": "3",
+      "item": "Shallots",
+      "note": "finely minced"
+    },
+    {
+      "quantity": "1",
+      "item": "Bouquet Garni",
+      "note": "thyme, bay leaf, parsley stems"
+    },
+    {
+      "quantity": "500ml",
+      "item": "Heavy Cream",
+      "note": "minimum 40% fat"
+    },
+    {
+      "quantity": "0.5g",
+      "item": "Premium Persian Saffron",
+      "note": "threads"
+    },
+    {
+      "quantity": "2g",
+      "item": "Soy Lecithin",
+      "note": "for foam stability"
+    },
+    {
+      "quantity": "1g",
+      "item": "Xanthan Gum",
+      "note": "for foam texture"
+    },
+    {
+      "quantity": "100g",
+      "item": "Fresh Sea Beans",
+      "note": "Salicornia"
+    },
+    {
+      "quantity": "2",
+      "item": "Finger Limes",
+      "note": "citrus pearls"
+    },
+    {
+      "quantity": "4 sheets",
+      "item": "Edible Bronze Leaf",
+      "note": "for garnish"
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Sweat shallots in a heavy-bottomed pot without color. Increase heat, add mussels and wine, cover, and steam for exactly 3 minutes."
+    },
+    {
+      "instruction": "Strain immediately, reserving all liquor. Deshell mussels and store in a small amount of liquid to maintain moisture."
+    },
+    {
+      "instruction": "Pass the liquor through a fine-mesh chinois lined with a coffee filter. Reduce by half on an induction system."
+    },
+    {
+      "instruction": "Add heavy cream to the reduction and simmer until the sauce coats a spoon. Hold at exactly 70°C using the Control Freak to maintain emulsion."
+    },
+    {
+      "instruction": "For the foam: Combine 200ml reserved liquor, saffron, lecithin, and xanthan gum. Use the Sonicator for 90 seconds to extract color and create a permanent emulsion."
+    },
+    {
+      "instruction": "Compress sea beans: Place sea beans and 1 tbsp liquor in a vacuum bag. Use the Chamber Vacuum Sealer on high to infuse flavor and alter texture."
+    },
+    {
+      "instruction": "Plate: Arrange 5-7 mussels in the center of a warmed bowl. Pour the velouté around the base."
+    },
+    {
+      "instruction": "Garnish with compressed sea beans and finger lime pearls."
+    },
+    {
+      "instruction": "Finish by spooning the sonicated saffron foam over the top and adding a fragment of bronze leaf."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Control Freak Induction System",
+      "link": "https://amzn.to/49yd60V"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/3Pafjc7"
+    },
+    {
+      "item": "Centrifugal High-Speed Juicer",
+      "link": "https://amzn.to/4dt53F5"
+    },
+    {
+      "item": "Coffee Filters",
+      "link": "https://amzn.to/4devBsp"
+    },
+    {
+      "item": "Fine Mesh Chinois",
+      "link": "https://amzn.to/3OOcBsN"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Chablis 1er Cru",
+      "notes": "The minerality and high acidity cut through the rich velouté while echoing the brine of the mussels."
+    },
+    {
+      "name": "Vintage Champagne",
+      "notes": "The effervescence and brioche notes complement the saffron foam and cream base beautifully."
+    }
+  ],
+  "sub_recipes": []
+}

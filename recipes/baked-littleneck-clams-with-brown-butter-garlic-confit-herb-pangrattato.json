@@ -4,9 +4,15 @@
   "category": "Starter",
   "keywords": "baked clams, fine dining, seafood, Michelin, garlic confit, pangrattato",
   "yield": "4 servings",
+<<<<<<< HEAD
   "source": "Chef-inspired",
   "chef": "World-Class Modern Seafood",
   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/baked-littleneck-clams-with-brown-butter-garlic-confit-herb-pangrattato.png",
+=======
+  "source": "Le Bernardin",
+  "chef": "Eric Ripert",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/baked-littleneck-clams-with-brown-butter-garlic-confit-herb-pangrattato.PNG",
+>>>>>>> 386193175b3d151c911ae47c89e6e659e921de34
   "ingredients": [
     {
       "quantity": "24",

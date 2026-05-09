@@ -5,6 +5,7 @@
   "description": "A world-class chef execution of Beef Wellington featuring perfectly cooked beef tenderloin, mushroom duxelles, prosciutto, and golden puff pastry with precision layering and moisture control.",
   "category": "Main",
   "keywords": "beef wellington, fine dining, gourmet, steak, pastry",
+<<<<<<< HEAD
   "winePairings": [
     {
       "name": "Bordeaux (Left Bank)",
@@ -15,6 +16,12 @@
       "notes": "High tannin and acidity balance the fat and umami of the dish."
     }
   ],
+=======
+  "yield": "4-6 plates",
+  "source": "Restaurant Gordon Ramsay",
+  "chef": "Gordon Ramsay",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/beef-wellington.PNG",
+>>>>>>> 386193175b3d151c911ae47c89e6e659e921de34
   "ingredients": [
     {
       "item": "Center-cut beef tenderloin",

@@ -422,7 +422,7 @@
     "category": "Sides",
     "keywords": "asparagus pavé, michelin style, brown butter sabayon, morels, caviar, molecular gastronomy, haute cuisine",
     "yield": "Serves 4",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/asparagus-pav-with-brown-butter-sabayon-morels-caviar.jpg",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/asparagus-pav-with-brown-butter-sabayon-morels-caviar.jpg",
     "ingredients": [
       {
         "quantity": "800g",
@@ -971,7 +971,7 @@
     "yield": "4 servings",
     "source": "Chef-inspired",
     "chef": "World-Class Modern Seafood",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/baked-littleneck-clams-with-brown-butter-garlic-confit-herb-pangrattato.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/baked-littleneck-clams-with-brown-butter-garlic-confit-herb-pangrattato.png",
     "ingredients": [
       {
         "quantity": "24",
@@ -1634,7 +1634,7 @@
   },
   {
     "name": "Beef Wellington",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/beef-wellington.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/beef-wellington.png",
     "yield": "4-6 plates",
     "description": "A world-class chef execution of Beef Wellington featuring perfectly cooked beef tenderloin, mushroom duxelles, prosciutto, and golden puff pastry with precision layering and moisture control.",
     "category": "Main",
@@ -1871,7 +1871,7 @@
     "category": "Brunch",
     "keywords": "truffle french toast, foie gras custard, michelin brunch, compressed berries, maple espuma, molecular gastronomy, fine dining breakfast",
     "yield": "Serves 4",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/black-truffle-brioche-french-toast-with-foie-gras-custard-compressed-berries-maple-sauternes-espuma.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/black-truffle-brioche-french-toast-with-foie-gras-custard-compressed-berries-maple-sauternes-espuma.png",
     "ingredients": [
       {
         "quantity": "8 slices",
@@ -2063,7 +2063,7 @@
     "category": "Brunch",
     "keywords": "waffle, truffle, brown butter, fine dining, gourmet, souffle waffle",
     "yield": "4 waffles",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/black-truffle-brown-butter-souffle-waffle.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/black-truffle-brown-butter-souffle-waffle.png",
     "ingredients": [
       {
         "quantity": "120g",
@@ -3319,11 +3319,11 @@
         "instruction": "Plating: Place prawns in a shallow bowl, dispense saffron foam from the siphon over the top, and garnish with chervil."
       }
     ],
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.png"
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.png"
   },
   {
     "name": "Butter-Poached Lobster with Saffron Foam, Fennel Ash & Citrus Gel",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.png",
     "yield": "2-3 plates",
     "description": "A refined seafood dish featuring butter-poached lobster, airy saffron foam, bright citrus gel, and fennel ash for a modern, Michelin-style presentation.",
     "category": "Main",
@@ -4086,7 +4086,7 @@
     "category": "Brunch",
     "keywords": "banana mille-feuille, espresso custard, tonka bean foam, molecular gastronomy, fine dining brunch, honeycomb candy, modernist dessert",
     "yield": "Serves 4",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caramelized-banana-mille-feuille-with-espresso-custard-tonka-bean-air-gold-leaf-honeycomb.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-banana-mille-feuille-with-espresso-custard-tonka-bean-air-gold-leaf-honeycomb.png",
     "ingredients": [
       {
         "quantity": "6",
@@ -4471,7 +4471,7 @@
     "category": "Brunch",
     "keywords": "cinnamon rolls, brioche, laminated dough, brown butter, pastry, fine dining, gourmet",
     "yield": "12 rolls",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.png",
     "ingredients": [
       {
         "quantity": "500g",
@@ -4731,7 +4731,7 @@
     "category": "Brunch",
     "keywords": "cloud eggs, truffle brioche, caviar brunch, michelin style breakfast, hollandaise foam, molecular gastronomy, fine dining eggs",
     "yield": "Serves 4",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png",
     "ingredients": [
       {
         "quantity": "8",
@@ -6633,7 +6633,7 @@
     "category": "Starter",
     "keywords": "hamachi crudo, yuzu kosho, molecular gastronomy, fine dining seafood, spherification, compressed cucumber, modernist cuisine",
     "yield": "Serves 4",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.png",
     "ingredients": [
       {
         "quantity": "200g",
@@ -7581,7 +7581,7 @@
     "yield": "4 Servings",
     "source": "Gemini Culinary Laboratory",
     "chef": "Inspired by Dominique Crenn",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/forest-sunrise.jpg",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/forest-sunrise.jpg",
     "ingredients": [
       {
         "quantity": "4",
@@ -7906,7 +7906,7 @@
     "category": "Sides",
     "keywords": "potato pavé, michelin style, truffle aeration, molecular gastronomy, haute cuisine",
     "yield": "1 terrine (serves 4-6)",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glass-laminate-potato-pav-with-truffle-aerated-emulsion.jpg",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glass-laminate-potato-pav-with-truffle-aerated-emulsion.jpg",
     "ingredients": [
       {
         "quantity": "4 large",
@@ -8106,7 +8106,7 @@
         "instruction": "Plating: Arrange the carrots on a plate and dispense a cloud of herb foam alongside them."
       }
     ],
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glazed-baby-carrots-with-aerated-herb-foam.jpg"
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glazed-baby-carrots-with-aerated-herb-foam.jpg"
   },
   {
     "name": "Golden Orchard Spritz",
@@ -10397,7 +10397,7 @@
     "yield": "2-3 servings",
     "source": "Modern fine dining technique",
     "chef": "World-Class Inspired",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/michelin-style-linguine-with-clam-sauce.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/michelin-style-linguine-with-clam-sauce.png",
     "ingredients": [
       {
         "quantity": "2 lbs",
@@ -11021,7 +11021,7 @@
   },
   {
     "name": "Modernist Tabouli with Herb Oil & Precision Texture",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/modernist-tabouli-with-herb-oil-precision-texture.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/modernist-tabouli-with-herb-oil-precision-texture.png",
     "yield": "4 plates",
     "description": "A refined tabouli showcasing precision-cut herbs, vacuum-hydrated bulgur, clarified lemon, and vibrant herb oil for a clean, modern presentation.",
     "category": "Sides",
@@ -12837,7 +12837,7 @@
     "category": "Sides",
     "keywords": "brussels sprouts, michelin style, roasted pavé, aged balsamic, molecular gastronomy, haute cuisine",
     "yield": "Serves 4",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/roasted-brussels-sprouts-pav-with-aged-balsamic-emulsion-and-crispy-leaves.jpg",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/roasted-brussels-sprouts-pav-with-aged-balsamic-emulsion-and-crispy-leaves.jpg",
     "ingredients": [
       {
         "quantity": "680g",
@@ -13945,7 +13945,7 @@
   },
   {
     "name": "Sous-Vide Berkshire Pork Loin with Foie Gras Torchon, Black Truffle Jus & Charred Baby Leeks",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.jpg",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.jpg",
     "yield": "4 plates",
     "description": "A luxurious Michelin-inspired course featuring perfectly cooked heritage Berkshire pork, silky foie gras torchon, earthy black truffle jus, and dramatic charred baby leeks.",
     "category": "Main",
@@ -16536,7 +16536,7 @@
     "keywords": "avocado toast, sourdough, sous vide egg, gourmet breakfast, chef recipe",
     "yield": "2 slices (serves 1-2)",
     "chef": "Inspired by Gordon Ramsay & Bobby Flay techniques",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/world-class-chef-inspired-avocado-toast.jpg",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/world-class-chef-inspired-avocado-toast.jpg",
     "ingredients": [
       {
         "quantity": "2 thick slices (¾–1 inch)",

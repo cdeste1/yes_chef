@@ -422,9 +422,7 @@
     "category": "Sides",
     "keywords": "asparagus pavé, michelin style, brown butter sabayon, morels, caviar, molecular gastronomy, haute cuisine",
     "yield": "Serves 4",
-    "source": "Geranium",
-    "chef": "Rasmus Kofoed",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/asparaguspavebrownbutter_sabayon.JPG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/asparagus-pav-with-brown-butter-sabayon-morels-caviar.jpg",
     "ingredients": [
       {
         "quantity": "800g",
@@ -562,8 +560,7 @@
         "name": "Vintage Champagne",
         "notes": "High acidity perfectly balances the caviar, brown butter, and luxurious textures."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Avocado Royale",
@@ -1637,7 +1634,7 @@
   },
   {
     "name": "Beef Wellington",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/beef-wellington.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/beef-wellington.png",
     "yield": "4-6 plates",
     "description": "A world-class chef execution of Beef Wellington featuring perfectly cooked beef tenderloin, mushroom duxelles, prosciutto, and golden puff pastry with precision layering and moisture control.",
     "category": "Main",
@@ -1652,8 +1649,6 @@
         "notes": "High tannin and acidity balance the fat and umami of the dish."
       }
     ],
-    "source": "Restaurant Gordon Ramsay",
-    "chef": "Gordon Ramsay",
     "ingredients": [
       {
         "item": "Center-cut beef tenderloin",
@@ -2064,13 +2059,11 @@
   },
   {
     "name": "Black Truffle Brown Butter Souffle Waffle",
-    "description": "A Michelin-inspired waffle with a crisp caramelized exterior and airy souffle interior, layered with brown butter, black truffle, maple gastrique, and hazelnut texture.",
+    "description": "A Michelin-inspired waffle with a crisp caramelized exterior and airy souffl� interior, layered with brown butter, black truffle, maple gastrique, and hazelnut texture.",
     "category": "Brunch",
     "keywords": "waffle, truffle, brown butter, fine dining, gourmet, souffle waffle",
     "yield": "4 waffles",
-    "source": "",
-    "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/blacktruffle_brownbutter_waffle.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/black-truffle-brown-butter-souffle-waffle.png",
     "ingredients": [
       {
         "quantity": "120g",
@@ -2154,7 +2147,7 @@
         "instruction": "Cook batter in a preheated waffle iron until deep golden and crisp."
       },
       {
-        "instruction": "Plate waffle with whipped creme fraiche, drizzle maple gastrique, and finish with hazelnut dust, truffle shavings, and microgreens."
+        "instruction": "Plate waffle with whipped cr�me fra�che, drizzle maple gastrique, and finish with hazelnut dust, truffle shavings, and microgreens."
       }
     ],
     "specialtools": [
@@ -2361,11 +2354,9 @@
   {
     "name": "Blue Mussel Velouté with Saffron Foam & Compressed Sea Beans",
     "description": "A world-class main course inspired by Chef Yannick Alléno’s modern extraction philosophy. This dish features ultra-clean mussel essence, high-stability saffron foam, and vacuum-compressed sea beans for a multi-textural marine experience.",
-    "category": "Main",
+    "category": "Main Course",
     "keywords": "mussel veloute, Yannick Alleno inspired, saffron foam, modern French, seafood extraction, molecular gastronomy, fine dining mussels",
     "yield": "Serves 4",
-    "source": "",
-    "chef": "",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/blue-mussel-velout-with-saffron-foam-compressed-sea-beans.jpg",
     "ingredients": [
       {
@@ -2485,7 +2476,7 @@
         "notes": "The effervescence and brioche notes complement the saffron foam and cream base beautifully."
       }
     ],
-    "sub_recipes": []
+    "inspiredBy": "Chef Yannick Alléno"
   },
   {
     "name": "Brioche French Toast, Vanilla Espuma and Berry Coulis",
@@ -3230,9 +3221,6 @@
     "description": "A molecular gastronomy course featuring precision-temperature prawns and a centrifuged saffron-shellfish foam.",
     "category": "Main",
     "keywords": "prawns, shrimp, molecular gastronomy, sous vide",
-    "source": "elBulli",
-    "chef": "Ferran Adrià",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.png",
     "ingredients": [
       {
         "item": "Blue Prawns or Tiger Shrimp",
@@ -3330,11 +3318,12 @@
         "number": 9,
         "instruction": "Plating: Place prawns in a shallow bowl, dispense saffron foam from the siphon over the top, and garnish with chervil."
       }
-    ]
+    ],
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.png"
   },
   {
     "name": "Butter-Poached Lobster with Saffron Foam, Fennel Ash & Citrus Gel",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.png",
     "yield": "2-3 plates",
     "description": "A refined seafood dish featuring butter-poached lobster, airy saffron foam, bright citrus gel, and fennel ash for a modern, Michelin-style presentation.",
     "category": "Main",
@@ -3349,8 +3338,6 @@
         "notes": "Bright acidity and bubbles cut through the richness of butter."
       }
     ],
-    "source": "The French Laundry",
-    "chef": "Thomas Keller",
     "ingredients": [
       {
         "item": "Lobster tails",
@@ -3535,8 +3522,6 @@
     "category": "Starter",
     "keywords": "scallops, fine dining seafood, modernist cuisine, corn velouté, fermented corn, butter poached scallops, citrus ash tuile",
     "yield": "Serves 4",
-    "source": "Alinea",
-    "chef": "Grant Achatz",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-scallop-with-corn-silk-velout-fermented-corn-emulsion-citrus-ash-tuile.png",
     "ingredients": [
       {
@@ -3707,8 +3692,7 @@
         "name": "Champagne (Brut Blanc de Blancs)",
         "notes": "Bright acidity and fine bubbles cut through the richness while enhancing the dish’s delicate textures."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Cacao Sablé with Fleur de Sel Caramel",
@@ -4102,9 +4086,7 @@
     "category": "Brunch",
     "keywords": "banana mille-feuille, espresso custard, tonka bean foam, molecular gastronomy, fine dining brunch, honeycomb candy, modernist dessert",
     "yield": "Serves 4",
-    "source": "",
-    "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-banana-mille-feuille-with-espresso-custard-tonka-bean-air-gold-leaf-honeycomb.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caramelized-banana-mille-feuille-with-espresso-custard-tonka-bean-air-gold-leaf-honeycomb.png",
     "ingredients": [
       {
         "quantity": "6",
@@ -4279,8 +4261,7 @@
         "name": "Pedro Ximénez Sherry",
         "notes": "Deep caramel and raisin notes mirror the banana and honeycomb sweetness."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Caramelized Fig Manhattan",
@@ -4490,9 +4471,7 @@
     "category": "Brunch",
     "keywords": "cinnamon rolls, brioche, laminated dough, brown butter, pastry, fine dining, gourmet",
     "yield": "12 rolls",
-    "source": "",
-    "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.png",
     "ingredients": [
       {
         "quantity": "500g",
@@ -4752,9 +4731,7 @@
     "category": "Brunch",
     "keywords": "cloud eggs, truffle brioche, caviar brunch, michelin style breakfast, hollandaise foam, molecular gastronomy, fine dining eggs",
     "yield": "Serves 4",
-    "source": "",
-    "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png",
     "ingredients": [
       {
         "quantity": "8",
@@ -4920,8 +4897,7 @@
         "name": "White Burgundy (Meursault)",
         "notes": "Buttery texture complements brioche and brown butter flavors."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Celery Gin Cloud",
@@ -6657,9 +6633,7 @@
     "category": "Starter",
     "keywords": "hamachi crudo, yuzu kosho, molecular gastronomy, fine dining seafood, spherification, compressed cucumber, modernist cuisine",
     "yield": "Serves 4",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.PNG",
-    "source": "Narisawa",
-    "chef": "Yoshihiro Narisawa",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.png",
     "ingredients": [
       {
         "quantity": "200g",
@@ -7607,7 +7581,7 @@
     "yield": "4 Servings",
     "source": "Gemini Culinary Laboratory",
     "chef": "Inspired by Dominique Crenn",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/forest-sunrise.jpg",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/forest-sunrise.jpg",
     "ingredients": [
       {
         "quantity": "4",
@@ -7932,9 +7906,7 @@
     "category": "Sides",
     "keywords": "potato pavé, michelin style, truffle aeration, molecular gastronomy, haute cuisine",
     "yield": "1 terrine (serves 4-6)",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glass-laminate-potato-pav-with-truffle-aerated-emulsion.JPEG",
-    "source": "L’Enclume",
-    "chef": "Simon Rogan",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glass-laminate-potato-pav-with-truffle-aerated-emulsion.jpg",
     "ingredients": [
       {
         "quantity": "4 large",
@@ -8042,88 +8014,38 @@
   },
   {
     "name": "Glazed Baby Carrots with Aerated Herb Foam",
-    "description": "A modernist side dish using vacuum compression to intensify flavor and nitrous-oxide aeration for a delicate herb foam.",
-    "category": "Sides",
-    "keywords": "carrots, molecular gastronomy, sous-vide, foam",
     "yield": "6 plates",
-    "source": "",
-    "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glazed-baby-carrots-with-aerated-herb-foam.jpg",
+    "description": "A modernist side dish using vacuum compression to intensify flavor and nitrous-oxide aeration for a delicate herb foam.",
+    "category": "Side",
+    "keywords": "carrots, molecular gastronomy, sous-vide, foam",
     "ingredients": [
       {
-        "quantity": "1 lb",
         "item": "Baby heirloom carrots",
-        "note": ""
+        "quantity": "1 lb"
       },
       {
-        "quantity": "2 tbsp",
         "item": "Butter",
-        "note": ""
+        "quantity": "2 tbsp"
       },
       {
-        "quantity": "1 sprig",
         "item": "Thyme",
-        "note": ""
+        "quantity": "1 sprig"
       },
       {
-        "quantity": "1 pinch",
         "item": "Sea salt",
-        "note": ""
+        "quantity": "1 pinch"
       },
       {
-        "quantity": "1 handful",
         "item": "Parsley and Chives",
-        "note": ""
+        "quantity": "1 handful"
       },
       {
-        "quantity": "100 ml",
         "item": "Vegetable stock",
-        "note": ""
+        "quantity": "100 ml"
       },
       {
-        "quantity": "50 ml",
         "item": "Heavy cream",
-        "note": ""
-      }
-    ],
-    "steps": [
-      {
-        "number": 1,
-        "instruction": "Peel and trim the carrots, then place them in a vacuum pouch with butter, thyme, and sea salt."
-      },
-      {
-        "number": 2,
-        "instruction": "Use the Chamber Vacuum Sealer on its highest setting to collapse the cell structure and infuse the aromatics.",
-        "note": "This creates a dense, translucent appearance."
-      },
-      {
-        "number": 3,
-        "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84 C (183 F) for 45 60 minutes."
-      },
-      {
-        "number": 4,
-        "instruction": "Blanch and shock the herbs, then blend with vegetable stock and heavy cream to create the foam base."
-      },
-      {
-        "number": 5,
-        "instruction": "Pass the herb mixture through a Micro-Fine Mesh Sieve.",
-        "note": "The liquid must be perfectly smooth to avoid clogging the siphon."
-      },
-      {
-        "number": 6,
-        "instruction": "Pour the liquid into a Siphon, charge with one N2O cartridge, and shake vigorously."
-      },
-      {
-        "number": 7,
-        "instruction": "Keep the siphon warm in a 50 C (122 F) water bath until ready to serve."
-      },
-      {
-        "number": 8,
-        "instruction": "Remove carrots from the pouch and briefly sear in a hot pan for 30 seconds using the pouch juices to create a glossy glaze."
-      },
-      {
-        "number": 9,
-        "instruction": "Plating: Arrange the carrots on a plate and dispense a cloud of herb foam alongside them."
+        "quantity": "50 ml"
       }
     ],
     "specialtools": [
@@ -8144,8 +8066,47 @@
         "link": "https://amzn.to/3QEWDl3"
       }
     ],
-    "winePairings": [],
-    "sub_recipes": []
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Peel and trim the carrots, then place them in a vacuum pouch with butter, thyme, and sea salt."
+      },
+      {
+        "number": 2,
+        "instruction": "Use the Chamber Vacuum Sealer on its highest setting to collapse the cell structure and infuse the aromatics.",
+        "note": "This creates a dense, translucent appearance."
+      },
+      {
+        "number": 3,
+        "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84�C (183�F) for 45�60 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Blanch and shock the herbs, then blend with vegetable stock and heavy cream to create the foam base."
+      },
+      {
+        "number": 5,
+        "instruction": "Pass the herb mixture through a Micro-Fine Mesh Sieve.",
+        "note": "The liquid must be perfectly smooth to avoid clogging the siphon."
+      },
+      {
+        "number": 6,
+        "instruction": "Pour the liquid into a Siphon, charge with one N2O cartridge, and shake vigorously."
+      },
+      {
+        "number": 7,
+        "instruction": "Keep the siphon warm in a 50�C (122�F) water bath until ready to serve."
+      },
+      {
+        "number": 8,
+        "instruction": "Remove carrots from the pouch and briefly sear in a hot pan for 30 seconds using the pouch juices to create a glossy glaze."
+      },
+      {
+        "number": 9,
+        "instruction": "Plating: Arrange the carrots on a plate and dispense a cloud of herb foam alongside them."
+      }
+    ],
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glazed-baby-carrots-with-aerated-herb-foam.jpg"
   },
   {
     "name": "Golden Orchard Spritz",
@@ -10434,9 +10395,9 @@
     "category": "Main",
     "keywords": "clam pasta, linguine alle vongole, fine dining, seafood pasta, Italian",
     "yield": "2-3 servings",
-    "source": "Osteria Francescana",
-    "chef": "Massimo Bottura",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/michelin-style-linguine-with-clam-sauce.PNG",
+    "source": "Modern fine dining technique",
+    "chef": "World-Class Inspired",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/michelin-style-linguine-with-clam-sauce.png",
     "ingredients": [
       {
         "quantity": "2 lbs",
@@ -10535,7 +10496,7 @@
         "instruction": "Sous vide at 122�F (50�C) for 12�15 minutes until clams open. Remove meat and strain liquid through a fine chinois. Reserve both."
       },
       {
-        "instruction": "In a copper saute pan, heat olive oil and butter over low heat. Add shallots and fennel, cooking gently until translucent."
+        "instruction": "In a copper saut� pan, heat olive oil and butter over low heat. Add shallots and fennel, cooking gently until translucent."
       },
       {
         "instruction": "Add garlic and Calabrian chili paste. Cook briefly until aromatic."
@@ -11060,103 +11021,69 @@
   },
   {
     "name": "Modernist Tabouli with Herb Oil & Precision Texture",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/modernist-tabouli-with-herb-oil-precision-texture.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/modernist-tabouli-with-herb-oil-precision-texture.png",
     "yield": "4 plates",
     "description": "A refined tabouli showcasing precision-cut herbs, vacuum-hydrated bulgur, clarified lemon, and vibrant herb oil for a clean, modern presentation.",
     "category": "Sides",
     "keywords": "tabouli, tabbouleh, modernist, vegetarian, herbs, fine dining",
-    "source": "Azurmendi",
-    "chef": "Eneko Atxa",
-    "ingredients": [
+    "winePairings": [
       {
-        "quantity": "1/2 cup",
-        "item": "Fine bulgur wheat",
-        "note": ""
+        "name": "Sancerre",
+        "notes": "Crisp acidity complements lemon and herbs."
       },
       {
-        "quantity": "2 cups",
+        "name": "Albari�o",
+        "notes": "Bright citrus and minerality enhance freshness."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Fine bulgur wheat",
+        "quantity": "1/2 cup"
+      },
+      {
         "item": "Flat-leaf parsley leaves",
+        "quantity": "2 cups",
         "note": "stems removed"
       },
       {
-        "quantity": "1/2 cup",
         "item": "Fresh mint leaves",
-        "note": ""
+        "quantity": "1/2 cup"
       },
       {
-        "quantity": "2",
         "item": "Ripe tomatoes",
+        "quantity": "2",
         "note": "deseeded and finely diced"
       },
       {
-        "quantity": "3",
         "item": "Scallions",
+        "quantity": "3",
         "note": "thinly sliced"
       },
       {
-        "quantity": "1",
         "item": "Shallot",
+        "quantity": "1",
         "note": "finely diced"
       },
       {
-        "quantity": "from 2 lemons",
         "item": "Lemon juice",
-        "note": ""
+        "quantity": "from 2 lemons"
       },
       {
-        "quantity": "from 1 lemon",
         "item": "Lemon zest",
-        "note": ""
+        "quantity": "from 1 lemon"
       },
       {
-        "quantity": "60 ml",
         "item": "Extra-virgin olive oil",
-        "note": ""
+        "quantity": "60 ml"
       },
       {
-        "quantity": "to taste",
         "item": "Salt",
-        "note": ""
+        "quantity": "to taste"
       },
       {
-        "quantity": "optional garnish",
         "item": "Pomegranate seeds",
-        "note": ""
-      }
-    ],
-    "steps": [
-      {
-        "instruction": "Weigh bulgur and water at a 1:1 ratio. Vacuum seal with a pinch of salt and allow to hydrate for 30�40 minutes."
-      },
-      {
-        "instruction": "Clarify the lemon juice by blending briefly and passing through a fine chinois or superbag."
-      },
-      {
-        "instruction": "Blanch a small portion of parsley for 10 seconds, shock in ice, then blend with olive oil until vibrant green."
-      },
-      {
-        "instruction": "Finely chiffonade parsley and mint, then cross-cut gently."
-      },
-      {
-        "instruction": "Deseed tomatoes completely and dice into uniform small cubes."
-      },
-      {
-        "instruction": "Rinse sliced shallots briefly in cold water and dry."
-      },
-      {
-        "instruction": "Combine bulgur, herbs, tomatoes, shallots, and scallions gently by hand."
-      },
-      {
-        "instruction": "Add clarified lemon juice, lemon zest, and salt. Mix lightly."
-      },
-      {
-        "instruction": "Fold in olive oil gently until evenly coated."
-      },
-      {
-        "instruction": "Optional: briefly place mixture under light vacuum to integrate flavors."
-      },
-      {
-        "instruction": "Plate using a ring mold to form a tight cylinder. Finish with herb oil, mint tips, and pomegranate seeds."
+        "quantity": "optional garnish"
       }
     ],
     "specialtools": [
@@ -11189,14 +11116,57 @@
         "link": "https://amzn.to/4eB2cuI"
       }
     ],
-    "winePairings": [
+    "steps": [
       {
-        "name": "Sancerre",
-        "notes": "Crisp acidity complements lemon and herbs."
+        "number": 1,
+        "instruction": "Weigh bulgur and water at a 1:1 ratio. Vacuum seal with a pinch of salt and allow to hydrate for 30�40 minutes.",
+        "note": "ensures even hydration without mushiness"
       },
       {
-        "name": "Albari�o",
-        "notes": "Bright citrus and minerality enhance freshness."
+        "number": 2,
+        "instruction": "Clarify the lemon juice by blending briefly and passing through a fine chinois or superbag.",
+        "note": "for ultra clarity, centrifuge if available"
+      },
+      {
+        "number": 3,
+        "instruction": "Blanch a small portion of parsley for 10 seconds, shock in ice, then blend with olive oil until vibrant green.",
+        "note": "strain to create herb oil"
+      },
+      {
+        "number": 4,
+        "instruction": "Finely chiffonade parsley and mint, then cross-cut gently.",
+        "note": "avoid bruising the herbs"
+      },
+      {
+        "number": 5,
+        "instruction": "Deseed tomatoes completely and dice into uniform small cubes.",
+        "note": "prevents excess moisture"
+      },
+      {
+        "number": 6,
+        "instruction": "Rinse sliced shallots briefly in cold water and dry.",
+        "note": "removes harshness"
+      },
+      {
+        "number": 7,
+        "instruction": "Combine bulgur, herbs, tomatoes, shallots, and scallions gently by hand."
+      },
+      {
+        "number": 8,
+        "instruction": "Add clarified lemon juice, lemon zest, and salt. Mix lightly.",
+        "note": "season before oil for brightness"
+      },
+      {
+        "number": 9,
+        "instruction": "Fold in olive oil gently until evenly coated."
+      },
+      {
+        "number": 10,
+        "instruction": "Optional: briefly place mixture under light vacuum to integrate flavors."
+      },
+      {
+        "number": 11,
+        "instruction": "Plate using a ring mold to form a tight cylinder. Finish with herb oil, mint tips, and pomegranate seeds."
       }
     ],
     "sub_recipes": []
@@ -12867,9 +12837,7 @@
     "category": "Sides",
     "keywords": "brussels sprouts, michelin style, roasted pavé, aged balsamic, molecular gastronomy, haute cuisine",
     "yield": "Serves 4",
-    "source": "Central",
-    "chef": "Virgilio Martínez",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/roasted-brussels-sprouts-pav-with-aged-balsamic-emulsion-and-crispy-leaves.JPG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/roasted-brussels-sprouts-pav-with-aged-balsamic-emulsion-and-crispy-leaves.jpg",
     "ingredients": [
       {
         "quantity": "680g",
@@ -12995,8 +12963,7 @@
         "name": "Meursault or Puligny-Montrachet",
         "notes": "Buttery Chardonnay mirrors the roasted depth and balances the balsamic brightness."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Roasted Chicken with Wild Mushrooms and Sherry Reduction",
@@ -13978,7 +13945,7 @@
   },
   {
     "name": "Sous-Vide Berkshire Pork Loin with Foie Gras Torchon, Black Truffle Jus & Charred Baby Leeks",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.JPG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.jpg",
     "yield": "4 plates",
     "description": "A luxurious Michelin-inspired course featuring perfectly cooked heritage Berkshire pork, silky foie gras torchon, earthy black truffle jus, and dramatic charred baby leeks.",
     "category": "Main",
@@ -13993,8 +13960,6 @@
         "notes": "Velvety texture and subtle oak balance the rich foie gras and jus."
       }
     ],
-    "source": "Mirazur",
-    "chef": "Mauro Colagreco",
     "ingredients": [
       {
         "item": "Center-cut Berkshire pork loin medallions",
@@ -16570,9 +16535,8 @@
     "category": "Brunch",
     "keywords": "avocado toast, sourdough, sous vide egg, gourmet breakfast, chef recipe",
     "yield": "2 slices (serves 1-2)",
-    "source": "",
     "chef": "Inspired by Gordon Ramsay & Bobby Flay techniques",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/world-class-chef-inspired-avocado-toast.jpg",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/world-class-chef-inspired-avocado-toast.jpg",
     "ingredients": [
       {
         "quantity": "2 thick slices (¾–1 inch)",
@@ -16754,8 +16718,6 @@
     "category": "Starter",
     "keywords": "kampachi crudo, yuzu cure, molecular gastronomy, fine dining seafood, compressed fruit, smoked dashi air, modernist cuisine",
     "yield": "Serves 4",
-    "source": "Den",
-    "chef": "Zaiyu Hasegawa",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/yuzu-cured-kampachi-with-frozen-olive-oil-compressed-melon-smoked-dashi-air.png",
     "ingredients": [
       {
@@ -16936,8 +16898,7 @@
         "name": "Champagne Blanc de Blancs",
         "notes": "High acidity and fine bubbles cut through the richness while elevating the citrus notes."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Yuzu-Glazed A5 Wagyu Tataki with Uni-Miso Purée, Gochujang Caramel, Thai Basil Espuma, and Crispy Rice Crumble",

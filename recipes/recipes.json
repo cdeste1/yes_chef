@@ -1637,155 +1637,102 @@
   },
   {
     "name": "Beef Wellington",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/beef-wellington.PNG",
+    "yield": "4-6 plates",
     "description": "A world-class chef execution of Beef Wellington featuring perfectly cooked beef tenderloin, mushroom duxelles, prosciutto, and golden puff pastry with precision layering and moisture control.",
     "category": "Main",
     "keywords": "beef wellington, fine dining, gourmet, steak, pastry",
-    "yield": "4-6 plates",
+    "winePairings": [
+      {
+        "name": "Bordeaux (Left Bank)",
+        "notes": "Cabernet Sauvignon structure complements the richness of the beef and pastry."
+      },
+      {
+        "name": "Barolo",
+        "notes": "High tannin and acidity balance the fat and umami of the dish."
+      }
+    ],
     "source": "Restaurant Gordon Ramsay",
     "chef": "Gordon Ramsay",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/beef-wellington.PNG",
     "ingredients": [
       {
-        "quantity": "2-2.5 lbs",
         "item": "Center-cut beef tenderloin",
+        "quantity": "2-2.5 lbs",
         "note": "trimmed"
       },
       {
-        "quantity": "to season",
         "item": "Kosher salt",
-        "note": ""
+        "quantity": "to season"
       },
       {
-        "quantity": "to season",
         "item": "Black pepper",
-        "note": ""
+        "quantity": "to season"
       },
       {
-        "quantity": "2 tbsp",
         "item": "Neutral oil",
-        "note": ""
+        "quantity": "2 tbsp"
       },
       {
-        "quantity": "2 tbsp",
         "item": "Dijon mustard",
-        "note": ""
+        "quantity": "2 tbsp"
       },
       {
-        "quantity": "6-8 slices",
         "item": "Prosciutto",
-        "note": ""
+        "quantity": "6-8 slices"
       },
       {
-        "quantity": "1 sheet",
         "item": "Puff pastry",
+        "quantity": "1 sheet",
         "note": "all-butter, thawed"
       },
       {
-        "quantity": "2",
         "item": "Egg yolks",
-        "note": ""
+        "quantity": "2"
       },
       {
-        "quantity": "1 tbsp",
         "item": "Heavy cream",
-        "note": ""
+        "quantity": "1 tbsp"
       },
       {
-        "quantity": "1 lb",
         "item": "Cremini mushrooms",
-        "note": ""
+        "quantity": "1 lb"
       },
       {
-        "quantity": "4 oz",
         "item": "Shiitake mushrooms",
-        "note": ""
+        "quantity": "4 oz"
       },
       {
-        "quantity": "2",
         "item": "Shallots",
-        "note": ""
+        "quantity": "2"
       },
       {
-        "quantity": "3",
         "item": "Garlic cloves",
-        "note": ""
+        "quantity": "3"
       },
       {
-        "quantity": "2 tbsp",
         "item": "Butter",
-        "note": ""
+        "quantity": "2 tbsp"
       },
       {
-        "quantity": "2 tbsp",
         "item": "Dry sherry or Madeira",
-        "note": ""
+        "quantity": "2 tbsp"
       },
       {
-        "quantity": "1 tbsp",
         "item": "Fresh thyme",
-        "note": ""
+        "quantity": "1 tbsp"
       },
       {
-        "quantity": "2",
         "item": "Eggs",
+        "quantity": "2",
         "note": "for crepes"
       },
       {
-        "quantity": "1/2 cup",
         "item": "Flour",
-        "note": ""
+        "quantity": "1/2 cup"
       },
       {
-        "quantity": "1/2 cup",
         "item": "Milk",
-        "note": ""
-      }
-    ],
-    "steps": [
-      {
-        "instruction": "Season the beef tenderloin with salt and pepper and sear in a hot pan with oil until deeply browned on all sides."
-      },
-      {
-        "instruction": "Brush the seared beef with Dijon mustard while warm and allow to cool."
-      },
-      {
-        "instruction": "Optional: Vacuum seal and cook sous vide at 125°F (52°C) for 45–60 minutes, then chill completely."
-      },
-      {
-        "instruction": "Prepare the duxelles by finely chopping mushrooms in a food processor."
-      },
-      {
-        "instruction": "Cook mushrooms with butter, shallots, garlic, and thyme until all moisture evaporates. Deglaze with sherry and cook dry."
-      },
-      {
-        "instruction": "Spread duxelles on a tray and chill."
-      },
-      {
-        "instruction": "Make crepes by whisking eggs, flour, milk, and salt, then cook thin layers in a buttered pan."
-      },
-      {
-        "instruction": "Lay out plastic wrap, overlap prosciutto slices, spread duxelles evenly, then place crepes on top."
-      },
-      {
-        "instruction": "Place beef at the edge and roll tightly into a log using plastic wrap. Chill for 20 minutes."
-      },
-      {
-        "instruction": "Roll puff pastry to even thickness and wrap around the beef, sealing edges tightly."
-      },
-      {
-        "instruction": "Brush with egg wash and score the pastry lightly for decoration."
-      },
-      {
-        "instruction": "Bake at 425°F (220°C) for 20–25 minutes until golden brown."
-      },
-      {
-        "instruction": "Cook until internal temperature reaches 120–125°F (49–52°C) for medium rare."
-      },
-      {
-        "instruction": "Rest for 10–15 minutes before slicing."
-      },
-      {
-        "instruction": "Slice carefully with a serrated knife and plate with sauce and sides."
+        "quantity": "1/2 cup"
       }
     ],
     "specialtools": [
@@ -1822,50 +1769,101 @@
         "link": "https://amzn.to/4mO9AF2"
       }
     ],
-    "winePairings": [
+    "steps": [
       {
-        "name": "Bordeaux (Left Bank)",
-        "notes": "Cabernet Sauvignon structure complements the richness of the beef and pastry."
+        "number": 1,
+        "instruction": "Season the beef tenderloin with salt and pepper and sear in a hot pan with oil until deeply browned on all sides."
       },
       {
-        "name": "Barolo",
-        "notes": "High tannin and acidity balance the fat and umami of the dish."
+        "number": 2,
+        "instruction": "Brush the seared beef with Dijon mustard while warm and allow to cool."
+      },
+      {
+        "number": 3,
+        "instruction": "Optional: Vacuum seal and cook sous vide at 125°F (52°C) for 45–60 minutes, then chill completely."
+      },
+      {
+        "number": 4,
+        "instruction": "Prepare the duxelles by finely chopping mushrooms in a food processor."
+      },
+      {
+        "number": 5,
+        "instruction": "Cook mushrooms with butter, shallots, garlic, and thyme until all moisture evaporates. Deglaze with sherry and cook dry."
+      },
+      {
+        "number": 6,
+        "instruction": "Spread duxelles on a tray and chill."
+      },
+      {
+        "number": 7,
+        "instruction": "Make crepes by whisking eggs, flour, milk, and salt, then cook thin layers in a buttered pan."
+      },
+      {
+        "number": 8,
+        "instruction": "Lay out plastic wrap, overlap prosciutto slices, spread duxelles evenly, then place crepes on top."
+      },
+      {
+        "number": 9,
+        "instruction": "Place beef at the edge and roll tightly into a log using plastic wrap. Chill for 20 minutes."
+      },
+      {
+        "number": 10,
+        "instruction": "Roll puff pastry to even thickness and wrap around the beef, sealing edges tightly."
+      },
+      {
+        "number": 11,
+        "instruction": "Brush with egg wash and score the pastry lightly for decoration."
+      },
+      {
+        "number": 12,
+        "instruction": "Bake at 425°F (220°C) for 20–25 minutes until golden brown."
+      },
+      {
+        "number": 13,
+        "instruction": "Cook until internal temperature reaches 120–125°F (49–52°C) for medium rare."
+      },
+      {
+        "number": 14,
+        "instruction": "Rest for 10–15 minutes before slicing."
+      },
+      {
+        "number": 15,
+        "instruction": "Slice carefully with a serrated knife and plate with sauce and sides."
       }
     ],
     "sub_recipes": [
       {
         "name": "Red Wine Reduction Sauce",
-        "yield": "",
         "ingredients": [
           {
-            "quantity": "1/2 cup",
             "item": "Red wine",
-            "note": ""
+            "quantity": "1/2 cup"
           },
           {
-            "quantity": "1 cup",
             "item": "Veal stock",
-            "note": ""
+            "quantity": "1 cup"
           },
           {
-            "quantity": "1",
             "item": "Shallot",
+            "quantity": "1",
             "note": "minced"
           },
           {
-            "quantity": "1 tbsp",
             "item": "Butter",
-            "note": ""
+            "quantity": "1 tbsp"
           }
         ],
         "steps": [
           {
+            "number": 1,
             "instruction": "Reduce wine and shallots by half over medium heat."
           },
           {
+            "number": 2,
             "instruction": "Add veal stock and reduce until thick and glossy."
           },
           {
+            "number": 3,
             "instruction": "Finish with butter and strain if desired."
           }
         ]
@@ -1878,9 +1876,7 @@
     "category": "Brunch",
     "keywords": "truffle french toast, foie gras custard, michelin brunch, compressed berries, maple espuma, molecular gastronomy, fine dining breakfast",
     "yield": "Serves 4",
-    "source": "",
-    "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/FrenchToast.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/black-truffle-brioche-french-toast-with-foie-gras-custard-compressed-berries-maple-sauternes-espuma.png",
     "ingredients": [
       {
         "quantity": "8 slices",
@@ -2064,8 +2060,7 @@
         "name": "Vintage Champagne",
         "notes": "Cuts through the fat and enhances the aromatic truffle and berry acidity."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Black Truffle Brown Butter Souffle Waffle",
@@ -3231,82 +3226,49 @@
   },
   {
     "name": "Butter-Poached Blue Prawns with Saffron-Shellfish Emulsion",
+    "yield": "2 servings",
     "description": "A molecular gastronomy course featuring precision-temperature prawns and a centrifuged saffron-shellfish foam.",
     "category": "Main",
     "keywords": "prawns, shrimp, molecular gastronomy, sous vide",
-    "yield": "2 servings",
     "source": "elBulli",
     "chef": "Ferran Adrià",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-blue-prawns-with-saffron-shellfish-emulsion.png",
     "ingredients": [
       {
-        "quantity": "8-10",
         "item": "Blue Prawns or Tiger Shrimp",
+        "quantity": "8-10",
         "note": "fresh, head-on"
       },
       {
-        "quantity": "8 ounces",
         "item": "Cultured Butter (82% fat)",
-        "note": ""
+        "quantity": "8 ounces"
       },
       {
-        "quantity": "1 pinch",
         "item": "Saffron Threads",
-        "note": ""
+        "quantity": "1 pinch"
       },
       {
-        "quantity": "1 stalk",
         "item": "Lemongrass",
+        "quantity": "1 stalk",
         "note": "bruised"
       },
       {
-        "quantity": "1/4 cup",
         "item": "Dry White Wine",
-        "note": ""
+        "quantity": "1/4 cup"
       },
       {
-        "quantity": "2 cups",
         "item": "Shellfish Stock",
-        "note": ""
+        "quantity": "2 cups"
       },
       {
-        "quantity": "1 sprig",
         "item": "Fresh Chervil",
+        "quantity": "1 sprig",
         "note": "for garnish"
       },
       {
-        "quantity": "1 teaspoon",
         "item": "Lecithin or Heavy Cream",
+        "quantity": "1 teaspoon",
         "note": "to stabilize foam"
-      }
-    ],
-    "steps": [
-      {
-        "instruction": "Prepare the shellfish stock using prawn heads and shells."
-      },
-      {
-        "instruction": "Pour the strained stock into the canisters of a culinary centrifuge; spin until the liquid clarifies into a pure essence."
-      },
-      {
-        "instruction": "Place butter, saffron, and lemongrass into a vacuum bag; use a chamber vacuum sealer to pull a full vacuum for precision infusion."
-      },
-      {
-        "instruction": "Set the immersion circulator to 125.6�F (52�C)."
-      },
-      {
-        "instruction": "Clean prawns and place in a vacuum bag with the saffron-infused butter; seal and submerge in the water bath for 12�15 minutes."
-      },
-      {
-        "instruction": "Reduce the centrifuged shellfish essence with white wine, using a digital refractometer to verify the ideal density/sugar concentration."
-      },
-      {
-        "instruction": "Add lecithin or heavy cream to the reduction; pour into a siphon and charge with gas cartridges."
-      },
-      {
-        "instruction": "Remove prawns from the bath, pat dry, and give a brief singe with a culinary torch for aroma."
-      },
-      {
-        "instruction": "Plating: Place prawns in a shallow bowl, dispense saffron foam from the siphon over the top, and garnish with chervil."
       }
     ],
     "specialtools": [
@@ -3331,153 +3293,134 @@
         "link": "https://amzn.to/42eE89w"
       }
     ],
-    "winePairings": [],
-    "sub_recipes": []
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the shellfish stock using prawn heads and shells."
+      },
+      {
+        "number": 2,
+        "instruction": "Pour the strained stock into the canisters of a culinary centrifuge; spin until the liquid clarifies into a pure essence."
+      },
+      {
+        "number": 3,
+        "instruction": "Place butter, saffron, and lemongrass into a vacuum bag; use a chamber vacuum sealer to pull a full vacuum for precision infusion."
+      },
+      {
+        "number": 4,
+        "instruction": "Set the immersion circulator to 125.6�F (52�C)."
+      },
+      {
+        "number": 5,
+        "instruction": "Clean prawns and place in a vacuum bag with the saffron-infused butter; seal and submerge in the water bath for 12�15 minutes."
+      },
+      {
+        "number": 6,
+        "instruction": "Reduce the centrifuged shellfish essence with white wine, using a digital refractometer to verify the ideal density/sugar concentration."
+      },
+      {
+        "number": 7,
+        "instruction": "Add lecithin or heavy cream to the reduction; pour into a siphon and charge with gas cartridges."
+      },
+      {
+        "number": 8,
+        "instruction": "Remove prawns from the bath, pat dry, and give a brief singe with a culinary torch for aroma."
+      },
+      {
+        "number": 9,
+        "instruction": "Plating: Place prawns in a shallow bowl, dispense saffron foam from the siphon over the top, and garnish with chervil."
+      }
+    ]
   },
   {
     "name": "Butter-Poached Lobster with Saffron Foam, Fennel Ash & Citrus Gel",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.PNG",
+    "yield": "2-3 plates",
     "description": "A refined seafood dish featuring butter-poached lobster, airy saffron foam, bright citrus gel, and fennel ash for a modern, Michelin-style presentation.",
     "category": "Main",
     "keywords": "lobster, seafood, modernist, fine dining",
-    "yield": "2-3 plates",
+    "winePairings": [
+      {
+        "name": "Chablis",
+        "notes": "Crisp minerality enhances the sweetness of lobster."
+      },
+      {
+        "name": "Champagne",
+        "notes": "Bright acidity and bubbles cut through the richness of butter."
+      }
+    ],
     "source": "The French Laundry",
     "chef": "Thomas Keller",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-lobster-with-saffron-foam-fennel-ash-citrus-gel.PNG",
     "ingredients": [
       {
-        "quantity": "2-3",
         "item": "Lobster tails",
-        "note": ""
+        "quantity": "2-3"
       },
       {
-        "quantity": "500g",
         "item": "Unsalted butter",
-        "note": ""
+        "quantity": "500g"
       },
       {
-        "quantity": "2",
         "item": "Garlic cloves",
+        "quantity": "2",
         "note": "lightly crushed"
       },
       {
-        "quantity": "a few sprigs",
         "item": "Fresh thyme",
-        "note": ""
+        "quantity": "a few sprigs"
       },
       {
-        "quantity": "from 1 lemon",
         "item": "Lemon zest",
-        "note": ""
+        "quantity": "from 1 lemon"
       },
       {
-        "quantity": "200ml",
         "item": "Seafood stock",
-        "note": ""
+        "quantity": "200ml"
       },
       {
-        "quantity": "100ml",
         "item": "Heavy cream",
-        "note": ""
+        "quantity": "100ml"
       },
       {
-        "quantity": "pinch",
         "item": "Saffron threads",
-        "note": ""
+        "quantity": "pinch"
       },
       {
-        "quantity": "small pinch",
         "item": "Lecithin",
-        "note": ""
+        "quantity": "small pinch"
       },
       {
-        "quantity": "200ml",
         "item": "Orange juice",
-        "note": ""
+        "quantity": "200ml"
       },
       {
-        "quantity": "50ml",
         "item": "Lemon juice",
-        "note": ""
+        "quantity": "50ml"
       },
       {
-        "quantity": "2g",
         "item": "Agar-agar",
-        "note": ""
+        "quantity": "2g"
       },
       {
-        "quantity": "handful",
         "item": "Fennel fronds",
-        "note": ""
+        "quantity": "handful"
       },
       {
-        "quantity": "small amount",
         "item": "Olive oil",
-        "note": ""
+        "quantity": "small amount"
       },
       {
-        "quantity": "for garnish",
         "item": "Microgreens",
-        "note": ""
+        "quantity": "for garnish"
       },
       {
-        "quantity": "1 bulb",
         "item": "Fresh fennel",
+        "quantity": "1 bulb",
         "note": "thinly shaved"
       },
       {
-        "quantity": "for garnish",
         "item": "Citrus segments",
-        "note": ""
-      }
-    ],
-    "steps": [
-      {
-        "instruction": "Remove lobster meat from shells carefully, keeping pieces intact."
-      },
-      {
-        "instruction": "Place lobster in a vacuum bag with butter, garlic, thyme, and lemon zest, then seal."
-      },
-      {
-        "instruction": "Cook in a water bath at 56�C (132.8�F) for 20�25 minutes."
-      },
-      {
-        "instruction": "Gently heat seafood stock, cream, and saffron to infuse flavor without boiling."
-      },
-      {
-        "instruction": "Strain the mixture, add lecithin, blend, and transfer to a cream siphon. Charge and keep warm."
-      },
-      {
-        "instruction": "Combine orange juice, lemon juice, and agar-agar, then bring to a boil while whisking."
-      },
-      {
-        "instruction": "Pour into a shallow container and allow to set."
-      },
-      {
-        "instruction": "Blend the set gel until smooth and strain for a refined texture."
-      },
-      {
-        "instruction": "Lightly coat fennel fronds in oil and dehydrate until fully dry."
-      },
-      {
-        "instruction": "Char the dried fennel and grind into a fine ash."
-      },
-      {
-        "instruction": "Remove lobster from bag and slice into even medallions."
-      },
-      {
-        "instruction": "Plate lobster with space between pieces for a clean presentation."
-      },
-      {
-        "instruction": "Add dots or lines of citrus gel around the plate."
-      },
-      {
-        "instruction": "Dispense saffron foam lightly over or beside the lobster."
-      },
-      {
-        "instruction": "Dust fennel ash sparingly across the plate."
-      },
-      {
-        "instruction": "Finish with microgreens, shaved fennel, and citrus segments for garnish."
+        "quantity": "for garnish"
       }
     ],
     "specialtools": [
@@ -3518,14 +3461,70 @@
         "link": "https://amzn.to/4tmdWFX"
       }
     ],
-    "winePairings": [
+    "steps": [
       {
-        "name": "Chablis",
-        "notes": "Crisp minerality enhances the sweetness of lobster."
+        "number": 1,
+        "instruction": "Remove lobster meat from shells carefully, keeping pieces intact."
       },
       {
-        "name": "Champagne",
-        "notes": "Bright acidity and bubbles cut through the richness of butter."
+        "number": 2,
+        "instruction": "Place lobster in a vacuum bag with butter, garlic, thyme, and lemon zest, then seal."
+      },
+      {
+        "number": 3,
+        "instruction": "Cook in a water bath at 56�C (132.8�F) for 20�25 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Gently heat seafood stock, cream, and saffron to infuse flavor without boiling."
+      },
+      {
+        "number": 5,
+        "instruction": "Strain the mixture, add lecithin, blend, and transfer to a cream siphon. Charge and keep warm."
+      },
+      {
+        "number": 6,
+        "instruction": "Combine orange juice, lemon juice, and agar-agar, then bring to a boil while whisking."
+      },
+      {
+        "number": 7,
+        "instruction": "Pour into a shallow container and allow to set."
+      },
+      {
+        "number": 8,
+        "instruction": "Blend the set gel until smooth and strain for a refined texture."
+      },
+      {
+        "number": 9,
+        "instruction": "Lightly coat fennel fronds in oil and dehydrate until fully dry."
+      },
+      {
+        "number": 10,
+        "instruction": "Char the dried fennel and grind into a fine ash."
+      },
+      {
+        "number": 11,
+        "instruction": "Remove lobster from bag and slice into even medallions."
+      },
+      {
+        "number": 12,
+        "instruction": "Plate lobster with space between pieces for a clean presentation."
+      },
+      {
+        "number": 13,
+        "instruction": "Add dots or lines of citrus gel around the plate."
+      },
+      {
+        "number": 14,
+        "instruction": "Dispense saffron foam lightly over or beside the lobster."
+      },
+      {
+        "number": 15,
+        "instruction": "Dust fennel ash sparingly across the plate."
+      },
+      {
+        "number": 16,
+        "instruction": "Finish with microgreens, shaved fennel, and citrus segments for garnish."
       }
     ],
     "sub_recipes": []
@@ -4105,7 +4104,7 @@
     "yield": "Serves 4",
     "source": "",
     "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-banana-mille-feuille-with-espresso-custard-tonka-bean-air-gold-leaf-honeycomb.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-banana-mille-feuille-with-espresso-custard-tonka-bean-air-gold-leaf-honeycomb.png",
     "ingredients": [
       {
         "quantity": "6",
@@ -4493,7 +4492,7 @@
     "yield": "12 rolls",
     "source": "",
     "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.png",
     "ingredients": [
       {
         "quantity": "500g",
@@ -4755,7 +4754,7 @@
     "yield": "Serves 4",
     "source": "",
     "chef": "",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.PNG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png",
     "ingredients": [
       {
         "quantity": "8",
@@ -6658,9 +6657,9 @@
     "category": "Starter",
     "keywords": "hamachi crudo, yuzu kosho, molecular gastronomy, fine dining seafood, spherification, compressed cucumber, modernist cuisine",
     "yield": "Serves 4",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.PNG",
     "source": "Narisawa",
     "chef": "Yoshihiro Narisawa",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/dry-aged-hamachi-crudo-with-yuzu-kosho-snow-compressed-cucumber-smoked-olive-oil-pearls.PNG",
     "ingredients": [
       {
         "quantity": "200g",
@@ -6840,8 +6839,7 @@
         "name": "Sancerre (Loire Valley Sauvignon Blanc)",
         "notes": "High acidity and mineral notes complement the yuzu brightness and cut through the fatty fish."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Duck Carnitas with Mole Negro and Cocoa Nib Dust",
@@ -7609,7 +7607,7 @@
     "yield": "4 Servings",
     "source": "Gemini Culinary Laboratory",
     "chef": "Inspired by Dominique Crenn",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/forest-sunrise.JPEG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/forest-sunrise.jpg",
     "ingredients": [
       {
         "quantity": "4",
@@ -7934,9 +7932,9 @@
     "category": "Sides",
     "keywords": "potato pavé, michelin style, truffle aeration, molecular gastronomy, haute cuisine",
     "yield": "1 terrine (serves 4-6)",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glass-laminate-potato-pav-with-truffle-aerated-emulsion.JPEG",
     "source": "L’Enclume",
     "chef": "Simon Rogan",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glass-laminate-potato-pav-with-truffle-aerated-emulsion.JPEG",
     "ingredients": [
       {
         "quantity": "4 large",
@@ -8040,8 +8038,7 @@
         "name": "Meursault (White Burgundy)",
         "notes": "A rich, buttery Chardonnay that mirrors the texture of the pavé and earthy truffle notes."
       }
-    ],
-    "sub_recipes": []
+    ]
   },
   {
     "name": "Glazed Baby Carrots with Aerated Herb Foam",
@@ -8049,9 +8046,9 @@
     "category": "Sides",
     "keywords": "carrots, molecular gastronomy, sous-vide, foam",
     "yield": "6 plates",
-    "source": "Mugaritz",
-    "chef": "Andoni Luis Aduriz",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glazed-baby-carrots-with-aerated-herb-foam.JPEG",
+    "source": "",
+    "chef": "",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glazed-baby-carrots-with-aerated-herb-foam.jpg",
     "ingredients": [
       {
         "quantity": "1 lb",
@@ -8091,30 +8088,41 @@
     ],
     "steps": [
       {
+        "number": 1,
         "instruction": "Peel and trim the carrots, then place them in a vacuum pouch with butter, thyme, and sea salt."
       },
       {
-        "instruction": "Use the Chamber Vacuum Sealer on its highest setting to collapse the cell structure and infuse the aromatics."
+        "number": 2,
+        "instruction": "Use the Chamber Vacuum Sealer on its highest setting to collapse the cell structure and infuse the aromatics.",
+        "note": "This creates a dense, translucent appearance."
       },
       {
-        "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84�C (183�F) for 45�60 minutes."
+        "number": 3,
+        "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84 C (183 F) for 45 60 minutes."
       },
       {
+        "number": 4,
         "instruction": "Blanch and shock the herbs, then blend with vegetable stock and heavy cream to create the foam base."
       },
       {
-        "instruction": "Pass the herb mixture through a Micro-Fine Mesh Sieve."
+        "number": 5,
+        "instruction": "Pass the herb mixture through a Micro-Fine Mesh Sieve.",
+        "note": "The liquid must be perfectly smooth to avoid clogging the siphon."
       },
       {
+        "number": 6,
         "instruction": "Pour the liquid into a Siphon, charge with one N2O cartridge, and shake vigorously."
       },
       {
-        "instruction": "Keep the siphon warm in a 50�C (122�F) water bath until ready to serve."
+        "number": 7,
+        "instruction": "Keep the siphon warm in a 50 C (122 F) water bath until ready to serve."
       },
       {
+        "number": 8,
         "instruction": "Remove carrots from the pouch and briefly sear in a hot pan for 30 seconds using the pouch juices to create a glossy glaze."
       },
       {
+        "number": 9,
         "instruction": "Plating: Arrange the carrots on a plate and dispense a cloud of herb foam alongside them."
       }
     ],
@@ -11052,13 +11060,13 @@
   },
   {
     "name": "Modernist Tabouli with Herb Oil & Precision Texture",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/modernist-tabouli-with-herb-oil-precision-texture.PNG",
+    "yield": "4 plates",
     "description": "A refined tabouli showcasing precision-cut herbs, vacuum-hydrated bulgur, clarified lemon, and vibrant herb oil for a clean, modern presentation.",
     "category": "Sides",
     "keywords": "tabouli, tabbouleh, modernist, vegetarian, herbs, fine dining",
-    "yield": "4 plates",
     "source": "Azurmendi",
     "chef": "Eneko Atxa",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/modernist-tabouli-with-herb-oil-precision-texture.PNG",
     "ingredients": [
       {
         "quantity": "1/2 cup",
@@ -13970,106 +13978,70 @@
   },
   {
     "name": "Sous-Vide Berkshire Pork Loin with Foie Gras Torchon, Black Truffle Jus & Charred Baby Leeks",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.JPG",
+    "yield": "4 plates",
     "description": "A luxurious Michelin-inspired course featuring perfectly cooked heritage Berkshire pork, silky foie gras torchon, earthy black truffle jus, and dramatic charred baby leeks.",
     "category": "Main",
     "keywords": "pork, sous-vide, foie gras, truffle, fine dining",
-    "yield": "4 plates",
+    "winePairings": [
+      {
+        "name": "Mature Burgundy (Pinot Noir)",
+        "notes": "Elegant red fruit and earthiness complement the pork and truffle."
+      },
+      {
+        "name": "Aged Rioja Reserva",
+        "notes": "Velvety texture and subtle oak balance the rich foie gras and jus."
+      }
+    ],
     "source": "Mirazur",
     "chef": "Mauro Colagreco",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.JPG",
     "ingredients": [
       {
-        "quantity": "4 � 180g (6 oz)",
         "item": "Center-cut Berkshire pork loin medallions",
-        "note": ""
+        "quantity": "4 � 180g (6 oz)"
       },
       {
-        "quantity": "4",
         "item": "Fresh rosemary sprigs",
-        "note": ""
+        "quantity": "4"
       },
       {
-        "quantity": "4",
         "item": "Garlic cloves",
+        "quantity": "4",
         "note": "lightly crushed"
       },
       {
-        "quantity": "50g + extra for finishing",
         "item": "Unsalted butter",
-        "note": ""
+        "quantity": "50g + extra for finishing"
       },
       {
-        "quantity": "",
         "item": "Foie gras torchon",
         "note": "see sub-recipe (200g grade-A lobe)"
       },
       {
-        "quantity": "",
         "item": "Black Truffle Jus",
         "note": "see sub-recipe"
       },
       {
-        "quantity": "8",
         "item": "Baby leeks",
+        "quantity": "8",
         "note": "cleaned"
       },
       {
-        "quantity": "for shaving + 30g grated in jus",
         "item": "Fresh black truffles",
-        "note": ""
+        "quantity": "for shaving + 30g grated in jus"
       },
       {
-        "quantity": "as needed",
         "item": "Microgreens and edible flowers",
+        "quantity": "as needed",
         "note": "red-veined sorrel, chervil, violas"
       },
       {
-        "quantity": "for charring",
         "item": "Neutral oil",
-        "note": ""
+        "quantity": "for charring"
       },
       {
-        "quantity": "to season",
         "item": "Flaky sea salt and white pepper",
-        "note": ""
-      }
-    ],
-    "steps": [
-      {
-        "instruction": "Prepare the Foie Gras Torchon and Black Truffle Jus"
-      },
-      {
-        "instruction": "Prepare the Charred Baby Leeks"
-      },
-      {
-        "instruction": "Season each pork medallion with flaky sea salt and white pepper. Place in individual vacuum bags with rosemary, crushed garlic, and a knob of butter."
-      },
-      {
-        "instruction": "Seal bags using chamber vacuum sealer at full vacuum."
-      },
-      {
-        "instruction": "Cook in sous-vide bath at exactly 58�C (136�F) for 90 minutes."
-      },
-      {
-        "instruction": "Remove pork from bags, pat extremely dry. Scrape off garlic and herbs."
-      },
-      {
-        "instruction": "Heat a cast-iron skillet until screaming hot. Sear pork 30 seconds per side, then finish crust evenly with professional blowtorch."
-      },
-      {
-        "instruction": "Rest pork 2 minutes on a rack. Reheat torchon slices and jus gently."
-      },
-      {
-        "instruction": "Warm baby leeks briefly if needed."
-      },
-      {
-        "instruction": "Plating Layer 1: Place a ring mold in center of warm plate. Set seared pork medallion inside and remove mold."
-      },
-      {
-        "instruction": "Plating Layer 2: Lay one slice of foie gras torchon beside the pork. Paint black truffle jus in elegant swooshes with offset spatula."
-      },
-      {
-        "instruction": "Plating Layer 3: Stand two charred baby leeks vertically. Shave fresh black truffle over the plate. Finish with strategic microgreens and edible flowers."
+        "quantity": "to season"
       }
     ],
     "specialtools": [
@@ -14106,125 +14078,165 @@
         "link": "https://amzn.to/4mF1vT9"
       }
     ],
-    "winePairings": [
+    "steps": [
       {
-        "name": "Mature Burgundy (Pinot Noir)",
-        "notes": "Elegant red fruit and earthiness complement the pork and truffle."
+        "number": 1,
+        "instruction": "Prepare the Foie Gras Torchon and Black Truffle Jus",
+        "note": "see sub-recipes (can be done 1 day ahead)"
       },
       {
-        "name": "Aged Rioja Reserva",
-        "notes": "Velvety texture and subtle oak balance the rich foie gras and jus."
+        "number": 2,
+        "instruction": "Prepare the Charred Baby Leeks",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 3,
+        "instruction": "Season each pork medallion with flaky sea salt and white pepper. Place in individual vacuum bags with rosemary, crushed garlic, and a knob of butter."
+      },
+      {
+        "number": 4,
+        "instruction": "Seal bags using chamber vacuum sealer at full vacuum."
+      },
+      {
+        "number": 5,
+        "instruction": "Cook in sous-vide bath at exactly 58�C (136�F) for 90 minutes."
+      },
+      {
+        "number": 6,
+        "instruction": "Remove pork from bags, pat extremely dry. Scrape off garlic and herbs."
+      },
+      {
+        "number": 7,
+        "instruction": "Heat a cast-iron skillet until screaming hot. Sear pork 30 seconds per side, then finish crust evenly with professional blowtorch."
+      },
+      {
+        "number": 8,
+        "instruction": "Rest pork 2 minutes on a rack. Reheat torchon slices and jus gently."
+      },
+      {
+        "number": 9,
+        "instruction": "Warm baby leeks briefly if needed."
+      },
+      {
+        "number": 10,
+        "instruction": "Plating Layer 1: Place a ring mold in center of warm plate. Set seared pork medallion inside and remove mold."
+      },
+      {
+        "number": 11,
+        "instruction": "Plating Layer 2: Lay one slice of foie gras torchon beside the pork. Paint black truffle jus in elegant swooshes with offset spatula."
+      },
+      {
+        "number": 12,
+        "instruction": "Plating Layer 3: Stand two charred baby leeks vertically. Shave fresh black truffle over the plate. Finish with strategic microgreens and edible flowers."
       }
     ],
     "sub_recipes": [
       {
         "name": "Foie Gras Torchon",
-        "yield": "",
         "ingredients": [
           {
-            "quantity": "200g",
             "item": "Grade-A foie gras lobe",
-            "note": ""
+            "quantity": "200g"
           },
           {
-            "quantity": "10g",
             "item": "Armagnac or Cognac",
-            "note": ""
+            "quantity": "10g"
           },
           {
-            "quantity": "to taste",
             "item": "Salt, white pepper, quatre-�pices",
-            "note": ""
+            "quantity": "to taste"
           }
         ],
         "steps": [
           {
+            "number": 1,
             "instruction": "Season foie gras with salt, white pepper, quatre-�pices, and Armagnac."
           },
           {
+            "number": 2,
             "instruction": "Roll tightly in cheesecloth to form a cylinder and vacuum-seal."
           },
           {
+            "number": 3,
             "instruction": "Poach in 55�C water bath for 20 minutes, then shock in ice water."
           },
           {
+            "number": 4,
             "instruction": "Refrigerate overnight. Slice into 1 cm rounds with a hot knife before plating."
           }
         ]
       },
       {
         "name": "Black Truffle Jus",
-        "yield": "",
         "ingredients": [
           {
-            "quantity": "300ml",
             "item": "Rich veal or pork stock",
-            "note": ""
+            "quantity": "300ml"
           },
           {
-            "quantity": "50g (30g grated + for shaving)",
             "item": "Fresh black truffles",
-            "note": ""
+            "quantity": "50g (30g grated + for shaving)"
           },
           {
-            "quantity": "100ml",
             "item": "Vintage Port wine",
-            "note": ""
+            "quantity": "100ml"
           },
           {
-            "quantity": "1",
             "item": "Shallot",
+            "quantity": "1",
             "note": "finely minced"
           },
           {
-            "quantity": "20g",
             "item": "Cold butter",
-            "note": ""
+            "quantity": "20g"
           }
         ],
         "steps": [
           {
+            "number": 1,
             "instruction": "Reduce Port with minced shallot until syrupy."
           },
           {
+            "number": 2,
             "instruction": "Add stock and simmer until reduced by half."
           },
           {
+            "number": 3,
             "instruction": "Grate in 30g fresh black truffle and infuse 5 minutes."
           },
           {
+            "number": 4,
             "instruction": "Pass through fine chinois. Mount with cold butter off heat for glossy finish."
           }
         ]
       },
       {
         "name": "Charred Baby Leeks",
-        "yield": "",
         "ingredients": [
           {
-            "quantity": "8",
             "item": "Baby leeks",
-            "note": ""
+            "quantity": "8"
           },
           {
-            "quantity": "as needed",
             "item": "Neutral oil",
-            "note": ""
+            "quantity": "as needed"
           },
           {
-            "quantity": "to season",
             "item": "Salt",
-            "note": ""
+            "quantity": "to season"
           }
         ],
         "steps": [
           {
+            "number": 1,
             "instruction": "Blanch leeks in salted boiling water for 60 seconds, then shock in ice water and pat dry."
           },
           {
+            "number": 2,
             "instruction": "Brush lightly with neutral oil and season."
           },
           {
+            "number": 3,
             "instruction": "Char evenly with professional kitchen blowtorch (30�45 seconds per side) until blackened in spots but vibrant inside."
           }
         ]
@@ -16255,7 +16267,7 @@
     "yield": "2 slices (serves 1-2)",
     "source": "",
     "chef": "Inspired by Gordon Ramsay & Bobby Flay techniques",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/world-class-chef-inspired-avocado-toast.JPG",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/world-class-chef-inspired-avocado-toast.jpg",
     "ingredients": [
       {
         "quantity": "2 thick slices (¾–1 inch)",

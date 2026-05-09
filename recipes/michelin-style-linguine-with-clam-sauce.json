@@ -7,9 +7,6 @@
   "source": "Modern fine dining technique",
   "chef": "World-Class Inspired",
   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/michelin-style-linguine-with-clam-sauce.png",
-  "source": "Osteria Francescana",
-  "chef": "Massimo Bottura",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/michelin-style-linguine-with-clam-sauce.PNG",
   "ingredients": [
     {
       "quantity": "2 lbs",
@@ -108,7 +105,7 @@
       "instruction": "Sous vide at 122�F (50�C) for 12�15 minutes until clams open. Remove meat and strain liquid through a fine chinois. Reserve both."
     },
     {
-      "instruction": "In a copper saute pan, heat olive oil and butter over low heat. Add shallots and fennel, cooking gently until translucent."
+      "instruction": "In a copper saut� pan, heat olive oil and butter over low heat. Add shallots and fennel, cooking gently until translucent."
     },
     {
       "instruction": "Add garlic and Calabrian chili paste. Cook briefly until aromatic."

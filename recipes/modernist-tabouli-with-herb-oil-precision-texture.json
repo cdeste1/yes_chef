@@ -1,107 +1,68 @@
 {
   "name": "Modernist Tabouli with Herb Oil & Precision Texture",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/modernist-tabouli-with-herb-oil-precision-texture.png",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/modernist-tabouli-with-herb-oil-precision-texture.png",
   "yield": "4 plates",
   "description": "A refined tabouli showcasing precision-cut herbs, vacuum-hydrated bulgur, clarified lemon, and vibrant herb oil for a clean, modern presentation.",
   "category": "Sides",
   "keywords": "tabouli, tabbouleh, modernist, vegetarian, herbs, fine dining",
-  "yield": "4 plates",
-  "source": "",
-  "chef": "",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/modernist-tabouli-with-herb-oil-precision-texture.png",
-  "source": "Azurmendi",
-  "chef": "Eneko Atxa",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/modernist-tabouli-with-herb-oil-precision-texture.PNG",
-  "ingredients": [
+  "winePairings": [
     {
-      "quantity": "1/2 cup",
-      "item": "Fine bulgur wheat",
-      "note": ""
+      "name": "Sancerre",
+      "notes": "Crisp acidity complements lemon and herbs."
     },
     {
-      "quantity": "2 cups",
+      "name": "Albari�o",
+      "notes": "Bright citrus and minerality enhance freshness."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Fine bulgur wheat",
+      "quantity": "1/2 cup"
+    },
+    {
       "item": "Flat-leaf parsley leaves",
+      "quantity": "2 cups",
       "note": "stems removed"
     },
     {
-      "quantity": "1/2 cup",
       "item": "Fresh mint leaves",
-      "note": ""
+      "quantity": "1/2 cup"
     },
     {
-      "quantity": "2",
       "item": "Ripe tomatoes",
+      "quantity": "2",
       "note": "deseeded and finely diced"
     },
     {
-      "quantity": "3",
       "item": "Scallions",
+      "quantity": "3",
       "note": "thinly sliced"
     },
     {
-      "quantity": "1",
       "item": "Shallot",
+      "quantity": "1",
       "note": "finely diced"
     },
     {
-      "quantity": "from 2 lemons",
       "item": "Lemon juice",
-      "note": ""
+      "quantity": "from 2 lemons"
     },
     {
-      "quantity": "from 1 lemon",
       "item": "Lemon zest",
-      "note": ""
+      "quantity": "from 1 lemon"
     },
     {
-      "quantity": "60 ml",
       "item": "Extra-virgin olive oil",
-      "note": ""
+      "quantity": "60 ml"
     },
     {
-      "quantity": "to taste",
       "item": "Salt",
-      "note": ""
+      "quantity": "to taste"
     },
     {
-      "quantity": "optional garnish",
       "item": "Pomegranate seeds",
-      "note": ""
-    }
-  ],
-  "steps": [
-    {
-      "instruction": "Weigh bulgur and water at a 1:1 ratio. Vacuum seal with a pinch of salt and allow to hydrate for 30�40 minutes."
-    },
-    {
-      "instruction": "Clarify the lemon juice by blending briefly and passing through a fine chinois or superbag."
-    },
-    {
-      "instruction": "Blanch a small portion of parsley for 10 seconds, shock in ice, then blend with olive oil until vibrant green."
-    },
-    {
-      "instruction": "Finely chiffonade parsley and mint, then cross-cut gently."
-    },
-    {
-      "instruction": "Deseed tomatoes completely and dice into uniform small cubes."
-    },
-    {
-      "instruction": "Rinse sliced shallots briefly in cold water and dry."
-    },
-    {
-      "instruction": "Combine bulgur, herbs, tomatoes, shallots, and scallions gently by hand."
-    },
-    {
-      "instruction": "Add clarified lemon juice, lemon zest, and salt. Mix lightly."
-    },
-    {
-      "instruction": "Fold in olive oil gently until evenly coated."
-    },
-    {
-      "instruction": "Optional: briefly place mixture under light vacuum to integrate flavors."
-    },
-    {
-      "instruction": "Plate using a ring mold to form a tight cylinder. Finish with herb oil, mint tips, and pomegranate seeds."
+      "quantity": "optional garnish"
     }
   ],
   "specialtools": [
@@ -134,14 +95,57 @@
       "link": "https://amzn.to/4eB2cuI"
     }
   ],
-  "winePairings": [
+  "steps": [
     {
-      "name": "Sancerre",
-      "notes": "Crisp acidity complements lemon and herbs."
+      "number": 1,
+      "instruction": "Weigh bulgur and water at a 1:1 ratio. Vacuum seal with a pinch of salt and allow to hydrate for 30�40 minutes.",
+      "note": "ensures even hydration without mushiness"
     },
     {
-      "name": "Albari�o",
-      "notes": "Bright citrus and minerality enhance freshness."
+      "number": 2,
+      "instruction": "Clarify the lemon juice by blending briefly and passing through a fine chinois or superbag.",
+      "note": "for ultra clarity, centrifuge if available"
+    },
+    {
+      "number": 3,
+      "instruction": "Blanch a small portion of parsley for 10 seconds, shock in ice, then blend with olive oil until vibrant green.",
+      "note": "strain to create herb oil"
+    },
+    {
+      "number": 4,
+      "instruction": "Finely chiffonade parsley and mint, then cross-cut gently.",
+      "note": "avoid bruising the herbs"
+    },
+    {
+      "number": 5,
+      "instruction": "Deseed tomatoes completely and dice into uniform small cubes.",
+      "note": "prevents excess moisture"
+    },
+    {
+      "number": 6,
+      "instruction": "Rinse sliced shallots briefly in cold water and dry.",
+      "note": "removes harshness"
+    },
+    {
+      "number": 7,
+      "instruction": "Combine bulgur, herbs, tomatoes, shallots, and scallions gently by hand."
+    },
+    {
+      "number": 8,
+      "instruction": "Add clarified lemon juice, lemon zest, and salt. Mix lightly.",
+      "note": "season before oil for brightness"
+    },
+    {
+      "number": 9,
+      "instruction": "Fold in olive oil gently until evenly coated."
+    },
+    {
+      "number": 10,
+      "instruction": "Optional: briefly place mixture under light vacuum to integrate flavors."
+    },
+    {
+      "number": 11,
+      "instruction": "Plate using a ring mold to form a tight cylinder. Finish with herb oil, mint tips, and pomegranate seeds."
     }
   ],
   "sub_recipes": []

@@ -4,8 +4,6 @@
   "category": "Starter",
   "keywords": "scallops, fine dining seafood, modernist cuisine, corn velouté, fermented corn, butter poached scallops, citrus ash tuile",
   "yield": "Serves 4",
-  "source": "Alinea",
-  "chef": "Grant Achatz",
   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/butter-poached-scallop-with-corn-silk-velout-fermented-corn-emulsion-citrus-ash-tuile.png",
   "ingredients": [
     {
@@ -176,6 +174,5 @@
       "name": "Champagne (Brut Blanc de Blancs)",
       "notes": "Bright acidity and fine bubbles cut through the richness while enhancing the dish’s delicate textures."
     }
-  ],
-  "sub_recipes": []
+  ]
 }

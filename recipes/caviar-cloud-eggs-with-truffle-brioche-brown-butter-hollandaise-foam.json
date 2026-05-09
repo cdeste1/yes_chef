@@ -4,9 +4,7 @@
   "category": "Brunch",
   "keywords": "cloud eggs, truffle brioche, caviar brunch, michelin style breakfast, hollandaise foam, molecular gastronomy, fine dining eggs",
   "yield": "Serves 4",
-  "source": "",
-  "chef": "",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png",
   "ingredients": [
     {
       "quantity": "8",
@@ -172,6 +170,5 @@
       "name": "White Burgundy (Meursault)",
       "notes": "Buttery texture complements brioche and brown butter flavors."
     }
-  ],
-  "sub_recipes": []
+  ]
 }

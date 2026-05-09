@@ -4,8 +4,6 @@
   "category": "Starter",
   "keywords": "kampachi crudo, yuzu cure, molecular gastronomy, fine dining seafood, compressed fruit, smoked dashi air, modernist cuisine",
   "yield": "Serves 4",
-  "source": "Den",
-  "chef": "Zaiyu Hasegawa",
   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/yuzu-cured-kampachi-with-frozen-olive-oil-compressed-melon-smoked-dashi-air.png",
   "ingredients": [
     {
@@ -186,6 +184,5 @@
       "name": "Champagne Blanc de Blancs",
       "notes": "High acidity and fine bubbles cut through the richness while elevating the citrus notes."
     }
-  ],
-  "sub_recipes": []
+  ]
 }

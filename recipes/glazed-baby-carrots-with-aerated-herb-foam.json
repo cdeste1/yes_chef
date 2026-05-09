@@ -1,76 +1,37 @@
 {
   "name": "Glazed Baby Carrots with Aerated Herb Foam",
-  "description": "A modernist side dish using vacuum compression to intensify flavor and nitrous-oxide aeration for a delicate herb foam.",
-  "category": "Sides",
-  "keywords": "carrots, molecular gastronomy, sous-vide, foam",
   "yield": "6 plates",
-  "source": "",
-  "chef": "",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glazed-baby-carrots-with-aerated-herb-foam.jpg",
+  "description": "A modernist side dish using vacuum compression to intensify flavor and nitrous-oxide aeration for a delicate herb foam.",
+  "category": "Side",
+  "keywords": "carrots, molecular gastronomy, sous-vide, foam",
   "ingredients": [
     {
-      "quantity": "1 lb",
       "item": "Baby heirloom carrots",
-      "note": ""
+      "quantity": "1 lb"
     },
     {
-      "quantity": "2 tbsp",
       "item": "Butter",
-      "note": ""
+      "quantity": "2 tbsp"
     },
     {
-      "quantity": "1 sprig",
       "item": "Thyme",
-      "note": ""
+      "quantity": "1 sprig"
     },
     {
-      "quantity": "1 pinch",
       "item": "Sea salt",
-      "note": ""
+      "quantity": "1 pinch"
     },
     {
-      "quantity": "1 handful",
       "item": "Parsley and Chives",
-      "note": ""
+      "quantity": "1 handful"
     },
     {
-      "quantity": "100 ml",
       "item": "Vegetable stock",
-      "note": ""
+      "quantity": "100 ml"
     },
     {
-      "quantity": "50 ml",
       "item": "Heavy cream",
-      "note": ""
-    }
-  ],
-  "steps": [
-    {
-      "instruction": "Peel and trim the carrots, then place them in a vacuum pouch with butter, thyme, and sea salt."
-    },
-    {
-      "instruction": "Use the Chamber Vacuum Sealer on its highest setting to collapse the cell structure and infuse the aromatics."
-    },
-    {
-      "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84 C (183 F) for 45 60 minutes."
-    },
-    {
-      "instruction": "Blanch and shock the herbs, then blend with vegetable stock and heavy cream to create the foam base."
-    },
-    {
-      "instruction": "Pass the herb mixture through a Micro-Fine Mesh Sieve."
-    },
-    {
-      "instruction": "Pour the liquid into a Siphon, charge with one N2O cartridge, and shake vigorously."
-    },
-    {
-      "instruction": "Keep the siphon warm in a 50 C (122 F) water bath until ready to serve."
-    },
-    {
-      "instruction": "Remove carrots from the pouch and briefly sear in a hot pan for 30 seconds using the pouch juices to create a glossy glaze."
-    },
-    {
-      "instruction": "Plating: Arrange the carrots on a plate and dispense a cloud of herb foam alongside them."
+      "quantity": "50 ml"
     }
   ],
   "specialtools": [
@@ -103,7 +64,7 @@
     },
     {
       "number": 3,
-      "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84 C (183 F) for 45 60 minutes."
+      "instruction": "Submerge the pouch in a water bath regulated by a Thermal Immersion Circulator at 84�C (183�F) for 45�60 minutes."
     },
     {
       "number": 4,
@@ -120,7 +81,7 @@
     },
     {
       "number": 7,
-      "instruction": "Keep the siphon warm in a 50 C (122 F) water bath until ready to serve."
+      "instruction": "Keep the siphon warm in a 50�C (122�F) water bath until ready to serve."
     },
     {
       "number": 8,
@@ -131,7 +92,5 @@
       "instruction": "Plating: Arrange the carrots on a plate and dispense a cloud of herb foam alongside them."
     }
   ],
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glazed-baby-carrots-with-aerated-herb-foam.jpg",
-  "winePairings": [],
-  "sub_recipes": []
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/glazed-baby-carrots-with-aerated-herb-foam.jpg"
 }

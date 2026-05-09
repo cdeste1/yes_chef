@@ -270,7 +270,7 @@ for r in recipes:
     page = page.replace('{{STEPS_HTML}}',       steps_html)
     page = page.replace('{{SUB_RECIPES_HTML}}', sub_recipes_html)
 
-    out_dir  = os.path.join(OUTPUT_DIR, 'recipes', slug)
+    out_dir  = os.path.join(OUTPUT_DIR, slug)
     out_file = os.path.join(out_dir, 'index.html')
     os.makedirs(out_dir, exist_ok=True)
     with open(out_file, 'w', encoding='utf-8') as f:

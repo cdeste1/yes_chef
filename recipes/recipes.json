@@ -2354,9 +2354,11 @@
   {
     "name": "Blue Mussel Velouté with Saffron Foam & Compressed Sea Beans",
     "description": "A world-class main course inspired by Chef Yannick Alléno’s modern extraction philosophy. This dish features ultra-clean mussel essence, high-stability saffron foam, and vacuum-compressed sea beans for a multi-textural marine experience.",
-    "category": "Main Course",
+    "category": "Main",
     "keywords": "mussel veloute, Yannick Alleno inspired, saffron foam, modern French, seafood extraction, molecular gastronomy, fine dining mussels",
     "yield": "Serves 4",
+    "source": "",
+    "chef": "",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/blue-mussel-velout-with-saffron-foam-compressed-sea-beans.jpg",
     "ingredients": [
       {
@@ -2476,7 +2478,7 @@
         "notes": "The effervescence and brioche notes complement the saffron foam and cream base beautifully."
       }
     ],
-    "inspiredBy": "Chef Yannick Alléno"
+    "sub_recipes": []
   },
   {
     "name": "Brioche French Toast, Vanilla Espuma and Berry Coulis",

@@ -972,9 +972,9 @@
     "category": "Starter",
     "keywords": "baked clams, fine dining, seafood, Michelin, garlic confit, pangrattato",
     "yield": "4 servings",
-    "source": "Le Bernardin",
-    "chef": "Eric Ripert",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/baked-littleneck-clams-with-brown-butter-garlic-confit-herb-pangrattato.PNG",
+    "source": "Chef-inspired",
+    "chef": "World-Class Modern Seafood",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/baked-littleneck-clams-with-brown-butter-garlic-confit-herb-pangrattato.png",
     "ingredients": [
       {
         "quantity": "24",
@@ -14854,6 +14854,311 @@
             "instruction": "Adjust seasoning and keep warm."
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Tacos de Ceniza y Mar",
+    "description": "A Michelin-level taco tasting main course inspired by Enrique Olvera and René Redzepi. Featuring 72-hour wagyu barbacoa glazed over binchōtan charcoal, blue corn tortillas, bone marrow charred onion crema, fermented pineapple kosho, salsa verde pearls, compressed watermelon radish, and black garlic ash. A balance of smoke, acidity, umami, fermentation, and theatrical presentation.",
+    "category": "Main",
+    "keywords": "wagyu tacos, Michelin tacos, fine dining Mexican cuisine, modernist tacos, blue corn tortillas, barbacoa, salsa verde caviar, fermented pineapple kosho",
+    "yield": "Serves 4",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/tacos-de-ceniza-y-mar.png",
+    "ingredients": [
+      {
+        "quantity": "3 lbs",
+        "item": "A5 wagyu short rib",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "dried guajillo chiles",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "dried pasilla chiles",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "dried morita chile",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "white onion",
+        "note": "charred"
+      },
+      {
+        "quantity": "6 cloves",
+        "item": "garlic",
+        "note": ""
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "Mexican oregano",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "cumin seed",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "cinnamon stick",
+        "note": ""
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "apple cider vinegar",
+        "note": ""
+      },
+      {
+        "quantity": "2 cups",
+        "item": "veal stock",
+        "note": ""
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "beef garum",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "kosher salt",
+        "note": ""
+      },
+      {
+        "quantity": "400g",
+        "item": "blue heirloom masa harina",
+        "note": ""
+      },
+      {
+        "quantity": "350ml",
+        "item": "warm water",
+        "note": ""
+      },
+      {
+        "quantity": "8g",
+        "item": "sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "as needed",
+        "item": "duck fat",
+        "note": ""
+      },
+      {
+        "quantity": "4",
+        "item": "marrow bones",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "sweet onions",
+        "note": ""
+      },
+      {
+        "quantity": "200ml",
+        "item": "crème fraîche",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "lime zest",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "smoked Maldon salt",
+        "note": ""
+      },
+      {
+        "quantity": "1 cup",
+        "item": "pineapple flesh and skin",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "fresh habanero",
+        "note": ""
+      },
+      {
+        "quantity": "2%",
+        "item": "sea salt",
+        "note": "by weight"
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "yuzu juice",
+        "note": ""
+      },
+      {
+        "quantity": "6",
+        "item": "tomatillos",
+        "note": ""
+      },
+      {
+        "quantity": "1 handful",
+        "item": "cilantro stems",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "jalapeño",
+        "note": ""
+      },
+      {
+        "quantity": "100ml",
+        "item": "lime distillate",
+        "note": ""
+      },
+      {
+        "quantity": "5g",
+        "item": "sodium alginate",
+        "note": ""
+      },
+      {
+        "quantity": "5g",
+        "item": "calcium lactate",
+        "note": ""
+      },
+      {
+        "quantity": "3",
+        "item": "watermelon radishes",
+        "note": "thinly sliced"
+      },
+      {
+        "quantity": "100ml",
+        "item": "rice vinegar",
+        "note": ""
+      },
+      {
+        "quantity": "20g",
+        "item": "hibiscus",
+        "note": ""
+      },
+      {
+        "quantity": "20g",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "quantity": "1 head",
+        "item": "black garlic",
+        "note": ""
+      },
+      {
+        "quantity": "1 cup",
+        "item": "toasted tortilla scraps",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "dried pasilla chile",
+        "note": ""
+      },
+      {
+        "quantity": "to garnish",
+        "item": "micro cilantro",
+        "note": ""
+      },
+      {
+        "quantity": "to garnish",
+        "item": "lime blossoms",
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Prepare the adobo: Toast guajillo, pasilla, and morita chiles on a hot comal. Blend with charred onion, garlic, oregano, cumin, cinnamon, vinegar, and veal stock until smooth."
+      },
+      {
+        "instruction": "Cook the wagyu: Vacuum seal wagyu short ribs with the adobo and cook sous vide at 149°F (65°C) for 48 hours."
+      },
+      {
+        "instruction": "Rest and glaze: Chill wagyu overnight in its fat. Reduce cooking liquid into a thick glaze. Shred wagyu and caramelize repeatedly over binchōtan charcoal while brushing with glaze."
+      },
+      {
+        "instruction": "Prepare tortillas: Mix blue masa harina, warm water, and sea salt into a smooth dough. Rest 30 minutes."
+      },
+      {
+        "instruction": "Press and cook tortillas: Press tortillas thinly using a copper tortilla press. Cook on a cast-iron comal and finish directly over charcoal for blistering. Brush lightly with duck fat."
+      },
+      {
+        "instruction": "Make bone marrow crema: Roast marrow bones until bubbling. Char onions over open flame. Blend marrow, onions, crème fraîche, and lime zest until smooth. Pass through a tamis and charge in an ISI whip."
+      },
+      {
+        "instruction": "Prepare pineapple kosho: Ferment pineapple and habanero with sea salt for 5–7 days. Blend with yuzu juice until smooth and refrigerate overnight."
+      },
+      {
+        "instruction": "Create salsa verde pearls: Blend tomatillos, cilantro stems, jalapeño, and lime distillate. Use reverse spherification with sodium alginate and calcium lactate to create caviar-like pearls."
+      },
+      {
+        "instruction": "Compress the radishes: Vacuum seal watermelon radish slices with rice vinegar, hibiscus, sugar, and salt until translucent and vibrant."
+      },
+      {
+        "instruction": "Make black garlic ash: Dehydrate black garlic, tortilla scraps, and pasilla chile completely. Pulverize into a fine ash powder."
+      },
+      {
+        "instruction": "Plate the tacos: Arrange tortillas asymmetrically on a black volcanic stone slab. Fill with lacquered wagyu, pipe bone marrow crema, add radish ribbons, pineapple kosho, and salsa verde pearls."
+      },
+      {
+        "instruction": "Finish and serve: Dust with black garlic ash, garnish with micro cilantro and lime blossoms, then briefly cover with mesquite smoke before serving tableside."
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Binchotan Charcoal Grill",
+        "link": "https://amzn.to/3R28Pwq"
+      },
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/42qbRwY"
+      },
+      {
+        "item": "Gourmet Whip",
+        "link": "https://amzn.to/4dgcQVG"
+      },
+      {
+        "item": "Smoking Gun with Mesquite Dust",
+        "link": "https://amzn.to/42pTW9H"
+      },
+      {
+        "item": "Copper Tortilla Press",
+        "link": "https://amzn.to/4u1pq27"
+      },
+      {
+        "item": "Infrared Thermometer Gun",
+        "link": "https://amzn.to/4nheY3U"
+      },
+      {
+        "item": "Serving Dishes",
+        "link": "https://amzn.to/4tuTBOb"
+      },
+      {
+        "item": "Taco Holders",
+        "link": "https://amzn.to/4fbPTp0"
+      },
+      {
+        "item": "Fine Plating Tweezers Set",
+        "link": "https://amzn.to/4uwTSkq"
+      }
+    ],
+    "winePairings": [
+      {
+        "name": "Grower Champagne",
+        "notes": "Bright acidity and minerality cut through the richness of the wagyu while enhancing the smoke and fermentation notes."
+      },
+      {
+        "name": "Extra Añejo Tequila",
+        "notes": "Deep caramel, oak, and spice complement the barbacoa glaze and charred elements."
+      },
+      {
+        "name": "Smoked Mezcal Cocktail",
+        "notes": "Enhances the mesquite smoke and earthy black garlic ash while balancing the acidity of the pineapple kosho."
       }
     ]
   },

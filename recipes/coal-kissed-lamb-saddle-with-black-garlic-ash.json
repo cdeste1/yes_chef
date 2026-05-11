@@ -1,0 +1,279 @@
+{
+  "name": "Coal-Kissed Lamb Saddle with Black Garlic Ash",
+  "source": "inspired by Asador Etxebarri and Noma",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/coal-kissed-lamb-saddle-with-black-garlic-ash.png",
+  "chef": "Inspired by Victor Arguinzoniz & René Redzepi",
+  "yield": "Serves 4",
+  "description": "A Michelin-level lamb course featuring hay-aged lamb saddle cooked over binchōtan charcoal with black garlic ash crust, smoked sheep’s milk yogurt, fermented herb oil, crispy sweetbreads, glacier potato pavé, and burnt rosemary jus.",
+  "category": "Main",
+  "keywords": "lamb, fine dining, michelin, binchotan, black garlic, smoked yogurt, modernist cuisine, fire cooking",
+  "winePairings": [
+    {
+      "name": "Côte-Rôtie Syrah",
+      "notes": "Peppery smoke and dark fruit complement the charcoal lamb."
+    },
+    {
+      "name": "Etna Rosso",
+      "notes": "Minerality and volcanic structure mirror the black garlic ash."
+    },
+    {
+      "name": "Rioja Gran Reserva",
+      "notes": "Leather and dried herb notes elevate the rosemary jus."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Lamb saddle",
+      "quantity": "1 whole",
+      "note": "trimmed"
+    },
+    {
+      "item": "Lamb sweetbreads",
+      "quantity": "200 g"
+    },
+    {
+      "item": "Lamb bones",
+      "quantity": "2 lbs",
+      "note": "for jus"
+    },
+    {
+      "item": "Food-safe hay",
+      "quantity": "1 bundle"
+    },
+    {
+      "item": "Binchōtan charcoal",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Black garlic",
+      "quantity": "8 cloves"
+    },
+    {
+      "item": "Squid ink",
+      "quantity": "1 tbsp"
+    },
+    {
+      "item": "Activated charcoal",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Sheep’s milk yogurt",
+      "quantity": "2 cups"
+    },
+    {
+      "item": "Spring onions",
+      "quantity": "6"
+    },
+    {
+      "item": "Yukon Gold potatoes",
+      "quantity": "500 g"
+    },
+    {
+      "item": "Duck fat",
+      "quantity": "100 g"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "200 ml"
+    },
+    {
+      "item": "Veal stock",
+      "quantity": "750 ml"
+    },
+    {
+      "item": "Red wine",
+      "quantity": "250 ml"
+    },
+    {
+      "item": "Rosemary",
+      "quantity": "2 sprigs"
+    },
+    {
+      "item": "Parsley",
+      "quantity": "1 handful"
+    },
+    {
+      "item": "Dill",
+      "quantity": "1 handful"
+    },
+    {
+      "item": "Tarragon",
+      "quantity": "1 handful"
+    },
+    {
+      "item": "Chives",
+      "quantity": "1 handful"
+    },
+    {
+      "item": "Micro herbs and edible flowers",
+      "quantity": "for garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Binchotan Grill",
+      "link": "https://amzn.to/4eFuC6W"
+    },
+    {
+      "item": "Flywheel Slicer",
+      "link": "https://amzn.to/4uAWtd3"
+    },
+    {
+      "item": "Smoking Gun",
+      "link": "https://amzn.to/4dcWblD"
+    },
+    {
+      "item": "Searzall Torch Attachment",
+      "link": "https://amzn.to/4trgMbW"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4uLaO78"
+    },
+    {
+      "item": "Gourmet Whip Thermo",
+      "link": "https://amzn.to/4eFTrzK"
+    },
+    {
+      "item": "Precision Tweezers",
+      "link": "https://amzn.to/42t5OHZ"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Wrap the lamb saddle loosely in food-safe hay and refrigerate uncovered for 12 hours."
+    },
+    {
+      "number": 2,
+      "instruction": "Roast lamb bones until deeply caramelized. Deglaze with red wine and simmer with veal stock for 4–5 hours to create the rosemary jus."
+    },
+    {
+      "number": 3,
+      "instruction": "Thinly slice Yukon Gold potatoes and layer with cream, duck fat, garlic, and thyme in a terrine mold."
+    },
+    {
+      "number": 4,
+      "instruction": "Bake the potato pavé until tender, press overnight, then portion and fry until crisp."
+    },
+    {
+      "number": 5,
+      "instruction": "Cold smoke the sheep’s milk yogurt using applewood smoke and season with lemon zest and sea salt."
+    },
+    {
+      "number": 6,
+      "instruction": "Char spring onions over open flame and blend into a smooth emulsion with mustard and oil."
+    },
+    {
+      "number": 7,
+      "instruction": "Blend black garlic, squid ink, activated charcoal, and lamb fat into a paste. Dehydrate and pulverize into ash."
+    },
+    {
+      "number": 8,
+      "instruction": "Prepare sweetbreads by soaking in salted milk overnight, blanching, pressing, and frying until crisp."
+    },
+    {
+      "number": 9,
+      "instruction": "Sear the lamb using a Searzall, then finish over binchōtan charcoal to 128°F internal temperature."
+    },
+    {
+      "number": 10,
+      "instruction": "Rest the lamb and roll the edges in black garlic ash before slicing."
+    },
+    {
+      "number": 11,
+      "instruction": "Blend herbs with oil and fermented chili brine to create a vivid green herb oil."
+    },
+    {
+      "number": 12,
+      "instruction": "Plate smoked yogurt asymmetrically, arrange sliced lamb and potato pavé, spoon rosemary jus around the plate, and garnish with herb oil, sweetbreads, and edible flowers."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Burnt Rosemary Jus",
+      "yield": "500 ml",
+      "ingredients": [
+        {
+          "item": "Roasted lamb bones",
+          "quantity": "2 lbs"
+        },
+        {
+          "item": "Red wine",
+          "quantity": "250 ml"
+        },
+        {
+          "item": "Veal stock",
+          "quantity": "750 ml"
+        },
+        {
+          "item": "Rosemary",
+          "quantity": "2 sprigs",
+          "note": "burnt over open flame"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Roast bones until dark brown."
+        },
+        {
+          "number": 2,
+          "instruction": "Deglaze with wine and reduce by 80%."
+        },
+        {
+          "number": 3,
+          "instruction": "Add stock and simmer for 4–5 hours."
+        },
+        {
+          "number": 4,
+          "instruction": "Strain and steep burnt rosemary into the jus."
+        }
+      ]
+    },
+    {
+      "name": "Black Garlic Ash",
+      "yield": "1 cup",
+      "ingredients": [
+        {
+          "item": "Black garlic",
+          "quantity": "8 cloves"
+        },
+        {
+          "item": "Squid ink",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Activated charcoal",
+          "quantity": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend all ingredients into a smooth paste."
+        },
+        {
+          "number": 2,
+          "instruction": "Spread thinly and dehydrate until brittle."
+        },
+        {
+          "number": 3,
+          "instruction": "Pulverize into fine ash powder."
+        }
+      ]
+    }
+  ],
+  "chefSources": [
+    {
+      "chef": "Victor Arguinzoniz",
+      "restaurant": "Asador Etxebarri",
+      "source": "https://asadoretxebarri.com"
+    },
+    {
+      "chef": "René Redzepi",
+      "restaurant": "Noma",
+      "source": "https://noma.dk"
+    }
+  ]
+}

@@ -2481,6 +2481,300 @@
     "sub_recipes": []
   },
   {
+    "name": "Bluefin Tostada de Fuego",
+    "source": "Inspired by Pujol, Chef’s Table at Brooklyn Fare, and KOL London",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/bluefin-tostada-de-fuego.png",
+    "chef": "Inspired by Enrique Olvera, César Ramirez & Santiago Lastra",
+    "yield": "Serves 4",
+    "description": "A world-class modern Mexican starter featuring cured bluefin tuna on a black masa tostada with burnt avocado mousse, Oscietra caviar, smoked habanero oil, compressed strawberry and tomatillo pearls, hoja santa oil, and mezcal vapor.",
+    "category": "Starter",
+    "keywords": "Mexican fine dining, tuna tostada, Michelin starter, modernist Mexican cuisine, bluefin tuna, caviar tostada, mezcal smoke",
+    "winePairings": [
+      {
+        "name": "Mexican Chenin Blanc",
+        "notes": "Bright acidity and minerality complement the tuna and smoke."
+      },
+      {
+        "name": "Champagne Blanc de Blancs",
+        "notes": "Crisp texture enhances the caviar and tostada crunch."
+      },
+      {
+        "name": "Clarified Mezcal Martini",
+        "notes": "Smoky and clean, pairing naturally with the mezcal vapor."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Sushi-grade bluefin tuna",
+        "quantity": "300 g",
+        "note": "diced"
+      },
+      {
+        "item": "Heirloom blue corn masa",
+        "quantity": "250 g"
+      },
+      {
+        "item": "Squid ink",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Duck fat",
+        "quantity": "for frying"
+      },
+      {
+        "item": "Avocados",
+        "quantity": "3 ripe"
+      },
+      {
+        "item": "Charred jalapeño",
+        "quantity": "1"
+      },
+      {
+        "item": "Crème fraîche",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Yuzu juice",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Finger lime pearls",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "White soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Habaneros",
+        "quantity": "2"
+      },
+      {
+        "item": "Grapeseed oil",
+        "quantity": "150 ml"
+      },
+      {
+        "item": "Garlic confit",
+        "quantity": "2 cloves"
+      },
+      {
+        "item": "Green strawberries",
+        "quantity": "6"
+      },
+      {
+        "item": "Tomatillos",
+        "quantity": "4"
+      },
+      {
+        "item": "Champagne vinegar",
+        "quantity": "100 ml"
+      },
+      {
+        "item": "Chicken skin",
+        "quantity": "200 g"
+      },
+      {
+        "item": "Tajín seasoning",
+        "quantity": "1 tbsp"
+      },
+      {
+        "item": "Oscietra caviar",
+        "quantity": "50 g"
+      },
+      {
+        "item": "Hoja santa leaves",
+        "quantity": "6"
+      },
+      {
+        "item": "Micro cilantro",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Edible flowers",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Mezcal",
+        "quantity": "100 ml"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Ceramic Grill",
+        "link": "https://amzn.to/4eJ6gct"
+      },
+      {
+        "item": "Smoking Cloche",
+        "link": "https://amzn.to/42uIgCM"
+      },
+      {
+        "item": "Induction System",
+        "link": "https://amzn.to/433LvBb"
+      },
+      {
+        "item": "Rotavapor System",
+        "link": "https://amzn.to/4dDSgj7"
+      },
+      {
+        "item": "Chamber Vacuum Sealer",
+        "link": "https://amzn.to/4fhz5Nm"
+      },
+      {
+        "item": "Plating Tweezers",
+        "link": "https://amzn.to/439PFHD"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Dice the bluefin tuna into precise cubes and season lightly with white soy, yuzu juice, lime zest, and sea salt."
+      },
+      {
+        "number": 2,
+        "instruction": "Fold finger lime pearls into the tuna and refrigerate for 10 minutes."
+      },
+      {
+        "number": 3,
+        "instruction": "Mix blue corn masa with squid ink and water until smooth."
+      },
+      {
+        "number": 4,
+        "instruction": "Press masa into ultra-thin rounds and cook lightly on cast iron."
+      },
+      {
+        "number": 5,
+        "instruction": "Flash fry the tostadas in duck fat until blistered and crisp."
+      },
+      {
+        "number": 6,
+        "instruction": "Char avocados directly over flame until blackened and smoky."
+      },
+      {
+        "number": 7,
+        "instruction": "Blend avocado flesh with crème fraîche, charred jalapeño, lime juice, and smoked salt into a silky mousse."
+      },
+      {
+        "number": 8,
+        "instruction": "Smoke habaneros over hardwood embers and blend with grapeseed oil and garlic confit."
+      },
+      {
+        "number": 9,
+        "instruction": "Vacuum seal strawberries and tomatillos with champagne vinegar and coriander seed to compress and pickle them."
+      },
+      {
+        "number": 10,
+        "instruction": "Bake chicken skin between sheet trays until deeply crisp, then pulverize with Tajín into chicharrón dust."
+      },
+      {
+        "number": 11,
+        "instruction": "Blend hoja santa leaves with warm oil and strain until vivid green."
+      },
+      {
+        "number": 12,
+        "instruction": "Arrange the black tostada off-center on a matte plate and pipe burnt avocado mousse asymmetrically."
+      },
+      {
+        "number": 13,
+        "instruction": "Top with cured bluefin tuna and a quenelle of Oscietra caviar."
+      },
+      {
+        "number": 14,
+        "instruction": "Add compressed strawberry and tomatillo pieces around the plate."
+      },
+      {
+        "number": 15,
+        "instruction": "Dot smoked habanero oil and dust lightly with chicken skin chicharrón powder."
+      },
+      {
+        "number": 16,
+        "instruction": "Finish with micro cilantro, edible flowers, hoja santa oil, and serve beneath a mezcal smoke cloche tableside."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Burnt Avocado Mousse",
+        "yield": "2 cups",
+        "ingredients": [
+          {
+            "item": "Avocados",
+            "quantity": "3"
+          },
+          {
+            "item": "Crème fraîche",
+            "quantity": "2 tbsp"
+          },
+          {
+            "item": "Charred jalapeño",
+            "quantity": "1"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Char avocados directly over open flame."
+          },
+          {
+            "number": 2,
+            "instruction": "Blend avocado flesh with crème fraîche, jalapeño, lime juice, and smoked salt."
+          },
+          {
+            "number": 3,
+            "instruction": "Process in Pacojet for ultra-smooth texture if available."
+          }
+        ]
+      },
+      {
+        "name": "Smoked Habanero Oil",
+        "yield": "150 ml",
+        "ingredients": [
+          {
+            "item": "Habaneros",
+            "quantity": "2"
+          },
+          {
+            "item": "Grapeseed oil",
+            "quantity": "150 ml"
+          },
+          {
+            "item": "Garlic confit",
+            "quantity": "2 cloves"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Smoke habaneros over hardwood embers."
+          },
+          {
+            "number": 2,
+            "instruction": "Blend with warm oil and garlic confit."
+          },
+          {
+            "number": 3,
+            "instruction": "Infuse gently for 1 hour and strain."
+          }
+        ]
+      }
+    ],
+    "chefSources": [
+      {
+        "chef": "Enrique Olvera",
+        "restaurant": "Pujol",
+        "source": "https://pujol.com.mx"
+      },
+      {
+        "chef": "César Ramirez",
+        "restaurant": "Chef’s Table at Brooklyn Fare",
+        "source": "https://www.brooklynfare.com"
+      },
+      {
+        "chef": "Santiago Lastra",
+        "restaurant": "KOL London",
+        "source": "https://kolrestaurant.com"
+      }
+    ]
+  },
+  {
     "name": "Brioche French Toast, Vanilla Espuma and Berry Coulis",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/FrenchToast.png",
     "yield": "4 servings",

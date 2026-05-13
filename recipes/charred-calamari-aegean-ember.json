@@ -1,0 +1,389 @@
+{
+  "name": "Charred Calamari “Aegean Ember”",
+  "source": "Inspired by ABaC Barcelona",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/charred-calamari-aegean-ember.png",
+  "chef": "Jordi Cruz",
+  "yield": "Serves 4 tasting portions",
+  "description": "A Michelin-level calamari starter featuring binchotan-charred squid, smoked squid consommé, preserved lemon gel, black garlic emulsion, and squid ink rice lace crisp with dramatic fine-dining presentation.",
+  "category": "Starter",
+  "keywords": "calamari, squid, fine dining, michelin, seafood starter, molecular gastronomy, charred seafood",
+  "winePairings": [
+    {
+      "name": "Grower Champagne Blanc de Blancs",
+      "notes": "High acidity and minerality balance the smoke and richness of the calamari."
+    },
+    {
+      "name": "Santorini Assyrtiko",
+      "notes": "Saline and citrus-driven wine complements squid ink and preserved lemon."
+    }
+  ],
+  "ingredients": [
+    {
+      "quantity": "2 large",
+      "item": "fresh squid tubes",
+      "note": "cleaned"
+    },
+    {
+      "quantity": "all from squid",
+      "item": "squid tentacles",
+      "note": ""
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "fine sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "granulated sugar",
+      "note": ""
+    },
+    {
+      "quantity": "1",
+      "item": "lemon zest",
+      "note": ""
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "olive oil",
+      "note": ""
+    },
+    {
+      "quantity": "40g",
+      "item": "cultured butter",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "squid ink",
+      "note": ""
+    },
+    {
+      "quantity": "to finish",
+      "item": "Maldon sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "as needed",
+      "item": "bronze fennel fronds",
+      "note": ""
+    },
+    {
+      "quantity": "as needed",
+      "item": "micro shiso",
+      "note": ""
+    },
+    {
+      "quantity": "as needed",
+      "item": "finger lime pearls",
+      "note": ""
+    },
+    {
+      "quantity": "as needed",
+      "item": "edible flowers",
+      "note": ""
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Japanese Tabletop Grill",
+      "link": "https://amzn.to/4fox6qu"
+    },
+    {
+      "item": "Smoking Gun Infuser",
+      "link": "https://amzn.to/4txmR6K"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4nAvzjl"
+    },
+    {
+      "item": "Infrared Thermometer",
+      "link": "https://amzn.to/4nw7sm4"
+    },
+    {
+      "item": "Fine Mesh Chinois",
+      "link": "https://amzn.to/42sl5cb"
+    },
+    {
+      "item": "Offset Plating Tweezers",
+      "link": "https://amzn.to/49MUWsr"
+    },
+    {
+      "item": "Gourmet Whip Siphon",
+      "link": "https://amzn.to/4fj6GXf"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Score the inside of the squid tubes in a crosshatch pattern without cutting through completely."
+    },
+    {
+      "number": 2,
+      "instruction": "Mix sea salt, sugar, and lemon zest. Lightly cure squid for 20 minutes in the refrigerator."
+    },
+    {
+      "number": 3,
+      "instruction": "Rinse squid gently and pat completely dry."
+    },
+    {
+      "number": 4,
+      "instruction": "Prepare smoked squid consommé",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 5,
+      "instruction": "Prepare preserved lemon gel",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 6,
+      "instruction": "Prepare black garlic emulsion",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 7,
+      "instruction": "Prepare squid ink rice lace crisp",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 8,
+      "instruction": "Brush squid lightly with olive oil and grill over extremely hot binchotan charcoal for 45–60 seconds per side until lightly blistered."
+    },
+    {
+      "number": 9,
+      "instruction": "Melt cultured butter with squid ink and glaze the grilled calamari immediately after cooking."
+    },
+    {
+      "number": 10,
+      "instruction": "Rest calamari for 1 minute before slicing into elegant ribbons."
+    },
+    {
+      "number": 11,
+      "instruction": "Plate smoked consommé reduction in the center of matte black stoneware."
+    },
+    {
+      "number": 12,
+      "instruction": "Arrange calamari ribbons and tentacles vertically for height and movement."
+    },
+    {
+      "number": 13,
+      "instruction": "Add dots of preserved lemon gel and swipes of black garlic emulsion."
+    },
+    {
+      "number": 14,
+      "instruction": "Insert rice lace crisp shards for texture and architecture."
+    },
+    {
+      "number": 15,
+      "instruction": "Finish with herb oil, finger lime pearls, bronze fennel, edible flowers, and Maldon salt."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Smoked Squid Consommé",
+      "yield": "250ml",
+      "ingredients": [
+        {
+          "quantity": "reserved",
+          "item": "squid trimmings",
+          "note": ""
+        },
+        {
+          "quantity": "1",
+          "item": "shallot",
+          "note": "sliced"
+        },
+        {
+          "quantity": "1 clove",
+          "item": "garlic",
+          "note": ""
+        },
+        {
+          "quantity": "250ml",
+          "item": "fish stock",
+          "note": ""
+        },
+        {
+          "quantity": "100ml",
+          "item": "dry vermouth",
+          "note": ""
+        },
+        {
+          "quantity": "1 strip",
+          "item": "kombu",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "bonito flakes",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Roast squid trimmings until deeply caramelized."
+        },
+        {
+          "number": 2,
+          "instruction": "Add shallot and garlic, then deglaze with vermouth."
+        },
+        {
+          "number": 3,
+          "instruction": "Add fish stock and kombu and simmer gently for 25 minutes."
+        },
+        {
+          "number": 4,
+          "instruction": "Add bonito flakes and steep for 3 minutes."
+        },
+        {
+          "number": 5,
+          "instruction": "Strain through a fine chinois."
+        },
+        {
+          "number": 6,
+          "instruction": "Cold smoke using a smoking gun under a cloche for 1 minute."
+        }
+      ]
+    },
+    {
+      "name": "Preserved Lemon Gel",
+      "yield": "1 squeeze bottle",
+      "ingredients": [
+        {
+          "quantity": "2 tbsp",
+          "item": "preserved lemon flesh",
+          "note": ""
+        },
+        {
+          "quantity": "100ml",
+          "item": "water",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "sugar",
+          "note": ""
+        },
+        {
+          "quantity": "1g",
+          "item": "agar agar",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend preserved lemon, water, and sugar until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Whisk in agar agar and boil for 30 seconds."
+        },
+        {
+          "number": 3,
+          "instruction": "Set in a shallow tray until firm."
+        },
+        {
+          "number": 4,
+          "instruction": "Blend again until glossy and smooth, then transfer to squeeze bottle."
+        }
+      ]
+    },
+    {
+      "name": "Black Garlic Emulsion",
+      "yield": "1 cup",
+      "ingredients": [
+        {
+          "quantity": "5 cloves",
+          "item": "black garlic",
+          "note": ""
+        },
+        {
+          "quantity": "1",
+          "item": "egg yolk",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "Dijon mustard",
+          "note": ""
+        },
+        {
+          "quantity": "120ml",
+          "item": "grapeseed oil",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "sherry vinegar",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend egg yolk, Dijon mustard, and black garlic until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Slowly stream in grapeseed oil until emulsified."
+        },
+        {
+          "number": 3,
+          "instruction": "Finish with sherry vinegar and season lightly."
+        },
+        {
+          "number": 4,
+          "instruction": "Pass through a fine sieve for an ultra-smooth finish."
+        }
+      ]
+    },
+    {
+      "name": "Squid Ink Rice Lace Crisp",
+      "yield": "8 crisp shards",
+      "ingredients": [
+        {
+          "quantity": "80g",
+          "item": "rice flour",
+          "note": ""
+        },
+        {
+          "quantity": "250ml",
+          "item": "water",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "squid ink",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "toasted nori powder",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Whisk rice flour, water, squid ink, and nori powder together until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Pour a very thin layer into a lightly oiled nonstick pan over medium-high heat."
+        },
+        {
+          "number": 3,
+          "instruction": "Allow mixture to bubble aggressively until a lacy structure forms."
+        },
+        {
+          "number": 4,
+          "instruction": "Cook until crisp and carefully transfer to paper towel."
+        }
+      ]
+    }
+  ]
+}

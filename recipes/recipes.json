@@ -9069,17 +9069,17 @@
         "note": ""
       },
       {
-        "quantity": "small spoonful",
+        "quantity": "Small spoonful",
         "item": "Caviar (optional)",
         "note": ""
       },
       {
-        "quantity": "for garnish",
+        "quantity": "For garnish",
         "item": "Edible flowers (optional)",
         "note": ""
       },
       {
-        "quantity": "for garnish",
+        "quantity": "For garnish",
         "item": "Gold leaf (optional)",
         "note": ""
       }
@@ -9147,6 +9147,10 @@
       {
         "item": "Squeeze Bottle",
         "link": "https://amzn.to/3QkAbxs"
+      },
+      {
+        "item": "Dinner Plates",
+        "link": "https://amzn.to/4wtAzub"
       }
     ],
     "winePairings": [

@@ -1,0 +1,156 @@
+{
+  "name": "Wagyu Beef Tartare Spheres with Smoked Bone Marrow Foam and Pickled Shallot Crisp",
+  "source": "Chef-inspired molecular gastronomy",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/wagyu-beef-tartare-spheres-with-smoked-bone-marrow-foam-and-pickled-shallot-crisp.jpg",
+  "chef": "Thomas Keller (with Heston Blumenthal molecular influences)",
+  "yield": "Serves 4 as a starter",
+  "description": "Delicate spherified A5 Wagyu beef tartare spheres that burst with hand-chopped texture, paired with airy smoked bone marrow foam and crispy pickled shallot elements. A refined, multi-sensory Michelin-level starter showcasing pure beef flavor with surprise and elegance.",
+  "category": "Starter",
+  "keywords": "wagyu, beef tartare, spherification, molecular gastronomy, bone marrow, fine dining, starter",
+  "winePairings": [
+    {
+      "name": "Champagne (Blanc de Blancs)",
+      "notes": "Crisp bubbles and minerality cut through the richness while enhancing the delicate spheres."
+    },
+    {
+      "name": "Chablis Grand Cru",
+      "notes": "Pure Chardonnay with high acidity balances the umami of marrow and bright pickled shallot."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "A5 Wagyu beef tenderloin or ribeye",
+      "quantity": "200g",
+      "note": "sushi-grade, highest quality"
+    },
+    {
+      "item": "Shallot",
+      "quantity": "1 small",
+      "note": "finely brunoise"
+    },
+    {
+      "item": "Capers",
+      "quantity": "1 tbsp",
+      "note": "drained and chopped"
+    },
+    {
+      "item": "Cornichons",
+      "quantity": "1 tbsp",
+      "note": "finely chopped"
+    },
+    {
+      "item": "Dijon mustard",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Worcestershire sauce",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Egg yolk",
+      "quantity": "1"
+    },
+    {
+      "item": "Extra virgin olive oil",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Sodium alginate",
+      "quantity": "1g",
+      "note": "for spherification"
+    },
+    {
+      "item": "Calcium lactate",
+      "quantity": "2g",
+      "note": "for spherification bath"
+    },
+    {
+      "item": "Beef bone marrow",
+      "quantity": "100g"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "100ml"
+    },
+    {
+      "item": "Beef stock",
+      "quantity": "50ml",
+      "note": "reduced"
+    },
+    {
+      "item": "Shallots",
+      "quantity": "2 large",
+      "note": "for pickled crisps"
+    },
+    {
+      "item": "Rice vinegar",
+      "quantity": "100ml",
+      "note": "for pickling"
+    },
+    {
+      "item": "Micro herbs (chervil, parsley)",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Aged balsamic reduction",
+      "quantity": "as needed"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Spherification kit",
+      "link": "https://amzn.to/4d6Nivh"
+    },
+    {
+      "item": "Cold smoke gun",
+      "link": "https://amzn.to/43azDgF"
+    },
+    {
+      "item": "Precision immersion circulator / sous-vide setup",
+      "link": "https://amzn.to/4whp34W"
+    },
+    {
+      "item": "Kunz spoon",
+      "link": "https://amzn.to/4nAAW1Z"
+    },
+    {
+      "item": "Japanese mandoline",
+      "link": "https://amzn.to/4dFRIJG"
+    },
+    {
+      "item": "High-power blender for foam",
+      "link": "https://amzn.to/4v53bbR"
+    },
+    {
+      "item": "0.01g precision digital scale",
+      "link": "https://amzn.to/3PeEgTQ"
+    },
+    {
+      "item": "Ring molds",
+      "link": "https://amzn.to/4dmqRRB"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Chill Wagyu and hand-chop finely. Mix with shallot, capers, cornichons, mustard, Worcestershire, egg yolk, olive oil, salt, and pepper. Refrigerate."
+    },
+    {
+      "number": 2,
+      "instruction": "Pickle shallot slices in rice vinegar, sugar, and salt mixture. Dehydrate or quick-fry until crisp."
+    },
+    {
+      "number": 3,
+      "instruction": "Prepare smoked bone marrow foam: Roast marrow, blend with reduced stock and cream, cold-smoke, then aerate with siphon or Pacojet."
+    },
+    {
+      "number": 4,
+      "instruction": "Create spherification bath with sodium alginate. Mix calcium lactate into tartare. Form and set spheres in the bath, rinse, and hold in cold water."
+    },
+    {
+      "number": 5,
+      "instruction": "Plate with Kunz spoon: balsamic smear, tartare spheres, marrow foam quenelle, shallot crisps, micro herbs, and gold leaf if desired."
+    }
+  ],
+  "sub_recipes": []
+}

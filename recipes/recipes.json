@@ -1,5 +1,297 @@
 [
   {
+    "name": "Aegean Fire & Smoke",
+    "source": "Inspired by modern Greek coastal cuisine and the fire-driven precision of Ana Roš",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/aegean-fire-smoke.png",
+    "chef": "Ana Roš & Nikos Roussos Inspired",
+    "yield": "Serves 4",
+    "description": "A Michelin-level Greek-inspired seafood starter featuring wine-braised and charcoal-charred octopus with whipped barrel-aged feta mousse, tomato water pearls, burnt thyme honey, olive ash tuile, compressed cucumber ribbons, and frozen yogurt shards.",
+    "category": "Starter",
+    "keywords": "greek, octopus, michelin, fine dining, seafood, feta mousse, molecular gastronomy, modern greek cuisine",
+    "winePairings": [
+      {
+        "name": "Santorini Assyrtiko",
+        "notes": "Bright acidity and volcanic minerality balance the smoke and brine of the octopus."
+      },
+      {
+        "name": "Skin-Contact Moschofilero",
+        "notes": "Floral aromatics and texture pair beautifully with feta and burnt honey."
+      }
+    ],
+    "ingredients": [
+      {
+        "quantity": "2 lbs",
+        "item": "Spanish octopus",
+        "note": "cleaned"
+      },
+      {
+        "quantity": "1 bottle",
+        "item": "Assyrtiko wine",
+        "note": "dry Greek white wine"
+      },
+      {
+        "quantity": "1",
+        "item": "yellow onion",
+        "note": "halved"
+      },
+      {
+        "quantity": "1",
+        "item": "fennel bulb",
+        "note": "sliced"
+      },
+      {
+        "quantity": "4 cloves",
+        "item": "garlic",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "bay leaves",
+        "note": ""
+      },
+      {
+        "quantity": "1 tbsp",
+        "item": "coriander seed",
+        "note": ""
+      },
+      {
+        "quantity": "1 strip",
+        "item": "orange peel",
+        "note": ""
+      },
+      {
+        "quantity": "200g",
+        "item": "barrel-aged Greek feta",
+        "note": ""
+      },
+      {
+        "quantity": "100g",
+        "item": "sheep’s milk yogurt",
+        "note": ""
+      },
+      {
+        "quantity": "80ml",
+        "item": "heavy cream",
+        "note": ""
+      },
+      {
+        "quantity": "2 sheets",
+        "item": "gelatin",
+        "note": ""
+      },
+      {
+        "quantity": "6",
+        "item": "heirloom tomatoes",
+        "note": "for clarified tomato water"
+      },
+      {
+        "quantity": "150g",
+        "item": "thyme honey",
+        "note": ""
+      },
+      {
+        "quantity": "100g",
+        "item": "Kalamata olives",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "English cucumber",
+        "note": "ribboned"
+      },
+      {
+        "quantity": "200g",
+        "item": "Greek yogurt",
+        "note": "for frozen shards"
+      },
+      {
+        "quantity": "to finish",
+        "item": "bottarga",
+        "note": "finely shaved"
+      },
+      {
+        "quantity": "to finish",
+        "item": "bronze fennel fronds",
+        "note": ""
+      },
+      {
+        "quantity": "to finish",
+        "item": "micro oregano",
+        "note": ""
+      },
+      {
+        "quantity": "to finish",
+        "item": "smoked olive oil",
+        "note": ""
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Cold Smoke Gun",
+        "link": "https://amzn.to/490gO3f"
+      },
+      {
+        "item": "Vacuum Chamber Sealer",
+        "link": "https://amzn.to/3QXi1SX"
+      },
+      {
+        "item": "Tabletop Grill",
+        "link": "https://amzn.to/4wvSsZu"
+      },
+      {
+        "item": "Gourmet Whip Siphon",
+        "link": "https://amzn.to/4tAUZPk"
+      },
+      {
+        "item": "Spoon Set",
+        "link": "https://amzn.to/4trT3sd"
+      },
+      {
+        "item": "Infrared Thermometer",
+        "link": "https://amzn.to/3RkWzXY"
+      },
+      {
+        "item": "Stoneware Smoke Cloche",
+        "link": "https://amzn.to/4dgqhEY"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Combine Assyrtiko wine, onion, fennel, garlic, bay leaves, coriander seed, and orange peel in a rondeau. Add octopus and simmer gently for 90 minutes until tender."
+      },
+      {
+        "number": 2,
+        "instruction": "Cool octopus in braising liquid overnight. Portion tentacles and vacuum seal with olive oil and smoked sea salt."
+      },
+      {
+        "number": 3,
+        "instruction": "Cold smoke the octopus using olive wood chips for 8 minutes."
+      },
+      {
+        "number": 4,
+        "instruction": "Char octopus over binchotan charcoal at very high heat until blistered and caramelized."
+      },
+      {
+        "number": 5,
+        "instruction": "Prepare feta mousse by blending feta, yogurt, lemon zest, and white pepper until smooth."
+      },
+      {
+        "number": 6,
+        "instruction": "Warm cream and dissolve bloomed gelatin into it. Fold into feta mixture and transfer to ISI siphon with two cartridges. Chill for 2 hours."
+      },
+      {
+        "number": 7,
+        "instruction": "Clarify tomato water overnight through cheesecloth. Prepare tomato pearls using calcium lactate and sodium alginate spherification."
+      },
+      {
+        "number": 8,
+        "instruction": "Reduce thyme honey with sherry vinegar and chili flakes until lightly caramelized."
+      },
+      {
+        "number": 9,
+        "instruction": "Dehydrate Kalamata olives until brittle, lightly torch, blend into ash, and form thin olive ash tuiles before baking until crisp."
+      },
+      {
+        "number": 10,
+        "instruction": "Vacuum compress cucumber ribbons with rice vinegar, dill stems, and sea salt."
+      },
+      {
+        "number": 11,
+        "instruction": "Spread seasoned Greek yogurt thinly on an anti-griddle and freeze instantly. Break into irregular shards."
+      },
+      {
+        "number": 12,
+        "instruction": "Plate feta mousse asymmetrically, arrange charred octopus, cucumber ribbons, yogurt shards, tomato pearls, and olive ash tuile artistically."
+      },
+      {
+        "number": 13,
+        "instruction": "Finish with burnt honey glaze, smoked olive oil, shaved bottarga, fennel fronds, and micro oregano."
+      },
+      {
+        "number": 14,
+        "instruction": "Serve under a smoke cloche for dramatic aromatic presentation."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Burnt Thyme Honey",
+        "yield": "150ml",
+        "ingredients": [
+          {
+            "quantity": "150g",
+            "item": "thyme honey",
+            "note": ""
+          },
+          {
+            "quantity": "1 tbsp",
+            "item": "sherry vinegar",
+            "note": ""
+          },
+          {
+            "quantity": "pinch",
+            "item": "chili flakes",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Simmer honey gently until darkened and aromatic."
+          },
+          {
+            "number": 2,
+            "instruction": "Whisk in vinegar and chili flakes."
+          }
+        ]
+      },
+      {
+        "name": "Olive Ash Tuile",
+        "yield": "8 tuiles",
+        "ingredients": [
+          {
+            "quantity": "100g",
+            "item": "Kalamata olives",
+            "note": ""
+          },
+          {
+            "quantity": "40g",
+            "item": "flour",
+            "note": ""
+          },
+          {
+            "quantity": "20g",
+            "item": "black sesame",
+            "note": ""
+          },
+          {
+            "quantity": "40ml",
+            "item": "water",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Dehydrate olives until crisp."
+          },
+          {
+            "number": 2,
+            "instruction": "Lightly torch olives and blend into ash."
+          },
+          {
+            "number": 3,
+            "instruction": "Mix ash with flour, sesame, and water into thin batter."
+          },
+          {
+            "number": 4,
+            "instruction": "Spread thinly and bake until crisp."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Agnolotti al Limone",
     "source": "adapted from Modern Italian",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/agnolotti_lemonsauce.png",

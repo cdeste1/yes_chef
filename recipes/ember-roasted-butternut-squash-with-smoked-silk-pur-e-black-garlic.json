@@ -1,0 +1,321 @@
+{
+  "name": "Ember-Roasted Butternut Squash with Smoked Silk Purée & Black Garlic",
+  "description": "A layered fine-dining side featuring ember-roasted squash cylinders, brown butter–miso glaze, smoked squash silk purée, and compressed pear ribbons.",
+  "category": "Sides",
+  "keywords": "butternut squash, fine dining, black garlic, molecular gastronomy, smoked, autumn",
+  "yield": "4 servings",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/ember-roasted-butternut-squash-with-smoked-silk-pur-e-black-garlic.png",
+  "winePairings": [
+    {
+      "name": "White Burgundy",
+      "notes": "Richness matches the brown butter and miso notes."
+    },
+    {
+      "name": "Aged Chenin Blanc",
+      "notes": "Acidity balances the squash's sweetness."
+    },
+    {
+      "name": "Northern Rhône Viognier",
+      "notes": "Aromatic profile ties into the burnt sage oil."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Ember-Roasted Squash",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Smoked Squash Silk Purée",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Burnt Sage Oil",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Black Garlic Reduction",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Hazelnut Praline Dust",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Compressed Pear Ribbons",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Bronze fennel fronds",
+      "quantity": "for garnish"
+    },
+    {
+      "item": "Micro sorrel",
+      "quantity": "for garnish"
+    },
+    {
+      "item": "Crispy sage leaves",
+      "quantity": "for garnish"
+    },
+    {
+      "item": "Edible marigold petals",
+      "quantity": "for garnish"
+    },
+    {
+      "item": "Frozen foie gras",
+      "quantity": "optional",
+      "note": "for shaving over dish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4nu4X3v"
+    },
+    {
+      "item": "Japanese Turning Slicer",
+      "link": "https://amzn.to/490QeXO"
+    },
+    {
+      "item": "Smoking Gun",
+      "link": "https://amzn.to/4uJw3G7"
+    },
+    {
+      "item": "Copper Sugar Pot",
+      "link": "https://amzn.to/4uiUcDU"
+    },
+    {
+      "item": "Infrared Thermometer",
+      "link": "https://amzn.to/3Rcktoz"
+    },
+    {
+      "item": "French Steel Plancha Plate",
+      "link": "https://amzn.to/4tBMmDY"
+    },
+    {
+      "item": "Offset Plating Tweezers",
+      "link": "https://amzn.to/4ww3KNg"
+    },
+    {
+      "item": "Atomizing Oil Mister",
+      "link": "https://amzn.to/4txfdt5"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Swipe smoked squash purée across the plate."
+    },
+    {
+      "number": 2,
+      "instruction": "Place glazed squash cylinder slightly off-center."
+    },
+    {
+      "number": 3,
+      "instruction": "Spoon dots of black garlic reduction around the squash."
+    },
+    {
+      "number": 4,
+      "instruction": "Twist compressed pear ribbons into delicate spirals."
+    },
+    {
+      "number": 5,
+      "instruction": "Scatter hazelnut praline dust for texture."
+    },
+    {
+      "number": 6,
+      "instruction": "Mist burnt sage oil lightly over the plate using an atomizer."
+    },
+    {
+      "number": 7,
+      "instruction": "Finish with micro sorrel, fennel fronds, and marigold petals. Shave frozen foie gras over the top if using."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Ember-Roasted Squash",
+      "ingredients": [
+        {
+          "item": "Butternut squash",
+          "quantity": "2 medium"
+        },
+        {
+          "item": "Cultured butter",
+          "quantity": "3 tbsp"
+        },
+        {
+          "item": "White miso",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Maple syrup",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Aged sherry vinegar",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Maldon salt",
+          "quantity": "to taste"
+        },
+        {
+          "item": "Tellicherry pepper",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Peel squash and cut into cylinders using ring molds or turning slicer; reserve scraps for purée."
+        },
+        {
+          "number": 2,
+          "instruction": "Caramelize cylinders on a plancha over high heat, then roast at 375°F until tender."
+        },
+        {
+          "number": 3,
+          "instruction": "Brush with a reduction of miso, maple syrup, and vinegar until lacquered and glossy."
+        }
+      ]
+    },
+    {
+      "name": "Smoked Squash Silk Purée",
+      "ingredients": [
+        {
+          "item": "Roasted squash flesh (scraps)",
+          "quantity": "2 cups"
+        },
+        {
+          "item": "Heavy cream",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Brown butter",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Roasted shallot",
+          "quantity": "1 small"
+        },
+        {
+          "item": "Saffron",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend all ingredients until completely smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Pass through a chinois sieve."
+        },
+        {
+          "number": 3,
+          "instruction": "Cold-smoke under a cloche for 45 seconds using applewood dust."
+        }
+      ]
+    },
+    {
+      "name": "Burnt Sage Oil",
+      "ingredients": [
+        {
+          "item": "Grapeseed oil",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Sage leaves",
+          "quantity": "15"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Heat oil to 175°F and fry sage leaves until nearly blackened."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend for 2 minutes and strain through cheesecloth."
+        }
+      ]
+    },
+    {
+      "name": "Compressed Pear Ribbons",
+      "ingredients": [
+        {
+          "item": "Asian pear",
+          "quantity": "1"
+        },
+        {
+          "item": "Pear juice",
+          "quantity": "1 tbsp"
+        },
+        {
+          "item": "Lemon juice",
+          "quantity": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Slice pear into long ribbons and vacuum seal with juices."
+        },
+        {
+          "number": 2,
+          "instruction": "Chill for 20 minutes until translucent."
+        }
+      ]
+    },
+    {
+      "name": "Hazelnut Praline Dust",
+      "ingredients": [
+        {
+          "item": "Toasted hazelnuts",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Flaky salt",
+          "quantity": "pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Caramelize sugar in copper pot, add hazelnuts, and cool on a silicone mat."
+        },
+        {
+          "number": 2,
+          "instruction": "Pulse in food processor until crumbly."
+        }
+      ]
+    },
+    {
+      "name": "Black Garlic Reduction",
+      "ingredients": [
+        {
+          "item": "Black garlic cloves",
+          "quantity": "4"
+        },
+        {
+          "item": "Veal stock or vegetable demi-glace",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Balsamic vinegar",
+          "quantity": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend ingredients and simmer until thick enough to coat a spoon; strain."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "name": "Smoked Spinach Royale with Black Garlic, Brown Butter Brioche Crumble & Comté Velouté",
+  "source": "Inspired by Arpège and Asador Etxebarri",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/smoked-spinach-royale-with-black-garlic-brown-butter-brioche-crumble-comt-velout.png",
+  "chef": "Alain Passard & Victor Arguinzoniz",
+  "yield": "Serves 4",
+  "description": "A Michelin-level spinach side dish featuring ember-wilted spinach glazed in black garlic beurre monté, served over silky Comté velouté with brown butter brioche crumble, herb oil, and delicate smoke.",
+  "category": "Sides",
+  "keywords": "spinach, fine dining, smoked vegetables, black garlic, comte, michelin, gourmet side dish",
+  "winePairings": [
+    {
+      "name": "White Burgundy",
+      "notes": "Nutty Chardonnay complements the Comté and brown butter richness."
+    },
+    {
+      "name": "Jura Chardonnay",
+      "notes": "Oxidative notes pair beautifully with smoke and black garlic."
+    }
+  ],
+  "ingredients": [
+    {
+      "quantity": "2 lbs",
+      "item": "baby spinach",
+      "note": "washed and stemmed"
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "cultured butter",
+      "note": ""
+    },
+    {
+      "quantity": "to taste",
+      "item": "Maldon sea salt",
+      "note": ""
+    },
+    {
+      "quantity": "to taste",
+      "item": "white pepper",
+      "note": "freshly ground"
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "lemon ash",
+      "note": "dehydrated lemon zest powdered"
+    },
+    {
+      "quantity": "150g",
+      "item": "unsalted European butter",
+      "note": "for beurre monté"
+    },
+    {
+      "quantity": "4 cloves",
+      "item": "black garlic",
+      "note": ""
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "spinach stock",
+      "note": ""
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "sherry vinegar",
+      "note": ""
+    },
+    {
+      "quantity": "1 cup",
+      "item": "heavy cream",
+      "note": ""
+    },
+    {
+      "quantity": "1 cup",
+      "item": "whole milk",
+      "note": ""
+    },
+    {
+      "quantity": "120g",
+      "item": "aged Comté cheese",
+      "note": "finely grated"
+    },
+    {
+      "quantity": "1",
+      "item": "shallot",
+      "note": "thinly sliced"
+    },
+    {
+      "quantity": "1",
+      "item": "bay leaf",
+      "note": ""
+    },
+    {
+      "quantity": "pinch",
+      "item": "nutmeg",
+      "note": ""
+    },
+    {
+      "quantity": "2 slices",
+      "item": "brioche",
+      "note": "thick-cut"
+    },
+    {
+      "quantity": "4 tbsp",
+      "item": "brown butter",
+      "note": ""
+    },
+    {
+      "quantity": "1",
+      "item": "shallot",
+      "note": "thinly sliced for ash"
+    },
+    {
+      "quantity": "1 cup",
+      "item": "parsley",
+      "note": ""
+    },
+    {
+      "quantity": "1/2 cup",
+      "item": "chives",
+      "note": ""
+    },
+    {
+      "quantity": "1/2 cup",
+      "item": "grapeseed oil",
+      "note": ""
+    },
+    {
+      "quantity": "as needed",
+      "item": "micro sorrel",
+      "note": "for garnish"
+    },
+    {
+      "quantity": "as needed",
+      "item": "brown butter pearls",
+      "note": "optional garnish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Japanese Konro Grill",
+      "link": "https://amzn.to/42EeMlN"
+    },
+    {
+      "item": "Binchotan Charcoal",
+      "link": "https://amzn.to/4wyYfxi"
+    },
+    {
+      "item": "Smoking Gun",
+      "link": "https://amzn.to/3Rd1Voj"
+    },
+    {
+      "item": "Fine Mesh Tamis",
+      "link": "https://amzn.to/4uhepKc"
+    },
+    {
+      "item": "Vacuum Chamber Sealer",
+      "link": "https://amzn.to/4uf9OYX"
+    },
+    {
+      "item": "Infrared Thermometer",
+      "link": "https://amzn.to/4ugaY6k"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare herb oil by blanching parsley and chives for 15 seconds, shocking in ice water, blending with grapeseed oil, and straining overnight."
+    },
+    {
+      "number": 2,
+      "instruction": "Make the brioche crumble by tossing torn brioche with brown butter and sea salt, then baking at 325°F until golden."
+    },
+    {
+      "number": 3,
+      "instruction": "Dehydrate sliced shallots until crisp and blend half into ash powder. Fold into the crumble."
+    },
+    {
+      "number": 4,
+      "instruction": "Prepare the Comté velouté by sweating shallots gently in butter, then adding milk, cream, and bay leaf. Simmer 15 minutes."
+    },
+    {
+      "number": 5,
+      "instruction": "Remove bay leaf and blend in grated Comté until smooth. Pass through a tamis or chinois."
+    },
+    {
+      "number": 6,
+      "instruction": "Prepare black garlic beurre monté by warming butter to 160°F and blending with black garlic, spinach stock, and sherry vinegar."
+    },
+    {
+      "number": 7,
+      "instruction": "Heat the Konro grill with Binchotan charcoal until evenly glowing."
+    },
+    {
+      "number": 8,
+      "instruction": "Lightly smoke spinach over the Konro using a perforated grill basket."
+    },
+    {
+      "number": 9,
+      "instruction": "Transfer spinach to a sauté pan with cultured butter and wilt rapidly over high heat for 20–30 seconds."
+    },
+    {
+      "number": 10,
+      "instruction": "Season spinach with Maldon salt and white pepper, then fold in black garlic beurre monté."
+    },
+    {
+      "number": 11,
+      "instruction": "Place spinach under a cloche and infuse with applewood smoke using a smoking gun for 45 seconds."
+    },
+    {
+      "number": 12,
+      "instruction": "Plate by spooning Comté velouté onto the plate, twisting spinach into a nest, and finishing with brioche crumble, herb oil, lemon ash, micro sorrel, and brown butter pearls."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Black Garlic Beurre Monté",
+      "yield": "1 cup",
+      "ingredients": [
+        {
+          "quantity": "150g",
+          "item": "unsalted butter",
+          "note": ""
+        },
+        {
+          "quantity": "4 cloves",
+          "item": "black garlic",
+          "note": ""
+        },
+        {
+          "quantity": "2 tbsp",
+          "item": "spinach stock",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "sherry vinegar",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Warm butter gently to 160°F."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend black garlic with spinach stock until smooth."
+        },
+        {
+          "number": 3,
+          "instruction": "Whisk mixture into butter until emulsified."
+        },
+        {
+          "number": 4,
+          "instruction": "Finish with sherry vinegar and hold warm."
+        }
+      ]
+    },
+    {
+      "name": "Comté Velouté",
+      "yield": "2 cups",
+      "ingredients": [
+        {
+          "quantity": "1 cup",
+          "item": "heavy cream",
+          "note": ""
+        },
+        {
+          "quantity": "1 cup",
+          "item": "whole milk",
+          "note": ""
+        },
+        {
+          "quantity": "120g",
+          "item": "Comté cheese",
+          "note": "grated"
+        },
+        {
+          "quantity": "1",
+          "item": "shallot",
+          "note": "sliced"
+        },
+        {
+          "quantity": "1",
+          "item": "bay leaf",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Sweat shallots in butter over low heat."
+        },
+        {
+          "number": 2,
+          "instruction": "Add milk, cream, and bay leaf. Simmer gently for 15 minutes."
+        },
+        {
+          "number": 3,
+          "instruction": "Remove bay leaf and blend in grated Comté."
+        },
+        {
+          "number": 4,
+          "instruction": "Strain through a tamis or chinois until silky smooth."
+        }
+      ]
+    }
+  ]
+}

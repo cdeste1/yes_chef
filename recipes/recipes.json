@@ -1,23 +1,13 @@
 [
   {
     "name": "Aegean Fire & Smoke",
-    "source": "Inspired by modern Greek coastal cuisine and the fire-driven precision of Ana Roš",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/aegean-fire-smoke.png",
-    "chef": "Ana Roš & Nikos Roussos Inspired",
-    "yield": "Serves 4",
     "description": "A Michelin-level Greek-inspired seafood starter featuring wine-braised and charcoal-charred octopus with whipped barrel-aged feta mousse, tomato water pearls, burnt thyme honey, olive ash tuile, compressed cucumber ribbons, and frozen yogurt shards.",
     "category": "Starter",
     "keywords": "greek, octopus, michelin, fine dining, seafood, feta mousse, molecular gastronomy, modern greek cuisine",
-    "winePairings": [
-      {
-        "name": "Santorini Assyrtiko",
-        "notes": "Bright acidity and volcanic minerality balance the smoke and brine of the octopus."
-      },
-      {
-        "name": "Skin-Contact Moschofilero",
-        "notes": "Floral aromatics and texture pair beautifully with feta and burnt honey."
-      }
-    ],
+    "yield": "Serves 4",
+    "source": "Inspired by modern Greek coastal cuisine and the fire-driven precision of Ana Roš",
+    "chef": "Ana Roš & Nikos Roussos Inspired",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/aegean-fire-smoke.png",
     "ingredients": [
       {
         "quantity": "2 lbs",
@@ -125,6 +115,50 @@
         "note": ""
       }
     ],
+    "steps": [
+      {
+        "instruction": "Combine Assyrtiko wine, onion, fennel, garlic, bay leaves, coriander seed, and orange peel in a rondeau. Add octopus and simmer gently for 90 minutes until tender."
+      },
+      {
+        "instruction": "Cool octopus in braising liquid overnight. Portion tentacles and vacuum seal with olive oil and smoked sea salt."
+      },
+      {
+        "instruction": "Cold smoke the octopus using olive wood chips for 8 minutes."
+      },
+      {
+        "instruction": "Char octopus over binchotan charcoal at very high heat until blistered and caramelized."
+      },
+      {
+        "instruction": "Prepare feta mousse by blending feta, yogurt, lemon zest, and white pepper until smooth."
+      },
+      {
+        "instruction": "Warm cream and dissolve bloomed gelatin into it. Fold into feta mixture and transfer to ISI siphon with two cartridges. Chill for 2 hours."
+      },
+      {
+        "instruction": "Clarify tomato water overnight through cheesecloth. Prepare tomato pearls using calcium lactate and sodium alginate spherification."
+      },
+      {
+        "instruction": "Reduce thyme honey with sherry vinegar and chili flakes until lightly caramelized."
+      },
+      {
+        "instruction": "Dehydrate Kalamata olives until brittle, lightly torch, blend into ash, and form thin olive ash tuiles before baking until crisp."
+      },
+      {
+        "instruction": "Vacuum compress cucumber ribbons with rice vinegar, dill stems, and sea salt."
+      },
+      {
+        "instruction": "Spread seasoned Greek yogurt thinly on an anti-griddle and freeze instantly. Break into irregular shards."
+      },
+      {
+        "instruction": "Plate feta mousse asymmetrically, arrange charred octopus, cucumber ribbons, yogurt shards, tomato pearls, and olive ash tuile artistically."
+      },
+      {
+        "instruction": "Finish with burnt honey glaze, smoked olive oil, shaved bottarga, fennel fronds, and micro oregano."
+      },
+      {
+        "instruction": "Serve under a smoke cloche for dramatic aromatic presentation."
+      }
+    ],
     "specialtools": [
       {
         "item": "Cold Smoke Gun",
@@ -153,64 +187,20 @@
       {
         "item": "Stoneware Smoke Cloche",
         "link": "https://amzn.to/4dgqhEY"
+      },
+      {
+        "item": "Plates perfect for this dish",
+        "link": "https://amzn.to/491JKrN"
       }
     ],
-    "steps": [
+    "winePairings": [
       {
-        "number": 1,
-        "instruction": "Combine Assyrtiko wine, onion, fennel, garlic, bay leaves, coriander seed, and orange peel in a rondeau. Add octopus and simmer gently for 90 minutes until tender."
+        "name": "Santorini Assyrtiko",
+        "notes": "Bright acidity and volcanic minerality balance the smoke and brine of the octopus."
       },
       {
-        "number": 2,
-        "instruction": "Cool octopus in braising liquid overnight. Portion tentacles and vacuum seal with olive oil and smoked sea salt."
-      },
-      {
-        "number": 3,
-        "instruction": "Cold smoke the octopus using olive wood chips for 8 minutes."
-      },
-      {
-        "number": 4,
-        "instruction": "Char octopus over binchotan charcoal at very high heat until blistered and caramelized."
-      },
-      {
-        "number": 5,
-        "instruction": "Prepare feta mousse by blending feta, yogurt, lemon zest, and white pepper until smooth."
-      },
-      {
-        "number": 6,
-        "instruction": "Warm cream and dissolve bloomed gelatin into it. Fold into feta mixture and transfer to ISI siphon with two cartridges. Chill for 2 hours."
-      },
-      {
-        "number": 7,
-        "instruction": "Clarify tomato water overnight through cheesecloth. Prepare tomato pearls using calcium lactate and sodium alginate spherification."
-      },
-      {
-        "number": 8,
-        "instruction": "Reduce thyme honey with sherry vinegar and chili flakes until lightly caramelized."
-      },
-      {
-        "number": 9,
-        "instruction": "Dehydrate Kalamata olives until brittle, lightly torch, blend into ash, and form thin olive ash tuiles before baking until crisp."
-      },
-      {
-        "number": 10,
-        "instruction": "Vacuum compress cucumber ribbons with rice vinegar, dill stems, and sea salt."
-      },
-      {
-        "number": 11,
-        "instruction": "Spread seasoned Greek yogurt thinly on an anti-griddle and freeze instantly. Break into irregular shards."
-      },
-      {
-        "number": 12,
-        "instruction": "Plate feta mousse asymmetrically, arrange charred octopus, cucumber ribbons, yogurt shards, tomato pearls, and olive ash tuile artistically."
-      },
-      {
-        "number": 13,
-        "instruction": "Finish with burnt honey glaze, smoked olive oil, shaved bottarga, fennel fronds, and micro oregano."
-      },
-      {
-        "number": 14,
-        "instruction": "Serve under a smoke cloche for dramatic aromatic presentation."
+        "name": "Skin-Contact Moschofilero",
+        "notes": "Floral aromatics and texture pair beautifully with feta and burnt honey."
       }
     ],
     "sub_recipes": [
@@ -236,11 +226,9 @@
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Simmer honey gently until darkened and aromatic."
           },
           {
-            "number": 2,
             "instruction": "Whisk in vinegar and chili flakes."
           }
         ]
@@ -272,19 +260,15 @@
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Dehydrate olives until crisp."
           },
           {
-            "number": 2,
             "instruction": "Lightly torch olives and blend into ash."
           },
           {
-            "number": 3,
             "instruction": "Mix ash with flour, sesame, and water into thin batter."
           },
           {
-            "number": 4,
             "instruction": "Spread thinly and bake until crisp."
           }
         ]

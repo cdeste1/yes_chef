@@ -9239,6 +9239,428 @@
     ]
   },
   {
+    "name": "Embered Sweet Potato Casserole with Brown Butter Miso Custard, Pecan Praline Glass & Smoked Marshmallow Foam",
+    "source": "Inspired by modernist live-fire cuisine and progressive vegetable cookery",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/embered-sweet-potato-casserole-with-brown-butter-miso-custard-pecan-praline-glass-smoked-marshmallow-foam.png",
+    "chef": "Grant Achatz & Francis Mallmann Inspired",
+    "yield": "Serves 6",
+    "description": "A Michelin-level reinterpretation of sweet potato casserole featuring silky sweet potato custard enriched with brown butter and white miso, ember-roasted sweet potato cubes, smoked marshmallow espuma, pecan praline glass, and maple-miso caramel.",
+    "category": "Sides",
+    "keywords": "sweet potato casserole, Michelin side dish, modernist cuisine, smoked marshmallow foam, pecan praline, fine dining vegetable",
+    "winePairings": [
+      {
+        "name": "White Burgundy",
+        "notes": "Oxidative notes complement brown butter and caramelized sweet potato."
+      },
+      {
+        "name": "Vintage Champagne",
+        "notes": "Cuts through the richness while elevating the smoky marshmallow foam."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Sweet Potato Custard Base",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Ember-Roasted Sweet Potato Cubes",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Brown Butter Miso Caramel",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Smoked Marshmallow Foam",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Pecan Praline Glass",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Pickled Apple Pearls",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Micro thyme",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Smoked flaky sea salt",
+        "quantity": "to finish"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Smoking Gun",
+        "link": "https://amzn.to/4wvSmku"
+      },
+      {
+        "item": "Ceramic Grill",
+        "link": "https://amzn.to/4u7wb2p"
+      },
+      {
+        "item": "Binchotan Charcoal",
+        "link": "https://amzn.to/4nCGclS"
+      },
+      {
+        "item": "Gourmet Whip",
+        "link": "https://amzn.to/4eOaD67"
+      },
+      {
+        "item": "Sous Vide Immersion Circulator",
+        "link": "https://amzn.to/4tUDaLn"
+      },
+      {
+        "item": "Black Walnut Smoke Cloche",
+        "link": "https://amzn.to/4dqPaOa"
+      },
+      {
+        "item": "Copper Sugar Spinning Bowl",
+        "link": "https://amzn.to/4udUBYf"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the sweet potato custard base.",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 2,
+        "instruction": "Spread the custard into a buttered ceramic casserole vessel and bake at 325°F (163°C) for 22–28 minutes until just set."
+      },
+      {
+        "number": 3,
+        "instruction": "Prepare the ember-roasted sweet potato cubes.",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 4,
+        "instruction": "Prepare the brown butter miso caramel.",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 5,
+        "instruction": "Prepare the smoked marshmallow foam.",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 6,
+        "instruction": "Prepare the pecan praline glass.",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 7,
+        "instruction": "Prepare the pickled apple pearls.",
+        "note": "see sub-recipe"
+      },
+      {
+        "number": 8,
+        "instruction": "Top the warm casserole with ember-roasted sweet potato cubes."
+      },
+      {
+        "number": 9,
+        "instruction": "Pipe smoked marshmallow foam asymmetrically across the casserole."
+      },
+      {
+        "number": 10,
+        "instruction": "Drizzle brown butter miso caramel around and over the casserole."
+      },
+      {
+        "number": 11,
+        "instruction": "Insert pecan praline glass vertically for height and texture."
+      },
+      {
+        "number": 12,
+        "instruction": "Finish with apple pearls, micro thyme, and smoked flaky sea salt."
+      },
+      {
+        "number": 13,
+        "instruction": "Cover under a smoke cloche and unveil tableside for dramatic presentation."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Sweet Potato Custard Base",
+        "yield": "Base for 1 casserole",
+        "ingredients": [
+          {
+            "item": "Garnet sweet potatoes",
+            "quantity": "4 large"
+          },
+          {
+            "item": "Cultured butter",
+            "quantity": "120g"
+          },
+          {
+            "item": "Heavy cream",
+            "quantity": "90ml"
+          },
+          {
+            "item": "White miso",
+            "quantity": "2 tbsp"
+          },
+          {
+            "item": "Dark maple syrup",
+            "quantity": "60ml"
+          },
+          {
+            "item": "Egg yolks",
+            "quantity": "3"
+          },
+          {
+            "item": "Smoked Maldon salt",
+            "quantity": "1 tsp"
+          },
+          {
+            "item": "Ground cinnamon",
+            "quantity": "1/2 tsp"
+          },
+          {
+            "item": "Ground mace",
+            "quantity": "1/4 tsp"
+          },
+          {
+            "item": "Vanilla bean paste",
+            "quantity": "1 tsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Vacuum seal sweet potatoes with butter and maple syrup."
+          },
+          {
+            "number": 2,
+            "instruction": "Cook sous vide at 185°F (85°C) for 2½ hours."
+          },
+          {
+            "number": 3,
+            "instruction": "Roast at 450°F (232°C) until skins blister and sugars caramelize."
+          },
+          {
+            "number": 4,
+            "instruction": "Scoop flesh and blend with cream, miso, egg yolks, spices, vanilla, and salt until ultra-smooth."
+          },
+          {
+            "number": 5,
+            "instruction": "Finish with browned cultured butter and reserve warm."
+          }
+        ]
+      },
+      {
+        "name": "Ember-Roasted Sweet Potato Cubes",
+        "yield": "Garnish for casserole",
+        "ingredients": [
+          {
+            "item": "Sweet potatoes",
+            "quantity": "2"
+          },
+          {
+            "item": "Duck fat",
+            "quantity": "2 tbsp"
+          },
+          {
+            "item": "Fresh thyme",
+            "quantity": "2 sprigs"
+          },
+          {
+            "item": "Smoked sea salt",
+            "quantity": "to taste"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Cut sweet potatoes into uniform cubes."
+          },
+          {
+            "number": 2,
+            "instruction": "Cook gently in duck fat until tender."
+          },
+          {
+            "number": 3,
+            "instruction": "Char over binchotan charcoal on a Konro grill until lightly blistered."
+          },
+          {
+            "number": 4,
+            "instruction": "Season with smoked salt and thyme."
+          }
+        ]
+      },
+      {
+        "name": "Brown Butter Miso Caramel",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "item": "Granulated sugar",
+            "quantity": "100g"
+          },
+          {
+            "item": "Brown butter",
+            "quantity": "60g"
+          },
+          {
+            "item": "Heavy cream",
+            "quantity": "40ml"
+          },
+          {
+            "item": "White miso",
+            "quantity": "1 tbsp"
+          },
+          {
+            "item": "Bourbon",
+            "quantity": "1 tsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Cook sugar into a dark amber caramel."
+          },
+          {
+            "number": 2,
+            "instruction": "Carefully whisk in warm cream."
+          },
+          {
+            "number": 3,
+            "instruction": "Add brown butter, miso, and bourbon."
+          },
+          {
+            "number": 4,
+            "instruction": "Reduce until glossy and smooth."
+          }
+        ]
+      },
+      {
+        "name": "Smoked Marshmallow Foam",
+        "yield": "Foam for garnish",
+        "ingredients": [
+          {
+            "item": "Whole milk",
+            "quantity": "150ml"
+          },
+          {
+            "item": "Heavy cream",
+            "quantity": "100ml"
+          },
+          {
+            "item": "Marshmallows",
+            "quantity": "6"
+          },
+          {
+            "item": "Gelatin sheet",
+            "quantity": "1"
+          },
+          {
+            "item": "Salt",
+            "quantity": "pinch"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Bloom gelatin in cold water."
+          },
+          {
+            "number": 2,
+            "instruction": "Heat milk and cream gently and melt marshmallows into mixture."
+          },
+          {
+            "number": 3,
+            "instruction": "Blend smooth with gelatin and strain through a chinois."
+          },
+          {
+            "number": 4,
+            "instruction": "Transfer to ISI siphon and charge with 2 N2O cartridges."
+          },
+          {
+            "number": 5,
+            "instruction": "Cold smoke with a smoking gun for 45 seconds before serving."
+          }
+        ]
+      },
+      {
+        "name": "Pecan Praline Glass",
+        "yield": "Decorative shards",
+        "ingredients": [
+          {
+            "item": "Sugar",
+            "quantity": "150g"
+          },
+          {
+            "item": "Glucose syrup",
+            "quantity": "50g"
+          },
+          {
+            "item": "Toasted pecans",
+            "quantity": "80g"
+          },
+          {
+            "item": "Flaky sea salt",
+            "quantity": "pinch"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Cook sugar and glucose to deep amber."
+          },
+          {
+            "number": 2,
+            "instruction": "Fold in crushed toasted pecans and salt."
+          },
+          {
+            "number": 3,
+            "instruction": "Spread thinly on silicone mat and cool completely."
+          },
+          {
+            "number": 4,
+            "instruction": "Shatter into dramatic shards before plating."
+          }
+        ]
+      },
+      {
+        "name": "Pickled Apple Pearls",
+        "yield": "Accent garnish",
+        "ingredients": [
+          {
+            "item": "Green apple",
+            "quantity": "1"
+          },
+          {
+            "item": "Apple cider vinegar",
+            "quantity": "50ml"
+          },
+          {
+            "item": "Water",
+            "quantity": "30ml"
+          },
+          {
+            "item": "Sugar",
+            "quantity": "1 tbsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Dice apple into tiny pearls using a melon baller or precision cutter."
+          },
+          {
+            "number": 2,
+            "instruction": "Combine vinegar, water, and sugar."
+          },
+          {
+            "number": 3,
+            "instruction": "Quick-pickle apples for 20 minutes before serving."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Five Ages of Parmigiano Reggiano",
     "source": "adapted from Osteria Francescana (Modena, Italy)",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Parm_5_ages.png",

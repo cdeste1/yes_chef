@@ -5963,6 +5963,348 @@
     ]
   },
   {
+    "name": "Charred Zucchini Verde Royale with Pistachio Tarator & Burnt Lemon Gel",
+    "source": "inspired by Osteria Francescana (Modena, Italy) and Noma (Copenhagen, Denmark)",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/charred-zucchini-verde-royale-with-pistachio-tarator-burnt-lemon-gel.png",
+    "chef": "Massimo Bottura & René Redzepi",
+    "yield": "Serves 4",
+    "description": "A Michelin-level zucchini side dish featuring vacuum-compressed zucchini charred over binchotan charcoal, layered with pistachio tarator, burnt lemon gel, frozen basil snow, and crispy zucchini blossoms. A modern vegetable composition balancing smoke, acidity, creaminess, and temperature contrast.",
+    "category": "Sides",
+    "keywords": "zucchini, fine dining, Michelin, pistachio tarator, burnt lemon, basil snow, vegetable tasting menu, modern gastronomy",
+    "winePairings": [
+      {
+        "name": "Etna Bianco",
+        "notes": "Mineral-driven Sicilian white with volcanic salinity that complements the charred zucchini and pistachio."
+      },
+      {
+        "name": "Vintage Champagne Blanc de Blancs",
+        "notes": "High acidity and fine mousse elevate the basil, smoke, and citrus components."
+      }
+    ],
+    "ingredients": [
+      {
+        "quantity": "4",
+        "item": "baby zucchini",
+        "note": "halved lengthwise"
+      },
+      {
+        "quantity": "2",
+        "item": "green zucchini",
+        "note": "cut into large batons"
+      },
+      {
+        "quantity": "1",
+        "item": "yellow zucchini",
+        "note": "cut into large batons"
+      },
+      {
+        "quantity": "2 tbsp",
+        "item": "olive oil",
+        "note": "high quality"
+      },
+      {
+        "quantity": "to taste",
+        "item": "Maldon sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "to taste",
+        "item": "smoked sea salt",
+        "note": ""
+      },
+      {
+        "quantity": "2 sprigs",
+        "item": "fresh thyme",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "lemon",
+        "note": "zest only"
+      },
+      {
+        "quantity": "120g",
+        "item": "Sicilian pistachios",
+        "note": "shelled"
+      },
+      {
+        "quantity": "1 clove",
+        "item": "roasted garlic",
+        "note": ""
+      },
+      {
+        "quantity": "40g",
+        "item": "Greek yogurt",
+        "note": ""
+      },
+      {
+        "quantity": "15g",
+        "item": "tahini",
+        "note": ""
+      },
+      {
+        "quantity": "10ml",
+        "item": "fresh lemon juice",
+        "note": ""
+      },
+      {
+        "quantity": "2",
+        "item": "lemons",
+        "note": "for burnt lemon gel"
+      },
+      {
+        "quantity": "150ml",
+        "item": "water",
+        "note": ""
+      },
+      {
+        "quantity": "25g",
+        "item": "sugar",
+        "note": ""
+      },
+      {
+        "quantity": "2g",
+        "item": "agar agar",
+        "note": ""
+      },
+      {
+        "quantity": "1",
+        "item": "shallot",
+        "note": "roughly chopped"
+      },
+      {
+        "quantity": "100ml",
+        "item": "vegetable stock",
+        "note": ""
+      },
+      {
+        "quantity": "50ml",
+        "item": "dry white wine",
+        "note": ""
+      },
+      {
+        "quantity": "1 tsp",
+        "item": "sherry vinegar",
+        "note": ""
+      },
+      {
+        "quantity": "1 bunch",
+        "item": "fresh basil",
+        "note": ""
+      },
+      {
+        "quantity": "6",
+        "item": "zucchini blossoms",
+        "note": ""
+      },
+      {
+        "quantity": "100g",
+        "item": "rice flour",
+        "note": ""
+      },
+      {
+        "quantity": "120ml",
+        "item": "sparkling water",
+        "note": "ice cold"
+      },
+      {
+        "quantity": "1 bunch",
+        "item": "parsley",
+        "note": ""
+      },
+      {
+        "quantity": "1 bunch",
+        "item": "chives",
+        "note": ""
+      },
+      {
+        "quantity": "100ml",
+        "item": "grapeseed oil",
+        "note": ""
+      },
+      {
+        "quantity": "as needed",
+        "item": "micro herbs",
+        "note": "for garnish"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Charcoal Grill",
+        "link": "https://amzn.to/4txhLHB"
+      },
+      {
+        "item": "Vacuum Chamber Sealer",
+        "link": "https://amzn.to/4tUB2mR"
+      },
+      {
+        "item": "Smoking Gun",
+        "link": "https://amzn.to/4dKy3bu"
+      },
+      {
+        "item": "Wood Chips",
+        "link": "https://amzn.to/49MiQ7m"
+      },
+      {
+        "item": "Infrared Thermometer",
+        "link": "https://amzn.to/4wvCJtgd"
+      },
+      {
+        "item": "Ceramic Plating Tweezers",
+        "link": "https://amzn.to/4dp02MK"
+      },
+      {
+        "item": "Volcanic Basalt Mortar",
+        "link": "https://amzn.to/4u6SIwc"
+      },
+      {
+        "item": "Plates",
+        "link": "https://amzn.to/4ufI2LU"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Slice the baby zucchini lengthwise and place into vacuum bags with olive oil, thyme, lemon zest, and a small pinch of salt."
+      },
+      {
+        "number": 2,
+        "instruction": "Vacuum seal at full compression and refrigerate for 1 hour to densify texture."
+      },
+      {
+        "number": 3,
+        "instruction": "Char the lemons directly over open flame until nearly blackened."
+      },
+      {
+        "number": 4,
+        "instruction": "Juice the charred lemons into a saucepan with water and sugar. Simmer for 10 minutes."
+      },
+      {
+        "number": 5,
+        "instruction": "Strain the liquid, whisk in agar agar, bring briefly to a boil, then chill until set. Blend into a smooth burnt lemon gel and transfer to a squeeze bottle."
+      },
+      {
+        "number": 6,
+        "instruction": "Toast pistachios lightly and crush with roasted garlic and salt using a volcanic mortar."
+      },
+      {
+        "number": 7,
+        "instruction": "Blend pistachios with tahini, yogurt, lemon juice, olive oil, and enough ice water to achieve a silky consistency."
+      },
+      {
+        "number": 8,
+        "instruction": "Roast zucchini trim and shallot until caramelized. Deglaze with white wine, add vegetable stock, and reduce by 75%."
+      },
+      {
+        "number": 9,
+        "instruction": "Strain the glaze and whisk in olive oil and sherry vinegar. Infuse with olive wood smoke using a smoking gun."
+      },
+      {
+        "number": 10,
+        "instruction": "Blanch basil for 10 seconds, shock in ice water, blend smooth, and freeze using an anti-griddle or Pacojet beaker."
+      },
+      {
+        "number": 11,
+        "instruction": "Mix rice flour, sparkling water, and salt into a light batter. Dip zucchini blossoms and fry at 375°F until crisp."
+      },
+      {
+        "number": 12,
+        "instruction": "Heat binchotan charcoal until extremely hot. Grill zucchini aggressively on cut sides only until charred outside but bright green inside."
+      },
+      {
+        "number": 13,
+        "instruction": "Brush zucchini continuously with smoked zucchini glaze while grilling."
+      },
+      {
+        "number": 14,
+        "instruction": "Blend parsley, basil, chives, and grapeseed oil into a vibrant herb oil and strain finely."
+      },
+      {
+        "number": 15,
+        "instruction": "Plate with an asymmetrical swipe of pistachio tarator, layered zucchini, dots of burnt lemon gel, crispy blossom shards, basil snow, herb oil, lemon zest, and micro herbs."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Pistachio Tarator",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "quantity": "120g",
+            "item": "Sicilian pistachios",
+            "note": "toasted"
+          },
+          {
+            "quantity": "1 clove",
+            "item": "roasted garlic",
+            "note": ""
+          },
+          {
+            "quantity": "40g",
+            "item": "Greek yogurt",
+            "note": ""
+          },
+          {
+            "quantity": "15g",
+            "item": "tahini",
+            "note": ""
+          },
+          {
+            "quantity": "10ml",
+            "item": "lemon juice",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Crush pistachios, garlic, and salt using a mortar."
+          },
+          {
+            "number": 2,
+            "instruction": "Blend with yogurt, tahini, lemon juice, and olive oil until silky smooth."
+          }
+        ]
+      },
+      {
+        "name": "Burnt Lemon Gel",
+        "yield": "1 squeeze bottle",
+        "ingredients": [
+          {
+            "quantity": "2",
+            "item": "lemons",
+            "note": "charred"
+          },
+          {
+            "quantity": "150ml",
+            "item": "water",
+            "note": ""
+          },
+          {
+            "quantity": "25g",
+            "item": "sugar",
+            "note": ""
+          },
+          {
+            "quantity": "2g",
+            "item": "agar agar",
+            "note": ""
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Simmer charred lemon juice with water and sugar."
+          },
+          {
+            "number": 2,
+            "instruction": "Whisk in agar agar, boil briefly, chill until set, then blend smooth."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Chocolate Chip Cookie Tuile with Ice Cream Sandwich",
     "source": "adapted from The French Laundry (Yountville, USA)",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/ChocholateChipTuile_icecreamsandwhich.png",

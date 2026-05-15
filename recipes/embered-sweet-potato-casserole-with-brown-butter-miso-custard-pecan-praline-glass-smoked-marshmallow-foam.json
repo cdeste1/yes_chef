@@ -1,54 +1,93 @@
 {
   "name": "Embered Sweet Potato Casserole with Brown Butter Miso Custard, Pecan Praline Glass & Smoked Marshmallow Foam",
-  "source": "Inspired by modernist live-fire cuisine and progressive vegetable cookery",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/embered-sweet-potato-casserole-with-brown-butter-miso-custard-pecan-praline-glass-smoked-marshmallow-foam.png",
-  "chef": "Grant Achatz & Francis Mallmann Inspired",
-  "yield": "Serves 6",
   "description": "A Michelin-level reinterpretation of sweet potato casserole featuring silky sweet potato custard enriched with brown butter and white miso, ember-roasted sweet potato cubes, smoked marshmallow espuma, pecan praline glass, and maple-miso caramel.",
   "category": "Sides",
   "keywords": "sweet potato casserole, Michelin side dish, modernist cuisine, smoked marshmallow foam, pecan praline, fine dining vegetable",
-  "winePairings": [
-    {
-      "name": "White Burgundy",
-      "notes": "Oxidative notes complement brown butter and caramelized sweet potato."
-    },
-    {
-      "name": "Vintage Champagne",
-      "notes": "Cuts through the richness while elevating the smoky marshmallow foam."
-    }
-  ],
+  "yield": "Serves 6",
+  "source": "Inspired by modernist live-fire cuisine and progressive vegetable cookery",
+  "chef": "Grant Achatz & Francis Mallmann Inspired",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/embered-sweet-potato-casserole-with-brown-butter-miso-custard-pecan-praline-glass-smoked-marshmallow-foam.png",
   "ingredients": [
     {
+      "quantity": "",
       "item": "Sweet Potato Custard Base",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Ember-Roasted Sweet Potato Cubes",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Brown Butter Miso Caramel",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Smoked Marshmallow Foam",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Pecan Praline Glass",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Pickled Apple Pearls",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "for garnish",
       "item": "Micro thyme",
-      "quantity": "for garnish"
+      "note": ""
     },
     {
+      "quantity": "to finish",
       "item": "Smoked flaky sea salt",
-      "quantity": "to finish"
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare the sweet potato custard base."
+    },
+    {
+      "instruction": "Spread the custard into a buttered ceramic casserole vessel and bake at 325°F (163°C) for 22–28 minutes until just set."
+    },
+    {
+      "instruction": "Prepare the ember-roasted sweet potato cubes."
+    },
+    {
+      "instruction": "Prepare the brown butter miso caramel."
+    },
+    {
+      "instruction": "Prepare the smoked marshmallow foam."
+    },
+    {
+      "instruction": "Prepare the pecan praline glass."
+    },
+    {
+      "instruction": "Prepare the pickled apple pearls."
+    },
+    {
+      "instruction": "Top the warm casserole with ember-roasted sweet potato cubes."
+    },
+    {
+      "instruction": "Pipe smoked marshmallow foam asymmetrically across the casserole."
+    },
+    {
+      "instruction": "Drizzle brown butter miso caramel around and over the casserole."
+    },
+    {
+      "instruction": "Insert pecan praline glass vertically for height and texture."
+    },
+    {
+      "instruction": "Finish with apple pearls, micro thyme, and smoked flaky sea salt."
+    },
+    {
+      "instruction": "Cover under a smoke cloche and unveil tableside for dramatic presentation."
     }
   ],
   "specialtools": [
@@ -79,66 +118,20 @@
     {
       "item": "Copper Sugar Spinning Bowl",
       "link": "https://amzn.to/4udUBYf"
+    },
+    {
+      "item": "Plates perfect for this dish",
+      "link": "https://amzn.to/4uPfx7w"
     }
   ],
-  "steps": [
+  "winePairings": [
     {
-      "number": 1,
-      "instruction": "Prepare the sweet potato custard base.",
-      "note": "see sub-recipe"
+      "name": "White Burgundy",
+      "notes": "Oxidative notes complement brown butter and caramelized sweet potato."
     },
     {
-      "number": 2,
-      "instruction": "Spread the custard into a buttered ceramic casserole vessel and bake at 325°F (163°C) for 22–28 minutes until just set."
-    },
-    {
-      "number": 3,
-      "instruction": "Prepare the ember-roasted sweet potato cubes.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 4,
-      "instruction": "Prepare the brown butter miso caramel.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 5,
-      "instruction": "Prepare the smoked marshmallow foam.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 6,
-      "instruction": "Prepare the pecan praline glass.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 7,
-      "instruction": "Prepare the pickled apple pearls.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 8,
-      "instruction": "Top the warm casserole with ember-roasted sweet potato cubes."
-    },
-    {
-      "number": 9,
-      "instruction": "Pipe smoked marshmallow foam asymmetrically across the casserole."
-    },
-    {
-      "number": 10,
-      "instruction": "Drizzle brown butter miso caramel around and over the casserole."
-    },
-    {
-      "number": 11,
-      "instruction": "Insert pecan praline glass vertically for height and texture."
-    },
-    {
-      "number": 12,
-      "instruction": "Finish with apple pearls, micro thyme, and smoked flaky sea salt."
-    },
-    {
-      "number": 13,
-      "instruction": "Cover under a smoke cloche and unveil tableside for dramatic presentation."
+      "name": "Vintage Champagne",
+      "notes": "Cuts through the richness while elevating the smoky marshmallow foam."
     }
   ],
   "sub_recipes": [
@@ -147,65 +140,70 @@
       "yield": "Base for 1 casserole",
       "ingredients": [
         {
+          "quantity": "4 large",
           "item": "Garnet sweet potatoes",
-          "quantity": "4 large"
+          "note": ""
         },
         {
+          "quantity": "120g",
           "item": "Cultured butter",
-          "quantity": "120g"
+          "note": ""
         },
         {
+          "quantity": "90ml",
           "item": "Heavy cream",
-          "quantity": "90ml"
+          "note": ""
         },
         {
+          "quantity": "2 tbsp",
           "item": "White miso",
-          "quantity": "2 tbsp"
+          "note": ""
         },
         {
+          "quantity": "60ml",
           "item": "Dark maple syrup",
-          "quantity": "60ml"
+          "note": ""
         },
         {
+          "quantity": "3",
           "item": "Egg yolks",
-          "quantity": "3"
+          "note": ""
         },
         {
+          "quantity": "1 tsp",
           "item": "Smoked Maldon salt",
-          "quantity": "1 tsp"
+          "note": ""
         },
         {
+          "quantity": "1/2 tsp",
           "item": "Ground cinnamon",
-          "quantity": "1/2 tsp"
+          "note": ""
         },
         {
+          "quantity": "1/4 tsp",
           "item": "Ground mace",
-          "quantity": "1/4 tsp"
+          "note": ""
         },
         {
+          "quantity": "1 tsp",
           "item": "Vanilla bean paste",
-          "quantity": "1 tsp"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Vacuum seal sweet potatoes with butter and maple syrup."
         },
         {
-          "number": 2,
           "instruction": "Cook sous vide at 185°F (85°C) for 2½ hours."
         },
         {
-          "number": 3,
           "instruction": "Roast at 450°F (232°C) until skins blister and sugars caramelize."
         },
         {
-          "number": 4,
           "instruction": "Scoop flesh and blend with cream, miso, egg yolks, spices, vanilla, and salt until ultra-smooth."
         },
         {
-          "number": 5,
           "instruction": "Finish with browned cultured butter and reserve warm."
         }
       ]
@@ -215,37 +213,37 @@
       "yield": "Garnish for casserole",
       "ingredients": [
         {
+          "quantity": "2",
           "item": "Sweet potatoes",
-          "quantity": "2"
+          "note": ""
         },
         {
+          "quantity": "2 tbsp",
           "item": "Duck fat",
-          "quantity": "2 tbsp"
+          "note": ""
         },
         {
+          "quantity": "2 sprigs",
           "item": "Fresh thyme",
-          "quantity": "2 sprigs"
+          "note": ""
         },
         {
+          "quantity": "to taste",
           "item": "Smoked sea salt",
-          "quantity": "to taste"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Cut sweet potatoes into uniform cubes."
         },
         {
-          "number": 2,
           "instruction": "Cook gently in duck fat until tender."
         },
         {
-          "number": 3,
           "instruction": "Char over binchotan charcoal on a Konro grill until lightly blistered."
         },
         {
-          "number": 4,
           "instruction": "Season with smoked salt and thyme."
         }
       ]
@@ -255,41 +253,42 @@
       "yield": "1 cup",
       "ingredients": [
         {
+          "quantity": "100g",
           "item": "Granulated sugar",
-          "quantity": "100g"
+          "note": ""
         },
         {
+          "quantity": "60g",
           "item": "Brown butter",
-          "quantity": "60g"
+          "note": ""
         },
         {
+          "quantity": "40ml",
           "item": "Heavy cream",
-          "quantity": "40ml"
+          "note": ""
         },
         {
+          "quantity": "1 tbsp",
           "item": "White miso",
-          "quantity": "1 tbsp"
+          "note": ""
         },
         {
+          "quantity": "1 tsp",
           "item": "Bourbon",
-          "quantity": "1 tsp"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Cook sugar into a dark amber caramel."
         },
         {
-          "number": 2,
           "instruction": "Carefully whisk in warm cream."
         },
         {
-          "number": 3,
           "instruction": "Add brown butter, miso, and bourbon."
         },
         {
-          "number": 4,
           "instruction": "Reduce until glossy and smooth."
         }
       ]
@@ -299,45 +298,45 @@
       "yield": "Foam for garnish",
       "ingredients": [
         {
+          "quantity": "150ml",
           "item": "Whole milk",
-          "quantity": "150ml"
+          "note": ""
         },
         {
+          "quantity": "100ml",
           "item": "Heavy cream",
-          "quantity": "100ml"
+          "note": ""
         },
         {
+          "quantity": "6",
           "item": "Marshmallows",
-          "quantity": "6"
+          "note": ""
         },
         {
+          "quantity": "1",
           "item": "Gelatin sheet",
-          "quantity": "1"
+          "note": ""
         },
         {
+          "quantity": "pinch",
           "item": "Salt",
-          "quantity": "pinch"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Bloom gelatin in cold water."
         },
         {
-          "number": 2,
           "instruction": "Heat milk and cream gently and melt marshmallows into mixture."
         },
         {
-          "number": 3,
           "instruction": "Blend smooth with gelatin and strain through a chinois."
         },
         {
-          "number": 4,
           "instruction": "Transfer to ISI siphon and charge with 2 N2O cartridges."
         },
         {
-          "number": 5,
           "instruction": "Cold smoke with a smoking gun for 45 seconds before serving."
         }
       ]
@@ -347,37 +346,37 @@
       "yield": "Decorative shards",
       "ingredients": [
         {
+          "quantity": "150g",
           "item": "Sugar",
-          "quantity": "150g"
+          "note": ""
         },
         {
+          "quantity": "50g",
           "item": "Glucose syrup",
-          "quantity": "50g"
+          "note": ""
         },
         {
+          "quantity": "80g",
           "item": "Toasted pecans",
-          "quantity": "80g"
+          "note": ""
         },
         {
+          "quantity": "pinch",
           "item": "Flaky sea salt",
-          "quantity": "pinch"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Cook sugar and glucose to deep amber."
         },
         {
-          "number": 2,
           "instruction": "Fold in crushed toasted pecans and salt."
         },
         {
-          "number": 3,
           "instruction": "Spread thinly on silicone mat and cool completely."
         },
         {
-          "number": 4,
           "instruction": "Shatter into dramatic shards before plating."
         }
       ]
@@ -387,33 +386,34 @@
       "yield": "Accent garnish",
       "ingredients": [
         {
+          "quantity": "1",
           "item": "Green apple",
-          "quantity": "1"
+          "note": ""
         },
         {
+          "quantity": "50ml",
           "item": "Apple cider vinegar",
-          "quantity": "50ml"
+          "note": ""
         },
         {
+          "quantity": "30ml",
           "item": "Water",
-          "quantity": "30ml"
+          "note": ""
         },
         {
+          "quantity": "1 tbsp",
           "item": "Sugar",
-          "quantity": "1 tbsp"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Dice apple into tiny pearls using a melon baller or precision cutter."
         },
         {
-          "number": 2,
           "instruction": "Combine vinegar, water, and sugar."
         },
         {
-          "number": 3,
           "instruction": "Quick-pickle apples for 20 minutes before serving."
         }
       ]

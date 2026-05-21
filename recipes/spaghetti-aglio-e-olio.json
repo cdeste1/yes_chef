@@ -1,0 +1,76 @@
+{
+  "name": "Spaghetti Aglio e Olio",
+  "description": "A Michelin take on this easy weeknight meal.  Simple ingredients result in an elegant and silky creamy sauce with a subdued garlic taste.",
+  "category": "Main",
+  "keywords": "spaghetti, garlic",
+  "yield": "4",
+  "source": "chefitalianochannel",
+  "chef": "Eduardo Pasinelli",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/spaghetti-aglio-e-olio.png",
+  "ingredients": [
+    {
+      "quantity": "3 heads",
+      "item": "garlic",
+      "note": "peeled, germ removed"
+    },
+    {
+      "quantity": "1 cup",
+      "item": "olive oil",
+      "note": ""
+    },
+    {
+      "quantity": "1/2 cup",
+      "item": "pasta water",
+      "note": "reserved"
+    },
+    {
+      "quantity": "1 pound",
+      "item": "spaghetti",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Peel the skin off the garlic and remove the germ from the middle of the clove."
+    },
+    {
+      "instruction": "Boil the garlic in water for 1 minute.  Strain and let rest for 1 minute.  Repeat 4 times"
+    },
+    {
+      "instruction": "Cook the spaghetti to al dente, reserving some pasta water."
+    },
+    {
+      "instruction": "Combine the olive oil, garlic, and pasta water and blend until smooth"
+    },
+    {
+      "instruction": "In a deep pan, add the sauce to the spaghetti and toss vigorously.  Add parsley and toss to mix"
+    },
+    {
+      "instruction": "Twirl a serving of pasta into a bowl, top with sauce."
+    },
+    {
+      "instruction": "Finish with a sprinkle of cayenne pepper, if desired."
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Immersion Blender",
+      "link": "https://www.amazon.com/dp/B08F2SS6T2?tag=yeschef0A02-20"
+    },
+    {
+      "item": "Fine Sieve",
+      "link": "https://www.amazon.com/dp/B00004OCLX?tag=yeschef0A02-20"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "2019 Pierre-Yves Colin Meursault Les Charmes 1ER Cru",
+      "notes": "A complex Chardonnay with depth, elegance, and subtle mineral edge to complements the sauce"
+    },
+    {
+      "name": "2022 Tenuta Sant'Antonio Scaligera Gargangea",
+      "notes": "A vibrant white with bright acidity and citrus notes to balance the dish"
+    }
+  ],
+  "sub_recipes": []
+}

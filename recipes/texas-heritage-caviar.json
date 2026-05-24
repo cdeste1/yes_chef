@@ -1,0 +1,129 @@
+{
+  "name": "Texas Heritage Caviar",
+  "source": "Inspired by Helen Corbitt, elevated with modern fine-dining techniques",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/texas-heritage-caviar.jpg",
+  "chef": "Helen Corbitt (original) / Grok Fine Dining Adaptation",
+  "yield": "Serves 8–10 as a side or appetizer",
+  "description": "A refined, world-class elevation of the classic Texas Cowboy Caviar. Black-eyed peas and black beans are paired with precisely brunoised vegetables, charred corn, and an emulsified champagne-lime vinaigrette. Finished with avocado, microgreens, and toasted pepitas for exceptional texture and elegance.",
+  "category": "Sides",
+  "keywords": "cowboy caviar, texas caviar, beans, side dish, fine dining, helen corbitt, vegetarian",
+  "winePairings": [
+    {
+      "name": "Dry Rosé (Provence)",
+      "notes": "Crisp acidity and subtle red fruit complement the bright lime and charred corn."
+    },
+    {
+      "name": "Grüner Veltliner",
+      "notes": "Peppery minerality cuts through the beans while highlighting the fresh herbs and peppers."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "High-quality black-eyed peas",
+      "quantity": "1 can (15 oz)",
+      "note": "drained, rinsed, patted dry"
+    },
+    {
+      "item": "Black beans (preferably heirloom like Rancho Gordo)",
+      "quantity": "1 can (15 oz)",
+      "note": "drained, rinsed, patted dry"
+    },
+    {
+      "item": "Fresh sweet corn kernels",
+      "quantity": "1 cup",
+      "note": "from 2 ears, charred"
+    },
+    {
+      "item": "Red onion",
+      "quantity": "1 medium",
+      "note": "brunoise (1/8-inch dice)"
+    },
+    {
+      "item": "Mixed bell peppers (red, orange, yellow)",
+      "quantity": "3",
+      "note": "brunoise"
+    },
+    {
+      "item": "Roma tomatoes",
+      "quantity": "2",
+      "note": "seeded and brunoise"
+    },
+    {
+      "item": "Jalapeños or Fresno chiles",
+      "quantity": "1–2",
+      "note": "seeded and brunoise"
+    },
+    {
+      "item": "Ripe but firm avocado",
+      "quantity": "1",
+      "note": "diced just before serving"
+    },
+    {
+      "item": "Fresh cilantro",
+      "quantity": "1/4 cup",
+      "note": "chiffonade"
+    },
+    {
+      "item": "Limes",
+      "quantity": "2",
+      "note": "zest and juice"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Japanese Benriner Mandoline with Brunoise Attachment",
+      "link": "https://amzn.to/4wHFVC5"
+    },
+    {
+      "item": "Microplane Elite Zester",
+      "link": "https://amzn.to/4wIE8Nn"
+    },
+    {
+      "item": "Precision Immersion Circulator (Sous-Vide)",
+      "link": "https://amzn.to/4uvurAk"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4f6ca7J"
+    },
+    {
+      "item": "Fine-mesh Chinois Strainer",
+      "link": "https://amzn.to/4f5ftfA"
+    },
+    {
+      "item": "Culinary Blowtorch",
+      "link": "https://amzn.to/4f5QzMM"
+    },
+    {
+      "item": "Plating Ring Molds (2–3 inch)",
+      "link": "https://amzn.to/3Rr7sYA"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Drain and rinse beans and peas. Pat completely dry. Char corn kernels using a blowtorch or sous-vide circulator setup for controlled smokiness."
+    },
+    {
+      "number": 2,
+      "instruction": "Using the mandoline with brunoise attachment (or sharp knife), cut red onion, bell peppers, tomatoes, and jalapeños into precise 1/8-inch dice."
+    },
+    {
+      "number": 3,
+      "instruction": "Prepare the emulsified vinaigrette: Microplane garlic, combine with lime zest/juice, champagne vinegar, honey, toasted cumin, smoked paprika, cayenne, salt, and pepper. Slowly whisk in olive oil. Pass through chinois for silkiness."
+    },
+    {
+      "number": 4,
+      "instruction": "Combine beans, peas, charred corn, and diced vegetables in a bowl. Pour over dressing and toss gently. Vacuum-seal and marinate for 30–60 minutes (or refrigerate 2–4 hours)."
+    },
+    {
+      "number": 5,
+      "instruction": "Just before serving, gently fold in diced avocado and cilantro chiffonade."
+    },
+    {
+      "number": 6,
+      "instruction": "Plate using ring molds for neat cylinders. Garnish with microgreens, toasted pepitas, crumbled queso fresco, and charred lime halves. Serve with fresh tortilla chips or grilled bread."
+    }
+  ],
+  "sub_recipes": []
+}

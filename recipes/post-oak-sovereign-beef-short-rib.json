@@ -1,0 +1,350 @@
+{
+  "name": "Post Oak Sovereign Beef Short Rib",
+  "source": "inspired by Franklin Barbecue (Austin, Texas) and Frantzén (Stockholm, Sweden)",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/post-oak-sovereign-beef-short-rib.png",
+  "chef": "Aaron Franklin & Björn Frantzén",
+  "yield": "Serves 4",
+  "description": "An elevated Texas barbecue masterpiece featuring post oak smoked beef short rib with black pepper bark, burnt onion molasses glaze, smoked tallow potato silk, ember-charred sweet peppers, and black pepper beef jus.",
+  "category": "Main",
+  "keywords": "texas bbq, smoked short rib, beef rib, post oak, michelin barbecue, smoked beef, fine dining bbq",
+  "winePairings": [
+    {
+      "name": "Napa Valley Cabernet Sauvignon",
+      "notes": "Powerful tannins and dark fruit stand up to the richness of smoked beef."
+    },
+    {
+      "name": "Texas Tempranillo",
+      "notes": "Earthy spice and smoke-friendly structure complement the pepper bark and oak smoke."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Beef Plate Short Rib",
+      "quantity": "1 section",
+      "note": "4-bone, 8–10 lbs"
+    },
+    {
+      "item": "Kosher Salt",
+      "quantity": "3 tbsp"
+    },
+    {
+      "item": "16-mesh Black Pepper",
+      "quantity": "4 tbsp"
+    },
+    {
+      "item": "Smoked Beef Powder",
+      "quantity": "1 tbsp"
+    },
+    {
+      "item": "Espresso Powder",
+      "quantity": "1 tsp"
+    },
+    {
+      "item": "Rendered Beef Tallow",
+      "quantity": "2 tbsp"
+    },
+    {
+      "item": "Post Oak Wood Splits",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Burnt Onion Molasses",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Smoked Tallow Potato Silk",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Black Pepper Beef Jus",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Pickled Mustard Seeds",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Mini Sweet Peppers",
+      "quantity": "8"
+    },
+    {
+      "item": "Maldon Sea Salt",
+      "quantity": "to finish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Offset Smoker",
+      "link": "https://amzn.to/4van8xV"
+    },
+    {
+      "item": "Wireless Multi-Probe Thermometer",
+      "link": "https://amzn.to/4tZzMi9"
+    },
+    {
+      "item": "Japanese Binchotan Grill",
+      "link": "https://amzn.to/42V9C57"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/4nJtly2"
+    },
+    {
+      "item": "Immersion Circulator",
+      "link": "https://amzn.to/4uoTW68"
+    },
+    {
+      "item": "Smoking Gun",
+      "link": "https://amzn.to/4v0cObw"
+    },
+    {
+      "item": "Infrared Thermometer",
+      "link": "https://amzn.to/49l1ApJ"
+    },
+    {
+      "item": "Fine Chinois Strainer",
+      "link": "https://amzn.to/4eZKOjD"
+    },
+    {
+      "item": "Plating Tweezers",
+      "link": "https://amzn.to/49mUVvk"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Trim excess exterior fat from the short rib while keeping the fat cap intact."
+    },
+    {
+      "number": 2,
+      "instruction": "Mix kosher salt, black pepper, smoked beef powder, and espresso powder to create the rub."
+    },
+    {
+      "number": 3,
+      "instruction": "Season the short rib aggressively on all sides and refrigerate uncovered overnight."
+    },
+    {
+      "number": 4,
+      "instruction": "Preheat offset smoker to 250°F using post oak wood splits."
+    },
+    {
+      "number": 5,
+      "instruction": "Place short rib bone-side down in smoker and maintain clean blue smoke throughout cooking."
+    },
+    {
+      "number": 6,
+      "instruction": "Spritz lightly with warm beef stock every 90 minutes and brush dry areas with melted beef tallow."
+    },
+    {
+      "number": 7,
+      "instruction": "Smoke until bark is dark and internal temperature reaches approximately 175°F."
+    },
+    {
+      "number": 8,
+      "instruction": "Wrap tightly in unwaxed butcher paper and continue smoking until probe tender at 203°F."
+    },
+    {
+      "number": 9,
+      "instruction": "Rest in a warming cabinet or warm oven for 2 hours before slicing."
+    },
+    {
+      "number": 10,
+      "instruction": "Prepare smoked tallow potato silk and burnt onion molasses while beef rests."
+    },
+    {
+      "number": 11,
+      "instruction": "Char sweet peppers directly over binchotan charcoal until blistered and lightly collapsed."
+    },
+    {
+      "number": 12,
+      "instruction": "Warm black pepper beef jus and lightly smoke using a smoking gun just before serving."
+    },
+    {
+      "number": 13,
+      "instruction": "Plate smoked potato silk first, place sliced beef rib on top, and garnish with peppers, burnt onion molasses, pickled mustard seeds, and beef jus."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Burnt Onion Molasses",
+      "yield": "1 cup",
+      "ingredients": [
+        {
+          "item": "Sweet Onions",
+          "quantity": "4 large"
+        },
+        {
+          "item": "Beef Fat",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Dark Molasses",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Bourbon",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Sherry Vinegar",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Smoked Salt",
+          "quantity": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Char onions cut-side down over live fire until nearly blackened."
+        },
+        {
+          "number": 2,
+          "instruction": "Cook onions slowly in beef fat until completely softened."
+        },
+        {
+          "number": 3,
+          "instruction": "Add bourbon, molasses, vinegar, and smoked salt."
+        },
+        {
+          "number": 4,
+          "instruction": "Reduce until glossy and thick, then blend smooth and strain."
+        }
+      ]
+    },
+    {
+      "name": "Smoked Tallow Potato Silk",
+      "yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "Yukon Gold Potatoes",
+          "quantity": "2 lbs"
+        },
+        {
+          "item": "Heavy Cream",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Smoked Beef Tallow",
+          "quantity": "6 tbsp"
+        },
+        {
+          "item": "Cultured Butter",
+          "quantity": "4 tbsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Smoke potatoes indirectly until fully tender."
+        },
+        {
+          "number": 2,
+          "instruction": "Pass potato flesh through a fine sieve."
+        },
+        {
+          "number": 3,
+          "instruction": "Warm cream, butter, and smoked tallow together."
+        },
+        {
+          "number": 4,
+          "instruction": "Fold warm dairy mixture into potatoes until silky smooth."
+        },
+        {
+          "number": 5,
+          "instruction": "Season with salt and hold warm until service."
+        }
+      ]
+    },
+    {
+      "name": "Black Pepper Beef Jus",
+      "yield": "2 cups",
+      "ingredients": [
+        {
+          "item": "Roasted Beef Stock",
+          "quantity": "2 cups"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1",
+          "note": "sliced"
+        },
+        {
+          "item": "Cracked Black Peppercorns",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Cold Butter",
+          "quantity": "1 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Reduce beef stock with shallot and peppercorns by half."
+        },
+        {
+          "number": 2,
+          "instruction": "Strain through a fine chinois."
+        },
+        {
+          "number": 3,
+          "instruction": "Whisk in cold butter before serving."
+        },
+        {
+          "number": 4,
+          "instruction": "Cold smoke briefly with smoking gun before plating."
+        }
+      ]
+    },
+    {
+      "name": "Pickled Mustard Seeds",
+      "yield": "1 small jar",
+      "ingredients": [
+        {
+          "item": "Yellow Mustard Seeds",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Apple Cider Vinegar",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Water",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Salt",
+          "quantity": "1 pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Simmer mustard seeds in fresh water three separate times, draining between each simmer."
+        },
+        {
+          "number": 2,
+          "instruction": "Combine vinegar, water, sugar, and salt in saucepan."
+        },
+        {
+          "number": 3,
+          "instruction": "Cook mustard seeds in pickling liquid until tender and glossy."
+        },
+        {
+          "number": 4,
+          "instruction": "Cool completely before serving."
+        }
+      ]
+    }
+  ]
+}

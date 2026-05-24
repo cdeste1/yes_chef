@@ -2150,6 +2150,314 @@
     ]
   },
   {
+    "name": "Black Truffle Agnolotti in Burnt Shallot Consommé",
+    "source": "adapted from Osteria Francescana and The French Laundry",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/black-truffle-agnolotti-in-burnt-shallot-consomm.png",
+    "chef": "Massimo Bottura & Thomas Keller",
+    "yield": "Serves 4",
+    "description": "Delicate ricotta-filled agnolotti served in a crystal-clear burnt shallot consommé with Parmigiano foam, frozen brown butter pearls, and shaved black truffle.",
+    "category": "Starter",
+    "keywords": "agnolotti, truffle, consommé, fine dining, pasta, Michelin",
+    "winePairings": [
+      {
+        "name": "White Burgundy",
+        "notes": "Elegant minerality balances the richness of the butter and cheese."
+      },
+      {
+        "name": "Vintage Champagne",
+        "notes": "Bright acidity and brioche notes elevate the truffle aroma."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Fresh Agnolotti",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Burnt Shallot Consommé",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Parmigiano Foam",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Brown Butter Pearls",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Fresh Black Truffle",
+        "quantity": "1 whole"
+      },
+      {
+        "item": "Micro Chervil",
+        "quantity": "small garnish"
+      },
+      {
+        "item": "Chive Batons",
+        "quantity": "small garnish"
+      },
+      {
+        "item": "Cold-Pressed Olive Oil",
+        "quantity": "few drops"
+      },
+      {
+        "item": "Flaky Sea Salt",
+        "quantity": "to finish"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Stone Agnolotti Forming Board",
+        "link": "https://amzn.to/42Oh41Z"
+      },
+      {
+        "item": "Smoked Glass Cloche",
+        "link": "https://amzn.to/4nI8HOR"
+      },
+      {
+        "item": "Vacuum Chamber Sealer",
+        "link": "https://amzn.to/43myZNk"
+      },
+      {
+        "item": "Black Truffle Shaver",
+        "link": "https://amzn.to/43mz2Zw"
+      },
+      {
+        "item": "Fine Chinois Etamine",
+        "link": "https://amzn.to/4uueqKI"
+      },
+      {
+        "item": "Culinary Homogenizer",
+        "link": "https://amzn.to/4tT1jlc"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Prepare the Fresh Agnolotti dough and filling."
+      },
+      {
+        "number": 2,
+        "instruction": "Prepare the Burnt Shallot Consommé and clarify until crystal clear."
+      },
+      {
+        "number": 3,
+        "instruction": "Prepare the Brown Butter Pearls using the anti-griddle."
+      },
+      {
+        "number": 4,
+        "instruction": "Prepare the Parmigiano Foam and keep warm."
+      },
+      {
+        "number": 5,
+        "instruction": "Cook agnolotti in heavily salted boiling water for 90 seconds."
+      },
+      {
+        "number": 6,
+        "instruction": "Arrange agnolotti in a shallow bowl with brown butter pearls and foam."
+      },
+      {
+        "number": 7,
+        "instruction": "Finish with shaved black truffle, micro herbs, olive oil, and flaky salt."
+      },
+      {
+        "number": 8,
+        "instruction": "Pour hot consommé tableside beneath a smoked glass cloche before serving."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Fresh Agnolotti",
+        "yield": "20-24 agnolotti",
+        "ingredients": [
+          {
+            "item": "Italian 00 Flour",
+            "quantity": "300 g"
+          },
+          {
+            "item": "Whole Eggs",
+            "quantity": "2"
+          },
+          {
+            "item": "Egg Yolks",
+            "quantity": "4"
+          },
+          {
+            "item": "Olive Oil",
+            "quantity": "10 ml"
+          },
+          {
+            "item": "Sea Salt",
+            "quantity": "8 g"
+          },
+          {
+            "item": "Sheep’s Milk Ricotta",
+            "quantity": "250 g"
+          },
+          {
+            "item": "Parmigiano Reggiano",
+            "quantity": "90 g"
+          },
+          {
+            "item": "Lemon Zest",
+            "quantity": "from 1 lemon"
+          },
+          {
+            "item": "Nutmeg",
+            "quantity": "small pinch"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Combine flour, eggs, yolks, olive oil, and salt into a smooth pasta dough."
+          },
+          {
+            "number": 2,
+            "instruction": "Vacuum seal and rest dough for 1 hour."
+          },
+          {
+            "number": 3,
+            "instruction": "Blend ricotta, Parmigiano, lemon zest, and nutmeg until silky smooth."
+          },
+          {
+            "number": 4,
+            "instruction": "Roll pasta sheets thin and pipe filling in small lines."
+          },
+          {
+            "number": 5,
+            "instruction": "Fold, seal, and cut agnolotti using a ripple pasta wheel."
+          }
+        ]
+      },
+      {
+        "name": "Burnt Shallot Consommé",
+        "yield": "1 liter",
+        "ingredients": [
+          {
+            "item": "Shallots",
+            "quantity": "8"
+          },
+          {
+            "item": "Yellow Onions",
+            "quantity": "2"
+          },
+          {
+            "item": "Leek",
+            "quantity": "1"
+          },
+          {
+            "item": "Brown Chicken Stock",
+            "quantity": "1 liter"
+          },
+          {
+            "item": "Dry Sherry",
+            "quantity": "150 ml"
+          },
+          {
+            "item": "Kombu",
+            "quantity": "1 sheet"
+          },
+          {
+            "item": "Thyme Sprigs",
+            "quantity": "3"
+          },
+          {
+            "item": "Black Peppercorns",
+            "quantity": "1 teaspoon"
+          },
+          {
+            "item": "Egg Whites",
+            "quantity": "2"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Deeply char shallots, onions, and leek in a dry copper pot."
+          },
+          {
+            "number": 2,
+            "instruction": "Deglaze with sherry and add stock, kombu, thyme, and peppercorns."
+          },
+          {
+            "number": 3,
+            "instruction": "Simmer gently for 45 minutes."
+          },
+          {
+            "number": 4,
+            "instruction": "Clarify using whisked egg whites and strain through a chinois étamine."
+          },
+          {
+            "number": 5,
+            "instruction": "Reduce slightly until intensely aromatic."
+          }
+        ]
+      },
+      {
+        "name": "Brown Butter Pearls",
+        "yield": "Small garnish batch",
+        "ingredients": [
+          {
+            "item": "European Butter",
+            "quantity": "150 g"
+          },
+          {
+            "item": "Smoked Sea Salt",
+            "quantity": "pinch"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Brown butter until nutty and aromatic."
+          },
+          {
+            "number": 2,
+            "instruction": "Pipe droplets onto an anti-griddle to create frozen pearls."
+          },
+          {
+            "number": 3,
+            "instruction": "Season lightly with smoked sea salt and freeze until service."
+          }
+        ]
+      },
+      {
+        "name": "Parmigiano Foam",
+        "yield": "500 ml",
+        "ingredients": [
+          {
+            "item": "Heavy Cream",
+            "quantity": "250 ml"
+          },
+          {
+            "item": "Parmigiano Reggiano",
+            "quantity": "120 g"
+          },
+          {
+            "item": "Soy Lecithin",
+            "quantity": "2 g"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Warm cream gently and infuse with Parmigiano for 20 minutes."
+          },
+          {
+            "number": 2,
+            "instruction": "Blend with soy lecithin until airy and smooth."
+          },
+          {
+            "number": 3,
+            "instruction": "Hold warm until plating."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Black Truffle Brioche French Toast with Foie Gras Custard, Compressed Berries & Maple-Sauternes Espuma",
     "description": "A decadent fine-dining brunch composition featuring brioche soaked in a foie gras-enriched custard, caramelized in beurre noisette, paired with vacuum-compressed berries, maple-Sauternes espuma, and finished with fresh black truffle and textural frozen fruit shards.",
     "category": "Brunch",

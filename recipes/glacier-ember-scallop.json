@@ -1,0 +1,335 @@
+{
+  "name": "Glacier Ember Scallop",
+  "source": "inspired by Asador Etxebarri and Noma",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glacier-ember-scallop.png",
+  "chef": "Victor Arguinzoniz & René Redzepi",
+  "yield": "4 starter portions",
+  "description": "A world-class tasting-menu starter featuring binchotan-charred diver scallops, smoked apple beurre blanc, frozen horseradish snow, pine herb oil, and herb ash. A dramatic contrast of smoke, cold spice, and ocean sweetness.",
+  "category": "Starter",
+  "keywords": "scallops, fine dining, Michelin, seafood, smoked beurre blanc, Nordic cuisine, charcoal grilled",
+  "winePairings": [
+    {
+      "name": "Blanc de Blancs Champagne",
+      "notes": "Bright acidity and minerality elevate the sweetness of the scallops and smoked butter sauce."
+    },
+    {
+      "name": "Junmai Daiginjo Sake",
+      "notes": "Elegant floral aromas and soft umami complement the pine oil and charred scallops."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Dry-packed diver scallops",
+      "quantity": "12 large"
+    },
+    {
+      "item": "Grapeseed oil",
+      "quantity": "2 tbsp"
+    },
+    {
+      "item": "Cultured butter",
+      "quantity": "3 tbsp"
+    },
+    {
+      "item": "Maldon sea salt",
+      "quantity": "to finish"
+    },
+    {
+      "item": "White pepper",
+      "quantity": "to taste"
+    },
+    {
+      "item": "Smoked Apple Beurre Blanc",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Pine Herb Oil",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Horseradish Snow",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Herb Ash",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Finger lime pearls",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Bronze fennel fronds",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Micro sorrel",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Edible viola flowers",
+      "quantity": "as needed"
+    },
+    {
+      "item": "Charred apple batons",
+      "quantity": "8 pieces"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Japanese Konro Grill",
+      "link": "https://amzn.to/4e2ZzkI"
+    },
+    {
+      "item": "Binchotan Charcoal",
+      "link": "https://amzn.to/3RsrnpT"
+    },
+    {
+      "item": "Cold Smoke Gun",
+      "link": "https://amzn.to/4dtEHmv"
+    },
+    {
+      "item": "Chamber Vacuum Sealer",
+      "link": "https://amzn.to/49mxMcm"
+    },
+    {
+      "item": "Copper Saucier Pan",
+      "link": "https://amzn.to/4tWJQsf"
+    },
+    {
+      "item": "Laboratory Plating Pipettes",
+      "link": "https://amzn.to/4nPPDOQ"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare the Pine Herb Oil.",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 2,
+      "instruction": "Prepare the Smoked Apple Beurre Blanc.",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 3,
+      "instruction": "Prepare the Horseradish Snow.",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 4,
+      "instruction": "Prepare the Herb Ash.",
+      "note": "see sub-recipe"
+    },
+    {
+      "number": 5,
+      "instruction": "Heat binchotan charcoal in a Konro grill until extremely hot."
+    },
+    {
+      "number": 6,
+      "instruction": "Pat scallops completely dry and lightly coat with grapeseed oil."
+    },
+    {
+      "number": 7,
+      "instruction": "Season scallops with sea salt and white pepper."
+    },
+    {
+      "number": 8,
+      "instruction": "Sear scallops directly over binchotan charcoal for 60–75 seconds on the first side and 30 seconds on the second side."
+    },
+    {
+      "number": 9,
+      "instruction": "Baste scallops with cultured butter during the final seconds of cooking."
+    },
+    {
+      "number": 10,
+      "instruction": "Spoon smoked apple beurre blanc onto chilled black slate plates in an asymmetrical sweep."
+    },
+    {
+      "number": 11,
+      "instruction": "Arrange three scallops per plate and dust lightly with herb ash."
+    },
+    {
+      "number": 12,
+      "instruction": "Add frozen horseradish snow tableside and garnish with pine oil dots, finger lime pearls, fennel fronds, edible flowers, and charred apple batons."
+    },
+    {
+      "number": 13,
+      "instruction": "Finish with Maldon sea salt and serve immediately."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Smoked Apple Beurre Blanc",
+      "yield": "2 cups",
+      "ingredients": [
+        {
+          "item": "Shallots",
+          "quantity": "2",
+          "note": "minced"
+        },
+        {
+          "item": "Honeycrisp apple",
+          "quantity": "1",
+          "note": "small dice"
+        },
+        {
+          "item": "Dry white wine",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Champagne vinegar",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Cold European butter",
+          "quantity": "1 cup",
+          "note": "cubed"
+        },
+        {
+          "item": "Crème fraîche",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Sweat shallots and apples gently in a copper saucier until softened."
+        },
+        {
+          "number": 2,
+          "instruction": "Add white wine and champagne vinegar and reduce until nearly dry."
+        },
+        {
+          "number": 3,
+          "instruction": "Whisk in cold butter gradually until fully emulsified."
+        },
+        {
+          "number": 4,
+          "instruction": "Fold in crème fraîche and strain through a fine chinois."
+        },
+        {
+          "number": 5,
+          "instruction": "Cold smoke the sauce with applewood smoke for 90 seconds before serving."
+        }
+      ]
+    },
+    {
+      "name": "Pine Herb Oil",
+      "yield": "1 cup",
+      "ingredients": [
+        {
+          "item": "Neutral oil",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Spruce tips or pine needles",
+          "quantity": "small handful"
+        },
+        {
+          "item": "Parsley",
+          "quantity": "1/2 cup"
+        },
+        {
+          "item": "Chervil",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Spinach leaves",
+          "quantity": "1/2 cup"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blanch herbs and spruce tips for 10 seconds and shock in ice water."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend with oil at high speed until vivid green."
+        },
+        {
+          "number": 3,
+          "instruction": "Vacuum seal and hold warm for 1 hour."
+        },
+        {
+          "number": 4,
+          "instruction": "Strain through a fine chinois overnight."
+        }
+      ]
+    },
+    {
+      "name": "Horseradish Snow",
+      "yield": "2 cups",
+      "ingredients": [
+        {
+          "item": "Fresh horseradish root",
+          "quantity": "100 g"
+        },
+        {
+          "item": "Greek yogurt",
+          "quantity": "1 cup"
+        },
+        {
+          "item": "Lemon zest",
+          "quantity": "1 tsp"
+        },
+        {
+          "item": "Sea salt",
+          "quantity": "to taste"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blend horseradish, yogurt, lemon zest, and salt until smooth."
+        },
+        {
+          "number": 2,
+          "instruction": "Freeze solid in Pacojet containers."
+        },
+        {
+          "number": 3,
+          "instruction": "Spin in Pacojet immediately before serving to create frozen snow texture."
+        }
+      ]
+    },
+    {
+      "name": "Herb Ash",
+      "yield": "1/2 cup",
+      "ingredients": [
+        {
+          "item": "Dehydrated parsley",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Dehydrated leek greens",
+          "quantity": "1/4 cup"
+        },
+        {
+          "item": "Burnt onion powder",
+          "quantity": "2 tbsp"
+        },
+        {
+          "item": "Activated charcoal",
+          "quantity": "1 pinch"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Lightly burn leek greens until aromatic and blackened."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend with parsley, onion powder, and activated charcoal."
+        },
+        {
+          "number": 3,
+          "instruction": "Sift into an ultra-fine ash texture."
+        }
+      ]
+    }
+  ]
+}

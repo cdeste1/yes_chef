@@ -5866,6 +5866,302 @@
     ]
   },
   {
+    "name": "Charred Asparagus Wrapped in Prosciutto with Brown Butter Sabayon",
+    "source": "inspired by Osteria Francescana and Noma",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/charred-asparagus-wrapped-in-prosciutto-with-brown-butter-sabayon.png",
+    "chef": "Massimo Bottura & René Redzepi",
+    "yield": "Serves 4",
+    "description": "A Michelin-style starter featuring fire-charred asparagus wrapped in crisp prosciutto, paired with airy brown butter sabayon, preserved lemon gel, hazelnut soil, and black garlic ash.",
+    "category": "Starter",
+    "keywords": "asparagus, prosciutto, sabayon, fine dining, Michelin, gourmet, modernist cuisine",
+    "winePairings": [
+      {
+        "name": "Franciacorta DOCG Brut",
+        "notes": "Bright acidity and minerality balance the smoky prosciutto and rich sabayon."
+      },
+      {
+        "name": "White Burgundy",
+        "notes": "Buttery texture and citrus notes complement the asparagus and brown butter."
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "Thick asparagus spears",
+        "quantity": "16"
+      },
+      {
+        "item": "Prosciutto di Parma",
+        "quantity": "8 slices",
+        "note": "thinly sliced"
+      },
+      {
+        "item": "Extra virgin olive oil",
+        "quantity": "2 tbsp"
+      },
+      {
+        "item": "Maldon sea salt",
+        "quantity": "to taste"
+      },
+      {
+        "item": "Tellicherry black pepper",
+        "quantity": "to taste",
+        "note": "freshly cracked"
+      },
+      {
+        "item": "Brown Butter Sabayon",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Preserved Lemon Gel",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Black Garlic Ash",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Hazelnut Soil",
+        "note": "see sub-recipe"
+      },
+      {
+        "item": "Micro basil",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Bronze fennel fronds",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Chive blossoms",
+        "quantity": "for garnish"
+      },
+      {
+        "item": "Freeze-dried asparagus dust",
+        "quantity": "for garnish"
+      }
+    ],
+    "specialtools": [
+      {
+        "item": "Japanese Binchotan Konro Grill",
+        "link": "https://amzn.to/4fH5jlj"
+      },
+      {
+        "item": "Smoking Cloche",
+        "link": "https://amzn.to/4dEKhRJ"
+      },
+      {
+        "item": "Gourmet Whip",
+        "link": "https://amzn.to/4dIbALc"
+      },
+      {
+        "item": "Precision Infrared Thermometer",
+        "link": "https://amzn.to/4nKuSE5"
+      },
+      {
+        "item": "Culinary Tweezers",
+        "link": "https://amzn.to/4f2vP8F"
+      },
+      {
+        "item": "Freeze Dryer",
+        "link": "https://amzn.to/43xfgug"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Trim the woody ends from the asparagus and blanch in salted boiling water for 35 seconds."
+      },
+      {
+        "number": 2,
+        "instruction": "Shock the asparagus in ice water and dry thoroughly."
+      },
+      {
+        "number": 3,
+        "instruction": "Wrap each asparagus spear with prosciutto, leaving the tips exposed."
+      },
+      {
+        "number": 4,
+        "instruction": "Brush lightly with olive oil and season with sea salt and black pepper."
+      },
+      {
+        "number": 5,
+        "instruction": "Prepare the preserved lemon gel, black garlic ash, hazelnut soil, and brown butter sabayon.",
+        "note": "see sub-recipes"
+      },
+      {
+        "number": 6,
+        "instruction": "Heat the Binchotan grill to high heat and char the asparagus until lightly blistered and the prosciutto is crisp."
+      },
+      {
+        "number": 7,
+        "instruction": "Swipe preserved lemon gel onto the plate and pipe warm sabayon alongside."
+      },
+      {
+        "number": 8,
+        "instruction": "Arrange asparagus in a stacked presentation over hazelnut soil."
+      },
+      {
+        "number": 9,
+        "instruction": "Finish with black garlic ash, asparagus dust, micro basil, fennel fronds, and chive blossoms."
+      },
+      {
+        "number": 10,
+        "instruction": "Optional: Cover with a smoking cloche filled with applewood smoke before serving."
+      }
+    ],
+    "sub_recipes": [
+      {
+        "name": "Brown Butter Sabayon",
+        "yield": "Enough for 4 plates",
+        "ingredients": [
+          {
+            "item": "Egg yolks",
+            "quantity": "3"
+          },
+          {
+            "item": "Cultured butter",
+            "quantity": "90g"
+          },
+          {
+            "item": "Champagne vinegar reduction",
+            "quantity": "1 tbsp"
+          },
+          {
+            "item": "Dry vermouth",
+            "quantity": "1 tbsp"
+          },
+          {
+            "item": "Lemon juice",
+            "quantity": "1 tsp"
+          },
+          {
+            "item": "Fine sea salt",
+            "quantity": "pinch"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Brown the butter until nutty and aromatic."
+          },
+          {
+            "number": 2,
+            "instruction": "Whisk egg yolks, vinegar reduction, and vermouth over a bain-marie until thick and airy."
+          },
+          {
+            "number": 3,
+            "instruction": "Slowly emulsify in the browned butter."
+          },
+          {
+            "number": 4,
+            "instruction": "Season with lemon juice and salt, then transfer to an iSi siphon."
+          }
+        ]
+      },
+      {
+        "name": "Preserved Lemon Gel",
+        "yield": "1 squeeze bottle",
+        "ingredients": [
+          {
+            "item": "Preserved lemons",
+            "quantity": "2"
+          },
+          {
+            "item": "Water",
+            "quantity": "120ml"
+          },
+          {
+            "item": "Agar agar",
+            "quantity": "1 tsp"
+          },
+          {
+            "item": "Honey",
+            "quantity": "1 tsp"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Blend preserved lemons, water, and honey until smooth."
+          },
+          {
+            "number": 2,
+            "instruction": "Bring to a simmer and whisk in agar agar."
+          },
+          {
+            "number": 3,
+            "instruction": "Cool until set, then blend until silky smooth."
+          }
+        ]
+      },
+      {
+        "name": "Black Garlic Ash",
+        "yield": "Small garnish batch",
+        "ingredients": [
+          {
+            "item": "Black garlic cloves",
+            "quantity": "4"
+          },
+          {
+            "item": "Dehydrated rye bread",
+            "quantity": "1 sheet"
+          },
+          {
+            "item": "Activated charcoal powder",
+            "quantity": "1 tsp",
+            "note": "food-safe"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Dehydrate black garlic until tacky and concentrated."
+          },
+          {
+            "number": 2,
+            "instruction": "Blend with rye bread and activated charcoal into a fine ash."
+          },
+          {
+            "number": 3,
+            "instruction": "Pass through a fine sieve."
+          }
+        ]
+      },
+      {
+        "name": "Hazelnut Soil",
+        "yield": "1 cup",
+        "ingredients": [
+          {
+            "item": "Toasted hazelnuts",
+            "quantity": "60g"
+          },
+          {
+            "item": "Panko breadcrumbs",
+            "quantity": "20g"
+          },
+          {
+            "item": "Brown butter powder",
+            "quantity": "1 tsp"
+          },
+          {
+            "item": "Smoked salt",
+            "quantity": "pinch"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "instruction": "Pulse hazelnuts, breadcrumbs, brown butter powder, and smoked salt until crumbly."
+          },
+          {
+            "number": 2,
+            "instruction": "Toast lightly in a pan until aromatic."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Charred Calamari “Aegean Ember”",
     "source": "Inspired by ABaC Barcelona",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/charred-calamari-aegean-ember.png",

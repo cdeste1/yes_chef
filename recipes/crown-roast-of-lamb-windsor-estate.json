@@ -1,58 +1,80 @@
 {
   "name": "Crown Roast of Lamb 'Windsor Estate'",
-  "source": "Inspired by Modern British Fine Dining",
-  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/crown-roast-of-lamb-windsor-estate.png",
-  "chef": "Marcus Wareing & Tom Kerridge Inspired",
-  "yield": "Serves 4",
   "description": "A luxurious British-inspired main course featuring herb-crusted crown roast of lamb, smoked English pea purée, confit shallots, glazed heritage carrots, mint gel, and a rich Madeira lamb jus.",
   "category": "Main",
   "keywords": "lamb, british, fine dining, crown roast, madeira jus, pea puree, michelin",
-  "winePairings": [
-    {
-      "name": "Bordeaux (Left Bank)",
-      "notes": "Structured tannins and dark fruit complement the richness of the lamb."
-    },
-    {
-      "name": "English Sparkling Rosé",
-      "notes": "Bright acidity and subtle berry notes pair beautifully with the mint and peas."
-    }
-  ],
+  "yield": "Serves 4",
+  "source": "Inspired by Modern British Fine Dining",
+  "chef": "Marcus Wareing & Tom Kerridge Inspired",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/crown-roast-of-lamb-windsor-estate.png",
   "ingredients": [
     {
+      "quantity": "",
       "item": "Herb Crusted Crown Roast of Lamb",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Smoked Pea Purée",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Confit Shallots",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Glazed Heritage Carrots",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Mint Gel",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "",
       "item": "Madeira Lamb Jus",
       "note": "see sub-recipe"
     },
     {
+      "quantity": "For garnish",
       "item": "Pea Shoots",
-      "quantity": "for garnish"
+      "note": ""
     },
     {
+      "quantity": "For garnish",
       "item": "Nasturtium Leaves",
-      "quantity": "for garnish"
+      "note": ""
     },
     {
+      "quantity": "For garnish",
       "item": "Fresh Mint Tips",
-      "quantity": "for garnish"
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Prepare the Madeira Lamb Jus."
+    },
+    {
+      "instruction": "Prepare the Confit Shallots."
+    },
+    {
+      "instruction": "Prepare the Smoked Pea Purée."
+    },
+    {
+      "instruction": "Prepare the Mint Gel."
+    },
+    {
+      "instruction": "Cook and finish the Herb Crusted Crown Roast of Lamb."
+    },
+    {
+      "instruction": "Prepare the Glazed Heritage Carrots."
+    },
+    {
+      "instruction": "Plate by sweeping pea purée across the plate, arranging sliced lamb in the center, adding carrots and shallots, piping mint gel, garnishing with pea shoots and nasturtium leaves, and finishing with Madeira jus."
     }
   ],
   "specialtools": [
@@ -79,42 +101,20 @@
     {
       "item": "Precision Plating Tweezers",
       "link": "https://amzn.to/4dUNn4f"
+    },
+    {
+      "item": "Blender",
+      "link": "https://amzn.to/43dMMG1"
     }
   ],
-  "steps": [
+  "winePairings": [
     {
-      "number": 1,
-      "instruction": "Prepare the Madeira Lamb Jus.",
-      "note": "see sub-recipe"
+      "name": "Bordeaux (Left Bank)",
+      "notes": "Structured tannins and dark fruit complement the richness of the lamb."
     },
     {
-      "number": 2,
-      "instruction": "Prepare the Confit Shallots.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 3,
-      "instruction": "Prepare the Smoked Pea Purée.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 4,
-      "instruction": "Prepare the Mint Gel.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 5,
-      "instruction": "Cook and finish the Herb Crusted Crown Roast of Lamb.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 6,
-      "instruction": "Prepare the Glazed Heritage Carrots.",
-      "note": "see sub-recipe"
-    },
-    {
-      "number": 7,
-      "instruction": "Plate by sweeping pea purée across the plate, arranging sliced lamb in the center, adding carrots and shallots, piping mint gel, garnishing with pea shoots and nasturtium leaves, and finishing with Madeira jus."
+      "name": "English Sparkling Rosé",
+      "notes": "Bright acidity and subtle berry notes pair beautifully with the mint and peas."
     }
   ],
   "sub_recipes": [
@@ -123,73 +123,76 @@
       "yield": "Serves 4",
       "ingredients": [
         {
+          "quantity": "2",
           "item": "Premium lamb racks",
-          "quantity": "2"
+          "note": ""
         },
         {
+          "quantity": "2 tbsp",
           "item": "Dijon mustard",
-          "quantity": "2 tbsp"
+          "note": ""
         },
         {
+          "quantity": "2 tbsp",
           "item": "Lamb fat",
-          "quantity": "2 tbsp"
+          "note": ""
         },
         {
+          "quantity": "1 cup",
           "item": "Fresh parsley",
-          "quantity": "1 cup"
+          "note": ""
         },
         {
+          "quantity": "1/2 cup",
           "item": "Fresh mint",
-          "quantity": "1/2 cup"
+          "note": ""
         },
         {
+          "quantity": "1/2 cup",
           "item": "Fresh rosemary",
-          "quantity": "1/2 cup"
+          "note": ""
         },
         {
+          "quantity": "1 cup",
           "item": "Panko breadcrumbs",
-          "quantity": "1 cup"
+          "note": ""
         },
         {
+          "quantity": "1 tsp",
           "item": "Juniper berries",
-          "quantity": "1 tsp"
+          "note": ""
         },
         {
+          "quantity": "2 tsp",
           "item": "Sea salt",
-          "quantity": "2 tsp"
+          "note": ""
         },
         {
+          "quantity": "1 tsp",
           "item": "Black pepper",
-          "quantity": "1 tsp"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Season lamb with salt and pepper."
         },
         {
-          "number": 2,
           "instruction": "Vacuum seal with lamb fat and cook sous vide at 131°F (55°C) for 90 minutes."
         },
         {
-          "number": 3,
           "instruction": "Blend herbs, breadcrumbs, lamb fat, and ground juniper berries."
         },
         {
-          "number": 4,
           "instruction": "Sear lamb and brush with Dijon mustard."
         },
         {
-          "number": 5,
           "instruction": "Form into a crown roast and coat with herb crust."
         },
         {
-          "number": 6,
           "instruction": "Roast at 425°F (220°C) for 8–10 minutes."
         },
         {
-          "number": 7,
           "instruction": "Rest 10 minutes before carving."
         }
       ]
@@ -199,33 +202,32 @@
       "yield": "4 servings",
       "ingredients": [
         {
+          "quantity": "500g",
           "item": "English peas",
-          "quantity": "500g"
+          "note": ""
         },
         {
+          "quantity": "100ml",
           "item": "Heavy cream",
-          "quantity": "100ml"
+          "note": ""
         },
         {
+          "quantity": "50g",
           "item": "Butter",
-          "quantity": "50g"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Blanch peas and shock in ice water."
         },
         {
-          "number": 2,
           "instruction": "Blend with cream and butter until smooth."
         },
         {
-          "number": 3,
           "instruction": "Pass through a fine chinois."
         },
         {
-          "number": 4,
           "instruction": "Cold smoke with applewood for 5 minutes."
         }
       ]
@@ -235,57 +237,60 @@
       "yield": "2 cups",
       "ingredients": [
         {
+          "quantity": "2 lbs",
           "item": "Lamb bones",
-          "quantity": "2 lbs"
+          "note": ""
         },
         {
+          "quantity": "2",
           "item": "Shallots",
-          "quantity": "2"
+          "note": ""
         },
         {
+          "quantity": "2",
           "item": "Carrots",
-          "quantity": "2"
+          "note": ""
         },
         {
+          "quantity": "1",
           "item": "Celery stalk",
-          "quantity": "1"
+          "note": ""
         },
         {
+          "quantity": "2 tbsp",
           "item": "Tomato paste",
-          "quantity": "2 tbsp"
+          "note": ""
         },
         {
+          "quantity": "750ml",
           "item": "Lamb stock",
-          "quantity": "750ml"
+          "note": ""
         },
         {
+          "quantity": "250ml",
           "item": "Madeira wine",
-          "quantity": "250ml"
+          "note": ""
         },
         {
+          "quantity": "2 sprigs",
           "item": "Fresh thyme",
-          "quantity": "2 sprigs"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Roast bones and vegetables until deeply caramelized."
         },
         {
-          "number": 2,
           "instruction": "Add stock, Madeira, thyme, and tomato paste."
         },
         {
-          "number": 3,
           "instruction": "Simmer 4–5 hours."
         },
         {
-          "number": 4,
           "instruction": "Strain and reduce until glossy."
         },
         {
-          "number": 5,
           "instruction": "Finish with cold butter."
         }
       ]
@@ -295,17 +300,18 @@
       "yield": "12 shallots",
       "ingredients": [
         {
+          "quantity": "12",
           "item": "Banana shallots",
-          "quantity": "12"
+          "note": ""
         },
         {
+          "quantity": "250ml",
           "item": "Duck fat",
-          "quantity": "250ml"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Cook shallots submerged in duck fat at 185°F (85°C) for 2 hours."
         }
       ]
@@ -315,25 +321,26 @@
       "yield": "4 servings",
       "ingredients": [
         {
+          "quantity": "12",
           "item": "Heritage baby carrots",
-          "quantity": "12"
+          "note": ""
         },
         {
+          "quantity": "25g",
           "item": "Butter",
-          "quantity": "25g"
+          "note": ""
         },
         {
+          "quantity": "1 tbsp",
           "item": "Honey",
-          "quantity": "1 tbsp"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Blanch carrots until tender."
         },
         {
-          "number": 2,
           "instruction": "Glaze with butter and honey until shiny."
         }
       ]
@@ -343,25 +350,24 @@
       "yield": "1 squeeze bottle",
       "ingredients": [
         {
+          "quantity": "200ml",
           "item": "Mint juice",
-          "quantity": "200ml"
+          "note": ""
         },
         {
+          "quantity": "2g",
           "item": "Agar agar",
-          "quantity": "2g"
+          "note": ""
         }
       ],
       "steps": [
         {
-          "number": 1,
           "instruction": "Simmer mint juice and agar."
         },
         {
-          "number": 2,
           "instruction": "Chill until set."
         },
         {
-          "number": 3,
           "instruction": "Blend smooth and transfer to squeeze bottle."
         }
       ]

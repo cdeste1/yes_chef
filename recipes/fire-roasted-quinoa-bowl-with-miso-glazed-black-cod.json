@@ -1,0 +1,387 @@
+{
+  "name": "Fire-Roasted Quinoa Bowl with Miso-Glazed Black Cod",
+  "source": "Inspired by Noma and Le Bernardin",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/fire-roasted-quinoa-bowl-with-miso-glazed-black-cod.png",
+  "chef": "René Redzepi & Eric Ripert",
+  "yield": "Serves 4",
+  "description": "A refined fine-dining quinoa bowl featuring miso-glazed black cod, kombu-infused quinoa, charred seasonal vegetables, smoked yogurt, herb oil, pickled shallots, and crispy quinoa. Designed around contrasting textures and layered umami.",
+  "category": "Main",
+  "keywords": "quinoa bowl, black cod, miso, fine dining, seafood, healthy, Michelin inspired",
+  "winePairings": [
+    {
+      "name": "Puligny-Montrachet",
+      "notes": "Mineral-driven Chardonnay complements the rich black cod and herbaceous elements."
+    },
+    {
+      "name": "Junmai Daiginjo Sake",
+      "notes": "Elegant umami notes enhance the miso glaze and delicate seafood flavors."
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "Miso-Glazed Black Cod",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Fire-Roasted Quinoa",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Charred Seasonal Vegetables",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Smoked Yogurt",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Herb Oil",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Pickled Shallots",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Crispy Quinoa",
+      "note": "see sub-recipe"
+    },
+    {
+      "item": "Micro cilantro",
+      "quantity": "for garnish"
+    },
+    {
+      "item": "Bronze fennel fronds",
+      "quantity": "for garnish"
+    },
+    {
+      "item": "Nasturtium leaves",
+      "quantity": "for garnish"
+    },
+    {
+      "item": "Lemon powder",
+      "quantity": "to finish"
+    },
+    {
+      "item": "Flaky sea salt",
+      "quantity": "to finish"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Japanese Konro Grill",
+      "link": "https://amzn.to/4vo0hin"
+    },
+    {
+      "item": "Smoking Gun",
+      "link": "https://amzn.to/4uM36tA"
+    },
+    {
+      "item": "Sous Vide Immersion Circulator",
+      "link": "https://amzn.to/3PH0kqu"
+    },
+    {
+      "item": "Fine Mesh Chinois",
+      "link": "https://amzn.to/4o68RQu"
+    },
+    {
+      "item": "Titanium Plating Tweezers",
+      "link": "https://amzn.to/49W982H"
+    },
+    {
+      "item": "Infrared Thermometer",
+      "link": "https://amzn.to/4o265LY"
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Prepare all sub-recipes."
+    },
+    {
+      "number": 2,
+      "instruction": "Spread smoked yogurt in a sweeping arc on each serving bowl."
+    },
+    {
+      "number": 3,
+      "instruction": "Place a mound of warm quinoa in the center."
+    },
+    {
+      "number": 4,
+      "instruction": "Arrange charred vegetables around the quinoa."
+    },
+    {
+      "number": 5,
+      "instruction": "Place the miso-glazed black cod on top."
+    },
+    {
+      "number": 6,
+      "instruction": "Scatter pickled shallots and crispy quinoa around the bowl."
+    },
+    {
+      "number": 7,
+      "instruction": "Drizzle herb oil throughout."
+    },
+    {
+      "number": 8,
+      "instruction": "Finish with micro cilantro, fennel fronds, nasturtium leaves, lemon powder, and flaky sea salt."
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Miso-Glazed Black Cod",
+      "yield": "4 portions",
+      "ingredients": [
+        {
+          "item": "Black cod fillets",
+          "quantity": "4 (6 oz each)"
+        },
+        {
+          "item": "White miso",
+          "quantity": "75g"
+        },
+        {
+          "item": "Mirin",
+          "quantity": "40g"
+        },
+        {
+          "item": "Sake",
+          "quantity": "25g"
+        },
+        {
+          "item": "Honey",
+          "quantity": "15g"
+        },
+        {
+          "item": "Yuzu juice",
+          "quantity": "10g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Combine miso, mirin, sake, honey, and yuzu juice."
+        },
+        {
+          "number": 2,
+          "instruction": "Coat cod fillets and refrigerate for 24 hours."
+        },
+        {
+          "number": 3,
+          "instruction": "Wipe excess marinade from fish."
+        },
+        {
+          "number": 4,
+          "instruction": "Sous vide at 122°F (50°C) for 25 minutes."
+        },
+        {
+          "number": 5,
+          "instruction": "Sear skin side until crisp and golden."
+        }
+      ]
+    },
+    {
+      "name": "Fire-Roasted Quinoa",
+      "yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "Tri-color quinoa",
+          "quantity": "250g"
+        },
+        {
+          "item": "Vegetable stock",
+          "quantity": "600ml"
+        },
+        {
+          "item": "Kombu",
+          "quantity": "15g"
+        },
+        {
+          "item": "Cultured butter",
+          "quantity": "30g"
+        },
+        {
+          "item": "Shallot",
+          "quantity": "1 minced"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Infuse stock with kombu for 20 minutes and remove."
+        },
+        {
+          "number": 2,
+          "instruction": "Sweat shallots in butter."
+        },
+        {
+          "number": 3,
+          "instruction": "Add quinoa and toast lightly."
+        },
+        {
+          "number": 4,
+          "instruction": "Add stock and cook until tender."
+        },
+        {
+          "number": 5,
+          "instruction": "Rest 10 minutes and fluff."
+        }
+      ]
+    },
+    {
+      "name": "Charred Seasonal Vegetables",
+      "ingredients": [
+        {
+          "item": "Baby carrots",
+          "quantity": "8"
+        },
+        {
+          "item": "Asparagus",
+          "quantity": "12 spears"
+        },
+        {
+          "item": "Baby turnips",
+          "quantity": "8"
+        },
+        {
+          "item": "Zucchini",
+          "quantity": "1"
+        },
+        {
+          "item": "Olive oil",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Toss vegetables with olive oil."
+        },
+        {
+          "number": 2,
+          "instruction": "Grill over binchotan charcoal until lightly charred."
+        }
+      ]
+    },
+    {
+      "name": "Smoked Yogurt",
+      "ingredients": [
+        {
+          "item": "Greek yogurt",
+          "quantity": "250g"
+        },
+        {
+          "item": "Lemon zest",
+          "quantity": "5g"
+        },
+        {
+          "item": "Applewood smoke",
+          "quantity": "as needed"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Mix yogurt and lemon zest."
+        },
+        {
+          "number": 2,
+          "instruction": "Cold smoke under a cloche for 5 minutes."
+        }
+      ]
+    },
+    {
+      "name": "Herb Oil",
+      "ingredients": [
+        {
+          "item": "Parsley",
+          "quantity": "100g"
+        },
+        {
+          "item": "Dill",
+          "quantity": "50g"
+        },
+        {
+          "item": "Chervil",
+          "quantity": "50g"
+        },
+        {
+          "item": "Grapeseed oil",
+          "quantity": "250ml"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Blanch herbs and shock in ice water."
+        },
+        {
+          "number": 2,
+          "instruction": "Blend with oil until smooth."
+        },
+        {
+          "number": 3,
+          "instruction": "Strain through a chinois."
+        }
+      ]
+    },
+    {
+      "name": "Pickled Shallots",
+      "ingredients": [
+        {
+          "item": "Shallots",
+          "quantity": "2"
+        },
+        {
+          "item": "Rice vinegar",
+          "quantity": "100ml"
+        },
+        {
+          "item": "Water",
+          "quantity": "50ml"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "25g"
+        },
+        {
+          "item": "Salt",
+          "quantity": "10g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Bring vinegar, water, sugar, and salt to a boil."
+        },
+        {
+          "number": 2,
+          "instruction": "Pour over sliced shallots and cool."
+        }
+      ]
+    },
+    {
+      "name": "Crispy Quinoa",
+      "ingredients": [
+        {
+          "item": "Cooked quinoa",
+          "quantity": "100g"
+        },
+        {
+          "item": "Neutral frying oil",
+          "quantity": "for frying"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "instruction": "Dehydrate cooked quinoa overnight."
+        },
+        {
+          "number": 2,
+          "instruction": "Fry at 375°F (190°C) until puffed and crisp."
+        }
+      ]
+    }
+  ]
+}

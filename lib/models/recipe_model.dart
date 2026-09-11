@@ -97,7 +97,7 @@ class SpecialTools {
 
   factory SpecialTools.fromJson(Map<String, dynamic> json) {
     return SpecialTools(
-      item: json['item'] ?? 0,
+      item: json['item'] ?? '',
       link: json['link'] ?? '',
     );
   }

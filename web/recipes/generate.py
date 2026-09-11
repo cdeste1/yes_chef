@@ -99,10 +99,12 @@ recipes = [item.get('recipe', item) for item in items]
 print(f"Loaded {len(recipes)} recipes → outputting to ./{OUTPUT_DIR}/")
 
 # ── Generate pages ────────────────────────────────────────────────────────────
-generated = 0
+generated  = 0
+all_slugs  = []
 for r in recipes:
     name       = r.get('name', 'Untitled')
     slug       = to_slug(name)
+    all_slugs.append(slug)
     desc       = r.get('description', '')
     source     = r.get('source', '')
     chef       = r.get('chef', '').strip()
@@ -280,3 +282,19 @@ for r in recipes:
     generated += 1
 
 print(f"\nDone — {generated} recipe pages generated.")
+
+# ── Regenerate sitemap.xml so it never drifts out of sync with the site ───────
+# (previously a hand-maintained file that silently fell behind as recipes
+# were added — it stayed at 58 URLs while the site grew to 110 recipes)
+sitemap_urls = [f"{SITE_URL}/"] + [f"{SITE_URL}/recipes/{s}/" for s in all_slugs]
+sitemap_body = "\n".join(f"  <url>\n    <loc>{h(u)}</loc>\n  </url>" for u in sitemap_urls)
+sitemap_xml = (
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    f'{sitemap_body}\n'
+    '</urlset>\n'
+)
+sitemap_path = os.path.join(OUTPUT_DIR, '..', 'sitemap.xml')
+with open(sitemap_path, 'w', encoding='utf-8') as f:
+    f.write(sitemap_xml)
+print(f"✓ sitemap.xml regenerated ({len(sitemap_urls)} URLs) → {sitemap_path}")

@@ -157,7 +157,7 @@ for r in recipes:
             item_text = h(t.get('item', ''))
             link      = t.get('link', '').strip()
             link_html = (
-                f' <a href="{h(link)}" class="amazon-link" target="_blank" rel="noopener sponsored">'
+                f' <a href="{h(link)}" class="affiliate-link" target="_blank" rel="noopener sponsored">'
                 f'Need it? Click here to start cooking</a>'
             ) if link else ''
             tool_items.append(f'<li>{item_text}{link_html}</li>')
@@ -165,7 +165,7 @@ for r in recipes:
             '<hr class="divider">'
             '<h2 class="section-heading">Speciality Items:</h2>'
             f'<ul class="tools-list">{"".join(tool_items)}</ul>'
-            '<p class="amazon-disclosure">As an Amazon Associate, Yes Chef! may earn from qualifying purchases.</p>'
+            '<p class="affiliate-disclosure">Yes Chef! may earn a commission from qualifying purchases made through links on this page.</p>'
         )
     else:
         tools_html = ''

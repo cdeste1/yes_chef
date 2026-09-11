@@ -103,8 +103,12 @@ def check_link(url: str) -> dict:
                     "reason":    f"Redirected to unavailable page (matched '{pattern}')",
                 }
 
-        # Check for significant redirect (product ASIN changed)
-        if final_url.rstrip("/") != url.rstrip("/"):
+        # amzn.to short links always redirect to a full amazon.com URL by
+        # design — that's not a signal of anything wrong, so only flag a
+        # redirect as noteworthy for direct amazon.com/dp/... links, where
+        # it usually means the ASIN was delisted or swapped.
+        is_short_link = "amzn.to" in url
+        if not is_short_link and final_url.rstrip("/") != url.rstrip("/"):
             return {
                 "status":    "redirect",
                 "http_code": http_code,

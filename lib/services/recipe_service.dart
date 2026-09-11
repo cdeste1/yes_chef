@@ -57,7 +57,15 @@ class RecipeService {
   static Future<List<Recipe>> getTop10Recipes() async {
     final allRecipes = await loadRecipes();
     if (allRecipes.length <= 10) return allRecipes;
-    return allRecipes.sublist(0, 10);
+
+    // There's no real popularity/rating signal yet, so rotate a
+    // deterministic random 10 that changes daily instead of always
+    // showing the same alphabetically-first 10 (recipes.json is merged
+    // in filename order).
+    final now = DateTime.now();
+    final dailySeed = now.year * 10000 + now.month * 100 + now.day;
+    final shuffled = List<Recipe>.from(allRecipes)..shuffle(Random(dailySeed));
+    return shuffled.take(10).toList();
   }
 
   static Future<List<Recipe>> searchRecipes(String query) async {

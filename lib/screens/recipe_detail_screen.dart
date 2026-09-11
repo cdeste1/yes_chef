@@ -297,6 +297,12 @@ class RecipeDetailScreen extends StatelessWidget {
 
             const SizedBox(height: 24),
 
+            // Ad banner + house ad — once per recipe page, not per sub-recipe
+            const NuggetPromoBanner(),
+            const AdBanner(),
+
+            const SizedBox(height: 16),
+
             // ===== ⬇️ Added collapsible disclaimer =====
             const RecipeDisclaimer(),
           ],
@@ -346,8 +352,6 @@ class RecipeDetailScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              const NuggetPromoBanner(),
-              const AdBanner(),
         ],
       ),
     );

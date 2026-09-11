@@ -34,7 +34,13 @@
     .back-btn svg{width:22px;height:22px}
     .header-left{display:flex;align-items:center;gap:14px;flex:1;min-width:0}
     .header-title{font-size:16px;font-weight:500;line-height:1.2;white-space:normal;overflow:visible;max-width:none}
+    .header-right{display:flex;align-items:center;gap:14px;flex-shrink:0}
+    .share-btn{display:flex;align-items:center;background:none;border:none;cursor:pointer;color:var(--white);padding:4px;opacity:.8;transition:opacity .2s}
+    .share-btn:hover{opacity:1}
+    .share-btn svg{width:22px;height:22px}
     .header-logo-link img{width:40px;height:40px;object-fit:contain;display:block}
+    .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:rgba(20,20,20,.95);color:var(--white);padding:10px 18px;border-radius:24px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:2000;border:1px solid var(--border)}
+    .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
     .recipe-wrap{max-width:720px;margin:0 auto;padding:0 16px 160px}
     .recipe-hero-img{width:100%;max-height:320px;object-fit:cover;border-radius:var(--radius);display:block;margin:20px 0 16px}
     .recipe-meta{font-size:14px;font-style:italic;color:var(--white-dim);line-height:1.6;margin-bottom:12px}
@@ -181,9 +187,14 @@
       </a>
       <span class="header-title">Blue Mussel Velouté with Saffron Foam &amp; Compressed Sea Beans</span>
     </div>
-    <a href="/" class="header-logo-link" aria-label="YesChef home">
-      <img src="/assets/assets/Photos/YesChefLogo.png" alt="YesChef">
-    </a>
+    <div class="header-right">
+      <button type="button" class="share-btn" aria-label="Share recipe" onclick="shareRecipe()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+      </button>
+      <a href="/" class="header-logo-link" aria-label="YesChef home">
+        <img src="/assets/assets/Photos/YesChefLogo.png" alt="YesChef">
+      </a>
+    </div>
   </header>
  
   <article class="recipe-wrap" itemscope itemtype="https://schema.org/Recipe">
@@ -309,6 +320,36 @@
         }
       });
     });
+  </script>
+
+  <!-- Share button -->
+  <script>
+    function showToast(msg) {
+      var toast = document.getElementById('site-toast');
+      if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'site-toast';
+        toast.className = 'toast';
+        document.body.appendChild(toast);
+      }
+      toast.textContent = msg;
+      toast.classList.add('show');
+      clearTimeout(toast._hideTimer);
+      toast._hideTimer = setTimeout(function () { toast.classList.remove('show'); }, 2000);
+    }
+
+    function shareRecipe() {
+      var url = window.location.href;
+      var title = document.querySelector('.header-title').textContent.trim();
+
+      if (navigator.share) {
+        navigator.share({ title: title, text: title, url: url }).catch(function () {});
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(function () {
+          showToast('Link copied!');
+        }).catch(function () {});
+      }
+    }
   </script>
  
 </body>

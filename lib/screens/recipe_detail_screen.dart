@@ -178,7 +178,7 @@ class RecipeDetailScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 16.0),
               child: Text(
-                'As an Amazon Associate, Yes Chef! may earn from qualifying purchases.',
+                'Yes Chef! may earn a commission from qualifying purchases made through links in this app.',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context)
                           .colorScheme

@@ -599,7 +599,7 @@ function downloadTemplate() {
       { item: "Tool name", link: "https://amazon.com/dp/...?tag=yeschef-20" }
     ],
     winePairings: [
-      { name: "Wine name", notes: "Tasting notes here." }
+      { name: "Wine name", notes: "Tasting notes here.", link: "" }
     ],
     sub_recipes: [
       {
@@ -813,7 +813,7 @@ function buildRecipeJSON() {
   document.querySelectorAll('#wines-list .list-item').forEach(item => {
     const inputs = item.querySelectorAll('input');
     const wname = inputs[0]?.value.trim();
-    if (wname) winePairings.push({ name: wname, notes: inputs[1]?.value.trim() || '' });
+    if (wname) winePairings.push({ name: wname, notes: inputs[1]?.value.trim() || '', link: inputs[2]?.value.trim() || '' });
   });
   const sub_recipes = [];
   document.querySelectorAll('#subs-list .list-item').forEach(item => {
@@ -907,6 +907,9 @@ function addWine() {
         <div class="field-row">
           <div class="field"><label>Wine Name <span class="req">*</span></label><input type="text" placeholder="e.g. 2019 Château Pichon Baron"></div>
           <div class="field"><label>Tasting Notes</label><input type="text" placeholder="e.g. Full-bodied with dark fruit..."></div>
+        </div>
+        <div class="field-row single">
+          <div class="field"><label>Affiliate Link (optional)</label><input type="url" placeholder="https://..."></div>
         </div>
       </div>
       <button class="btn-remove" onclick="removeItem('wine-${wineCount}')">×</button>
@@ -1036,7 +1039,7 @@ async function loadRecipeForEdit(recipe) {
   // Wines
   document.getElementById('e-wines-list').innerHTML = '';
   eWineCount = 0;
-  (recipe.winePairings || []).forEach(w => addEditWine(w.name || '', w.notes || ''));
+  (recipe.winePairings || []).forEach(w => addEditWine(w.name || '', w.notes || '', w.link || ''));
 
   // Sub-recipes
   document.getElementById('e-subs-list').innerHTML = '';
@@ -1078,7 +1081,7 @@ function buildEditRecipeJSON() {
   const winePairings = [];
   document.querySelectorAll('#e-wines-list .list-item').forEach(item => {
     const inputs = item.querySelectorAll('input');
-    const w = inputs[0]?.value.trim(); if (w) winePairings.push({ name: w, notes: inputs[1]?.value.trim() || '' });
+    const w = inputs[0]?.value.trim(); if (w) winePairings.push({ name: w, notes: inputs[1]?.value.trim() || '', link: inputs[2]?.value.trim() || '' });
   });
   const sub_recipes = [];
   document.querySelectorAll('#e-subs-list .list-item').forEach(item => {
@@ -1168,15 +1171,20 @@ function addEditTool(item='', link='') {
       <button class="btn-remove" onclick="removeItem('e-tool-${eToolCount}')">×</button>
     </div>`);
 }
-function addEditWine(name='', notes='') {
+function addEditWine(name='', notes='', link='') {
   eWineCount++;
   document.getElementById('e-wines-list').insertAdjacentHTML('beforeend', `
     <div class="list-item" id="e-wine-${eWineCount}">
       <div class="item-num">${eWineCount}</div>
-      <div class="item-fields"><div class="field-row">
-        <div class="field"><label>Wine Name</label><input type="text" value="${name}" placeholder="e.g. 2019 Château Pichon Baron"></div>
-        <div class="field"><label>Tasting Notes</label><input type="text" value="${notes}" placeholder="e.g. Full-bodied..."></div>
-      </div></div>
+      <div class="item-fields">
+        <div class="field-row">
+          <div class="field"><label>Wine Name</label><input type="text" value="${name}" placeholder="e.g. 2019 Château Pichon Baron"></div>
+          <div class="field"><label>Tasting Notes</label><input type="text" value="${notes}" placeholder="e.g. Full-bodied..."></div>
+        </div>
+        <div class="field-row single">
+          <div class="field"><label>Affiliate Link (optional)</label><input type="url" value="${link}" placeholder="https://..."></div>
+        </div>
+      </div>
       <button class="btn-remove" onclick="removeItem('e-wine-${eWineCount}')">×</button>
     </div>`);
 }

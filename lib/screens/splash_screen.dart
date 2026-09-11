@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 import 'home_screen.dart'; // adjust path if needed
 
 class SplashScreen extends StatefulWidget {
@@ -24,6 +25,7 @@ class _SplashScreenState extends State<SplashScreen>
     );
 
     _controller.forward();
+    _requestTrackingPermission();
 
     // Wait for animation + small delay
     Future.delayed(const Duration(seconds: 3), () {
@@ -32,6 +34,18 @@ class _SplashScreenState extends State<SplashScreen>
         MaterialPageRoute(builder: (_) => const HomeScreen()),
       );
     });
+  }
+
+  // Without this, iOS zeroes out the IDFA and AdMob can only serve
+  // non-personalized ads, which pay noticeably less. Requested here so it
+  // resolves during the splash delay, well before any ad-loading screen
+  // (results/recipe detail) is reached. No-op on Android.
+  Future<void> _requestTrackingPermission() async {
+    final status = await AppTrackingTransparency.trackingAuthorizationStatus;
+    if (status == TrackingStatus.notDetermined) {
+      await Future.delayed(const Duration(milliseconds: 200));
+      await AppTrackingTransparency.requestTrackingAuthorization();
+    }
   }
 
   @override

@@ -123,13 +123,15 @@ class StepItem {
 class WinePairing {
   final String name;
   final String notes;
+  final String link;
 
-  WinePairing({required this.name, required this.notes});
+  WinePairing({required this.name, required this.notes, this.link = ''});
 
   factory WinePairing.fromJson(Map<String, dynamic> json) {
     return WinePairing(
       name: json["name"] ?? "",
       notes: json["notes"] ?? "",
+      link: json["link"] ?? "",
     );
   }
 }

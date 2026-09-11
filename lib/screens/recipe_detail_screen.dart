@@ -99,19 +99,21 @@ class RecipeDetailScreen extends StatelessWidget {
             const Divider(thickness: 1),
 
             // ===== Ingredients =====
-            const Text('Ingredients:',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-            const SizedBox(height: 6),
-            ...recipe.ingredients.map((ing) => Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 2.0),
-                  child: Text(
-                    '• '
-                    '${ing.quantity.isNotEmpty ? '${ing.quantity} - ' : ''}'
-                    '${ing.item}'
-                    '${ing.note.isNotEmpty ? ' (${ing.note})' : ''}',
-                    style: const TextStyle(fontSize: 15, height: 1.4),
-                  ),
-                )),
+            if (recipe.ingredients.isNotEmpty) ...[
+              const Text('Ingredients:',
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+              const SizedBox(height: 6),
+              ...recipe.ingredients.map((ing) => Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 2.0),
+                    child: Text(
+                      '• '
+                      '${ing.quantity.isNotEmpty ? '${ing.quantity} - ' : ''}'
+                      '${ing.item}'
+                      '${ing.note.isNotEmpty ? ' (${ing.note})' : ''}',
+                      style: const TextStyle(fontSize: 15, height: 1.4),
+                    ),
+                  )),
+            ],
 
             const SizedBox(height: 16),
             const Divider(thickness: 1),
@@ -256,6 +258,28 @@ class RecipeDetailScreen extends StatelessWidget {
                                   style: TextStyle(
                                     color: Colors.white.withValues(alpha: 0.8),
                                     fontSize: 14,
+                                  ),
+                                ),
+                              ),
+                            if (w.link.isNotEmpty)
+                              Padding(
+                                padding: const EdgeInsets.only(left: 14, top: 4),
+                                child: GestureDetector(
+                                  onTap: () async {
+                                    final uri = Uri.parse(w.link);
+                                    if (await canLaunchUrl(uri)) {
+                                      await launchUrl(uri,
+                                          mode: LaunchMode.externalApplication);
+                                    }
+                                  },
+                                  child: const Text(
+                                    'Shop this wine',
+                                    style: TextStyle(
+                                      color: Color(0xFFF58220),
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 13,
+                                      decoration: TextDecoration.underline,
+                                    ),
                                   ),
                                 ),
                               ),

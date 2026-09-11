@@ -12471,7 +12471,7 @@
   {
     "name": "Koji-Aged Pork Loin with Smoked Apple Gel, Black Garlic Jus & Fermented Carrot Silk",
     "description": "A Michelin-level pork main course featuring koji-aged pork loin cooked sous vide and seared to perfection, paired with smoked apple gel, black garlic jus, fermented carrot silk, and pork fat crumb. A balance of umami, acidity, smoke, and texture using modernist techniques.",
-    "category": "Main Course",
+    "category": "Main",
     "keywords": "koji pork, sous vide pork loin, black garlic jus, modernist cuisine, fine dining pork, fermented carrot, smoked apple gel",
     "yield": "Serves 4",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/koji-aged-pork-loin-with-smoked-apple-gel-black-garlic-jus-fermented-carrot-silk.png",
@@ -12683,7 +12683,7 @@
     "chef": "Alain Passard",
     "yield": "Serves 2",
     "description": "Seasonal vegetables, gently cooked to highlight natural sweetness.",
-    "category": "Vegetable",
+    "category": "Sides",
     "keywords": "arpege, vegetables, passard, farm, fine dining",
     "ingredients": [
       {

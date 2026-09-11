@@ -1,19 +1,41 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:share_plus/share_plus.dart';
 import '../models/recipe_model.dart';
 import '../widgets/ad_banner.dart';
+import '../widgets/nugget_promo_banner.dart';
 
 class RecipeDetailScreen extends StatelessWidget {
   final Recipe recipe;
 
   const RecipeDetailScreen({super.key, required this.recipe});
 
+  void _shareRecipe(BuildContext context) {
+    final box = context.findRenderObject() as RenderBox?;
+    SharePlus.instance.share(
+      ShareParams(
+        text: '${recipe.name}\n${recipe.shareUrl}',
+        sharePositionOrigin:
+            box != null ? box.localToGlobal(Offset.zero) & box.size : null,
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(recipe.name),
+        actions: [
+          Builder(
+            builder: (context) => IconButton(
+              icon: const Icon(Icons.share),
+              tooltip: 'Share recipe',
+              onPressed: () => _shareRecipe(context),
+            ),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
@@ -324,6 +346,7 @@ class RecipeDetailScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              const NuggetPromoBanner(),
               const AdBanner(),
         ],
       ),

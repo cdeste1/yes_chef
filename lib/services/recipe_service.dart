@@ -7,7 +7,6 @@ import '../models/recipe_model.dart';
 class RecipeService {
   static const String _url = 'https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json'; // 👈 your R2 URL
   static const String _cacheKey = 'cached_recipes';
-  static const int _cacheTtlHours = 24;
 
   // ─── Core Loader ────────────────────────────────────────────────────────────
 
@@ -59,42 +58,6 @@ class RecipeService {
     final allRecipes = await loadRecipes();
     if (allRecipes.length <= 10) return allRecipes;
     return allRecipes.sublist(0, 10);
-  }
-
-  static Future<Recipe?> randomRecipe() async {
-    final allRecipes = await loadRecipes();
-    if (allRecipes.isEmpty) return null;
-    return allRecipes[Random().nextInt(allRecipes.length)];
-  }
-
-  static Future<Map<String, Recipe?>> randomMealSet() async {
-    final allRecipes = await loadRecipes();
-    if (allRecipes.isEmpty) {
-      return {'cocktail': null, 'bread': null, 'brunch': null, 'starter': null,
-              'main': null, 'sides': null, 'dessert': null};
-    }
-
-    final random = Random();
-    Recipe? pickRandom(List<Recipe> list) =>
-        list.isNotEmpty ? list[random.nextInt(list.length)] : null;
-
-    final cocktails = allRecipes.where((r) => r.category.toLowerCase() == 'cocktail').toList();
-    final breads    = allRecipes.where((r) => r.category.toLowerCase() == 'bread').toList();
-    final brunchs    = allRecipes.where((r) => r.category.toLowerCase() == 'brunch').toList();
-    final starters  = allRecipes.where((r) => r.category.toLowerCase() == 'starter').toList();
-    final mains     = allRecipes.where((r) => r.category.toLowerCase() == 'main').toList();
-    final sides     = allRecipes.where((r) => r.category.toLowerCase() == 'sides').toList();
-    final desserts  = allRecipes.where((r) => r.category.toLowerCase() == 'dessert').toList();
-
-    return {
-      'cocktail': pickRandom(cocktails),
-      'bread':    pickRandom(breads),
-      'brunch':   pickRandom(brunchs),
-      'starter':  pickRandom(starters),
-      'main':     pickRandom(mains),
-      'sides':    pickRandom(sides),
-      'dessert':  pickRandom(desserts),
-    };
   }
 
   static Future<List<Recipe>> searchRecipes(String query) async {

@@ -56,6 +56,14 @@ class Recipe {
           .toList(),
     );
   }
+
+  /// Mirrors generate.py's to_slug(): re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+  String get slug {
+    final replaced = name.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]+'), '-');
+    return replaced.replaceAll(RegExp(r'^-+|-+$'), '');
+  }
+
+  String get shareUrl => 'https://tryyeschef.app/recipes/$slug/';
 }
 
 class Ingredient {

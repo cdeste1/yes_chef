@@ -3,6 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import '../models/recipe_model.dart';
 import 'recipe_detail_screen.dart';
 import '../widgets/ad_banner.dart';
+import '../widgets/nugget_promo_banner.dart';
 
 class ResultsListScreen extends StatelessWidget {
   final List<Recipe> recipes;
@@ -163,7 +164,8 @@ class ResultsListScreen extends StatelessWidget {
                   ),
           ),
 
-          // ✅ Ad banner pinned at bottom
+          // Ad banner + house ad pinned at bottom
+          const NuggetPromoBanner(),
           const AdBanner(),
         ],
       ),

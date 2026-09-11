@@ -10,13 +10,15 @@ class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  static const List<String> _categories = [
+    'Cocktail', 'Bread', 'Brunch', 'Starter', 'Main', 'Sides', 'Dessert',
+  ];
+
   final TextEditingController _searchController = TextEditingController();
-  List<Recipe> _results = [];
-  bool _isSearching = false;
   Map<String, Recipe?> _randomMenu = {};
   List<Recipe> _topRecipes = [];
 
@@ -29,12 +31,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadRandomMenu() async {
   final allRecipes = await RecipeService.getAllRecipes(); // assumes all recipes from JSON
-  final categories = ['Cocktail', 'Bread', 'Brunch', 'Starter', 'Main', 'Sides', 'Dessert'];
 
   final Set<String> usedIds = {}; // track duplicates
   final Map<String, Recipe?> randomMenu = {};
 
-  for (final category in categories) {
+  for (final category in _categories) {
     // find all recipes matching this category and not already used
     final candidates = allRecipes.where((r) {
       return r.category.contains(category) && !usedIds.contains(r.name);
@@ -62,25 +63,15 @@ class _HomeScreenState extends State<HomeScreen> {
     final query = _searchController.text.trim();
     if (query.isEmpty) return;
 
-    setState(() {
-      _isSearching = true;
-      _results = [];
-    });
+    final results = await RecipeService.searchRecipes(query);
 
-    List<Recipe> results = await RecipeService.searchRecipes(query);
-
-    setState(() {
-      _results = results;
-      _isSearching = false;
-    });
-      // Navigate to results screen
+    if (!mounted) return;
     Navigator.push(
-    context,
-    MaterialPageRoute(
-      builder: (_) => ResultsListScreen(query: query, recipes: results),
-    ),
-  );
-    
+      context,
+      MaterialPageRoute(
+        builder: (_) => ResultsListScreen(query: query, recipes: results),
+      ),
+    );
   }
 
   Widget _buildRecipeCard(Recipe recipe, {double height = 160}) {
@@ -175,14 +166,13 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildCategoriesBar() {
-    final categories = ['Cocktail', 'Bread', 'Brunch', 'Starter', 'Main', 'Sides', 'Dessert'];
     return SizedBox(
       height: 40,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
-        itemCount: categories.length,
+        itemCount: _categories.length,
         itemBuilder: (_, index) {
-          final category = categories[index];
+          final category = _categories[index];
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 6),
             child: ActionChip(

@@ -740,36 +740,55 @@
       document.querySelectorAll('.chip').forEach(c => c.classList.remove('chip-active'));
     }
  
-    // ── Fuzzy search (mirrors Flutter service logic) ──────────────────────────
+    // ── Ranked search (mirrors Flutter service logic) ──────────────────────────
+    // Scores each recipe's relevance so a "chicken" search surfaces actual
+    // chicken dishes before recipes that merely use chicken stock, rather
+    // than mixing every incidental match together in data order.
+    function relevance(r, q) {
+      let score = 0;
+      const name = (r.name || '').toLowerCase();
+
+      if (name === q) score += 100;
+      else if (name.startsWith(q)) score += 70;
+      else if (name.includes(q)) score += 50;
+
+      if ((r.keywords || '').toLowerCase().includes(q)) score += 40;
+      if ((r.category || '').toLowerCase().includes(q)) score += 30;
+      if ((r.chef || '').toLowerCase().includes(q)) score += 30;
+      if ((r.source || '').toLowerCase().includes(q)) score += 20;
+      if ((r.description || '').toLowerCase().includes(q)) score += 15;
+
+      if ((r.ingredients || []).some(ing =>
+        (ing.item || '').toLowerCase().includes(q) || (ing.note || '').toLowerCase().includes(q)
+      )) score += 12;
+
+      if ((r.specialtools || []).some(t => (t.item || '').toLowerCase().includes(q))) score += 8;
+
+      (r.sub_recipes || []).forEach(sub => {
+        if ((sub.name || '').toLowerCase().includes(q)) score += 10;
+        if ((sub.ingredients || []).some(i => (i.item || '').toLowerCase().includes(q))) score += 6;
+      });
+
+      if ((r.steps || []).some(s => (s.instruction || '').toLowerCase().includes(q))) score += 5;
+
+      return score;
+    }
+
     function searchRecipes(query) {
       const q = query.toLowerCase().trim();
       if (!q) return [];
- 
+
       // Strict category match first
       const cats = ['cocktail','starter','brunch', 'main','sides','dessert','bread'];
       if (cats.includes(q)) {
         return ALL_RECIPES.filter(r => (r.category || '').toLowerCase() === q);
       }
- 
-      return ALL_RECIPES.filter(r => {
-        const fields = [r.name, r.source, r.category, r.keywords, r.chef, r.description]
-          .map(f => (f || '').toLowerCase());
-        if (fields.some(f => f.includes(q))) return true;
- 
-        const inIngredients = (r.ingredients || []).some(ing =>
-          (ing.item || '').toLowerCase().includes(q) || (ing.note || '').toLowerCase().includes(q)
-        );
-        if (inIngredients) return true;
- 
-        const inSteps = (r.steps || []).some(s => (s.instruction || '').toLowerCase().includes(q));
-        if (inSteps) return true;
- 
-        const inSubs = (r.sub_recipes || []).some(sub =>
-          (sub.name || '').toLowerCase().includes(q) ||
-          (sub.ingredients || []).some(i => (i.item || '').toLowerCase().includes(q))
-        );
-        return inSubs;
-      });
+
+      return ALL_RECIPES
+        .map(r => ({ r, score: relevance(r, q) }))
+        .filter(e => e.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .map(e => e.r);
     }
  
     // ── Main search trigger ───────────────────────────────────────────────────

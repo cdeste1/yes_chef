@@ -72,44 +72,58 @@ class RecipeService {
       return allRecipes.where((r) => r.category.toLowerCase() == lowerQuery).toList();
     }
 
-    return allRecipes.where((recipe) {
-      bool matchFound =
-          recipe.name.toLowerCase().contains(lowerQuery) ||
-          recipe.source.toLowerCase().contains(lowerQuery) ||
-          recipe.category.toLowerCase().contains(lowerQuery) ||
-          recipe.keywords.toLowerCase().contains(lowerQuery) ||
-          recipe.chef.toLowerCase().contains(lowerQuery) ||
-          recipe.description.toLowerCase().contains(lowerQuery);
+    final scored = allRecipes
+        .map((r) => MapEntry(r, _relevance(r, lowerQuery, query)))
+        .where((e) => e.value > 0)
+        .toList()
+      ..sort((a, b) => b.value.compareTo(a.value));
 
-      if (!matchFound) {
-        matchFound = recipe.ingredients.any((ing) =>
-            ing.item.toLowerCase().contains(lowerQuery) ||
-            ing.note.toLowerCase().contains(lowerQuery));
-      }
-      if (!matchFound) {
-        matchFound = recipe.specialtools.any((tool) =>
-            tool.item.toLowerCase().contains(lowerQuery));
-      }
-      if (!matchFound) {
-        matchFound = recipe.steps.any((step) =>
-            step.instruction.toLowerCase().contains(lowerQuery));
-      }
-      if (!matchFound) {
-        for (var sub in recipe.subRecipes) {
-          if (sub.name.toLowerCase().contains(lowerQuery) ||
-              sub.ingredients.any((i) => i.item.toLowerCase().contains(lowerQuery))) {
-            matchFound = true;
-            break;
-          }
-        }
-      }
-      if (!matchFound) {
-        matchFound = _similarity(recipe.name, query) > 0.6 ||
-                     _similarity(recipe.chef, query) > 0.6;
-      }
+    return scored.map((e) => e.key).toList();
+  }
 
-      return matchFound;
-    }).toList();
+  // Ranks how relevant a recipe is to a query so that "chicken" surfaces
+  // actual chicken dishes before recipes that merely use chicken stock.
+  static int _relevance(Recipe recipe, String lowerQuery, String rawQuery) {
+    int score = 0;
+    final name = recipe.name.toLowerCase();
+
+    if (name == lowerQuery) {
+      score += 100;
+    } else if (name.startsWith(lowerQuery)) {
+      score += 70;
+    } else if (name.contains(lowerQuery)) {
+      score += 50;
+    }
+
+    if (recipe.keywords.toLowerCase().contains(lowerQuery)) score += 40;
+    if (recipe.category.toLowerCase().contains(lowerQuery)) score += 30;
+    if (recipe.chef.toLowerCase().contains(lowerQuery)) score += 30;
+    if (recipe.source.toLowerCase().contains(lowerQuery)) score += 20;
+    if (recipe.description.toLowerCase().contains(lowerQuery)) score += 15;
+
+    if (recipe.ingredients.any((ing) =>
+        ing.item.toLowerCase().contains(lowerQuery) ||
+        ing.note.toLowerCase().contains(lowerQuery))) {
+      score += 12;
+    }
+    if (recipe.specialtools.any((tool) => tool.item.toLowerCase().contains(lowerQuery))) {
+      score += 8;
+    }
+    for (var sub in recipe.subRecipes) {
+      if (sub.name.toLowerCase().contains(lowerQuery)) score += 10;
+      if (sub.ingredients.any((i) => i.item.toLowerCase().contains(lowerQuery))) score += 6;
+    }
+    if (recipe.steps.any((step) => step.instruction.toLowerCase().contains(lowerQuery))) {
+      score += 5;
+    }
+
+    // Typo-tolerant fallback only kicks in when nothing else matched.
+    if (score == 0) {
+      final sim = max(_similarity(recipe.name, rawQuery), _similarity(recipe.chef, rawQuery));
+      if (sim > 0.6) score += (sim * 40).round();
+    }
+
+    return score;
   }
 
   // ─── Fuzzy Helpers (unchanged) ───────────────────────────────────────────────

@@ -151,6 +151,10 @@ for r in recipes:
     yield_html = f'<p class="recipe-yield" itemprop="recipeYield">{h(yield_)}</p>' if yield_ else ''
 
     ing_html = '\n'.join(f'<li>{ing_line(i)}</li>' for i in ingredients)
+    ingredients_section_html = (
+        '<h2 class="section-heading">Ingredients:</h2>'
+        f'<ul class="ing-list" itemprop="recipeIngredient">{ing_html}</ul>'
+    ) if ingredients else ''
 
     tools = r.get('specialtools', [])
     if tools:
@@ -174,11 +178,17 @@ for r in recipes:
 
     wine = r.get('winePairings', [])
     if wine:
-        wine_items = ''.join(
-            f'<div class="wine-item"><strong>{h(w.get("name",""))}</strong>'
-            f'<p>{h(w.get("notes",""))}</p></div>'
-            for w in wine
-        )
+        wine_parts = []
+        for w in wine:
+            w_link = w.get('link', '').strip()
+            w_link_html = (
+                f'<p><a href="{h(w_link)}" class="affiliate-link" target="_blank" rel="noopener sponsored">Shop this wine</a></p>'
+            ) if w_link else ''
+            wine_parts.append(
+                f'<div class="wine-item"><strong>{h(w.get("name",""))}</strong>'
+                f'<p>{h(w.get("notes",""))}</p>{w_link_html}</div>'
+            )
+        wine_items = ''.join(wine_parts)
         sommelier_html = (
             '<div class="sommelier-block">'
             '<p>🍷Sommelier\'s Recommendation</p>'
@@ -266,7 +276,7 @@ for r in recipes:
     page = page.replace('{{META_HTML}}',        meta_html)
     page = page.replace('{{DESCRIPTION_HTML}}', desc_html)
     page = page.replace('{{YIELD_HTML}}',       yield_html)
-    page = page.replace('{{INGREDIENTS_HTML}}', ing_html)
+    page = page.replace('{{INGREDIENTS_SECTION_HTML}}', ingredients_section_html)
     page = page.replace('{{TOOLS_HTML}}',       tools_html)
     page = page.replace('{{SOMMELIER_HTML}}',   sommelier_html)
     page = page.replace('{{STEPS_HTML}}',       steps_html)

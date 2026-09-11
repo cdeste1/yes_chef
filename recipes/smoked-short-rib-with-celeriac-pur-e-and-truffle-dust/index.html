@@ -86,6 +86,15 @@
     /* ── AD BLOCK ── */
     .ad-block{margin:20px 0;min-height:60px;display:flex;align-items:center;justify-content:center}
     .adsbygoogle{display:block}
+
+    /* ── HOUSE AD (Nuggget) ── */
+    .house-ad{display:flex;align-items:center;gap:12px;margin:20px 0;min-height:60px;padding:10px 14px;background:var(--dark-card);border:1px solid var(--border);border-radius:var(--radius);text-decoration:none;color:inherit;transition:border-color .2s}
+    .house-ad:hover{border-color:var(--orange)}
+    .house-ad img{width:40px;height:40px;border-radius:8px;object-fit:cover;flex-shrink:0}
+    .house-ad-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+    .house-ad-title{font-size:14px;font-weight:700;color:var(--white)}
+    .house-ad-sub{font-size:12px;color:var(--white-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .house-ad-tag{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--white-dim);flex-shrink:0}
  
     @media(min-width:600px){.recipe-hero-img{max-height:400px}.header-title{max-width:360px}}
     @media(min-width:900px){header{padding:12px 40px}.recipe-wrap{padding:0 24px 160px}}
@@ -189,9 +198,6 @@
  
     <div class="ad-block">
       <div id="ad-widget">
-  <!-- This text shows only if the ad fails to load -->
-  <span class="ad-placeholder-text">SPONSORED</span>
-  
   <ins class="adsbygoogle"
        style="display:block; width:100%; height:50px;"
        data-ad-client="ca-pub-2497070669800198"
@@ -200,9 +206,18 @@
 </div>
 
     </div>
- 
+
+    <a class="house-ad" href="https://nuggget.app/" target="_blank" rel="noopener sponsored">
+      <img src="/icons/nugget.png" alt="Nuggget" loading="lazy">
+      <span class="house-ad-text">
+        <span class="house-ad-title">Nuggget</span>
+        <span class="house-ad-sub">Nuggget: One Ask. One Tap. Done</span>
+      </span>
+      <span class="house-ad-tag">Our App</span>
+    </a>
+
     <hr class="divider-double">
-    
+
     <div class="sub-recipe"><h3>Smoked Short Rib</h3><h4>Ingredients:</h4><ul><li>3-4 lbs – Beef short ribs</li>
 <li>2 tbsp – Olive oil</li>
 <li>Salt (to taste)</li>
@@ -227,9 +242,6 @@
  
     <div class="ad-block">
       <div id="ad-widget">
-  <!-- This text shows only if the ad fails to load -->
-  <span class="ad-placeholder-text">SPONSORED</span>
-  
   <ins class="adsbygoogle"
        style="display:block; width:100%; height:50px;"
        data-ad-client="ca-pub-2497070669800198"
@@ -238,7 +250,16 @@
 </div>
 
     </div>
- 
+
+    <a class="house-ad" href="https://nuggget.app/" target="_blank" rel="noopener sponsored">
+      <img src="/icons/nugget.png" alt="Nuggget" loading="lazy">
+      <span class="house-ad-text">
+        <span class="house-ad-title">Nuggget</span>
+        <span class="house-ad-sub">Nuggget: One Ask. One Tap. Done</span>
+      </span>
+      <span class="house-ad-tag">Our App</span>
+    </a>
+
     <details>
       <summary>More Info</summary>
       <p class="disclaimer-text">Disclaimer: The information and recipes provided within this application are intended for general informational and personal use only. Yes Chef makes no guarantees regarding accuracy, ingredient safety, or cooking outcomes. Users are responsible for checking allergen information, food safety temperatures, and proper handling of all ingredients. By using this app, you acknowledge that Yes Chef and its contributors are not liable for any adverse reactions, injuries, or results that may occur.</p>

@@ -40,7 +40,7 @@
     "description": "Discover restaurant-quality recipes and elevate your home cooking",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://tryyeschef.app/search?q={search_term_string}",
+      "target": "https://tryyeschef.app/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -872,6 +872,14 @@
       // showing the same alphabetically-first 10.
       const dailyTop10 = seededShuffle(ALL_RECIPES, todaySeed()).slice(0, 10);
       document.getElementById('top10-track').innerHTML = dailyTop10.map(top10Card).join('');
+
+      // Honors ?q= so the JSON-LD SearchAction (Google's sitelinks searchbox)
+      // and any shared search-result links actually land on real results.
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) {
+        document.getElementById('search-input').value = q;
+        runSearch();
+      }
     }
  
     init();

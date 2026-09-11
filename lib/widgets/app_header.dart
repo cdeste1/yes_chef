@@ -4,10 +4,8 @@ import 'package:url_launcher/url_launcher.dart';
 class AppHeader extends StatelessWidget {
   const AppHeader({super.key});
 
-  static const String privacyUrl =
-      "https://cdeste1.github.io/yes_chef/legal/privacy.html";
-  static const String termsUrl =
-      "https://cdeste1.github.io/yes_chef/legal/terms.html";
+  static const String privacyUrl = "https://tryyeschef.app/legal/privacy.html";
+  static const String termsUrl = "https://tryyeschef.app/legal/terms.html";
 
   Future<void> _launchURL(String url) async {
     final Uri uri = Uri.parse(url);

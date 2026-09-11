@@ -1,39 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – Yes Chef</title>
+  <meta name="description" content="Yes Chef's privacy policy: what data is collected, how advertising and affiliate links work, and how to contact us.">
+  <link rel="icon" type="image/png" href="/assets/Photos/YesChefLogo-square.png">
+  <link rel="apple-touch-icon" href="/assets/Photos/YesChefLogo-square.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{--black:#000;--dark-card:#111;--border:rgba(255,255,255,0.08);--orange:#F58220;--white:#fff;--white-dim:rgba(255,255,255,0.6);--radius:12px;--font-display:'Playfair Display',serif;--font-body:'DM Sans',sans-serif}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--black);color:var(--white);font-family:var(--font-body);font-weight:300;min-height:100vh;overflow-x:hidden}
+    header{position:sticky;top:0;z-index:1000;background:rgba(0,0,0,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:14px;padding:10px 20px}
+    .back-btn{display:flex;align-items:center;background:none;border:none;cursor:pointer;color:var(--white);padding:4px;opacity:.8;transition:opacity .2s;text-decoration:none}
+    .back-btn:hover{opacity:1}
+    .back-btn svg{width:22px;height:22px}
+    .header-title{font-size:16px;font-weight:500}
+    .legal-wrap{max-width:680px;margin:0 auto;padding:32px 20px 80px}
+    h1{font-family:var(--font-display);font-size:32px;font-weight:700;margin-bottom:6px}
+    .effective-date{font-size:13px;font-style:italic;color:var(--white-dim);margin-bottom:28px}
+    .intro{font-size:15px;line-height:1.7;color:rgba(255,255,255,.85);margin-bottom:28px}
+    h2{font-family:var(--font-display);font-size:20px;font-weight:700;margin:28px 0 10px;color:var(--orange)}
+    p{font-size:15px;line-height:1.7;color:rgba(255,255,255,.85);margin-bottom:8px}
+    ul{list-style:none;margin:10px 0 14px}
+    ul li{font-size:15px;line-height:1.6;color:rgba(255,255,255,.85);padding:4px 0 4px 18px;position:relative}
+    ul li::before{content:'•';color:var(--orange);position:absolute;left:0}
+    a{color:var(--orange);text-decoration:underline}
+    .divider{border:none;border-top:1px solid var(--border);margin:24px 0}
+    .contact-block{background:var(--dark-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin-top:24px}
+    .contact-block p{margin:0}
+    @media(min-width:900px){header{padding:12px 40px}}
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Effective Date: February 2026</p>
-  <p>Yes Chef ("we", "our", or "us") respects your privacy. This Privacy Policy explains how information is handled when you use the Yes Chef mobile application.</p>
-  <h2>Information We Collect</h2>
-  <p>Yes Chef does **not** require user accounts and does not directly collect personal information such as names, emails, or passwords.  
-    However, the app uses third-party services that may automatically collect certain information, including:
-      - Device information
-      - Advertising identifiers
-      - Usage data
-      - IP address
-      - General location (non-precise)
-    This data is collected by third-party services described below.
- </p>
-  <h2>Advertising</h2>
-  <p>Yes Chef displays advertisements provided by **Google AdMob**.  
-      Google may collect and use data in accordance with its own Privacy Policy to provide personalized or non-personalized ads.
-      Learn more: https://policies.google.com/privacy</p>
-  <h2>Afflicate Links</h2>
-  <p>Yes Chef participates in the **Amazon Associates Program**, an affiliate advertising program.
-    When you tap an Amazon link:
-      - You are redirected to Amazon.
-      - Amazon may collect information according to its own Privacy Policy.
-      - Yes Chef may earn a commission from qualifying purchases.
-  Amazon Privacy Policy: https://www.amazon.com/privacy</p>
+  <header>
+    <a href="/" class="back-btn" aria-label="Back to home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </a>
+    <span class="header-title">Yes Chef</span>
+  </header>
 
-  
-  <h2>Data Storage</h2>
-  <p>Yes Chef does not store personal user data on its own servers.</p>
-  <h2>Contact</h2>
-  <p>Email: cdeste1@gmail.com</p>
+  <div class="legal-wrap">
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective Date: February 2026</p>
+    <p class="intro">Yes Chef ("we", "our", or "us") respects your privacy. This Privacy Policy explains how information is handled when you use the Yes Chef mobile application.</p>
+
+    <h2>Information We Collect</h2>
+    <p>Yes Chef does <strong>not</strong> require user accounts and does not directly collect personal information such as names, emails, or passwords. However, the app uses third-party services that may automatically collect certain information, including:</p>
+    <ul>
+      <li>Device information</li>
+      <li>Advertising identifiers</li>
+      <li>Usage data</li>
+      <li>IP address</li>
+      <li>General location (non-precise)</li>
+    </ul>
+    <p>This data is collected by the third-party services described below.</p>
+
+    <h2>Advertising</h2>
+    <p>Yes Chef displays advertisements provided by <strong>Google AdMob</strong>. Google may collect and use data in accordance with its own Privacy Policy to provide personalized or non-personalized ads. Learn more: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+
+    <h2>Affiliate Links</h2>
+    <p>Yes Chef participates in affiliate advertising programs, including the <strong>Amazon Associates Program</strong>. When you tap an affiliate link:</p>
+    <ul>
+      <li>You are redirected to the retailer's site.</li>
+      <li>The retailer may collect information according to its own Privacy Policy.</li>
+      <li>Yes Chef may earn a commission from qualifying purchases.</li>
+    </ul>
+    <p>Amazon Privacy Policy: <a href="https://www.amazon.com/privacy" target="_blank" rel="noopener">amazon.com/privacy</a></p>
+
+    <h2>Data Storage</h2>
+    <p>Yes Chef does not store personal user data on its own servers.</p>
+
+    <hr class="divider">
+
+    <h2>Contact</h2>
+    <div class="contact-block">
+      <p>Email: <a href="mailto:cdeste1@gmail.com">cdeste1@gmail.com</a></p>
+    </div>
+  </div>
 </body>
 </html>

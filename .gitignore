@@ -59,3 +59,9 @@ ios/Podfile.lock
 # VS Code
 .vscode/
 .idea/
+
+# Generated recipe site output — deploy.yml regenerates these fresh from
+# recipes/**/*.json on every deploy; committing them just goes stale.
+web/recipes/*/
+web/recipes/recipes.json
+web/sitemap.xml

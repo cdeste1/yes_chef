@@ -2,6 +2,7 @@
   {
     "name": "Aegean Fire & Smoke",
     "description": "A Michelin-level Greek-inspired seafood starter featuring wine-braised and charcoal-charred octopus with whipped barrel-aged feta mousse, tomato water pearls, burnt thyme honey, olive ash tuile, compressed cucumber ribbons, and frozen yogurt shards.",
+    "headnote": "Octopus gets cooked twice here for a reason: the overnight braise in Assyrtiko wine breaks down the connective tissue until it's fork-tender, then the cold smoke and binchotan char build a completely different layer of flavor on top without drying it back out. That's the trick octopus recipes usually skip — treat the tenderizing and the flavoring as two separate jobs instead of trying to do both over one fire.",
     "category": "Starter",
     "keywords": "greek, octopus, michelin, fine dining, seafood, feta mousse, molecular gastronomy, modern greek cuisine",
     "yield": "Serves 4",
@@ -282,6 +283,7 @@
     "chef": " Massimo Bottura",
     "yield": "8 servings",
     "description": "Silky agnolotti served in a lemon cream sauce.  The Limoncello makes it a little sweet to balance the savory ricotta",
+    "headnote": "Ricotta filling can go watery fast, which is why this one leans on egg and a touch of garlic powder to hold its shape once it hits boiling water. The limoncello in the sauce isn't there for a citrus punch so much as a rounder sweetness that keeps the sauce from tasting flat next to the tangy ricotta.",
     "category": "Starter",
     "keywords": "pasta, ravioli, lemon, dinner, italian",
     "winePairings": [
@@ -463,6 +465,7 @@
     "chef": " Massimo Bottura",
     "yield": "Serves 6",
     "description": "An iconic dish from Piemonte, the pasta is filled with veal, pork, spinach, Parmigiano Reggiano, and eggs, then served in a sage butter sauce.",
+    "headnote": "Plin means pinch in Piedmontese dialect, and it's literally how these are formed — the dough gets pinched shut around the filling by hand instead of cut with a wheel, which is what gives each agnolotto its small, tightly-sealed shape. Finishing them in butter reduced with pasta water rather than plain melted butter is what turns the sauce silky instead of just greasy.",
     "category": "Main",
     "keywords": "pasta, italian, piemontese, agnolotti, filled pasta",
     "winePairings": [
@@ -695,6 +698,7 @@
   {
     "name": "Asparagus Pavé with Brown Butter Sabayon, Morels & Caviar",
     "description": "A structural culinary masterpiece featuring precisely layered and compressed asparagus spears, slow-cooked sous-vide to velvet tenderness with a glass-like crisp exterior. Finished with a light, airy brown butter sabayon, sautéed morel mushrooms, and crowned with luxurious caviar.",
+    "headnote": "A pavé is just a paving stone in French, and that's the whole idea — the asparagus ribbons get vacuum-sealed and cooked sous vide at a fixed 82°C so they hold a clean, structural block instead of collapsing into a pile of spears. Brown butter turned into sabayon (whisked over heat like a hollandaise instead of just melted) is what gives it enough body to actually cling to that shape on the plate.",
     "category": "Sides",
     "keywords": "asparagus pavé, michelin style, brown butter sabayon, morels, caviar, molecular gastronomy, haute cuisine",
     "yield": "Serves 4",
@@ -841,6 +845,7 @@
   {
     "name": "Avocado Royale",
     "description": "An elegant avocado-centric brunch course featuring vacuum-compressed Hass avocado carpaccio, sweet Dungeness crab, a custardy 63°C sous-vide quail egg, and a light truffle-infused avocado espuma.",
+    "headnote": "Compression is what turns humble avocado into something worth plating tableside — thirty seconds under vacuum collapses the fruit's air pockets into a dense, glassy disc that holds a knife-edge instead of collapsing into mush. The espuma repeats the same avocado in a completely different register: warm, aerated, barely-there. That contrast — cold and dense against warm and weightless — is the actual trick of the dish, not the caviar on top.",
     "category": "Brunch",
     "keywords": "avocado, crab, quail egg, brunch, fine dining",
     "yield": "2 plates",
@@ -1099,6 +1104,7 @@
     "chef": " Alain Ducasse",
     "yield": "4",
     "description": "Gooey, melted camembert is pierced with aromatic rosemary sprigs and topped with toasted walnuts and roasted grapes",
+    "headnote": "Piercing the wheel with rosemary before it goes in the oven lets the herb's oil perfume the cheese as it melts, instead of just sitting on top as garnish. Roasting the grapes until their skins split does the real work of the dish — it concentrates their sugar into something closer to jam, which is what cuts through all that melted fat.",
     "category": "Starter",
     "keywords": "cheese, grapes, appetizer, dessert",
     "ingredients": [
@@ -1239,6 +1245,7 @@
   {
     "name": "Baked Littleneck Clams with Brown Butter, Garlic Confit & Herb Pangrattato",
     "description": "A Michelin-level baked clams dish featuring tender littlenecks, silky brown butter emulsion, sweet garlic confit, and a crisp herb pangrattato topping.",
+    "headnote": "Cooking the garlic low and slow into a confit instead of just mincing it raw is what keeps this from tasting like garlic bread — it turns sweet and spreadable rather than sharp. The pangrattato earns its crunch with a little minced anchovy hidden in the breadcrumbs, giving the topping a savory backbone you won't taste directly but would notice if it were gone.",
     "category": "Starter",
     "keywords": "baked clams, fine dining, seafood, Michelin, garlic confit, pangrattato",
     "yield": "4 servings",
@@ -1486,6 +1493,7 @@
     "chef": " Paul Bocuse",
     "yield": "Serves 4",
     "description": "A luxurious Bresse chicken ballotine infused with black truffle, served with a rich jus gras made from roasted chicken bones, vegetables, and truffle. Elegant, earthy, and perfect for special occasions.",
+    "headnote": "A ballotine is just a boned, rolled, and tied bird, but that shape is the whole point: it slices into clean, truffle-flecked medallions that a bone-in roast chicken never could. Building the jus gras from the same bird's bones rather than a separate stock means the sauce tastes like a concentrated version of the meat it's poured over, not a generic gravy.",
     "category": "Main",
     "keywords": "bresse chicken, chicken, ballotine, truffle, jus gras, gourmet, french",
     "winePairings": [
@@ -1665,6 +1673,7 @@
     "chef": " Bernard Pacaud",
     "yield": "Serves 4",
     "description": "A luxurious main course pairing perfectly seared beef tenderloin with a silky, umami-rich bone marrow sabayon and red wine reduction.",
+    "headnote": "Sabayon is usually a dessert technique — egg yolks whisked over a bain-marie until they thicken into something airy — but applied to roasted bone marrow instead of sugar and wine, it turns pure fat into a sauce with body instead of just melting into a greasy pool. It's a small swap that changes the whole texture of a steak dinner.",
     "category": "Main",
     "keywords": "beef, tenderloin, bone marrow, sabayon, fine dining, french, gourmet",
     "winePairings": [
@@ -1908,6 +1917,7 @@
   {
     "name": "Beef Wellington",
     "description": "A world-class chef execution of Beef Wellington featuring perfectly cooked beef tenderloin, mushroom duxelles, prosciutto, and golden puff pastry with precision layering and moisture control.",
+    "headnote": "Soggy pastry is the reason most home versions of this dish fail, and it's almost always a moisture problem, not a pastry problem — the duxelles has to be cooked all the way down until every bit of water has evaporated from the mushrooms before it ever touches the meat. Chilling the seared, mustard-brushed tenderloin completely before wrapping it does the other half of the work, keeping the pastry cold and rigid long enough to actually puff in the oven instead of melting.",
     "category": "Main",
     "keywords": "beef wellington, fine dining, gourmet, steak, pastry",
     "yield": "4-6 plates",
@@ -2153,6 +2163,7 @@
     "chef": "Massimo Bottura & Thomas Keller",
     "yield": "Serves 4",
     "description": "Delicate ricotta-filled agnolotti served in a crystal-clear burnt shallot consommé with Parmigiano foam, frozen brown butter pearls, and shaved black truffle.",
+    "headnote": "The anti-griddle is what makes the brown butter pearls possible — it freezes droplets almost instantly so they hold a solid round shape instead of just refreezing into a slab, and dropping them into a hot, crystal-clear consommé is the point: cold and hot in the same spoonful. Clarifying the shallot broth until it's completely transparent takes real patience, but it's what lets the truffle and Parmigiano foam read as clean flavors instead of a muddy stock.",
     "category": "Starter",
     "keywords": "agnolotti, truffle, consommé, fine dining, pasta, Michelin",
     "winePairings": [
@@ -2457,6 +2468,7 @@
   {
     "name": "Black Truffle Brioche French Toast with Foie Gras Custard, Compressed Berries & Maple-Sauternes Espuma",
     "description": "A decadent fine-dining brunch composition featuring brioche soaked in a foie gras-enriched custard, caramelized in beurre noisette, paired with vacuum-compressed berries, maple-Sauternes espuma, and finished with fresh black truffle and textural frozen fruit shards.",
+    "headnote": "Blending foie gras directly into the custard base instead of serving it seared on the side is what makes this a genuinely different dish from regular French toast — the fat renders into the eggs and cream, so every bite is enriched rather than having one component that outweighs the rest. Frying in beurre noisette instead of plain butter adds a nuttiness that a sweet Sauternes espuma is built to answer.",
     "category": "Brunch",
     "keywords": "truffle french toast, foie gras custard, michelin brunch, compressed berries, maple espuma, molecular gastronomy, fine dining breakfast",
     "yield": "Serves 4",
@@ -2648,7 +2660,8 @@
   },
   {
     "name": "Black Truffle Brown Butter Souffle Waffle",
-    "description": "A Michelin-inspired waffle with a crisp caramelized exterior and airy souffl� interior, layered with brown butter, black truffle, maple gastrique, and hazelnut texture.",
+    "description": "A Michelin-inspired waffle with a crisp caramelized exterior and airy souffle interior, layered with brown butter, black truffle, maple gastrique, and hazelnut texture.",
+    "headnote": "Separating the eggs and folding whipped whites into the batter is what gives this waffle its souffle-like lift on the inside, while the cornstarch cut into the flour is doing the opposite job on the outside — thinning the gluten structure just enough for a shatter-crisp crust once it hits the iron. Brown butter worked into the batter itself, not drizzled on after, means the nuttiness is baked all the way through instead of sitting on top.",
     "category": "Brunch",
     "keywords": "waffle, truffle, brown butter, fine dining, gourmet, souffle waffle",
     "yield": "4 waffles",
@@ -2853,6 +2866,7 @@
     "chef": " Giorgio Bargiani",
     "yield": "1",
     "description": "A decadent Old Fashioned infused with black truffle and raw honey.",
+    "headnote": "Infusing the truffle into a honey syrup instead of muddling it straight into the glass is the smarter move — honey's fat-free but still viscous enough to carry the truffle's aroma without turning bitter or gritty the way a direct infusion can.",
     "category": "Cocktail",
     "keywords": "old fashioned, truffle, bourbon, honey, spirit-forward",
     "ingredients": [
@@ -2943,6 +2957,7 @@
   {
     "name": "Blue Mussel Velouté with Saffron Foam & Compressed Sea Beans",
     "description": "A world-class main course inspired by Chef Yannick Alléno’s modern extraction philosophy. This dish features ultra-clean mussel essence, high-stability saffron foam, and vacuum-compressed sea beans for a multi-textural marine experience.",
+    "headnote": "Alléno's extraction style is about pulling out a single clean flavor rather than building a stock with a dozen competing notes, which is why the mussel liquor here gets strained through a coffee filter until it's essentially clarified — no cream added until that essence is already concentrated. Sea beans (a salty coastal green, not an actual bean) get vacuum-compressed for crunch that plain blanching would soften right out of them.",
     "category": "Main",
     "keywords": "mussel veloute, Yannick Alleno inspired, saffron foam, modern French, seafood extraction, molecular gastronomy, fine dining mussels",
     "yield": "Serves 4",
@@ -3076,6 +3091,7 @@
   {
     "name": "Bluefin Tostada de Fuego",
     "description": "A world-class modern Mexican starter featuring cured bluefin tuna on a black masa tostada with burnt avocado mousse, Oscietra caviar, smoked habanero oil, compressed strawberry and tomatillo pearls, hoja santa oil, and mezcal vapor.",
+    "headnote": "Burning the avocado directly over flame before blending it into mousse trades the usual bright green freshness for something smoky and a little bitter, which is what lets it stand up to caviar instead of just tasting like guacamole underneath it. The masa gets tinted with squid ink and flash-fried in duck fat rather than baked, so the tostada itself brings its own depth instead of acting as a plain cracker.",
     "category": "Starter",
     "keywords": "Mexican fine dining, tuna tostada, Michelin starter, modernist Mexican cuisine, bluefin tuna, caviar tostada, mezcal smoke",
     "yield": "Serves 4",
@@ -3363,6 +3379,7 @@
   {
     "name": "Brioche French Toast, Vanilla Espuma and Berry Coulis",
     "description": "A luxurious Michelin-inspired brunch dish featuring thick slices of artisanal brioche soaked in a fragrant vanilla bean and orange zest crème anglaise, pan-fried in clarified butter, finished with a crackling caramelized crust, and crowned with an ethereal vanilla espuma. Accompanied by macerated seasonal berries, toasted hazelnuts, and a vibrant berry coulis for perfect texture and flavor contrast.",
+    "headnote": "Running the custard base through a sous-vide bath at a fixed 60°C is overkill for most kitchens, but it solves the one real problem with French toast custard — uneven heating that can scramble the eggs before the vanilla and orange zest have fully infused. Clarified butter, not whole butter, is what gets that crackling caramelized crust without the milk solids burning first.",
     "category": "Brunch",
     "keywords": "french toast, brioche, pain perdu, espuma, fine dining, brunch",
     "yield": "4 servings",
@@ -3540,6 +3557,7 @@
     "chef": " Pierre Hermé",
     "yield": "Serves 6",
     "description": "Crisp brown butter sablé cookies paired with a luxurious, aromatic tonka bean ganache for a balance of nutty, buttery crunch and creamy spiced chocolate.",
+    "headnote": "Tonka bean tastes like vanilla, almond, and clove all at once, and a little goes a long way — microplaned straight into the ganache, it does more flavor work than vanilla bean would in the same amount. Browning the butter for the sablé base before it goes into the dough means the nutty flavor is built into the cookie itself, not just implied by the name.",
     "category": "Dessert",
     "keywords": "brown butter, sablé, tonka bean, ganache, chocolate, pastry, dessert, fine dining",
     "winePairings": [
@@ -3734,6 +3752,7 @@
     "chef": " René Redzepi",
     "yield": "1 loaf, serves 6",
     "description": "A nutty, deeply aromatic buckwheat brioche paired with tangy house-cultured butter.",
+    "headnote": "Buckwheat isn't a wheat at all, which is why it brings an earthy, almost bitter edge into what's otherwise a rich, egg-heavy brioche dough — Noma's version leans into that contrast rather than smoothing it out. Culturing the butter yourself with live bacteria before churning gives it a tang that plain sweet butter can't touch, which is really the point of serving it alongside instead of folding it in.",
     "category": "Bread",
     "keywords": "brioche, buckwheat, cultured butter, fermentation, fine dining",
     "winePairings": [
@@ -3897,6 +3916,7 @@
     "chef": " Massimo Bottura",
     "yield": "1, serving 2-4",
     "description": "A delicate burrata sphere paired with aromatic basil oil and refreshing tomato water snow, combining creamy, herbal, and acidic elements.",
+    "headnote": "Clarifying tomato juice into tomato water strips out the pulp and color, leaving just the pure acidic essence of the fruit — freezing that and grating it into snow is a Bottura-style move that turns a familiar caprese flavor into something served ice-cold against warm, room-temperature burrata. It's the temperature contrast doing as much work as the flavor pairing.",
     "category": "Starter",
     "keywords": "burrata, basil oil, tomato water, molecular gastronomy, modernist, cold dish",
     "winePairings": [
@@ -4106,6 +4126,7 @@
   {
     "name": "Butter-Poached Blue Prawns with Saffron-Shellfish Emulsion",
     "description": "A molecular gastronomy course featuring precision-temperature prawns and a centrifuged saffron-shellfish foam.",
+    "headnote": "Spinning the shellfish stock in a centrifuge separates it into pure clarified liquid without the fine straining and skimming a classic stock needs — what comes out is a shellfish essence cleaner than any chinois could manage. Holding the prawns at a fixed 52°C in that same saffron butter keeps them from crossing into the rubbery, overcooked territory that a stovetop poach risks the moment you look away.",
     "category": "Main",
     "keywords": "prawns, shrimp, molecular gastronomy, sous vide",
     "yield": "2 servings",
@@ -4211,6 +4232,7 @@
   {
     "name": "Butter-Poached Lobster with Saffron Foam, Fennel Ash & Citrus Gel",
     "description": "A refined seafood dish featuring butter-poached lobster, airy saffron foam, bright citrus gel, and fennel ash for a modern, Michelin-style presentation.",
+    "headnote": "Poaching lobster in butter at a gentle 56°C instead of boiling it is what keeps the meat from seizing up into that familiar rubbery texture — low, steady heat cooks it through without ever letting the proteins overtighten. Burning fennel fronds down to an actual ash for a garnish sounds extreme, but it adds a bitter, smoky edge that a rich butter poach and sweet saffron foam genuinely need.",
     "category": "Main",
     "keywords": "lobster, seafood, modernist, fine dining",
     "yield": "2-3 plates",
@@ -4407,6 +4429,7 @@
   {
     "name": "Butter-Poached Scallop with Corn Silk Velouté, Fermented Corn Emulsion & Citrus Ash Tuile",
     "description": "A Michelin-level scallop starter featuring gently butter-poached diver scallops, silky corn silk velouté, a lightly fermented corn emulsion, and a crisp citrus ash tuile. A refined balance of sweetness, umami, acidity, and texture using modernist techniques.",
+    "headnote": "Corn silk is the part everyone throws away, but simmered into the velouté alongside the roasted cobs it adds a vegetal depth that kernels alone can't. Fermenting a separate batch of corn with koji for 48 hours pushes some of that natural sweetness toward umami, so the dish gets a savory backbone without a drop of stock or butter added to that particular component.",
     "category": "Starter",
     "keywords": "scallops, fine dining seafood, modernist cuisine, corn velouté, fermented corn, butter poached scallops, citrus ash tuile",
     "yield": "Serves 4",
@@ -4589,6 +4612,7 @@
     "chef": "Alain Ducasse",
     "yield": "Serves 6",
     "description": "A refined Parisian dessert combining a crisp cacao sablé base with a luscious fleur de sel caramel filling, a balance between bitterness, sweetness, and salt.",
+    "headnote": "A sablé is a shortbread built for shatter — the low gluten and high butter ratio keep it from ever going chewy, so it stays crisp under a filling that would turn a softer cookie soggy. Fleur de sel isn't decorative here: a few flakes cut through the caramel's sweetness right as it hits the tongue, which is the whole reason this reads as sophisticated instead of just sugary.",
     "category": "Dessert",
     "keywords": "cacao, sablé, caramel, fleur de sel, french, pastry, Alain Ducasse",
     "ingredients": [
@@ -4777,6 +4801,7 @@
     "chef": " Cerea Brothers",
     "yield": "Serves 4",
     "description": "Refined ravioli filled with Pecorino Romano and mascarpone, finished in a truffle essence sauce — a luxurious interpretation of Rome’s classic cacio e pepe.",
+    "headnote": "Traditional cacio e pepe is just cheese, pepper, and starchy pasta water emulsified into a sauce — no pasta shape to trap it. Sealing that same Pecorino inside a ravioli flips the mechanic entirely: instead of coating the noodle, the cheese sauce is the filling, and the truffle essence takes over the role black pepper normally plays, so each bite bursts rather than coats.",
     "category": "Main",
     "keywords": "ravioli, pasta, truffle, pecorino, fine dining, italian",
     "ingredients": [
@@ -4971,6 +4996,7 @@
   {
     "name": "Caramelized Banana Mille-Feuille with Espresso Custard, Tonka Bean Air & Gold Leaf Honeycomb",
     "description": "A Michelin-level brunch dessert featuring vacuum-compressed caramelized banana layers stacked with espresso custard sheets, paired with tonka bean air, gold-leaf honeycomb shards, and aromatic banana essence.",
+    "headnote": "Vacuum-compressing the banana before caramelizing it does two things a raw slice can't: it drives out air so the fruit holds a clean, stackable plank instead of collapsing into mush, and it lets the sugar coat penetrate evenly instead of just sitting on the surface. Tonka bean is the wildcard here — its vanilla-almond-cherry note behind the espresso custard is what keeps the whole stack from tasting like a simple banana split in disguise.",
     "category": "Brunch",
     "keywords": "banana mille-feuille, espresso custard, tonka bean foam, molecular gastronomy, fine dining brunch, honeycomb candy, modernist dessert",
     "yield": "Serves 4",
@@ -5158,6 +5184,7 @@
     "chef": "",
     "yield": "1",
     "description": "A dessert-inspired Manhattan with caramelized fig syrup and aged bourbon.",
+    "headnote": "Swapping the Manhattan's usual simple syrup for a caramelized fig syrup adds a jammy, slightly bitter edge that plays well against sweet vermouth instead of just amplifying it — the caramelization keeps the drink from tipping into pure dessert-sweetness.",
     "category": "Cocktail",
     "keywords": "manhattan, fig, caramelized, dessert, bourbon",
     "ingredients": [
@@ -5240,6 +5267,7 @@
     "chef": " Daniel Humm",
     "yield": "1 loaf",
     "description": "A rustic sourdough enriched with deeply caramelized onions and finished with smoked salt.",
+    "headnote": "Folding caramelized onions into the dough rather than just topping the loaf means their sugars keep browning inside the crumb as it bakes, so you get pockets of deep, almost jammy sweetness instead of a thin savory layer on top. Smoked salt at the finish is doing the same job flaky sea salt does on a chocolate chip cookie — a sharp, mineral contrast against all that sweetness.",
     "category": "Bread",
     "keywords": "sourdough, caramelized onion, smoked sea salt, fermentation",
     "winePairings": [
@@ -5356,6 +5384,7 @@
   {
     "name": "Caramelized Vanilla Bean & Brown Butter Cinnamon Rolls",
     "description": "A Michelin-inspired laminated brioche cinnamon roll with caramelized brown butter filling, Ceylon cinnamon, citrus aromatics, and a mascarpone vanilla bean glaze.",
+    "headnote": "Browning the butter before it goes into the filling is the one swap that separates this from a standard cinnamon roll — those toasted milk solids add a nutty depth that plain butter and cinnamon can't fake on their own. The overnight cold-proof isn't optional either: a longer, slower rise develops real flavor in the dough instead of just puffing it up with air.",
     "category": "Brunch",
     "keywords": "cinnamon rolls, brioche, laminated dough, brown butter, pastry, fine dining, gourmet",
     "yield": "12 rolls",
@@ -5616,6 +5645,7 @@
   {
     "name": "Caviar Cloud Eggs with Truffle Brioche & Brown Butter Hollandaise Foam",
     "description": "A Michelin-level brunch reimagining eggs Benedict: airy whipped egg white clouds encasing a molten yolk, set atop vacuum-infused truffle brioche, finished with brown butter hollandaise foam, herb emulsion accents, and premium caviar.",
+    "headnote": "Separating the egg white and whipping it to stiff peaks before the yolk goes back in is what makes this a 'cloud' rather than a fried egg — the white bakes into a light meringue-like shell that holds its shape while the yolk underneath stays sous-vide-soft. Whipping the hollandaise into a foam with the siphon does the same trick to the sauce: same richness, a fraction of the weight on the plate.",
     "category": "Brunch",
     "keywords": "cloud eggs, truffle brioche, caviar brunch, michelin style breakfast, hollandaise foam, molecular gastronomy, fine dining eggs",
     "yield": "Serves 4",
@@ -5795,6 +5825,7 @@
     "yield": "Serves 1",
     "category": "Cocktail",
     "description": "A light, vegetal gin cocktail topped with aerated celery foam.",
+    "headnote": "The foam isn't just a garnish — lecithin lets you aerate celery juice into something with real body, so the vegetal note hits you on the nose with every sip instead of getting buried under the gin.",
     "keywords": "gin, celery, foam",
     "specialtools": [
       {
@@ -5875,6 +5906,7 @@
     "chef": "Massimo Bottura & René Redzepi",
     "yield": "Serves 4",
     "description": "A Michelin-style starter featuring fire-charred asparagus wrapped in crisp prosciutto, paired with airy brown butter sabayon, preserved lemon gel, hazelnut soil, and black garlic ash.",
+    "headnote": "Blanching the asparagus for just 35 seconds before it hits the grill matters more than it looks — it pre-cooks the spear enough that the char stays a quick surface reaction instead of turning the inside limp. The prosciutto wrap does double duty, crisping into a savory shell while basting the asparagus in rendered fat as it chars.",
     "category": "Starter",
     "keywords": "asparagus, prosciutto, sabayon, fine dining, Michelin, gourmet, modernist cuisine",
     "winePairings": [
@@ -6171,6 +6203,7 @@
     "chef": "Jordi Cruz",
     "yield": "Serves 4 tasting portions",
     "description": "A Michelin-level calamari starter featuring binchotan-charred squid, smoked squid consommé, preserved lemon gel, black garlic emulsion, and squid ink rice lace crisp with dramatic fine-dining presentation.",
+    "headnote": "Scoring the squid in a crosshatch before curing it briefly in salt and sugar solves the two problems calamari usually has: the cuts help it curl into an appealing shape over the coals instead of seizing flat, and the short cure firms the flesh just enough that binchotan's high, dry heat chars the surface before the inside overcooks and turns rubbery.",
     "category": "Starter",
     "keywords": "calamari, squid, fine dining, michelin, seafood starter, molecular gastronomy, charred seafood",
     "winePairings": [
@@ -6560,6 +6593,7 @@
     "chef": "Massimo Bottura & René Redzepi",
     "yield": "Serves 4",
     "description": "A Michelin-level zucchini side dish featuring vacuum-compressed zucchini charred over binchotan charcoal, layered with pistachio tarator, burnt lemon gel, frozen basil snow, and crispy zucchini blossoms. A modern vegetable composition balancing smoke, acidity, creaminess, and temperature contrast.",
+    "headnote": "Zucchini is mostly water, which is exactly why it usually turns mushy on a grill — vacuum-compressing it first forces out some of that water and tightens the cell structure, so the flesh holds its bite even after direct binchotan heat. Burning the lemons for the gel rather than just juicing them raw pushes the acidity into bitter, smoky territory that plain citrus can't reach, balancing the richer pistachio tarator underneath.",
     "category": "Sides",
     "keywords": "zucchini, fine dining, Michelin, pistachio tarator, burnt lemon, basil snow, vegetable tasting menu, modern gastronomy",
     "winePairings": [
@@ -6902,6 +6936,7 @@
     "chef": " Thomas Keller",
     "yield": "Serves 6",
     "description": "A refined reimagining of the classic ice cream sandwich. The textures contrast beautifully: crisp, creamy, warm, and cold in perfect harmony.",
+    "headnote": "A tuile batter spreads and bakes thin enough to go properly brittle, which is the whole point — a regular chocolate chip cookie would go soft and chewy against cold ice cream within minutes. Keeping that crispness is a race against time, so this one's built to assemble and serve immediately, or freeze briefly if you want a firmer bite.",
     "category": "Dessert",
     "keywords": "chocolate chip, tuile, cookie, ice cream, dessert, french laundry, thomas keller",
     "ingredients": [
@@ -7104,6 +7139,7 @@
   {
     "name": "Coal-Kissed Lamb Saddle with Black Garlic Ash",
     "description": "A Michelin-level lamb course featuring hay-aged lamb saddle cooked over binchōtan charcoal with black garlic ash crust, smoked sheep’s milk yogurt, fermented herb oil, crispy sweetbreads, glacier potato pavé, and burnt rosemary jus.",
+    "headnote": "Wrapping the lamb in hay before it ever sees heat is a borrowed farmhouse trick, not a plating flourish — the hay's grassy, slightly sweet aroma actually migrates into the fat over twelve hours in the fridge, so the smoke from the binchōtan later is layering onto flavor that's already there rather than trying to create it from scratch.",
     "category": "Main",
     "keywords": "lamb, fine dining, michelin, binchotan, black garlic, smoked yogurt, modernist cuisine, fire cooking",
     "yield": "Serves 4",
@@ -7381,6 +7417,7 @@
     "chef": "",
     "yield": "1",
     "description": "A silk-smooth vodka martini washed with cocoa butter.",
+    "headnote": "Fat-washing works because alcohol pulls flavor compounds out of fat that water never could — melted cocoa butter gets stirred into the vodka, then the whole batch goes into the freezer so the solid fat separates back out, leaving behind only the aroma and a noticeably rounder, silkier texture in the spirit.",
     "category": "Cocktail",
     "keywords": "martini, cocoa butter, vodka, spirit-forward",
     "ingredients": [
@@ -7467,6 +7504,7 @@
     "yield": "Serves 1",
     "category": "Cocktail",
     "description": "A deep, aromatic cocktail of XO cognac, saffron honey, and smoked vanilla bitters.",
+    "headnote": "Saffron honey rather than plain simple syrup is the move — infusing the honey lets saffron's dry, almost mineral note come through as a background note instead of dominating the glass the way a few threads dropped straight into cognac would.",
     "keywords": "cognac, saffron, nightcap",
     "ingredients": [
       {
@@ -7535,6 +7573,7 @@
     "chef": " Massimo Bottura",
     "yield": "Serves 4",
     "description": "A playful, modernist take on the classic prosciutto and melon pairing — featuring vacuum-compressed melon, a savory prosciutto-infused air, and delicate basil pearls for balance and freshness.",
+    "headnote": "Turning the prosciutto into an air instead of laying a slice over the melon is the classic Bottura move: you get the salty, cured flavor without the chew, so the melon's texture stays completely uninterrupted. Spherifying the basil into pearls does the same job for the herb, delivering a burst of flavor instead of a bitten leaf.",
     "category": "Starter",
     "keywords": "melon, prosciutto, basil, spherification, modernist, compressed fruit, molecular gastronomy",
     "winePairings": [
@@ -7733,6 +7772,7 @@
   {
     "name": "Compressed Watermelon, Feta Mousse & Basil Pearls",
     "description": "A refined sweet-savory side dish featuring vacuum-compressed watermelon, airy feta mousse, and modern basil pearls for a vibrant, Michelin-style presentation.",
+    "headnote": "Vacuum sealing watermelon pulls the air out of its cell structure and forces the seasoning liquid in under pressure, turning a fruit that's normally soft and a little watery into something dense enough to hold a clean cut. That firmer bite is what lets it stand up to a rich feta mousse instead of getting lost underneath it.",
     "category": "Sides",
     "keywords": "watermelon, modernist, vegetarian, fine dining, summer",
     "yield": "4 plates",
@@ -7916,6 +7956,7 @@
     "chef": " Craig Koketsu",
     "yield": "Serves 8",
     "description": "A side twist on crème brûlée - with sweet corn that is the perfect side to a steak!.",
+    "headnote": "Scraping the cobs after cutting off the kernels isn't a garnish step — that pulp carries most of the corn's actual sweetness and body, and straining it into the custard base is what makes this taste like concentrated corn rather than a vanilla custard with kernels stirred in. Treating it as a savory side instead of dessert means the sugar stays restrained enough to sit next to a steak.",
     "category": "Sides",
     "keywords": "corn, side, creamy, crème brûlée, fine dining",
     "ingredients": [
@@ -8032,6 +8073,7 @@
     "chef": " Yannick Alleno",
     "yield": "Serves 4",
     "description": "Roasted corn-fed hen served with tender morels and a rich, nutty Vin Jaune sauce. Elegant poultry dish with earthy mushrooms and flavorful sauce.",
+    "headnote": "This is the Jura's signature pairing, poulet au vin jaune et morilles, and the reason it works is chemistry as much as tradition: Vin Jaune is aged oxidatively under a flor yeast layer, like sherry, so it already carries the same nutty, earthy notes that dried morels develop — the sauce and the mushroom are reinforcing each other rather than just sitting side by side.",
     "category": "Main",
     "keywords": "corn-fed hen, morels, Vin Jaune, poultry, mushrooms, french, gourmet",
     "winePairings": [
@@ -8215,6 +8257,7 @@
   {
     "name": "Crown Roast of Lamb 'Windsor Estate'",
     "description": "A luxurious British-inspired main course featuring herb-crusted crown roast of lamb, smoked English pea purée, confit shallots, glazed heritage carrots, mint gel, and a rich Madeira lamb jus.",
+    "headnote": "The mint gel is a direct update of the mint sauce that's traditionally forced on British lamb — setting it with agar keeps the bright, sharp mint flavor but trades the vinegary sting for something that melts cleanly into the plate instead of overpowering the meat. Smoking the pea purée is what keeps the classic English pairing from tasting one-note sweet.",
     "category": "Main",
     "keywords": "lamb, british, fine dining, crown roast, madeira jus, pea puree, michelin",
     "yield": "Serves 4",
@@ -8595,6 +8638,7 @@
     "chef": " Heston Blumenthal",
     "yield": "1",
     "description": "Cocktail that is refreshing and simply prepared",
+    "headnote": "It's built like an Aperol spritz but swaps in Campari and grapefruit bitters, which trade a little of the orange-forward sweetness for something drier and more bitter — closer to the Venetian bars this riffs on than the sweeter version most people know.",
     "category": "Cocktail",
     "keywords": "alcohol, drink, prosecco, italian",
     "ingredients": [
@@ -8640,6 +8684,7 @@
     "chef": " Grant Achatz",
     "yield": "Serves 4–6",
     "description": "A deconstructed chocolate chip cookie in a crisp chocolate sphere with a molten or ganache liquid center. Served with optional cocoa, chocolate drizzle, or ice cream.",
+    "headnote": "This is Alinea's signature move: hide the eating experience inside a shell so the diner has to break it open themselves, turning a familiar dessert into a small piece of theater. The chocolate hemispheres are tempered thin enough to crack cleanly with one tap, which is the entire reason it reads as a reveal instead of just a chocolate-covered cookie dough ball.",
     "category": "Dessert",
     "keywords": "chocolate, cookie, molten, dessert, sphere, advanced",
     "winePairings": [
@@ -8949,6 +8994,7 @@
   {
     "name": "Dirty Vege-Burger with Smoky Mushroom Demi-Glace and Fermented Aioli",
     "description": "An elevated 'dirty' vegetable burger featuring a deeply roasted mushroom-quinoa patty with crisp crust, glossy dripping smoky mushroom demi-glace, fermented aioli, and refined toppings for indulgent yet refined street-food luxury.",
+    "headnote": "The patty leans on white miso and a flaxseed slurry instead of egg to bind it — miso for the savory backbone dairy and meat usually provide, flax for structure that still lets the mushroom-quinoa crumb stay tender rather than dense. Reducing the roasting juices from the same mushrooms used in the patty into a glossy demi-glace means the sauce and the burger taste like the same dish, not two things stacked together.",
     "category": "Main",
     "keywords": "vegetarian, vegan, burger, mushroom, umami, dirty",
     "yield": "4 burgers",
@@ -9194,6 +9240,7 @@
   {
     "name": "Dry-Aged Hamachi Crudo with Yuzu-Kosho Snow, Compressed Cucumber & Smoked Olive Oil Pearls",
     "description": "A Michelin-level seafood starter featuring delicate slices of dry-aged hamachi, bright yuzu-kosho snow, vacuum-compressed cucumber, and smoked olive oil pearls. A refined balance of acidity, fat, texture, and aroma using modernist techniques.",
+    "headnote": "Dry-aging the hamachi for three to five days concentrates its flavor the same way it does for beef, trading a little moisture for a deeper, less watery richness. Freezing the yuzu-kosho gel and scraping it into snow keeps that citrus-chili hit sharp and cold against the fish, while spherifying the smoked olive oil turns a garnish you'd normally drizzle into pearls that burst on their own timing.",
     "category": "Starter",
     "keywords": "hamachi crudo, yuzu kosho, molecular gastronomy, fine dining seafood, spherification, compressed cucumber, modernist cuisine",
     "yield": "Serves 4",
@@ -9386,6 +9433,7 @@
     "chef": " Enrique Olvera",
     "yield": "Serves 4",
     "description": "A refined twist on traditional carnitas — slow-cooked duck legs with a rich Oaxacan-style mole negro, finished with a dusting of cocoa nibs for bitterness and texture.",
+    "headnote": "Mole negro gets its color and bitterness from actually burning some of its chiles and seeds before grinding them, not from cocoa alone — chocolate is a supporting note here, not the headline, despite how the dish reads on paper. Finishing with raw cocoa nibs rather than more chocolate adds a crunchy, bitter counterpoint that a smooth mole can't provide on its own.",
     "category": "Main",
     "keywords": "duck, carnitas, mole negro, cocoa nibs, Mexican, modernist, slow-cooked",
     "ingredients": [
@@ -9633,6 +9681,7 @@
     "chef": " Nobu",
     "yield": "Serves 4",
     "description": "A clear duck consommé served with soba noodles and garnished with freshly shaved black truffle. Slow-simmered for clarity and rich flavor.",
+    "headnote": "A true consommé is clarified, not just strained — the raft of egg white and aromatics that forms while it simmers pulls impurities out of the stock, which is what lets this one stay glass-clear even with duck's naturally fattier body. Soba's earthy buckwheat flavor is sturdy enough to hold its own next to shaved truffle instead of disappearing into it.",
     "category": "Main",
     "keywords": "duck, consommé, soba, truffle, soup, advanced",
     "winePairings": [
@@ -9831,6 +9880,7 @@
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Elderflower_Bergamot_Spritz.webp",
     "yield": "Serves 1",
     "description": "A bright spritz of elderflower, bergamot cordial, and sparkling wine.",
+    "headnote": "St. Germain and bergamot liqueur both lean floral, so the club soda here isn't filler — it stretches the sweetness thin enough that the spritz stays refreshing instead of cloying. Expressing the bergamot peel over the top at the end, rather than dropping it in early, keeps that citrus oil aromatic instead of muddled into the drink.",
     "category": "Cocktail",
     "keywords": "St. Germain, elderflower, bergamot, spritz",
     "ingredients": [
@@ -9887,6 +9937,7 @@
   {
     "name": "Ember-Roasted Butternut Squash with Smoked Silk Purée & Black Garlic",
     "description": "A layered fine-dining side featuring ember-roasted squash cylinders, brown butter–miso glaze, smoked squash silk purée, and compressed pear ribbons.",
+    "headnote": "Two textures of the same squash appear on this plate — roasted cylinders for bite, and a smoked purée made from the trim for a silkier, more concentrated hit of the same vegetable. Black garlic's fermented sweetness and the brown butter-miso glaze both push toward umami rather than straight caramelization, which is what keeps a squash dish from tasting one-note sweet.",
     "category": "Sides",
     "keywords": "butternut squash, fine dining, black garlic, molecular gastronomy, smoked, autumn",
     "yield": "4 servings",
@@ -10208,6 +10259,7 @@
   {
     "name": "Embered Sweet Potato Casserole with Brown Butter Miso Custard, Pecan Praline Glass & Smoked Marshmallow Foam",
     "description": "A Michelin-level reinterpretation of sweet potato casserole featuring silky sweet potato custard enriched with brown butter and white miso, ember-roasted sweet potato cubes, smoked marshmallow espuma, pecan praline glass, and maple-miso caramel.",
+    "headnote": "This is the Thanksgiving sweet potato casserole taken apart and rebuilt piece by piece: the marshmallow topping becomes a smoked foam instead of a broiled layer, the pecan crumble becomes a thin praline glass you crack like sugar work, and white miso folds into the custard for a savory edge the original never had. Ember-roasting a portion of the sweet potato alongside the smooth custard keeps one part of the dish rustic and charred against all that refinement.",
     "category": "Sides",
     "keywords": "sweet potato casserole, Michelin side dish, modernist cuisine, smoked marshmallow foam, pecan praline, fine dining vegetable",
     "yield": "Serves 6",
@@ -10634,6 +10686,7 @@
     "chef": " Massimo Bottura",
     "yield": "Serves 4",
     "description": "A tribute to Emilia-Romagna’s king of cheeses, presenting Parmigiano Reggiano in five distinct textures and maturations — crisp, sauce, foam, wafer, and air.",
+    "headnote": "Aging changes Parmigiano's chemistry, not just its intensity — the crystalline crunch you get at 48 months comes from tyrosine crystals that simply haven't formed yet at 18 months, which is why the youngest age here works as a smooth sauce and the oldest works as a crisp. Tasting all five side by side is really tasting one ingredient's entire timeline in a single bite.",
     "category": "Starter",
     "keywords": "parmigiano, cheese, italian, modernist, fine dining, foam, bottura",
     "winePairings": [
@@ -10883,6 +10936,7 @@
   {
     "name": "Forest Sunrise",
     "description": "A 64°C slow-poached egg served over a truffled Jerusalem artichoke velouté with aerated brioche 'soil' and vacuum-compressed artichoke shavings.",
+    "headnote": "64°C is the specific temperature where an egg white sets to a soft custard while the yolk stays barely thickened and pourable — a few degrees either way and you lose that contrast. Draining the loose white off before plating is what keeps the egg looking clean instead of stringy on top of the velouté.",
     "category": "Brunch",
     "keywords": "Michelin, Modernist, Egg, Artichoke, Truffle, Dominique Crenn",
     "yield": "4 Servings",
@@ -11057,6 +11111,7 @@
     "chef": " Alain Passard",
     "yield": "Serves 2",
     "description": "A delicate arrangement of micro-vegetables and flowers dressed with a bright herb vinaigrette.",
+    "headnote": "The dish is really an exercise in restraint — a dozen different micro-vegetables and herbs, each dressed a teaspoon at a time so every ingredient still tastes like itself instead of the dressing. It's less a salad than a study of how many distinct textures and flavors can sit on one plate without any of them shouting.",
     "category": "Starter",
     "keywords": "garden, microgreens, edible flowers, vinaigrette, fine dining",
     "ingredients": [
@@ -11210,6 +11265,7 @@
   {
     "name": "Glacier Ember Scallop",
     "description": "A world-class tasting-menu starter featuring binchotan-charred diver scallops, smoked apple beurre blanc, frozen horseradish snow, pine herb oil, and herb ash. A dramatic contrast of smoke, cold spice, and ocean sweetness.",
+    "headnote": "Charring the scallop over binchotan and then plating it against frozen horseradish snow is a deliberate hot-cold collision — the char adds smoke and bitterness while the frozen horseradish delivers a sharp, fleeting heat that melts as it hits the plate. Herb ash, made by burning rather than drying the herbs, is what gives the dish a mineral, campfire note ordinary chopped herbs wouldn't.",
     "category": "Starter",
     "keywords": "scallops, fine dining, Michelin, seafood, smoked beurre blanc, Nordic cuisine, charcoal grilled",
     "yield": "4 starter portions",
@@ -11547,6 +11603,7 @@
   {
     "name": "Glass-Laminate Potato Pavé with Truffle Aerated Emulsion",
     "description": "A structural culinary masterpiece featuring 50+ hyper-precise layers of Yukon Gold potatoes, compressed and slow-cooked to a velvet interior with a glass-like crisp exterior, accompanied by a light-as-air truffle-infused warm aeration.",
+    "headnote": "Stacking more than fifty wafer-thin potato ribbons and compressing them under vacuum is what makes the interior turn velvety rather than starchy once it's slow-cooked — the layers fuse into something closer to a custard than individual potato slices. Searing only after that slow cook is what gives the block its glass-like crust without drying out the inside.",
     "category": "Sides",
     "keywords": "potato pavé, michelin style, truffle aeration, molecular gastronomy, haute cuisine",
     "yield": "1 terrine (serves 4-6)",
@@ -11659,6 +11716,7 @@
   {
     "name": "Glazed Baby Carrots with Aerated Herb Foam",
     "description": "A modernist side dish using vacuum compression to intensify flavor and nitrous-oxide aeration for a delicate herb foam.",
+    "headnote": "Vacuum-sealing the carrots with butter and thyme forces the fat and aromatics into the vegetable under pressure, a faster and more thorough way to flavor a carrot than simply glazing it in a pan. The herb foam on top is built from the same blanched herbs you'd normally just chop, aerated instead so the flavor reads first and the texture second.",
     "category": "Sides",
     "keywords": "carrots, molecular gastronomy, sous-vide, foam",
     "yield": "6 plates",
@@ -11759,6 +11817,7 @@
     "chef": " Giorgio Bargiani",
     "yield": "1",
     "description": "A refined aperitif spritz highlighting pear, elderflower, and dry sparkling wine.",
+    "headnote": "Pear and elderflower share a similar soft sweetness, so building the base as its own component first, rather than layering raw ingredients straight into the glass, lets the two flavors marry before the sparkling wine and soda dilute them. The single pear slice as garnish echoes the base instead of adding a separate flavor.",
     "category": "Cocktail",
     "keywords": "spritz, aperitif, elderflower, pear, sparkling",
     "ingredients": [
@@ -11838,6 +11897,7 @@
     "yield": "Serves 1",
     "category": "Cocktail",
     "description": "Frozen grapefruit–Campari granita layered with chilled botanical gin.",
+    "headnote": "Scraping the pan every 45 minutes as it freezes is what turns a simple grapefruit-Campari mixture into granita instead of a solid ice block — each scrape breaks up forming ice crystals so the texture stays loose and snow-like rather than clumping. Topping the frozen scoop with prosecco right before serving means the bubbles hit while the granita is still ice-cold, not after it's started to melt.",
     "keywords": "Campari, grapefruit, granita",
     "ingredients": [
       {
@@ -11896,6 +11956,7 @@
   {
     "name": "Grilled Peaches with Mascarpone Chantilly, Balsamic Reduction & Almond Praline",
     "description": "A refined dessert balancing caramelized peaches, airy mascarpone cream, and crunchy almond praline with a tangy balsamic finish.",
+    "headnote": "Grilling the peaches cut-side down concentrates their sugars into real caramelization instead of just softening the fruit, which is what lets them stand up to a balsamic reduction without getting lost. The almond praline adds the one texture the rest of the dish is missing — everything else here is soft or creamy, so the shattering crunch is doing real work, not just decoration.",
     "category": "Dessert",
     "keywords": "peaches, grilled fruit, dessert, mascarpone, elegant",
     "yield": "4 plates",
@@ -12075,6 +12136,7 @@
   {
     "name": "Halibut Royale en Nacre",
     "description": "A refined Michelin-style halibut dish featuring butter-poached fish, champagne beurre blanc, and delicate spring vegetables with luxurious garnishes.",
+    "headnote": "Poaching halibut in butter at exactly 122°F keeps the proteins from ever tightening up the way they do in a hot pan, which is why the fish stays translucent and custardy rather than flaking dry. A classic beurre blanc gets its silkiness from whisking cold butter into a reduction off the heat — swapping in champagne for the usual white wine just makes that reduction a little brighter and more aromatic.",
     "category": "Main",
     "keywords": "halibut, fine dining, seafood, michelin, beurre blanc",
     "yield": "2 plates",
@@ -12292,6 +12354,7 @@
     "chef": " Grant Achatz",
     "yield": "1",
     "description": "A drink inside a drink",
+    "headnote": "The trick is entirely mechanical: freeze a hollow ice sphere, drill into it, and inject a second cocktail inside before the hole reseals itself in the freezer. What you're left with is a drink that changes character as it melts — the Old Fashioned trapped inside only reaches the Boulevardier around it once the ice has been sitting long enough to breach.",
     "category": "Cocktail",
     "keywords": "alcohol, drink, bourbon, cool",
     "ingredients": [
@@ -12471,6 +12534,7 @@
   {
     "name": "Koji-Aged Pork Loin with Smoked Apple Gel, Black Garlic Jus & Fermented Carrot Silk",
     "description": "A Michelin-level pork main course featuring koji-aged pork loin cooked sous vide and seared to perfection, paired with smoked apple gel, black garlic jus, fermented carrot silk, and pork fat crumb. A balance of umami, acidity, smoke, and texture using modernist techniques.",
+    "headnote": "Koji is the same mold used to make miso and sake, and coating the pork in it before cooking lets its enzymes break down surface proteins into extra savoriness over the curing time — closer to a slow-motion tenderizer than a simple rub. Cooking at 58°C afterward keeps the interior barely pink while that koji crust concentrates into something close to bacon on the sear.",
     "category": "Main",
     "keywords": "koji pork, sous vide pork loin, black garlic jus, modernist cuisine, fine dining pork, fermented carrot, smoked apple gel",
     "yield": "Serves 4",
@@ -12683,6 +12747,7 @@
     "chef": "Alain Passard",
     "yield": "Serves 2",
     "description": "Seasonal vegetables, gently cooked to highlight natural sweetness.",
+    "headnote": "Alain Passard built his reputation cooking vegetables the way most chefs cook meat — treating each one's own season and sugars as the whole point rather than a side note. The vegetable broth here is meant to taste like the vegetables themselves reduced down, not like a neutral stock poured over them.",
     "category": "Sides",
     "keywords": "arpege, vegetables, passard, farm, fine dining",
     "ingredients": [
@@ -13023,6 +13088,7 @@
     "chef": " Seiji Yamamoto",
     "yield": "Serves 2",
     "description": "A refined seafood ramen built on roasted langoustine shells, with bright yuzu notes and a light kombu foam.",
+    "headnote": "Roasting the langoustine shells before building the broth is what gives this ramen its depth — shells caramelize the same way bones do, releasing flavor a raw shellfish stock never reaches. Kombu foam replaces a heavier dashi finish with something lighter, so the sea flavor lands without weighing down a bowl that's already rich from the shellfish.",
     "category": "Main",
     "keywords": "ramen, langoustine, yuzu, kombu, modernist",
     "ingredients": [
@@ -13137,6 +13203,7 @@
     "name": "Layered Garden Vegetable Terrine with Pea Puree, Glazed Roots and Parmesan Tuile",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/LayeredGardenVege.png",
     "description": "An elegant vegetarian course, pairing zucchini, peas, and other delicious vegetables.",
+    "headnote": "Slicing the vegetables paper-thin and layering them into a terrine turns a simple vegetable side into something with actual cross-section — every slice reveals the same striping of colors. The parmesan tuile is there for contrast as much as flavor: everything else on the plate is soft, puréed, or glazed, so the one crisp element carries more weight than its size suggests.",
     "category": "Main",
     "keywords": "Vegetarian",
     "ingredients": [
@@ -13418,6 +13485,7 @@
     "chef": " Enrique Olvera",
     "yield": "Serves 4",
     "description": "Delicate lobster tacos served on saffron-infused tortillas, topped with luxurious caviar and garnished with micro herbs or edible flowers.",
+    "headnote": "The saffron goes into the tortilla itself, not just a garnish on top — the masa absorbs the color and a faint floral bitterness that a plain corn shell can't offer. Warm tortilla, cool sweet lobster, and briny caviar hit in that order with each bite, which is why the components stay separate on the plate until the moment you eat it.",
     "category": "Main",
     "keywords": "lobster, taco, saffron, caviar, seafood, advanced",
     "winePairings": [
@@ -13603,6 +13671,7 @@
     "chef": " Mauro Colagreco",
     "yield": "Serves 4",
     "description": "Delicate lobster-filled tortellini served with a rich bisque reduction and a bright lemon foam for contrast.",
+    "headnote": "Reducing the bisque concentrates everything the shells gave up during cooking into a sauce strong enough to coat a handful of tortellini without drowning them. The lemon foam is the release valve — it's mostly air, so it reads as bright acidity on the tongue instead of adding more richness on top of an already-dense sauce.",
     "category": "Main",
     "keywords": "lobster, tortellini, bisque, lemon foam, seafood, pasta, fine dining, advanced",
     "winePairings": [
@@ -13961,6 +14030,7 @@
     "chef": " René Redzepi",
     "yield": "8 flatbreads",
     "description": "Primitive-style flatbread using malted barley flour, served with aromatic wildflower butter.",
+    "headnote": "Malting the barley before milling converts some of its starch to sugar, which is why this flatbread browns and blisters faster in a hot cast iron pan than one made from plain flour, and why it tastes faintly sweet and roasted even unadorned. It's the kind of hearth bread that predates yeast-leavened loaves, which is exactly the appeal.",
     "category": "Bread",
     "keywords": "noma, barley, flatbread, wildflower, foraged, fermentation",
     "ingredients": [
@@ -14040,6 +14110,7 @@
   {
     "name": "Michelin-Style Linguine with Clam Sauce",
     "description": "A refined coastal Italian dish featuring sous vide clams, fennel aromatics, and a silky emulsified white wine butter sauce finished with fresh herbs and citrus.",
+    "headnote": "Steaming clams in a pan open over high heat is fast but uneven — the first ones to open keep cooking while the rest catch up, and they toughen. Sous vide holds every clam at the same gentle temperature so they all finish tender at once, and the butter emulsion is built separately so the sauce never has to fight for control of the heat.",
     "category": "Main",
     "keywords": "clam pasta, linguine alle vongole, fine dining, seafood pasta, Italian",
     "yield": "2-3 servings",
@@ -14241,6 +14312,7 @@
     "chef": " Dominique Ansel",
     "yield": "Serves 6–8",
     "description": "A delicate, lacy chocolate tuile infused with umami-rich miso, paired with crunchy caramelized cocoa nibs — an interplay of sweet, salty, and bitter elements.",
+    "headnote": "Miso's glutamates don't compete with chocolate's bitterness the way straight salt does — they round it out and make the cacao taste deeper rather than just saltier. Caramelizing the nibs separately gives you a second, sharper crunch against the tuile's lace, so the texture contrast is doing as much work as the flavor.",
     "category": "Dessert",
     "keywords": "miso, chocolate, tuile, cocoa nibs, caramel, dessert, modernist, pastry",
     "winePairings": [
@@ -14438,6 +14510,7 @@
   {
     "name": "Miso-Glazed Black Cod, Yuzu Foam, Pickled Daikon and Crispy Rice",
     "description": "A refined Asian fusion dish featuring buttery miso-marinated black cod, bright yuzu foam, compressed pickled daikon, and crispy sushi rice.",
+    "headnote": "The 12-24 hour marinade is doing more than seasoning the fish — the sugar in the mirin and miso is what caramelizes into that signature dark lacquer once the cod hits high heat, a reaction that a quick glaze can't replicate. Crisping a block of sushi rice alongside gives the dish a starchy, crunchy counterpoint that plain rice never would.",
     "category": "Main",
     "keywords": "black cod, miso, asian fusion, fine dining, seafood",
     "yield": "2 plates",
@@ -14670,6 +14743,7 @@
   {
     "name": "Modernist Tabouli with Herb Oil & Precision Texture",
     "description": "A refined tabouli showcasing precision-cut herbs, vacuum-hydrated bulgur, clarified lemon, and vibrant herb oil for a clean, modern presentation.",
+    "headnote": "Vacuum-sealing the bulgur with its measured water forces the liquid into the grain evenly instead of letting it soak unevenly at the surface, so every grain hydrates to the same bite. Clarifying the lemon juice strips out the cloudy pulp, which is why the dressing stays glassy instead of murky once it hits the bright green herbs.",
     "category": "Sides",
     "keywords": "tabouli, tabbouleh, modernist, vegetarian, herbs, fine dining",
     "yield": "4 plates",
@@ -14817,6 +14891,7 @@
     "chef": " Giorgio Bargiani",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/negronicaviarorangegel.webp",
     "description": "A molecular take on the classic Negroni: Campari–gin caviar served over a chilled orange gel.",
+    "headnote": "Dropping the liquid Negroni into a calcium bath sets a thin membrane around each drop, so the bitter-sweet mix stays liquid inside a pearl that bursts on the tongue instead of sipping like a normal drink. It's the same bitter-orange-herbal balance of a classic Negroni, just delivered as a single burst rather than a sip.",
     "category": "Cocktail",
     "keywords": "negroni, spheres, molecular mixology",
     "ingredients": [
@@ -14968,6 +15043,7 @@
     "chef": " Enrique Olvera",
     "yield": "Serves 4",
     "description": "Slow-cooked oxtail barbacoa served with light corn espuma and bright lime gel for a modern, flavorful presentation.",
+    "headnote": "Long, slow cooking is what turns oxtail's connective tissue into the gelatin that makes barbacoa shred so easily — rush the heat and it stays tough no matter how long it's on the stove. The corn espuma nods to the masa that traditionally wraps barbacoa, just aerated instead of griddled, and the lime gel is there to cut straight through the fat.",
     "category": "Main",
     "keywords": "oxtail, barbacoa, corn espuma, lime gel, slow-cooked, advanced, main course",
     "winePairings": [
@@ -15234,6 +15310,7 @@
     "chef": " Angie Rito & Scott Tachinelli",
     "yield": "16 pinwheels (serves 8-10)",
     "description": "A rolled lasagna pinwheel filled with sausage bolognese, besciamella, mozzarella, and Parmigiano-Reggiano, baked in tomato sauce and finished with robiolina.",
+    "headnote": "Don Angie's signature move was rolling lasagna into individual spirals instead of stacking it in a pan — every pinwheel gets its own crisp edge and even filling-to-pasta ratio, which a sheet-pan lasagna never quite manages. The robiolina finish is what separates it from a standard baked lasagna: a soft, tangy cheese brushed on at the very end so it stays fresh rather than baking into the sauce.",
     "category": "Main",
     "keywords": "pasta, lasagna, dinner, italian",
     "winePairings": [
@@ -15615,6 +15692,7 @@
     "chef": " Mauro Colagreco",
     "yield": "Serves 4",
     "description": "A delicate modernist seafood dish featuring gently poached salmon, refreshing cucumber spheres, and aromatic dill air for a light yet complex presentation.",
+    "headnote": "Salmon and dill is a pairing everyone knows, but turning the dill into air instead of a sauce means it perfumes the fish without adding any weight or fat. The cucumber spheres do the same job spherification always does here — they hold a burst of clean, cold liquid inside a fragile skin instead of just sitting on the plate as diced garnish.",
     "category": "Main",
     "keywords": "salmon, cucumber, dill, sous vide, molecular gastronomy, modernist cuisine, fine dining",
     "ingredients": [
@@ -15825,6 +15903,7 @@
     "chef": "Aaron Franklin & Björn Frantzén",
     "yield": "Serves 4",
     "description": "An elevated Texas barbecue masterpiece featuring post oak smoked beef short rib with black pepper bark, burnt onion molasses glaze, smoked tallow potato silk, ember-charred sweet peppers, and black pepper beef jus.",
+    "headnote": "The heavy black pepper crust isn't just seasoning — it's what Franklin Barbecue built its reputation on, because that much cracked pepper forms a distinct bark layer as the fat renders during the long post-oak smoke. Spritzing with beef stock every 90 minutes keeps the surface from drying out before the bark has time to set properly.",
     "category": "Main",
     "keywords": "texas bbq, smoked short rib, beef rib, post oak, michelin barbecue, smoked beef, fine dining bbq",
     "winePairings": [
@@ -16175,6 +16254,7 @@
     "chef": " Daniel Humm",
     "yield": "12 rolls",
     "description": "Classic pretzel rolls served with a sharp, fermented house mustard.",
+    "headnote": "The baking soda bath is the whole trick — dunking the shaped rolls in an alkaline solution before baking is what gives pretzels their mahogany crust and distinct flavor, since a plain egg wash browns but never gets that deep, almost bitter shine.",
     "category": "Bread",
     "keywords": "pretzel, mustard, bread",
     "ingredients": [
@@ -16276,6 +16356,7 @@
     "chef": " René Redzepi",
     "yield": "Serves 4",
     "description": "A refined plant-based risotto featuring nutty quinoa cooked to creamy perfection, paired with roasted Jerusalem artichokes and umami-rich black garlic purée.",
+    "headnote": "Quinoa isn't rice, but treating it with risotto's slow, stirred-liquid technique still coaxes a creamy starch release from the grain — it just needs a lighter hand since quinoa cooks faster than arborio. Black garlic's fermented sweetness is doing the heavy lifting here, standing in for the usual butter-and-parmesan richness against the earthy artichoke.",
     "category": "Main",
     "keywords": "quinoa, risotto, jerusalem artichoke, black garlic, vegetarian, fine dining, plant-based",
     "ingredients": [
@@ -16507,6 +16588,7 @@
     "chef": " Tom Keller",
     "yield": "6 plates",
     "description": "An elegant course, pairing beef with mushroom purée and potatoes cooked with bacon.",
+    "headnote": "Beef tea is a clarified broth, not a reduced jus — the technique strips out fat and sediment so what's left is intensely beefy but completely clear, closer to a consommé than a sauce. It's the kind of quiet precision The French Laundry built its reputation on: nothing on the plate is heavier or muddier than it needs to be.",
     "category": "Main",
     "keywords": "steak, rib-eye, dinner",
     "winePairings": [
@@ -16823,6 +16905,7 @@
   {
     "name": "Roasted Brussels Sprouts Pavé with Aged Balsamic Emulsion and Crispy Leaves",
     "description": "A structural culinary masterpiece featuring precisely layered and compressed Brussels sprouts, slow-roasted to achieve velvet-tender hearts with glass-like crispy exteriors. Finished with a glossy aged balsamic reduction, lemon zest, and accompanied by a light truffle-scented foam and crispy sprout leaf chips.",
+    "headnote": "Pavé is a technique usually reserved for potatoes — pressing thin layers into a dense block so it holds a clean edge when sliced and seared. Applying it to Brussels sprouts halves gets the same effect: a crisp, caramelized crust on the cut faces with a tender center, instead of the usual roasted-and-scattered approach where every piece browns unevenly.",
     "category": "Sides",
     "keywords": "brussels sprouts, michelin style, roasted pavé, aged balsamic, molecular gastronomy, haute cuisine",
     "yield": "Serves 4",
@@ -16961,6 +17044,7 @@
     "chef": " Eric Ripert",
     "yield": "Serves 4",
     "description": "A refined take on classic roast chicken — perfectly crisped skin, tender meat, and a luxurious sherry reduction paired with earthy wild mushrooms.",
+    "headnote": "Sherry's oxidative, slightly nutty sweetness is what separates this from a standard pan sauce — reducing it concentrates that character instead of just adding acidity, so it can stand up to earthy wild mushrooms without either one canceling the other out. The rest is just roast chicken done properly: dry skin, high heat, and patience.",
     "category": "Main",
     "keywords": "chicken, roasted, sherry, mushrooms, french, fine dining, eric ripert",
     "ingredients": [
@@ -17195,6 +17279,7 @@
     "chef": "",
     "yield": "Serves 1",
     "description": "A golden, aromatic twist on the French 75 featuring saffron gin and champagne.",
+    "headnote": "Steeping saffron directly in the gin gives the classic French 75 its color and a faint honeyed, floral edge that a garnish or syrup can't match — the threads need real contact time with the alcohol to release their compounds, not just a quick shake.",
     "category": "Cocktail",
     "keywords": "champagne, saffron, French 75",
     "specialtools": [
@@ -17278,6 +17363,7 @@
     "chef": " Niko Romito",
     "yield": "1",
     "description": "A bright saffron-infused aperitif with bitter orange and sparkling tonic.",
+    "headnote": "Swapping a saffron syrup in for plain simple syrup gives the classic Americano's bitter-sweet base a warm, almost savory undertone that plays surprisingly well against Campari's orange bitterness — it's a small change that shifts the whole drink without touching the core proportions.",
     "category": "Cocktail",
     "keywords": "americano, aperitif, saffron, citrus, bitter",
     "ingredients": [
@@ -17372,6 +17458,7 @@
   {
     "name": "Saffron-Infused Cloud Soufflé Pancake",
     "description": "A molecular approach to brunch featuring vacuum-compressed berries, saffron-infused foam, and hyper-aerated soufflé structures.",
+    "headnote": "Whipping the egg whites to a stiff, curved peak and folding them into the yolk base in three separate stages — rather than all at once — is what keeps the batter from deflating before it hits the pan. Triple-sifting the flour matters for the same reason: fewer clumps means less stirring, and less stirring means more trapped air survives to the plate.",
     "category": "Brunch",
     "keywords": "soufflé, pancake, molecular, saffron",
     "yield": "4 plates",
@@ -17597,6 +17684,7 @@
     "chef": " Angelo Sparvoli",
     "yield": "1",
     "description": "A deep, roasted take on the Boulevardier with smoked chestnut syrup.",
+    "headnote": "Chestnuts are naturally low in sugar and starchy rather than sweet, so smoking them before turning them into syrup adds a roasted depth that a standard sugar syrup never could — it makes the Boulevardier taste like it belongs next to a fireplace rather than a bar cart.",
     "category": "Cocktail",
     "keywords": "boulevardier, chestnut, bourbon, smoked, spirit-forward",
     "ingredients": [
@@ -17708,6 +17796,7 @@
     "chef": " Gordon Ramsay",
     "yield": "Serves 4",
     "description": "Tender smoked short ribs served with smooth celeriac purée and finished with a delicate truffle dust for aroma and presentation.",
+    "headnote": "Smoking short rib low and slow does what braising can't — it renders the fat and breaks down the collagen while also building a smoke ring and bark on the surface, so you get pull-apart tenderness with actual texture on the outside. Celeriac's mineral, slightly bitter sweetness is a deliberate foil against all that richness rather than just a starchy side.",
     "category": "Main",
     "keywords": "beef, smoked, short ribs, celeriac, truffle, advanced, main course",
     "winePairings": [
@@ -17939,6 +18028,7 @@
     "chef": "Alain Passard & Victor Arguinzoniz",
     "yield": "Serves 4",
     "description": "A Michelin-level spinach side dish featuring ember-wilted spinach glazed in black garlic beurre monté, served over silky Comté velouté with brown butter brioche crumble, herb oil, and delicate smoke.",
+    "headnote": "Wilting spinach directly over live embers instead of in a hot pan gives it a whisper of smoke before it has time to overcook and turn grey — the leaves are in and out fast. Beurre monté (butter emulsified into a little water rather than fully melted) is what lets the black garlic coat each leaf in a glossy sauce that clings instead of pooling.",
     "category": "Sides",
     "keywords": "spinach, fine dining, smoked vegetables, black garlic, comte, michelin, gourmet side dish",
     "winePairings": [
@@ -18243,6 +18333,7 @@
   {
     "name": "Sous-Vide Berkshire Pork Loin with Foie Gras Torchon, Black Truffle Jus & Charred Baby Leeks",
     "description": "A luxurious Michelin-inspired course featuring perfectly cooked heritage Berkshire pork, silky foie gras torchon, earthy black truffle jus, and dramatic charred baby leeks.",
+    "headnote": "58 degrees C is the number that matters here — hot enough to render Berkshire's marbling silky, cool enough that the loin stays rosy rather than turning into shoe leather, which is the usual fate of pork cooked by feel. The torchon (a foie gras log rolled and poached, not seared) gives a clean, spreadable richness instead of the char a quick pan-sear would add, so the truffle jus is doing the work a crust normally would.",
     "category": "Main",
     "keywords": "pork, sous-vide, foie gras, truffle, fine dining",
     "yield": "4 plates",
@@ -18506,6 +18597,7 @@
   {
     "name": "Sous-Vide Duck Breast, Salsify Silk, and Cherry-Infused Balsamic Glaze",
     "description": "A masterclass in precision, featuring ultra-tender duck with a glass-like crackling skin, served with an aerated salsify foam and a molecularly clarified cherry reduction.",
+    "headnote": "Passard's trick with duck skin is scoring it fine enough that the fat renders evenly without cutting into the meat underneath — the crackling comes from the pan sear after sous-vide, not the water bath. Passing the salsify purée through the tamis twice isn't fussiness; parsnip-family roots hold fibrous strings a single strain never fully catches, and this dish lives or dies on that purée being genuinely silk, not just smooth-ish.",
     "category": "Main",
     "keywords": "duck, sous-vide, michelin, fine dining",
     "yield": "2 plates",
@@ -18680,6 +18772,7 @@
   {
     "name": "Spaghetti Aglio e Olio",
     "description": "A Michelin take on this easy weeknight meal.  Simple ingredients result in an elegant and silky creamy sauce with a subdued garlic taste.",
+    "headnote": "Boiling the garlic four times and discarding the water each round strips out the sharp, lingering bite while keeping the flavor — it's the difference between a sauce that tastes like raw garlic breath and one that's just quietly savory. The emulsified pasta water is what turns three ingredients into something that clings to every strand instead of pooling at the bottom of the bowl.",
     "category": "Main",
     "keywords": "spaghetti, garlic",
     "yield": "4",
@@ -18760,6 +18853,7 @@
     "chef": " Mauro Colagreco",
     "yield": "Serves 2",
     "description": "Fresh squid ink tagliolini served with a rich sea urchin sauce, finished with grated bottarga and a drizzle of olive oil. A luxurious, delicate seafood pasta with bright lemon zest and optional herbs.",
+    "headnote": "Sea urchin sauce breaks if it ever properly boils, so the pasta finishes in it off the heat, loosened only with starchy pasta water — a small detail that's the entire difference between a sauce that stays glossy and one that curdles into grit. Bottarga grated at the very end, rather than cooked in, is what gives the dish its saline finish without turning fishy.",
     "category": "Main",
     "keywords": "squid ink pasta, tagliolini, sea urchin, uni, bottarga, seafood, italian, pasta",
     "winePairings": [
@@ -18971,6 +19065,7 @@
     "chef": " Wolfgang Puck",
     "yield": "Serves 2–4",
     "description": "An indulgent fine dining dish featuring buttery Wagyu A5 striploin paired with the deep umami of fermented black garlic and a silky red wine reduction.",
+    "headnote": "Fermented black garlic has already done the work raw garlic can't — fermentation converts its sharp sulfur compounds into something closer to molasses and balsamic, which is why it can sit right next to a red wine reduction without the two fighting for the same register. On A5 Wagyu that's the point: the beef brings fat, the purée brings depth, and neither needs the acidity a lesser cut would require to cut through.",
     "category": "Main",
     "keywords": "wagyu, beef, black garlic, red wine jus, luxury, fine dining, japanese beef",
     "ingredients": [
@@ -19196,6 +19291,7 @@
   {
     "name": "Tacos de Ceniza y Mar",
     "description": "A Michelin-level taco tasting main course inspired by Enrique Olvera and René Redzepi. Featuring 72-hour wagyu barbacoa glazed over binchōtan charcoal, blue corn tortillas, bone marrow charred onion crema, fermented pineapple kosho, salsa verde pearls, compressed watermelon radish, and black garlic ash. A balance of smoke, acidity, umami, fermentation, and theatrical presentation.",
+    "headnote": "The adobo gets built from three dried chiles toasted separately, because each one breaks down differently under heat — guajillo for fruitiness, pasilla for raisin-like depth, morita for smoke — and blending them pre-toasted instead of raw is what keeps the sauce from tasting flat. Finishing the shredded wagyu over binchōtan rather than just reheating it adds a layer of char the sous-vide bath can't give on its own.",
     "category": "Main",
     "keywords": "wagyu tacos, Michelin tacos, fine dining Mexican cuisine, modernist tacos, blue corn tortillas, barbacoa, salsa verde caviar, fermented pineapple kosho",
     "yield": "Serves 4",
@@ -19505,6 +19601,7 @@
     "chef": "Helen Corbitt (original) / Grok Fine Dining Adaptation",
     "yield": "Serves 8–10 as a side or appetizer",
     "description": "A refined, world-class elevation of the classic Texas Cowboy Caviar. Black-eyed peas and black beans are paired with precisely brunoised vegetables, charred corn, and an emulsified champagne-lime vinaigrette. Finished with avocado, microgreens, and toasted pepitas for exceptional texture and elegance.",
+    "headnote": "The original Texas caviar was always about contrast — beans against acid, crunch against soft — and this version just takes that logic further by brunoising every vegetable to the same small dice so no single bite is unbalanced. Charring the corn before it goes in adds a savory note the classic recipe never had, which is what keeps this from tasting like a dip and more like a composed dish.",
     "category": "Sides",
     "keywords": "cowboy caviar, texas caviar, beans, side dish, fine dining, helen corbitt, vegetarian",
     "winePairings": [
@@ -19630,6 +19727,7 @@
   {
     "name": "The Torch and Truffle Royale Burger",
     "description": "A sous vide-perfected Wagyu-style patty, flame finished with a torch for a delicate, smoky crust, layered with melted cheese and silky caramelized onion puree.",
+    "headnote": "Cooking the patty sous-vide first and torching it after inverts the usual order of a burger — instead of hoping a pan sear cooks the inside through before the outside burns, the interior is already exactly medium-rare before the torch ever touches it, so the crust is purely for flavor, not doneness. The onion purée, blended smooth rather than left as caramelized strands, is what lets it act like a sauce instead of a topping that falls out the back of the bun.",
     "category": "Main",
     "keywords": "Burger",
     "yield": "",
@@ -19945,6 +20043,7 @@
     "chef": "",
     "yield": "1",
     "description": "A warm, silky dessert cocktail with toasted coconut, dark rum, and vanilla.",
+    "headnote": "Toasting the coconut before it goes into the cream is the one step that separates this from a standard piña-colada-adjacent pour — dry heat brings out coconut's nuttier, almost caramelized side instead of just its sweetness, which is what lets it stand up to dark rum without turning cloying.",
     "category": "Cocktail",
     "keywords": "coconut, rum, dessert, creamy",
     "ingredients": [
@@ -20023,6 +20122,7 @@
     "chef": " Thomas Keller",
     "yield": "12 rolls",
     "description": "Ultra-soft Japanese milk bread rolls infused with black truffle aroma.",
+    "headnote": "Milk bread's exaggerated softness comes from a tangzhong-style starch gelatinization most home bakers skip — it's why these rolls stay pillowy rather than turning dense the way a straight dough would. Truffle paste kneaded into the dough perfumes every bite; the fresh shaving on top just before serving is there because raw truffle's aroma fades fast once it's cut, so it has to be last.",
     "category": "Bread",
     "keywords": "milk bread, truffle, shokupan, brioche",
     "winePairings": [
@@ -20108,6 +20208,7 @@
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/truffled_sous_vide_eggs_benedict.png",
     "yield": "2 servings",
     "description": "An ultra-luxurious brunch dish featuring precision sous-vide eggs, a weightless truffle hollandaise espuma, elegant smoked salmon rosettes, and a crowning of Ossetra caviar. Contrasting temperatures and textures create a three-star experience at home.",
+    "headnote": "A classic hollandaise is already a fragile emulsion; folding it into whipped cream and running it through a siphon turns that fragility into an asset, giving all of hollandaise's richness at a fraction of the density, so it doesn't smother the egg the way a ladled sauce would. The 63.5 degree C egg is chosen specifically because it's the point where the white just sets and the yolk stays completely liquid — a couple degrees off in either direction and the contrast is gone.",
     "category": "Brunch",
     "keywords": "eggs benedict, sous vide, truffle, caviar, hollandaise espuma, smoked salmon, michelin",
     "winePairings": [
@@ -20250,6 +20351,7 @@
     "chef": " Heston Blumenthal",
     "yield": "1",
     "description": "A refined espresso martini with vanilla bean syrup and a light foam cap.",
+    "headnote": "Vanilla bean syrup does more than sweeten here — it rounds off the bitterness of the espresso and coffee liqueur so the drink reads as dessert rather than just a caffeinated cocktail. The foam cap sits on top rather than being shaken in, so the first sip is pure aroma before the drink itself hits.",
     "category": "Cocktail",
     "keywords": "espresso, vanilla bean, dessert, martini",
     "ingredients": [
@@ -20368,6 +20470,7 @@
     "chef": " Alain Passard",
     "yield": "Serves 4",
     "description": "A crystal-clear vegetable consommé served with delicate ravioli filled with ricotta and edible flowers, creating a visually stunning and aromatic dish.",
+    "headnote": "A consommé's clarity is the whole test of technique — any trace of cloudiness means the raft, the mesh of egg white and vegetables that filters the stock, was disturbed while it worked, so this broth has to be poured, not ladled, to stay glass-clear. Serving it hot around a delicate ravioli rather than the reverse keeps the flowers and ricotta from cooking further once plated.",
     "category": "Starter",
     "keywords": "vegetarian, consommé, ravioli, edible flowers, fine dining, delicate, clear soup",
     "winePairings": [
@@ -20570,6 +20673,7 @@
     "chef": " Paul Bocuse",
     "yield": "Serves 4",
     "description": "Bresse chicken poached in a bladder, served with creamy sauce suprême and truffle.",
+    "headnote": "Poaching the chicken inside a sealed bladder is Bocuse's answer to a problem every roast chicken has — moisture loss — since nothing escapes and nothing dilutes into the broth around it, so the truffle aroma has nowhere to go but into the meat itself. It's an unusual method to encounter outside a restaurant kitchen, but a sealable bag does the same job if a bladder isn't on hand.",
     "category": "Main",
     "keywords": "bocuse, classic french, bresse chicken, truffle, bladder poaching",
     "ingredients": [
@@ -20657,6 +20761,7 @@
     "chef": "Thomas Keller (with Heston Blumenthal molecular influences)",
     "yield": "Serves 4 as a starter",
     "description": "Delicate spherified A5 Wagyu beef tartare spheres that burst with hand-chopped texture, paired with airy smoked bone marrow foam and crispy pickled shallot elements. A refined, multi-sensory Michelin-level starter showcasing pure beef flavor with surprise and elegance.",
+    "headnote": "Spherifying the tartare rather than mounding it changes the eating experience more than the flavor — the sodium alginate skin holds everything in until the bite breaks it, so the beef's texture stays genuinely raw and hand-chopped instead of packed and dense the way a traditional tartare ring often ends up. Cold-smoking the bone marrow before it's blended into foam keeps that smoke a top note instead of cooking it out.",
     "category": "Starter",
     "keywords": "wagyu, beef tartare, spherification, molecular gastronomy, bone marrow, fine dining, starter",
     "winePairings": [
@@ -20809,6 +20914,7 @@
   {
     "name": "Wagyu Truffle Hot Dog – Le Chien Chaud de Luxe",
     "description": "An ultra-luxury reinterpretation of the classic hot dog: A5 Wagyu beef sausage cooked sous-vide, nestled in a vacuum-smoked brioche bun, finished with foie-gras espuma, hand-shaved black Périgord truffle, Ossetra caviar, and smoked truffle aioli. A three-Michelin-star experience in one perfect bite.",
+    "headnote": "Vacuum-sealing the bun with smoke inside it forces smoke into the bread itself rather than just the surface, the way a smoking cloche would — so the bun carries flavor even after the sausage and toppings are gone. Searing the sausage after its sous-vide bath is purely cosmetic at that point, since 60 degrees C for 45 minutes has already fully cooked it; the torch is there for the crust, not the doneness.",
     "category": "Main",
     "keywords": "hot dog, wagyu, truffle, foie gras, caviar, fine dining, luxury",
     "yield": "4 plates",
@@ -21106,6 +21212,7 @@
     "chef": " Javelle Taft",
     "yield": "1",
     "description": "A light, floral aperitif built on white tea, gin, and bubbles.",
+    "headnote": "White tea honey syrup is doing quieter work than a standard simple syrup would — white tea's low-tannin, floral character comes through instead of getting buried under gin botanicals, which is why this reads as delicate rather than just sweet. Topping with soda rather than shaking it in keeps the bubbles intact through the first few sips.",
     "category": "Cocktail",
     "keywords": "white tea, honey, aperitif, gin, fizz",
     "specialtools": [
@@ -21188,6 +21295,7 @@
   {
     "name": "World-Class Chef-Inspired Avocado Toast",
     "description": "Elevated avocado toast featuring creamy textured avocado mash on thick sourdough, topped with precision-cooked 63°C egg, confit cherry tomatoes, toasted pine nuts, black sesame, and microgreens. A luxurious brunch dish inspired by fine-dining techniques.",
+    "headnote": "Crushing the avocado in a mortar and pestle rather than mashing it with a fork keeps some structure in the flesh — chunks and cream in the same bite instead of a uniform paste, which is the textural difference between this and the version everyone already makes at home. The sous-vide egg at 63-65 degrees C is the other lever: a few degrees below where most people scramble or fry, giving a yolk that's custardy rather than runny or set.",
     "category": "Brunch",
     "keywords": "avocado toast, sourdough, sous vide egg, gourmet breakfast, chef recipe",
     "yield": "2 slices (serves 1-2)",
@@ -21371,6 +21479,7 @@
   {
     "name": "Yuzu-Cured Kampachi with Frozen Olive Oil, Compressed Melon & Smoked Dashi Air",
     "description": "A Michelin-level crudo featuring lightly yuzu-cured kampachi, vacuum-compressed melon, frozen olive oil shards, and smoked dashi air. A balance of temperature, aroma, acidity, and texture using modernist techniques.",
+    "headnote": "Twelve minutes is a specific, tested window for the yuzu cure — long enough for the acid to firm the kampachi's texture, short enough that it stays raw at the center rather than curing all the way through like a ceviche. Freezing the olive oil into shards rather than drizzling it liquid means the fat hits the tongue last, melting only after the citrus and fish have already made their case.",
     "category": "Starter",
     "keywords": "kampachi crudo, yuzu cure, molecular gastronomy, fine dining seafood, compressed fruit, smoked dashi air, modernist cuisine",
     "yield": "Serves 4",
@@ -21559,6 +21668,7 @@
   {
     "name": "Yuzu-Glazed A5 Wagyu Tataki with Uni-Miso Purée, Gochujang Caramel, Thai Basil Espuma, and Crispy Rice Crumble",
     "description": "An exquisite Michelin-star Asian fusion course featuring premium A5 Japanese Wagyu lightly torched and glazed with yuzu, paired with silky uni-miso purée, spicy-sweet gochujang caramel, airy Thai basil espuma, and textural crispy rice crumble.",
+    "headnote": "Torching the Wagyu after a 52 degree C sous-vide bath is classic tataki logic — a real seared crust on the outside while the inside stays essentially raw, which only works because the meat is already food-safe from the water bath first. Uni-miso purée and gochujang caramel sit on opposite ends of the flavor spectrum on purpose, one briny and delicate, one sweet-spicy and bold, so each slice of beef can be dragged toward whichever side you want.",
     "category": "Main",
     "keywords": "wagyu, tataki, asian fusion, uni, yuzu, michelin",
     "yield": "2 tasting plates",

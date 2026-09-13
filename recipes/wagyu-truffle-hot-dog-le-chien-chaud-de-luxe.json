@@ -1,6 +1,7 @@
 {
   "name": "Wagyu Truffle Hot Dog – Le Chien Chaud de Luxe",
   "description": "An ultra-luxury reinterpretation of the classic hot dog: A5 Wagyu beef sausage cooked sous-vide, nestled in a vacuum-smoked brioche bun, finished with foie-gras espuma, hand-shaved black Périgord truffle, Ossetra caviar, and smoked truffle aioli. A three-Michelin-star experience in one perfect bite.",
+  "headnote": "Vacuum-sealing the bun with smoke inside it forces smoke into the bread itself rather than just the surface, the way a smoking cloche would — so the bun carries flavor even after the sausage and toppings are gone. Searing the sausage after its sous-vide bath is purely cosmetic at that point, since 60 degrees C for 45 minutes has already fully cooked it; the torch is there for the crust, not the doneness.",
   "category": "Main",
   "keywords": "hot dog, wagyu, truffle, foie gras, caviar, fine dining, luxury",
   "yield": "4 plates",

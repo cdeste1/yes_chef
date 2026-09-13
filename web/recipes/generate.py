@@ -106,6 +106,7 @@ for r in recipes:
     slug       = to_slug(name)
     all_slugs.append(slug)
     desc       = r.get('description', '')
+    headnote   = r.get('headnote', '')
     source     = r.get('source', '')
     chef       = r.get('chef', '').strip()
     yield_     = r.get('yield', '')
@@ -148,6 +149,7 @@ for r in recipes:
     meta_html = '<br>'.join(meta_parts)
 
     desc_html  = f'<p class="recipe-description" itemprop="description">{h(desc)}</p>' if desc else ''
+    headnote_html = f'<p class="recipe-headnote">{h(headnote)}</p>' if headnote else ''
     yield_html = f'<p class="recipe-yield" itemprop="recipeYield">{h(yield_)}</p>' if yield_ else ''
 
     ing_html = '\n'.join(f'<li>{ing_line(i)}</li>' for i in ingredients)
@@ -275,6 +277,7 @@ for r in recipes:
     page = page.replace('{{HERO_IMAGE_HTML}}',  hero_html)
     page = page.replace('{{META_HTML}}',        meta_html)
     page = page.replace('{{DESCRIPTION_HTML}}', desc_html)
+    page = page.replace('{{HEADNOTE_HTML}}',    headnote_html)
     page = page.replace('{{YIELD_HTML}}',       yield_html)
     page = page.replace('{{INGREDIENTS_SECTION_HTML}}', ingredients_section_html)
     page = page.replace('{{TOOLS_HTML}}',       tools_html)

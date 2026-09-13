@@ -329,6 +329,9 @@
           <div class="field-row single">
             <div class="field"><label>Description <span class="req">*</span></label><textarea id="f-desc" placeholder="What makes this dish special..."></textarea></div>
           </div>
+          <div class="field-row single">
+            <div class="field"><label>Headnote</label><textarea id="f-headnote" placeholder="A couple sentences on the technique or story behind the dish — shown on the page above the ingredients, separate from the short description above."></textarea></div>
+          </div>
           <div class="field-row triple">
             <div class="field"><label>Yield / Servings</label><input type="text" id="f-yield" placeholder="e.g. Serves 4"></div>
             <div class="field"><label>Source / Book</label><input type="text" id="f-source" placeholder="e.g. The French Laundry Cookbook"></div>
@@ -457,6 +460,9 @@
             </div>
             <div class="field-row single">
               <div class="field"><label>Description</label><textarea id="e-desc"></textarea></div>
+            </div>
+            <div class="field-row single">
+              <div class="field"><label>Headnote</label><textarea id="e-headnote"></textarea></div>
             </div>
             <div class="field-row triple">
               <div class="field"><label>Yield / Servings</label><input type="text" id="e-yield"></div>
@@ -830,7 +836,7 @@ function buildRecipeJSON() {
     sub_recipes.push({ name: subName, yield: inputs[1]?.value.trim() || '', ingredients: subIngs, steps: subSteps });
   });
   return {
-    name: val('f-name'), description: val('f-desc'), category: val('f-category'),
+    name: val('f-name'), description: val('f-desc'), headnote: val('f-headnote'), category: val('f-category'),
     keywords: val('f-keywords'), yield: val('f-yield'), source: val('f-source'),
     chef: val('f-chef'), imageUrl: val('f-image-url'),
     ingredients, steps, specialtools, winePairings, sub_recipes,
@@ -1016,6 +1022,7 @@ async function loadRecipeForEdit(recipe) {
   document.getElementById('e-name').value     = recipe.name || '';
   document.getElementById('e-category').value = recipe.category || '';
   document.getElementById('e-desc').value      = recipe.description || '';
+  document.getElementById('e-headnote').value  = recipe.headnote || '';
   document.getElementById('e-yield').value     = recipe.yield || '';
   document.getElementById('e-source').value    = recipe.source || '';
   document.getElementById('e-chef').value      = recipe.chef || '';
@@ -1094,7 +1101,7 @@ function buildEditRecipeJSON() {
     sub_recipes.push({ name: subName, yield: inputs[1]?.value.trim() || '', ingredients: subIngs, steps: subSteps });
   });
   return {
-    name: eVal('e-name'), description: eVal('e-desc'), category: eVal('e-category'),
+    name: eVal('e-name'), description: eVal('e-desc'), headnote: eVal('e-headnote'), category: eVal('e-category'),
     keywords: eVal('e-keywords'), yield: eVal('e-yield'), source: eVal('e-source'),
     chef: eVal('e-chef'), imageUrl: eVal('e-imageurl'),
     ingredients, steps, specialtools, winePairings, sub_recipes,

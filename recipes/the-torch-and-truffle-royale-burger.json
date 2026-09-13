@@ -1,6 +1,7 @@
 {
   "name": "The Torch and Truffle Royale Burger",
   "description": "A sous vide-perfected Wagyu-style patty, flame finished with a torch for a delicate, smoky crust, layered with melted cheese and silky caramelized onion puree.",
+  "headnote": "Cooking the patty sous-vide first and torching it after inverts the usual order of a burger — instead of hoping a pan sear cooks the inside through before the outside burns, the interior is already exactly medium-rare before the torch ever touches it, so the crust is purely for flavor, not doneness. The onion purée, blended smooth rather than left as caramelized strands, is what lets it act like a sauce instead of a topping that falls out the back of the bun.",
   "category": "Main",
   "keywords": "Burger",
   "yield": "",

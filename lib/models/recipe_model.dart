@@ -106,16 +106,19 @@ class SpecialTools {
 class StepItem {
   final int number;
   final String instruction;
+  final int? durationSeconds;
 
   StepItem({
     required this.number,
     required this.instruction,
+    this.durationSeconds,
   });
 
   factory StepItem.fromJson(Map<String, dynamic> json) {
     return StepItem(
       number: json['number'] ?? 0,
       instruction: json['instruction'] ?? '',
+      durationSeconds: (json['duration_seconds'] as num?)?.toInt(),
     );
   }
 }

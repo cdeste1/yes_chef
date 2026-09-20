@@ -3,8 +3,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
 import '../models/recipe_model.dart';
+import '../services/favorites_service.dart';
 import '../widgets/ad_banner.dart';
 import '../widgets/nugget_promo_banner.dart';
+import 'cook_mode_screen.dart';
 
 class RecipeDetailScreen extends StatelessWidget {
   final Recipe recipe;
@@ -28,6 +30,20 @@ class RecipeDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(recipe.name),
         actions: [
+          ValueListenableBuilder<Set<String>>(
+            valueListenable: FavoritesService.favoritesNotifier,
+            builder: (context, favoriteSlugs, _) {
+              final isFavorite = favoriteSlugs.contains(recipe.slug);
+              return IconButton(
+                icon: Icon(
+                  isFavorite ? Icons.favorite : Icons.favorite_border,
+                  color: isFavorite ? const Color(0xFFF58220) : null,
+                ),
+                tooltip: isFavorite ? 'Remove from Saved Recipes' : 'Save recipe',
+                onPressed: () => FavoritesService.toggleFavorite(recipe.slug),
+              );
+            },
+          ),
           Builder(
             builder: (context) => IconButton(
               icon: const Icon(Icons.share),
@@ -295,8 +311,24 @@ class RecipeDetailScreen extends StatelessWidget {
 
 
             // ===== Steps =====
-            const Text('Steps:',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const Text('Steps:',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+                if (recipe.steps.isNotEmpty)
+                  ElevatedButton.icon(
+                    icon: const Icon(Icons.restaurant_menu, size: 18),
+                    label: const Text('Cook Mode'),
+                    onPressed: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => CookModeScreen(recipe: recipe),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
             const SizedBox(height: 6),
             ...recipe.steps.asMap().entries.map(
                   (entry) => Padding(

@@ -6,6 +6,10 @@
 	<string>ca-app-pub-2497070669800198~5095649936</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>Yes Chef! uses this to show ads that are more relevant to you. Your data is never sold or shared beyond what's needed to display ads.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Yes Chef! uses your microphone so you can control Cook Mode hands-free while you cook. Audio is only used to recognize your commands and is never stored or shared.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Yes Chef! uses speech recognition to understand hands-free commands like "next step" while you cook. Your voice is never stored or shared.</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

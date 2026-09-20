@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import '../models/recipe_model.dart';
 import '../services/recipe_service.dart';
-import 'recipe_detail_screen.dart';
 import 'results_list_screen.dart';
+import 'saved_recipes_screen.dart';
 import '../widgets/app_header.dart';
+import '../widgets/recipe_card.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -74,69 +74,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _buildRecipeCard(Recipe recipe, {double height = 160}) {
-    return GestureDetector(
-      onTap: () => Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (_) => RecipeDetailScreen(recipe: recipe),
-        ),
-      ),
-      child: Card(
-        margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-        elevation: 4,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            if (recipe.imageUrl.isNotEmpty)
-              ClipRRect(
-                borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
-                child: CachedNetworkImage(
-                  imageUrl: recipe.imageUrl,
-                  height: height,
-                  width: double.infinity,
-                  fit: BoxFit.cover,
-                  placeholder: (context, url) => Container(
-                    height: height,
-                    color: Colors.grey[300],
-                    alignment: Alignment.center,
-                    child: const CircularProgressIndicator(),
-                  ),
-                  errorWidget: (context, url, error) => Container(
-                    height: height,
-                    color: Colors.grey[300],
-                    alignment: Alignment.center,
-                    child: const Icon(Icons.image_not_supported),
-                  ),
-                ),
-              ),
-            Padding(
-              padding: const EdgeInsets.all(8),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(recipe.name,
-                      style: const TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 16)),
-                  const SizedBox(height: 4),
-                  //Flexible(
-                  //  child: 
-                  Text(recipe.description,
-                      overflow: TextOverflow.ellipsis,
-                      maxLines: 2,
-                      style: const TextStyle(fontStyle: FontStyle.italic),
-                      ),
-                  //),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
   Widget _buildRandomMenuCarousel() {
     if (_randomMenu.isEmpty) return const SizedBox();
     return SizedBox(
@@ -145,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
         controller: PageController(viewportFraction: 0.8),
         children: _randomMenu.entries
             .where((e) => e.value != null)
-            .map((entry) => _buildRecipeCard(entry.value!))
+            .map((entry) => RecipeCard(recipe: entry.value!))
             .toList(),
       ),
     );
@@ -159,7 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
         itemCount: _topRecipes.length,
         itemBuilder: (context, index) => SizedBox(
           width: 160,
-          child: _buildRecipeCard(_topRecipes[index], height: 100),
+          child: RecipeCard(recipe: _topRecipes[index], height: 100),
         ),
       ),
     );
@@ -194,7 +131,12 @@ Widget build(BuildContext context) {
     backgroundColor: const Color.fromARGB(255, 0, 0, 0),
     body: CustomScrollView(
       slivers: [
-        const AppHeader(),
+        AppHeader(
+          onOpenSavedRecipes: () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const SavedRecipesScreen()),
+          ),
+        ),
         SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.all(16),

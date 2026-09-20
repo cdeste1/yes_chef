@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AppHeader extends StatelessWidget {
-  const AppHeader({super.key});
+  final VoidCallback onOpenSavedRecipes;
+
+  const AppHeader({super.key, required this.onOpenSavedRecipes});
 
   static const String privacyUrl = "https://tryyeschef.app/legal/privacy.html";
   static const String termsUrl = "https://tryyeschef.app/legal/terms.html";
@@ -30,6 +32,15 @@ class AppHeader extends StatelessWidget {
               const Text("Settings",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               const SizedBox(height: 20),
+              ListTile(
+                leading: const Icon(Icons.bookmark_outline),
+                title: const Text("Saved Recipes"),
+                trailing: const Icon(Icons.chevron_right, size: 18),
+                onTap: () {
+                  Navigator.pop(context);
+                  onOpenSavedRecipes();
+                },
+              ),
               ListTile(
                 leading: const Icon(Icons.privacy_tip_outlined),
                 title: const Text("Privacy Policy"),

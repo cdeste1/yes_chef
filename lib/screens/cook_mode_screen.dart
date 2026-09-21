@@ -95,8 +95,12 @@ class _CookModeScreenState extends State<CookModeScreen> {
       if (mounted) setState(() => _isSpeaking = true);
       // Yield the mic immediately if a listen session was still open (e.g.
       // the user swiped to a new step mid-listen) so the app never hears
-      // its own narration.
-      if (_isListening) _speech?.stop();
+      // its own narration. Set _isListening false ourselves rather than
+      // waiting for the plugin's stop() callback — same reasoning as above.
+      if (_isListening) {
+        _speech?.stop();
+        if (mounted) setState(() => _isListening = false);
+      }
     });
     _tts.setCompletionHandler(() {
       if (mounted) setState(() => _isSpeaking = false);
@@ -155,20 +159,43 @@ class _CookModeScreenState extends State<CookModeScreen> {
       return;
     }
 
-    // iOS voices include a 'gender' field; Android's don't, so those just
-    // render as a flat list without gender grouping/labels.
-    String groupOf(Map<String, String> v) {
+    // iOS voices include a 'gender' field (Android's don't); where it's
+    // available, only show voices identified as Man/Woman — iOS also ships
+    // a long tail of novelty voices (Bells, Bubbles, etc.) with no gender
+    // set, which is exactly the "gimmicky" set to hide. If nothing on this
+    // device reports a gender at all (Android), fall back to the full list
+    // rather than filtering everything away.
+    String? genderGroupOf(Map<String, String> v) {
       final g = (v['gender'] ?? '').toLowerCase();
       if (g == 'male') return 'Man';
       if (g == 'female') return 'Woman';
-      return 'Voices';
+      return null;
     }
 
+    final hasAnyGenderData = voices.any((v) => genderGroupOf(v) != null);
+    final displayVoices =
+        hasAnyGenderData ? voices.where((v) => genderGroupOf(v) != null).toList() : voices;
+
+    // Higher-quality (less robotic) voices first within each group. iOS
+    // ships "default" quality on-device but "enhanced"/"premium" versions
+    // of the same voices are a free download in iOS Settings.
+    const qualityRank = {'premium': 0, 'enhanced': 1, 'default': 2};
+    int qualityOf(Map<String, String> v) =>
+        qualityRank[(v['quality'] ?? '').toLowerCase()] ?? 3;
+    displayVoices.sort((a, b) => qualityOf(a).compareTo(qualityOf(b)));
+
     final groups = <String, List<Map<String, String>>>{};
-    for (final v in voices) {
-      groups.putIfAbsent(groupOf(v), () => []).add(v);
+    for (final v in displayVoices) {
+      groups.putIfAbsent(genderGroupOf(v) ?? 'Voices', () => []).add(v);
     }
     const groupOrder = ['Woman', 'Man', 'Voices'];
+
+    // If nothing better than "default" quality is installed, there's a free
+    // fix: iOS ships higher-quality (Enhanced/Premium) versions of its
+    // voices as an optional download, not on-device by default.
+    final hasBetterThanDefault = displayVoices.any(
+        (v) => (v['quality'] ?? '').toLowerCase() != 'default' && v['quality'] != null);
+    final showQualityTip = displayVoices.any((v) => v['quality'] != null) && !hasBetterThanDefault;
 
     await showModalBottomSheet(
       context: context,
@@ -198,6 +225,17 @@ class _CookModeScreenState extends State<CookModeScreen> {
               },
               child: const Text('Reset to device default'),
             ),
+            if (showQualityTip)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: Text(
+                  'These sound more robotic than they could — go to Settings → '
+                  'Accessibility → Spoken Content → Voices and download an '
+                  '"Enhanced" or "Premium" voice for a much more natural sound, '
+                  'then come back here to pick it.',
+                  style: TextStyle(color: Colors.white.withValues(alpha: 0.7), fontSize: 13),
+                ),
+              ),
             for (final groupName in groupOrder)
               if (groups[groupName]?.isNotEmpty ?? false) ...[
                 Padding(
@@ -211,8 +249,14 @@ class _CookModeScreenState extends State<CookModeScreen> {
                     contentPadding: EdgeInsets.zero,
                     title: Text(v['name'] ?? 'Unknown',
                         style: const TextStyle(color: Colors.white)),
-                    subtitle: Text(v['locale'] ?? '',
-                        style: const TextStyle(color: Colors.white54)),
+                    subtitle: Text(
+                      [
+                        v['locale'] ?? '',
+                        if ((v['quality'] ?? '').toLowerCase() == 'premium') 'Premium',
+                        if ((v['quality'] ?? '').toLowerCase() == 'enhanced') 'Enhanced',
+                      ].join(' · '),
+                      style: const TextStyle(color: Colors.white54),
+                    ),
                     trailing: IconButton(
                       icon: const Icon(Icons.play_arrow, color: Colors.white70),
                       tooltip: 'Preview',
@@ -286,7 +330,14 @@ class _CookModeScreenState extends State<CookModeScreen> {
     await _speech!.listen(
       onResult: (result) {
         if (result.finalResult) {
+          // Don't wait on onStatus to confirm the session ended — on some
+          // platform/version combos it doesn't fire reliably after repeated
+          // start/stop cycles, which left the mic permanently "stuck"
+          // listening (blocking _maybeResumeListening's guard forever)
+          // after the very first recognized command.
+          if (mounted) setState(() => _isListening = false);
           _handleVoiceCommand(result.recognizedWords);
+          _maybeResumeListening();
         }
       },
       listenOptions: stt.SpeechListenOptions(
@@ -311,8 +362,40 @@ class _CookModeScreenState extends State<CookModeScreen> {
     }
   }
 
+  static const Map<String, int> _spokenNumbers = {
+    'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+    'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10,
+    'eleven': 11, 'twelve': 12, 'thirteen': 13, 'fourteen': 14,
+    'fifteen': 15, 'twenty': 20, 'thirty': 30, 'forty': 40,
+    'forty-five': 45, 'sixty': 60,
+  };
+
+  /// Extracts the first number in [text], as a digit ("5") or a common
+  /// spoken word ("five") — speech engines usually transcribe numbers as
+  /// digits already, but this is a cheap fallback for when they don't.
+  int? _extractNumber(String text) {
+    final digitMatch = RegExp(r'\d+').firstMatch(text);
+    if (digitMatch != null) return int.tryParse(digitMatch.group(0)!);
+    for (final entry in _spokenNumbers.entries) {
+      if (text.contains(entry.key)) return entry.value;
+    }
+    return null;
+  }
+
   void _handleVoiceCommand(String heard) {
     final n = heard.toLowerCase().trim();
+    if (n.contains('timer')) {
+      if (n.contains('cancel') || n.contains('stop') || n.contains('clear')) {
+        _cancelTimer();
+        return;
+      }
+      final value = _extractNumber(n);
+      if (value != null && value > 0) {
+        final isSeconds = n.contains('second') || n.contains('sec');
+        _startTimer(isSeconds ? Duration(seconds: value) : Duration(minutes: value));
+      }
+      return;
+    }
     if (n.contains('next')) {
       _goNext();
     } else if (n.contains('back') || n.contains('previous')) {
@@ -683,7 +766,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
                     message: !_continuousMode
                         ? 'Voice control off — tap to turn on'
                         : (_isListening
-                            ? 'Listening for "next", "back", "repeat"…'
+                            ? 'Listening for "next", "back", "repeat", "timer 5 minutes"…'
                             : 'Voice control on — tap to turn off'),
                     child: SizedBox(
                       width: 48,

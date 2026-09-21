@@ -59,6 +59,11 @@ class _CookModeScreenState extends State<CookModeScreen> {
   bool _speechInitialized = false;
   bool _isListening = false;
   bool _continuousMode = true;
+  // Safety net: some platform/version combos silently fail to deliver any
+  // onResult/onStatus/onError callback after listen() is called, leaving
+  // _isListening stuck true forever with nothing actually listening. If
+  // this fires, nothing else ended the session in time — force a reset.
+  Timer? _listenWatchdog;
 
   @override
   void initState() {
@@ -95,12 +100,8 @@ class _CookModeScreenState extends State<CookModeScreen> {
       if (mounted) setState(() => _isSpeaking = true);
       // Yield the mic immediately if a listen session was still open (e.g.
       // the user swiped to a new step mid-listen) so the app never hears
-      // its own narration. Set _isListening false ourselves rather than
-      // waiting for the plugin's stop() callback — same reasoning as above.
-      if (_isListening) {
-        _speech?.stop();
-        if (mounted) setState(() => _isListening = false);
-      }
+      // its own narration.
+      if (_isListening) _endListenSession();
     });
     _tts.setCompletionHandler(() {
       if (mounted) setState(() => _isSpeaking = false);
@@ -289,9 +290,20 @@ class _CookModeScreenState extends State<CookModeScreen> {
   // have just ended: onStatus, onError, and TTS finishing/being skipped.
 
   void _maybeResumeListening() {
-    if (_continuousMode && !_isSpeaking && !_isListening && mounted) {
-      _startListening();
-    }
+    _listenWatchdog?.cancel();
+    if (!_continuousMode || _isSpeaking || _isListening || !mounted) return;
+    // Small delay before restarting — starting a new native listen session
+    // immediately after tearing down the last one can race on some
+    // platforms and silently fail without any callback ever firing.
+    Timer(const Duration(milliseconds: 400), () {
+      if (mounted) _startListening();
+    });
+  }
+
+  void _endListenSession() {
+    _listenWatchdog?.cancel();
+    _speech?.stop();
+    if (mounted) setState(() => _isListening = false);
   }
 
   Future<void> _startListening() async {
@@ -303,12 +315,14 @@ class _CookModeScreenState extends State<CookModeScreen> {
         onStatus: (status) {
           if (!mounted) return;
           if (status == 'notListening' || status == 'done') {
+            _listenWatchdog?.cancel();
             setState(() => _isListening = false);
             _maybeResumeListening();
           }
         },
         onError: (error) {
           if (!mounted) return;
+          _listenWatchdog?.cancel();
           setState(() => _isListening = false);
           _maybeResumeListening();
         },
@@ -327,29 +341,54 @@ class _CookModeScreenState extends State<CookModeScreen> {
     }
 
     setState(() => _isListening = true);
-    await _speech!.listen(
-      onResult: (result) {
-        if (result.finalResult) {
-          // Don't wait on onStatus to confirm the session ended — on some
-          // platform/version combos it doesn't fire reliably after repeated
-          // start/stop cycles, which left the mic permanently "stuck"
-          // listening (blocking _maybeResumeListening's guard forever)
-          // after the very first recognized command.
-          if (mounted) setState(() => _isListening = false);
-          _handleVoiceCommand(result.recognizedWords);
-          _maybeResumeListening();
-        }
-      },
-      listenOptions: stt.SpeechListenOptions(
-        // Stay comfortably under iOS's on-device session cap (~60s); the
-        // status callback restarts a fresh session right after this ends.
-        listenFor: const Duration(seconds: 55),
-        pauseFor: const Duration(seconds: 4),
-        cancelOnError: true,
-        partialResults: false,
-        listenMode: stt.ListenMode.dictation,
-      ),
-    );
+    _listenWatchdog?.cancel();
+    _listenWatchdog = Timer(const Duration(seconds: 65), () {
+      if (mounted && _isListening) {
+        setState(() => _isListening = false);
+        _speech?.stop();
+        _maybeResumeListening();
+      }
+    });
+
+    try {
+      await _speech!.listen(
+        onResult: (result) {
+          final n = result.recognizedWords.toLowerCase().trim();
+          // Short commands act the instant a partial result contains them
+          // — waiting for pauseFor-based finalization is the delay that
+          // made "next" feel unresponsive. Timer *durations* still wait
+          // for the final result since more words can still change the
+          // parsed value (e.g. "...1" becoming "...1 hour 30 minutes").
+          final isInstantCommand = n.contains('next') ||
+              n.contains('back') ||
+              n.contains('previous') ||
+              n.contains('repeat') ||
+              n.contains('again') ||
+              (n.contains('timer') &&
+                  (n.contains('cancel') || n.contains('stop') || n.contains('clear')));
+
+          if (isInstantCommand || result.finalResult) {
+            _endListenSession();
+            _handleVoiceCommand(result.recognizedWords);
+            _maybeResumeListening();
+          }
+        },
+        listenOptions: stt.SpeechListenOptions(
+          // Stay comfortably under iOS's on-device session cap (~60s); the
+          // status callback restarts a fresh session right after this ends.
+          listenFor: const Duration(seconds: 55),
+          pauseFor: const Duration(seconds: 3),
+          cancelOnError: true,
+          partialResults: true,
+          // Tuned for short commands/phrases rather than dictation.
+          listenMode: stt.ListenMode.confirmation,
+        ),
+      );
+    } catch (e) {
+      _listenWatchdog?.cancel();
+      if (mounted) setState(() => _isListening = false);
+      _maybeResumeListening();
+    }
   }
 
   void _toggleContinuousListening() {
@@ -357,6 +396,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
     if (_continuousMode) {
       _maybeResumeListening();
     } else {
+      _listenWatchdog?.cancel();
       _speech?.stop();
       setState(() => _isListening = false);
     }
@@ -382,6 +422,36 @@ class _CookModeScreenState extends State<CookModeScreen> {
     return null;
   }
 
+  /// Parses a spoken timer duration, combining hours/minutes/seconds when
+  /// more than one is present ("1 hour 30 minutes", "1 1/2 hours" → 90 min).
+  /// Falls back to treating a bare number with no unit as minutes.
+  Duration? _extractTimerDuration(String text) {
+    var t = ' $text ';
+    // Normalize common fraction phrasing so the number regexes below catch it.
+    t = t.replaceAllMapped(RegExp(r'(\d+)\s+1\s*/\s*2\b'), (m) => '${m.group(1)}.5');
+    t = t.replaceAll(RegExp(r'\bone and a half\b'), '1.5');
+    t = t.replaceAllMapped(RegExp(r'\b(\d+) and a half\b'), (m) => '${m.group(1)}.5');
+    t = t.replaceAll(RegExp(r'\bhalf an? hour\b'), '0.5 hour');
+    t = t.replaceAll(RegExp(r'\ban hour\b'), '1 hour');
+
+    double? numBefore(RegExp unit) {
+      final m = unit.firstMatch(t);
+      return m == null ? null : double.tryParse(m.group(1)!);
+    }
+
+    final hours = numBefore(RegExp(r'(\d+(?:\.\d+)?)\s*(?:hours?|hrs?)\b'));
+    final minutes = numBefore(RegExp(r'(\d+(?:\.\d+)?)\s*(?:minutes?|mins?)\b'));
+    final seconds = numBefore(RegExp(r'(\d+(?:\.\d+)?)\s*(?:seconds?|secs?)\b'));
+
+    if (hours != null || minutes != null || seconds != null) {
+      final totalSeconds = (hours ?? 0) * 3600 + (minutes ?? 0) * 60 + (seconds ?? 0);
+      return Duration(seconds: totalSeconds.round());
+    }
+
+    final bare = _extractNumber(t);
+    return bare == null ? null : Duration(minutes: bare);
+  }
+
   void _handleVoiceCommand(String heard) {
     final n = heard.toLowerCase().trim();
     if (n.contains('timer')) {
@@ -389,10 +459,9 @@ class _CookModeScreenState extends State<CookModeScreen> {
         _cancelTimer();
         return;
       }
-      final value = _extractNumber(n);
-      if (value != null && value > 0) {
-        final isSeconds = n.contains('second') || n.contains('sec');
-        _startTimer(isSeconds ? Duration(seconds: value) : Duration(minutes: value));
+      final duration = _extractTimerDuration(n);
+      if (duration != null && duration > Duration.zero) {
+        _startTimer(duration);
       }
       return;
     }
@@ -415,6 +484,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
     // and stays scheduled even if this screen goes away.
     _uiTickTimer?.cancel();
     _speechDebounce?.cancel();
+    _listenWatchdog?.cancel();
     _tts.stop();
     _speech?.stop();
     WakelockPlus.disable();

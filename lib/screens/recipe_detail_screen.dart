@@ -28,7 +28,11 @@ class RecipeDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(recipe.name),
+        title: FittedBox(
+          fit: BoxFit.scaleDown,
+          alignment: Alignment.centerLeft,
+          child: Text(recipe.name),
+        ),
         actions: [
           ValueListenableBuilder<Set<String>>(
             valueListenable: FavoritesService.favoritesNotifier,

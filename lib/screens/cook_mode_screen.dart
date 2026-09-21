@@ -163,6 +163,15 @@ class _CookModeScreenState extends State<CookModeScreen> {
     });
   }
 
+  /// Makes hyphenated number ranges ("10-15", "8–10") readable — TTS
+  /// engines otherwise pronounce the hyphen literally as "dash".
+  String _ttsFriendly(String text) {
+    return text.replaceAllMapped(
+      RegExp(r'(\d+)\s*[-–]\s*(\d+)'),
+      (m) => '${m.group(1)} to ${m.group(2)}',
+    );
+  }
+
   Future<void> _speakCurrentStep() async {
     if (!_ttsEnabled) {
       _maybeResumeListening();
@@ -170,7 +179,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
     }
     try {
       await _tts.stop();
-      await _tts.speak(_steps[_currentIndex].step.instruction);
+      await _tts.speak(_ttsFriendly(_steps[_currentIndex].step.instruction));
     } catch (e) {
       // Some devices (mostly certain Android OEM builds) ship with no TTS
       // engine installed. Degrade silently rather than repeatedly throwing.
@@ -817,7 +826,11 @@ class _CookModeScreenState extends State<CookModeScreen> {
       backgroundColor: const Color(0xFF121212),
       appBar: AppBar(
         backgroundColor: const Color(0xFF121212),
-        title: Text(widget.recipe.name, overflow: TextOverflow.ellipsis),
+        title: FittedBox(
+          fit: BoxFit.scaleDown,
+          alignment: Alignment.centerLeft,
+          child: Text(widget.recipe.name),
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.record_voice_over),
@@ -849,13 +862,22 @@ class _CookModeScreenState extends State<CookModeScreen> {
                   // recipe's own steps the AppBar title already covers it.
                   if (_steps[_currentIndex].isSubRecipe)
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 2),
-                      child: Text(
-                        _steps[_currentIndex].recipeName,
-                        style: const TextStyle(
-                          color: Colors.white70,
-                          fontSize: 13,
-                          fontWeight: FontWeight.w600,
+                      padding: const EdgeInsets.only(bottom: 10),
+                      child: Container(
+                        padding:
+                            const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFF58220).withValues(alpha: 0.15),
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(color: const Color(0xFFF58220)),
+                        ),
+                        child: Text(
+                          _steps[_currentIndex].recipeName,
+                          style: const TextStyle(
+                            color: Color(0xFFF58220),
+                            fontSize: 17,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),

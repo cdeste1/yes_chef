@@ -6,6 +6,7 @@ import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:wakelock_plus/wakelock_plus.dart';
 import '../models/recipe_model.dart';
 import '../services/timer_notification_service.dart';
+import '../services/voice_settings_service.dart';
 
 /// Full-screen, one-step-at-a-time cooking view. PageView is the single
 /// source of truth for "which step is current" — later phases (timer,
@@ -47,13 +48,17 @@ class _CookModeScreenState extends State<CookModeScreen> {
   bool _isSpeaking = false;
   Timer? _speechDebounce;
 
-  // Voice commands — push-to-talk: tap the mic, speak one command, it
-  // auto-stops after a pause. Lazily created on first tap so the
-  // mic/speech-recognition permission prompt is contextual, not blind at
-  // launch. Never listens while _isSpeaking (the app shouldn't hear itself).
+  // Voice commands — always-on while _continuousMode is true: the mic
+  // re-listens automatically after every session ends (silence, platform
+  // session-length cap, etc.) and after every TTS utterance finishes.
+  // _speech is lazily created on first use so the mic/speech-recognition
+  // permission prompt is contextual, not blind at launch. Never listens
+  // while _isSpeaking (the app shouldn't hear itself) — listening resumes
+  // once TTS's completion handler fires.
   stt.SpeechToText? _speech;
   bool _speechInitialized = false;
   bool _isListening = false;
+  bool _continuousMode = true;
 
   @override
   void initState() {
@@ -61,8 +66,13 @@ class _CookModeScreenState extends State<CookModeScreen> {
     _steps = widget.recipe.steps;
     _pageController = PageController();
     WakelockPlus.enable();
-    _initTts();
-    _speakCurrentStep();
+    // Await init before the first speak() so the completion handler (which
+    // is what kicks off continuous listening) is registered in time —
+    // otherwise the very first utterance can finish before anything is
+    // listening for its completion.
+    _initTts().then((_) {
+      if (mounted) _speakCurrentStep();
+    });
   }
 
   Future<void> _initTts() async {
@@ -70,19 +80,39 @@ class _CookModeScreenState extends State<CookModeScreen> {
       IosTextToSpeechAudioCategory.playback,
       [IosTextToSpeechAudioCategoryOptions.mixWithOthers],
     );
+
+    final savedVoice = await VoiceSettingsService.getSavedVoice();
+    if (savedVoice != null) {
+      try {
+        await _tts.setVoice(savedVoice);
+      } catch (e) {
+        // Saved voice no longer exists on this device/OS update — fall
+        // back to the platform default rather than failing to speak at all.
+      }
+    }
+
     _tts.setStartHandler(() {
       if (mounted) setState(() => _isSpeaking = true);
+      // Yield the mic immediately if a listen session was still open (e.g.
+      // the user swiped to a new step mid-listen) so the app never hears
+      // its own narration.
+      if (_isListening) _speech?.stop();
     });
     _tts.setCompletionHandler(() {
       if (mounted) setState(() => _isSpeaking = false);
+      _maybeResumeListening();
     });
     _tts.setErrorHandler((msg) {
       if (mounted) setState(() => _isSpeaking = false);
+      _maybeResumeListening();
     });
   }
 
   Future<void> _speakCurrentStep() async {
-    if (!_ttsEnabled) return;
+    if (!_ttsEnabled) {
+      _maybeResumeListening();
+      return;
+    }
     try {
       await _tts.stop();
       await _tts.speak(_steps[_currentIndex].instruction);
@@ -90,6 +120,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
       // Some devices (mostly certain Android OEM builds) ship with no TTS
       // engine installed. Degrade silently rather than repeatedly throwing.
       if (mounted) setState(() => _ttsEnabled = false);
+      _maybeResumeListening();
     }
   }
 
@@ -98,27 +129,151 @@ class _CookModeScreenState extends State<CookModeScreen> {
     if (!_ttsEnabled) _tts.stop();
   }
 
+  Future<void> _showVoicePicker() async {
+    List<dynamic> raw;
+    try {
+      raw = (await _tts.getVoices) as List<dynamic>;
+    } catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text("Couldn't load voices on this device.")),
+      );
+      return;
+    }
+
+    final voices = raw
+        .map((v) => Map<String, String>.from(
+            (v as Map).map((k, val) => MapEntry(k.toString(), val.toString()))))
+        .where((v) => (v['locale'] ?? '').toLowerCase().startsWith('en'))
+        .toList();
+
+    if (!mounted) return;
+    if (voices.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('No English voices found on this device.')),
+      );
+      return;
+    }
+
+    // iOS voices include a 'gender' field; Android's don't, so those just
+    // render as a flat list without gender grouping/labels.
+    String groupOf(Map<String, String> v) {
+      final g = (v['gender'] ?? '').toLowerCase();
+      if (g == 'male') return 'Man';
+      if (g == 'female') return 'Woman';
+      return 'Voices';
+    }
+
+    final groups = <String, List<Map<String, String>>>{};
+    for (final v in voices) {
+      groups.putIfAbsent(groupOf(v), () => []).add(v);
+    }
+    const groupOrder = ['Woman', 'Man', 'Voices'];
+
+    await showModalBottomSheet(
+      context: context,
+      backgroundColor: const Color(0xFF1E1E1E),
+      isScrollControlled: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (sheetContext) => DraggableScrollableSheet(
+        expand: false,
+        initialChildSize: 0.6,
+        builder: (context, scrollController) => ListView(
+          controller: scrollController,
+          padding: const EdgeInsets.all(20),
+          children: [
+            const Text(
+              'Choose a voice',
+              style: TextStyle(
+                  color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 8),
+            TextButton(
+              onPressed: () async {
+                await _tts.clearVoice();
+                await VoiceSettingsService.clearVoice();
+                if (sheetContext.mounted) Navigator.pop(sheetContext);
+              },
+              child: const Text('Reset to device default'),
+            ),
+            for (final groupName in groupOrder)
+              if (groups[groupName]?.isNotEmpty ?? false) ...[
+                Padding(
+                  padding: const EdgeInsets.only(top: 12, bottom: 4),
+                  child: Text(groupName,
+                      style: const TextStyle(
+                          color: Color(0xFFF58220), fontWeight: FontWeight.bold)),
+                ),
+                for (final v in groups[groupName]!)
+                  ListTile(
+                    contentPadding: EdgeInsets.zero,
+                    title: Text(v['name'] ?? 'Unknown',
+                        style: const TextStyle(color: Colors.white)),
+                    subtitle: Text(v['locale'] ?? '',
+                        style: const TextStyle(color: Colors.white54)),
+                    trailing: IconButton(
+                      icon: const Icon(Icons.play_arrow, color: Colors.white70),
+                      tooltip: 'Preview',
+                      onPressed: () async {
+                        await _tts.setVoice(v);
+                        await _tts.speak('Hello! This is how I sound.');
+                      },
+                    ),
+                    onTap: () async {
+                      await _tts.setVoice(v);
+                      await VoiceSettingsService.saveVoice(
+                          v['name'] ?? '', v['locale'] ?? '');
+                      if (sheetContext.mounted) Navigator.pop(sheetContext);
+                    },
+                  ),
+              ],
+          ],
+        ),
+      ),
+    );
+  }
+
   // ── Voice commands ────────────────────────────────────────────────────
+  //
+  // Continuous mode works by re-listening after every session naturally
+  // ends — speech_to_text sessions are capped by the platform (~1 minute
+  // on-device on iOS), so "always on" is really "always restarting."
+  // _maybeResumeListening() is the single place that decides whether to
+  // kick off the next session, called from every place a session could
+  // have just ended: onStatus, onError, and TTS finishing/being skipped.
+
+  void _maybeResumeListening() {
+    if (_continuousMode && !_isSpeaking && !_isListening && mounted) {
+      _startListening();
+    }
+  }
 
   Future<void> _startListening() async {
-    if (_isSpeaking || _isListening) return;
+    if (_isSpeaking || _isListening || !_continuousMode) return;
 
     _speech ??= stt.SpeechToText();
     if (!_speechInitialized) {
       _speechInitialized = await _speech!.initialize(
         onStatus: (status) {
-          if ((status == 'notListening' || status == 'done') && mounted) {
+          if (!mounted) return;
+          if (status == 'notListening' || status == 'done') {
             setState(() => _isListening = false);
+            _maybeResumeListening();
           }
         },
         onError: (error) {
-          if (mounted) setState(() => _isListening = false);
+          if (!mounted) return;
+          setState(() => _isListening = false);
+          _maybeResumeListening();
         },
       );
     }
 
     if (!_speechInitialized) {
       if (!mounted) return;
+      setState(() => _continuousMode = false);
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text("Voice control isn't available — check microphone/speech permissions."),
@@ -135,21 +290,28 @@ class _CookModeScreenState extends State<CookModeScreen> {
         }
       },
       listenOptions: stt.SpeechListenOptions(
-        listenFor: const Duration(seconds: 8),
-        pauseFor: const Duration(seconds: 3),
+        // Stay comfortably under iOS's on-device session cap (~60s); the
+        // status callback restarts a fresh session right after this ends.
+        listenFor: const Duration(seconds: 55),
+        pauseFor: const Duration(seconds: 4),
         cancelOnError: true,
         partialResults: false,
+        listenMode: stt.ListenMode.dictation,
       ),
     );
   }
 
-  void _stopListening() {
-    _speech?.stop();
-    setState(() => _isListening = false);
+  void _toggleContinuousListening() {
+    setState(() => _continuousMode = !_continuousMode);
+    if (_continuousMode) {
+      _maybeResumeListening();
+    } else {
+      _speech?.stop();
+      setState(() => _isListening = false);
+    }
   }
 
   void _handleVoiceCommand(String heard) {
-    setState(() => _isListening = false);
     final n = heard.toLowerCase().trim();
     if (n.contains('next')) {
       _goNext();
@@ -157,11 +319,10 @@ class _CookModeScreenState extends State<CookModeScreen> {
       _goBack();
     } else if (n.contains('repeat') || n.contains('again')) {
       _speakCurrentStep();
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Didn\'t catch that ("$heard") — try "next", "back", or "repeat".')),
-      );
     }
+    // Unmatched speech is ignored silently — with the mic always on, most
+    // recognized phrases will just be ambient kitchen conversation, and a
+    // toast for every one of those would be constant noise.
   }
 
   @override
@@ -453,6 +614,11 @@ class _CookModeScreenState extends State<CookModeScreen> {
         title: Text(widget.recipe.name, overflow: TextOverflow.ellipsis),
         actions: [
           IconButton(
+            icon: const Icon(Icons.record_voice_over),
+            tooltip: 'Choose voice',
+            onPressed: _showVoicePicker,
+          ),
+          IconButton(
             icon: Icon(_isSpeaking
                 ? Icons.volume_up
                 : (_ttsEnabled ? Icons.volume_up_outlined : Icons.volume_off)),
@@ -514,21 +680,26 @@ class _CookModeScreenState extends State<CookModeScreen> {
                   ),
                   const SizedBox(width: 12),
                   Tooltip(
-                    message: _isListening
-                        ? 'Listening…'
-                        : 'Say "next", "back", or "repeat"',
+                    message: !_continuousMode
+                        ? 'Voice control off — tap to turn on'
+                        : (_isListening
+                            ? 'Listening for "next", "back", "repeat"…'
+                            : 'Voice control on — tap to turn off'),
                     child: SizedBox(
                       width: 48,
                       height: 48,
                       child: RawMaterialButton(
                         shape: const CircleBorder(),
-                        fillColor: _isListening
-                            ? _alertRed
-                            : const Color(0xFFF58220),
-                        onPressed:
-                            _isSpeaking ? null : (_isListening ? _stopListening : _startListening),
-                        child: Icon(_isListening ? Icons.mic : Icons.mic_none,
-                            color: Colors.white),
+                        fillColor: !_continuousMode
+                            ? Colors.grey
+                            : (_isListening ? _successGreen : const Color(0xFFF58220)),
+                        onPressed: _toggleContinuousListening,
+                        child: Icon(
+                          !_continuousMode
+                              ? Icons.mic_off
+                              : (_isListening ? Icons.mic : Icons.mic_none),
+                          color: Colors.white,
+                        ),
                       ),
                     ),
                   ),

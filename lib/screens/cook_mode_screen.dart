@@ -8,11 +8,61 @@ import '../models/recipe_model.dart';
 import '../services/timer_notification_service.dart';
 import '../services/voice_settings_service.dart';
 
-/// Full-screen, one-step-at-a-time cooking view. PageView is the single
-/// source of truth for "which step is current" — later phases (timer,
-/// text-to-speech, voice commands) all hook into onPageChanged so every
-/// entry point (swipe, tap, voice) drives the same "arrived at step N"
-/// behavior instead of duplicating it per input method.
+/// One step, tagged with which part of the recipe it came from — the main
+/// recipe or one of its sub-recipes — so Cook Mode can walk through all of
+/// them as a single continuous sequence instead of stopping at the end of
+/// the main recipe's steps.
+class _CookStep {
+  final String recipeName;
+  final bool isSubRecipe;
+  final StepItem step;
+  final int numberInRecipe;
+  final int countInRecipe;
+
+  _CookStep({
+    required this.recipeName,
+    required this.isSubRecipe,
+    required this.step,
+    required this.numberInRecipe,
+    required this.countInRecipe,
+  });
+}
+
+List<_CookStep> _flattenSteps(Recipe recipe) {
+  final flattened = <_CookStep>[];
+  // Sub-recipes are component prep (a sauce, a dough, a filling) that the
+  // main recipe's steps typically reference as already-finished ingredients
+  // ("Ladle the sauce into each bowl") — the main recipe is usually the
+  // final assembly/plating, so it has to come last, not first.
+  for (final sub in recipe.subRecipes) {
+    for (var i = 0; i < sub.steps.length; i++) {
+      flattened.add(_CookStep(
+        recipeName: sub.name,
+        isSubRecipe: true,
+        step: sub.steps[i],
+        numberInRecipe: i + 1,
+        countInRecipe: sub.steps.length,
+      ));
+    }
+  }
+  for (var i = 0; i < recipe.steps.length; i++) {
+    flattened.add(_CookStep(
+      recipeName: recipe.name,
+      isSubRecipe: false,
+      step: recipe.steps[i],
+      numberInRecipe: i + 1,
+      countInRecipe: recipe.steps.length,
+    ));
+  }
+  return flattened;
+}
+
+/// Full-screen, one-step-at-a-time cooking view covering the main recipe's
+/// steps followed by every sub-recipe's steps in turn. PageView is the
+/// single source of truth for "which step is current" — timer, TTS, and
+/// voice commands all hook into onPageChanged so every entry point (swipe,
+/// tap, voice) drives the same "arrived at step N" behavior instead of
+/// duplicating it per input method.
 class CookModeScreen extends StatefulWidget {
   final Recipe recipe;
 
@@ -23,7 +73,7 @@ class CookModeScreen extends StatefulWidget {
 }
 
 class _CookModeScreenState extends State<CookModeScreen> {
-  late final List<StepItem> _steps;
+  late final List<_CookStep> _steps;
   late final PageController _pageController;
   int _currentIndex = 0;
 
@@ -68,7 +118,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
   @override
   void initState() {
     super.initState();
-    _steps = widget.recipe.steps;
+    _steps = _flattenSteps(widget.recipe);
     _pageController = PageController();
     WakelockPlus.enable();
     // Await init before the first speak() so the completion handler (which
@@ -120,7 +170,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
     }
     try {
       await _tts.stop();
-      await _tts.speak(_steps[_currentIndex].instruction);
+      await _tts.speak(_steps[_currentIndex].step.instruction);
     } catch (e) {
       // Some devices (mostly certain Android OEM builds) ship with no TTS
       // engine installed. Degrade silently rather than repeatedly throwing.
@@ -230,10 +280,12 @@ class _CookModeScreenState extends State<CookModeScreen> {
               Padding(
                 padding: const EdgeInsets.only(bottom: 12),
                 child: Text(
-                  'These sound more robotic than they could — go to Settings → '
-                  'Accessibility → Spoken Content → Voices and download an '
-                  '"Enhanced" or "Premium" voice for a much more natural sound, '
-                  'then come back here to pick it.',
+                  'These sound more robotic than they could — open your iPhone\'s '
+                  'Settings app (not this app), search for "Voices" using the '
+                  'search bar at the top, then download an "Enhanced" or "Premium" '
+                  'voice for a much more natural sound. The exact menu location '
+                  'varies by iOS version, which is why searching is the reliable '
+                  'way to find it. Come back here afterward to pick it.',
                   style: TextStyle(color: Colors.white.withValues(alpha: 0.7), fontSize: 13),
                 ),
               ),
@@ -547,7 +599,8 @@ class _CookModeScreenState extends State<CookModeScreen> {
 
     await TimerNotificationService.scheduleTimerComplete(
       id: _timerNotificationId,
-      stepLabel: 'Step ${_currentIndex + 1}: ${_steps[_currentIndex].instruction}',
+      stepLabel:
+          '${_steps[_currentIndex].recipeName} — Step ${_steps[_currentIndex].numberInRecipe}: ${_steps[_currentIndex].step.instruction}',
       remaining: duration,
     );
 
@@ -597,7 +650,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
     const presets = [1, 3, 5, 10, 15, 20, 30];
     // If the recipe data specifies a duration for this step, offer it as a
     // suggestion — never auto-started, just a convenient chip.
-    final suggestedSeconds = _steps[_currentIndex].durationSeconds;
+    final suggestedSeconds = _steps[_currentIndex].step.durationSeconds;
     final customController = TextEditingController();
     await showModalBottomSheet(
       context: context,
@@ -790,13 +843,31 @@ class _CookModeScreenState extends State<CookModeScreen> {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 12),
-              child: Text(
-                'Step ${_currentIndex + 1} of ${_steps.length}',
-                style: const TextStyle(
-                  color: Color(0xFFF58220),
-                  fontWeight: FontWeight.bold,
-                  fontSize: 14,
-                ),
+              child: Column(
+                children: [
+                  // Only labeled for sub-recipe steps — for the main
+                  // recipe's own steps the AppBar title already covers it.
+                  if (_steps[_currentIndex].isSubRecipe)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 2),
+                      child: Text(
+                        _steps[_currentIndex].recipeName,
+                        style: const TextStyle(
+                          color: Colors.white70,
+                          fontSize: 13,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                  Text(
+                    'Step ${_steps[_currentIndex].numberInRecipe} of ${_steps[_currentIndex].countInRecipe}',
+                    style: const TextStyle(
+                      color: Color(0xFFF58220),
+                      fontWeight: FontWeight.bold,
+                      fontSize: 14,
+                    ),
+                  ),
+                ],
               ),
             ),
             _buildTimerBanner(),
@@ -809,7 +880,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
                   padding: const EdgeInsets.symmetric(horizontal: 28),
                   child: Center(
                     child: Text(
-                      _steps[index].instruction,
+                      _steps[index].step.instruction,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Colors.white,

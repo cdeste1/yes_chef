@@ -316,7 +316,8 @@ class RecipeDetailScreen extends StatelessWidget {
               children: [
                 const Text('Steps:',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-                if (recipe.steps.isNotEmpty)
+                if (recipe.steps.isNotEmpty ||
+                    recipe.subRecipes.any((sub) => sub.steps.isNotEmpty))
                   ElevatedButton.icon(
                     icon: const Icon(Icons.restaurant_menu, size: 18),
                     label: const Text('Cook Mode'),

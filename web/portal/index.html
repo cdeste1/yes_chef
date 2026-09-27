@@ -163,10 +163,10 @@
   .btn-submit:hover { background: #2e2620; }
   .btn-submit:active { transform: translateY(1px); }
   .btn-submit:disabled { background: var(--muted); cursor: not-allowed; }
-  #status-msg { font-size: 12px; min-height: 18px; flex: 1; }
-  #status-msg.success { color: var(--success); }
-  #status-msg.error   { color: var(--error); }
-  #status-msg.loading { color: var(--muted); }
+  .status-msg { font-size: 12px; min-height: 18px; flex: 1; }
+  .status-msg.success { color: var(--success); }
+  .status-msg.error   { color: var(--error); }
+  .status-msg.loading { color: var(--muted); }
 
   /* ── PR success ── */
   #pr-success {
@@ -297,7 +297,7 @@
 
       <div class="submit-area">
         <button class="btn-submit" id="submit-btn-u" onclick="submitUploadMode()">Submit for Review</button>
-        <span id="status-msg-u"></span>
+        <span id="status-msg-u" class="status-msg"></span>
       </div>
       <div id="pr-success-u" class="pr-success" style="display:none;background:var(--surface);border:1px solid #a8d5b8;border-left:4px solid var(--success);border-radius:var(--radius);padding:20px 24px;margin-top:24px;">
         <h3 style="font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--success);margin-bottom:6px;">✓ Recipe submitted!</h3>
@@ -409,7 +409,7 @@
 
       <div class="submit-area">
         <button class="btn-submit" id="submit-btn-f" onclick="submitFormMode()">Submit for Review</button>
-        <span id="status-msg-f"></span>
+        <span id="status-msg-f" class="status-msg"></span>
       </div>
       <div id="pr-success-f" style="display:none;background:var(--surface);border:1px solid #a8d5b8;border-left:4px solid var(--success);border-radius:var(--radius);padding:20px 24px;margin-top:24px;">
         <h3 style="font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--success);margin-bottom:6px;">✓ Recipe submitted!</h3>
@@ -434,6 +434,7 @@
             <input type="text" id="recipe-search" placeholder="Search recipes..." oninput="filterRecipeList()" style="margin-bottom:16px">
             <div id="recipe-list-items" style="display:flex;flex-direction:column;gap:8px;max-height:320px;overflow-y:auto;"></div>
           </div>
+          <div id="status-msg-el" class="status-msg" style="margin-top:12px"></div>
         </div>
       </div>
 
@@ -525,7 +526,7 @@
 
         <div class="submit-area">
           <button class="btn-submit" id="submit-btn-e" onclick="saveEdit()">Save Changes</button>
-          <span id="status-msg-e"></span>
+          <span id="status-msg-e" class="status-msg"></span>
         </div>
         <div id="edit-success" style="display:none;background:var(--surface);border:1px solid #a8d5b8;border-left:4px solid var(--success);border-radius:var(--radius);padding:20px 24px;margin-top:24px;">
           <h3 style="font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--success);margin-bottom:6px;">✓ Changes saved!</h3>
@@ -692,6 +693,7 @@ async function gh(endpoint, method = 'GET', payload = null) {
     body: JSON.stringify({ endpoint, method, payload }),
   });
   const data = await resp.json();
+  if (resp.status === 401) throw new Error('Upload worker rejected the portal secret — its PORTAL_SECRET no longer matches the password on this page.');
   if (!resp.ok) throw new Error(data.message || data.error || `GitHub error ${resp.status}`);
   return data;
 }
@@ -1003,15 +1005,16 @@ async function loadRecipeForEdit(recipe) {
   editingSlug   = toSlug(recipe.name);
   const ghBase  = `/repos/${CONFIG.githubOwner}/${CONFIG.githubRepo}`;
 
-  setStatus('Loading recipe file...', 'loading', 'e');
+  setStatus('Loading recipe file...', 'loading', 'el');
   try {
     const fileData = await gh(`${ghBase}/contents/recipes/${editingSlug}.json`);
     editingFileSHA = fileData.sha;
   } catch(e) {
-    setStatus('Could not find recipe file in repo: ' + e.message, 'error', 'e');
+    setStatus(`Could not open "${recipe.name}" (recipes/${editingSlug}.json): ${e.message}`, 'error', 'el');
     return;
   }
 
+  setStatus('', '', 'el');
   setStatus('', '', 'e');
   document.getElementById('recipe-list').style.display = 'none';
   document.getElementById('edit-recipe-title').textContent = 'Editing: ' + recipe.name;
@@ -1063,6 +1066,7 @@ async function loadRecipeForEdit(recipe) {
 
 function clearEditForm() {
   document.getElementById('edit-form-section').style.display = 'none';
+  setStatus('', '', 'el');
   document.getElementById('recipe-search').value = '';
   renderRecipeList(allRecipes);
   document.getElementById('recipe-list').style.display = 'block';
@@ -1217,7 +1221,7 @@ function addEditSub(name='', yld='', ings='', steps='') {
 
 function setStatus(msg, type, suffix) {
   const el = document.getElementById(`status-msg-${suffix}`);
-  if (el) { el.textContent = msg; el.className = type; }
+  if (el) { el.textContent = msg; el.className = `status-msg ${type || ''}`.trim(); }
 }
 </script>
 </body>

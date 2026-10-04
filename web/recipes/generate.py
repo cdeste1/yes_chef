@@ -158,17 +158,28 @@ for r in recipes:
         f'<ul class="ing-list" itemprop="recipeIngredient">{ing_html}</ul>'
     ) if ingredients else ''
 
+    # Specialty items render as a wrapping row of compact chips rather than
+    # repeating a full "Need it? Click here to start cooking" sentence per
+    # item — at 8-10 items that sentence repeated reads as spammy. Matches
+    # the same chip treatment used in the app (recipe_detail_screen.dart).
     tools = r.get('specialtools', [])
     if tools:
+        bag_icon = (
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+            'stroke-linecap="round" stroke-linejoin="round">'
+            '<path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>'
+        )
         tool_items = []
         for t in tools:
             item_text = h(t.get('item', ''))
             link      = t.get('link', '').strip()
-            link_html = (
-                f' <a href="{h(link)}" class="affiliate-link" target="_blank" rel="noopener sponsored">'
-                f'Need it? Click here to start cooking</a>'
-            ) if link else ''
-            tool_items.append(f'<li>{item_text}{link_html}</li>')
+            if link:
+                tool_items.append(
+                    f'<li><a href="{h(link)}" class="tool-chip has-link" '
+                    f'target="_blank" rel="noopener sponsored">{item_text}{bag_icon}</a></li>'
+                )
+            else:
+                tool_items.append(f'<li><span class="tool-chip">{item_text}</span></li>')
         tools_html = (
             '<hr class="divider">'
             '<h2 class="section-heading">Speciality Items:</h2>'

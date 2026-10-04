@@ -15,9 +15,20 @@ import '../services/voice_settings_service.dart';
 class _CookStep {
   final String recipeName;
   final bool isSubRecipe;
-  final StepItem step;
+  // Null only for a transition entry (see below) — every instruction step
+  // has one.
+  final StepItem? step;
   final int numberInRecipe;
   final int countInRecipe;
+  // A full-screen "now starting X" interstitial inserted between recipe
+  // components, rather than an instruction to follow. Without this, going
+  // step-by-step from one sub-recipe straight into the next (or into the
+  // main recipe) looks identical to any other "next" — a cook following
+  // along without reading every header can land in a new component without
+  // noticing.
+  final bool isTransition;
+  final String? transitionTitle;
+  final String? transitionSubtitle;
 
   _CookStep({
     required this.recipeName,
@@ -25,7 +36,19 @@ class _CookStep {
     required this.step,
     required this.numberInRecipe,
     required this.countInRecipe,
-  });
+  })  : isTransition = false,
+        transitionTitle = null,
+        transitionSubtitle = null;
+
+  _CookStep.transition({
+    required this.recipeName,
+    required this.transitionTitle,
+    this.transitionSubtitle,
+  })  : isSubRecipe = false,
+        step = null,
+        numberInRecipe = 0,
+        countInRecipe = 0,
+        isTransition = true;
 }
 
 List<_CookStep> _flattenSteps(Recipe recipe) {
@@ -34,7 +57,16 @@ List<_CookStep> _flattenSteps(Recipe recipe) {
   // main recipe's steps typically reference as already-finished ingredients
   // ("Ladle the sauce into each bowl") — the main recipe is usually the
   // final assembly/plating, so it has to come last, not first.
-  for (final sub in recipe.subRecipes) {
+  final subs = recipe.subRecipes;
+  for (var s = 0; s < subs.length; s++) {
+    final sub = subs[s];
+    flattened.add(_CookStep.transition(
+      recipeName: sub.name,
+      transitionTitle: 'Now making: ${sub.name}',
+      transitionSubtitle: s == 0
+          ? 'Component ${s + 1} of ${subs.length + 1}'
+          : 'Component ${s + 1} of ${subs.length + 1} — set the previous one aside',
+    ));
     for (var i = 0; i < sub.steps.length; i++) {
       flattened.add(_CookStep(
         recipeName: sub.name,
@@ -44,6 +76,14 @@ List<_CookStep> _flattenSteps(Recipe recipe) {
         countInRecipe: sub.steps.length,
       ));
     }
+  }
+  if (subs.isNotEmpty) {
+    flattened.add(_CookStep.transition(
+      recipeName: recipe.name,
+      transitionTitle: 'Now making: ${recipe.name}',
+      transitionSubtitle:
+          'Component ${subs.length + 1} of ${subs.length + 1} — bring it all together',
+    ));
   }
   for (var i = 0; i < recipe.steps.length; i++) {
     flattened.add(_CookStep(
@@ -181,6 +221,11 @@ class _CookModeScreenState extends State<CookModeScreen> {
     );
   }
 
+  String get _currentSpokenText {
+    final entry = _steps[_currentIndex];
+    return entry.isTransition ? entry.transitionTitle! : entry.step!.instruction;
+  }
+
   Future<void> _speakCurrentStep() async {
     if (!_ttsEnabled) {
       _maybeResumeListening();
@@ -188,7 +233,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
     }
     try {
       await _tts.stop();
-      await _tts.speak(_ttsFriendly(_steps[_currentIndex].step.instruction));
+      await _tts.speak(_ttsFriendly(_currentSpokenText));
     } catch (e) {
       // Some devices (mostly certain Android OEM builds) ship with no TTS
       // engine installed. Degrade silently rather than repeatedly throwing.
@@ -639,8 +684,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
 
     await TimerNotificationService.scheduleTimerComplete(
       id: _timerNotificationId,
-      stepLabel:
-          '${_steps[_currentIndex].recipeName} — Step ${_steps[_currentIndex].numberInRecipe}: ${_steps[_currentIndex].step.instruction}',
+      stepLabel: '${_steps[_currentIndex].recipeName} — $_currentSpokenText',
       remaining: duration,
     );
 
@@ -690,7 +734,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
     const presets = [1, 3, 5, 10, 15, 20, 30];
     // If the recipe data specifies a duration for this step, offer it as a
     // suggestion — never auto-started, just a convenient chip.
-    final suggestedSeconds = _steps[_currentIndex].step.durationSeconds;
+    final suggestedSeconds = _steps[_currentIndex].step?.durationSeconds;
     final customController = TextEditingController();
     await showModalBottomSheet(
       context: context,
@@ -849,6 +893,40 @@ class _CookModeScreenState extends State<CookModeScreen> {
     );
   }
 
+  Widget _buildTransitionPage(_CookStep entry) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 32),
+      child: Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.arrow_circle_down_outlined,
+                color: Color(0xFFF58220), size: 56),
+            const SizedBox(height: 20),
+            Text(
+              entry.transitionTitle!,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+                height: 1.3,
+              ),
+            ),
+            if (entry.transitionSubtitle != null) ...[
+              const SizedBox(height: 12),
+              Text(
+                entry.transitionSubtitle!,
+                textAlign: TextAlign.center,
+                style: const TextStyle(color: Colors.white70, fontSize: 16),
+              ),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final isLastStep = _currentIndex == _steps.length - 1;
@@ -885,67 +963,71 @@ class _CookModeScreenState extends State<CookModeScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 12),
-              child: Column(
-                children: [
-                  // Only labeled for sub-recipe steps — for the main
-                  // recipe's own steps the AppBar title already covers it.
-                  if (_steps[_currentIndex].isSubRecipe)
-                    Padding(
-                      padding: const EdgeInsets.only(bottom: 10),
-                      child: Container(
-                        padding:
-                            const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                        decoration: BoxDecoration(
-                          color: const Color(0xFFF58220).withValues(alpha: 0.15),
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(color: const Color(0xFFF58220)),
-                        ),
-                        child: Text(
-                          _steps[_currentIndex].recipeName,
-                          style: const TextStyle(
-                            color: Color(0xFFF58220),
-                            fontSize: 17,
-                            fontWeight: FontWeight.bold,
+            if (!_steps[_currentIndex].isTransition)
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 12),
+                child: Column(
+                  children: [
+                    // Only labeled for sub-recipe steps — for the main
+                    // recipe's own steps the AppBar title already covers it.
+                    if (_steps[_currentIndex].isSubRecipe)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 10),
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 16, vertical: 8),
+                          decoration: BoxDecoration(
+                            color: const Color(0xFFF58220).withValues(alpha: 0.15),
+                            borderRadius: BorderRadius.circular(20),
+                            border: Border.all(color: const Color(0xFFF58220)),
+                          ),
+                          child: Text(
+                            _steps[_currentIndex].recipeName,
+                            style: const TextStyle(
+                              color: Color(0xFFF58220),
+                              fontSize: 17,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ),
                       ),
+                    Text(
+                      'Step ${_steps[_currentIndex].numberInRecipe} of ${_steps[_currentIndex].countInRecipe}',
+                      style: const TextStyle(
+                        color: Color(0xFFF58220),
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                      ),
                     ),
-                  Text(
-                    'Step ${_steps[_currentIndex].numberInRecipe} of ${_steps[_currentIndex].countInRecipe}',
-                    style: const TextStyle(
-                      color: Color(0xFFF58220),
-                      fontWeight: FontWeight.bold,
-                      fontSize: 14,
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
             _buildTimerBanner(),
             Expanded(
               child: PageView.builder(
                 controller: _pageController,
                 onPageChanged: _onPageChanged,
                 itemCount: _steps.length,
-                itemBuilder: (context, index) => Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 28),
-                  child: Center(
-                    child: Text(
-                      _steps[index].step.instruction,
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 24,
-                        height: 1.4,
+                itemBuilder: (context, index) => _steps[index].isTransition
+                    ? _buildTransitionPage(_steps[index])
+                    : Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 28),
+                        child: Center(
+                          child: Text(
+                            _steps[index].step!.instruction,
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 24,
+                              height: 1.4,
+                            ),
+                          ),
+                        ),
                       ),
-                    ),
-                  ),
-                ),
               ),
             ),
             Padding(
+
               padding: const EdgeInsets.all(20),
               child: Row(
                 children: [

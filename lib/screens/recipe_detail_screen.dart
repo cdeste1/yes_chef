@@ -4,14 +4,41 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
 import '../models/recipe_model.dart';
 import '../services/favorites_service.dart';
+import '../services/purchase_service.dart';
 import '../widgets/ad_banner.dart';
 import '../widgets/nugget_promo_banner.dart';
+import 'cook_mode_paywall_screen.dart';
 import 'cook_mode_screen.dart';
 
 class RecipeDetailScreen extends StatelessWidget {
   final Recipe recipe;
 
   const RecipeDetailScreen({super.key, required this.recipe});
+
+  // Cook Mode is gated behind one free use ever (across all recipes, not
+  // per-recipe) and then a single non-consumable purchase. The free use is
+  // consumed the moment Cook Mode is entered, not on exit — so a user who
+  // backs out immediately has still spent it, same as a free sample you
+  // took a bite of.
+  Future<void> _openCookMode(BuildContext context, Recipe recipe) async {
+    final purchases = PurchaseService.instance;
+
+    if (!purchases.isPurchased && purchases.freeUseUsed) {
+      final unlocked = await Navigator.push<bool>(
+        context,
+        MaterialPageRoute(builder: (_) => const CookModePaywallScreen()),
+      );
+      if (unlocked != true || !purchases.isPurchased) return;
+    } else if (!purchases.isPurchased) {
+      await purchases.markFreeUseUsed();
+    }
+
+    if (!context.mounted) return;
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => CookModeScreen(recipe: recipe)),
+    );
+  }
 
   void _shareRecipe(BuildContext context) {
     final box = context.findRenderObject() as RenderBox?;
@@ -283,12 +310,7 @@ class RecipeDetailScreen extends StatelessWidget {
                   ElevatedButton.icon(
                     icon: const Icon(Icons.restaurant_menu, size: 18),
                     label: const Text('Cook Mode'),
-                    onPressed: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => CookModeScreen(recipe: recipe),
-                      ),
-                    ),
+                    onPressed: () => _openCookMode(context, recipe),
                   ),
               ],
             ),

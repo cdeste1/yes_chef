@@ -948,10 +948,17 @@ class _CookModeScreenState extends State<CookModeScreen> {
           child: Text(widget.recipe.name),
         ),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.record_voice_over),
-            tooltip: 'Choose voice',
+          // A visible label, not just an icon behind a tooltip — tooltips
+          // only surface on long-press on mobile, so almost nobody ever
+          // discovered this was tappable to change the narration voice.
+          TextButton.icon(
             onPressed: _showVoicePicker,
+            icon: const Icon(Icons.record_voice_over, size: 20),
+            label: const Text('Voice'),
+            style: TextButton.styleFrom(
+              foregroundColor: Colors.white,
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+            ),
           ),
           IconButton(
             icon: Icon(_isSpeaking

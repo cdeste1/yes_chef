@@ -114,6 +114,15 @@ class _CookModeScreenState extends State<CookModeScreen> {
   // _isListening stuck true forever with nothing actually listening. If
   // this fires, nothing else ended the session in time — force a reset.
   Timer? _listenWatchdog;
+  // Debounces committing a "timer X minutes" command: a few more words can
+  // still change the parsed duration ("...1" becoming "...1 hour 30
+  // minutes"), so a short pause-free window is given before acting on it —
+  // but unlike before, this no longer waits for the platform's finalResult,
+  // which often never arrives for short phrases and left the mic session
+  // open indefinitely. A session left open that way would keep accumulating
+  // the transcript, so a later "next"/"back" got appended to the still-open
+  // "timer" phrase and was swallowed by the timer branch instead of acting.
+  Timer? _timerCommandDebounce;
 
   @override
   void initState() {
@@ -415,11 +424,11 @@ class _CookModeScreenState extends State<CookModeScreen> {
       await _speech!.listen(
         onResult: (result) {
           final n = result.recognizedWords.toLowerCase().trim();
+          _timerCommandDebounce?.cancel();
+
           // Short commands act the instant a partial result contains them
           // — waiting for pauseFor-based finalization is the delay that
-          // made "next" feel unresponsive. Timer *durations* still wait
-          // for the final result since more words can still change the
-          // parsed value (e.g. "...1" becoming "...1 hour 30 minutes").
+          // made "next" feel unresponsive.
           final isInstantCommand = n.contains('next') ||
               n.contains('back') ||
               n.contains('previous') ||
@@ -432,6 +441,27 @@ class _CookModeScreenState extends State<CookModeScreen> {
             _endListenSession();
             _handleVoiceCommand(result.recognizedWords);
             _maybeResumeListening();
+            return;
+          }
+
+          // A timer-start phrase with a parseable duration ("timer for 5
+          // minutes") commits after a brief pause-free window instead of
+          // waiting for the platform's finalResult — which on many
+          // platforms never arrives for a short phrase, leaving the mic
+          // session open so later words (e.g. a later "next") get appended
+          // to this same transcript and re-enter the timer branch instead
+          // of acting. Still debounced, not instant, so "...1" committing
+          // to "1 minute" isn't locked in before "...1 hour 30 minutes"
+          // finishes arriving.
+          if (n.contains('timer') &&
+              _extractTimerDuration(n) != null &&
+              _extractTimerDuration(n)! > Duration.zero) {
+            _timerCommandDebounce = Timer(const Duration(milliseconds: 700), () {
+              if (!mounted) return;
+              _endListenSession();
+              _handleVoiceCommand(result.recognizedWords);
+              _maybeResumeListening();
+            });
           }
         },
         listenOptions: stt.SpeechListenOptions(
@@ -546,6 +576,7 @@ class _CookModeScreenState extends State<CookModeScreen> {
     _uiTickTimer?.cancel();
     _speechDebounce?.cancel();
     _listenWatchdog?.cancel();
+    _timerCommandDebounce?.cancel();
     _tts.stop();
     _speech?.stop();
     WakelockPlus.disable();

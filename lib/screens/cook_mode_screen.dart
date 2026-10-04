@@ -664,8 +664,15 @@ class _CookModeScreenState extends State<CookModeScreen> {
   }
 
   String _formatDuration(Duration d) {
+    final h = d.inHours;
     final m = d.inMinutes.remainder(60).toString().padLeft(2, '0');
     final s = d.inSeconds.remainder(60).toString().padLeft(2, '0');
+    // Timers aren't capped at an hour (slow braises/roasts need longer),
+    // but inMinutes.remainder(60) alone silently drops the hour digit —
+    // a 90-minute timer would render as "30:00", making it look like it
+    // reset or maxed out at 60 minutes instead of just continuing to count
+    // down correctly underneath.
+    if (h > 0) return '$h:$m:$s';
     return '$m:$s';
   }
 

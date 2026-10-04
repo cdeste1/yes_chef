@@ -145,57 +145,15 @@ class RecipeDetailScreen extends StatelessWidget {
                 'Speciality Items:',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
               ),
-              const SizedBox(height: 6),
+              const SizedBox(height: 10),
 
-              ...recipe.specialtools.map((tool) => Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 4.0),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Text('• ', style: TextStyle(fontSize: 15)),
-                        Expanded(
-                          child: RichText(
-                            text: TextSpan(
-                              style: TextStyle(
-                                  fontSize: 15,
-                                  height: 1.4,
-                                  color: Theme.of(context)
-                                      .textTheme
-                                      .bodyMedium
-                                      ?.color),
-                              children: [
-                                TextSpan(text: tool.item),
-                                if (tool.link.isNotEmpty) ...[
-                                  const TextSpan(text: '  '),
-                                  WidgetSpan(
-                                    alignment: PlaceholderAlignment.middle,
-                                    child: GestureDetector(
-                                      onTap: () async {
-                                        final uri = Uri.parse(tool.link);
-                                        if (await canLaunchUrl(uri)) {
-                                          await launchUrl(uri,
-                                              mode: LaunchMode
-                                                  .externalApplication);
-                                        }
-                                      },
-                                      child: const Text(
-                                        'Need it? Click here to start cooking',
-                                        style: TextStyle(
-                                          color: Color(0xFFF58220),
-                                          fontWeight: FontWeight.w600,
-                                          decoration: TextDecoration.underline,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  )),
+              Wrap(
+                spacing: 10,
+                runSpacing: 10,
+                children: recipe.specialtools
+                    .map((tool) => _SpecialToolChip(tool: tool))
+                    .toList(),
+              ),
             ],
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 16.0),
@@ -415,6 +373,69 @@ class RecipeDetailScreen extends StatelessWidget {
               ),
         ],
       ),
+    );
+  }
+}
+
+/// A compact, tappable "product chip" for a recipe's specialty items —
+/// replaces a repeated "Need it? Click here to start cooking" sentence per
+/// item, which read as spammy once a recipe listed several tools. Items
+/// with no affiliate link still render (as plain, non-tappable chips) so a
+/// specialty item mentioned without a link isn't silently dropped.
+class _SpecialToolChip extends StatelessWidget {
+  final SpecialTools tool;
+
+  const _SpecialToolChip({required this.tool});
+
+  @override
+  Widget build(BuildContext context) {
+    final hasLink = tool.link.isNotEmpty;
+    final chip = Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      decoration: BoxDecoration(
+        color: hasLink
+            ? const Color(0xFFF58220).withValues(alpha: 0.12)
+            : Theme.of(context).colorScheme.surfaceContainerHighest,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(
+          color: hasLink
+              ? const Color(0xFFF58220).withValues(alpha: 0.6)
+              : Theme.of(context).dividerColor,
+        ),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            tool.item,
+            style: TextStyle(
+              fontSize: 14,
+              color: hasLink
+                  ? const Color(0xFFF58220)
+                  : Theme.of(context).textTheme.bodyMedium?.color,
+              fontWeight: hasLink ? FontWeight.w600 : FontWeight.normal,
+            ),
+          ),
+          if (hasLink) ...[
+            const SizedBox(width: 6),
+            const Icon(Icons.shopping_bag_outlined,
+                size: 15, color: Color(0xFFF58220)),
+          ],
+        ],
+      ),
+    );
+
+    if (!hasLink) return chip;
+
+    return InkWell(
+      borderRadius: BorderRadius.circular(20),
+      onTap: () async {
+        final uri = Uri.parse(tool.link);
+        if (await canLaunchUrl(uri)) {
+          await launchUrl(uri, mode: LaunchMode.externalApplication);
+        }
+      },
+      child: chip,
     );
   }
 }

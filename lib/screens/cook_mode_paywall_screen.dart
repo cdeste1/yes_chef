@@ -15,6 +15,7 @@ class CookModePaywallScreen extends StatefulWidget {
 class _CookModePaywallScreenState extends State<CookModePaywallScreen> {
   static const Color _flame = Color(0xFFF58220);
   bool _busy = false;
+  String? _codeError;
 
   @override
   void initState() {
@@ -54,6 +55,39 @@ class _CookModePaywallScreenState extends State<CookModePaywallScreen> {
     } finally {
       if (mounted) setState(() => _busy = false);
     }
+  }
+
+  Future<void> _promptForCode() async {
+    final controller = TextEditingController();
+    final code = await showDialog<String>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        backgroundColor: const Color(0xFF1E1E1E),
+        title: const Text('Enter code', style: TextStyle(color: Colors.white)),
+        content: TextField(
+          controller: controller,
+          autofocus: true,
+          style: const TextStyle(color: Colors.white),
+          decoration: const InputDecoration(hintText: 'Unlock code'),
+          onSubmitted: (v) => Navigator.pop(dialogContext, v),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(dialogContext),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(dialogContext, controller.text),
+            child: const Text('Unlock'),
+          ),
+        ],
+      ),
+    );
+    if (code == null || code.trim().isEmpty || !mounted) return;
+
+    final ok = await PurchaseService.instance.redeemCode(code);
+    if (!mounted) return;
+    setState(() => _codeError = ok ? null : "That code didn't work.");
   }
 
   Widget _bullet(IconData icon, String title, String body) {
@@ -177,6 +211,18 @@ class _CookModePaywallScreenState extends State<CookModePaywallScreen> {
                       style: TextStyle(color: Colors.white70)),
                 ),
               ),
+              Center(
+                child: TextButton(
+                  onPressed: _busy ? null : _promptForCode,
+                  child: const Text('Have a code?',
+                      style: TextStyle(color: Colors.white54, fontSize: 13)),
+                ),
+              ),
+              if (_codeError != null)
+                Center(
+                  child: Text(_codeError!,
+                      style: const TextStyle(color: Color(0xFFE54B4B), fontSize: 13)),
+                ),
             ],
           ),
         ),

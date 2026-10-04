@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:posthog_flutter/posthog_flutter.dart';
 import 'screens/splash_screen.dart';
+import 'services/analytics_service.dart';
 import 'services/favorites_service.dart';
 import 'services/purchase_service.dart';
 import 'services/timer_notification_service.dart';
@@ -10,6 +12,7 @@ import 'widgets/theme.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  await AnalyticsService.init();
   await FavoritesService.init();
   await TimerNotificationService.initialize();
   // Not awaited — the store query can be slow/stalled on a bad connection,
@@ -34,6 +37,7 @@ class MyApp extends StatelessWidget {
       title: 'Yes Chef!',
       debugShowCheckedModeBanner: false,
       theme: YesChefTheme.buildTheme(),
+      navigatorObservers: [PosthogObserver()],
       home: const SplashScreen(),
     );
   }

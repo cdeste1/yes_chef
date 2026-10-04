@@ -3,6 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
 import '../models/recipe_model.dart';
+import '../services/analytics_service.dart';
 import '../services/favorites_service.dart';
 import '../services/purchase_service.dart';
 import '../widgets/ad_banner.dart';
@@ -22,17 +23,21 @@ class RecipeDetailScreen extends StatelessWidget {
   // took a bite of.
   Future<void> _openCookMode(BuildContext context, Recipe recipe) async {
     final purchases = PurchaseService.instance;
+    bool wasFreeUse = false;
 
     if (!purchases.isPurchased && purchases.freeUseUsed) {
+      AnalyticsService.cookModePaywallShown(recipe.name);
       final unlocked = await Navigator.push<bool>(
         context,
         MaterialPageRoute(builder: (_) => const CookModePaywallScreen()),
       );
       if (unlocked != true || !purchases.isPurchased) return;
     } else if (!purchases.isPurchased) {
+      wasFreeUse = true;
       await purchases.markFreeUseUsed();
     }
 
+    AnalyticsService.cookModeOpened(recipe.name, wasFreeUse: wasFreeUse);
     if (!context.mounted) return;
     Navigator.push(
       context,
@@ -452,6 +457,7 @@ class _SpecialToolChip extends StatelessWidget {
     return InkWell(
       borderRadius: BorderRadius.circular(20),
       onTap: () async {
+        AnalyticsService.specialtyItemTapped(tool.item);
         final uri = Uri.parse(tool.link);
         if (await canLaunchUrl(uri)) {
           await launchUrl(uri, mode: LaunchMode.externalApplication);

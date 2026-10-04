@@ -1,7 +1,10 @@
 import 'dart:async';
+import 'dart:convert';
+import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'analytics_service.dart';
 
 /// Gates Cook Mode behind a single non-consumable purchase. One-time, not a
 /// subscription — the feature has no ongoing per-user cost, so a recurring
@@ -27,6 +30,18 @@ class PurchaseService extends ChangeNotifier {
   static const String _purchasedKey = 'cook_mode_purchased';
   static const String _freeUseUsedKey = 'cook_mode_free_use_used';
 
+  // A no-App-Store-involved comp mechanism for informal arrangements (e.g.
+  // a recipe contributor) that can't wait for an approved app version —
+  // Apple's own promo-code system for the IAP only works once a version has
+  // been through review, so this exists to unblock access before that.
+  // Storing a hash instead of the plaintext code means a casual look at the
+  // (public) repo doesn't hand out the code — it only has to resist casual
+  // discovery, not determined reverse-engineering, since the cost of
+  // someone bypassing a $2.99 feature is trivial.
+  static const String _redeemedKey = 'cook_mode_redeemed';
+  static const String _unlockCodeHash =
+      '271899d28a69dc481fee00118dd76445c88f4e0ea637f340871c0e20239c4cea';
+
   final InAppPurchase _iap = InAppPurchase.instance;
   StreamSubscription<List<PurchaseDetails>>? _purchaseSubscription;
 
@@ -46,7 +61,8 @@ class PurchaseService extends ChangeNotifier {
 
   Future<void> init() async {
     final prefs = await SharedPreferences.getInstance();
-    _isPurchased = prefs.getBool(_purchasedKey) ?? false;
+    _isPurchased =
+        (prefs.getBool(_purchasedKey) ?? false) || (prefs.getBool(_redeemedKey) ?? false);
     _freeUseUsed = prefs.getBool(_freeUseUsedKey) ?? false;
 
     _isAvailable = await _iap.isAvailable();
@@ -82,6 +98,20 @@ class PurchaseService extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Returns true if [code] matched and Cook Mode is now unlocked. Case- and
+  /// whitespace-insensitive so "mench", "Mench ", etc. all work.
+  Future<bool> redeemCode(String code) async {
+    final normalized = code.trim().toLowerCase();
+    final hash = sha256.convert(utf8.encode(normalized)).toString();
+    if (hash != _unlockCodeHash) return false;
+
+    _isPurchased = true;
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_redeemedKey, true);
+    notifyListeners();
+    return true;
+  }
+
   Future<void> buy() async {
     final product = _product;
     if (product == null) return;
@@ -105,8 +135,18 @@ class PurchaseService extends ChangeNotifier {
         case PurchaseStatus.pending:
           break;
         case PurchaseStatus.purchased:
-        case PurchaseStatus.restored:
+          final alreadyPurchased = _isPurchased;
           await _grantEntitlement();
+          // Guards against double-counting: restorePurchases() replays
+          // every past purchase through this same stream on every launch,
+          // so without this check a returning buyer would log a fresh
+          // "purchased" event each time they open the app.
+          if (!alreadyPurchased) AnalyticsService.cookModePurchased();
+          break;
+        case PurchaseStatus.restored:
+          final alreadyPurchased = _isPurchased;
+          await _grantEntitlement();
+          if (!alreadyPurchased) AnalyticsService.cookModeRestored();
           break;
         case PurchaseStatus.error:
           _pendingError = purchase.error?.message ?? 'Purchase failed.';

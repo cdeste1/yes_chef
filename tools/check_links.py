@@ -37,6 +37,19 @@ DEAD_URL_PATTERNS = [
     "sorry/index",
 ]
 
+# The page loads fine (200, real product page) but the listing itself says
+# the item can't be ordered. These are the phrases Amazon shows in the buy
+# box / availability block for that case. Checked case-insensitively against
+# the page HTML.
+OUT_OF_STOCK_PATTERNS = [
+    "currently unavailable",
+    "we don't know when or if this item will be back in stock",
+    "out of stock",
+    "temporarily out of stock",
+    "unavailable at this time",
+    "see all buying options",   # shown when the default offer is gone
+]
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -92,6 +105,7 @@ def check_link(url: str) -> dict:
         with urllib.request.urlopen(req, timeout=15) as resp:
             http_code = resp.status
             final_url = resp.url
+            body = resp.read().decode("utf-8", errors="ignore")
 
         # Check if we landed on a dead-product page
         for pattern in DEAD_URL_PATTERNS:
@@ -101,6 +115,18 @@ def check_link(url: str) -> dict:
                     "http_code": http_code,
                     "final_url": final_url,
                     "reason":    f"Redirected to unavailable page (matched '{pattern}')",
+                }
+
+        # Page loaded fine, but the product itself may be out of stock —
+        # Amazon keeps the listing live and just swaps the buy box text.
+        body_lower = body.lower()
+        for pattern in OUT_OF_STOCK_PATTERNS:
+            if pattern in body_lower:
+                return {
+                    "status":    "out_of_stock",
+                    "http_code": http_code,
+                    "final_url": final_url,
+                    "reason":    f"Page live but unorderable (matched '{pattern}')",
                 }
 
         # amzn.to short links always redirect to a full amazon.com URL by
@@ -159,10 +185,11 @@ for i, url in enumerate(unique_links, 1):
     time.sleep(1.5)   # be polite to Amazon's servers
 
 # ── Summarise ─────────────────────────────────────────────────────────────────
-ok        = [r for r in results if r["status"] == "ok"]
-broken    = [r for r in results if r["status"] == "broken"]
-redirects = [r for r in results if r["status"] == "redirect"]
-errors    = [r for r in results if r["status"] == "error"]
+ok           = [r for r in results if r["status"] == "ok"]
+broken       = [r for r in results if r["status"] == "broken"]
+redirects    = [r for r in results if r["status"] == "redirect"]
+errors       = [r for r in results if r["status"] == "error"]
+out_of_stock = [r for r in results if r["status"] == "out_of_stock"]
 
 checked_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -170,11 +197,12 @@ checked_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 report_data = {
     "checked_at":      checked_at,
     "total":           len(results),
-    "ok_count":        len(ok),
-    "broken_count":    len(broken),
-    "redirect_count":  len(redirects),
-    "error_count":     len(errors),
-    "results":         results,
+    "ok_count":            len(ok),
+    "broken_count":        len(broken),
+    "redirect_count":      len(redirects),
+    "error_count":         len(errors),
+    "out_of_stock_count":  len(out_of_stock),
+    "results":             results,
 }
 with open(REPORT_JSON, "w", encoding="utf-8") as f:
     json.dump(report_data, f, indent=2)
@@ -187,10 +215,21 @@ lines = [
     f"**Total links:** {len(results)} | "
     f"✅ OK: {len(ok)} | "
     f"❌ Broken: {len(broken)} | "
+    f"📦 Out of stock: {len(out_of_stock)} | "
     f"↩️ Redirected: {len(redirects)} | "
     f"⚠️ Error: {len(errors)}",
     "",
 ]
+
+if out_of_stock:
+    lines += ["## 📦 Out of Stock — Still Live, Can't Be Ordered", ""]
+    for r in out_of_stock:
+        lines.append(f"### `{r['url']}`")
+        lines.append(f"- **Reason:** {r['reason']}")
+        lines.append(f"- **Used in:**")
+        for u in r["usages"]:
+            lines.append(f"  - *{u['recipe']}* → `{u['tool']}`")
+        lines.append("")
 
 if broken:
     lines += ["## ❌ Broken Links — Action Required", ""]
@@ -220,7 +259,7 @@ if errors:
             lines.append(f"  - *{u['recipe']}* → `{u['tool']}`")
     lines.append("")
 
-if not broken and not redirects and not errors:
+if not broken and not redirects and not errors and not out_of_stock:
     lines.append("## ✅ All links are healthy!")
 
 with open(REPORT_MD, "w", encoding="utf-8") as f:
@@ -229,8 +268,8 @@ print(f"✓ Written {REPORT_MD}")
 
 # ── Exit code: non-zero if anything needs attention ───────────────────────────
 # The GitHub Action uses this to decide whether to send the alert email.
-if broken or errors:
-    print(f"\n⚠️  {len(broken)} broken + {len(errors)} errors found.")
+if broken or errors or out_of_stock:
+    print(f"\n⚠️  {len(broken)} broken + {len(errors)} errors + {len(out_of_stock)} out of stock found.")
     sys.exit(1)   # triggers email alert in the Action
 else:
     print(f"\n✅ All links OK (redirects: {len(redirects)}).")

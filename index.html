@@ -554,6 +554,52 @@
       .carousel-card { flex: 0 0 38%; }
     }
 
+    /* ── PROMO BANNER (Cook Mode) ──────────────
+       Gated behind COOK_MODE_PROMO_ENABLED (see bottom script) until the
+       app update is approved and live — do not remove the flag check. */
+    .promo-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(90deg, #7a3b0a 0%, var(--orange) 50%, #7a3b0a 100%);
+      padding: 10px 44px 10px 16px;
+      position: relative;
+    }
+    .promo-banner-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: var(--white);
+      text-decoration: none;
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 500;
+      text-align: center;
+      letter-spacing: 0.01em;
+    }
+    .promo-banner-link:hover { opacity: 0.92; }
+    .promo-banner .flame { font-size: 15px; flex-shrink: 0; }
+    .promo-banner .arrow { opacity: 0.85; margin-left: 2px; }
+    .promo-banner-close {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: rgba(255,255,255,0.75);
+      font-size: 16px;
+      line-height: 1;
+      cursor: pointer;
+      padding: 6px;
+    }
+    .promo-banner-close:hover { color: var(--white); }
+
+    @media (max-width: 560px) {
+      .promo-banner-link { font-size: 12px; }
+    }
+
     /* ── HOUSE AD (Nuggget) ── */
     .house-ad{display:flex;align-items:center;gap:12px;margin:20px 0;min-height:60px;padding:10px 14px;background:var(--dark-card);border:1px solid var(--border);border-radius:var(--radius);text-decoration:none;color:inherit;transition:border-color .2s}
     .house-ad:hover{border-color:var(--orange)}
@@ -564,7 +610,19 @@
   </style>
 </head>
 <body>
- 
+
+  <!-- ═══ PROMO BANNER (Cook Mode) ═══
+       Stays hidden until COOK_MODE_PROMO_ENABLED is flipped to true,
+       further down in the page script — do not delete id/flag wiring. -->
+  <div id="promo-banner" class="promo-banner" style="display:none;">
+    <a href="/cook-mode.html" class="promo-banner-link">
+      <span class="flame" aria-hidden="true">🔥</span>
+      <span>Download the app to unlock Cook Mode — hands-free, voice-guided cooking</span>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </a>
+    <button id="promo-banner-close" class="promo-banner-close" aria-label="Dismiss">&times;</button>
+  </div>
+
   <!-- ═══ HEADER ═══ -->
   <header>
     <a href="/" class="header-logo" aria-label="YesChef home">
@@ -673,6 +731,23 @@
   </footer>
  
   <script>
+    // Cook Mode is app-only right now and this banner points at a CTA page
+    // for it — keep this OFF until the app update that backs it is approved
+    // and live on the App Store. Flip to true, don't delete the gate.
+    const COOK_MODE_PROMO_ENABLED = false;
+
+    (function initPromoBanner() {
+      if (!COOK_MODE_PROMO_ENABLED) return;
+      if (localStorage.getItem('promoBannerDismissed') === '1') return;
+      document.getElementById('promo-banner').style.display = 'flex';
+      document.getElementById('promo-banner-close').style.display = 'block';
+      document.getElementById('promo-banner-close').addEventListener('click', () => {
+        document.getElementById('promo-banner').style.display = 'none';
+        document.getElementById('promo-banner-close').style.display = 'none';
+        try { localStorage.setItem('promoBannerDismissed', '1'); } catch (e) {}
+      });
+    })();
+
     const JSON_URL = 'https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json';
     let ALL_RECIPES = [];
  

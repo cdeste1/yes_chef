@@ -25,11 +25,14 @@
     :root{--black:#000;--dark-card:#111;--border:rgba(255,255,255,0.08);--orange:#F58220;--white:#fff;--white-dim:rgba(255,255,255,0.6);--radius:12px;--font-display:'Playfair Display',serif;--font-body:'DM Sans',sans-serif}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     body{background:var(--black);color:var(--white);font-family:var(--font-body);font-weight:300;min-height:100vh;overflow-x:hidden}
-    header{position:sticky;top:0;z-index:1000;background:rgba(0,0,0,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:14px;padding:10px 20px}
+    header{position:sticky;top:0;z-index:1000;background:rgba(0,0,0,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:10px 20px}
+    .header-left{display:flex;align-items:center;gap:14px;flex:1;min-width:0}
     .back-btn{display:flex;align-items:center;background:none;border:none;cursor:pointer;color:var(--white);padding:4px;opacity:.8;transition:opacity .2s;text-decoration:none}
     .back-btn:hover{opacity:1}
     .back-btn svg{width:22px;height:22px}
     .header-title{font-size:16px;font-weight:500}
+    .header-right{display:flex;align-items:center;flex-shrink:0}
+    .header-logo-link img{width:40px;height:40px;object-fit:contain;display:block}
     .legal-wrap{max-width:680px;margin:0 auto;padding:32px 20px 80px}
     h1{font-family:var(--font-display);font-size:32px;font-weight:700;margin-bottom:6px}
     .effective-date{font-size:13px;font-style:italic;color:var(--white-dim);margin-bottom:28px}
@@ -46,10 +49,17 @@
 </head>
 <body>
   <header>
-    <a href="/" class="back-btn" aria-label="Back to home">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-    </a>
-    <span class="header-title">Yes Chef</span>
+    <div class="header-left">
+      <a href="/" class="back-btn" aria-label="Back to home">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </a>
+      <span class="header-title">Yes Chef</span>
+    </div>
+    <div class="header-right">
+      <a href="/" class="header-logo-link" aria-label="YesChef home">
+        <img src="/assets/Photos/YesChefLogo.png" alt="YesChef">
+      </a>
+    </div>
   </header>
 
   <div class="legal-wrap">

@@ -20,7 +20,10 @@ class RecipeDetailScreen extends StatelessWidget {
   // per-recipe) and then a single non-consumable purchase. The free use is
   // consumed the moment Cook Mode is entered, not on exit — so a user who
   // backs out immediately has still spent it, same as a free sample you
-  // took a bite of.
+  // took a bite of. That consumption has to be disclosed *before* it
+  // happens — without this dialog, the first Cook Mode just works, and the
+  // user has no way to know that was a one-time freebie until they hit the
+  // paywall unprompted on a later recipe and feel ambushed by it.
   Future<void> _openCookMode(BuildContext context, Recipe recipe) async {
     final purchases = PurchaseService.instance;
     bool wasFreeUse = false;
@@ -33,6 +36,29 @@ class RecipeDetailScreen extends StatelessWidget {
       );
       if (unlocked != true || !purchases.isPurchased) return;
     } else if (!purchases.isPurchased) {
+      final proceed = await showDialog<bool>(
+        context: context,
+        builder: (dialogContext) => AlertDialog(
+          backgroundColor: const Color(0xFF1E1E1E),
+          title: const Text('This one\'s on us', style: TextStyle(color: Colors.white)),
+          content: const Text(
+            'Your first Cook Mode is free — after this one, it\'s a one-time '
+            '\$2.99 unlock for unlimited use.',
+            style: TextStyle(color: Colors.white70),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(dialogContext, false),
+              child: const Text('Cancel'),
+            ),
+            TextButton(
+              onPressed: () => Navigator.pop(dialogContext, true),
+              child: const Text("Let's cook"),
+            ),
+          ],
+        ),
+      );
+      if (proceed != true) return;
       wasFreeUse = true;
       await purchases.markFreeUseUsed();
     }

@@ -122,6 +122,11 @@
     .house-ad-title{font-size:14px;font-weight:700;color:var(--white)}
     .house-ad-sub{font-size:12px;color:var(--white-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
  
+    /* Light friction against casual copy-paste of the recipe body. Not a
+       security boundary (JSON-LD, view-source and screenshots still work) —
+       the app's paid Copy/PDF export is the supported way to take a recipe. */
+    .ing-list,.steps-list,.sub-recipe{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+
     @media(min-width:600px){.recipe-hero-img{max-height:400px}.header-title{max-width:360px}}
     @media(min-width:900px){header{padding:12px 40px}.recipe-wrap{padding:0 24px 160px}}
   </style>
@@ -252,6 +257,14 @@
 <li>Sauté morels in clarified butter with minced shallot over high heat until golden. Season lightly and keep warm.</li>
 <li>Unmold the chilled pavé and cut into clean 2-inch rectangles. Sear two sides in a hot carbon steel or copper pan with clarified butter until deep golden and glass-like crisp.</li>
 <li>Plating: Place the seared asparagus pavé off-center on a pristine white plate. Dispense a delicate cloud of warm brown butter sabayon beside it. Arrange sautéed morels artistically, crown with caviar, Meyer lemon zest, micro tarragon/chervil, and Maldon flakes. Finish with optional white truffle oil.</li></ol>
+    <a class="app-cta" href="https://apps.apple.com/us/app/yes-chef-by-chris/id6759258837" target="_blank" rel="noopener">
+      <img class="app-cta-icon" src="/icons/applelogosmall.png" alt="">
+      <span class="app-cta-text">
+        <span class="app-cta-title">Print or save this recipe as a PDF</span>
+        <span class="app-cta-sub">Get the Yes Chef! app: PDF export, copy, and hands-free Cook Mode</span>
+      </span>
+      <span class="app-cta-arrow">›</span>
+    </a>
     <hr class="divider">
 
     <div class="ad-block">

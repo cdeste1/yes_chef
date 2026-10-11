@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
@@ -6,6 +7,7 @@ import '../models/recipe_model.dart';
 import '../services/analytics_service.dart';
 import '../services/favorites_service.dart';
 import '../services/purchase_service.dart';
+import '../services/recipe_export_service.dart';
 import '../widgets/ad_banner.dart';
 import '../widgets/nugget_promo_banner.dart';
 import 'cook_mode_paywall_screen.dart';
@@ -82,6 +84,42 @@ class RecipeDetailScreen extends StatelessWidget {
     );
   }
 
+  // Copy / PDF export ride on the same one-time unlock as Cook Mode. Free
+  // users get the paywall instead; there's no free sample like Cook Mode has.
+  Future<bool> _requireUnlock(BuildContext context) async {
+    final purchases = PurchaseService.instance;
+    if (purchases.isPurchased) return true;
+    final unlocked = await Navigator.push<bool>(
+      context,
+      MaterialPageRoute(builder: (_) => const CookModePaywallScreen()),
+    );
+    return unlocked == true && purchases.isPurchased;
+  }
+
+  Future<void> _copyRecipe(BuildContext context) async {
+    if (!await _requireUnlock(context) || !context.mounted) return;
+    await Clipboard.setData(
+        ClipboardData(text: RecipeExportService.toPlainText(recipe)));
+    if (!context.mounted) return;
+    ScaffoldMessenger.of(context)
+        .showSnackBar(const SnackBar(content: Text('Recipe copied')));
+  }
+
+  Future<void> _exportPdf(BuildContext context) async {
+    if (!await _requireUnlock(context) || !context.mounted) return;
+    final box = context.findRenderObject() as RenderBox?;
+    try {
+      await RecipeExportService.sharePdf(
+        recipe,
+        origin: box != null ? box.localToGlobal(Offset.zero) & box.size : null,
+      );
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("Couldn't create the PDF. Try again.")));
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -111,6 +149,17 @@ class RecipeDetailScreen extends StatelessWidget {
               icon: const Icon(Icons.share),
               tooltip: 'Share recipe',
               onPressed: () => _shareRecipe(context),
+            ),
+          ),
+          Builder(
+            builder: (context) => PopupMenuButton<String>(
+              tooltip: 'Copy or save as PDF',
+              onSelected: (v) =>
+                  v == 'pdf' ? _exportPdf(context) : _copyRecipe(context),
+              itemBuilder: (_) => const [
+                PopupMenuItem(value: 'pdf', child: Text('Save as PDF')),
+                PopupMenuItem(value: 'copy', child: Text('Copy recipe text')),
+              ],
             ),
           ),
         ],

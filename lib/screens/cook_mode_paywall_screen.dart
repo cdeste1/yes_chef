@@ -127,7 +127,7 @@ class _CookModePaywallScreenState extends State<CookModePaywallScreen> {
       backgroundColor: const Color(0xFF121212),
       appBar: AppBar(
         backgroundColor: const Color(0xFF121212),
-        title: const Text('Cook Mode'),
+        title: const Text('Unlock'),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
@@ -173,6 +173,12 @@ class _CookModePaywallScreenState extends State<CookModePaywallScreen> {
                 'Multi-component recipes get a clear "now plating" moment — '
                     'no getting lost between the ganache and the cake.',
               ),
+              _bullet(
+                Icons.picture_as_pdf_outlined,
+                'Print it. Copy it.',
+                'Save any recipe as a clean, kitchen-ready PDF or copy the '
+                    'full text. Same one-time unlock.',
+              ),
               const SizedBox(height: 24),
               if (error != null)
                 Padding(
@@ -198,7 +204,7 @@ class _CookModePaywallScreenState extends State<CookModePaywallScreen> {
                       : Text(
                           product == null
                               ? 'Loading price…'
-                              : 'Unlock Cook Mode — ${product.price}, once, forever',
+                              : 'Unlock Cook Mode + Export — ${product.price}, once, forever',
                           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                 ),

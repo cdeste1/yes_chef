@@ -30,6 +30,22 @@ SITE_URL      = "https://tryyeschef.app"
 # CI sets OUTPUT_DIR_OVERRIDE env var; locally falls back to original default
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR_OVERRIDE", "web/recipes")
 
+# Gate for the PDF/copy-export upsell and the light copy-blocking on recipe
+# pages. Keep False until the app update (1.0.27, PDF export + the updated
+# Cook Mode IAP) is approved and live on the App Store, then flip to True.
+PDF_PROMO_ENABLED = False
+
+PDF_CTA_HTML = (
+    '<a class="app-cta" href="https://apps.apple.com/us/app/yes-chef-by-chris/id6759258837" '
+    'target="_blank" rel="noopener">'
+    '<img class="app-cta-icon" src="/icons/applelogosmall.png" alt="">'
+    '<span class="app-cta-text">'
+    '<span class="app-cta-title">Print or save this recipe as a PDF</span>'
+    '<span class="app-cta-sub">Get the Yes Chef! app: PDF export, copy, and hands-free Cook Mode</span>'
+    '</span><span class="app-cta-arrow">&rsaquo;</span></a>'
+) if PDF_PROMO_ENABLED else ''
+PDF_GATE_CLASS = ' pdf-gate' if PDF_PROMO_ENABLED else ''
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def to_slug(name: str) -> str:
     return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
@@ -295,6 +311,8 @@ for r in recipes:
     page = page.replace('{{SOMMELIER_HTML}}',   sommelier_html)
     page = page.replace('{{STEPS_HTML}}',       steps_html)
     page = page.replace('{{SUB_RECIPES_HTML}}', sub_recipes_html)
+    page = page.replace('{{PDF_CTA_HTML}}',    PDF_CTA_HTML)
+    page = page.replace('{{PDF_GATE_CLASS}}',  PDF_GATE_CLASS)
 
     out_dir  = os.path.join(OUTPUT_DIR, slug)
     out_file = os.path.join(out_dir, 'index.html')

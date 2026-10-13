@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:posthog_flutter/posthog_flutter.dart';
 import 'screens/splash_screen.dart';
 import 'services/analytics_service.dart';
@@ -20,9 +18,7 @@ void main() async {
   // whatever PurchaseService knows by the time the user actually taps it.
   PurchaseService.instance.init();
 
-  if (!kIsWeb) {
-    await MobileAds.instance.initialize();
-  }
+  // MobileAds is initialized in SplashScreen after the ATT prompt resolves.
 
   // Run the app immediately
   runApp(const MyApp());

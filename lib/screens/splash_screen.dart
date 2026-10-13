@@ -1,5 +1,9 @@
+import 'dart:async';
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:app_tracking_transparency/app_tracking_transparency.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'home_screen.dart'; // adjust path if needed
 
 class SplashScreen extends StatefulWidget {
@@ -25,27 +29,57 @@ class _SplashScreenState extends State<SplashScreen>
     );
 
     _controller.forward();
-    _requestTrackingPermission();
+    _startUp();
+  }
 
-    // Wait for animation + small delay
-    Future.delayed(const Duration(seconds: 3), () {
-      if (!mounted) return;
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => const HomeScreen()),
-      );
-    });
+  // Wait for animation + small delay, and for the ATT prompt to be answered,
+  // before moving on so the prompt is never covered by a route change.
+  Future<void> _startUp() async {
+    await Future.wait([
+      Future.delayed(const Duration(seconds: 3)),
+      _requestTrackingPermission(),
+    ]);
+    if (!mounted) return;
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(builder: (_) => const HomeScreen()),
+    );
   }
 
   // Without this, iOS zeroes out the IDFA and AdMob can only serve
-  // non-personalized ads, which pay noticeably less. Requested here so it
-  // resolves during the splash delay, well before any ad-loading screen
-  // (results/recipe detail) is reached. No-op on Android.
+  // non-personalized ads, which pay noticeably less. iOS silently drops the
+  // request if the app isn't active yet (the case on a cold launch from
+  // initState), so wait for the resumed lifecycle state plus a short delay
+  // first. The Mobile Ads SDK is initialized only after the user answers,
+  // so no ad/tracking SDK runs before the prompt. No-op on Android.
   Future<void> _requestTrackingPermission() async {
-    final status = await AppTrackingTransparency.trackingAuthorizationStatus;
-    if (status == TrackingStatus.notDetermined) {
-      await Future.delayed(const Duration(milliseconds: 200));
-      await AppTrackingTransparency.requestTrackingAuthorization();
+    if (!kIsWeb) {
+      try {
+        if (WidgetsBinding.instance.lifecycleState !=
+            AppLifecycleState.resumed) {
+          await _waitUntilResumed();
+        }
+        await Future.delayed(const Duration(milliseconds: 1000));
+        final status =
+            await AppTrackingTransparency.trackingAuthorizationStatus;
+        if (status == TrackingStatus.notDetermined) {
+          await AppTrackingTransparency.requestTrackingAuthorization();
+        }
+      } catch (_) {
+        // Never block launch on a tracking-prompt failure.
+      }
+      await MobileAds.instance.initialize();
     }
+  }
+
+  Future<void> _waitUntilResumed() {
+    final completer = Completer<void>();
+    late final AppLifecycleListener listener;
+    listener = AppLifecycleListener(onResume: () {
+      if (!completer.isCompleted) completer.complete();
+    });
+    return completer.future
+        .timeout(const Duration(seconds: 5), onTimeout: () {})
+        .whenComplete(listener.dispose);
   }
 
   @override

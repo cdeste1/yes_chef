@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:posthog_flutter/posthog_flutter.dart';
 import 'screens/splash_screen.dart';
-import 'services/analytics_service.dart';
 import 'services/favorites_service.dart';
 import 'services/purchase_service.dart';
 import 'services/timer_notification_service.dart';
@@ -10,7 +9,7 @@ import 'widgets/theme.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await AnalyticsService.init();
+  // AnalyticsService.init() runs in SplashScreen after the ATT prompt.
   await FavoritesService.init();
   await TimerNotificationService.initialize();
   // Not awaited — the store query can be slow/stalled on a bad connection,

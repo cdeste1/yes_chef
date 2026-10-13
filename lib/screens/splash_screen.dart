@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import '../services/analytics_service.dart';
 import 'home_screen.dart'; // adjust path if needed
 
 class SplashScreen extends StatefulWidget {
@@ -52,6 +53,14 @@ class _SplashScreenState extends State<SplashScreen>
   // first. The Mobile Ads SDK is initialized only after the user answers,
   // so no ad/tracking SDK runs before the prompt. No-op on Android.
   Future<void> _requestTrackingPermission() async {
+    await _askAndStartSdks();
+    // Analytics also waits for the answer, so nothing is collected before it.
+    try {
+      await AnalyticsService.init();
+    } catch (_) {}
+  }
+
+  Future<void> _askAndStartSdks() async {
     if (!kIsWeb) {
       try {
         if (WidgetsBinding.instance.lifecycleState !=

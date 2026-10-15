@@ -4611,27 +4611,46 @@
   },
   {
     "name": "Cacao Sablé with Fleur de Sel Caramel",
-    "source": "adapted from: Classic French Bistro",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/cacaosable_caramel.webp",
-    "chef": "Alain Ducasse",
-    "yield": "Serves 6",
     "description": "A refined Parisian dessert combining a crisp cacao sablé base with a luscious fleur de sel caramel filling, a balance between bitterness, sweetness, and salt.",
     "headnote": "A sablé is a shortbread built for shatter — the low gluten and high butter ratio keep it from ever going chewy, so it stays crisp under a filling that would turn a softer cookie soggy. Fleur de sel isn't decorative here: a few flakes cut through the caramel's sweetness right as it hits the tongue, which is the whole reason this reads as sophisticated instead of just sugary.",
     "category": "Dessert",
     "keywords": "cacao, sablé, caramel, fleur de sel, french, pastry, Alain Ducasse",
+    "yield": "Serves 6",
+    "source": "adapted from: Classic French Bistro",
+    "chef": "Alain Ducasse",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/cacaosable_caramel.webp",
     "ingredients": [
       {
+        "quantity": "",
         "item": "Cacao sablé bases",
         "note": "see sub-recipe"
       },
       {
+        "quantity": "",
         "item": "Fleur de sel caramel",
         "note": "see sub-recipe"
       },
       {
-        "item": "Chocolate shavings or gold leaf",
         "quantity": "Optional",
+        "item": "Chocolate shavings or gold leaf",
         "note": "for garnish"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Place cooled cacao sablé rounds on a wire rack or plate."
+      },
+      {
+        "instruction": "Spoon or pipe a layer of warm caramel over each sablé."
+      },
+      {
+        "instruction": "Allow caramel to set slightly at room temperature."
+      },
+      {
+        "instruction": "Finish with a light sprinkle of fleur de sel and optional chocolate shavings or gold leaf."
+      },
+      {
+        "instruction": "Serve at room temperature to enjoy the textural contrast between crisp sablé and soft caramel."
       }
     ],
     "specialtools": [
@@ -4657,90 +4676,67 @@
       },
       {
         "item": "Edible gold leaf",
-        "link": "https://www.amazon.com/dp/B0C5FPK7QW?tag=yeschef0A02-20"
+        "link": "https://www.amazon.com/dp/B07uNX4Dt?tag=yeschef0A02-20"
       },
       {
         "item": "Fleur de sel",
         "link": "https://www.amazon.com/dp/B0FFD8914Z?tag=yeschef0A02-20"
       }
     ],
-    "steps": [
-      {
-        "number": 1,
-        "instruction": "Place cooled cacao sablé rounds on a wire rack or plate."
-      },
-      {
-        "number": 2,
-        "instruction": "Spoon or pipe a layer of warm caramel over each sablé."
-      },
-      {
-        "number": 3,
-        "instruction": "Allow caramel to set slightly at room temperature."
-      },
-      {
-        "number": 4,
-        "instruction": "Finish with a light sprinkle of fleur de sel and optional chocolate shavings or gold leaf."
-      },
-      {
-        "number": 5,
-        "instruction": "Serve at room temperature to enjoy the textural contrast between crisp sablé and soft caramel."
-      }
-    ],
+    "winePairings": [],
     "sub_recipes": [
       {
         "name": "Cacao Sablé Base",
         "yield": "6",
         "ingredients": [
           {
-            "item": "Unsalted butter",
             "quantity": "120 g",
+            "item": "Unsalted butter",
             "note": "softened"
           },
           {
+            "quantity": "60 g",
             "item": "Powdered sugar",
-            "quantity": "60 g"
+            "note": ""
           },
           {
+            "quantity": "150 g",
             "item": "All-purpose flour",
-            "quantity": "150 g"
+            "note": ""
           },
           {
-            "item": "Cocoa powder",
             "quantity": "25 g",
+            "item": "Cocoa powder",
             "note": "high-quality Dutch-processed"
           },
           {
+            "quantity": "1",
             "item": "Egg yolk",
-            "quantity": "1"
+            "note": ""
           },
           {
+            "quantity": "Pinch",
             "item": "Sea salt",
-            "quantity": "Pinch"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Cream butter and powdered sugar until smooth and pale."
           },
           {
-            "number": 2,
             "instruction": "Add egg yolk and mix to combine."
           },
           {
-            "number": 3,
             "instruction": "Sift flour, cocoa powder, and salt together; add to butter mixture."
           },
           {
-            "number": 4,
             "instruction": "Mix until dough comes together, then shape into a disk and chill 30 minutes."
           },
           {
-            "number": 5,
             "instruction": "Roll out to 4 mm thickness and cut into rounds using ring molds."
           },
           {
-            "number": 6,
             "instruction": "Bake at 170°C (340°F) for 10–12 minutes until firm. Cool completely."
           }
         ]
@@ -4750,48 +4746,45 @@
         "yield": "",
         "ingredients": [
           {
+            "quantity": "100 g",
             "item": "Granulated sugar",
-            "quantity": "100 g"
+            "note": ""
           },
           {
+            "quantity": "20 g",
             "item": "Glucose or light corn syrup",
-            "quantity": "20 g"
+            "note": ""
           },
           {
-            "item": "Heavy cream",
             "quantity": "100 mL",
+            "item": "Heavy cream",
             "note": "warmed"
           },
           {
-            "item": "Unsalted butter",
             "quantity": "40 g",
+            "item": "Unsalted butter",
             "note": "cubed"
           },
           {
-            "item": "Fleur de sel",
             "quantity": "1 g",
+            "item": "Fleur de sel",
             "note": "or to taste"
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "In a saucepan, heat sugar and glucose until it melts and turns deep amber."
           },
           {
-            "number": 2,
             "instruction": "Carefully whisk in warm cream in stages — mixture will bubble vigorously."
           },
           {
-            "number": 3,
             "instruction": "Remove from heat and whisk in butter until smooth and glossy."
           },
           {
-            "number": 4,
             "instruction": "Add fleur de sel and stir to combine."
           },
           {
-            "number": 5,
             "instruction": "Cool slightly until thickened but still pourable."
           }
         ]

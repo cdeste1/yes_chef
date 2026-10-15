@@ -13668,48 +13668,61 @@
   },
   {
     "name": "Lobster Tortellini with Bisque Reduction and Lemon Foam",
-    "source": "adpated from Mirazur",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/lobstertortelinni_bisquereduction_lemonfoam.png",
-    "chef": " Mauro Colagreco",
-    "yield": "Serves 4",
     "description": "Delicate lobster-filled tortellini served with a rich bisque reduction and a bright lemon foam for contrast.",
     "headnote": "Reducing the bisque concentrates everything the shells gave up during cooking into a sauce strong enough to coat a handful of tortellini without drowning them. The lemon foam is the release valve — it's mostly air, so it reads as bright acidity on the tongue instead of adding more richness on top of an already-dense sauce.",
     "category": "Main",
     "keywords": "lobster, tortellini, bisque, lemon foam, seafood, pasta, fine dining, advanced",
-    "winePairings": [
-      {
-        "name": "Chablis (Village)",
-        "notes": "Flint + citrus support lobster sweetness."
-      },
-      {
-        "name": "Corton-Charlemagne Grand Cru",
-        "notes": "Rich, mineral, deeply complements bisque."
-      }
-    ],
+    "yield": "Serves 4",
+    "source": "adpated from Mirazur",
+    "chef": "Mauro Colagreco",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/lobstertortelinni_bisquereduction_lemonfoam.png",
     "ingredients": [
       {
+        "quantity": "",
         "item": "Lobster stuffed tortellini",
         "note": "see sub-recipe"
       },
       {
+        "quantity": "",
         "item": "Lobster bisque reduction",
         "note": "see sub-recipe"
       },
       {
+        "quantity": "",
         "item": "Lemon foam",
         "note": "see sub-recipe"
       },
       {
+        "quantity": "for garnish",
         "item": "Micro herbs",
-        "quantity": "for garnish"
+        "note": ""
       },
       {
+        "quantity": "for garnish",
         "item": "Edible gold leaf",
-        "quantity": "for garnish"
+        "note": ""
       },
       {
+        "quantity": "for garnish",
         "item": "Lobster Coral Oils",
-        "quantity": "for garnish"
+        "note": ""
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Cook tortellini in salted water for 2–3 minutes, until just tender."
+      },
+      {
+        "instruction": "Place 3–4 tortellini in the center of a shallow bowl."
+      },
+      {
+        "instruction": "Spoon bisque reduction around the pasta."
+      },
+      {
+        "instruction": "Top with a spoonful of lemon foam."
+      },
+      {
+        "instruction": "Garnish with micro herbs, lobster coral oil, or edible gold for presentation."
       }
     ],
     "specialtools": [
@@ -13747,33 +13760,23 @@
       },
       {
         "item": "Edible gold leaf",
-        "link": "https://www.amazon.com/dp/B0C5FPK7QW?tag=yeschef0A02-20"
+        "link": "https://www.amazon.com/dp/B0isLVVP5?tag=yeschef0A02-20"
       },
       {
         "item": "Lobster Coral Oils",
         "link": "https://www.amazon.com/dp/B00SHQJHKI?tag=yeschef0A02-20"
       }
     ],
-    "steps": [
+    "winePairings": [
       {
-        "number": 1,
-        "instruction": "Cook tortellini in salted water for 2–3 minutes, until just tender."
+        "name": "Chablis (Village)",
+        "notes": "Flint + citrus support lobster sweetness.",
+        "link": ""
       },
       {
-        "number": 2,
-        "instruction": "Place 3–4 tortellini in the center of a shallow bowl."
-      },
-      {
-        "number": 3,
-        "instruction": "Spoon bisque reduction around the pasta."
-      },
-      {
-        "number": 4,
-        "instruction": "Top with a spoonful of lemon foam."
-      },
-      {
-        "number": 5,
-        "instruction": "Garnish with micro herbs, lobster coral oil, or edible gold for presentation."
+        "name": "Corton-Charlemagne Grand Cru",
+        "notes": "Rich, mineral, deeply complements bisque.",
+        "link": ""
       }
     ],
     "sub_recipes": [
@@ -13782,56 +13785,55 @@
         "yield": "",
         "ingredients": [
           {
-            "item": "Whole lobsters",
             "quantity": "2",
+            "item": "Whole lobsters",
             "note": "2 lbs total"
           },
           {
+            "quantity": "1 tbsp",
             "item": "Olive oil",
-            "quantity": "1 tbsp"
+            "note": ""
           },
           {
-            "item": "Shallot",
             "quantity": "1 small",
+            "item": "Shallot",
             "note": "finely diced"
           },
           {
+            "quantity": "1 tbsp",
             "item": "Butter",
-            "quantity": "1 tbsp"
+            "note": ""
           },
           {
+            "quantity": "1 tbsp",
             "item": "Crème fraîche or heavy cream",
-            "quantity": "1 tbsp"
+            "note": ""
           },
           {
+            "quantity": "½ tsp",
             "item": "Lemon zest",
-            "quantity": "½ tsp"
+            "note": ""
           },
           {
-            "item": "Salt and white pepper",
             "quantity": "",
+            "item": "Salt and white pepper",
             "note": "to taste"
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Poach lobsters in salted boiling water for 5–6 minutes, just until cooked. Cool and remove the tail and claw meat."
           },
           {
-            "number": 2,
             "instruction": "Finely chop lobster meat and set aside."
           },
           {
-            "number": 3,
             "instruction": "In a small pan, sauté shallot in butter until translucent."
           },
           {
-            "number": 4,
             "instruction": "Add lobster meat, lemon zest, and crème fraîche."
           },
           {
-            "number": 5,
             "instruction": "Mix gently, season with salt and white pepper, then chill until ready to fill pasta."
           }
         ]
@@ -13841,41 +13843,42 @@
         "yield": "",
         "ingredients": [
           {
+            "quantity": "200 g",
             "item": "“00” flour",
-            "quantity": "200 g"
+            "note": ""
           },
           {
+            "quantity": "2",
             "item": "Egg yolks",
-            "quantity": "2"
+            "note": ""
           },
           {
+            "quantity": "1",
             "item": "Whole egg",
-            "quantity": "1"
+            "note": ""
           },
           {
+            "quantity": "1 tsp",
             "item": "Olive oil",
-            "quantity": "1 tsp"
+            "note": ""
           },
           {
+            "quantity": "Pinch",
             "item": "Salt",
-            "quantity": "Pinch"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Mix flour and salt, make a well, and add eggs and oil."
           },
           {
-            "number": 2,
             "instruction": "Knead until smooth and elastic, about 8–10 minutes."
           },
           {
-            "number": 3,
             "instruction": "Wrap in plastic and rest for 30 minutes."
           },
           {
-            "number": 4,
             "instruction": "Roll out thin sheets using a pasta roller."
           }
         ]
@@ -13885,33 +13888,30 @@
         "yield": "",
         "ingredients": [
           {
+            "quantity": "1",
             "item": "Egg",
-            "quantity": "1"
+            "note": ""
           },
           {
+            "quantity": "1 tablespoon",
             "item": "Water",
-            "quantity": "1 tablespoon"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Whisk egg and water to create an egg wash."
           },
           {
-            "number": 2,
             "instruction": "Cut pasta sheets into 3 inch (8 cm) rounds."
           },
           {
-            "number": 3,
             "instruction": "Place a small spoonful of chilled lobster filling in the center."
           },
           {
-            "number": 4,
             "instruction": "Lightly brush edges with egg wash, fold over to form a half-moon, then bring corners together to form tortellini."
           },
           {
-            "number": 5,
             "instruction": "Place on a floured tray and cover lightly until ready to cook."
           }
         ]
@@ -13921,67 +13921,68 @@
         "yield": "",
         "ingredients": [
           {
-            "item": "Lobster shells",
             "quantity": "",
+            "item": "Lobster shells",
             "note": "from step 1"
           },
           {
+            "quantity": "1",
             "item": "Carrot",
-            "quantity": "1"
+            "note": ""
           },
           {
+            "quantity": "1",
             "item": "Celery stalk",
-            "quantity": "1"
+            "note": ""
           },
           {
+            "quantity": "1",
             "item": "Onion",
-            "quantity": "1"
+            "note": ""
           },
           {
+            "quantity": "2 tbsp",
             "item": "Tomato paste",
-            "quantity": "2 tbsp"
+            "note": ""
           },
           {
+            "quantity": "1/4 cup",
             "item": "Brandy or cognac",
-            "quantity": "1/4 cup"
+            "note": ""
           },
           {
+            "quantity": "2 cups",
             "item": "Fish stock or water",
-            "quantity": "2 cups"
+            "note": ""
           },
           {
+            "quantity": "1/2 cup",
             "item": "Cream",
-            "quantity": "1/2 cup"
+            "note": ""
           },
           {
-            "item": "Butter",
             "quantity": "1 tbsp",
+            "item": "Butter",
             "note": "for finishing"
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Roast shells and vegetables in a pan until caramelized."
           },
           {
-            "number": 2,
             "instruction": "Add tomato paste and cook for 1–2 minutes."
           },
           {
-            "number": 3,
             "instruction": "Deglaze with brandy; flambé or reduce until almost dry."
           },
           {
-            "number": 4,
             "instruction": "Add stock and simmer 30–40 minutes."
           },
           {
-            "number": 5,
             "instruction": "Strain and reduce to a thick, glossy consistency."
           },
           {
-            "number": 6,
             "instruction": "Finish with cream and butter for richness. Season to taste."
           }
         ]
@@ -13991,34 +13992,34 @@
         "yield": "",
         "ingredients": [
           {
+            "quantity": "1/2 cup",
             "item": "Fresh lemon juice",
-            "quantity": "1/2 cup"
+            "note": ""
           },
           {
+            "quantity": "1/4 cup",
             "item": "Water",
-            "quantity": "1/4 cup"
+            "note": ""
           },
           {
+            "quantity": "1 tbsp",
             "item": "Sugar",
-            "quantity": "1 tbsp"
+            "note": ""
           },
           {
-            "item": "Gelatin",
             "quantity": "1 g or 1 sheet",
+            "item": "Gelatin",
             "note": "optional stabilizer"
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Mix lemon juice, water, and sugar. Warm gently to dissolve sugar."
           },
           {
-            "number": 2,
             "instruction": "Add gelatin if using."
           },
           {
-            "number": 3,
             "instruction": "Froth with an immersion blender to create foam just before plating."
           }
         ]

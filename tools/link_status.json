@@ -58,10 +58,10 @@
   "https://amzn.to/3OS20Nf": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/3OZYIaP": {
     "disabled": false,
@@ -72,9 +72,9 @@
     "last_status": "ok"
   },
   "https://amzn.to/3ObTjgD": {
-    "disabled": false,
-    "disabled_since": null,
-    "fail_count": 1,
+    "disabled": true,
+    "disabled_since": "2026-10-16",
+    "fail_count": 2,
     "failing_since": "2026-10-16",
     "last_ok": null,
     "last_status": "out_of_stock"
@@ -586,10 +586,10 @@
   "https://amzn.to/48Xe8Do": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/48bdTV7": {
     "disabled": false,
@@ -602,10 +602,10 @@
   "https://amzn.to/48cq2Jp": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-16",
-    "last_ok": null,
-    "last_status": "out_of_stock"
+    "fail_count": 0,
+    "failing_since": null,
+    "last_ok": "2026-10-16",
+    "last_status": "ok"
   },
   "https://amzn.to/48eajcJ": {
     "disabled": false,
@@ -626,10 +626,10 @@
   "https://amzn.to/48hNwwH": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/48n6li9": {
     "disabled": false,
@@ -650,10 +650,10 @@
   "https://amzn.to/490FEjq": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-16",
-    "last_ok": null,
-    "last_status": "out_of_stock"
+    "fail_count": 0,
+    "failing_since": null,
+    "last_ok": "2026-10-16",
+    "last_status": "ok"
   },
   "https://amzn.to/490QeXO": {
     "disabled": false,
@@ -994,10 +994,10 @@
   "https://amzn.to/4dIbALc": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4dKy3bu": {
     "disabled": false,
@@ -1234,10 +1234,10 @@
   "https://amzn.to/4eXu5NE": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4eZKOjD": {
     "disabled": false,
@@ -1482,10 +1482,10 @@
   "https://amzn.to/4n0t9ua": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4n4Psia": {
     "disabled": false,
@@ -1810,10 +1810,10 @@
   "https://amzn.to/4tZzMi9": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4taHEwR": {
     "disabled": false,
@@ -2304,9 +2304,9 @@
     "last_status": "ok"
   },
   "https://amzn.to/4wh5hH1": {
-    "disabled": false,
-    "disabled_since": null,
-    "fail_count": 1,
+    "disabled": true,
+    "disabled_since": "2026-10-16",
+    "fail_count": 2,
     "failing_since": "2026-10-16",
     "last_ok": null,
     "last_status": "out_of_stock"
@@ -2434,10 +2434,10 @@
   "https://www.amazon.com/dp/B000A3N7Q6?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-16",
-    "last_ok": null,
-    "last_status": "out_of_stock"
+    "fail_count": 0,
+    "failing_since": null,
+    "last_ok": "2026-10-16",
+    "last_status": "ok"
   },
   "https://www.amazon.com/dp/B000U58BB0?tag=yeschef0A02-20": {
     "disabled": false,
@@ -2498,10 +2498,10 @@
   "https://www.amazon.com/dp/B00VA5HG0Q?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B00VMH8KT8?tag=yeschef0A02-20": {
     "disabled": false,
@@ -2522,10 +2522,10 @@
   "https://www.amazon.com/dp/B014ED35C8?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B01DBGQR1K?tag=yeschef0A02-20": {
     "disabled": false,
@@ -2586,10 +2586,10 @@
   "https://www.amazon.com/dp/B07HQZ3JHB?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B07HQZFT7F?tag=yeschef0A02-20": {
     "disabled": false,
@@ -2722,10 +2722,10 @@
   "https://www.amazon.com/dp/B08YP98BC9?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-16",
-    "last_ok": null,
-    "last_status": "out_of_stock"
+    "fail_count": 0,
+    "failing_since": null,
+    "last_ok": "2026-10-16",
+    "last_status": "ok"
   },
   "https://www.amazon.com/dp/B094NBSRT4?tag=yeschef0A02-20": {
     "disabled": false,
@@ -2818,10 +2818,10 @@
   "https://www.amazon.com/dp/B0CP8BPXKR?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-16",
     "last_ok": "2026-10-16",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B0CQVL95YH?tag=yeschef0A02-20": {
     "disabled": false,
@@ -2930,10 +2930,10 @@
   "https://www.amazon.com/dp/B0FLVK8HP7?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-16",
-    "last_ok": null,
-    "last_status": "out_of_stock"
+    "fail_count": 0,
+    "failing_since": null,
+    "last_ok": "2026-10-16",
+    "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0FN7SK735?tag=yeschef0A02-20": {
     "disabled": false,

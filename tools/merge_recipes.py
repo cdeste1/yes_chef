@@ -37,6 +37,34 @@ for path in recipe_files:
 
 print(f"✓ Merged {len(recipes)} recipes from {args.input}/")
 
+# ── Hide links the daily checker has marked as dead / out of stock ───────────
+# The source recipe files keep the real affiliate URL; only the published
+# copy gets link="" so the app and website render a plain, non-tappable chip.
+# tools/link_status.json is maintained by tools/check_links.py.
+STATUS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "link_status.json")
+disabled = set()
+if os.path.exists(STATUS_FILE):
+    with open(STATUS_FILE, encoding="utf-8") as f:
+        disabled = {u for u, s in json.load(f).items() if s.get("disabled")}
+
+hidden = 0
+def blank_links(node):
+    global hidden
+    if isinstance(node, dict):
+        for k, v in node.items():
+            if k == "link" and isinstance(v, str) and v.strip() in disabled:
+                node[k] = ""
+                hidden += 1
+            else:
+                blank_links(v)
+    elif isinstance(node, list):
+        for item in node:
+            blank_links(item)
+
+if disabled:
+    blank_links(recipes)
+    print(f"✓ Hid {hidden} link(s) across {len(disabled)} disabled URL(s)")
+
 # ── Write merged file ─────────────────────────────────────────────────────────
 os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
 with open(args.output, "w", encoding="utf-8") as f:

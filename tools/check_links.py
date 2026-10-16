@@ -17,9 +17,19 @@ Usage:
   RECIPES_FILE=recipes.json python3 check_links.py   # use a local file
 """
 
-import json, os, sys, time, urllib.request, urllib.error
+import json, os, sys, time, glob, urllib.request, urllib.error
 from datetime import datetime, timezone
 from collections import defaultdict
+
+_HERE        = os.path.dirname(os.path.abspath(__file__))
+RECIPES_DIR  = os.path.join(_HERE, "..", "recipes")
+STATUS_FILE  = os.path.join(_HERE, "link_status.json")
+
+# A link is hidden from users (published with link="") after this many
+# consecutive daily checks come back broken / out_of_stock. It is restored
+# the first time a check comes back healthy. Network errors never count:
+# Amazon bot-blocking would otherwise hide good links.
+DISABLE_AFTER = 2
 
 # ── Config ────────────────────────────────────────────────────────────────────
 R2_URL       = "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/recipes.json"
@@ -60,10 +70,18 @@ HEADERS = {
 }
 
 # ── Load recipes ──────────────────────────────────────────────────────────────
+# Default to the source recipe files: the published R2 copy has disabled links
+# blanked out, so it can't be used to detect when a product comes back.
 if RECIPES_FILE and os.path.exists(RECIPES_FILE):
     print(f"Loading from local file: {RECIPES_FILE}")
     with open(RECIPES_FILE, encoding="utf-8") as f:
         raw = json.load(f)
+elif os.path.isdir(RECIPES_DIR):
+    print(f"Loading source recipes from {RECIPES_DIR}/")
+    raw = []
+    for path in sorted(glob.glob(os.path.join(RECIPES_DIR, "*.json"))):
+        with open(path, encoding="utf-8") as f:
+            raw.append(json.load(f))
 else:
     print(f"Fetching recipes.json from R2...")
     req = urllib.request.Request(R2_URL, headers=HEADERS)
@@ -192,6 +210,47 @@ errors       = [r for r in results if r["status"] == "error"]
 out_of_stock = [r for r in results if r["status"] == "out_of_stock"]
 
 checked_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+today      = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+# ── Update persistent link status (drives which links get hidden) ─────────────
+try:
+    with open(STATUS_FILE, encoding="utf-8") as f:
+        status = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError):
+    status = {}
+
+newly_disabled, restored = [], []
+for r in results:
+    s = status.setdefault(r["url"], {
+        "disabled": False, "fail_count": 0, "failing_since": None,
+        "last_ok": None, "last_status": None, "disabled_since": None,
+    })
+    s["last_status"] = r["status"]
+    if r["status"] in ("broken", "out_of_stock"):
+        s["fail_count"] += 1
+        s["failing_since"] = s["failing_since"] or today
+        if not s["disabled"] and s["fail_count"] >= DISABLE_AFTER:
+            s["disabled"], s["disabled_since"] = True, today
+            newly_disabled.append(r["url"])
+    elif r["status"] in ("ok", "redirect"):
+        if s["disabled"]:
+            restored.append(r["url"])
+        s.update(disabled=False, fail_count=0, failing_since=None,
+                 disabled_since=None, last_ok=today)
+    # "error" → inconclusive; leave counters untouched
+
+# Drop entries for URLs no longer used in any recipe
+status = {u: s for u, s in status.items() if u in link_map}
+for r in results:
+    r["disabled"] = status[r["url"]]["disabled"]
+    r["disabled_since"] = status[r["url"]]["disabled_since"]
+disabled = [r for r in results if r["disabled"]]
+
+with open(STATUS_FILE, "w", encoding="utf-8") as f:
+    json.dump(status, f, indent=2, sort_keys=True)
+    f.write("\n")
+print(f"✓ Written {STATUS_FILE} ({len(disabled)} disabled, "
+      f"{len(newly_disabled)} newly, {len(restored)} restored)")
 
 # ── Write link_report.json ────────────────────────────────────────────────────
 report_data = {
@@ -202,6 +261,7 @@ report_data = {
     "redirect_count":      len(redirects),
     "error_count":         len(errors),
     "out_of_stock_count":  len(out_of_stock),
+    "disabled_count":      len(disabled),
     "results":             results,
 }
 with open(REPORT_JSON, "w", encoding="utf-8") as f:
@@ -217,9 +277,28 @@ lines = [
     f"❌ Broken: {len(broken)} | "
     f"📦 Out of stock: {len(out_of_stock)} | "
     f"↩️ Redirected: {len(redirects)} | "
-    f"⚠️ Error: {len(errors)}",
+    f"⚠️ Error: {len(errors)} | "
+    f"🙈 Hidden from users: {len(disabled)}",
     "",
 ]
+
+if disabled:
+    lines += ["## 🙈 Currently Hidden From Users — Needs Correction", "",
+              "These items still appear in the app, but without a link. "
+              "They reappear automatically once the product is orderable again; "
+              "replace the URL in the recipe file if it is permanently dead.", ""]
+    for r in disabled:
+        lines.append(f"### `{r['url']}`")
+        lines.append(f"- **Hidden since:** {r['disabled_since']}")
+        lines.append(f"- **Latest check:** {r['status']} — {r['reason']}")
+        lines.append(f"- **Used in:**")
+        for u in r["usages"]:
+            lines.append(f"  - *{u['recipe']}* → `{u['tool']}`")
+        lines.append("")
+
+if restored:
+    lines += ["## ✅ Restored Today — Product Back, Link Re-enabled", ""]
+    lines += [f"- `{u}`" for u in restored] + [""]
 
 if out_of_stock:
     lines += ["## 📦 Out of Stock — Still Live, Can't Be Ordered", ""]
@@ -259,7 +338,7 @@ if errors:
             lines.append(f"  - *{u['recipe']}* → `{u['tool']}`")
     lines.append("")
 
-if not broken and not redirects and not errors and not out_of_stock:
+if not broken and not redirects and not errors and not out_of_stock and not disabled:
     lines.append("## ✅ All links are healthy!")
 
 with open(REPORT_MD, "w", encoding="utf-8") as f:
@@ -268,7 +347,7 @@ print(f"✓ Written {REPORT_MD}")
 
 # ── Exit code: non-zero if anything needs attention ───────────────────────────
 # The GitHub Action uses this to decide whether to send the alert email.
-if broken or errors or out_of_stock:
+if broken or errors or out_of_stock or disabled:
     print(f"\n⚠️  {len(broken)} broken + {len(errors)} errors + {len(out_of_stock)} out of stock found.")
     sys.exit(1)   # triggers email alert in the Action
 else:

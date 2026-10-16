@@ -5,6 +5,10 @@ on:
     - cron: '0 9 * * *'    # runs every day at 9:00 AM UTC (5 AM Eastern)
   workflow_dispatch:        # also runnable manually from the Actions tab
 
+permissions:
+  contents: write    # commit tools/link_status.json
+  actions: write     # dispatch the deploy workflow
+
 jobs:
   check-links:
     runs-on: ubuntu-latest
@@ -25,6 +29,26 @@ jobs:
           python3 tools/check_links.py
           echo "exit_code=$?" >> $GITHUB_OUTPUT
         continue-on-error: true   # don't fail the job here; we handle it below
+
+      # Persist which links are hidden. If the set of hidden links changed,
+      # commit the status file and redeploy so R2 + the website pick it up
+      # (merge_recipes.py blanks disabled links in the published recipes.json).
+      - name: Commit link status and redeploy
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name  "YesChef Link Checker"
+          git config user.email "actions@users.noreply.github.com"
+          git add tools/link_status.json
+          if git diff --cached --quiet; then
+            echo "No link status changes."
+            exit 0
+          fi
+          git commit -m "chore: update Amazon link status [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          gh workflow run deploy.yml --ref main
 
       # Read the markdown report into a variable for the email body
       - name: Read report

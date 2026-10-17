@@ -12252,45 +12252,47 @@
     "specialtools": [
       {
         "item": "Sous Vide Circulator",
-        "link": "https://amzn.to/48bdTV7"
+        "link": "https://amzn.to/4s9xu0B"
       },
       {
         "item": "Cast Iron Skillet",
-        "link": ""
+        "link": "https://amzn.to/4dMTisV"
       },
       {
         "item": "Whisk",
-        "link": "https://amzn.to/3OOE9Ov"
+        "link": "https://amzn.to/3WbqQuL"
       },
       {
         "item": "Vacuum Sealer",
-        "link": "https://amzn.to/3SrDHYd"
+        "link": "https://amzn.to/4jxgsaB"
       },
       {
         "item": "Fine Chinois",
-        "link": "https://amzn.to/3OPQuls"
+        "link": "https://amzn.to/4B7qW6V"
       },
       {
         "item": "Fish Spatula",
-        "link": "https://amzn.to/3OQLQ6N"
+        "link": "https://amzn.to/3WvQTgi"
       },
       {
         "item": "Squeeze Bottle",
-        "link": "https://amzn.to/3QkAbxs"
+        "link": "https://amzn.to/4BcP3AU"
       },
       {
         "item": "Dinner Plates",
-        "link": "https://amzn.to/4wtAzub"
+        "link": "https://amzn.to/4k2EZ7q"
       }
     ],
     "winePairings": [
       {
         "name": "Champagne Brut",
-        "notes": "Bright acidity enhances the beurre blanc and balances the richness."
+        "notes": "Bright acidity enhances the beurre blanc and balances the richness.",
+        "link": ""
       },
       {
         "name": "Chablis Grand Cru",
-        "notes": "Minerality and citrus notes complement the delicate halibut."
+        "notes": "Minerality and citrus notes complement the delicate halibut.",
+        "link": ""
       }
     ],
     "sub_recipes": [

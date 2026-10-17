@@ -11380,41 +11380,43 @@
     "specialtools": [
       {
         "item": "Japanese Konro Grill",
-        "link": "https://amzn.to/4e2ZzkI"
+        "link": "https://amzn.to/4B4f2dM"
       },
       {
         "item": "Binchotan Charcoal",
-        "link": "https://amzn.to/3RsrnpT"
+        "link": "https://amzn.to/4zuZqOM"
       },
       {
         "item": "Cold Smoke Gun",
-        "link": "https://amzn.to/4dtEHmv"
+        "link": "https://amzn.to/4zHiaLl"
       },
       {
         "item": "Chamber Vacuum Sealer",
-        "link": "https://amzn.to/49mxMcm"
+        "link": "https://amzn.to/4yPu8lS"
       },
       {
         "item": "Copper Saucier Pan",
-        "link": ""
+        "link": "https://amzn.to/47qpjUc"
       },
       {
         "item": "Laboratory Plating Pipettes",
-        "link": "https://amzn.to/4nPPDOQ"
+        "link": "https://amzn.to/4zC1RPE"
       },
       {
         "item": "Edible Flowers",
-        "link": "https://amzn.to/3PJYRj4"
+        "link": "https://amzn.to/4z0xEKu"
       }
     ],
     "winePairings": [
       {
         "name": "Blanc de Blancs Champagne",
-        "notes": "Bright acidity and minerality elevate the sweetness of the scallops and smoked butter sauce."
+        "notes": "Bright acidity and minerality elevate the sweetness of the scallops and smoked butter sauce.",
+        "link": ""
       },
       {
         "name": "Junmai Daiginjo Sake",
-        "notes": "Elegant floral aromas and soft umami complement the pine oil and charred scallops."
+        "notes": "Elegant floral aromas and soft umami complement the pine oil and charred scallops.",
+        "link": ""
       }
     ],
     "sub_recipes": [

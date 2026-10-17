@@ -14610,53 +14610,55 @@
     "specialtools": [
       {
         "item": "Rice Cooker",
-        "link": "https://amzn.to/4ew1kYj"
+        "link": "https://amzn.to/3VGEmGK"
       },
       {
         "item": "Sous Vide Immersion Circulator",
-        "link": "https://amzn.to/48bdTV7"
+        "link": "https://amzn.to/47rqJ0B"
       },
       {
         "item": "Vacuum Sealer",
-        "link": "https://amzn.to/3SrDHYd"
+        "link": "https://amzn.to/3WxA6JN"
       },
       {
         "item": "Whipping Siphon",
-        "link": "https://amzn.to/4tiCiAl"
+        "link": "https://amzn.to/47pM8r8"
       },
       {
         "item": "Blowtorch",
-        "link": "https://amzn.to/42eE89w"
+        "link": "https://amzn.to/4ykBnRH"
       },
       {
         "item": "Black Sesame Seeds",
-        "link": "https://amzn.to/42g6sIC"
+        "link": "https://amzn.to/4dKRIYz"
       },
       {
         "item": "Whisk",
-        "link": "https://amzn.to/4cjHDS6"
+        "link": "https://amzn.to/4k7V1ge"
       },
       {
         "item": "Fine Chinois",
-        "link": "https://amzn.to/4sGKGZi"
+        "link": "https://amzn.to/4eeSpti"
       },
       {
         "item": "Basting Brush",
-        "link": "https://amzn.to/4tmw3fa"
+        "link": "https://amzn.to/4scVY9g"
       },
       {
         "item": "Ring Mold",
-        "link": "https://amzn.to/4cQTZkJ"
+        "link": "https://amzn.to/4zE83GP"
       }
     ],
     "winePairings": [
       {
         "name": "Junmai Daiginjo Sake",
-        "notes": "Elegant and aromatic, enhances umami and delicate fish texture."
+        "notes": "Elegant and aromatic, enhances umami and delicate fish texture.",
+        "link": ""
       },
       {
         "name": "Chablis Grand Cru",
-        "notes": "Mineral-driven acidity balances the richness of the cod."
+        "notes": "Mineral-driven acidity balances the richness of the cod.",
+        "link": ""
       }
     ],
     "sub_recipes": [

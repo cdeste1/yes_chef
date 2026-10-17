@@ -135,45 +135,47 @@
   "specialtools": [
     {
       "item": "Cast Iron Grill Pan",
-      "link": "https://amzn.to/3ObTjgD"
+      "link": "https://amzn.to/4dMTisV"
     },
     {
       "item": "Immersion Blender",
-      "link": "https://amzn.to/48bdTV7"
+      "link": "https://amzn.to/47JNahT"
     },
     {
       "item": "Fine Mesh Sieve",
-      "link": "https://amzn.to/4cxtkIB"
+      "link": "https://amzn.to/4zEYVC0"
     },
     {
       "item": "Piping Tools",
-      "link": "https://amzn.to/3OOZgQI"
+      "link": "https://amzn.to/4i4O0dF"
     },
     {
       "item": "Offset Spatula",
-      "link": "https://amzn.to/42ii264"
+      "link": "https://amzn.to/4hQsaMb"
     },
     {
       "item": "Squeeze Bottle",
-      "link": "https://amzn.to/3QkAbxs"
+      "link": "https://amzn.to/4i6cFOU"
     },
     {
       "item": "Kitchen Torch",
-      "link": "https://amzn.to/42eE89w"
+      "link": "https://amzn.to/4yrLEMc"
     },
     {
       "item": "Digital Thermometer",
-      "link": "https://amzn.to/4vDU7eX"
+      "link": "https://amzn.to/4ysW7XB"
     }
   ],
   "winePairings": [
     {
       "name": "Moscato d'Asti",
-      "notes": "Light sweetness and bubbles complement the peaches."
+      "notes": "Light sweetness and bubbles complement the peaches.",
+      "link": ""
     },
     {
       "name": "Sauternes",
-      "notes": "Rich honeyed notes elevate the caramelized fruit."
+      "notes": "Rich honeyed notes elevate the caramelized fruit.",
+      "link": ""
     }
   ],
   "sub_recipes": []

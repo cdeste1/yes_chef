@@ -162,45 +162,47 @@
   "specialtools": [
     {
       "item": "Cold Smoke Gun",
-      "link": "https://amzn.to/490gO3f"
+      "link": "https://amzn.to/3TEZXic"
     },
     {
-      "item": "Vacuum Chamber Sealer",
-      "link": "https://amzn.to/3QXi1SX"
+      "item": "Vacuum Sealer",
+      "link": "https://amzn.to/483yMkk"
     },
     {
       "item": "Tabletop Grill",
-      "link": "https://amzn.to/4wvSsZu"
+      "link": "https://amzn.to/4hZunUd"
     },
     {
       "item": "Gourmet Whip Siphon",
-      "link": "https://amzn.to/4tAUZPk"
+      "link": "https://amzn.to/4i5VTj4"
     },
     {
       "item": "Spoon Set",
-      "link": "https://amzn.to/4trT3sd"
+      "link": "https://amzn.to/4ykcwxn"
     },
     {
       "item": "Infrared Thermometer",
-      "link": "https://amzn.to/3RkWzXY"
+      "link": "https://amzn.to/3VGiwTM"
     },
     {
       "item": "Stoneware Smoke Cloche",
-      "link": "https://amzn.to/4dgqhEY"
+      "link": "https://amzn.to/4dMsWat"
     },
     {
       "item": "Plates perfect for this dish",
-      "link": "https://amzn.to/491JKrN"
+      "link": "https://amzn.to/4yQ4aid"
     }
   ],
   "winePairings": [
     {
       "name": "Santorini Assyrtiko",
-      "notes": "Bright acidity and volcanic minerality balance the smoke and brine of the octopus."
+      "notes": "Bright acidity and volcanic minerality balance the smoke and brine of the octopus.",
+      "link": ""
     },
     {
       "name": "Skin-Contact Moschofilero",
-      "notes": "Floral aromatics and texture pair beautifully with feta and burnt honey."
+      "notes": "Floral aromatics and texture pair beautifully with feta and burnt honey.",
+      "link": ""
     }
   ],
   "sub_recipes": [

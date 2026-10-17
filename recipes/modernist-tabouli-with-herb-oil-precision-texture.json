@@ -103,41 +103,43 @@
   "specialtools": [
     {
       "item": "Vacuum Sealer",
-      "link": "https://amzn.to/3SrDHYd"
+      "link": "https://amzn.to/47vf1SH"
     },
     {
       "item": "High-Speed Blender",
-      "link": "https://amzn.to/41ORGbK"
+      "link": "https://amzn.to/47Z8csJ"
     },
     {
-      "item": "Centrifuge",
-      "link": "https://amzn.to/3QrAg2q"
+      "item": "Bowls",
+      "link": "https://amzn.to/3VGpIPM"
     },
     {
       "item": "Fine Chinois",
-      "link": "https://amzn.to/4cEcbgl"
+      "link": "https://amzn.to/4k2l08U"
     },
     {
       "item": "Precision Scale",
-      "link": "https://amzn.to/4cQUI5s"
+      "link": "https://amzn.to/4jKTjBF"
     },
     {
       "item": "Ring Molds",
-      "link": "https://amzn.to/4cQTZkJ"
+      "link": "https://amzn.to/4yqR0qW"
     },
     {
       "item": "Dehydrator",
-      "link": "https://amzn.to/4eB2cuI"
+      "link": "https://amzn.to/4sgtf3y"
     }
   ],
   "winePairings": [
     {
       "name": "Sancerre",
-      "notes": "Crisp acidity complements lemon and herbs."
+      "notes": "Crisp acidity complements lemon and herbs.",
+      "link": ""
     },
     {
       "name": "Albari�o",
-      "notes": "Bright citrus and minerality enhance freshness."
+      "notes": "Bright citrus and minerality enhance freshness.",
+      "link": ""
     }
   ],
   "sub_recipes": []

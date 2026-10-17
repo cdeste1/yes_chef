@@ -21041,61 +21041,63 @@
     "specialtools": [
       {
         "item": "Sous-vide immersion circulator",
-        "link": "https://amzn.to/48bdTV7"
+        "link": "https://amzn.to/4dDPL08"
       },
       {
-        "item": "Gourmet Whip siphon (1L) + N?O chargers",
-        "link": "https://amzn.to/4tiCiAl"
+        "item": "Gourmet Whip siphon",
+        "link": "https://amzn.to/4Bulb3p"
       },
       {
         "item": "Condiment Tins",
-        "link": "https://amzn.to/4tQvWIs"
+        "link": "https://amzn.to/4k1tBJ1"
       },
       {
         "item": "Truffle shaver",
-        "link": "https://amzn.to/4tpFx9m"
+        "link": "https://amzn.to/4eFyZxV"
       },
       {
         "item": "Vacuum Sealer",
-        "link": "https://amzn.to/3SrDHYd"
+        "link": "https://amzn.to/4B9B3b4"
       },
       {
-        "item": "Smoking Gun Smoker",
-        "link": "https://amzn.to/3Oxxubd"
+        "item": "Smoking Gun",
+        "link": "https://amzn.to/4jr04Z9"
       },
       {
         "item": "Culinary Blowtorch",
-        "link": "https://amzn.to/42eE89w"
+        "link": "https://amzn.to/4zx3Jcu"
       },
       {
         "item": "Micro Tweezers",
-        "link": "https://amzn.to/4eve5SX"
+        "link": "https://amzn.to/3WaVTa3"
       },
       {
         "item": "Vitamix professional high-speed blender",
-        "link": "https://amzn.to/4ew7esp"
+        "link": "https://amzn.to/3WbrEzO"
       },
       {
         "item": "Strainer",
-        "link": "https://amzn.to/4cjQK5p"
+        "link": "https://amzn.to/4yqK0KG"
       },
       {
         "item": "Plating Kit",
-        "link": "https://amzn.to/3OpA17x"
+        "link": "https://amzn.to/4zGNERK"
       },
       {
-        "item": "Digital precision scale (0.01g accuracy)",
-        "link": "https://amzn.to/4cQUI5s"
+        "item": "Digital precision scale",
+        "link": "https://amzn.to/4yvst3P"
       }
     ],
     "winePairings": [
       {
         "name": "Vintage Champagne (e.g., Dom Pérignon)",
-        "notes": "Bubbles cut through the rich foie gras and truffle while enhancing the Wagyu savoriness."
+        "notes": "Bubbles cut through the rich foie gras and truffle while enhancing the Wagyu savoriness.",
+        "link": ""
       },
       {
         "name": "Rare Japanese Whisky (e.g., Yamazaki 18)",
-        "notes": "Smoky depth complements the cold-smoked elements and umami explosion."
+        "notes": "Smoky depth complements the cold-smoked elements and umami explosion.",
+        "link": ""
       }
     ],
     "sub_recipes": [

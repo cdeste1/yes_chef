@@ -178,45 +178,48 @@
   "specialtools": [
     {
       "item": "Ceramic Grill",
-      "link": "https://amzn.to/4eJ6gct"
+      "link": "https://amzn.to/4Bbz7yL"
     },
     {
       "item": "Smoking Cloche",
-      "link": "https://amzn.to/42uIgCM"
+      "link": "https://amzn.to/4i1jEZw"
     },
     {
       "item": "Induction System",
-      "link": "https://amzn.to/433LvBb"
+      "link": "https://amzn.to/47sbDrF"
     },
     {
-      "item": "Rotavapor System",
-      "link": "https://amzn.to/4dDSgj7"
+      "item": "Plates perfect for this dish!",
+      "link": "https://amzn.to/4ejZMQf"
     },
     {
       "item": "Chamber Vacuum Sealer",
-      "link": "https://amzn.to/4fhz5Nm"
+      "link": "https://amzn.to/4dN7KkO"
     },
     {
       "item": "Plating Tweezers",
-      "link": "https://amzn.to/439PFHD"
+      "link": "https://amzn.to/4BifmGa"
     },
     {
       "item": "Edible Flowers",
-      "link": "https://amzn.to/4dpfWGU"
+      "link": "https://amzn.to/4hQdooH"
     }
   ],
   "winePairings": [
     {
       "name": "Mexican Chenin Blanc",
-      "notes": "Bright acidity and minerality complement the tuna and smoke."
+      "notes": "Bright acidity and minerality complement the tuna and smoke.",
+      "link": ""
     },
     {
       "name": "Champagne Blanc de Blancs",
-      "notes": "Crisp texture enhances the caviar and tostada crunch."
+      "notes": "Crisp texture enhances the caviar and tostada crunch.",
+      "link": ""
     },
     {
       "name": "Clarified Mezcal Martini",
-      "notes": "Smoky and clean, pairing naturally with the mezcal vapor."
+      "notes": "Smoky and clean, pairing naturally with the mezcal vapor.",
+      "link": ""
     }
   ],
   "sub_recipes": [

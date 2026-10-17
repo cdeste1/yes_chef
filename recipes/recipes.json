@@ -462,51 +462,58 @@
   },
   {
     "name": "Agnolotti del Plin",
-    "source": "adapted from Osteria Francescana (Modena, Italy)",
-    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Agnolotti_Plin.png",
-    "chef": " Massimo Bottura",
-    "yield": "Serves 6",
     "description": "An iconic dish from Piemonte, the pasta is filled with veal, pork, spinach, Parmigiano Reggiano, and eggs, then served in a sage butter sauce.",
     "headnote": "Plin means pinch in Piedmontese dialect, and it's literally how these are formed — the dough gets pinched shut around the filling by hand instead of cut with a wheel, which is what gives each agnolotto its small, tightly-sealed shape. Finishing them in butter reduced with pasta water rather than plain melted butter is what turns the sauce silky instead of just greasy.",
     "category": "Main",
     "keywords": "pasta, italian, piemontese, agnolotti, filled pasta",
-    "winePairings": [
-      {
-        "name": "Barbera d’Alba",
-        "notes": "Bright acid cuts butter, cherry notes complement veal."
-      },
-      {
-        "name": "Gaja Barbaresco",
-        "notes": "Nebbiolo tannins + truffle/sage aromatics = perfect Piedmont pairing."
-      }
-    ],
+    "yield": "Serves 6",
+    "source": "adapted from Osteria Francescana (Modena, Italy)",
+    "chef": "Massimo Bottura",
+    "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Agnolotti_Plin.png",
     "ingredients": [
       {
+        "quantity": "",
         "item": "Stuffed Agnolotti",
         "note": "see sub-recipe"
       },
       {
-        "item": "Salt",
         "quantity": "1 teaspoon",
+        "item": "Salt",
         "note": "plus more for pasta water"
       },
       {
+        "quantity": "8–10 tablespoons",
         "item": "Butter",
-        "quantity": "8–10 tablespoons"
+        "note": ""
       },
       {
+        "quantity": "10",
         "item": "Sage leaves",
-        "quantity": "10"
+        "note": ""
       },
       {
-        "item": "Parmigiano Reggiano DOP",
         "quantity": "1 cup",
+        "item": "Parmigiano Reggiano DOP",
         "note": "grated"
       },
       {
-        "item": "Fresh white truffle",
         "quantity": "1",
+        "item": "Fresh white truffle",
         "note": "optional"
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Bring a large pot of salted water to a boil. Cook the agnolotti for 3–4 minutes, or until they float to the surface."
+      },
+      {
+        "instruction": "Meanwhile, melt butter in a saucepan over medium heat. Add sage leaves and toast about 1 minute, then remove the leaves."
+      },
+      {
+        "instruction": "Add 1 cup of pasta water to the butter, simmer for 2 minutes until reduced by half. Keep warm over low heat."
+      },
+      {
+        "instruction": "Drain the agnolotti and toss them in the butter sauce. Cook 1 minute more over medium heat until the sauce bubbles. Remove from heat, add grated cheese, and serve immediately with shaved truffle if using."
       }
     ],
     "specialtools": [
@@ -516,7 +523,7 @@
       },
       {
         "item": "Flour Sifter",
-        "link": "https://www.amazon.com/dp/B00XIIHKFO?tag=yeschef0A02-20"
+        "link": "https://amzn.to/4zyVDQE"
       },
       {
         "item": "Pastry Wheel",
@@ -535,22 +542,16 @@
         "link": "https://www.amazon.com/dp/B0BJ1Y4C2J?tag=yeschef0A02-20"
       }
     ],
-    "steps": [
+    "winePairings": [
       {
-        "number": 1,
-        "instruction": "Bring a large pot of salted water to a boil. Cook the agnolotti for 3–4 minutes, or until they float to the surface."
+        "name": "Barbera d’Alba",
+        "notes": "Bright acid cuts butter, cherry notes complement veal.",
+        "link": ""
       },
       {
-        "number": 2,
-        "instruction": "Meanwhile, melt butter in a saucepan over medium heat. Add sage leaves and toast about 1 minute, then remove the leaves."
-      },
-      {
-        "number": 3,
-        "instruction": "Add 1 cup of pasta water to the butter, simmer for 2 minutes until reduced by half. Keep warm over low heat."
-      },
-      {
-        "number": 4,
-        "instruction": "Drain the agnolotti and toss them in the butter sauce. Cook 1 minute more over medium heat until the sauce bubbles. Remove from heat, add grated cheese, and serve immediately with shaved truffle if using."
+        "name": "Gaja Barbaresco",
+        "notes": "Nebbiolo tannins + truffle/sage aromatics = perfect Piedmont pairing.",
+        "link": ""
       }
     ],
     "sub_recipes": [
@@ -559,33 +560,32 @@
         "yield": "",
         "ingredients": [
           {
+            "quantity": "3 cups",
             "item": "All-purpose flour",
-            "quantity": "3 cups"
+            "note": ""
           },
           {
+            "quantity": "3 whole",
             "item": "Large eggs",
-            "quantity": "3 whole"
+            "note": ""
           },
           {
+            "quantity": "3",
             "item": "Egg yolks",
-            "quantity": "3"
+            "note": ""
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Sift and mound the flour on a work surface. Make a well in the center and add the eggs."
           },
           {
-            "number": 2,
             "instruction": "Using a fork, beat the eggs and gradually incorporate the flour from the inner rim of the well."
           },
           {
-            "number": 3,
             "instruction": "Knead the dough with your palms for about 15 minutes until cohesive and elastic, adding flour as needed."
           },
           {
-            "number": 4,
             "instruction": "Wrap in plastic wrap and rest for 30 minutes at room temperature."
           }
         ]
@@ -595,71 +595,70 @@
         "yield": "",
         "ingredients": [
           {
+            "quantity": "1 tablespoon",
             "item": "Butter",
-            "quantity": "1 tablespoon"
+            "note": ""
           },
           {
-            "item": "Garlic clove",
             "quantity": "1",
+            "item": "Garlic clove",
             "note": "thinly sliced"
           },
           {
-            "item": "Fresh rosemary",
             "quantity": "1 sprig",
+            "item": "Fresh rosemary",
             "note": "leaves only"
           },
           {
+            "quantity": "1 pound",
             "item": "Ground veal shoulder",
-            "quantity": "1 pound"
+            "note": ""
           },
           {
+            "quantity": "1 pound",
             "item": "Ground pork",
-            "quantity": "1 pound"
+            "note": ""
           },
           {
-            "item": "Spinach",
             "quantity": "1½ pounds",
+            "item": "Spinach",
             "note": "washed, spun dry, roughly chopped"
           },
           {
-            "item": "Parmigiano Reggiano DOP",
             "quantity": "¾ cup",
+            "item": "Parmigiano Reggiano DOP",
             "note": "freshly grated"
           },
           {
+            "quantity": "3",
             "item": "Large eggs",
-            "quantity": "3"
+            "note": ""
           },
           {
-            "item": "Nutmeg",
             "quantity": "",
+            "item": "Nutmeg",
             "note": "to taste, freshly grated"
           },
           {
-            "item": "Salt and black pepper",
             "quantity": "",
+            "item": "Salt and black pepper",
             "note": "to taste"
           }
         ],
         "steps": [
           {
-            "number": 1,
             "instruction": "Bring 6 quarts of water to a boil and add 2 tablespoons salt."
           },
           {
-            "number": 2,
             "instruction": "In a saucepan, melt butter over high heat. Add garlic and rosemary; cook until garlic is light golden brown, about 5 minutes."
           },
           {
-            "number": 3,
             "instruction": "Add veal and pork; brown on all sides, stirring occasionally for 8–10 minutes. Season with salt and pepper."
           },
           {
-            "number": 4,
             "instruction": "Cook spinach in boiling water for 1 minute, drain well, and add to meat."
           },
           {
-            "number": 5,
             "instruction": "Stir in Parmigiano Reggiano, eggs, nutmeg, salt, and pepper. Mix until well combined."
           }
         ]
@@ -670,27 +669,21 @@
         "ingredients": [],
         "steps": [
           {
-            "number": 1,
             "instruction": "Cut the dough into 3 pieces. Roll each piece into a thin sheet about 1/8 inch thick."
           },
           {
-            "number": 2,
             "instruction": "Place spoonfuls of filling along the bottom half of the pasta sheet, spaced 1½ inches apart."
           },
           {
-            "number": 3,
             "instruction": "Fold the top edge of pasta over the filling to form one large pocket. Press gently to seal, removing air pockets."
           },
           {
-            "number": 4,
             "instruction": "Seal the sides and use your fingers to pinch between mounds of filling at 1-inch intervals to form individual agnolotti."
           },
           {
-            "number": 5,
             "instruction": "Cut along the bottom edge of dough and separate individual agnolotti with a pastry wheel. Place on a cornmeal-dusted tray."
           },
           {
-            "number": 6,
             "instruction": "Repeat with remaining dough and filling. Let rest for 20–30 minutes before cooking."
           }
         ]

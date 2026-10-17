@@ -3059,38 +3059,40 @@
     ],
     "specialtools": [
       {
-        "item": "Control Freak Induction System",
-        "link": "https://amzn.to/49yd60V"
+        "item": "Induction Cooktop",
+        "link": "https://amzn.to/47Zmn0P"
       },
       {
-        "item": "Chamber Vacuum Sealer",
-        "link": "https://amzn.to/3Pafjc7"
+        "item": "Vacuum Sealer",
+        "link": "https://amzn.to/4hPpq1z"
       },
       {
-        "item": "Centrifugal High-Speed Juicer",
-        "link": "https://amzn.to/4dt53F5"
+        "item": "High-Speed Juicer",
+        "link": "https://amzn.to/4iraJlr"
       },
       {
         "item": "Coffee Filters",
-        "link": "https://amzn.to/4devBsp"
+        "link": "https://amzn.to/4BgJxxq"
       },
       {
         "item": "Fine Mesh Chinois",
-        "link": "https://amzn.to/3OOcBsN"
+        "link": "https://amzn.to/3TXUp2o"
       },
       {
         "item": "Bowls perfect for this dish",
-        "link": "https://amzn.to/4tz6Flm"
+        "link": "https://amzn.to/4i8wpSc"
       }
     ],
     "winePairings": [
       {
         "name": "Chablis 1er Cru",
-        "notes": "The minerality and high acidity cut through the rich velouté while echoing the brine of the mussels."
+        "notes": "The minerality and high acidity cut through the rich velouté while echoing the brine of the mussels.",
+        "link": ""
       },
       {
         "name": "Vintage Champagne",
-        "notes": "The effervescence and brioche notes complement the saffron foam and cream base beautifully."
+        "notes": "The effervescence and brioche notes complement the saffron foam and cream base beautifully.",
+        "link": ""
       }
     ],
     "sub_recipes": []

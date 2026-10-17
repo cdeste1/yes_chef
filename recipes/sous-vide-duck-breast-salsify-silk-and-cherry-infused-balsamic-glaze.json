@@ -120,7 +120,7 @@
     },
     {
       "item": "Cast Iron Grill Pan",
-      "link": "https://amzn.to/3ObTjgD"
+      "link": "https://amzn.to/4k2EZ7q"
     },
     {
       "item": "Aged Balsamic Vinegar",
@@ -134,11 +134,13 @@
   "winePairings": [
     {
       "name": "Gevrey-Chambertin (Pinot Noir)",
-      "notes": "Earthiness matches the salsify while bright acidity cuts the duck fat."
+      "notes": "Earthiness matches the salsify while bright acidity cuts the duck fat.",
+      "link": ""
     },
     {
       "name": "Vintage Port",
-      "notes": "The dark fruit notes mirror the cherry glaze perfectly."
+      "notes": "The dark fruit notes mirror the cherry glaze perfectly.",
+      "link": ""
     }
   ],
   "sub_recipes": [

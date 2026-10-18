@@ -1375,37 +1375,39 @@
     "specialtools": [
       {
         "item": "Sous vide circulator",
-        "link": "https://amzn.to/48bdTV7"
+        "link": "https://amzn.to/4z7TxqY"
       },
       {
         "item": "Chamber vacuum sealer",
-        "link": "https://amzn.to/3SrDHYd"
+        "link": "https://www.amazon.com/dp/B0GL8HP3FS/ref=cm_sw_r_as_gl_api_gl_i_dl_GVV7115DRG15HYZQXN8K?linkCode=ml1&tag=yeschefbychri-20&linkId=531152c7a964fb84ac6c954f66a41dc0&gaOptInStatus=true"
       },
       {
         "item": "High-speed blender",
-        "link": "https://amzn.to/4ulm9dS"
+        "link": "https://amzn.to/4s90NjO"
       },
       {
         "item": "Microplane zester",
-        "link": "https://amzn.to/4mF1vT9"
+        "link": "https://amzn.to/4s8vrtz"
       },
       {
         "item": "Culinary blowtorch",
-        "link": "https://amzn.to/42eE89w"
+        "link": "https://amzn.to/4elNuqz"
       },
       {
         "item": "Fine chinois strainer",
-        "link": "https://amzn.to/4cjQK5p"
+        "link": "https://amzn.to/4sb4o0R"
       }
     ],
     "winePairings": [
       {
         "name": "Chablis (Burgundy)",
-        "notes": "Crisp minerality and citrus cut through the richness of the butter."
+        "notes": "Crisp minerality and citrus cut through the richness of the butter.",
+        "link": ""
       },
       {
         "name": "Vermentino",
-        "notes": "Bright acidity and herbal notes complement the clams and herbs."
+        "notes": "Bright acidity and herbal notes complement the clams and herbs.",
+        "link": ""
       }
     ],
     "sub_recipes": [

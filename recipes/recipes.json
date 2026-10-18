@@ -10961,25 +10961,26 @@
     "specialtools": [
       {
         "item": "Immersion Circulator (Sous Vide)",
-        "link": "https://amzn.to/4fuAXlZ"
+        "link": "https://amzn.to/4Be6Pns"
       },
       {
         "item": "Whipping Siphon",
-        "link": "https://amzn.to/42ui4I8"
+        "link": "https://amzn.to/3WhGSmV"
       },
       {
         "item": "Chamber Vacuum Sealer",
-        "link": "https://amzn.to/4cIQZWr0"
+        "link": "https://amzn.to/4hPQ62e"
       },
       {
         "item": "Fine-Mesh Chinois",
-        "link": "https://amzn.to/4e8R1t4"
+        "link": "https://amzn.to/4i2uRJk"
       }
     ],
     "winePairings": [
       {
         "name": "Vintage Champagne",
-        "notes": "The high acidity and brioche notes complement the truffle and rich egg yolk."
+        "notes": "The high acidity and brioche notes complement the truffle and rich egg yolk.",
+        "link": ""
       }
     ],
     "sub_recipes": [

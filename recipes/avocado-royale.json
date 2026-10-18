@@ -113,41 +113,43 @@
   "specialtools": [
     {
       "item": "Vacuum sealer",
-      "link": "https://amzn.to/4gLfgyf"
+      "link": "https://amzn.to/3VUmfx0"
     },
     {
       "item": "Sous-vide immersion circulator",
-      "link": "https://amzn.to/48bdTV7"
+      "link": "https://amzn.to/4yZ0UBg"
     },
     {
       "item": "Gourmet Whip siphon",
-      "link": "https://amzn.to/4tiCiAl"
+      "link": "https://amzn.to/4hTlmNL"
     },
     {
       "item": "Plating ring molds (3-inch)",
-      "link": "https://amzn.to/4cQTZkJ"
+      "link": "https://amzn.to/4hUWpS4"
     },
     {
       "item": "Truffle slicer",
-      "link": "https://amzn.to/4tpFx9m"
+      "link": "https://amzn.to/4BcC0PR"
     },
     {
       "item": "Micro tweezers",
-      "link": "https://amzn.to/4eve5SX"
+      "link": "https://amzn.to/4zeDsQJ"
     },
     {
       "item": "Edible Gold Flakes",
-      "link": "https://amzn.to/4xYevc0"
+      "link": "https://amzn.to/3TO63wK"
     }
   ],
   "winePairings": [
     {
       "name": "Chablis or crisp Chardonnay",
-      "notes": "Mineral acidity cuts through the rich avocado and crab while highlighting the truffle notes."
+      "notes": "Mineral acidity cuts through the rich avocado and crab while highlighting the truffle notes.",
+      "link": ""
     },
     {
       "name": "Rosé Champagne",
-      "notes": "Bubbly elegance complements the luxurious textures and caviar pops."
+      "notes": "Bubbly elegance complements the luxurious textures and caviar pops.",
+      "link": ""
     }
   ],
   "sub_recipes": [

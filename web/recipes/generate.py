@@ -33,7 +33,7 @@ OUTPUT_DIR = os.environ.get("OUTPUT_DIR_OVERRIDE", "web/recipes")
 # Gate for the PDF/copy-export upsell and the light copy-blocking on recipe
 # pages. Keep False until the app update (1.0.27, PDF export + the updated
 # Cook Mode IAP) is approved and live on the App Store, then flip to True.
-PDF_PROMO_ENABLED = False
+PDF_PROMO_ENABLED = True
 
 PDF_CTA_HTML = (
     '<a class="app-cta" href="https://apps.apple.com/us/app/yes-chef-by-chris/id6759258837" '

@@ -38,6 +38,6 @@ Cooking should be an **experience, not a chore**. This app takes the guesswork o
 
 ## 📩 Feedback
 
-We’d love to hear from you! Share your thoughts, recipe requests, or bug reports at: **cdeste1@gmail.com**  
+We’d love to hear from you! Share your thoughts, recipe requests, or bug reports at: **yeschefdev@gmail.com**  
 
 ---

@@ -132,45 +132,47 @@
   "specialtools": [
     {
       "item": "High-powered food processor",
-      "link": "https://amzn.to/4vIaWpe"
+      "link": "https://amzn.to/47yvMfK"
     },
     {
-      "item": "Digital kitchen scale (0.1g precision)",
-      "link": "https://amzn.to/4cQUI5s"
+      "item": "Digital kitchen scale",
+      "link": "https://amzn.to/4sh18Rr"
     },
     {
       "item": "Burger patty press",
-      "link": "https://amzn.to/48Xe8Do"
+      "link": "https://amzn.to/4zI9lAC"
     },
     {
-      "item": "Fish spatula (thin flexible)",
-      "link": "https://amzn.to/3OQLQ6N"
+      "item": "Fish spatula",
+      "link": "https://amzn.to/4yCF7hQ"
     },
     {
-      "item": "Precision digital thermometer (probe)",
-      "link": "https://amzn.to/4vDU7eX"
+      "item": "Precision digital thermometer",
+      "link": "https://amzn.to/3Wm5k6C"
     },
     {
-      "item": "Mandoline slicer with safety guard",
-      "link": "https://amzn.to/4cQPLJT"
+      "item": "Mandoline Slicer",
+      "link": "https://amzn.to/4ByvdAu"
     },
     {
       "item": "Edible Flowers",
-      "link": "https://amzn.to/4tSuWDC"
+      "link": "https://amzn.to/4BB5nvN"
     },
     {
-      "item": "Smoking gun (cold smoke device)",
-      "link": "https://amzn.to/4csOM1i"
+      "item": "Smoking gun",
+      "link": "https://amzn.to/4z2zOcg"
     }
   ],
   "winePairings": [
     {
       "name": "Pinot Noir (light red)",
-      "notes": "Earthy notes complement mushroom umami and subtle smoke."
+      "notes": "Earthy notes complement mushroom umami and subtle smoke.",
+      "link": ""
     },
     {
       "name": "Chardonnay (unoaked or lightly oaked)",
-      "notes": "Bright acidity cuts through the rich sauces and crispy elements."
+      "notes": "Bright acidity cuts through the rich sauces and crispy elements.",
+      "link": ""
     }
   ],
   "sub_recipes": [

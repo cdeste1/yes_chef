@@ -5394,6 +5394,8 @@
     "category": "Brunch",
     "keywords": "cinnamon rolls, brioche, laminated dough, brown butter, pastry, fine dining, gourmet",
     "yield": "12 rolls",
+    "source": "",
+    "chef": "",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caramelized-vanilla-bean-brown-butter-cinnamon-rolls.png",
     "ingredients": [
       {
@@ -5536,33 +5538,35 @@
     "specialtools": [
       {
         "item": "Infrared Thermometer Gun",
-        "link": "https://amzn.to/4taHEwR"
+        "link": "https://amzn.to/4z0u6rj"
       },
       {
         "item": "Digital Dough Sheeter",
-        "link": "https://amzn.to/4eXu5NE"
+        "link": "https://amzn.to/4BB5JT9"
       },
       {
         "item": "Copper Saucepan",
-        "link": "https://amzn.to/4vZgag7"
+        "link": "https://amzn.to/4BB5Qhx"
       },
       {
         "item": "Gold Flakes",
-        "link": "https://amzn.to/4cZRuvr"
+        "link": "https://amzn.to/3VNxXtp"
       },
       {
         "item": "Precision Gram Scale",
-        "link": "https://amzn.to/4mW2Chq"
+        "link": "https://amzn.to/4icj3o4"
       }
     ],
     "winePairings": [
       {
         "name": "Tokaji Asz�",
-        "notes": "Lush sweetness with balancing acidity enhances caramelized cinnamon and brown butter notes."
+        "notes": "Lush sweetness with balancing acidity enhances caramelized cinnamon and brown butter notes.",
+        "link": ""
       },
       {
         "name": "Champagne Demi-Sec",
-        "notes": "Light sweetness and acidity complement the richness while refreshing the palate."
+        "notes": "Light sweetness and acidity complement the richness while refreshing the palate.",
+        "link": ""
       }
     ],
     "sub_recipes": [
@@ -5630,7 +5634,7 @@
             "note": ""
           },
           {
-            "quantity": "2�3 tbsp",
+            "quantity": "2-3 tbsp",
             "item": "heavy cream",
             "note": ""
           },

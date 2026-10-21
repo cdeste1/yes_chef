@@ -187,17 +187,19 @@
     },
     {
       "item": "Dinner Plates",
-      "link": "https://amzn.to/4eKzSX8"
+      "link": "https://amzn.to/4yy8QIs"
     }
   ],
   "winePairings": [
     {
       "name": "Bordeaux (Left Bank)",
-      "notes": "Cabernet Sauvignon structure complements the richness of the beef and pastry."
+      "notes": "Cabernet Sauvignon structure complements the richness of the beef and pastry.",
+      "link": ""
     },
     {
       "name": "Barolo",
-      "notes": "High tannin and acidity balance the fat and umami of the dish."
+      "notes": "High tannin and acidity balance the fat and umami of the dish.",
+      "link": ""
     }
   ],
   "sub_recipes": [

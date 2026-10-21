@@ -21267,6 +21267,7 @@
     "category": "Brunch",
     "keywords": "avocado toast, sourdough, sous vide egg, gourmet breakfast, chef recipe",
     "yield": "2 slices (serves 1-2)",
+    "source": "",
     "chef": "Inspired by Gordon Ramsay & Bobby Flay techniques",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/world-class-chef-inspired-avocado-toast.jpg",
     "ingredients": [
@@ -21374,37 +21375,39 @@
     "specialtools": [
       {
         "item": "Sous-vide immersion circulator",
-        "link": "https://amzn.to/4ucn1Bg"
+        "link": "https://link.amazon/B0eEPzex9"
       },
       {
-        "item": "Precision kitchen scale (0.1g accuracy)",
-        "link": "https://amzn.to/4ejnMDX"
+        "item": "Precision kitchen scale",
+        "link": "https://link.amazon/B07eOV0ZR"
       },
       {
         "item": "Professional Microplane zester",
-        "link": "https://amzn.to/4umVTzK"
+        "link": "https://link.amazon/B05LKQPbm"
       },
       {
         "item": "Japanese suribachi mortar and pestle",
-        "link": "https://amzn.to/4ugzHqG"
+        "link": "https://link.amazon/B09THT172"
       },
       {
         "item": "Culinary butane kitchen torch",
-        "link": "https://amzn.to/4w0JYJs"
+        "link": "https://link.amazon/B0eLVBjxF"
       },
       {
         "item": "High-end serrated bread knife",
-        "link": "https://amzn.to/4deZIB5"
+        "link": "https://link.amazon/B0iAmrwAp"
       }
     ],
     "winePairings": [
       {
         "name": "Crisp Sauvignon Blanc",
-        "notes": "Bright acidity and citrus notes cut through the richness of the avocado and complement the lime and herbs perfectly."
+        "notes": "Bright acidity and citrus notes cut through the richness of the avocado and complement the lime and herbs perfectly.",
+        "link": ""
       },
       {
         "name": "Chablis or unoaked Chardonnay",
-        "notes": "Mineral-driven white with subtle oak to match the toasted sourdough and nutty elements."
+        "notes": "Mineral-driven white with subtle oak to match the toasted sourdough and nutty elements.",
+        "link": ""
       }
     ],
     "sub_recipes": [

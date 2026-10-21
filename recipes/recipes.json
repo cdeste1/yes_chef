@@ -11570,6 +11570,8 @@
     "category": "Sides",
     "keywords": "potato pavé, michelin style, truffle aeration, molecular gastronomy, haute cuisine",
     "yield": "1 terrine (serves 4-6)",
+    "source": "",
+    "chef": "",
     "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/glass-laminate-potato-pav-with-truffle-aerated-emulsion.jpg",
     "ingredients": [
       {
@@ -11646,35 +11648,38 @@
     "specialtools": [
       {
         "item": "Japanese Vegetable Sheeter",
-        "link": "https://amzn.to/4mXVGAB"
+        "link": "https://amzn.to/4zkp6yh"
       },
       {
         "item": "Chamber Vacuum Sealer",
-        "link": "https://amzn.to/4cIpTju"
+        "link": "https://amzn.to/4z2FFP2"
       },
       {
-        "item": "Gourmet Whip (Siphon)",
-        "link": "https://amzn.to/4mXmIIa"
+        "item": "Gourmet Whip",
+        "link": "https://amzn.to/47ziBv1"
       },
       {
         "item": "Precision Immersion Circulator",
-        "link": "https://amzn.to/4t7r1SL"
+        "link": "https://amzn.to/4Bk2K0S"
       },
       {
         "item": "Fine-mesh Chinois",
-        "link": "https://amzn.to/4dfL8cA"
+        "link": "https://amzn.to/4Bdim6p"
       }
     ],
     "winePairings": [
       {
         "name": "Vintage Champagne",
-        "notes": "The high acidity and brioche notes cut through the rich butter layers and highlight the truffle aroma."
+        "notes": "The high acidity and brioche notes cut through the rich butter layers and highlight the truffle aroma.",
+        "link": ""
       },
       {
         "name": "Meursault (White Burgundy)",
-        "notes": "A rich, buttery Chardonnay that mirrors the texture of the pavé and earthy truffle notes."
+        "notes": "A rich, buttery Chardonnay that mirrors the texture of the pavé and earthy truffle notes.",
+        "link": ""
       }
-    ]
+    ],
+    "sub_recipes": []
   },
   {
     "name": "Glazed Baby Carrots with Aerated Herb Foam",

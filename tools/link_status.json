@@ -4,7 +4,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3OS20Nf": {
@@ -12,23 +12,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3OZYIaP": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/3OgUWtr": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3OgzDIt": {
@@ -36,23 +36,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3Oo3C1f": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/3Or3fTx": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3Owqj3m": {
@@ -60,7 +60,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3P9UjlN": {
@@ -68,7 +68,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3PV3mY0": {
@@ -76,7 +76,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3PeEgTQ": {
@@ -84,23 +84,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3QEncXE": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/3QPKgmq": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3QhXtUM": {
@@ -108,7 +108,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3QzSjn7": {
@@ -116,7 +116,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3R28Pwq": {
@@ -124,7 +124,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3R2JuT1": {
@@ -132,7 +132,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3Rcktoz": {
@@ -140,7 +140,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3Rd1Voj": {
@@ -148,23 +148,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3RddStV": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "broken"
   },
   "https://amzn.to/3SrDHYd": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3TEZXic": {
@@ -172,23 +172,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3TO63wK": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/3TXUp2o": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3TXcmy1": {
@@ -196,7 +196,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3U129Rc": {
@@ -204,7 +204,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3UyiTPS": {
@@ -212,7 +212,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3UzBXgH": {
@@ -220,7 +220,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3VGEmGK": {
@@ -228,23 +228,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3VGiwTM": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/3VGpIPM": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3VI9Koj": {
@@ -252,7 +252,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3VMWFtS": {
@@ -260,7 +260,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3VNxXtp": {
@@ -268,7 +268,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3VQlK7i": {
@@ -276,7 +276,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3VUmfx0": {
@@ -284,7 +284,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3VWUcgo": {
@@ -292,7 +292,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3WEreSH": {
@@ -300,7 +300,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3WaVTa3": {
@@ -308,7 +308,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3WbqQuL": {
@@ -316,7 +316,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3WbrEzO": {
@@ -324,7 +324,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3WhGSmV": {
@@ -332,7 +332,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3Wm5k6C": {
@@ -340,7 +340,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3WvQTgi": {
@@ -348,7 +348,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3WxA6JN": {
@@ -356,7 +356,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3XNy0CW": {
@@ -364,7 +364,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/3XpAxU1": {
@@ -372,7 +372,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/41RzDlh": {
@@ -380,7 +380,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/41TQUu4": {
@@ -388,7 +388,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/426sgXf": {
@@ -396,7 +396,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42EeMlN": {
@@ -404,7 +404,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42FAKVv": {
@@ -412,7 +412,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42LGtsW": {
@@ -420,23 +420,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42Oh41Z": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/42RFgAl": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42V9C57": {
@@ -444,7 +444,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42c7XaS": {
@@ -452,7 +452,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42eE89w": {
@@ -460,7 +460,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42pTW9H": {
@@ -468,7 +468,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42qbRwY": {
@@ -476,7 +476,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/42t5OHZ": {
@@ -484,7 +484,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/438x9Qe": {
@@ -492,7 +492,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/43azDgF": {
@@ -500,7 +500,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/43dMMG1": {
@@ -508,7 +508,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/43myZNk": {
@@ -516,7 +516,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/43mz2Zw": {
@@ -524,7 +524,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/43xfgug": {
@@ -532,7 +532,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47JNahT": {
@@ -540,7 +540,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47KGhgh": {
@@ -548,7 +548,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47LnlxX": {
@@ -556,7 +556,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47Z8csJ": {
@@ -564,7 +564,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47Zmn0P": {
@@ -572,7 +572,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47ZtCpz": {
@@ -580,7 +580,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47mgACt": {
@@ -588,7 +588,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47pM8r8": {
@@ -596,7 +596,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47qV4wq": {
@@ -604,7 +604,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47qpjUc": {
@@ -612,7 +612,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47rqJ0B": {
@@ -620,7 +620,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47sbDrF": {
@@ -628,7 +628,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47vf1SH": {
@@ -636,7 +636,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47yvMfK": {
@@ -644,7 +644,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/47ziBv1": {
@@ -652,23 +652,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/483yMkk": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/484NJ5G": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/48GyqBb": {
@@ -676,7 +676,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/48IPXZr": {
@@ -684,7 +684,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/48bdTV7": {
@@ -692,23 +692,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/48cq2Jp": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/48eajcJ": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/48ecvkx": {
@@ -716,7 +716,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/48hNwwH": {
@@ -724,23 +724,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/48n6li9": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/48tWV4y": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/490QeXO": {
@@ -748,7 +748,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/498KTO7": {
@@ -756,7 +756,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/49l1ApJ": {
@@ -764,7 +764,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/49l1w9h": {
@@ -772,7 +772,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/49mUVvk": {
@@ -780,7 +780,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4B4f2dM": {
@@ -788,7 +788,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4B6wPkx": {
@@ -796,7 +796,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4B7qW6V": {
@@ -804,7 +804,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4B9B3b4": {
@@ -812,7 +812,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4BB5JT9": {
@@ -820,7 +820,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4BB5Qhx": {
@@ -828,7 +828,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4BB5nvN": {
@@ -836,23 +836,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4Bbz7yL": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "broken"
   },
   "https://amzn.to/4BcC0PR": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4BcP3AU": {
@@ -860,7 +860,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4Bce7Ij": {
@@ -868,7 +868,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4Bd8ZDG": {
@@ -876,7 +876,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4Bdim6p": {
@@ -884,7 +884,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4Be6Pns": {
@@ -892,7 +892,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4BgJxxq": {
@@ -900,7 +900,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4BifmGa": {
@@ -908,7 +908,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4BjpXjS": {
@@ -916,7 +916,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4Bjxj7d": {
@@ -924,7 +924,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4Bk2K0S": {
@@ -932,7 +932,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4BtzXY6": {
@@ -940,7 +940,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4Bulb3p": {
@@ -948,7 +948,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ByvdAu": {
@@ -956,7 +956,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cE3zX8": {
@@ -964,7 +964,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cHRcKL": {
@@ -972,7 +972,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cHRl0L": {
@@ -980,7 +980,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cIopG5": {
@@ -988,7 +988,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cKOows": {
@@ -996,7 +996,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cPWXpX": {
@@ -1004,7 +1004,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cQTZkJ": {
@@ -1012,7 +1012,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cQUI5s": {
@@ -1020,7 +1020,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cRJnCx": {
@@ -1028,7 +1028,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cS8XWv": {
@@ -1036,7 +1036,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cSs1oV": {
@@ -1044,31 +1044,31 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cTEEi6": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4cUHe8V": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-23",
-    "last_ok": "2026-10-22",
-    "last_status": "out_of_stock"
+    "fail_count": 0,
+    "failing_since": null,
+    "last_ok": "2026-10-24",
+    "last_status": "ok"
   },
   "https://amzn.to/4cjORFJ": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cjQK5p": {
@@ -1076,7 +1076,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ckpKma": {
@@ -1084,7 +1084,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4clvOe7": {
@@ -1092,7 +1092,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4cqmp3C": {
@@ -1100,7 +1100,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4czjqWC": {
@@ -1108,7 +1108,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4d6Nivh": {
@@ -1116,7 +1116,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dDPL08": {
@@ -1124,7 +1124,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dEKhRJ": {
@@ -1132,7 +1132,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dFRIJG": {
@@ -1140,7 +1140,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dIbALc": {
@@ -1148,7 +1148,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dKRIYz": {
@@ -1156,7 +1156,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dMTisV": {
@@ -1164,23 +1164,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dMsWat": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4dN7KkO": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dQvTa4": {
@@ -1188,7 +1188,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dUNn4f": {
@@ -1196,7 +1196,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dY5DeL": {
@@ -1204,7 +1204,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dbjs8N": {
@@ -1212,7 +1212,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dcWblD": {
@@ -1220,23 +1220,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4deblqR": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "broken"
   },
   "https://amzn.to/4dgcQVG": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dmqRRB": {
@@ -1244,7 +1244,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4dqPaOa": {
@@ -1252,7 +1252,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4drgo8G": {
@@ -1260,23 +1260,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4e7Lymo": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4eD2XTa": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eEtZJT": {
@@ -1284,7 +1284,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eFTrzK": {
@@ -1292,7 +1292,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eFuC6W": {
@@ -1300,7 +1300,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eFyZxV": {
@@ -1308,7 +1308,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eH0eZP": {
@@ -1316,7 +1316,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eOaD67": {
@@ -1324,7 +1324,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eS8NB8": {
@@ -1332,7 +1332,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eZKOjD": {
@@ -1340,7 +1340,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eeSpti": {
@@ -1348,7 +1348,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ejZMQf": {
@@ -1356,23 +1356,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4elNuqz": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4eluYiX": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4emoUa1": {
@@ -1380,7 +1380,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4euentw": {
@@ -1388,23 +1388,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4eve5SX": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4ey5sWP": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4f2vP8F": {
@@ -1412,7 +1412,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4fH5jlj": {
@@ -1420,7 +1420,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4fbPTp0": {
@@ -1428,7 +1428,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4hPQ62e": {
@@ -1436,7 +1436,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4hPpq1z": {
@@ -1444,23 +1444,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4hQdooH": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "broken"
   },
   "https://amzn.to/4hQsaMb": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4hSoz0b": {
@@ -1468,39 +1468,39 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4hTlmNL": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4hUWpS4": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4hZunUd": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4i1jEZw": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4i2BwmW": {
@@ -1508,7 +1508,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4i2R9KD": {
@@ -1516,7 +1516,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4i2uRJk": {
@@ -1524,7 +1524,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4i4O0dF": {
@@ -1532,7 +1532,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4i5JjQY": {
@@ -1540,23 +1540,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4i5VTj4": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4i6cFOU": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4i7XODI": {
@@ -1564,23 +1564,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4i8wpSc": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4i9KJKc": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ibq8VR": {
@@ -1588,23 +1588,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4icj3o4": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "broken"
   },
   "https://amzn.to/4iqEC5j": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4irAOAP": {
@@ -1612,7 +1612,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4irGoDh": {
@@ -1620,7 +1620,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4iraJlr": {
@@ -1628,7 +1628,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4iru5Xy": {
@@ -1636,7 +1636,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4iv9i4z": {
@@ -1644,7 +1644,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ixQ7YQ": {
@@ -1652,23 +1652,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4jKTjBF": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "broken"
   },
   "https://amzn.to/4jr04Z9": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4jxgsaB": {
@@ -1676,7 +1676,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4jy3WHT": {
@@ -1684,7 +1684,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4k1tBJ1": {
@@ -1692,7 +1692,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4k2EZ7q": {
@@ -1700,7 +1700,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4k2l08U": {
@@ -1708,7 +1708,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4k7V1ge": {
@@ -1716,7 +1716,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4mF1vT9": {
@@ -1724,63 +1724,63 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4mO9AF2": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4mU2BuC": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4mVRcdv": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4n0t9ua": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4n4Psia": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4n5WZxs": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4n7zt2M": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4nAAW1Z": {
@@ -1788,7 +1788,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4nCGclS": {
@@ -1796,23 +1796,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4nI8HOR": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4nJtly2": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4nKuSE5": {
@@ -1820,7 +1820,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ncaJXq": {
@@ -1828,7 +1828,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4nheY3U": {
@@ -1836,7 +1836,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4nu4X3v": {
@@ -1844,7 +1844,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4o2IPxf": {
@@ -1852,7 +1852,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4s81rxW": {
@@ -1860,23 +1860,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4s8vrtz": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4s90NjO": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4s9i6RZ": {
@@ -1884,7 +1884,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4s9xu0B": {
@@ -1892,7 +1892,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4sUHGc5": {
@@ -1900,23 +1900,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4sb4o0R": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4scVY9g": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4sgtf3y": {
@@ -1924,7 +1924,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4sh18Rr": {
@@ -1932,7 +1932,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4t1ME6R": {
@@ -1940,23 +1940,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4t5Lo2u": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4tBEsvc": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tBMmDY": {
@@ -1964,7 +1964,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tCfLyI": {
@@ -1972,7 +1972,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tI1hgK": {
@@ -1980,23 +1980,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tKyQyX": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4tLYS4O": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tLaNzU": {
@@ -2004,7 +2004,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tLlZwr": {
@@ -2012,47 +2012,47 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tMXm2k": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4tPcRHe": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4tQpthg": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tT1jlc": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4tUDaLn": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tV07yb": {
@@ -2060,7 +2060,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tVkbB3": {
@@ -2068,7 +2068,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tZzMi9": {
@@ -2076,7 +2076,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4taHEwR": {
@@ -2084,7 +2084,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tabMbR": {
@@ -2092,7 +2092,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tbM72a": {
@@ -2100,7 +2100,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tiCiAl": {
@@ -2108,7 +2108,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tiladc": {
@@ -2116,7 +2116,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tmdWFX": {
@@ -2124,7 +2124,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4trgMbW": {
@@ -2132,7 +2132,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4tuTBOb": {
@@ -2140,7 +2140,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4txfdt5": {
@@ -2148,23 +2148,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4u1Mf5d": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4u1pq27": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4u3FXT9": {
@@ -2172,7 +2172,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4u7wb2p": {
@@ -2180,7 +2180,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uAWtd3": {
@@ -2188,7 +2188,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uJw3G7": {
@@ -2196,7 +2196,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uLaO78": {
@@ -2204,7 +2204,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uLiVks": {
@@ -2212,7 +2212,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uPfx7w": {
@@ -2220,7 +2220,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4udUBYf": {
@@ -2228,7 +2228,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uf9OYX": {
@@ -2236,7 +2236,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ugaY6k": {
@@ -2244,7 +2244,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uhepKc": {
@@ -2252,7 +2252,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uiUcDU": {
@@ -2260,7 +2260,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ujRhub": {
@@ -2268,7 +2268,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ukKjVN": {
@@ -2276,7 +2276,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ulOctE": {
@@ -2284,7 +2284,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ulxQAZ": {
@@ -2292,7 +2292,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uoTW68": {
@@ -2300,7 +2300,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4upDrGD": {
@@ -2308,23 +2308,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4uueqKI": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4uwTSkq": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4v0cObw": {
@@ -2332,23 +2332,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4v53bbR": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "broken"
   },
   "https://amzn.to/4vFnDAU": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4vYVCVa": {
@@ -2356,7 +2356,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4van8xV": {
@@ -2364,23 +2364,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4w0Ockf": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4w1ricC": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4w2JJ0p": {
@@ -2388,7 +2388,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4w38SYW": {
@@ -2396,7 +2396,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4wZnoRW": {
@@ -2404,7 +2404,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4whp34W": {
@@ -2412,7 +2412,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4wvSmku": {
@@ -2420,7 +2420,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ww3KNg": {
@@ -2428,7 +2428,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4wyYfxi": {
@@ -2436,7 +2436,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yCF7hQ": {
@@ -2444,7 +2444,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yCGWeG": {
@@ -2452,7 +2452,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yPu8lS": {
@@ -2460,47 +2460,47 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yQ4aid": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4yZ0UBg": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4ykBnRH": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ykcwxn": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4yn39gr": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yoywak": {
@@ -2508,7 +2508,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yprmCQ": {
@@ -2516,7 +2516,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yqK0KG": {
@@ -2524,7 +2524,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yqR0qW": {
@@ -2532,7 +2532,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yrFawA": {
@@ -2540,7 +2540,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yrLEMc": {
@@ -2548,7 +2548,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4ysW7XB": {
@@ -2556,7 +2556,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yvst3P": {
@@ -2564,7 +2564,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yvtXvc": {
@@ -2572,7 +2572,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yxnvnw": {
@@ -2580,23 +2580,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4yy8QIs": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4z0u6rj": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4z0xEKu": {
@@ -2604,7 +2604,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4z12jXQ": {
@@ -2612,7 +2612,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4z2FFP2": {
@@ -2620,7 +2620,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4z2zOcg": {
@@ -2628,7 +2628,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4z5QfVl": {
@@ -2636,7 +2636,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4z7TxqY": {
@@ -2644,7 +2644,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zC1RPE": {
@@ -2652,7 +2652,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zCpKXt": {
@@ -2660,7 +2660,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zE83GP": {
@@ -2668,7 +2668,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zEYVC0": {
@@ -2676,7 +2676,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zFM8iI": {
@@ -2684,7 +2684,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zGNERK": {
@@ -2692,7 +2692,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zGra3f": {
@@ -2700,7 +2700,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zHiaLl": {
@@ -2708,7 +2708,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zI9lAC": {
@@ -2716,7 +2716,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zIergz": {
@@ -2724,23 +2724,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zeDsQJ": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://amzn.to/4zkp6yh": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zuZqOM": {
@@ -2748,7 +2748,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zx3Jcu": {
@@ -2756,7 +2756,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zyVDQE": {
@@ -2764,7 +2764,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/4zzwkxS": {
@@ -2772,7 +2772,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://amzn.to/immersion-example": {
@@ -2780,7 +2780,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://link.amazon/B01Bq6mQt": {
@@ -2788,7 +2788,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "redirect"
   },
   "https://link.amazon/B03TDy7Mj": {
@@ -2796,7 +2796,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "redirect"
   },
   "https://link.amazon/B05LKQPbm": {
@@ -2804,7 +2804,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "redirect"
   },
   "https://link.amazon/B07eOV0ZR": {
@@ -2812,7 +2812,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "redirect"
   },
   "https://link.amazon/B09THT172": {
@@ -2820,7 +2820,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "redirect"
   },
   "https://link.amazon/B0eEPzex9": {
@@ -2828,7 +2828,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "redirect"
   },
   "https://link.amazon/B0eLVBjxF": {
@@ -2836,7 +2836,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "redirect"
   },
   "https://link.amazon/B0iAmrwAp": {
@@ -2844,7 +2844,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "redirect"
   },
   "https://www.amazon.com/dp/B00004OCLX?tag=yeschef0A02-20": {
@@ -2852,7 +2852,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B00004OCNM?tag=yeschef0A02-20": {
@@ -2860,23 +2860,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B00004RGB7?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B000A3N7Q6?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B000U58BB0?tag=yeschef0A02-20": {
@@ -2884,7 +2884,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B005CN5JEM?tag=yeschef0A02-20": {
@@ -2892,23 +2892,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B007ACTN54?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B00939I7EK?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B00BTI83QU?tag=yeschef0A02-20": {
@@ -2916,23 +2916,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B00G2XGC88?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B00SHQJHKI?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B00VA5HG0Q?tag=yeschef0A02-20": {
@@ -2940,7 +2940,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B00VMH8KT8?tag=yeschef0A02-20": {
@@ -2948,7 +2948,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B00XIIHKFO?tag=yeschef0A02-20": {
@@ -2956,7 +2956,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B014ED35C8?tag=yeschef0A02-20": {
@@ -2964,23 +2964,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B01DBGQR1K?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B01DZ2HZ2U?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B01IE65OI4?tag=yeschef0A02-20": {
@@ -2988,23 +2988,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B01LZIHVTC?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-23",
-    "last_ok": "2026-10-22",
-    "last_status": "out_of_stock"
+    "fail_count": 0,
+    "failing_since": null,
+    "last_ok": "2026-10-24",
+    "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0725GYNG6?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B077BMG6B6?tag=yeschef0A02-20": {
@@ -3012,7 +3012,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B077JDGY1J?tag=yeschef0A02-20": {
@@ -3020,7 +3020,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B07HQZ3JHB?tag=yeschef0A02-20": {
@@ -3028,7 +3028,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B07HQZFT7F?tag=yeschef0A02-20": {
@@ -3036,7 +3036,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B07QD7H2W2?tag=yeschef0A02-20": {
@@ -3044,7 +3044,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B07QHQ8CD3?tag=yeschef0A02-20": {
@@ -3052,47 +3052,47 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B07QNWL2Y1?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-23",
-    "last_ok": "2026-10-22",
-    "last_status": "out_of_stock"
+    "fail_count": 0,
+    "failing_since": null,
+    "last_ok": "2026-10-24",
+    "last_status": "ok"
   },
   "https://www.amazon.com/dp/B07R4KBLB2?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B07T2FWL8Q?tag=yeschef0A02-20": {
-    "disabled": true,
-    "disabled_since": "2026-10-23",
-    "fail_count": 2,
-    "failing_since": "2026-10-22",
-    "last_ok": "2026-10-21",
-    "last_status": "out_of_stock"
-  },
-  "https://www.amazon.com/dp/B07V39LSRY?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
+  },
+  "https://www.amazon.com/dp/B07V39LSRY?tag=yeschef0A02-20": {
+    "disabled": false,
+    "disabled_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
+    "last_ok": "2026-10-23",
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B07V4LR7HZ?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B07uNX4Dt?tag=yeschef0A02-20": {
@@ -3100,7 +3100,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B086TXNGM6?tag=yeschef0A02-20": {
@@ -3108,7 +3108,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B088F3VVSD?tag=yeschef0A02-20": {
@@ -3116,7 +3116,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0897KHXK4?tag=yeschef0A02-20": {
@@ -3124,7 +3124,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B089SVS3ZJ?tag=yeschef0A02-20": {
@@ -3132,7 +3132,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B08F2SS6T2?tag=yeschef0A02-20": {
@@ -3140,7 +3140,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B08F9QQZXK?tag=yeschef0A02-20": {
@@ -3148,7 +3148,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B08WJX8XVN?tag=yeschef0A02-20": {
@@ -3156,7 +3156,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B08YP98BC9?tag=yeschef0A02-20": {
@@ -3164,7 +3164,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B094NBSRT4?tag=yeschef0A02-20": {
@@ -3172,23 +3172,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B095228Y7N?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B09S15HT32?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B09VWM8HC2?tag=yeschef0A02-20": {
@@ -3196,7 +3196,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B09XVGGB3C?tag=yeschef0A02-20": {
@@ -3204,7 +3204,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0B29LF8LB?tag=yeschef0A02-20": {
@@ -3212,23 +3212,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0BJ1Y4C2J?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B0BQ9F56WV?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0C48THPXL?tag=yeschef0A02-20": {
@@ -3236,7 +3236,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0C55JDPHY?tag=yeschef0A02-20": {
@@ -3244,47 +3244,47 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0C7FR7D9V?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B0CP8BPXKR?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B0CQVL95YH?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B0CRXCRBNZ?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B0CXDPL2LG?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0D1HVBGHL/ref=cm_sw_r_as_gl_api_gl_i_9GASYR48EYGA1RCTP609?linkCode=ml1&tag=yeschefbychri-20&linkId=3914bb8f04665533ab43a7ee971afe00&gaOptInStatus=true": {
@@ -3292,7 +3292,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0D3ZBFMW6?tag=yeschef0A02-20": {
@@ -3300,7 +3300,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0DNFGHX47?tag=yeschef0A02-20": {
@@ -3308,7 +3308,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0DNVQC8Q3?tag=yeschef0A02-20": {
@@ -3316,23 +3316,23 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0DX8HWKWH?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
-    "fail_count": 0,
-    "failing_since": null,
+    "fail_count": 1,
+    "failing_since": "2026-10-24",
     "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_status": "out_of_stock"
   },
   "https://www.amazon.com/dp/B0DXV51C8T?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0DYNS33N8?tag=yeschef0A02-20": {
@@ -3340,7 +3340,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0F6MS9JXS?tag=yeschef0A02-20": {
@@ -3348,7 +3348,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0FFD8914Z?tag=yeschef0A02-20": {
@@ -3356,7 +3356,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0FH77JFDT?tag=yeschef0A02-20": {
@@ -3364,7 +3364,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0FKB6RSG1?tag=yeschef0A02-20": {
@@ -3372,7 +3372,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0FLVK8HP7?tag=yeschef0A02-20": {
@@ -3380,7 +3380,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0FN7SK735?tag=yeschef0A02-20": {
@@ -3388,7 +3388,7 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
   },
   "https://www.amazon.com/dp/B0GL8HP3FS/ref=cm_sw_r_as_gl_api_gl_i_dl_GVV7115DRG15HYZQXN8K?linkCode=ml1&tag=yeschefbychri-20&linkId=531152c7a964fb84ac6c954f66a41dc0&gaOptInStatus=true": {
@@ -3396,23 +3396,15 @@
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
-    "last_status": "ok"
+    "last_ok": "2026-10-24",
+    "last_status": "redirect"
   },
   "https://www.amazon.com/dp/B0a5dHrAr?tag=yeschef0A02-20": {
     "disabled": false,
     "disabled_since": null,
     "fail_count": 0,
     "failing_since": null,
-    "last_ok": "2026-10-23",
+    "last_ok": "2026-10-24",
     "last_status": "ok"
-  },
-  "https://www.amazon.com/dp/B0isLVVP5?tag=yeschef0A02-20": {
-    "disabled": false,
-    "disabled_since": null,
-    "fail_count": 1,
-    "failing_since": "2026-10-23",
-    "last_ok": "2026-10-22",
-    "last_status": "broken"
   }
 }

@@ -1,0 +1,125 @@
+{
+  "name": "Troubadour Beef Ribs",
+  "description": "A dramatic and luxurious dish featuring ultra-tender, smoked premium beef plate rib meat carved into thick, bite-sized portions and presented elegantly atop the native bone. Each warm, savory cube of beef—bark-crusted with a coarse salt and black pepper rub is crowned with a cool dollop of silky, tangy crème fraîche. The dish is finished with a glistening spoonful of homemade balsamic vinegar spheres that pop in the mouth, releasing a vibrant, sweet-and-tart burst that perfectly balances the deep richness of the smoke and fat.",
+  "headnote": "This spectacular bite turns a backyard barbecue staple into a high-end, restaurant-quality masterpiece. Inspired by exclusive VIP festival menus, this recipe pairs the intense, savory richness of slow-smoked Texas-style beef ribs with the upscale elegance of fine dining. By swapping traditional caviar for homemade balsamic vinegar pearls, you get a beautiful, deep-contrast visual and an explosion of bright, tangy flavor that cuts right through the savory beef ribs. Served directly on the polished rib bone, it is a show-stopping appetizer guaranteed to leave your dinner party guests talking for weeks.",
+  "category": "Main",
+  "keywords": "dino ribs, beef ribs, beef,",
+  "yield": "8",
+  "source": "Meat Church",
+  "chef": "Matt Pittman",
+  "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/troubadour-beef-ribs.jpg",
+  "ingredients": [
+    {
+      "quantity": "1",
+      "item": "Rack of Beef Ribs (Plate)",
+      "note": "3 bone (NAMP 123)"
+    },
+    {
+      "quantity": "6 ounces",
+      "item": "crème fraîche",
+      "note": ""
+    },
+    {
+      "quantity": "1/3 cup",
+      "item": "Balsamic Vinegar Spheres",
+      "note": "see Sub-recipe"
+    }
+  ],
+  "steps": [
+    {
+      "instruction": "Trim the fat cap off the beef ribs.  You want to have an even surface"
+    },
+    {
+      "instruction": "Generously cover the meat side of the beef ribs with Meat Church Holy Cow seasoning, or your favorite beef rub"
+    },
+    {
+      "instruction": "Setup the smoker to 250°F (120°C)"
+    },
+    {
+      "instruction": "Place the ribs meat side up into the smoker until an internal temperature of 210°F (99°C)"
+    },
+    {
+      "instruction": "Let the ribs rest for an hour"
+    },
+    {
+      "instruction": "Slice the meat off the bone and cut into 2 inch (5cm) bites"
+    },
+    {
+      "instruction": "Place the meat back on the bone for an awesome display"
+    },
+    {
+      "instruction": "Top each portion with crème fraîche and balsamic vinegar spheres"
+    }
+  ],
+  "specialtools": [
+    {
+      "item": "Agar Agar",
+      "link": "https://www.amazon.com/dp/B0DXV51C8T?tag=yeschef0A02-20"
+    },
+    {
+      "item": "Traeger Pellet Smoker",
+      "link": "https://www.amazon.com/dp/B07T2FWL8Q?tag=yeschef0A02-20"
+    },
+    {
+      "item": "Fine Mesh Strainer",
+      "link": "https://www.amazon.com/dp/B0CQVL95YH?tag=yeschef0A02-20"
+    },
+    {
+      "item": "Syringe",
+      "link": "https://www.amazon.com/dp/B07V4LR7HZ?tag=yeschef0A02-20"
+    }
+  ],
+  "winePairings": [
+    {
+      "name": "Quilt Cabernet Sauvignon Napa Valley",
+      "notes": "A seamless blend of cassis, hazelnut, cocoa, blackberry preserves and charry meat with notes of dark licorice, stewed rhubarb, strawberry, spice and vanillin. Rich and satisfying with chocolate brownie, yogurt and molasses in perfect balance with high-toned fruit.",
+      "link": ""
+    }
+  ],
+  "sub_recipes": [
+    {
+      "name": "Balsamic Vinegar Spheres",
+      "yield": "1/3 cup",
+      "ingredients": [
+        {
+          "quantity": "1/3 cup",
+          "item": "Balsamic Vinegar",
+          "note": ""
+        },
+        {
+          "quantity": "1 tsp",
+          "item": "Agar Agar",
+          "note": ""
+        },
+        {
+          "quantity": "1/2 cup",
+          "item": "vegetable oil",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Place the vegetable oil in a tall cup and place in the freezer for 30-40 minutes."
+        },
+        {
+          "instruction": "Boil the balsamic vinegar and agar agar for 2 minutes and whisk until the agar agar is completely dissolved."
+        },
+        {
+          "instruction": "Remove from heat and let cool for a couple of minutes."
+        },
+        {
+          "instruction": "Using a syringe, drop the balsamic vinegar into the cold class of vegetable oil."
+        },
+        {
+          "instruction": "Using a strainer, pour the vegetable oil into another cup or bowl."
+        },
+        {
+          "instruction": "Gently rinse the balsamic vinegar spheres with water."
+        },
+        {
+          "instruction": "Store in the refrigerator until needed."
+        }
+      ]
+    }
+  ]
+}

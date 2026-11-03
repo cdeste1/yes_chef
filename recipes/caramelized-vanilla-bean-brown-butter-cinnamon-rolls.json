@@ -37,7 +37,7 @@
     {
       "quantity": "120ml",
       "item": "whole milk",
-      "note": "warmed to 95�F"
+      "note": "warmed to 95°F"
     },
     {
       "quantity": "200g",
@@ -95,7 +95,7 @@
       "note": "split and scraped"
     },
     {
-      "quantity": "2�3 tbsp",
+      "quantity": "2–3 tbsp",
       "item": "heavy cream",
       "note": ""
     },
@@ -116,7 +116,7 @@
       "instruction": "Gradually incorporate butter and knead until smooth and elastic (windowpane stage)."
     },
     {
-      "instruction": "Proof dough at 75�78�F until doubled, about 90 minutes."
+      "instruction": "Proof dough at 75–78°F until doubled, about 90 minutes."
     },
     {
       "instruction": "Refrigerate dough overnight for flavor development and easier handling."
@@ -134,10 +134,10 @@
       "instruction": "Roll dough to 1/4 inch thickness and slice into 2-inch spirals."
     },
     {
-      "instruction": "Place rolls into a buttered baking dish and proof 45�60 minutes until puffy."
+      "instruction": "Place rolls into a buttered baking dish and proof 45–60 minutes until puffy."
     },
     {
-      "instruction": "Bake at 350�F (175�C) for 20�25 minutes until golden brown."
+      "instruction": "Bake at 350°F (175°C) for 20–25 minutes until golden brown."
     },
     {
       "instruction": "Whisk mascarpone, powdered sugar, vanilla bean, cream, and salt to form glaze."
@@ -170,7 +170,7 @@
   ],
   "winePairings": [
     {
-      "name": "Tokaji Asz�",
+      "name": "Tokaji Aszú",
       "notes": "Lush sweetness with balancing acidity enhances caramelized cinnamon and brown butter notes.",
       "link": ""
     },
@@ -245,7 +245,7 @@
           "note": ""
         },
         {
-          "quantity": "2-3 tbsp",
+          "quantity": "2–3 tbsp",
           "item": "heavy cream",
           "note": ""
         },

@@ -21,6 +21,7 @@ Usage (CI / SEO folder):
 """
 
 import json, os, re, html
+from urllib.parse import quote
 
 # ── Config ────────────────────────────────────────────────────────────────────
 RECIPES_FILE  = "recipes.json"
@@ -113,6 +114,105 @@ items   = raw if isinstance(raw, list) else raw.get('recipes', [])
 recipes = [item.get('recipe', item) for item in items]
 
 print(f"Loaded {len(recipes)} recipes → outputting to ./{OUTPUT_DIR}/")
+
+# ── Crawlable homepage grid + related-recipe links ────────────────────────────
+# The homepage's carousel/Top-10 are filled by JavaScript, so a crawler that
+# doesn't run scripts used to see an almost empty page. We render every recipe
+# into the static HTML (between markers in index.html) and give every recipe
+# page links to related recipes. Everything is sorted, never random, so each
+# deploy produces identical output.
+CATEGORY_ORDER = ['Main', 'Starter', 'Cocktail', 'Sides', 'Brunch', 'Dessert', 'Bread']
+CATEGORY_LABELS = {
+    'Main': 'Main Courses', 'Starter': 'Starters', 'Cocktail': 'Cocktails',
+    'Sides': 'Sides', 'Brunch': 'Brunch', 'Dessert': 'Desserts', 'Bread': 'Breads',
+}
+GRID_START = '<!-- RECIPE_GRID_START -->'
+GRID_END   = '<!-- RECIPE_GRID_END -->'
+
+def cat_id(cat: str) -> str:
+    return 'cat-' + to_slug(cat)
+
+def card_html(r: dict, css_class: str = 'grid-card') -> str:
+    img = (
+        f'<img src="{h(r["image"])}" alt="{h(r["name"])}" loading="lazy" width="320" height="200">'
+        if r['image'] else '<div class="grid-card-noimg"></div>'
+    )
+    desc = f'<span class="grid-card-desc">{h(r["desc"])}</span>' if r['desc'] else ''
+    return (
+        f'<a class="{css_class}" href="/recipes/{r["slug"]}/">{img}'
+        f'<span class="grid-card-body"><span class="grid-card-name">{h(r["name"])}</span>{desc}</span></a>'
+    )
+
+CARDS = []
+for _r in recipes:
+    _name = _r.get('name', 'Untitled')
+    CARDS.append({
+        'name': _name,
+        'slug': to_slug(_name),
+        'desc': _r.get('description', ''),
+        'image': _r.get('imageUrl', ''),
+        'category': _r.get('category', ''),
+        'restaurant': extract_restaurant(_r.get('source', '')),
+        'chef': _r.get('chef', '').strip(),
+    })
+CARDS.sort(key=lambda c: c['name'].lower())
+
+def build_grid_html() -> str:
+    cats = CATEGORY_ORDER + sorted({c['category'] for c in CARDS if c['category'] and c['category'] not in CATEGORY_ORDER})
+    parts = [
+        '<section class="all-recipes" id="all-recipes" aria-label="All recipes">',
+        '<h2 class="all-recipes-title">All Recipes</h2>',
+        '<p class="all-recipes-intro">Every dish on Yes Chef! is a restaurant-inspired recipe rewritten for the home cook, '
+        'with full ingredient lists, step-by-step method and technique notes. Browse by category below.</p>',
+    ]
+    for cat in cats:
+        group = [c for c in CARDS if c['category'] == cat]
+        if not group:
+            continue
+        label = CATEGORY_LABELS.get(cat, cat)
+        parts.append(f'<h3 class="grid-cat-heading" id="{cat_id(cat)}">{h(label)} <span class="grid-cat-count">({len(group)})</span></h3>')
+        parts.append('<div class="recipe-grid">' + ''.join(card_html(c) for c in group) + '</div>')
+    parts.append('</section>')
+    return '\n'.join(parts)
+
+def related_for(card: dict, limit: int = 4) -> list:
+    """Same restaurant/chef first, then same category, cyclic from this
+    recipe's position so link equity spreads across the whole category."""
+    picked, seen = [], {card['slug']}
+    def add(c):
+        if c['slug'] not in seen and len(picked) < limit:
+            seen.add(c['slug']); picked.append(c)
+    if card['restaurant']:
+        for c in CARDS:
+            if c['restaurant'] == card['restaurant']: add(c)
+    if card['chef']:
+        for c in CARDS:
+            if c['chef'] == card['chef']: add(c)
+    same_cat = [c for c in CARDS if c['category'] == card['category']]
+    idx = next((i for i, c in enumerate(same_cat) if c['slug'] == card['slug']), 0)
+    for c in same_cat[idx + 1:] + same_cat[:idx]:
+        add(c)
+    for c in CARDS:  # tiny categories: top up from the rest of the catalogue
+        add(c)
+    return picked
+
+def build_related_html(card: dict) -> str:
+    rel = related_for(card)
+    if not rel:
+        return ''
+    cat = card['category']
+    label = CATEGORY_LABELS.get(cat, cat)
+    heading = f'More {label}' if cat else 'More Recipes'
+    see_all = (f'<a class="related-all" href="/#{cat_id(cat)}">See all {h(label)} &rsaquo;</a>' if cat
+               else '<a class="related-all" href="/#all-recipes">See all recipes &rsaquo;</a>')
+    return (
+        '<section class="related" aria-label="Related recipes">'
+        f'<h2 class="section-heading">{h(heading)}</h2>'
+        '<div class="related-grid">' + ''.join(card_html(c, 'grid-card') for c in rel) + '</div>'
+        f'{see_all}</section>'
+    )
+
+CARD_BY_SLUG = {c['slug']: c for c in CARDS}
 
 # ── Generate pages ────────────────────────────────────────────────────────────
 generated  = 0
@@ -312,6 +412,7 @@ for r in recipes:
     page = page.replace('{{STEPS_HTML}}',       steps_html)
     page = page.replace('{{SUB_RECIPES_HTML}}', sub_recipes_html)
     page = page.replace('{{PDF_CTA_HTML}}',    PDF_CTA_HTML)
+    page = page.replace('{{RELATED_HTML}}',    build_related_html(CARD_BY_SLUG[slug]))
     page = page.replace('{{PDF_GATE_CLASS}}',  PDF_GATE_CLASS)
 
     out_dir  = os.path.join(OUTPUT_DIR, slug)
@@ -325,10 +426,25 @@ for r in recipes:
 
 print(f"\nDone — {generated} recipe pages generated.")
 
+# ── Render the recipe grid into the homepage's static HTML ────────────────────
+index_path = os.path.join(OUTPUT_DIR, '..', 'index.html')
+if os.path.exists(index_path):
+    with open(index_path, encoding='utf-8') as f:
+        index_src = f.read()
+    pat = re.compile(re.escape(GRID_START) + r'.*?' + re.escape(GRID_END), re.S)
+    if pat.search(index_src):
+        new_block = f"{GRID_START}\n{build_grid_html()}\n{GRID_END}"
+        index_src = pat.sub(lambda m: new_block, index_src, count=1)
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write(index_src)
+        print(f"✓ homepage recipe grid rendered ({len(CARDS)} recipes) → {index_path}")
+    else:
+        print("! index.html has no RECIPE_GRID markers — grid not rendered")
+
 # ── Regenerate sitemap.xml so it never drifts out of sync with the site ───────
 # (previously a hand-maintained file that silently fell behind as recipes
 # were added — it stayed at 58 URLs while the site grew to 110 recipes)
-sitemap_urls = [f"{SITE_URL}/"] + [f"{SITE_URL}/recipes/{s}/" for s in all_slugs]
+sitemap_urls = [f"{SITE_URL}/", f"{SITE_URL}/about.html"] + [f"{SITE_URL}/recipes/{s}/" for s in all_slugs]
 sitemap_body = "\n".join(f"  <url>\n    <loc>{h(u)}</loc>\n  </url>" for u in sitemap_urls)
 sitemap_xml = (
     '<?xml version="1.0" encoding="UTF-8"?>\n'

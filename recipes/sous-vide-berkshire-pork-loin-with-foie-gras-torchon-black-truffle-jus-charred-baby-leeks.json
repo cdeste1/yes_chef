@@ -10,7 +10,7 @@
   "imageUrl": "https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sous-vide-berkshire-pork-loin-with-foie-gras-torchon-black-truffle-jus-charred-baby-leeks.jpg",
   "ingredients": [
     {
-      "quantity": "4 � 180g (6 oz)",
+      "quantity": "4 × 180g (6 oz)",
       "item": "Center-cut Berkshire pork loin medallions",
       "note": ""
     },
@@ -79,7 +79,7 @@
       "instruction": "Seal bags using chamber vacuum sealer at full vacuum."
     },
     {
-      "instruction": "Cook in sous-vide bath at exactly 58�C (136�F) for 90 minutes."
+      "instruction": "Cook in sous-vide bath at exactly 58°C (136°F) for 90 minutes."
     },
     {
       "instruction": "Remove pork from bags, pat extremely dry. Scrape off garlic and herbs."
@@ -164,19 +164,19 @@
         },
         {
           "quantity": "to taste",
-          "item": "Salt, white pepper, quatre-�pices",
+          "item": "Salt, white pepper, quatre-épices",
           "note": ""
         }
       ],
       "steps": [
         {
-          "instruction": "Season foie gras with salt, white pepper, quatre-�pices, and Armagnac."
+          "instruction": "Season foie gras with salt, white pepper, quatre-épices, and Armagnac."
         },
         {
           "instruction": "Roll tightly in cheesecloth to form a cylinder and vacuum-seal."
         },
         {
-          "instruction": "Poach in 55�C water bath for 20 minutes, then shock in ice water."
+          "instruction": "Poach in 55°C water bath for 20 minutes, then shock in ice water."
         },
         {
           "instruction": "Refrigerate overnight. Slice into 1 cm rounds with a hot knife before plating."
@@ -256,7 +256,7 @@
           "instruction": "Brush lightly with neutral oil and season."
         },
         {
-          "instruction": "Char evenly with professional kitchen blowtorch (30�45 seconds per side) until blackened in spots but vibrant inside."
+          "instruction": "Char evenly with professional kitchen blowtorch (30–45 seconds per side) until blackened in spots but vibrant inside."
         }
       ]
     }

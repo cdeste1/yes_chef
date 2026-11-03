@@ -127,6 +127,19 @@
        the app's paid Copy/PDF export is the supported way to take a recipe. */
     .pdf-gate .ing-list,.pdf-gate .steps-list,.pdf-gate .sub-recipe{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 
+    /* ── RELATED RECIPES ── */
+    .related{margin:28px 0 8px}
+    .related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:12px}
+    .related-all{display:inline-block;color:var(--orange);font-size:14px;font-weight:500;text-decoration:none}
+    .related-all:hover{text-decoration:underline}
+    .grid-card{display:flex;flex-direction:column;background:var(--dark-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;text-decoration:none;color:var(--white);transition:transform .2s,border-color .2s}
+    .grid-card:hover{transform:translateY(-3px);border-color:var(--orange)}
+    .grid-card img{width:100%;height:130px;object-fit:cover;display:block}
+    .grid-card-noimg{width:100%;height:130px;background:#1a1a1a}
+    .grid-card-body{display:flex;flex-direction:column;gap:4px;padding:10px}
+    .grid-card-name{font-size:14px;font-weight:500;line-height:1.3}
+    .grid-card-desc{font-size:12px;font-style:italic;color:var(--white-dim);line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    @media(min-width:600px){.related-grid{grid-template-columns:repeat(4,1fr)}}
     @media(min-width:600px){.recipe-hero-img{max-height:400px}.header-title{max-width:360px}}
     @media(min-width:900px){header{padding:12px 40px}.recipe-wrap{padding:0 24px 160px}}
   </style>
@@ -155,7 +168,7 @@
     "10g – fine sea salt",
     "10g – instant yeast",
     "4 – eggs (room temperature)",
-    "120ml – whole milk (warmed to 95�F)",
+    "120ml – whole milk (warmed to 95°F)",
     "200g – European-style butter (cold, cubed)",
     "1 tbsp – orange zest (finely grated)",
     "180g – unsalted butter (for brown butter filling)",
@@ -167,7 +180,7 @@
     "200g – powdered sugar",
     "100g – mascarpone",
     "1 – vanilla bean (split and scraped)",
-    "2�3 tbsp – heavy cream",
+    "2–3 tbsp – heavy cream",
     "pinch – salt"
   ],
   "recipeInstructions": [
@@ -185,7 +198,7 @@
     },
     {
       "@type": "HowToStep",
-      "text": "Proof dough at 75�78�F until doubled, about 90 minutes."
+      "text": "Proof dough at 75–78°F until doubled, about 90 minutes."
     },
     {
       "@type": "HowToStep",
@@ -209,11 +222,11 @@
     },
     {
       "@type": "HowToStep",
-      "text": "Place rolls into a buttered baking dish and proof 45�60 minutes until puffy."
+      "text": "Place rolls into a buttered baking dish and proof 45–60 minutes until puffy."
     },
     {
       "@type": "HowToStep",
-      "text": "Bake at 350�F (175�C) for 20�25 minutes until golden brown."
+      "text": "Bake at 350°F (175°C) for 20–25 minutes until golden brown."
     },
     {
       "@type": "HowToStep",
@@ -260,7 +273,7 @@
 <li>10g – fine sea salt</li>
 <li>10g – instant yeast</li>
 <li>4 – eggs (room temperature)</li>
-<li>120ml – whole milk (warmed to 95�F)</li>
+<li>120ml – whole milk (warmed to 95°F)</li>
 <li>200g – European-style butter (cold, cubed)</li>
 <li>1 tbsp – orange zest (finely grated)</li>
 <li>180g – unsalted butter (for brown butter filling)</li>
@@ -272,25 +285,25 @@
 <li>200g – powdered sugar</li>
 <li>100g – mascarpone</li>
 <li>1 – vanilla bean (split and scraped)</li>
-<li>2�3 tbsp – heavy cream</li>
+<li>2–3 tbsp – heavy cream</li>
 <li>pinch – salt</li></ul>
     <hr class="divider-double">
     <hr class="divider"><h2 class="section-heading">Speciality Items:</h2><ul class="tools-list"><li><a href="https://amzn.to/4z0u6rj" class="tool-chip has-link" target="_blank" rel="noopener sponsored">Infrared Thermometer Gun<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></a></li><li><a href="https://amzn.to/4BB5JT9" class="tool-chip has-link" target="_blank" rel="noopener sponsored">Digital Dough Sheeter<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></a></li><li><a href="https://amzn.to/4BB5Qhx" class="tool-chip has-link" target="_blank" rel="noopener sponsored">Copper Saucepan<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></a></li><li><a href="https://amzn.to/3VNxXtp" class="tool-chip has-link" target="_blank" rel="noopener sponsored">Gold Flakes<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></a></li><li><a href="https://amzn.to/4icj3o4" class="tool-chip has-link" target="_blank" rel="noopener sponsored">Precision Gram Scale<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></a></li></ul><p class="affiliate-disclosure">Yes Chef! may earn a commission from qualifying purchases made through links on this page.</p>
-    <div class="sommelier-block"><p>🍷Sommelier's Recommendation</p><div class="wine-item"><strong>Tokaji Asz�</strong><p>Lush sweetness with balancing acidity enhances caramelized cinnamon and brown butter notes.</p></div><div class="wine-item"><strong>Champagne Demi-Sec</strong><p>Light sweetness and acidity complement the richness while refreshing the palate.</p></div></div>
+    <div class="sommelier-block"><p>🍷Sommelier's Recommendation</p><div class="wine-item"><strong>Tokaji Aszú</strong><p>Lush sweetness with balancing acidity enhances caramelized cinnamon and brown butter notes.</p></div><div class="wine-item"><strong>Champagne Demi-Sec</strong><p>Light sweetness and acidity complement the richness while refreshing the palate.</p></div></div>
 
     <hr class="divider">
     <h2 class="section-heading">Steps:</h2>
     <ol class="steps-list" itemprop="recipeInstructions"><li>Combine flour, sugar, salt, and yeast in a stand mixer.</li>
 <li>Add eggs and warm milk; mix until a shaggy dough forms.</li>
 <li>Gradually incorporate butter and knead until smooth and elastic (windowpane stage).</li>
-<li>Proof dough at 75�78�F until doubled, about 90 minutes.</li>
+<li>Proof dough at 75–78°F until doubled, about 90 minutes.</li>
 <li>Refrigerate dough overnight for flavor development and easier handling.</li>
 <li>Prepare brown butter by heating butter until amber and nutty; cool slightly and mix with brown sugar, cinnamon, nutmeg, vanilla, and salt.</li>
 <li>Roll dough into a rectangle, spread filling evenly, and fold into thirds.</li>
 <li>Chill for 20 minutes, then repeat folding process once more for lamination.</li>
 <li>Roll dough to 1/4 inch thickness and slice into 2-inch spirals.</li>
-<li>Place rolls into a buttered baking dish and proof 45�60 minutes until puffy.</li>
-<li>Bake at 350�F (175�C) for 20�25 minutes until golden brown.</li>
+<li>Place rolls into a buttered baking dish and proof 45–60 minutes until puffy.</li>
+<li>Bake at 350°F (175°C) for 20–25 minutes until golden brown.</li>
 <li>Whisk mascarpone, powdered sugar, vanilla bean, cream, and salt to form glaze.</li>
 <li>Glaze rolls while warm and finish with optional garnishes.</li></ol>
     <a class="app-cta" href="https://apps.apple.com/us/app/yes-chef-by-chris/id6759258837" target="_blank" rel="noopener"><img class="app-cta-icon" src="/icons/applelogosmall.png" alt=""><span class="app-cta-text"><span class="app-cta-title">Print or save this recipe as a PDF</span><span class="app-cta-sub">Get the Yes Chef! app: PDF export, copy, and hands-free Cook Mode</span></span><span class="app-cta-arrow">&rsaquo;</span></a>
@@ -326,8 +339,10 @@
 <li>Mix with sugar, spices, vanilla, and salt until spreadable.</li></ol></div><div class="sub-recipe"><h3>Mascarpone Vanilla Glaze</h3><p>Yield: Enough for 12 rolls</p><h4>Ingredients:</h4><ul><li>200g – powdered sugar</li>
 <li>100g – mascarpone</li>
 <li>1 – vanilla bean</li>
-<li>2-3 tbsp – heavy cream</li>
+<li>2–3 tbsp – heavy cream</li>
 <li>pinch – salt</li></ul><h4>Steps:</h4><ol><li>Whisk all ingredients until smooth and pourable.</li></ol></div>
+
+    <section class="related" aria-label="Related recipes"><h2 class="section-heading">More Brunch</h2><div class="related-grid"><a class="grid-card" href="/recipes/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/caviar-cloud-eggs-with-truffle-brioche-brown-butter-hollandaise-foam.png" alt="Caviar Cloud Eggs with Truffle Brioche &amp; Brown Butter Hollandaise Foam" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Caviar Cloud Eggs with Truffle Brioche &amp; Brown Butter Hollandaise Foam</span><span class="grid-card-desc">A Michelin-level brunch reimagining eggs Benedict: airy whipped egg white clouds encasing a molten yolk, set atop vacuum-infused truffle brioche, finished with brown butter hollandaise foam, herb emulsion accents, and premium caviar.</span></span></a><a class="grid-card" href="/recipes/forest-sunrise/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/forest-sunrise.jpg" alt="Forest Sunrise" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Forest Sunrise</span><span class="grid-card-desc">A 64°C slow-poached egg served over a truffled Jerusalem artichoke velouté with aerated brioche &#x27;soil&#x27; and vacuum-compressed artichoke shavings.</span></span></a><a class="grid-card" href="/recipes/saffron-infused-cloud-souffl-pancake/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/saffroninfusedpancakes.png" alt="Saffron-Infused Cloud Soufflé Pancake" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Saffron-Infused Cloud Soufflé Pancake</span><span class="grid-card-desc">A molecular approach to brunch featuring vacuum-compressed berries, saffron-infused foam, and hyper-aerated soufflé structures.</span></span></a><a class="grid-card" href="/recipes/truffled-sous-vide-eggs-benedict-with-smoked-salmon-hollandaise-espuma-ossetra-caviar/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/truffled_sous_vide_eggs_benedict.png" alt="Truffled Sous Vide Eggs Benedict with Smoked Salmon, Hollandaise Espuma &amp; Ossetra Caviar" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Truffled Sous Vide Eggs Benedict with Smoked Salmon, Hollandaise Espuma &amp; Ossetra Caviar</span><span class="grid-card-desc">An ultra-luxurious brunch dish featuring precision sous-vide eggs, a weightless truffle hollandaise espuma, elegant smoked salmon rosettes, and a crowning of Ossetra caviar. Contrasting temperatures and textures create a three-star experience at home.</span></span></a></div><a class="related-all" href="/#cat-brunch">See all Brunch &rsaquo;</a></section>
 
     <details>
       <summary>More Info</summary>
@@ -347,6 +362,7 @@
     <div class="footer-text-links">
       <a href="/legal/privacy.html" class="footer-text-link">Privacy Policy</a>
       <a href="/legal/terms.html" class="footer-text-link">Terms of Use</a>
+      <a href="/about.html" class="footer-text-link">About &amp; Contact</a>
     </div>
   </footer>
  

@@ -127,6 +127,19 @@
        the app's paid Copy/PDF export is the supported way to take a recipe. */
     .pdf-gate .ing-list,.pdf-gate .steps-list,.pdf-gate .sub-recipe{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 
+    /* ── RELATED RECIPES ── */
+    .related{margin:28px 0 8px}
+    .related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:12px}
+    .related-all{display:inline-block;color:var(--orange);font-size:14px;font-weight:500;text-decoration:none}
+    .related-all:hover{text-decoration:underline}
+    .grid-card{display:flex;flex-direction:column;background:var(--dark-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;text-decoration:none;color:var(--white);transition:transform .2s,border-color .2s}
+    .grid-card:hover{transform:translateY(-3px);border-color:var(--orange)}
+    .grid-card img{width:100%;height:130px;object-fit:cover;display:block}
+    .grid-card-noimg{width:100%;height:130px;background:#1a1a1a}
+    .grid-card-body{display:flex;flex-direction:column;gap:4px;padding:10px}
+    .grid-card-name{font-size:14px;font-weight:500;line-height:1.3}
+    .grid-card-desc{font-size:12px;font-style:italic;color:var(--white-dim);line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    @media(min-width:600px){.related-grid{grid-template-columns:repeat(4,1fr)}}
     @media(min-width:600px){.recipe-hero-img{max-height:400px}.header-title{max-width:360px}}
     @media(min-width:900px){header{padding:12px 40px}.recipe-wrap{padding:0 24px 160px}}
   </style>
@@ -267,6 +280,8 @@
 <li>Let sit for 1 minute, then remove and rinse in clean water.</li>
 <li>Store pearls in a small amount of fresh water until plating.</li></ol></div>
 
+    <section class="related" aria-label="Related recipes"><h2 class="section-heading">More Starters</h2><div class="related-grid"><a class="grid-card" href="/recipes/agnolotti-del-plin/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Agnolotti_Plin.png" alt="Agnolotti del Plin" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Agnolotti del Plin</span><span class="grid-card-desc">An iconic dish from Piemonte, the pasta is filled with veal, pork, spinach, Parmigiano Reggiano, and eggs, then served in a sage butter sauce.</span></span></a><a class="grid-card" href="/recipes/five-ages-of-parmigiano-reggiano/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Parm_5_ages.png" alt="Five Ages of Parmigiano Reggiano" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Five Ages of Parmigiano Reggiano</span><span class="grid-card-desc">A tribute to Emilia-Romagna’s king of cheeses, presenting Parmigiano Reggiano in five distinct textures and maturations — crisp, sauce, foam, wafer, and air.</span></span></a><a class="grid-card" href="/recipes/agnolotti-al-limone/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/agnolotti_lemonsauce.png" alt="Agnolotti al Limone" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Agnolotti al Limone</span><span class="grid-card-desc">Silky agnolotti served in a lemon cream sauce.  The Limoncello makes it a little sweet to balance the savory ricotta</span></span></a><a class="grid-card" href="/recipes/burrata-sphere-with-basil-oil-tomato-water-snow/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/burrata_tomatowatersnow_basiloil.png" alt="Burrata Sphere with Basil Oil &amp; Tomato Water Snow" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Burrata Sphere with Basil Oil &amp; Tomato Water Snow</span><span class="grid-card-desc">A delicate burrata sphere paired with aromatic basil oil and refreshing tomato water snow, combining creamy, herbal, and acidic elements.</span></span></a></div><a class="related-all" href="/#cat-starter">See all Starters &rsaquo;</a></section>
+
     <details>
       <summary>More Info</summary>
       <p class="disclaimer-text">Disclaimer: The information and recipes provided within this application are intended for general informational and personal use only. Yes Chef makes no guarantees regarding accuracy, ingredient safety, or cooking outcomes. Users are responsible for checking allergen information, food safety temperatures, and proper handling of all ingredients. By using this app, you acknowledge that Yes Chef and its contributors are not liable for any adverse reactions, injuries, or results that may occur.</p>
@@ -285,6 +300,7 @@
     <div class="footer-text-links">
       <a href="/legal/privacy.html" class="footer-text-link">Privacy Policy</a>
       <a href="/legal/terms.html" class="footer-text-link">Terms of Use</a>
+      <a href="/about.html" class="footer-text-link">About &amp; Contact</a>
     </div>
   </footer>
  

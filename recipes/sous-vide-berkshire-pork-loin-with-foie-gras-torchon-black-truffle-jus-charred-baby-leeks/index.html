@@ -127,6 +127,19 @@
        the app's paid Copy/PDF export is the supported way to take a recipe. */
     .pdf-gate .ing-list,.pdf-gate .steps-list,.pdf-gate .sub-recipe{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 
+    /* ── RELATED RECIPES ── */
+    .related{margin:28px 0 8px}
+    .related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:12px}
+    .related-all{display:inline-block;color:var(--orange);font-size:14px;font-weight:500;text-decoration:none}
+    .related-all:hover{text-decoration:underline}
+    .grid-card{display:flex;flex-direction:column;background:var(--dark-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;text-decoration:none;color:var(--white);transition:transform .2s,border-color .2s}
+    .grid-card:hover{transform:translateY(-3px);border-color:var(--orange)}
+    .grid-card img{width:100%;height:130px;object-fit:cover;display:block}
+    .grid-card-noimg{width:100%;height:130px;background:#1a1a1a}
+    .grid-card-body{display:flex;flex-direction:column;gap:4px;padding:10px}
+    .grid-card-name{font-size:14px;font-weight:500;line-height:1.3}
+    .grid-card-desc{font-size:12px;font-style:italic;color:var(--white-dim);line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    @media(min-width:600px){.related-grid{grid-template-columns:repeat(4,1fr)}}
     @media(min-width:600px){.recipe-hero-img{max-height:400px}.header-title{max-width:360px}}
     @media(min-width:900px){header{padding:12px 40px}.recipe-wrap{padding:0 24px 160px}}
   </style>
@@ -150,7 +163,7 @@
   "keywords": "pork, sous-vide, foie gras, truffle, fine dining",
   "recipeYield": "4 plates",
   "recipeIngredient": [
-    "4 � 180g (6 oz) – Center-cut Berkshire pork loin medallions",
+    "4 × 180g (6 oz) – Center-cut Berkshire pork loin medallions",
     "4 – Fresh rosemary sprigs",
     "4 – Garlic cloves (lightly crushed)",
     "50g + extra for finishing – Unsalted butter",
@@ -181,7 +194,7 @@
     },
     {
       "@type": "HowToStep",
-      "text": "Cook in sous-vide bath at exactly 58�C (136�F) for 90 minutes."
+      "text": "Cook in sous-vide bath at exactly 58°C (136°F) for 90 minutes."
     },
     {
       "@type": "HowToStep",
@@ -243,7 +256,7 @@
     <p class="recipe-headnote">58 degrees C is the number that matters here — hot enough to render Berkshire&#x27;s marbling silky, cool enough that the loin stays rosy rather than turning into shoe leather, which is the usual fate of pork cooked by feel. The torchon (a foie gras log rolled and poached, not seared) gives a clean, spreadable richness instead of the char a quick pan-sear would add, so the truffle jus is doing the work a crust normally would.</p>
     <p class="recipe-yield" itemprop="recipeYield">4 plates</p>
     <hr class="divider">
-    <h2 class="section-heading">Ingredients:</h2><ul class="ing-list" itemprop="recipeIngredient"><li>4 � 180g (6 oz) – Center-cut Berkshire pork loin medallions</li>
+    <h2 class="section-heading">Ingredients:</h2><ul class="ing-list" itemprop="recipeIngredient"><li>4 × 180g (6 oz) – Center-cut Berkshire pork loin medallions</li>
 <li>4 – Fresh rosemary sprigs</li>
 <li>4 – Garlic cloves (lightly crushed)</li>
 <li>50g + extra for finishing – Unsalted butter</li>
@@ -264,7 +277,7 @@
 <li>Prepare the Charred Baby Leeks</li>
 <li>Season each pork medallion with flaky sea salt and white pepper. Place in individual vacuum bags with rosemary, crushed garlic, and a knob of butter.</li>
 <li>Seal bags using chamber vacuum sealer at full vacuum.</li>
-<li>Cook in sous-vide bath at exactly 58�C (136�F) for 90 minutes.</li>
+<li>Cook in sous-vide bath at exactly 58°C (136°F) for 90 minutes.</li>
 <li>Remove pork from bags, pat extremely dry. Scrape off garlic and herbs.</li>
 <li>Heat a cast-iron skillet until screaming hot. Sear pork 30 seconds per side, then finish crust evenly with professional blowtorch.</li>
 <li>Rest pork 2 minutes on a rack. Reheat torchon slices and jus gently.</li>
@@ -298,9 +311,9 @@
 
     <div class="sub-recipe"><h3>Foie Gras Torchon</h3><h4>Ingredients:</h4><ul><li>200g – Grade-A foie gras lobe</li>
 <li>10g – Armagnac or Cognac</li>
-<li>to taste – Salt, white pepper, quatre-�pices</li></ul><h4>Steps:</h4><ol><li>Season foie gras with salt, white pepper, quatre-�pices, and Armagnac.</li>
+<li>to taste – Salt, white pepper, quatre-épices</li></ul><h4>Steps:</h4><ol><li>Season foie gras with salt, white pepper, quatre-épices, and Armagnac.</li>
 <li>Roll tightly in cheesecloth to form a cylinder and vacuum-seal.</li>
-<li>Poach in 55�C water bath for 20 minutes, then shock in ice water.</li>
+<li>Poach in 55°C water bath for 20 minutes, then shock in ice water.</li>
 <li>Refrigerate overnight. Slice into 1 cm rounds with a hot knife before plating.</li></ol></div><div class="sub-recipe"><h3>Black Truffle Jus</h3><h4>Ingredients:</h4><ul><li>300ml – Rich veal or pork stock</li>
 <li>50g (30g grated + for shaving) – Fresh black truffles</li>
 <li>100ml – Vintage Port wine</li>
@@ -312,7 +325,9 @@
 <li>as needed – Neutral oil</li>
 <li>to season – Salt</li></ul><h4>Steps:</h4><ol><li>Blanch leeks in salted boiling water for 60 seconds, then shock in ice water and pat dry.</li>
 <li>Brush lightly with neutral oil and season.</li>
-<li>Char evenly with professional kitchen blowtorch (30�45 seconds per side) until blackened in spots but vibrant inside.</li></ol></div>
+<li>Char evenly with professional kitchen blowtorch (30–45 seconds per side) until blackened in spots but vibrant inside.</li></ol></div>
+
+    <section class="related" aria-label="Related recipes"><h2 class="section-heading">More Main Courses</h2><div class="related-grid"><a class="grid-card" href="/recipes/sous-vide-duck-breast-salsify-silk-and-cherry-infused-balsamic-glaze/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/sousvide_duckbreast.png" alt="Sous-Vide Duck Breast, Salsify Silk, and Cherry-Infused Balsamic Glaze" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Sous-Vide Duck Breast, Salsify Silk, and Cherry-Infused Balsamic Glaze</span><span class="grid-card-desc">A masterclass in precision, featuring ultra-tender duck with a glass-like crackling skin, served with an aerated salsify foam and a molecularly clarified cherry reduction.</span></span></a><a class="grid-card" href="/recipes/spaghetti-aglio-e-olio/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/spaghetti-aglio-e-olio.png" alt="Spaghetti Aglio e Olio" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Spaghetti Aglio e Olio</span><span class="grid-card-desc">A Michelin take on this easy weeknight meal.  Simple ingredients result in an elegant and silky creamy sauce with a subdued garlic taste.</span></span></a><a class="grid-card" href="/recipes/squid-ink-tagliolini-with-sea-urchin-and-bottarga/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/SquidInkTagliolini_SeaUrchin_Bottarga.png" alt="Squid Ink Tagliolini with Sea Urchin and Bottarga" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Squid Ink Tagliolini with Sea Urchin and Bottarga</span><span class="grid-card-desc">Fresh squid ink tagliolini served with a rich sea urchin sauce, finished with grated bottarga and a drizzle of olive oil. A luxurious, delicate seafood pasta with bright lemon zest and optional herbs.</span></span></a><a class="grid-card" href="/recipes/striploin-with-fermented-black-garlic-and-red-wine-jus/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/striploing_blackgarlie_redwinejus.png" alt="Striploin with Fermented Black Garlic and Red Wine Jus" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Striploin with Fermented Black Garlic and Red Wine Jus</span><span class="grid-card-desc">An indulgent fine dining dish featuring buttery Wagyu A5 striploin paired with the deep umami of fermented black garlic and a silky red wine reduction.</span></span></a></div><a class="related-all" href="/#cat-main">See all Main Courses &rsaquo;</a></section>
 
     <details>
       <summary>More Info</summary>
@@ -332,6 +347,7 @@
     <div class="footer-text-links">
       <a href="/legal/privacy.html" class="footer-text-link">Privacy Policy</a>
       <a href="/legal/terms.html" class="footer-text-link">Terms of Use</a>
+      <a href="/about.html" class="footer-text-link">About &amp; Contact</a>
     </div>
   </footer>
  

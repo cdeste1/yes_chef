@@ -127,6 +127,19 @@
        the app's paid Copy/PDF export is the supported way to take a recipe. */
     .pdf-gate .ing-list,.pdf-gate .steps-list,.pdf-gate .sub-recipe{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 
+    /* ── RELATED RECIPES ── */
+    .related{margin:28px 0 8px}
+    .related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:12px}
+    .related-all{display:inline-block;color:var(--orange);font-size:14px;font-weight:500;text-decoration:none}
+    .related-all:hover{text-decoration:underline}
+    .grid-card{display:flex;flex-direction:column;background:var(--dark-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;text-decoration:none;color:var(--white);transition:transform .2s,border-color .2s}
+    .grid-card:hover{transform:translateY(-3px);border-color:var(--orange)}
+    .grid-card img{width:100%;height:130px;object-fit:cover;display:block}
+    .grid-card-noimg{width:100%;height:130px;background:#1a1a1a}
+    .grid-card-body{display:flex;flex-direction:column;gap:4px;padding:10px}
+    .grid-card-name{font-size:14px;font-weight:500;line-height:1.3}
+    .grid-card-desc{font-size:12px;font-style:italic;color:var(--white-dim);line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    @media(min-width:600px){.related-grid{grid-template-columns:repeat(4,1fr)}}
     @media(min-width:600px){.recipe-hero-img{max-height:400px}.header-title{max-width:360px}}
     @media(min-width:900px){header{padding:12px 40px}.recipe-wrap{padding:0 24px 160px}}
   </style>
@@ -241,6 +254,8 @@
 <li>Bulk ferment 3 hours with folds every hour.</li>
 <li>Shape, proof overnight, bake in Dutch oven 475°F.</li></ol></div>
 
+    <section class="related" aria-label="Related recipes"><h2 class="section-heading">More Breads</h2><div class="related-grid"><a class="grid-card" href="/recipes/dirty-vege-burger-with-smoky-mushroom-demi-glace-and-fermented-aioli/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/dirty_vege_burger_mushroom_demi.png" alt="Dirty Vege-Burger with Smoky Mushroom Demi-Glace and Fermented Aioli" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Dirty Vege-Burger with Smoky Mushroom Demi-Glace and Fermented Aioli</span><span class="grid-card-desc">An elevated &#x27;dirty&#x27; vegetable burger featuring a deeply roasted mushroom-quinoa patty with crisp crust, glossy dripping smoky mushroom demi-glace, fermented aioli, and refined toppings for indulgent yet refined street-food luxury.</span></span></a><a class="grid-card" href="/recipes/pretzel-bread-with-house-mustard/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/Pretzel_Mustard.jpg" alt="Pretzel Bread with House Mustard" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Pretzel Bread with House Mustard</span><span class="grid-card-desc">Classic pretzel rolls served with a sharp, fermented house mustard.</span></span></a><a class="grid-card" href="/recipes/malted-barley-flatbread-with-wildflower-butter/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/MaltedBarleyFlatbread_FlowerButter.jpg" alt="Malted Barley Flatbread with Wildflower Butter" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Malted Barley Flatbread with Wildflower Butter</span><span class="grid-card-desc">Primitive-style flatbread using malted barley flour, served with aromatic wildflower butter.</span></span></a><a class="grid-card" href="/recipes/truffle-milk-bread-rolls/"><img src="https://pub-3ae50d56fa834654954be23601470560.r2.dev/assets/Photos/Recipes/TruffleMilkRolls.webp" alt="Truffle Milk Bread Rolls" loading="lazy" width="320" height="200"><span class="grid-card-body"><span class="grid-card-name">Truffle Milk Bread Rolls</span><span class="grid-card-desc">Ultra-soft Japanese milk bread rolls infused with black truffle aroma.</span></span></a></div><a class="related-all" href="/#cat-bread">See all Breads &rsaquo;</a></section>
+
     <details>
       <summary>More Info</summary>
       <p class="disclaimer-text">Disclaimer: The information and recipes provided within this application are intended for general informational and personal use only. Yes Chef makes no guarantees regarding accuracy, ingredient safety, or cooking outcomes. Users are responsible for checking allergen information, food safety temperatures, and proper handling of all ingredients. By using this app, you acknowledge that Yes Chef and its contributors are not liable for any adverse reactions, injuries, or results that may occur.</p>
@@ -259,6 +274,7 @@
     <div class="footer-text-links">
       <a href="/legal/privacy.html" class="footer-text-link">Privacy Policy</a>
       <a href="/legal/terms.html" class="footer-text-link">Terms of Use</a>
+      <a href="/about.html" class="footer-text-link">About &amp; Contact</a>
     </div>
   </footer>
  

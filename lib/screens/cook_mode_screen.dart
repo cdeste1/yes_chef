@@ -449,7 +449,11 @@ class _CookModeScreenState extends State<CookModeScreen> {
       setState(() => _continuousMode = false);
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text("Voice control isn't available — check microphone/speech permissions."),
+          content: Text(
+              "Voice control is off. To enable it, allow Microphone and Speech "
+              "Recognition for Yes Chef in your phone's Settings. You can still "
+              "swipe or tap to move between steps."),
+          duration: Duration(seconds: 8),
         ),
       );
       return;
@@ -638,7 +642,8 @@ class _CookModeScreenState extends State<CookModeScreen> {
 
   void _goNext() {
     if (_currentIndex >= _steps.length - 1) {
-      Navigator.pop(context);
+      // true = finished the recipe (vs. backing out early, which pops null).
+      Navigator.pop(context, true);
       return;
     }
     _pageController.nextPage(

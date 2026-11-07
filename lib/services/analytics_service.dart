@@ -32,6 +32,97 @@ class AnalyticsService {
     );
   }
 
+  // Discovery funnel: button seen -> button/teaser tapped -> cook_mode_opened
+  // -> paywall. These exist because the first two weeks showed ~1 Cook Mode
+  // open total, i.e. the paywall was unreachable, not unconvincing.
+  static void cookModeButtonSeen(String recipeName) {
+    Posthog().capture(
+      eventName: 'cook_mode_button_seen',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
+  static void cookModeButtonTapped(String recipeName, {required String source}) {
+    Posthog().capture(
+      eventName: 'cook_mode_button_tapped',
+      properties: {'recipe_name': recipeName, 'source': source},
+    );
+  }
+
+  static void cookModeTeaserShown(String recipeName) {
+    Posthog().capture(
+      eventName: 'cook_mode_teaser_shown',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
+  static void cookModeTeaserTapped(String recipeName) {
+    Posthog().capture(
+      eventName: 'cook_mode_teaser_tapped',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
+  static void cookModeTeaserDismissed(String recipeName) {
+    Posthog().capture(
+      eventName: 'cook_mode_teaser_dismissed',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
+  static void cookModeCompleted(String recipeName, {required bool wasFreeUse}) {
+    Posthog().capture(
+      eventName: 'cook_mode_completed',
+      properties: {'recipe_name': recipeName, 'was_free_use': wasFreeUse},
+    );
+  }
+
+  static void postFreePromptShown(String recipeName) {
+    Posthog().capture(
+      eventName: 'cook_mode_post_free_prompt_shown',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
+  static void postFreePromptTapped(String recipeName) {
+    Posthog().capture(
+      eventName: 'cook_mode_post_free_prompt_tapped',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
+  static void postFreePromptDismissed(String recipeName) {
+    Posthog().capture(
+      eventName: 'cook_mode_post_free_prompt_dismissed',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
+  static void menuOfferTapped() {
+    Posthog().capture(eventName: 'cook_mode_menu_offer_tapped');
+  }
+
+  static void reviewRequested(int completedCooks) {
+    Posthog().capture(
+      eventName: 'review_requested',
+      properties: {'completed_cooks': completedCooks},
+    );
+  }
+
+  static void saveNudgeShown(String recipeName) {
+    Posthog().capture(
+      eventName: 'save_nudge_shown',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
+  static void saveNudgeTapped(String recipeName) {
+    Posthog().capture(
+      eventName: 'save_nudge_tapped',
+      properties: {'recipe_name': recipeName},
+    );
+  }
+
   static void cookModePaywallShown(String recipeName) {
     Posthog().capture(
       eventName: 'cook_mode_paywall_shown',

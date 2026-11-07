@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:in_app_review/in_app_review.dart';
 import '../models/recipe_model.dart';
 import '../services/analytics_service.dart';
 import '../services/favorites_service.dart';
@@ -12,6 +14,121 @@ import '../widgets/ad_banner.dart';
 import '../widgets/nugget_promo_banner.dart';
 import 'cook_mode_paywall_screen.dart';
 import 'cook_mode_screen.dart';
+
+/// Invisible helper mounted at the top of the recipe page. Fires
+/// `recipe_viewed` (previously defined but never called), logs a Cook Mode
+/// button impression, and shows a one-time, dismissible teaser to people who
+/// haven't used or bought Cook Mode — discovery was the funnel's weak point.
+class _CookModeNudge extends StatefulWidget {
+  final Recipe recipe;
+  final bool hasCookableSteps;
+  final VoidCallback onTry;
+
+  const _CookModeNudge({
+    required this.recipe,
+    required this.hasCookableSteps,
+    required this.onTry,
+  });
+
+  @override
+  State<_CookModeNudge> createState() => _CookModeNudgeState();
+}
+
+class _CookModeNudgeState extends State<_CookModeNudge> {
+  static const String _teaserSeenKey = 'cook_mode_teaser_seen';
+
+  @override
+  void initState() {
+    super.initState();
+    AnalyticsService.recipeViewed(widget.recipe.name);
+    if (widget.hasCookableSteps) {
+      AnalyticsService.cookModeButtonSeen(widget.recipe.name);
+      _maybeShowTeaser();
+    }
+  }
+
+  Future<void> _maybeShowTeaser() async {
+    final purchases = PurchaseService.instance;
+    if (purchases.isPurchased || purchases.freeUseUsed) return;
+
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      if (prefs.getBool(_teaserSeenKey) ?? false) return;
+      // Mark seen up front so it can never nag twice, even if dismissed oddly.
+      await prefs.setBool(_teaserSeenKey, true);
+    } catch (_) {
+      return;
+    }
+
+    // Let the recipe render first so the sheet doesn't land on a blank page.
+    await Future.delayed(const Duration(milliseconds: 1200));
+    if (!mounted) return;
+
+    AnalyticsService.cookModeTeaserShown(widget.recipe.name);
+    final tried = await showModalBottomSheet<bool>(
+      context: context,
+      backgroundColor: const Color(0xFF1E1E1E),
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (sheetContext) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(24, 24, 24, 16),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Icon(Icons.mic, color: Color(0xFFF58220), size: 32),
+              const SizedBox(height: 12),
+              const Text(
+                'Hands covered in flour?',
+                style: TextStyle(
+                    color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 8),
+              const Text(
+                'Cook Mode reads each step aloud and listens for "Next", '
+                '"Back" and "Timer, five minutes." Your first one is free.',
+                style: TextStyle(color: Colors.white70, fontSize: 15, height: 1.4),
+              ),
+              const SizedBox(height: 20),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFFF58220),
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                  ),
+                  onPressed: () => Navigator.pop(sheetContext, true),
+                  child: const Text('Try Cook Mode free',
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                ),
+              ),
+              Center(
+                child: TextButton(
+                  onPressed: () => Navigator.pop(sheetContext, false),
+                  child: const Text('Not now',
+                      style: TextStyle(color: Colors.white54)),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+
+    if (tried == true) {
+      AnalyticsService.cookModeTeaserTapped(widget.recipe.name);
+      if (mounted) widget.onTry();
+    } else {
+      AnalyticsService.cookModeTeaserDismissed(widget.recipe.name);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) => const SizedBox.shrink();
+}
 
 class RecipeDetailScreen extends StatelessWidget {
   final Recipe recipe;
@@ -26,7 +143,13 @@ class RecipeDetailScreen extends StatelessWidget {
   // happens — without this dialog, the first Cook Mode just works, and the
   // user has no way to know that was a one-time freebie until they hit the
   // paywall unprompted on a later recipe and feel ambushed by it.
-  Future<void> _openCookMode(BuildContext context, Recipe recipe) async {
+  bool get _hasCookableSteps =>
+      recipe.steps.isNotEmpty ||
+      recipe.subRecipes.any((sub) => sub.steps.isNotEmpty);
+
+  Future<void> _openCookMode(BuildContext context, Recipe recipe,
+      {required String source}) async {
+    AnalyticsService.cookModeButtonTapped(recipe.name, source: source);
     final purchases = PurchaseService.instance;
     bool wasFreeUse = false;
 
@@ -67,10 +190,139 @@ class RecipeDetailScreen extends StatelessWidget {
 
     AnalyticsService.cookModeOpened(recipe.name, wasFreeUse: wasFreeUse);
     if (!context.mounted) return;
-    Navigator.push(
+    // CookModeScreen pops with true only when the user steps past the last
+    // step; backing out early returns null, so we don't prompt people who
+    // bailed halfway.
+    final finished = await Navigator.push<bool>(
       context,
-      MaterialPageRoute(builder: (_) => CookModeScreen(recipe: recipe)),
+      MaterialPageRoute<bool>(builder: (_) => CookModeScreen(recipe: recipe)),
     );
+    if (finished == true && context.mounted) {
+      await _afterFinishedCook(context, recipe, wasFreeUse: wasFreeUse);
+    }
+  }
+
+  static const String _completedCountKey = 'cook_mode_completed_count';
+  static const String _reviewAskedKey = 'review_requested';
+
+  // Runs once per completed cook, at the moment of peak satisfaction. At most
+  // one prompt fires: the unlock offer (non-buyers) or the App Store rating
+  // (buyers, from their 2nd finished cook). The save-recipe nudge is a quiet
+  // snackbar and only shows when no rating prompt did.
+  Future<void> _afterFinishedCook(BuildContext context, Recipe recipe,
+      {required bool wasFreeUse}) async {
+    AnalyticsService.cookModeCompleted(recipe.name, wasFreeUse: wasFreeUse);
+
+    var count = 1;
+    var alreadyAsked = false;
+    SharedPreferences? prefs;
+    try {
+      prefs = await SharedPreferences.getInstance();
+      count = (prefs.getInt(_completedCountKey) ?? 0) + 1;
+      await prefs.setInt(_completedCountKey, count);
+      alreadyAsked = prefs.getBool(_reviewAskedKey) ?? false;
+    } catch (_) {}
+    if (!context.mounted) return;
+
+    var requestedReview = false;
+    if (!PurchaseService.instance.isPurchased) {
+      await _showPostFreePrompt(context, recipe);
+    } else if (count >= 2 && !alreadyAsked) {
+      try {
+        final review = InAppReview.instance;
+        if (await review.isAvailable()) {
+          await prefs?.setBool(_reviewAskedKey, true);
+          AnalyticsService.reviewRequested(count);
+          await review.requestReview();
+          requestedReview = true;
+        }
+      } catch (_) {}
+    }
+
+    if (!requestedReview &&
+        context.mounted &&
+        !FavoritesService.isFavorite(recipe.slug)) {
+      AnalyticsService.saveNudgeShown(recipe.name);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Text('Nice cook! Save this recipe for next time?'),
+          duration: const Duration(seconds: 6),
+          action: SnackBarAction(
+            label: 'Save',
+            onPressed: () {
+              AnalyticsService.saveNudgeTapped(recipe.name);
+              FavoritesService.toggleFavorite(recipe.slug);
+            },
+          ),
+        ),
+      );
+    }
+  }
+
+  Future<void> _showPostFreePrompt(BuildContext context, Recipe recipe) async {
+    final price = PurchaseService.instance.product?.price ?? '\$2.99';
+    AnalyticsService.postFreePromptShown(recipe.name);
+    final unlock = await showModalBottomSheet<bool>(
+      context: context,
+      backgroundColor: const Color(0xFF1E1E1E),
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (sheetContext) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(24, 24, 24, 16),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                'Liked cooking hands-free?',
+                style: TextStyle(
+                    color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'That was your free cook. Unlock unlimited Cook Mode and PDF '
+                'export for $price, one time.',
+                style: const TextStyle(color: Colors.white70, fontSize: 15, height: 1.4),
+              ),
+              const SizedBox(height: 20),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFFF58220),
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                  ),
+                  onPressed: () => Navigator.pop(sheetContext, true),
+                  child: const Text('Unlock Cook Mode',
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                ),
+              ),
+              Center(
+                child: TextButton(
+                  onPressed: () => Navigator.pop(sheetContext, false),
+                  child: const Text('Maybe later',
+                      style: TextStyle(color: Colors.white54)),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+
+    if (unlock == true && context.mounted) {
+      AnalyticsService.postFreePromptTapped(recipe.name);
+      AnalyticsService.cookModePaywallShown(recipe.name);
+      await Navigator.push<bool>(
+        context,
+        MaterialPageRoute(builder: (_) => const CookModePaywallScreen()),
+      );
+    } else {
+      AnalyticsService.postFreePromptDismissed(recipe.name);
+    }
   }
 
   void _shareRecipe(BuildContext context) {
@@ -169,6 +421,38 @@ class RecipeDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            // Fires recipe_viewed, logs button impressions, and shows the
+            // one-time Cook Mode teaser. Renders nothing itself.
+            _CookModeNudge(
+              recipe: recipe,
+              hasCookableSteps: _hasCookableSteps,
+              onTry: () => _openCookMode(context, recipe, source: 'teaser'),
+            ),
+
+            // ===== Cook Mode hero button =====
+            if (_hasCookableSteps)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 16),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton.icon(
+                    icon: const Icon(Icons.mic, size: 22),
+                    label: const Padding(
+                      padding: EdgeInsets.symmetric(vertical: 14),
+                      child: Text(
+                        'Cook hands-free with your voice',
+                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFFF58220),
+                      foregroundColor: Colors.white,
+                    ),
+                    onPressed: () => _openCookMode(context, recipe, source: 'hero'),
+                  ),
+                ),
+              ),
+
             // ===== Recipe Info =====
             if (recipe.imageUrl.isNotEmpty)
                  Padding(
@@ -385,12 +669,11 @@ class RecipeDetailScreen extends StatelessWidget {
               children: [
                 const Text('Steps:',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-                if (recipe.steps.isNotEmpty ||
-                    recipe.subRecipes.any((sub) => sub.steps.isNotEmpty))
+                if (_hasCookableSteps)
                   ElevatedButton.icon(
                     icon: const Icon(Icons.restaurant_menu, size: 18),
                     label: const Text('Cook Mode'),
-                    onPressed: () => _openCookMode(context, recipe),
+                    onPressed: () => _openCookMode(context, recipe, source: 'steps'),
                   ),
               ],
             ),

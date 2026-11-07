@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../screens/cook_mode_paywall_screen.dart';
+import '../services/analytics_service.dart';
+import '../services/purchase_service.dart';
 
 class AppHeader extends StatelessWidget {
   final VoidCallback onOpenSavedRecipes;
@@ -16,13 +19,14 @@ class AppHeader extends StatelessWidget {
     }
   }
 
-  void _openSettings(BuildContext context) {
+  void _openSettings(BuildContext outerContext) {
     showModalBottomSheet(
-      context: context,
+      context: outerContext,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
       ),
-      builder: (context) {
+      builder: (sheetContext) {
+        final context = sheetContext;
         return Padding(
           padding: const EdgeInsets.all(20),
           child: Column(
@@ -41,6 +45,22 @@ class AppHeader extends StatelessWidget {
                   onOpenSavedRecipes();
                 },
               ),
+              if (!PurchaseService.instance.isPurchased)
+                ListTile(
+                  leading: const Icon(Icons.mic, color: Color(0xFFF58220)),
+                  title: const Text("Unlock Cook Mode + PDF export"),
+                  subtitle: const Text("Hands-free cooking, one-time unlock"),
+                  trailing: const Icon(Icons.chevron_right, size: 18),
+                  onTap: () {
+                    AnalyticsService.menuOfferTapped();
+                    Navigator.pop(sheetContext);
+                    Navigator.push(
+                      outerContext,
+                      MaterialPageRoute(
+                          builder: (_) => const CookModePaywallScreen()),
+                    );
+                  },
+                ),
               ListTile(
                 leading: const Icon(Icons.privacy_tip_outlined),
                 title: const Text("Privacy Policy"),

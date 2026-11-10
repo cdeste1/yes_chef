@@ -65,6 +65,35 @@ if disabled:
     blank_links(recipes)
     print(f"✓ Hid {hidden} link(s) across {len(disabled)} disabled URL(s)")
 
+# ── Swap in our own affiliate tag (reversible) ───────────────────────────────
+# tools/affiliate_overrides.json maps original links -> links tagged with our
+# account (built by tools/build_affiliate_overrides.py). Source recipe files are
+# never touched; set "enabled": false in that file and redeploy to undo it.
+# Runs after the dead-link blanking above, which matches on the ORIGINAL url.
+OVERRIDES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "affiliate_overrides.json")
+if os.path.exists(OVERRIDES_FILE):
+    with open(OVERRIDES_FILE, encoding="utf-8") as f:
+        _ov = json.load(f)
+    if _ov.get("enabled"):
+        _map = _ov.get("overrides", {})
+        swapped = 0
+        def swap_links(node):
+            global swapped
+            if isinstance(node, dict):
+                for k, v in node.items():
+                    if k == "link" and isinstance(v, str) and v.strip() in _map:
+                        node[k] = _map[v.strip()]
+                        swapped += 1
+                    else:
+                        swap_links(v)
+            elif isinstance(node, list):
+                for item in node:
+                    swap_links(item)
+        swap_links(recipes)
+        print(f"✓ Re-tagged {swapped} link(s) to {_ov.get('my_tag')}")
+    else:
+        print("✓ Affiliate overrides present but disabled")
+
 # ── Write merged file ─────────────────────────────────────────────────────────
 os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
 with open(args.output, "w", encoding="utf-8") as f:

@@ -21,7 +21,7 @@ non-matching links get appended. Usage:
 import glob, json, os, re, sys, urllib.request, urllib.error, urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
-MY_TAG = "yeschef0a02-20"
+MY_TAG = "tryyeschef-20"
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "affiliate_overrides.json")
 RECIPES = os.path.join(HERE, "..", "recipes", "*.json")

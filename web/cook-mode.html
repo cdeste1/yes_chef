@@ -264,6 +264,12 @@
         try it out, then unlocks forever with a <b>single one-time
         purchase</b> — not a subscription.
       </p>
+      <p id="bf-sale" style="display:none;margin:14px 0 4px;font-weight:500;">
+        <b>Black Friday:</b> unlock Cook Mode for <b>$0.99</b> with code
+        <b>BLACKFRIDAY</b> through Nov 30.
+        <a href="https://apps.apple.com/redeem?ctx=offercodes&amp;id=6759258837&amp;code=BLACKFRIDAY" target="_blank" rel="noopener">Redeem the code &rarr;</a>
+        <br><span style="font-size:12px;opacity:.7;">Install the app first, then open the link on your iPhone or iPad. Redeem with the code, not the in-app button: the app still shows the regular price. Limited-time offer; terms set by Apple.</span>
+      </p>
       <a class="btn-download" href="https://apps.apple.com/us/app/yes-chef-by-chris/id6759258837" target="_blank" rel="noopener">
         <img src="/assets/Photos/YesChefLogo.png" alt="" aria-hidden="true">
         Get the App
@@ -274,5 +280,15 @@
     <a class="back-link" href="/">&larr; Back to recipes</a>
   </main>
 
+  <script>
+    // Black Friday 2026 callout (Nov 27 00:00 ET – Nov 30 23:59 ET); preview with ?sale=1.
+    (function () {
+      var now = Date.now();
+      var on = (now >= Date.parse('2026-11-27T00:00:00-05:00') &&
+                now <  Date.parse('2026-12-01T00:00:00-05:00')) ||
+               new URLSearchParams(location.search).get('sale') === '1';
+      if (on) document.getElementById('bf-sale').style.display = 'block';
+    })();
+  </script>
 </body>
 </html>

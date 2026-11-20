@@ -633,9 +633,9 @@
        Stays hidden until COOK_MODE_PROMO_ENABLED is flipped to true,
        further down in the page script — do not delete id/flag wiring. -->
   <div id="promo-banner" class="promo-banner" style="display:none;">
-    <a href="/cook-mode.html" class="promo-banner-link">
+    <a href="/cook-mode.html" class="promo-banner-link" id="promo-banner-link">
       <span class="flame" aria-hidden="true">🔥</span>
-      <span>Download the app to unlock Cook Mode — hands-free, voice-guided cooking</span>
+      <span id="promo-banner-text">Download the app to unlock Cook Mode — hands-free, voice-guided cooking</span>
       <span class="arrow" aria-hidden="true">&rarr;</span>
     </a>
     <button id="promo-banner-close" class="promo-banner-close" aria-label="Dismiss">&times;</button>
@@ -777,15 +777,42 @@
     // and live on the App Store. Flip to true, don't delete the gate.
     const COOK_MODE_PROMO_ENABLED = true;
 
+    // Black Friday 2026: Cook Mode unlock for $0.99 with Apple offer code
+    // BLACKFRIDAY (custom code, expires Nov 30). Shows Nov 27 00:00 ET through
+    // Nov 30 23:59 ET, then the regular banner returns on its own. Preview any
+    // time with ?sale=1 on the URL. Remove this block after the sale.
+    const SALE = {
+      code: 'BLACKFRIDAY',
+      start: Date.parse('2026-11-27T00:00:00-05:00'),
+      end:   Date.parse('2026-12-01T00:00:00-05:00'),
+      url: 'https://apps.apple.com/redeem?ctx=offercodes&id=6759258837&code=BLACKFRIDAY',
+    };
+    const SALE_ACTIVE = (Date.now() >= SALE.start && Date.now() < SALE.end) ||
+      new URLSearchParams(location.search).get('sale') === '1';
+
     (function initPromoBanner() {
       if (!COOK_MODE_PROMO_ENABLED) return;
-      if (localStorage.getItem('promoBannerDismissed') === '1') return;
+      // The sale uses its own dismissal key so an earlier dismissal of the
+      // regular banner doesn't hide it.
+      const dismissKey = SALE_ACTIVE ? 'bfBannerDismissed2026' : 'promoBannerDismissed';
+      let dismissed = false;
+      try { dismissed = localStorage.getItem(dismissKey) === '1'; } catch (e) {}
+      if (dismissed) return;
+      if (SALE_ACTIVE) {
+        const link = document.getElementById('promo-banner-link');
+        link.href = SALE.url;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        document.getElementById('promo-banner-text').innerHTML =
+          'Black Friday: unlock Cook Mode for <b>$0.99</b> with code <b>' +
+          SALE.code + '</b> — through Nov 30 (redeem via this link, not in the app)';
+      }
       document.getElementById('promo-banner').style.display = 'flex';
       document.getElementById('promo-banner-close').style.display = 'block';
       document.getElementById('promo-banner-close').addEventListener('click', () => {
         document.getElementById('promo-banner').style.display = 'none';
         document.getElementById('promo-banner-close').style.display = 'none';
-        try { localStorage.setItem('promoBannerDismissed', '1'); } catch (e) {}
+        try { localStorage.setItem(dismissKey, '1'); } catch (e) {}
       });
     })();
 

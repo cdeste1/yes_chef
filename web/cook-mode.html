@@ -281,10 +281,10 @@
   </main>
 
   <script>
-    // Black Friday 2026 callout (Nov 27 00:00 ET – Nov 30 23:59 ET); preview with ?sale=1.
+    // Black Friday 2026 callout (Nov 21 00:00 ET – Nov 30 23:59 ET); preview with ?sale=1.
     (function () {
       var now = Date.now();
-      var on = (now >= Date.parse('2026-11-27T00:00:00-05:00') &&
+      var on = (now >= Date.parse('2026-11-21T00:00:00-05:00') &&
                 now <  Date.parse('2026-12-01T00:00:00-05:00')) ||
                new URLSearchParams(location.search).get('sale') === '1';
       if (on) document.getElementById('bf-sale').style.display = 'block';
